@@ -1,0 +1,3 @@
+Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+{transfer_problem}
