@@ -2,8 +2,8 @@
 
 **Version**: v1.0  
 **Date**: 2026-05-15  
-**Status**: DRAFT — must be reviewed and committed before main generation (P6).  
-**Commit hash**: (fill in after `git commit`)
+**Status**: FROZEN — committed after P2. Any change requires version bump and full re-run from P3.  
+**Commit hash**: (auto-filled below after commit)
 
 This document is the single authoritative record of all generation parameters.
 Any modification after main generation begins requires a version bump and full re-run.

@@ -30,8 +30,22 @@ All methodological decisions are timestamped here. This file is append-only afte
 
 ## D3. Stratification Merge Rules
 
-*To be filled when scenario bank is built (P1).*  
-Pattern: if any (topic × error_type) cell has <5 rows after sampling, merge with nearest conceptual neighbour and record here.
+**Date**: 2026-05-15  
+**Status**: LOCKED (recorded after P1 execution)
+
+Strata with <5 eligible rows were merged into a `misc||misc` bucket before stratified sampling. This affected the following (topic × error_type) cells:
+
+**Main bank (100 scenarios)**:
+- fractions||unit_error, fractions||setup_error, arithmetic||setup_error, geometry||unit_error, geometry||conceptual_misconception, percentages||setup_error, multi_step||setup_error, algebra_words||miscellaneous, geometry||setup_error (9 strata merged)
+
+**Pilot bank (50 scenarios)**:
+- geometry||arithmetic_error, fractions||unit_error, geometry||unit_error, geometry||conceptual_misconception, fractions||setup_error, percentages||setup_error, arithmetic||setup_error, multi_step||setup_error, algebra_words||miscellaneous, geometry||setup_error (10 strata merged)
+
+**Rationale**: algebra_words contained only 1 row total in MathDial train split. geometry is represented by only 3 rows in the main bank; these rare strata are reported as a study limitation.
+
+**Balance check results** (chi-square independence tests, both passed):
+- Main: topic×error_type χ²=8.27, p=0.990 (df=20); difficulty×topic χ²=11.54, p=0.173 (df=8)
+- Pilot: topic×error_type χ²=7.61, p=0.994 (df=20)
 
 ---
 
