@@ -1,0 +1,142 @@
+{
+  "scenario_id": "SC_1316",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.223627",
+  "n_tutor_turns": 12,
+  "n_learner_turns": 12,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 4289,
+  "total_output_tokens": 366,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nDianne runs a store that sells books.  37% of her 1000 customers end up returning their books.  Her books all cost 15 dollars apiece.  How much money does she keep in sales after subtracting the returns?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nThe number of customers who did not return their books is 1000 x 0.63 = 630.\nDianne earned 630 x $15 = $9450 from sales.\nThe number of customers who returned their books is 1000 x 0.37 = 370.\nDianne refunded 370 x $15 = $5550 in returns.\nDianne kept $9450 - $5550 = $3900 in sales after subtracting the returns.\n 3900\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Hunter, can you walk me through what you did to solve this problem?",
+      "learner_turn": "So I tried this problem. My approach was: The number of customers who did not return their books is 1000 x 0.63 = 630.\nDia. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 346,
+      "output_tokens": 38,
+      "latency_ms": 730.496323892496,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Okay, there's some really good work here, you're very close. Let me ask you this:",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 5? Let me redo: Sure. What do you want to know?",
+      "input_tokens": 347,
+      "output_tokens": 25,
+      "latency_ms": 659.9728087494132,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)If I sell $1,000 worth of books today, and tomorrow, people return $200 worth of those books, how much money do I keep?",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 10? Let me redo: You would keep $800 in sales after subtracting the returns. ",
+      "input_tokens": 355,
+      "output_tokens": 28,
+      "latency_ms": 434.0579399948673,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Right. So, I took my total sales, and subtracted my returns from that number. Is that what you did in your calculations?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Yes, that's exactly what I did. I took the total sales of $9. So the answer is 41?",
+      "input_tokens": 354,
+      "output_tokens": 30,
+      "latency_ms": 777.8871801815048,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)Okay, so talk to me about your thinking on getting $9450 as your total sales.",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 10? Let me redo: To get the total sales, I multiplied the number of customers",
+      "input_tokens": 347,
+      "output_tokens": 29,
+      "latency_ms": 732.0810684618887,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Okay, so back to my example from a minute ago. I had $1000 in sales, and $200 in returns, so like you told me, I kept $800 in sales. Can you figure out what percent of my customers did not return their books?",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 6? Let me redo: Sure. The number of customers who did not return their books",
+      "input_tokens": 375,
+      "output_tokens": 29,
+      "latency_ms": 311.9694503069476,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)Right, very good. So, that $800 that I kept came from the 80% of my customers that didn't return their books. \nIn your problem, the $9450 came from the 63% of customers who didn't return their books.",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Yes, that's correct. The $9450 came from the 630 customers w. So the answer is 29?",
+      "input_tokens": 369,
+      "output_tokens": 28,
+      "latency_ms": 242.38917908861106,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)Right, but in my example, the money from people who kept their books was the profit. But you used it as the total in yours. Do you see the issue?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Yes, I see the issue. In my problem, the $9450 was the total. So the answer is 25?",
+      "input_tokens": 362,
+      "output_tokens": 30,
+      "latency_ms": 650.3545384326794,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)No, the $9450 wasn't the total sales. It's the sales that weren't returned. The total sales is the money ALL 100% the customers originally spent.",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 9? Let me redo: Oh, I understand now. The total sales is the money all 1000 ",
+      "input_tokens": 357,
+      "output_tokens": 30,
+      "latency_ms": 551.7737871318727,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(generic)Yes! Very good.",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 4? Let me redo: Thanks, I'll try to remember that.",
+      "input_tokens": 335,
+      "output_tokens": 24,
+      "latency_ms": 371.53403728110163,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(generic)So you actually had the right answer after your first step, and then you did some extra work. Good job, don't let yourself overthink things.",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Sure. I started by calculating the number of customers who d. So the answer is 10?",
+      "input_tokens": 357,
+      "output_tokens": 28,
+      "latency_ms": 232.20695543041833,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nDianne runs a store that sells books.  52.1% of her 1206.2 customers end up returning their books.  Her books all cost 20.7 dollars apiece.  How much money does she keep in sales after subtracting the returns?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Dianne runs a store that sells books.  52.1% of he... I get approximately 32 as my answer. Does that seem right?",
+      "input_tokens": 385,
+      "output_tokens": 47,
+      "latency_ms": 529.3937256008619,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_2047",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.146911",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 4141,
+  "total_output_tokens": 362,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nWes wants to place a large planter pot at each corner of his rectangle-shaped pool.  Each planter will have a large palm fern that is $15.00 per plant, 4 creeping jennies that costs $4.00 per plant and 4 geraniums that cost $3.50 per plant.  How much will it cost to fill all the pots?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nEach planter will have 1 palm fern, 4 creeping jennies, and 4 geraniums, so a total of 1+4+4 = 9 plants per planter.\nSince there are four corners, Wes will need 4 x 9 = 36 plants in total.\nThe cost of each plant is $15.00 + $4.00 + $3.50 = $22.5.\nTherefore, the cost of filling all the pots will be 36 x $22.50 = $810.\n 810\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Lakisha, you've made a good start on this!  Have another look though.  How much do 4 creeping jennies cost?",
+      "learner_turn": "So I tried this problem. My approach was: Each planter will have 1 palm fern, 4 creeping jennies, and 4 geraniums, so a to. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 376,
+      "output_tokens": 37,
+      "latency_ms": 298.6312310231601,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)That's correct - do you see the mistake you made?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Yes, I realized that I had multiplied the cost of each plant. So the answer is 42?",
+      "input_tokens": 366,
+      "output_tokens": 29,
+      "latency_ms": 607.9410013742603,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)That's not quite right but good try!  Check the cost of each planter again.  Add up the cost of 1 fern, 4 creeping jennies and 4 geraniums.",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Yes, the cost of each planter should be 1 x $15.00 + 4 x $4.. So the answer is 7?",
+      "input_tokens": 383,
+      "output_tokens": 32,
+      "latency_ms": 377.77918996377673,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)You said earlier that 4 creeping jennies cost $16, so can you factor this in?",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 9? Let me redo: Yes, the cost of each planter should be 1 x $15.00 + 4 x $4.",
+      "input_tokens": 371,
+      "output_tokens": 33,
+      "latency_ms": 483.13120009352446,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Not quite. Have you included 4 creeping jennies in each pot and 4 geraniums?",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 5? Let me redo: Yes, the cost of each planter should be 1 x $15.00 + 4 x $4.",
+      "input_tokens": 370,
+      "output_tokens": 33,
+      "latency_ms": 783.6665798088738,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Did you include all plants?",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 7? Let me redo: Yes, the cost of each planter includes 1 palm fern, 4 creepi",
+      "input_tokens": 361,
+      "output_tokens": 30,
+      "latency_ms": 732.7508161152047,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)No - you haven't included all the plants.  The cost of all the plants for 1 planter is $45.  Can you take it from here?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 6? Let me redo: Yes, the cost of each planter includes 1 palm fern, 4 creepi",
+      "input_tokens": 381,
+      "output_tokens": 30,
+      "latency_ms": 784.8247872422886,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)Why did you multiply that by 36?  We know how much one planter is, so how much are 4 planters?",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 8? Let me redo: 4 planters will cost 4 x $45.00 = $180.00. Therefore, the to",
+      "input_tokens": 376,
+      "output_tokens": 30,
+      "latency_ms": 755.8592758949559,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(probing)If one planter is $45, how much are 4 planters?",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 6? Let me redo: 4 planters will cost 4 x $45.00 = $180.00. Therefore, the to",
+      "input_tokens": 366,
+      "output_tokens": 30,
+      "latency_ms": 337.00374669120777,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(probing)No, I asked what is $45 x 4?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 10? Let me redo: 4 planters will cost 4 x $45.00 = $180.00. Therefore, the to",
+      "input_tokens": 364,
+      "output_tokens": 30,
+      "latency_ms": 370.4578096554076,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nWes wants to place a large planter pot at each corner of his rectangle-shaped pool.  Each planter will have a large palm fern that is $21.1 per plant, 6.0 creeping jennies that costs $5.5 per plant and 5.2 geraniums that cost $5.2 per plant.  How much will it cost to fill all the pots?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Wes wants to place a large planter pot at each cor... I get approximately 5 as my answer. Does that seem right?",
+      "input_tokens": 427,
+      "output_tokens": 48,
+      "latency_ms": 325.5654520711257,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

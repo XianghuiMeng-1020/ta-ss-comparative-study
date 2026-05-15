@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_0800",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.119327",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 176,
+  "total_output_tokens": 81,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Claire, can you tell me how you got your answer?",
+      "learner_turn": "Sure. I figured that Tedra harvested 400 kg of tomatoes on Wednesday and half as much on Thursday, which is 200 kg. Then",
+      "input_tokens": 20,
+      "output_tokens": 23,
+      "latency_ms": 763.4701211154309,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Okay, Tedra harvested 400 kg of tomatoes on Wednesday and 200 on Thursday. If he harvested a total of 2000 kilos from all three days, then how do you figure out how many he harvested on Friday if we already know he harvested 600 combined between Wednesday and Thursday?",
+      "learner_turn": "Since we know Tedra harvested 400 kg on Wednesday and 200 kg on Thursday, we can subtract those amounts from the total 2",
+      "input_tokens": 58,
+      "output_tokens": 23,
+      "latency_ms": 700.1012857577792,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)",
+      "learner_turn": "Great, thank you!",
+      "input_tokens": 10,
+      "output_tokens": 3,
+      "latency_ms": 253.21418190604334,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)that's correct",
+      "learner_turn": "Sure. I figured that Tedra harvested 400 kg of tomatoes on Wednesday and half as much on Thursday, which is 200 kg. Then",
+      "input_tokens": 11,
+      "output_tokens": 23,
+      "latency_ms": 468.2734565162631,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nTedra is harvesting his tomatoes. He harvests 492.3 kg on Wednesday, and half as much on Thursday. He harvests a total of 2643.4 kg on Wednesday, Thursday, and Friday. How many tomatoes of the number he harvested on Friday are remaining if he gives away 700kg of them to his friends?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 77,
+      "output_tokens": 9,
+      "latency_ms": 270.63829623406946,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

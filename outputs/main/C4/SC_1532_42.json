@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1532",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.285234",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 156,
+  "total_output_tokens": 92,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)This is pretty good but not quite right. So Stefan is left with 2 pieces each 50m long. If he cuts each piece in half, how many pieces does he have?",
+      "learner_turn": "To solve this problem, When Stefan cuts the rope into four equal parts, he gets 200/4 = 50 meters of ea. The answer is When Stefan cuts the.",
+      "input_tokens": 43,
+      "output_tokens": 28,
+      "latency_ms": 637.4047122384004,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)That's right!",
+      "learner_turn": "To solve this problem, When Stefan cuts the rope into four equal parts, he gets 200/4 = 50 meters of ea. The answer is When Stefan cuts the.",
+      "input_tokens": 14,
+      "output_tokens": 28,
+      "latency_ms": 261.1122939467604,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)Since you have worked out the correct answer so quickly there is nothing more to say. Well done!",
+      "learner_turn": "To solve this problem, When Stefan cuts the rope into four equal parts, he gets 200/4 = 50 meters of ea. The answer is When Stefan cuts the.",
+      "input_tokens": 30,
+      "output_tokens": 28,
+      "latency_ms": 585.1848310137582,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA rope has a length of 260.8 meters. Stefan cuts the rope into four equal parts, gives his mother half of the cut pieces, and subdivides the remaining pieces into two more equal parts. What's the length of each piece?",
+      "learner_turn": "The answer to that problem would be 5.",
+      "input_tokens": 69,
+      "output_tokens": 8,
+      "latency_ms": 294.90772873711126,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,73 @@
+{
+  "scenario_id": "SC_0014",
+  "condition": "C2_ablate_gradual",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:05.103074",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1906,
+  "total_output_tokens": 126,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nIn Henry's collection of music CDs, he has 3 more country CDs than rock CDs but twice as many rock CDs as classical CDs. If he has 23 country CDs, how many classical CDs make up his collection?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nHunter is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nthey used the wrong formulas\n\nYOUR INITIAL INCORRECT ATTEMPT:\nLet's start by using algebra to solve for the number of rock CDs. \n\nLet R be the number of rock CDs and C be the number of classical CDs. \n\nFrom the problem, we know: \n\nR = 2C  (twice as many rock CDs as classical CDs) \n\nR = C + 3  (3 more country CDs than rock CDs) \n\nWe can use substitution to solve for C: \n\n2C = C + 3 \n\nC = 3 \n\nTherefore, Henry has 3 classical CDs in his collection. \n\n 3\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)how many rock cds does he have?",
+      "learner_turn": "Let's start by using algebra to solve for the number of rock CDs. \n\nLet R be the number of rock CDs  I used this approach because they used the wrong formulas.",
+      "input_tokens": 371,
+      "output_tokens": 31,
+      "latency_ms": 256.0682036693292,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(telling)not quite. he has 23-3",
+      "learner_turn": "Okay, but I still think Oh, right. Henry has 20 rock CDs in his collection. We can c. Maybe the answer is 39?",
+      "input_tokens": 369,
+      "output_tokens": 23,
+      "latency_ms": 617.2112778962049,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)sure! how if he has twice as many and we need todo the inverse, what would we do?",
+      "learner_turn": "I think I see — so instead I should... If we need to calculate the number of classical CDs given th. Does that mean the answer is 50?",
+      "input_tokens": 382,
+      "output_tokens": 28,
+      "latency_ms": 391.8050721203085,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)yep",
+      "learner_turn": "I think I see — so instead I should... Henry has 6 rock CDs in his collection. We can calculate thi. Does that mean the answer is 15?",
+      "input_tokens": 365,
+      "output_tokens": 28,
+      "latency_ms": 757.3565580963648,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIn Henry's collection of music CDs, he has 4.2 more country CDs than rock CDs but twice as many rock CDs as classical CDs. If he has 30.1 country CDs, how many classical CDs make up his collection?",
+      "learner_turn": "Hmm, let me try. they used the wrong formulas I think the answer might be 27.",
+      "input_tokens": 419,
+      "output_tokens": 16,
+      "latency_ms": 673.3051250844337,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C2"
+}

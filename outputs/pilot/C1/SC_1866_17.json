@@ -1,0 +1,92 @@
+{
+  "scenario_id": "SC_1866",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.125501",
+  "n_tutor_turns": 7,
+  "n_learner_turns": 7,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3023,
+  "total_output_tokens": 237,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nThere are 20 cars lined up at a race. Each of the cars have 2 passengers and a driver, then when the cars go past the race’s halfway point, each car gains another passenger. The cars then continue racing, and the race finishes once every single car has passed the finish line. People who get into the cars have to stay inside of them until the race is finished. How many people are in the cars by the end of the race?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nThere are a total of 20 x 3 = 60 people in the cars at the start of the race.\nWhen the cars pass the halfway point, the number of people in each car increases to 3 passengers and 1 driver, or 4 people per car.\nSo, the number of people in the cars after the halfway point is 20 x 4 = 80.\nTherefore, the total number of people in the cars by the end of the race is 60 + 80 = 140. \n 140\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi DeAndre, Can you explain to me how you worked out your answer?",
+      "learner_turn": "So I tried this problem. My approach was: There are a total of 20 x 3 = 60 people in the cars at the start of the race.\nWh. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 415,
+      "output_tokens": 42,
+      "latency_ms": 663.7642207786057,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Yes there are 3 people in each car to start with. Lets think about the halfway point. What happens there?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 9? Let me redo: At the halfway point, each car gains another passenger, so t",
+      "input_tokens": 422,
+      "output_tokens": 29,
+      "latency_ms": 675.2556586713877,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)At the half way point there are 20 additional cars. No passengers are getting into the first 20 cars.",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 5? Let me redo: That's right, the first 20 cars don't gain any additional pa",
+      "input_tokens": 421,
+      "output_tokens": 29,
+      "latency_ms": 417.5395886811611,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Those 60 passengers at the start of the race stay. At the half way mark 20 additional cars join with just the driver in so just an additional 20 people. How many people are there now?",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 2? Let me redo: At the halfway point, there are 20 additional cars with just",
+      "input_tokens": 438,
+      "output_tokens": 29,
+      "latency_ms": 763.7814854079322,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)So there are just 60 + 20. You don't need to add the additional 80 that you are adding.",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 4? Let me redo: Oh, that's right. So the total number of people in the cars ",
+      "input_tokens": 421,
+      "output_tokens": 30,
+      "latency_ms": 506.30566563087797,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)Correct. Well done.",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Sure, I started by counting the number of people in each car. So the answer is 44?",
+      "input_tokens": 405,
+      "output_tokens": 29,
+      "latency_ms": 227.09087415671848,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThere are 26.3 cars lined up at a race. Each of the cars have 2.6 passengers and a driver, then when the cars go past the race’s halfway point, each car gains another passenger. The cars then continue racing, and the race finishes once every single car has passed the finish line. People who get into the cars have to stay inside of them until the race is finished. How many people are in the cars by the end of the race?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: There are 26.3 cars lined up at a race. Each of th... I get approximately 36 as my answer. Does that seem right?",
+      "input_tokens": 501,
+      "output_tokens": 49,
+      "latency_ms": 745.5952201575967,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

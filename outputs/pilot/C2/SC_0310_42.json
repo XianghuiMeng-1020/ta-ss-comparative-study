@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_0310",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.017424",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1861,
+  "total_output_tokens": 122,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nThere are 32 students in a statistics course.  25 percent of the class received an A.  1/4 of the remaining students got either a B or C, and the rest of the students failed.  How many students failed?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nJordy is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nSubtracted A graders twice from the total. Error in subtraction in the last step.\n\nYOUR INITIAL INCORRECT ATTEMPT:\n25% of 32 students received an A, which is 0.25 x 32 = 8 students.\nSo, 32 - 8 = 24 students did not receive an A.\n1/4 of the remaining 24 students got either a B or C, which is 1/4 x 24 = 6 students.\nThe rest of the students failed, which is 24 - 6 - 8 = 10 students.\n 10\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jordy, could you please walk me through your solution?",
+      "learner_turn": "25% of 32 students received an A, which is 0.25 x 32 = 8 students.\nSo, 32 - 8 = 24 students did not  I used this approach because Subtracted A graders twice from the total. Error in subtract.",
+      "input_tokens": 364,
+      "output_tokens": 39,
+      "latency_ms": 529.998984263857,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)But you already subtracted 8 once. Why are you subtracting again in the final step?",
+      "learner_turn": "Okay, but I still think Oh, right. I was subtracting 8 twice. I should have just sub. Maybe the answer is 21?",
+      "input_tokens": 369,
+      "output_tokens": 22,
+      "latency_ms": 531.521893900117,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Subtract 6 from 24. Is it 10?",
+      "learner_turn": "I think I see — so instead I should... Yes, it is 10.. Does that mean the answer is 33?",
+      "input_tokens": 361,
+      "output_tokens": 20,
+      "latency_ms": 776.5524799372533,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)No. it is 24-6=18",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. So, 18 students failed.. Does that mean the answer is 37?",
+      "input_tokens": 358,
+      "output_tokens": 23,
+      "latency_ms": 404.0921779436527,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThere are 40.6 students in a statistics course.  34.5 percent of the class received an A.  1.3/5.3 of the remaining students got either a B or C, and the rest of the students failed.  How many students failed?",
+      "learner_turn": "Hmm, let me try. Subtracted A graders twice from the tota I think the answer might be 28.",
+      "input_tokens": 409,
+      "output_tokens": 18,
+      "latency_ms": 385.7574084381781,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_0195",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.993192",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 181,
+  "total_output_tokens": 76,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, do you want to tell me your solution?",
+      "learner_turn": "Yes, I think the answer is 2 miles. The second week she ran 4 miles plus 3 extra miles, for a total of 7 miles. The thir",
+      "input_tokens": 18,
+      "output_tokens": 27,
+      "latency_ms": 367.63661054056047,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)OK, you are right up to your last step. If she ran 9 miles in the third week, and 5 miles less in the fourth, how many miles did she run in the fourth week?",
+      "learner_turn": "She ran 4 miles in the fourth week. 9 - 5 = 4.",
+      "input_tokens": 44,
+      "output_tokens": 13,
+      "latency_ms": 447.8643518945296,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)yes that's correct",
+      "learner_turn": "Yes, I think the answer is 2 miles. The second week she ran 4 miles plus 3 extra miles, for a total of 7 miles. The thir",
+      "input_tokens": 12,
+      "output_tokens": 27,
+      "latency_ms": 519.6936677558533,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nCarly is trying to get in shape to try out for the soccer team. She starts by running 2.7 miles a week. The second week, she runs twice as long plus 3.9 extra miles per week. The third week she runs 11.5/9.3 as much as she ran the second week. The week after that, she sprains her ankle and has to reduce her running time by 6.8 miles per week. How many miles did she run the week she was injured?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 107,
+      "output_tokens": 9,
+      "latency_ms": 661.286401514555,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

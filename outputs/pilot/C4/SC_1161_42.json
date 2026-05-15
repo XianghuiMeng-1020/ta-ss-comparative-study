@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1161",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.068391",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 260,
+  "total_output_tokens": 216,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Rishi can you talk me through your answer?",
+      "learner_turn": "To solve this problem, First find the number of gallons of blue paint by multiplying the gallons of gre. The answer is First find the numbe.",
+      "input_tokens": 21,
+      "output_tokens": 26,
+      "latency_ms": 415.8939760211819,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)OK, so we know that Andy uses 6 gallons of green paint. This is two units in the ratio, so what would one unit be worth?",
+      "learner_turn": "To solve this problem, First find the number of gallons of blue paint by multiplying the gallons of gre. The answer is First find the numbe.",
+      "input_tokens": 38,
+      "output_tokens": 26,
+      "latency_ms": 246.1980855784919,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)Each unit in the ration is worth the same amount. We know that 1 unit is 3 gallons. Can you use this to work out the answer?",
+      "learner_turn": "To solve this problem, First find the number of gallons of blue paint by multiplying the gallons of gre. The answer is First find the numbe.",
+      "input_tokens": 39,
+      "output_tokens": 26,
+      "latency_ms": 582.7842574936202,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)1 unit is 3 gallons, so he uses 3 gallons of blue paint. How much white paint does he use?",
+      "learner_turn": "To solve this problem, First find the number of gallons of blue paint by multiplying the gallons of gre. The answer is First find the numbe.",
+      "input_tokens": 32,
+      "output_tokens": 26,
+      "latency_ms": 523.1817633634355,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)1 unit is always 3 gallons.",
+      "learner_turn": "To solve this problem, First find the number of gallons of blue paint by multiplying the gallons of gre. The answer is First find the numbe.",
+      "input_tokens": 18,
+      "output_tokens": 26,
+      "latency_ms": 691.8824179726455,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)Andy uses 3 x 5 = 15 gallons of white paint.",
+      "learner_turn": "To solve this problem, First find the number of gallons of blue paint by multiplying the gallons of gre. The answer is First find the numbe.",
+      "input_tokens": 23,
+      "output_tokens": 26,
+      "latency_ms": 307.76316982880553,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(generic)That's correct",
+      "learner_turn": "To solve this problem, First find the number of gallons of blue paint by multiplying the gallons of gre. The answer is First find the numbe.",
+      "input_tokens": 14,
+      "output_tokens": 26,
+      "latency_ms": 632.9764890782149,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)Perfect",
+      "learner_turn": "To solve this problem, First find the number of gallons of blue paint by multiplying the gallons of gre. The answer is First find the numbe.",
+      "input_tokens": 13,
+      "output_tokens": 26,
+      "latency_ms": 305.74128436910894,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAndy is mixing blue, green and white paint in a 1.3 : 3.0 : 7.0 ratio. If he uses 8.5 gallons of green paint, how many gallons of paint does he use total?",
+      "learner_turn": "The answer to that problem would be 40.",
+      "input_tokens": 62,
+      "output_tokens": 8,
+      "latency_ms": 467.5011211475981,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

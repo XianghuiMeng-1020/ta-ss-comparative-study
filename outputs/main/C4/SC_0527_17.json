@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_0527",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.068940",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 280,
+  "total_output_tokens": 264,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)guide me through your thinking here please step by step?",
+      "learner_turn": "To solve this problem, Tommy has a total of 20 x 3 = 60 kilograms of tomatoes.\nOnly 60 - 3 = 57 kilogra. The answer is Tommy has a total of.",
+      "input_tokens": 22,
+      "output_tokens": 32,
+      "latency_ms": 626.2893030647987,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)guide me through your thinking here please step by step?",
+      "learner_turn": "To solve this problem, Tommy has a total of 20 x 3 = 60 kilograms of tomatoes.\nOnly 60 - 3 = 57 kilogra. The answer is Tommy has a total of.",
+      "input_tokens": 22,
+      "output_tokens": 32,
+      "latency_ms": 427.51238304335607,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)ok how many kg of tomatoes does Tommy have in total?",
+      "learner_turn": "To solve this problem, Tommy has a total of 20 x 3 = 60 kilograms of tomatoes.\nOnly 60 - 3 = 57 kilogra. The answer is Tommy has a total of.",
+      "input_tokens": 23,
+      "output_tokens": 32,
+      "latency_ms": 378.88773864023756,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)please explain as i do not agree ?",
+      "learner_turn": "To solve this problem, Tommy has a total of 20 x 3 = 60 kilograms of tomatoes.\nOnly 60 - 3 = 57 kilogra. The answer is Tommy has a total of.",
+      "input_tokens": 20,
+      "output_tokens": 32,
+      "latency_ms": 795.7237076907265,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)in total only 3kg ou tof the 60kg were rottten not per crate please consider this - so how many tomatoes does he have in total?",
+      "learner_turn": "To solve this problem, Tommy has a total of 20 x 3 = 60 kilograms of tomatoes.\nOnly 60 - 3 = 57 kilogra. The answer is Tommy has a total of.",
+      "input_tokens": 38,
+      "output_tokens": 32,
+      "latency_ms": 417.05235980934526,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)what step do you need to do now with the 57  to calculate how much he makes ?",
+      "learner_turn": "To solve this problem, Tommy has a total of 20 x 3 = 60 kilograms of tomatoes.\nOnly 60 - 3 = 57 kilogra. The answer is Tommy has a total of.",
+      "input_tokens": 30,
+      "output_tokens": 32,
+      "latency_ms": 428.12048615367564,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)perfect so now you need to do what next?",
+      "learner_turn": "To solve this problem, Tommy has a total of 20 x 3 = 60 kilograms of tomatoes.\nOnly 60 - 3 = 57 kilogra. The answer is Tommy has a total of.",
+      "input_tokens": 21,
+      "output_tokens": 32,
+      "latency_ms": 444.0840555135014,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)can you see how we can break it down into smaller chunks to get to the correct solution?",
+      "learner_turn": "To solve this problem, Tommy has a total of 20 x 3 = 60 kilograms of tomatoes.\nOnly 60 - 3 = 57 kilogra. The answer is Tommy has a total of.",
+      "input_tokens": 30,
+      "output_tokens": 32,
+      "latency_ms": 376.1088737014944,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA crate can hold 25.0 kilograms of tomatoes. Tommy has 4.0 crates which he bought for $488.2. He wants to sell the tomatoes for $8.0 per 1.4 kilogram but 4.0 kilograms of tomatoes were rotten. How much will be Tommy's profit from selling those tomatoes?",
+      "learner_turn": "The answer to that problem would be 37.",
+      "input_tokens": 74,
+      "output_tokens": 8,
+      "latency_ms": 795.5433594571908,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

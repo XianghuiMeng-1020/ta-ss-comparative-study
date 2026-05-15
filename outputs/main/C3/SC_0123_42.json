@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_0123",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.976789",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 177,
+  "total_output_tokens": 94,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)talk me through your solution",
+      "learner_turn": "My solution was to first assign a variable to the number of apple trees Lily planted. I chose the variable \"L\". Then, I ",
+      "input_tokens": 14,
+      "output_tokens": 23,
+      "latency_ms": 364.3292968025627,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)how many trees did Ava plant?",
+      "learner_turn": "Ava planted \"L+3\" trees, which is equal to 9+3 = 12 trees.",
+      "input_tokens": 15,
+      "output_tokens": 12,
+      "latency_ms": 711.2109692999602,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)read the question. how many trees did Ava plant?",
+      "learner_turn": "Ava planted 9 trees in her backyard, which is 3 more than Lily planted in her backyard.",
+      "input_tokens": 18,
+      "output_tokens": 17,
+      "latency_ms": 517.9904632482942,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)is she planted 3 more than lily how many did lily plant?",
+      "learner_turn": "Lily planted 9 trees in her backyard.",
+      "input_tokens": 21,
+      "output_tokens": 7,
+      "latency_ms": 704.2769095572837,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)Ava planted 9 trees which was 3 more than lily. How many did lily plant?",
+      "learner_turn": "Lily planted 9 trees in her backyard.",
+      "input_tokens": 24,
+      "output_tokens": 7,
+      "latency_ms": 665.7774130421878,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)9-3=",
+      "learner_turn": "6 trees.",
+      "input_tokens": 10,
+      "output_tokens": 2,
+      "latency_ms": 618.1860110599903,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)so lily planted 6 trees and Ava planted 9. what's the total?",
+      "learner_turn": "The total number of apple trees planted in their backyards collectively is 15 trees (6 + 9).",
+      "input_tokens": 21,
+      "output_tokens": 17,
+      "latency_ms": 501.08091516261396,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAva planted 11.3 apple trees in her backyard. That's 4.5 more than Lily planted in her backyard. How many apple trees did they plant in their backyards collectively?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 54,
+      "output_tokens": 9,
+      "latency_ms": 606.0566740103388,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

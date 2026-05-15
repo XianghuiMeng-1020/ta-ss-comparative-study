@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1416",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.246067",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 187,
+  "total_output_tokens": 133,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello DeAndre, Can you explain to me how you got to your answer?",
+      "learner_turn": "Penny can fit 6 x 2/3 = 4 people in the canoe if she has her dog.\nThe weight of the dog is 1/4 x 140 = 35 pounds.\nIf Pen",
+      "input_tokens": 22,
+      "output_tokens": 31,
+      "latency_ms": 430.39222876428005,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Ok. You have worked out the weight of the dog and the number of people that can fit inside the canoe. Now lets think more specifically about the weight of the people in the canoe?",
+      "learner_turn": "Penny can fit 6 x 2/3 = 4 people in the canoe if she has her dog.\nThe weight of the dog is 1/4 x 140 = 35 pounds.\nIf Pen",
+      "input_tokens": 44,
+      "output_tokens": 31,
+      "latency_ms": 753.9179887514994,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Yes exactly that now. Can you see how you have now given me a different answer to your original one?",
+      "learner_turn": "Penny can fit 6 x 2/3 = 4 people in the canoe if she has her dog.\nThe weight of the dog is 1/4 x 140 = 35 pounds.\nIf Pen",
+      "input_tokens": 29,
+      "output_tokens": 31,
+      "latency_ms": 207.7631852773076,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)Well done.",
+      "learner_turn": "Penny can fit 6 x 2/3 = 4 people in the canoe if she has her dog.\nThe weight of the dog is 1/4 x 140 = 35 pounds.\nIf Pen",
+      "input_tokens": 11,
+      "output_tokens": 31,
+      "latency_ms": 604.1223590130944,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nPenny's canoe can carry 8.1 people, but if she wants to take her dog, she will only fit 2.8/3.9 of that number inside. If every person in a trip where Penny had her dog inside the canoe weighed 168.6 pounds, and the dog 1.2/5.8 as much weight, calculate the total weight the canoe was carrying?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 81,
+      "output_tokens": 9,
+      "latency_ms": 753.3213372575323,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

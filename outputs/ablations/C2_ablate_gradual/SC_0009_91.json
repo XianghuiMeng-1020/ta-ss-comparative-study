@@ -1,0 +1,133 @@
+{
+  "scenario_id": "SC_0009",
+  "condition": "C2_ablate_gradual",
+  "condition_label": "Student Simulation",
+  "seed": 91,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:05.094139",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 4692,
+  "total_output_tokens": 304,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nThe ski lift carries skiers all the way from the bottom of the mountain to the very top of the mountain, and then drops them off so they can ski back down the mountain. If it takes a skier 15 minutes to ride the lift from the bottom to the top of the mountain, and then it takes 5 minutes to ski back down the mountain, what is the most number of times a person can ski down the mountain in 2 hours?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nJia is a 7th grade student. She has difficulty determining which pieces of information are relevant and which are irrelevant to solving the problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nStudent both divided and multipled by a time period\n\nYOUR INITIAL INCORRECT ATTEMPT:\nThere are 60 minutes in an hour, so 2 hours is 2 x 60 = 120 minutes.\nOne round trip on the ski lift and skiing down the mountain takes a total of 15 + 5 = 20 minutes.\nIn 120 minutes, a person can make 120/20 = 6 round trips.\nTherefore, a person can ski down the mountain 6 x 2 = 12 times in 2 hours.\n 12\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)hi Jia, can you explain your approach to this problem?",
+      "learner_turn": "There are 60 minutes in an hour, so 2 hours is 2 x 60 = 120 minutes.\nOne round trip on the ski lift  I used this approach because Student both divided and multipled by a time period.",
+      "input_tokens": 407,
+      "output_tokens": 38,
+      "latency_ms": 223.3054384154329,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Ok so your second step calculated what activity?",
+      "learner_turn": "Okay, but I still think My second step calculated how many round trips a person can . Maybe the answer is 15?",
+      "input_tokens": 405,
+      "output_tokens": 22,
+      "latency_ms": 273.06730857279024,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Great so it calculated a round trip, which includes skiing down the mountain.  What did your last step calculate?",
+      "learner_turn": "I think I see — so instead I should... My last step calculated the total number of times a person c. Does that mean the answer is 5?",
+      "input_tokens": 416,
+      "output_tokens": 28,
+      "latency_ms": 397.2123526511003,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Can you check through all the steps you made in your solution in relation to what the problem was asking you to calculate?",
+      "learner_turn": "I think I see — so instead I should... Yes, I started by figuring out how many minutes were in two . Does that mean the answer is 13?",
+      "input_tokens": 420,
+      "output_tokens": 29,
+      "latency_ms": 521.094729852133,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)You've multiplied your number of round trips by 2 to calculate the number of times skiers can ski down in 2 hrs, but what figure did you base your first calculation on?",
+      "learner_turn": "I think I see — so instead I should... My first calculation was based on the fact that it takes 15 . Does that mean the answer is 23?",
+      "input_tokens": 429,
+      "output_tokens": 29,
+      "latency_ms": 514.0358921570914,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)But you started by calculating a time amount, which you used again later on, can you compare this to your calculation about skiing down the mountain?",
+      "learner_turn": "I think I see — so instead I should... Yes, I started by calculating the amount of time it takes to. Does that mean the answer is 23?",
+      "input_tokens": 423,
+      "output_tokens": 28,
+      "latency_ms": 679.3457583740669,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)Not quite.  Your first calculation was figuring out the number of minutes in 2 hrs.  Can you compare this to your calculation about the number of times a person could ski down the mountain?",
+      "learner_turn": "I think I see — so instead I should... Yes, I started by calculating the number of minutes in two h. Does that mean the answer is 21?",
+      "input_tokens": 431,
+      "output_tokens": 28,
+      "latency_ms": 712.0050220463111,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)This isn't quite correct.  You first calculated the number of trips that could be undertaken in 2 hrs.  Then later you multipled the trips by the time.  Can you see the duplication in that part of the solution?",
+      "learner_turn": "I think I see — so instead I should... Yes, I can see the duplication in my solution. I first calcu. Does that mean the answer is 7?",
+      "input_tokens": 435,
+      "output_tokens": 28,
+      "latency_ms": 667.2813221325852,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(probing)So accounting for that duplication, what would be the correct number of times a skier could ski down the mountain in 2 hrs?",
+      "learner_turn": "I think I see — so instead I should... The correct number of times a skier could ski down the mount. Does that mean the answer is 41?",
+      "input_tokens": 420,
+      "output_tokens": 28,
+      "latency_ms": 596.823795339243,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(generic)Excellent, well done for recalculating that in light of realising your mistake.",
+      "learner_turn": "I think I see — so instead I should... Hi, sure. I started by figuring out how many minutes were in. Does that mean the answer is 49?",
+      "input_tokens": 409,
+      "output_tokens": 28,
+      "latency_ms": 233.67523180323047,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe ski lift carries skiers all the way from the bottom of the mountain to the very top of the mountain, and then drops them off so they can ski back down the mountain. If it takes a skier 22.5 minutes to ride the lift from the bottom to the top of the mountain, and then it takes 6.9 minutes to ski back down the mountain, what is the most number of times a person can ski down the mountain in 2.5 hours?",
+      "learner_turn": "Hmm, let me try. Student both divided and multipled by a  I think the answer might be 24.",
+      "input_tokens": 497,
+      "output_tokens": 18,
+      "latency_ms": 735.5929962532707,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C2"
+}

@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_0292",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.018407",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 360,
+  "total_output_tokens": 232,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, could you please walk me through your solution?",
+      "learner_turn": "To solve this problem, The bridge anchors will take 700 * 2 = 1400 tons of concrete.\nThe roadway deck a. The answer is The bridge anchors w.",
+      "input_tokens": 21,
+      "output_tokens": 28,
+      "latency_ms": 741.6951112272104,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Do you agree to the fact that the question mentions the two anchors need the same amount of concrete?",
+      "learner_turn": "To solve this problem, The bridge anchors will take 700 * 2 = 1400 tons of concrete.\nThe roadway deck a. The answer is The bridge anchors w.",
+      "input_tokens": 31,
+      "output_tokens": 28,
+      "latency_ms": 540.3019349948987,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)But that doesn't give you the same amount. According to you the second anchor needs 900 tons whereas the first needs 700 tons. How is this making sense? Do you see you made a mistake by subtracting 700 from 1600?",
+      "learner_turn": "To solve this problem, The bridge anchors will take 700 * 2 = 1400 tons of concrete.\nThe roadway deck a. The answer is The bridge anchors w.",
+      "input_tokens": 52,
+      "output_tokens": 28,
+      "latency_ms": 225.80969562204945,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)No. You don't divide as well. Anchors and decks are completely different units. They are not related to each other. Treat them separately. Based on the info given in the question, can you tell how much concrete is needed for the two anchors if they need the same amount of concrete?",
+      "learner_turn": "To solve this problem, The bridge anchors will take 700 * 2 = 1400 tons of concrete.\nThe roadway deck a. The answer is The bridge anchors w.",
+      "input_tokens": 63,
+      "output_tokens": 28,
+      "latency_ms": 200.2537053276582,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Its not 800 tons each. Its 700 tons each",
+      "learner_turn": "To solve this problem, The bridge anchors will take 700 * 2 = 1400 tons of concrete.\nThe roadway deck a. The answer is The bridge anchors w.",
+      "input_tokens": 21,
+      "output_tokens": 28,
+      "latency_ms": 649.6593032277275,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)You seem to have forgotten the deck",
+      "learner_turn": "To solve this problem, The bridge anchors will take 700 * 2 = 1400 tons of concrete.\nThe roadway deck a. The answer is The bridge anchors w.",
+      "input_tokens": 19,
+      "output_tokens": 28,
+      "latency_ms": 562.0506988506052,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)1600(deck)+1400(two anchors)=3000",
+      "learner_turn": "To solve this problem, The bridge anchors will take 700 * 2 = 1400 tons of concrete.\nThe roadway deck a. The answer is The bridge anchors w.",
+      "input_tokens": 14,
+      "output_tokens": 28,
+      "latency_ms": 330.0071669540765,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Its not 3200 tons. Its 3000 tons.",
+      "learner_turn": "To solve this problem, The bridge anchors will take 700 * 2 = 1400 tons of concrete.\nThe roadway deck a. The answer is The bridge anchors w.",
+      "input_tokens": 19,
+      "output_tokens": 28,
+      "latency_ms": 442.10713639256824,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJohnny is an engineer designing a bridge. The roadway deck for the top of the bridge needs 2360.7 tons of concrete to construct. The two bridge anchors need equal amounts of concrete, but only one has been built so far, using 921.8 tons of concrete. Johnny had to calculate how many tons of concrete the supporting pillars underneath the bridge would need, and he found that the total amount of concrete in the entire bridge will be 6828.2 tons. How much concrete did Johnny find he needs for the supporting pillars?",
+      "learner_turn": "The answer to that problem would be 40.",
+      "input_tokens": 120,
+      "output_tokens": 8,
+      "latency_ms": 423.7963146313101,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1919",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.326311",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 211,
+  "total_output_tokens": 112,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello! Can you walk me through your problem?",
+      "learner_turn": "To solve this problem, If there are 3 identical cylindrical structures, with a combined total of 72 roo. The answer is If there are 3 ident.",
+      "input_tokens": 20,
+      "output_tokens": 26,
+      "latency_ms": 381.286298840648,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)I see where your error is. Let's start at the beginning. If there are 72 rooms over the 3 cylinders, how many rooms does each cylinder have?",
+      "learner_turn": "To solve this problem, If there are 3 identical cylindrical structures, with a combined total of 72 roo. The answer is If there are 3 ident.",
+      "input_tokens": 39,
+      "output_tokens": 26,
+      "latency_ms": 268.65536567998686,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)So if we know that there are 5 kitchens in each of the 3 cylinders, how many kitchens are there total?",
+      "learner_turn": "To solve this problem, If there are 3 identical cylindrical structures, with a combined total of 72 roo. The answer is If there are 3 ident.",
+      "input_tokens": 33,
+      "output_tokens": 26,
+      "latency_ms": 547.8660513712691,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)Great job!",
+      "learner_turn": "To solve this problem, If there are 3 identical cylindrical structures, with a combined total of 72 roo. The answer is If there are 3 ident.",
+      "input_tokens": 14,
+      "output_tokens": 26,
+      "latency_ms": 390.0426465872547,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe space station, Lupus-1.4, is an enormous spacecraft made up of three identical cylindrical structures that house the living quarters for the crew.   The three cylindrical structures are linked together by a series of tunnels that hold them together and allow the crew to move between cylinders.  Each cylindrical structure contains 17.1 bedrooms, 10.5 bathrooms, and several kitchens.  If the entire space station has 94.9 rooms, how many kitchens are there on the entire space station?",
+      "learner_turn": "The answer to that problem would be 49.",
+      "input_tokens": 105,
+      "output_tokens": 8,
+      "latency_ms": 480.8416530690844,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

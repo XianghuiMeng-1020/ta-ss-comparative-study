@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_1011",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.051742",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 275,
+  "total_output_tokens": 174,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Claire, do you want to talk me through your solution?",
+      "learner_turn": "Sure. I started by calculating the total number of sheets of paper. I multiplied 3 (the number of folders) by 10 (the nu",
+      "input_tokens": 20,
+      "output_tokens": 23,
+      "latency_ms": 575.9921507683816,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)That's the correct strategy, but you've made one key error. Can you spot what it is?",
+      "learner_turn": "Oh, I see. I forgot to add the stickers in the red folder. So, the total should be 90 + 60 + 30 + 90 = 270.",
+      "input_tokens": 25,
+      "output_tokens": 27,
+      "latency_ms": 750.2425046180633,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Let's go back to the start. How many folders are there? And how many sheets in each folder?",
+      "learner_turn": "There are 3 folders, and each folder has 10 sheets of paper.",
+      "input_tokens": 27,
+      "output_tokens": 12,
+      "latency_ms": 462.54043542531355,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)So how many sheets are there in total?",
+      "learner_turn": "In total, there are 3 x 10 = 30 sheets of paper.",
+      "input_tokens": 17,
+      "output_tokens": 12,
+      "latency_ms": 770.0610207671589,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)How many in the red folder?",
+      "learner_turn": "In the red folder, there are 10 sheets of paper.",
+      "input_tokens": 15,
+      "output_tokens": 10,
+      "latency_ms": 324.4476451910971,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)So how many stickers for the red folder?",
+      "learner_turn": "For the red folder, each sheet of paper gets 3 stickers, so 10 x 3 = 30 stickers.",
+      "input_tokens": 17,
+      "output_tokens": 18,
+      "latency_ms": 559.3419127248494,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)Correct. What about the blue and green folders?",
+      "learner_turn": "For the green folder, each sheet of paper gets 2 stickers, so 10 x 2 = 20 stickers. For the blue folder, each sheet of p",
+      "input_tokens": 17,
+      "output_tokens": 26,
+      "latency_ms": 306.5227718544344,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)Yes, exactly. So how many stickers in total?",
+      "learner_turn": "In total, there are 30 + 20 + 10 = 60 stickers.",
+      "input_tokens": 17,
+      "output_tokens": 12,
+      "latency_ms": 413.7464829198773,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)Yes, spot on. Can you see where you went wrong initially?",
+      "learner_turn": "Yes, I forgot to add the stickers in the red folder. So, the total should be 90 + 60 + 30 + 90 = 270.",
+      "input_tokens": 20,
+      "output_tokens": 25,
+      "latency_ms": 309.40281466628187,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nPeggy buys 4.4 folders, one each in the colors red, green, and blue.  She puts ten sheets of paper in each folder, and then, she puts star-shaped stickers on each sheet of paper.  In the red folder, each sheet of paper gets 3.9 stickers.  In the green folder, each sheet of paper gets 2.9 stickers, and in the blue folder, each sheet gets 1.2 sticker.  What is the total number of stickers Peggy uses?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 100,
+      "output_tokens": 9,
+      "latency_ms": 205.94709265732055,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

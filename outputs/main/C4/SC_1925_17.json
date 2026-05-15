@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1925",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.329143",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 161,
+  "total_output_tokens": 83,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)You have made an error by adding the two neighbourhoods , Jenny will only be selling to the better one",
+      "learner_turn": "To solve this problem, First, we need to determine which neighborhood is the better choice by comparing. The answer is First, we need to de.",
+      "input_tokens": 32,
+      "output_tokens": 25,
+      "latency_ms": 409.21376299990754,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Correct do you see the error you made",
+      "learner_turn": "To solve this problem, First, we need to determine which neighborhood is the better choice by comparing. The answer is First, we need to de.",
+      "input_tokens": 20,
+      "output_tokens": 25,
+      "latency_ms": 354.11351704134074,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)Yes correct well done",
+      "learner_turn": "To solve this problem, First, we need to determine which neighborhood is the better choice by comparing. The answer is First, we need to de.",
+      "input_tokens": 16,
+      "output_tokens": 25,
+      "latency_ms": 482.505949149498,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 13.7 homes which each will buy 2.9 boxes of cookies.  Neighborhood B has 6.4 homes, each of which will buy 6.8 boxes of cookies.  Assuming each box of cookies costs $2.5, how much will Jenny make at the better choice of the two neighborhoods?",
+      "learner_turn": "The answer to that problem would be 5.",
+      "input_tokens": 93,
+      "output_tokens": 8,
+      "latency_ms": 256.96939400488213,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

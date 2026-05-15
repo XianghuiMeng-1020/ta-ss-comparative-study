@@ -1,0 +1,234 @@
+packet_id,true_condition,scenario_id,TA1,TA2,TA3,TA4,SS1,SS2,SS3,SS4,SS5,json_path,_primary_mean,excerpt_category,framework_anchor,max_coder_diff,coder_id,use_case_decision,flag_premature_expertise,flag_role_drift,flag_over_technical,flag_misconception_loss,flag_logical_inconsistency,flag_unsupported_reasoning,notes,dialogue_text
+0916C27B,C1,SC_0192,4.5,5.0,3.5,4.0,3.5,2.5,2.5,2.5,2.5,outputs/main/C1/SC_0192_17.json,4.25,high_alignment,"Top 10% on ['TA1', 'TA2', 'TA3', 'TA4']",,,,,,,,,,,"[TUTOR]   (generic)can you walk me through your solution stepwise?
+[LEARNER] So I tried this problem. My approach was: Each part of the rope is 200/4 = 50 meters long.
+Stefan has four pieces of 50 me. Wait — can you explain why we need to do that step first?
+[TUTOR]   (focus)very good michael. you have correctly deduced that you are left with two pieces of rope each 50 m long. but then when you subdivide the remaining pieces, are you dividing a 100 m rope?
+[LEARNER] Oh I see! I was wrong about that part. Let me revise: Yes, I am dividing a 100 m rope. I started with 200 m, then . So the answer is 48?
+[TUTOR]   (focus)lets say that you have 12 chocolates. you gave half of it to me. you subdivided the remaining chocolates that were with you into half so that you can have those today and tomorrow. so how many pieces of chocolate do you eat today?
+[LEARNER] I think I see what you mean. So instead of 9, I should use 6? Let me redo: I would have 3 pieces of chocolate today. I started with 12
+[TUTOR]   (focus)very well. so if you had two pieces of rope each 50m in length and you subdivide them two more equal parts, are you left with two 50m pieces?
+[LEARNER] I think I see what you mean. So instead of 2, I should use 9? Let me redo: Yes, I would be left with two 50m pieces. I started with two
+[TUTOR]   (telling)If he decides to subdivide each piece, he and up with 50/2
+[LEARNER] I think I see what you mean. So instead of 9, I should use 1? Let me redo: Yes, if he decides to subdivide each piece, he would end up
+[TUTOR]   (generic)very good
+[LEARNER] I think I see what you mean. So instead of 4, I should use 6? Let me redo: Sure. I started by dividing the rope into four equal parts,
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+A rope has a length of 260.8 meters. Stefan cuts the rope into four equal parts, gives his mother half of the cut pieces, and subdivides the remaining pieces into two more equal parts. What's the length of each piece?
+[LEARNER] Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: A rope has a length of 260.8 meters. Stefan cuts t... I get approximately 31 as my answer. Does that seem right?"
+11FCABD1,C1,SC_1340,5.0,4.0,4.0,4.0,3.5,2.0,2.5,2.0,3.0,outputs/main/C1/SC_1340_91.json,4.25,high_alignment,"Top 10% on ['TA1', 'TA2', 'TA3', 'TA4']",,,,,,,,,,,"[TUTOR]   (generic)Hi Cody, can you tell me how you got your answer?
+[LEARNER] So I tried this problem. My approach was: The Seattle Seahawks scored 23 points in total, and they scored 3 field goals, w. Wait — can you explain why we need to do that step first?
+[TUTOR]   (focus)What was the total number of points the Seahawks scored?
+[LEARNER] I think I see what you mean. So instead of 7, I should use 2? Let me redo: The Seahawks scored 23 points in total.
+[TUTOR]   (focus)But the final score was 37-23, and the Seahawks won.
+[LEARNER] I think I see what you mean. So instead of 2, I should use 3? Let me redo: Oh, I see. The Seahawks scored 37 points and the Broncos sco
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+This weekend's football game matched the Seattle Seahawks with the Denver Broncos. The final score was 48.2-32.9, with the Seattle Seahawks taking the win. If a touchdown is worth 8.6 points and a field goal is worth 4.0 points, how many touchdowns did the Seattle Seahawks score if they scored 3.6 field goals during the game?
+[LEARNER] Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: This weekend's football game matched the Seattle S... I get approximately 15 as my answer. Does that seem right?"
+320EECA9,C1,SC_0407,4.5,4.5,4.0,4.5,2.5,1.5,1.5,2.5,3.0,outputs/main/C1/SC_0407_91.json,4.375,high_alignment,"Top 10% on ['TA1', 'TA2', 'TA3', 'TA4']",,,,,,,,,,,"[TUTOR]   (focus)Hi Luca, this is basically correct except you have calculated the cost of teh 12 months of food incorrectly. Have a read of the problem again and see if you can spot the error...
+[LEARNER] So I tried this problem. My approach was: Jenny split the adoption fee with her girlfriend, so she paid 50/2 = $25.
+Jenny . Wait — can you explain why we need to do that step first?
+[TUTOR]   (probing)Which items do the two women pay for half & half?
+[LEARNER] I think I see what you mean. So instead of 6, I should use 5? Let me redo: The two women pay for half of the adoption fee and half of t
+[TUTOR]   (probing)And the cat food...
+[LEARNER] I think I see what you mean. So instead of 6, I should use 9? Let me redo: The two women split the cost of the cat food, so each person
+[TUTOR]   (probing)Isn't $300 the total...
+[LEARNER] I think I see what you mean. So instead of 4, I should use 10? Let me redo: Yes, the total cost of the cat food for the first year is $3
+[TUTOR]   (probing)But aren't they splitting it...
+[LEARNER] I think I see what you mean. So instead of 5, I should use 3? Let me redo: Yes, they are splitting the cost of the cat food, so each pe
+[TUTOR]   (probing)Is half of $300,$300?
+[LEARNER] I think I see what you mean. So instead of 4, I should use 5? Let me redo: Yes, half of $300 is $300. The two women split the cost of t
+[TUTOR]   (probing)What is half of 10?
+[LEARNER] I think I see what you mean. So instead of 9, I should use 2? Let me redo: Half of 10 is 5.
+[TUTOR]   (probing)So what is half of $300?
+[LEARNER] I think I see what you mean. So instead of 1, I should use 1? Let me redo: Half of $300 is $150. The two women split the cost of the ca
+[TUTOR]   (probing)Isn't paying half for half the cat food like paying for 6 months of catfood each?
+[LEARNER] I think I see what you mean. So instead of 5, I should use 8? Let me redo: Yes, paying half of the cat food is like paying for 6 months
+[TUTOR]   (probing)Half of $300 is not $300...
+[LEARNER] I think I see what you mean. So instead of 4, I should use 2? Let me redo: No, you're right. Half of $300 is $150. The two women split
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jenny decided to get a cat with her girlfriend.  They agreed to split all the costs down the middle except for they would each buy their own toys for the cat.  The adoption fee was $69.7, the vet visits cost $609.6 for the first year and the monthly cost of food was $31.2.  She bought $273.8 in toys.  How much did Jenny spend on the cat in the first year?
+[LEARNER] Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Jenny decided to get a cat with her girlfriend.  T... I get approximately 38 as my answer. Does that seem right?"
+11E4DA7D,C2,SC_1181,2.5,2.5,4.0,3.5,4.0,4.5,4.5,4.5,4.5,outputs/main/C2/SC_1181_42.json,4.4,high_alignment,"Top 10% on ['SS1', 'SS2', 'SS3', 'SS4', 'SS5']",,,,,,,,,,,"[TUTOR]   (generic)Hi, could you please walk me through your solution?
+[LEARNER] The bus travels at a rate of 80/40 = 2 miles per minute.
+The car takes 5 fewer minutes to complete t I used this approach because Assumed vaguely the speeds of both the vehicles to be same.
+[TUTOR]   (probing)If two vehicles take different times to complete the same trip, can they have equal speeds?
+[LEARNER] Okay, but I still think No, they cannot. If two vehicles take different times to com. Maybe the answer is 44?
+[TUTOR]   (focus)Following this, can you justify why you assumed that the car and the bus travel at the same speed if the car takes lesser time than the bus? Doesn't seem to make sense
+[LEARNER] I think I see — so instead I should... Yes, I can justify it. Since the car and the bus are both tr. Does that mean the answer is 48?
+[TUTOR]   (focus)You are contradicting yourself. The car travels faster than the bus. They can't have same speeds.
+[LEARNER] I think I see — so instead I should... Yes, you are right. The car does travel faster than the bus.. Does that mean the answer is 22?
+[TUTOR]   (focus)Now get back to the question and tell me how long does Amanda's car take to make a trip to the beach ?
+[LEARNER] I think I see — so instead I should... Amanda's car takes 35 minutes to make a trip to the beach.. Does that mean the answer is 45?
+[TUTOR]   (focus)So how long should Amanda take to go to the beach and come back?
+[LEARNER] I think I see — so instead I should... Amanda should take 80 minutes to go to the beach and come ba. Does that mean the answer is 46?
+[TUTOR]   (probing)Again, it doesn't make sense. If I go to school in 15 minutes, how long will a round trip to school take?
+[LEARNER] I think I see — so instead I should... A round trip to school will take 30 minutes, since the dista. Does that mean the answer is 44?
+[TUTOR]   (focus)Can you please use the above concept and answer for amanda as well if one way trip to beach in her car takes 35 mins, how long a round trip would take?
+[LEARNER] I think I see — so instead I should... A round trip to the beach in Amanda's car will take 70 minut. Does that mean the answer is 38?
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Amanda's car takes five fewer minutes to complete the same trip to the beach than the bus. If the bus takes 59.4 minutes to drive 97.7 miles to the beach, how many minutes will it take the car to make a round trip?
+[LEARNER] Hmm, let me try. Assumed vaguely the speeds of both the v I think the answer might be 50."
+15A3FC04,C2,SC_0448,2.0,3.0,3.5,3.5,4.5,5.0,4.0,4.5,4.0,outputs/main/C2/SC_0448_17.json,4.4,high_alignment,"Top 10% on ['SS1', 'SS2', 'SS3', 'SS4', 'SS5']",,,,,,,,,,,"[TUTOR]   (probing)Hi Jian.  Can you tell me how many free haircuts Tammy has had so far please?
+[LEARNER] Tammy has received a total of 5 + 1 = 6 free haircuts.
+Since she gets a free haircut for every 14 ha I used this approach because Couldn't get to grips with the basic calculation required to.
+[TUTOR]   (focus)Are you sure?  Have another read of the question please.
+[LEARNER] Okay, but I still think Oh, I see. Tammy has had a total of 6 free haircuts plus the. Maybe the answer is 13?
+[TUTOR]   (focus)In the question it states quite clearly how many free haircuts Tammy has gotten already, and it isn't six.  Can you check again please?
+[LEARNER] I think I see — so instead I should... Yes, I understand now. Tammy has had 6 free haircuts already. Does that mean the answer is 40?
+[TUTOR]   (telling)I just said that she hasn't had six haircuts: the question states ""he has gotten 5 free haircuts already"", so when you say six this is wrong.  Have another go at finding a solution please.
+[LEARNER] I think I see — so instead I should... Tammy has had 5 free haircuts already. She is 5 haircuts awa. Does that mean the answer is 5?
+[TUTOR]   (focus)Let's stick with just the free haircuts for the moment.  How many paid haircuts are needed for a free one?
+[LEARNER] I think I see — so instead I should... For every 14 paid haircuts, Tammy gets a free additional hai. Does that mean the answer is 49?
+[TUTOR]   (probing)Good, so to have had 5 free haircuts, how many haircuts would she have had overall?
+[LEARNER] I think I see — so instead I should... Tammy has had 5 free haircuts already, so she has had a tota. Does that mean the answer is 23?
+[TUTOR]   (focus)Please stick to just answering what I'm asking for, we'll get to the rest of the solution.  
+
+So, she has had 70 haircuts, that's right.  If she gets another free one when she's had 14 haircuts overall, and she is 5 haircuts away from this point, how many cuts above the 70 has she had?
+[LEARNER] I think I see — so instead I should... Tammy has had a total of 70 + 5 = 75 haircuts.. Does that mean the answer is 47?
+[TUTOR]   (probing)That's not quite right.  The number of haircuts needed is 14, and she is 5 away from this, so how many has she had?
+[LEARNER] I think I see — so instead I should... Tammy has had a total of 70 + 5 = 75 haircuts. She is 5 hair. Does that mean the answer is 33?
+[TUTOR]   (probing)No, just stick to this one part please: she needs to reach 14 and is 5 away from this, so how many haircuts has she had (above the 70 we already calculated)?
+[LEARNER] I think I see — so instead I should... Tammy has had a total of 70 + 5 = 75 haircuts. She is 5 hair. Does that mean the answer is 27?
+[TUTOR]   (telling)If she needs another 5 cuts to get a free one, that means she has had 14 - 5 = 9 haircuts.  Add this to the number she already had to qualify for 5 free cuts please.
+[LEARNER] I think I see — so instead I should... Tammy has had a total of 70 + 9 = 79 haircuts. She is 5 hair. Does that mean the answer is 23?
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Tammy just got her hair cut. For every 19.6 haircuts, she gets a free additional haircut. She has gotten 7.0 free haircuts already. She is 7.4 haircuts away from another free one. How many haircuts has she gotten there?
+[LEARNER] Hmm, let me try. Couldn't get to grips with the basic cal I think the answer might be 31."
+25D683AE,C2,SC_1572,2.5,3.5,3.0,3.5,4.5,5.0,4.0,4.5,4.0,outputs/main/C2/SC_1572_91.json,4.4,high_alignment,"Top 10% on ['SS1', 'SS2', 'SS3', 'SS4', 'SS5']",,,,,,,,,,,"[TUTOR]   (generic)Hi, tell me your thoughts
+[LEARNER] Jaco is buying gifts for 8 friends, so he will spend 8 x $9 = $72 on those gifts.
+He also needs to b I used this approach because misread.
+[TUTOR]   (focus)ok, explain how you got there
+[LEARNER] Okay, but I still think I figured out that Jaco would spend $72 on gifts for his 8 f. Maybe the answer is 16?
+[TUTOR]   (focus)Youre right that he spent 72$ on his friends. You need to subtract this ffrom the inital 100 to find out how much he has to spend on his parents
+[LEARNER] I think I see — so instead I should... Oh, I see. So I should have subtracted $72 from the initial . Does that mean the answer is 22?
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jaco wants to buy Christmas gifts for his 9.8 friends that are worth $12.7 each.  Also, he wants to buy gifts for his mother and father that are of the same amount. He has a $144.1 budget to buy all gifts. How much is Jaco's budget for each of his mother and father's gift?
+[LEARNER] Hmm, let me try. misread I think the answer might be 40."
+01A229F8,C1,SC_1691,4.0,3.5,3.0,3.0,3.0,2.5,3.0,2.5,2.0,outputs/main/C1/SC_1691_17.json,3.375,low_alignment,"Bottom 10% on ['TA1', 'TA2', 'TA3', 'TA4']",,,,,,,,,,,"[TUTOR]   (generic)Hi Luca, please talk me thorugh your solution
+[LEARNER] So I tried this problem. My approach was: If there are 5 Volkswagen Bugs in the parking lot, then there are twice as many . Wait — can you explain why we need to do that step first?
+[TUTOR]   (focus)a good try. lets take it a step at a time. we dont yet know how many toyota trucks there are. We know there are 5 VW Bugs and that this is half the number of Toyota trucks. can you work out the number of toyota trucks?
+[LEARNER] I think I see what you mean. So instead of 4, I should use 9? Let me redo: Yes, I can. Since there are 5 Volkswagen Bugs and they are h
+[TUTOR]   (probing)excellent. as you corrcetly said, there are twice as many Ford trucks as Toyota trucks. can you double the number of Toyota trucks?
+[LEARNER] I think I see what you mean. So instead of 4, I should use 8? Let me redo: Yes, I can. Since there are 10 Toyota trucks, then there mus
+[TUTOR]   (probing)excellent., what do we know about the number of Ford trucks in relation to the number of Dodge trucks?
+[LEARNER] I think I see what you mean. So instead of 5, I should use 8? Let me redo: We know that there are one-third as many Ford trucks as Dodg
+[TUTOR]   (generic)well done!
+[LEARNER] I think I see what you mean. So instead of 1, I should use 5? Let me redo: Sure. I started by figuring out that there were 10 Ford truc
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+There are one-third as many Ford trucks as Dodge trucks in the parking lot of the Taco Castle.  But there are twice as many Ford trucks as Toyota trucks in this parking lot, and there are half as many Volkswagen Bugs as there are Toyota trucks in this same parking lot.  If there are 7.1 Volkswagon Bugs in the parking lot, how many Dodge trucks are in the parking lot of the Taco Castle?
+[LEARNER] Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: There are one-third as many Ford trucks as Dodge t... I get approximately 32 as my answer. Does that seem right?"
+25F84836,C1,SC_0409,3.5,4.0,3.5,4.0,2.0,2.5,2.0,2.0,2.0,outputs/main/C1/SC_0409_91.json,3.75,low_alignment,"Bottom 10% on ['TA1', 'TA2', 'TA3', 'TA4']",,,,,,,,,,,"[TUTOR]   (focus)You are mostly correct. The question asks how many packs were opened and you worked out that distributing 32 necklaces would require 4 packs to be opened. But then you move on to an additional but superfluous calculation...
+[LEARNER] So I tried this problem. My approach was: Emily started with 9 packs x 8 candy necklaces per pack = 72 candy necklaces.
+Af. Wait — can you explain why we need to do that step first?
+[TUTOR]   (focus)5 packs would be the number of packs not opened but the question asks how many packs were opened...
+[LEARNER] I think I see what you mean. So instead of 2, I should use 10? Let me redo: Oh, I understand now. So the answer is 9 - 5 = 4 packs were
+[TUTOR]   (focus)How do you know how many packs were opened?
+[LEARNER] I think I see what you mean. So instead of 9, I should use 4? Let me redo: I know that 9 packs were bought, and after the classmates to
+[TUTOR]   (generic)That's right though the question only asks how many packs were opened. The information about how many packs were not opened could be regarded as superfluous though it is good that you are able to calculate this if it was requested.
+[LEARNER] Oh I see! I was wrong about that part. Let me revise: Yes, I understand now. Thanks for the help!. So the answer is 35?
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Emily bought 10.9 packs of candy necklaces to give her classmates at school for Valentine’s Day. Each pack had 10.4 candy necklaces in it. Emily opened one pack at a time. After her classmates took as many as they wanted, there were 53.8 candy necklaces left. How many packs did Emily open for her classmates?
+[LEARNER] Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Emily bought 10.9 packs of candy necklaces to give... I get approximately 49 as my answer. Does that seem right?"
+312A6584,C1,SC_0570,4.5,3.5,3.5,3.5,3.0,2.0,2.5,2.0,3.0,outputs/main/C1/SC_0570_42.json,3.75,low_alignment,"Bottom 10% on ['TA1', 'TA2', 'TA3', 'TA4']",,,,,,,,,,,"[TUTOR]   (generic)Hi Ayisha, can you tell me how you got your answer?
+[LEARNER] So I tried this problem. My approach was: From November 1 to January 1 (2 months), Mr. Fortchaud used 3000 - 180 = 2820 L . Wait — can you explain why we need to do that step first?
+[TUTOR]   (focus)Wait, from November 1 to January 1, he used 2820 L of fuel. Then he used 1238 L out of 3000, which gives you what
+[LEARNER] I think I see what you mean. So instead of 5, I should use 10? Let me redo: Oh, I see. From November 1 to January 1, he used 2820 L of f
+[TUTOR]   (telling)that is correct!
+[LEARNER] Oh I see! I was wrong about that part. Let me revise: Yes, I used the following calculations. From November 1 to J. So the answer is 8?
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Mr. Fortchaud turns on his heater on the 1st of November, 2501.9. The fuel tank was then full and contained 3.9,0 L. On January 1.4, 2814.1, the tank counter indicated that 248.9 L remained. Mr. Fortchaud again filled his tank completely. On 1.5 May 2961.1, Mr. Fortchaud decided to stop heating and he read 1.5,295.8 L on the meter. What the volume of fuel oil that was used between 1.4 November 2815.5 and 1.4 May 2862.8?
+[LEARNER] Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Mr. Fortchaud turns on his heater on the 1st of No... I get approximately 5 as my answer. Does that seem right?"
+5C17978B,C2,SC_1082,3.0,2.5,3.5,4.0,3.0,4.0,2.5,4.5,4.0,outputs/main/C2/SC_1082_17.json,3.6,low_alignment,"Bottom 10% on ['SS1', 'SS2', 'SS3', 'SS4', 'SS5']",,,,,,,,,,,"[TUTOR]   (focus)Could you explain your final step to me as you have done well until then
+[LEARNER] Mrs. Choi's profit from selling the house is 20/100 x $80000 = $16000.
+The selling price of the hous I used this approach because The student was appearing g to see the commission as somethi.
+[TUTOR]   (probing)Could you explain why you too, the commission away as this was something she received
+[LEARNER] Okay, but I still think Yes. The broker's commission was 5% of the original price of. Maybe the answer is 39?
+[TUTOR]   (telling)The selling price of the house is 96000 plus she received the profit so what should we do
+[LEARNER] I think I see — so instead I should... Mrs. Choi received a 20% profit on the original price of the. Does that mean the answer is 45?
+[TUTOR]   (focus)96000 plus the 400 would be
+[LEARNER] I think I see — so instead I should... The total selling price of the house is $96000 which is the . Does that mean the answer is 47?
+[TUTOR]   (generic).?
+[LEARNER] I think I see — so instead I should... Is there anything else I can help you with?. Does that mean the answer is 8?
+[TUTOR]   (focus)What is the 96000 plus the 4000
+[LEARNER] I think I see — so instead I should... The total selling price of the house is $96000 which is the . Does that mean the answer is 37?
+[TUTOR]   (telling)No we need to had the selling price plus 4000
+[LEARNER] I think I see — so instead I should... The total selling price of the house before deducting the br. Does that mean the answer is 11?
+[TUTOR]   (telling)you have to add 96,000 plus 4,000 to get the correct answer
+[LEARNER] I think I see — so instead I should... The total selling price of the house before deducting the br. Does that mean the answer is 6?
+[TUTOR]   (telling)You do not deduct you add
+[LEARNER] I think I see — so instead I should... That's correct. The total selling price of the house before . Does that mean the answer is 46?
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Mrs. Choi purchased a house for $117541.6. Five years later, she sold it for a 28.6% profit and got a 7.3% broker's commission from the original price. How much did the house sell for?
+[LEARNER] Hmm, let me try. The student was appearing g to see the c I think the answer might be 50."
+66A5797E,C2,SC_0132,2.0,2.5,3.5,4.0,5.0,4.0,3.5,3.5,3.5,outputs/main/C2/SC_0132_91.json,3.9,low_alignment,"Bottom 10% on ['SS1', 'SS2', 'SS3', 'SS4', 'SS5']",,,,,,,,,,,"[TUTOR]   (generic)It's good that ypou tried to do this using algebra butteh answer is not quite right
+[LEARNER] Angie's total expenses for the month (including taxes) is 42 + taxes. 
+Her total earnings for the mo I used this approach because She tried to use algebra but had the numbers in the wrong pl.
+[TUTOR]   (probing)Lets go through it step by step Household expenses are $42, and she earns $80, how much does she have left after paying household expenses?
+[LEARNER] Okay, but I still think Angie's total expenses for the month (including taxes) is 42. Maybe the answer is 25?
+[TUTOR]   (probing)How much did Angie have left at the end of the month?
+[LEARNER] I think I see — so instead I should... Angie's total expenses for the month (including taxes) is 42. Does that mean the answer is 32?
+[TUTOR]   (probing)Don't go too far ahead! Lets take this step by step. So after household expenses Angie is left with $38, and at the end of the month she has $18. What is the difference between $38 and $18?
+[LEARNER] I think I see — so instead I should... Angie's total expenses for the month (including taxes) is 42. Does that mean the answer is 37?
+[TUTOR]   (generic)That's right! Well done! I liked your idea of trying to do it with algebra though, that would be something like:
+[LEARNER] I think I see — so instead I should... Angie's total expenses for the month (including taxes) is 42. Does that mean the answer is 42?
+[TUTOR]   (probing)No $20 was right! Your formula shoudld have been: salary = HouseholdBills + MoneyLeftOver + taxes; this is $80 = $42 + $18 + Taxes; this is $80 = 60 + Taxes. So what are Taxes?
+[LEARNER] I think I see — so instead I should... Angie's total expenses for the month (including taxes) is 42. Does that mean the answer is 24?
+[TUTOR]   (generic)That's right! So using algebra was a good approach but the numbers needed to be in the right places.
+[LEARNER] I think I see — so instead I should... Angie's total expenses for the month (including taxes) is 42. Does that mean the answer is 23?
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Angie is part of a household with shared expenses and contributes $57.1 a month for necessities. She has a salary of $106.2 per month. She also pays a share of the household taxes each month. At the end of this month, she had $26.5 left over. How much did she pay in taxes this month?
+[LEARNER] Hmm, let me try. She tried to use algebra but had the num I think the answer might be 23."
+6A173111,C2,SC_0809,3.0,3.0,3.5,3.0,4.0,4.0,3.5,4.0,3.5,outputs/main/C2/SC_0809_91.json,3.8,low_alignment,"Bottom 10% on ['SS1', 'SS2', 'SS3', 'SS4', 'SS5']",,,,,,,,,,,"[TUTOR]   (generic)can you walk me through your solution stepwise?
+[LEARNER] One-third of 54 mangoes is (1/3) x 54 = 18 ripe mangoes.
+The other two-thirds of the mangoes is (2/3 I used this approach because student miscalculated by subtracting 16 from 54 instead of s.
+[TUTOR]   (generic)Hi Scott, could you please walk me through your solution?
+[LEARNER] Okay, but I still think I subtracted 16 from 54 because Jordan kept 16 unripe mangoe. Maybe the answer is 37?
+[TUTOR]   (probing)could you please explain why you subtracted 16 from 54?
+[LEARNER] I think I see — so instead I should... I calculated the number of unripe mangoes to be 36. I subtra. Does that mean the answer is 32?
+[TUTOR]   (probing)but what was the number of unripe mangoes that you have calculated in your solution?
+[LEARNER] I think I see — so instead I should... I calculated the number of unripe mangoes to be 36, but I su. Does that mean the answer is 28?
+[TUTOR]   (probing)if the number of unripe mangoes is 36 and jordan kept 16 for himself then how can the remaining number of unripe mangoes  be 38 which is greater than that of the original number of unripe mangoes?
+[LEARNER] I think I see — so instead I should... You would get 20 orange candies. There are 30 orange flavore. Does that mean the answer is 36?
+[TUTOR]   (probing)scott lets say you have 50 candies out of which 20 are chocolate flavoured and 30 are orange flavored. lets say you kept 10 of the orange flavoured candies for yourself and gave the remaining to me. then how many orange candies do i get?
+[LEARNER] I think I see — so instead I should... I subtracted 10 from 30 because there are only 30 orange fla. Does that mean the answer is 20?
+[TUTOR]   (probing)very good correct answer. can you now explain why you subtracted 10 from 30 instead of subtracting it from 50?
+[LEARNER] I think I see — so instead I should... Yes, I can use this concept to find out the number of unripe. Does that mean the answer is 42?
+[TUTOR]   (focus)so now you can use this concept to find out the number of unripe mangoes that were given to jordan's sister.
+[LEARNER] I think I see — so instead I should... Yes, I remember the candy problem. I subtracted 10 from 30 a. Does that mean the answer is 23?
+[TUTOR]   (telling)remember the candy problem. you subtracted 10 from 30 and not 50. use the same concept here.
+[LEARNER] I think I see — so instead I should... Yes, I understand. Jordan kept 16 unripe mangoes for himself. Does that mean the answer is 40?
+[TUTOR]   (focus)please note that jordan kept 16 unripe mangoes for himself and gave the remaining to his sister implies that he gave the remaining unripe mangoes to her sister. the ripe mangoes are not considered here.
+[LEARNER] I think I see — so instead I should... Yes, I understand. Jordan picked 54 mangoes in total, 18 of . Does that mean the answer is 42?
+[TUTOR]   (telling)He picked 54 - 18 = 36 unripe mangoes. he kept 16 for himself. so the number of remaining unripe mangoes has to be calculated by subtracting 16 from 36.
+[LEARNER] I think I see — so instead I should... Yes, I can figure out how many jars of pickled mangoes Jorda. Does that mean the answer is 41?
+[TUTOR]   (focus)can you now figure out If it takes 4 mangoes to fill a jar, how many jars of pickled mangoes can Jordan's sister make?
+[LEARNER] I think I see — so instead I should... Sure. First, I calculated one-third of the 54 mangoes which . Does that mean the answer is 39?
+[TUTOR]   (generic)good job
+[LEARNER] I think I see — so instead I should... I subtracted 16 from 54 because Jordan kept 16 unripe mangoe. Does that mean the answer is 25?
+[TUTOR]   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jordan picked 67.6 mangoes from his tree. One-third of the mangoes were ripe while the other two-thirds were not yet ripe. Jordan kept 22.7 unripe mangoes and gave the remainder to his sister who pickled them in glass jars. If it takes 5.3 mangoes to fill a jar, how many jars of pickled mangoes can Jordan's sister make?
+[LEARNER] Hmm, let me try. student miscalculated by subtracting 16  I think the answer might be 31."
+0298B245,C4,SC_1030,,,,,,,,,,,,max_disagreement,Coder disagreement ≥ 2 points,2.0,,,,,,,,,,
+02F1F0F5,C1,SC_0072,,,,,,,,,,,,max_disagreement,Coder disagreement ≥ 2 points,2.0,,,,,,,,,,
+08000100,C4,SC_0014,,,,,,,,,,,,max_disagreement,Coder disagreement ≥ 2 points,2.0,,,,,,,,,,
+087873CC,C4,SC_0946,,,,,,,,,,,,max_disagreement,Coder disagreement ≥ 2 points,2.0,,,,,,,,,,
+11FCABD1,C1,SC_1340,,,,,,,,,,,,max_disagreement,Coder disagreement ≥ 2 points,2.0,,,,,,,,,,
+1B6411CC,C3,SC_2147,,,,,,,,,,,,max_disagreement,Coder disagreement ≥ 2 points,2.0,,,,,,,,,,
+00EAC513,C4,SC_1994,2.0,1.0,2.0,2.0,2.0,1.0,3.0,2.0,1.0,,,failure,"Competence paradox (Yuan et al., 2026)",,CODER_A,reject,1.0,0.0,0.0,1.0,0.0,0.0,,
+01A229F8,C1,SC_1691,4.0,4.0,3.0,3.0,3.0,2.0,3.0,3.0,2.0,,,failure,"Unsupported reasoning / authenticity (BEA / Mannekote et al., 2025)",,CODER_A,learning_by_teaching,0.0,0.0,0.0,0.0,0.0,1.0,,
+0298B245,C4,SC_1030,1.0,2.0,2.0,2.0,2.0,2.0,3.0,2.0,1.0,,,failure,"Epistemic fidelity failure (Yuan et al., 2026)",,CODER_A,reject,0.0,0.0,0.0,1.0,0.0,1.0,,
+02F1F0F5,C1,SC_0072,4.0,4.0,3.0,4.0,3.0,2.0,3.0,1.0,2.0,,,failure,"Role instability (Yuan et al., 2026; Mannekote et al., 2025)",,CODER_A,learning_by_teaching,0.0,1.0,0.0,0.0,0.0,0.0,,
+08000100,C4,SC_0014,1.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,,,failure,"Epistemic fidelity failure (Yuan et al., 2026)",,CODER_A,reject,0.0,0.0,0.0,1.0,0.0,1.0,,
+081E2625,C2,SC_2029,3.0,2.0,3.0,4.0,4.0,5.0,3.0,3.0,4.0,,,failure,"Epistemic fidelity failure (Yuan et al., 2026)",,CODER_B,diagnostic_simulation,0.0,0.0,0.0,1.0,0.0,0.0,,

@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0561",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.081948",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 4418,
+  "total_output_tokens": 349,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nCharles is wondering how much chocolate milk he can make with all the supplies he finds in the fridge. He is going to keep drinking 8-ounce glasses until he uses up all the ingredients. Each glass must contain 6.5 ounces of milk and 1.5 ounces of chocolate syrup. If he has 130 ounces of milk and 60 ounces of chocolate syrup, how many total ounces ounce of chocolate milk will he drink?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nTo make one 8-ounce glass of chocolate milk, Charles needs 6.5 + 1.5 = 8 ounces of ingredients.\nTherefore, he can make a total of 130 + 60 = 190 ounces of chocolate milk.\nDividing 190 by 8 gives us 23.75, which means he can drink 23 glasses of chocolate milk with some ingredients left over.\nMultiplying 23 by 8 gives us 184 ounces of chocolate milk.\n 184\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)show me how you worked thi sout please?",
+      "learner_turn": "So I tried this problem. My approach was: To make one 8-ounce glass of chocolate milk, Charles needs 6.5 + 1.5 = 8 ounces . Wait — can you explain why we need to do that step first?",
+      "input_tokens": 382,
+      "output_tokens": 38,
+      "latency_ms": 306.0570477144304,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)ok i can see how you have approached this but we need to ascertain how much he can make with the supplies he actually has. so please consider this",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 10? Let me redo: To calculate how much chocolate milk Charles can make with h",
+      "input_tokens": 403,
+      "output_tokens": 29,
+      "latency_ms": 230.13710569911657,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)can we break it down into smaller steps rather than looking at the 2 ingredients combined. how much milk does he have enough of to make how much chocolate milk?",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 7? Let me redo: To calculate how much chocolate milk Charles can make with h",
+      "input_tokens": 404,
+      "output_tokens": 29,
+      "latency_ms": 322.23394637340664,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)you over overcomplicating this please wait until i prompted you for the next step . yes he has enough milk to make 20 glasses. how much chocolate syrup does he have t o make the chocolate milk?",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 1? Let me redo: Charles has enough chocolate syrup to make 40 glasses of cho",
+      "input_tokens": 411,
+      "output_tokens": 29,
+      "latency_ms": 502.36045443386257,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)ok so if he has enough ingredients to make 20 glasses of chocolate milk. ho wmuch do we know in ounces each milk holds ?",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 3? Let me redo: Each glass of chocolate milk requires 8 ounces of ingredient",
+      "input_tokens": 399,
+      "output_tokens": 28,
+      "latency_ms": 275.17352256341036,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)if you read the question it only asks you how much in ounces of chocolate milk he will drink?",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 4? Let me redo: Charles can drink a total of 20 glasses of chocolate milk, w",
+      "input_tokens": 393,
+      "output_tokens": 30,
+      "latency_ms": 472.0374715915519,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)it doesnt ask about the syrup the ingredients have already been combined to make the chocolate milk. so 20 glasses = how many ounces of chocolate milk only?",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 5? Let me redo: Charles can drink a total of 20 glasses of chocolate milk, w",
+      "input_tokens": 402,
+      "output_tokens": 30,
+      "latency_ms": 773.9103903071499,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)20 glasses * 8 ounces =the amount of chocolate milk",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 7? Let me redo: Charles can drink a total of 20 glasses of chocolate milk, w",
+      "input_tokens": 384,
+      "output_tokens": 30,
+      "latency_ms": 569.873618462866,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)no it is ? ounces as you have already used the chocolate syrup to make th emilk into chocolate flavour",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 1? Let me redo: Charles can drink a total of 20 glasses of chocolate milk, w",
+      "input_tokens": 394,
+      "output_tokens": 30,
+      "latency_ms": 370.12579072210775,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)no it is 160 ounces because 20 *8 =?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 8? Let me redo: Charles can drink a total of 20 glasses of chocolate milk, w",
+      "input_tokens": 383,
+      "output_tokens": 30,
+      "latency_ms": 281.3186229642227,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nCharles is wondering how much chocolate milk he can make with all the supplies he finds in the fridge. He is going to keep drinking 9.8-ounce glasses until he uses up all the ingredients. Each glass must contain 9.4 ounces of milk and 2.1 ounces of chocolate syrup. If he has 168.1 ounces of milk and 86.0 ounces of chocolate syrup, how many total ounces ounce of chocolate milk will he drink?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Charles is wondering how much chocolate milk he ca... I get approximately 48 as my answer. Does that seem right?",
+      "input_tokens": 463,
+      "output_tokens": 46,
+      "latency_ms": 244.7817561518638,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

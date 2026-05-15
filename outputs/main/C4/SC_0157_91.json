@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_0157",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.986503",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 182,
+  "total_output_tokens": 120,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jordy, please tell me about how you got your answer of 6.",
+      "learner_turn": "To solve this problem, Dani brings 2.5 x 12 = 30 cupcakes.\nShe needs this many cupcakes to feed everyon. The answer is Dani brings 2.5 x 12.",
+      "input_tokens": 25,
+      "output_tokens": 28,
+      "latency_ms": 632.8036404928228,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Does the question ask you about each student getting a cupcake or each person getting a cupcake?",
+      "learner_turn": "To solve this problem, Dani brings 2.5 x 12 = 30 cupcakes.\nShe needs this many cupcakes to feed everyon. The answer is Dani brings 2.5 x 12.",
+      "input_tokens": 29,
+      "output_tokens": 28,
+      "latency_ms": 212.9525743398582,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Let's look again at the last part of the question. It says that \"everyone\" in the class gets a cupcake. Does that include the teacher and aid?",
+      "learner_turn": "To solve this problem, Dani brings 2.5 x 12 = 30 cupcakes.\nShe needs this many cupcakes to feed everyon. The answer is Dani brings 2.5 x 12.",
+      "input_tokens": 39,
+      "output_tokens": 28,
+      "latency_ms": 389.38872798027086,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Nice! Good job.",
+      "learner_turn": "To solve this problem, Dani brings 2.5 x 12 = 30 cupcakes.\nShe needs this many cupcakes to feed everyon. The answer is Dani brings 2.5 x 12.",
+      "input_tokens": 15,
+      "output_tokens": 28,
+      "latency_ms": 252.68821219458863,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nDani brings two and half dozen cupcakes for her 2nd-grade class.  There are 36.0 students (including Dani), 1.4 teacher, and 1.2 teacher’s aid.  If 4.2 students called in sick that day, how many cupcakes are left after Dani gives one to everyone in the class?",
+      "learner_turn": "The answer to that problem would be 43.",
+      "input_tokens": 74,
+      "output_tokens": 8,
+      "latency_ms": 208.51153796071904,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

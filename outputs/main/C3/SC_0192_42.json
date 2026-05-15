@@ -1,0 +1,92 @@
+{
+  "scenario_id": "SC_0192",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.989487",
+  "n_tutor_turns": 7,
+  "n_learner_turns": 7,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 250,
+  "total_output_tokens": 163,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)can you walk me through your solution stepwise?",
+      "learner_turn": "Sure. I started by dividing the rope into four equal parts, so each part was 200/4 = 50 meters long. Then I gave my moth",
+      "input_tokens": 17,
+      "output_tokens": 25,
+      "latency_ms": 357.5025290596805,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)very good michael. you have correctly deduced that you are left with two pieces of rope each 50 m long. but then when you subdivide the remaining pieces, are you dividing a 100 m rope?",
+      "learner_turn": "Yes, I am dividing a 100 m rope. I started with 200 m, then I divided it into four equal parts, so each part was 50 m. T",
+      "input_tokens": 44,
+      "output_tokens": 28,
+      "latency_ms": 369.6661625599738,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)lets say that you have 12 chocolates. you gave half of it to me. you subdivided the remaining chocolates that were with you into half so that you can have those today and tomorrow. so how many pieces of chocolate do you eat today?",
+      "learner_turn": "I would have 3 pieces of chocolate today. I started with 12 chocolates, then I gave half of it to you, so I was left wit",
+      "input_tokens": 53,
+      "output_tokens": 26,
+      "latency_ms": 292.6553824006074,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)very well. so if you had two pieces of rope each 50m in length and you subdivide them two more equal parts, are you left with two 50m pieces?",
+      "learner_turn": "Yes, I would be left with two 50m pieces. I started with two pieces of rope each 50m in length. Then I subdivided them i",
+      "input_tokens": 38,
+      "output_tokens": 25,
+      "latency_ms": 203.68237394412088,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)If he decides to subdivide each piece, he and up with 50/2",
+      "learner_turn": "Yes, if he decides to subdivide each piece, he would end up with 50/2 = 25m pieces. He would have four 25m pieces in tot",
+      "input_tokens": 21,
+      "output_tokens": 25,
+      "latency_ms": 781.8011327067766,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(generic)very good",
+      "learner_turn": "Sure. I started by dividing the rope into four equal parts, so each part was 200/4 = 50 meters long. Then I gave my moth",
+      "input_tokens": 11,
+      "output_tokens": 25,
+      "latency_ms": 452.7771053172647,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA rope has a length of 260.8 meters. Stefan cuts the rope into four equal parts, gives his mother half of the cut pieces, and subdivides the remaining pieces into two more equal parts. What's the length of each piece?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 66,
+      "output_tokens": 9,
+      "latency_ms": 597.666085511654,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

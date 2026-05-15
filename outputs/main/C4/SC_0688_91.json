@@ -1,0 +1,92 @@
+{
+  "scenario_id": "SC_0688",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.099835",
+  "n_tutor_turns": 7,
+  "n_learner_turns": 7,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 322,
+  "total_output_tokens": 170,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Riya, talk me through your solution please",
+      "learner_turn": "To solve this problem, First Jamie wants to figure out how many calories his father needs to lose from . The answer is First Jamie wants to.",
+      "input_tokens": 20,
+      "output_tokens": 27,
+      "latency_ms": 307.82493098627754,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)excellent, you are correct that he needs to burn a total of 17500 calories in total. we know how many calories are being eaten and how many are being burnt. are you able to find the difference between these 2 numbers?",
+      "learner_turn": "To solve this problem, First Jamie wants to figure out how many calories his father needs to lose from . The answer is First Jamie wants to.",
+      "input_tokens": 53,
+      "output_tokens": 27,
+      "latency_ms": 542.7316461822058,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)if i have 1000 legos and use 600 to make a figure, whats the difference between those 2 numbers? what operation do you need to use?",
+      "learner_turn": "To solve this problem, First Jamie wants to figure out how many calories his father needs to lose from . The answer is First Jamie wants to.",
+      "input_tokens": 38,
+      "output_tokens": 27,
+      "latency_ms": 748.5545594536418,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)excellent. if we know that Jamie's farther eats 2500 calories and burns off 2000, are you able to find the difference between those 2 numbers?",
+      "learner_turn": "To solve this problem, First Jamie wants to figure out how many calories his father needs to lose from . The answer is First Jamie wants to.",
+      "input_tokens": 37,
+      "output_tokens": 27,
+      "latency_ms": 663.0258412588964,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)well done! so we now know that he burns 500 calories per day. we also know the total number of calories he needs to burn off. can you work out how many days this will take him?",
+      "learner_turn": "To solve this problem, First Jamie wants to figure out how many calories his father needs to lose from . The answer is First Jamie wants to.",
+      "input_tokens": 49,
+      "output_tokens": 27,
+      "latency_ms": 438.3292665809215,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(generic)well done!",
+      "learner_turn": "To solve this problem, First Jamie wants to figure out how many calories his father needs to lose from . The answer is First Jamie wants to.",
+      "input_tokens": 14,
+      "output_tokens": 27,
+      "latency_ms": 696.844789839985,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJamie's father gained 6.6 pounds over the holidays that he wants to lose so his pants will not be as snug. He asks Jamie to help him keep track of his calories. Jamie's father burns 2.9,746.9 calories of fat a day by doing light exercise. There are 3.7,615.9 calories in a pound of body fat. How many days will it take for Jamie's father to burn off 6.0 pounds if he does light exercise and sticks to eating 2819.5 calories a day?",
+      "learner_turn": "The answer to that problem would be 30.",
+      "input_tokens": 111,
+      "output_tokens": 8,
+      "latency_ms": 618.5072714218329,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

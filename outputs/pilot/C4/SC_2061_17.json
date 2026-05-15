@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_2061",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.152289",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 174,
+  "total_output_tokens": 108,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Riya, talk me through your solution",
+      "learner_turn": "To solve this problem, First find how many calories per hour Brandon gets from squirrels: 300 calories/. The answer is First find how many .",
+      "input_tokens": 19,
+      "output_tokens": 25,
+      "latency_ms": 312.9930305810892,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Lets look at your calculations. How many rabbits were caught per hour burning how many calories?",
+      "learner_turn": "To solve this problem, First find how many calories per hour Brandon gets from squirrels: 300 calories/. The answer is First find how many .",
+      "input_tokens": 28,
+      "output_tokens": 25,
+      "latency_ms": 271.07250539870853,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)Double check the question. Brandon can catch 6 squirrels or two rabbits",
+      "learner_turn": "To solve this problem, First find how many calories per hour Brandon gets from squirrels: 300 calories/. The answer is First find how many .",
+      "input_tokens": 24,
+      "output_tokens": 25,
+      "latency_ms": 549.7296705188836,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)You've correctly identified the calories burnt by catching each animal. Focus on finding the difference between 1600 and 1800 to find the overall answer",
+      "learner_turn": "To solve this problem, First find how many calories per hour Brandon gets from squirrels: 300 calories/. The answer is First find how many .",
+      "input_tokens": 36,
+      "output_tokens": 25,
+      "latency_ms": 372.6122325927446,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nBrandon can catch 8.2 squirrels or two rabbits in 1.3 hour. Each squirrel has 442.9 calories and each rabbit has 1061.3 calories. How many more calories will he get per hour if he catches squirrels instead of rabbits?",
+      "learner_turn": "The answer to that problem would be 46.",
+      "input_tokens": 67,
+      "output_tokens": 8,
+      "latency_ms": 713.6744616268352,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

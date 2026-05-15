@@ -1,0 +1,192 @@
+{
+  "scenario_id": "SC_0222",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.997757",
+  "n_tutor_turns": 17,
+  "n_learner_turns": 17,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 6546,
+  "total_output_tokens": 478,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nOne of the clubs at Georgia's school was selling carnations for a fundraising event. A carnation costs $0.50.  They also had a special where you could buy one dozen carnations for $4.00.  If Georgia sent a dozen carnations to each of her 5 teachers and bought one carnation for each of her 14 friends, how much money would she spend?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nDeAndre is a 7th grade student. He has problem with understanding of underlying ideas and principles and a recognition of when to apply them.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student can't grasp the concept of buying in bulk is cheaper than individual\n\nYOUR INITIAL INCORRECT ATTEMPT:\nOne dozen carnations cost $4.00, which means each carnation costs 4/12 = $0.33.\nGeorgia needs 5 x 12 = 60 carnations for her teachers.\nShe also needs 14 carnations for her friends.\nSo, she needs a total of 60 + 14 = 74 carnations.\nIf each carnation costs $0.50, then 74 carnations will cost 0.5 x 74 = $37.\n 37\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Please show me your working out",
+      "learner_turn": "One dozen carnations cost $4.00, which means each carnation costs 4/12 = $0.33.\nGeorgia needs 5 x 12 I used this approach because The student can't grasp the concept of buying in bulk is che.",
+      "input_tokens": 376,
+      "output_tokens": 35,
+      "latency_ms": 709.4018967834726,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Start at the beginning, show me your first calculation",
+      "learner_turn": "Okay, but I still think For the teachers, I multiplied 5 x 12 = 60, which means I ne. Maybe the answer is 23?",
+      "input_tokens": 379,
+      "output_tokens": 24,
+      "latency_ms": 787.0183902725565,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)How much is a dozen",
+      "learner_turn": "I think I see — so instead I should... A dozen carnations cost $4.00, so each carnation costs 4/12 . Does that mean the answer is 13?",
+      "input_tokens": 375,
+      "output_tokens": 27,
+      "latency_ms": 724.835694261204,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Read the problem carefully",
+      "learner_turn": "I think I see — so instead I should... I read the problem carefully and found that the club was sel. Does that mean the answer is 37?",
+      "input_tokens": 374,
+      "output_tokens": 28,
+      "latency_ms": 586.1727369237612,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)You can buy one dozen for $4.00",
+      "learner_turn": "I think I see — so instead I should... I read the problem carefully and noticed that the club was o. Does that mean the answer is 46?",
+      "input_tokens": 377,
+      "output_tokens": 28,
+      "latency_ms": 209.61775949697096,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)But each carnation costs $0.50",
+      "learner_turn": "I think I see — so instead I should... I read the problem carefully and noticed that the club was o. Does that mean the answer is 16?",
+      "input_tokens": 375,
+      "output_tokens": 28,
+      "latency_ms": 469.48630855569104,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)How can each carnation cost This means each carnation costs 4/12 = $0.33. when the maths problem tells you each one is $.0.5",
+      "learner_turn": "I think I see — so instead I should... I read the problem carefully and noticed that the club was o. Does that mean the answer is 22?",
+      "input_tokens": 393,
+      "output_tokens": 28,
+      "latency_ms": 349.85871529031874,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)You are making this problem harder than it needs to be. Read it again",
+      "learner_turn": "I think I see — so instead I should... I read the problem again and noticed that the club was selli. Does that mean the answer is 13?",
+      "input_tokens": 384,
+      "output_tokens": 28,
+      "latency_ms": 466.0318302785787,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)One dozen carnations is $4.00 and you need 5 for your teachers, do you understand this bit",
+      "learner_turn": "I think I see — so instead I should... Yes, I understand that one dozen carnations is $4.00 and I n. Does that mean the answer is 48?",
+      "input_tokens": 387,
+      "output_tokens": 28,
+      "latency_ms": 397.1982239818845,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)If I needed to buy 1 dozen eggs at $1.00 how much would I pay for the eggs",
+      "learner_turn": "I think I see — so instead I should... If you need to buy 1 dozen eggs at $1.00, then you would pay. Does that mean the answer is 50?",
+      "input_tokens": 388,
+      "output_tokens": 30,
+      "latency_ms": 751.7268323438983,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(telling)So you would not need to work out the price of each egg",
+      "learner_turn": "I think I see — so instead I should... No, you would not need to work out the price of each egg if . Does that mean the answer is 30?",
+      "input_tokens": 383,
+      "output_tokens": 31,
+      "latency_ms": 438.4515616514435,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(focus)So if your buying 1 dozen flowers for $4.00 how much would you pay for the dozen flowers",
+      "learner_turn": "I think I see — so instead I should... If you are buying 1 dozen flowers for $4.00, then you would . Does that mean the answer is 24?",
+      "input_tokens": 388,
+      "output_tokens": 29,
+      "latency_ms": 745.4225992121096,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(focus)Okay so now I need 5 dozen at $4.00 how much is that",
+      "learner_turn": "I think I see — so instead I should... If you are buying 5 dozen flowers for $4.00, then you would . Does that mean the answer is 25?",
+      "input_tokens": 383,
+      "output_tokens": 29,
+      "latency_ms": 720.233979455902,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "(focus)Great so we've spent $20 so far then we need 14 individual carnartions at $0.50",
+      "learner_turn": "I think I see — so instead I should... Yes, if we have spent $20 for the 5 dozen flowers, then we n. Does that mean the answer is 32?",
+      "input_tokens": 385,
+      "output_tokens": 30,
+      "latency_ms": 363.8904038234266,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 14,
+      "tutor_turn": "(focus)Great, can you get the 14 cheaper",
+      "learner_turn": "I think I see — so instead I should... Yes, if we buy one dozen carnations for $4.00, then each car. Does that mean the answer is 11?",
+      "input_tokens": 377,
+      "output_tokens": 28,
+      "latency_ms": 514.4400575738341,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 15,
+      "tutor_turn": "(focus)What about buying 2 dozen",
+      "learner_turn": "I think I see — so instead I should... If we buy 2 dozen carnations for $8.00, then each carnation . Does that mean the answer is 30?",
+      "input_tokens": 375,
+      "output_tokens": 28,
+      "latency_ms": 312.5100737672793,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 16,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nOne of the clubs at Georgia's school was selling carnations for a fundraising event. A carnation costs $0.7.  They also had a special where you could buy one dozen carnations for $5.4.  If Georgia sent a dozen carnations to each of her 7.2 teachers and bought one carnation for each of her 18.8 friends, how much money would she spend?",
+      "learner_turn": "Hmm, let me try. The student can't grasp the concept of b I think the answer might be 15.",
+      "input_tokens": 447,
+      "output_tokens": 19,
+      "latency_ms": 298.062894968777,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

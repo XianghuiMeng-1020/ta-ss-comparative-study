@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0243",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.008427",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 286,
+  "total_output_tokens": 318,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Steven, please tell me about your solution",
+      "learner_turn": "To solve this problem, There are 30 games total because 20 + 10 = 30\nThey need to win 20 games because . The answer is There are 30 games t.",
+      "input_tokens": 20,
+      "output_tokens": 31,
+      "latency_ms": 349.9901640320235,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)how many games are there in total in a season?",
+      "learner_turn": "To solve this problem, There are 30 games total because 20 + 10 = 30\nThey need to win 20 games because . The answer is There are 30 games t.",
+      "input_tokens": 22,
+      "output_tokens": 31,
+      "latency_ms": 349.83238415739214,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)so how many do they need to win?",
+      "learner_turn": "To solve this problem, There are 30 games total because 20 + 10 = 30\nThey need to win 20 games because . The answer is There are 30 games t.",
+      "input_tokens": 20,
+      "output_tokens": 31,
+      "latency_ms": 246.6980888350812,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)correct, and how many have they won already?",
+      "learner_turn": "To solve this problem, There are 30 games total because 20 + 10 = 30\nThey need to win 20 games because . The answer is There are 30 games t.",
+      "input_tokens": 20,
+      "output_tokens": 31,
+      "latency_ms": 315.71707734279823,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)so how many more to reach 20?",
+      "learner_turn": "To solve this problem, There are 30 games total because 20 + 10 = 30\nThey need to win 20 games because . The answer is There are 30 games t.",
+      "input_tokens": 19,
+      "output_tokens": 31,
+      "latency_ms": 600.9288000400738,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(generic)great, there is your solution",
+      "learner_turn": "To solve this problem, There are 30 games total because 20 + 10 = 30\nThey need to win 20 games because . The answer is There are 30 games t.",
+      "input_tokens": 17,
+      "output_tokens": 31,
+      "latency_ms": 448.6064208517769,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)why do you think 7?",
+      "learner_turn": "To solve this problem, There are 30 games total because 20 + 10 = 30\nThey need to win 20 games because . The answer is There are 30 games t.",
+      "input_tokens": 17,
+      "output_tokens": 31,
+      "latency_ms": 415.3019799005864,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)explain why you included that last step? you've already told me that they need to win 8 more games",
+      "learner_turn": "To solve this problem, There are 30 games total because 20 + 10 = 30\nThey need to win 20 games because . The answer is There are 30 games t.",
+      "input_tokens": 31,
+      "output_tokens": 31,
+      "latency_ms": 658.6495473420186,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)you don't need to consider how many games are left in the season",
+      "learner_turn": "To solve this problem, There are 30 games total because 20 + 10 = 30\nThey need to win 20 games because . The answer is There are 30 games t.",
+      "input_tokens": 25,
+      "output_tokens": 31,
+      "latency_ms": 205.0724625309965,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(generic)correct",
+      "learner_turn": "To solve this problem, There are 30 games total because 20 + 10 = 30\nThey need to win 20 games because . The answer is There are 30 games t.",
+      "input_tokens": 13,
+      "output_tokens": 31,
+      "latency_ms": 269.8856807482007,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe Giants baseball team is trying to make their league playoff. They have played 27.5 games and won 17.2 of them. To make the playoffs, they need to win 2.5/3.7 of their games over the season. If there are 14.6 games left, how many do they have to win to make the playoffs?",
+      "learner_turn": "The answer to that problem would be 27.",
+      "input_tokens": 82,
+      "output_tokens": 8,
+      "latency_ms": 226.79627752982415,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

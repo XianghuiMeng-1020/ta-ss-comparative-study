@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0353",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.025605",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 4712,
+  "total_output_tokens": 294,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nNancy is filling an aquarium for her fish. She fills it halfway and goes to answer the door. While she's gone, her cat knocks the aquarium over and spills half the water in it. Then Nancy comes back and triples the amount of water in the aquarium. If the aquarium is 4 feet long, 6 feet wide, and 3 feet high, how many cubic feet of water are in the aquarium?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nJian is a 7th grade student. He struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThey are stupid. Nancy tripled the water, and he couldn't see how this wasn't the same as adding 3 times the amount in\n\nYOUR INITIAL INCORRECT ATTEMPT:\nThe aquarium has a volume of 4 x 6 x 3 = 72 cubic feet.\nWhen Nancy fills it halfway, she fills it with 72/2 = 36 cubic feet of water.\nWhen the cat spills half of that, there are 36/2 = 18 cubic feet of water left.\nWhen Nancy triples that amount, she adds 18 x 3 = 54 cubic feet of water.\nThe aquarium now has 18 + 54 = 72 cubic feet of water.\n 72\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jian, can you explain your working please?",
+      "learner_turn": "The aquarium has a volume of 4 x 6 x 3 = 72 cubic feet.\nWhen Nancy fills it halfway, she fills it wi I used this approach because They are stupid. Nancy tripled the water, and he couldn't se.",
+      "input_tokens": 411,
+      "output_tokens": 40,
+      "latency_ms": 440.649913831472,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)You're right it holds 72 cubic feet, and there was 18 in there after the cat knocked it over. Then what did Nancy do?",
+      "learner_turn": "Okay, but I still think Nancy tripled the amount of water in the aquarium. So she ad. Maybe the answer is 35?",
+      "input_tokens": 427,
+      "output_tokens": 22,
+      "latency_ms": 729.9695623497784,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)What is 72/18?",
+      "learner_turn": "I think I see — so instead I should... 72/18 = 4.. Does that mean the answer is 19?",
+      "input_tokens": 406,
+      "output_tokens": 19,
+      "latency_ms": 366.0653105378735,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)So if Nancy has increased the water from 18 to 72, she has quadrupled it right, not tripled?",
+      "learner_turn": "I think I see — so instead I should... Yes, that's correct. Nancy quadrupled the amount of water in. Does that mean the answer is 10?",
+      "input_tokens": 421,
+      "output_tokens": 26,
+      "latency_ms": 221.6935114839725,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)But the question specifically says she tripled it,",
+      "learner_turn": "I think I see — so instead I should... You're right, the question does say she tripled it. I apolog. Does that mean the answer is 10?",
+      "input_tokens": 411,
+      "output_tokens": 27,
+      "latency_ms": 389.0613133962613,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)But increasing from 18 to 72 is not tripling.\nYou are reading the question as though she added tripe that amount of water. But that's not what she did",
+      "learner_turn": "I think I see — so instead I should... I understand now. Nancy tripled the amount of water in the a. Does that mean the answer is 21?",
+      "input_tokens": 432,
+      "output_tokens": 28,
+      "latency_ms": 510.5029319371071,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)But you are still quadrupling it, because you are increasing the water in the aquarium from 18 to 72. That is quadrupling it, not tripling it. The question doesn't say she added 3 times 18, it says she added water until she got a total of 3 x 18",
+      "learner_turn": "I think I see — so instead I should... I understand now. Nancy tripled the amount of water in the a. Does that mean the answer is 15?",
+      "input_tokens": 452,
+      "output_tokens": 28,
+      "latency_ms": 317.83757752085614,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Adding 3 times the amount of something, is quadrupling it. Adding 2 times something would be tripling it",
+      "learner_turn": "I think I see — so instead I should... I understand now. Nancy tripled the amount of water in the a. Does that mean the answer is 18?",
+      "input_tokens": 421,
+      "output_tokens": 28,
+      "latency_ms": 606.1703772822309,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)She added 18X2, but there was only 18 in there already. So why are you adding 36?",
+      "learner_turn": "I think I see — so instead I should... I understand now. Nancy tripled the amount of water in the a. Does that mean the answer is 45?",
+      "input_tokens": 420,
+      "output_tokens": 28,
+      "latency_ms": 797.3240361707718,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)There is 18 in there, and she adds 36, ok? So what does 18 + 36 equal?",
+      "learner_turn": "I think I see — so instead I should... 18 + 36 = 54 cubic feet. Nancy tripled the amount of water i. Does that mean the answer is 30?",
+      "input_tokens": 420,
+      "output_tokens": 30,
+      "latency_ms": 442.6904210773665,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nNancy is filling an aquarium for her fish. She fills it halfway and goes to answer the door. While she's gone, her cat knocks the aquarium over and spills half the water in it. Then Nancy comes back and triples the amount of water in the aquarium. If the aquarium is 5.8 feet long, 7.7 feet wide, and 4.2 feet high, how many cubic feet of water are in the aquarium?",
+      "learner_turn": "Hmm, let me try. They are stupid. Nancy tripled the water I think the answer might be 10.",
+      "input_tokens": 491,
+      "output_tokens": 18,
+      "latency_ms": 694.7264005546351,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

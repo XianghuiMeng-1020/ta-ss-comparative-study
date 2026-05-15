@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1358",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.233624",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1514,
+  "total_output_tokens": 104,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nA group of 30 tourists sets out on a walking tour of the rainforest. Two tourists are eaten by anacondas, then half the remaining tourists try to pet poisonous dart frogs and get poisoned. If only 1/7 of the poisoned tourists recovered, how many tourists are left at the end of the tour?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nScott is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nwrong operation at the very last step\n\nYOUR INITIAL INCORRECT ATTEMPT:\nTwo tourists were eaten by anacondas, so there are 30-2 = 28 tourists left.\nHalf of the remaining tourists (28/2 = 14) got poisoned, so there are 28-14 = 14 tourists left.\nOnly 1/7 of the poisoned tourists recovered, so 1/7 x 14 = 2 tourists recovered.\nTherefore, there are 14-2 = 12 tourists left at the end of the tour.\n 12\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)you are almost right!!",
+      "learner_turn": "Two tourists were eaten by anacondas, so there are 30-2 = 28 tourists left.\nHalf of the remaining to I used this approach because wrong operation at the very last step.",
+      "input_tokens": 360,
+      "output_tokens": 31,
+      "latency_ms": 638.6299112845286,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)well we have the 14 leftover tourists and 2 who recovered...what does that tell us?",
+      "learner_turn": "Okay, but I still think So the total number of tourists at the end of the tour is 16. Maybe the answer is 33?",
+      "input_tokens": 371,
+      "output_tokens": 24,
+      "latency_ms": 599.0502686722793,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)great!",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. So the answer is 14 tourists left at the end of t. Does that mean the answer is 49?",
+      "input_tokens": 357,
+      "output_tokens": 31,
+      "latency_ms": 615.9139231303452,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA group of 36.7 tourists sets out on a walking tour of the rainforest. Two tourists are eaten by anacondas, then half the remaining tourists try to pet poisonous dart frogs and get poisoned. If only 1.2/9.2 of the poisoned tourists recovered, how many tourists are left at the end of the tour?",
+      "learner_turn": "Hmm, let me try. wrong operation at the very last step I think the answer might be 19.",
+      "input_tokens": 426,
+      "output_tokens": 18,
+      "latency_ms": 429.7656615765658,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

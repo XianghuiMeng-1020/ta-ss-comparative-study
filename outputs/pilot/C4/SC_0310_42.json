@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_0310",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.018736",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 151,
+  "total_output_tokens": 88,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jordy, could you please walk me through your solution?",
+      "learner_turn": "To solve this problem, A grade:32(.25)=8\n32-8=24 students remaining\nB/C grade:24/4=6\n24-6=18 students f. The answer is A grade:32(.25)=8\n32.",
+      "input_tokens": 22,
+      "output_tokens": 20,
+      "latency_ms": 529.998984263857,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)But you already subtracted 8 once. Why are you subtracting again in the final step?",
+      "learner_turn": "To solve this problem, A grade:32(.25)=8\n32-8=24 students remaining\nB/C grade:24/4=6\n24-6=18 students f. The answer is A grade:32(.25)=8\n32.",
+      "input_tokens": 27,
+      "output_tokens": 20,
+      "latency_ms": 352.5451282525204,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Subtract 6 from 24. Is it 10?",
+      "learner_turn": "To solve this problem, A grade:32(.25)=8\n32-8=24 students remaining\nB/C grade:24/4=6\n24-6=18 students f. The answer is A grade:32(.25)=8\n32.",
+      "input_tokens": 19,
+      "output_tokens": 20,
+      "latency_ms": 381.53077264764266,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)No. it is 24-6=18",
+      "learner_turn": "To solve this problem, A grade:32(.25)=8\n32-8=24 students remaining\nB/C grade:24/4=6\n24-6=18 students f. The answer is A grade:32(.25)=8\n32.",
+      "input_tokens": 16,
+      "output_tokens": 20,
+      "latency_ms": 776.5524799372533,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThere are 40.6 students in a statistics course.  34.5 percent of the class received an A.  1.3/5.3 of the remaining students got either a B or C, and the rest of the students failed.  How many students failed?",
+      "learner_turn": "The answer to that problem would be 37.",
+      "input_tokens": 67,
+      "output_tokens": 8,
+      "latency_ms": 404.0921779436527,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

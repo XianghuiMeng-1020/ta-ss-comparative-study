@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_0736",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.105855",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 192,
+  "total_output_tokens": 96,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Jordy, please can you talk me through your solution?",
+      "learner_turn": "Sure. I started by calculating how much time Grayson had to answer the questions. He had 120 minutes, so I divided that ",
+      "input_tokens": 19,
+      "output_tokens": 22,
+      "latency_ms": 567.9635010464933,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)How long does it take Grayson to answer 1 question?",
+      "learner_turn": "Grayson takes 2 minutes to answer one question.",
+      "input_tokens": 19,
+      "output_tokens": 8,
+      "latency_ms": 588.1166966642211,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)So in 2 minutes he could answer how many questions?",
+      "learner_turn": "In 2 minutes, Grayson could answer 1 question.",
+      "input_tokens": 19,
+      "output_tokens": 8,
+      "latency_ms": 630.421447692198,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Sorry, in 2 hours Grayson could answer how many questions?",
+      "learner_turn": "In 2 hours, Grayson could answer 120/2 = 60 questions.",
+      "input_tokens": 19,
+      "output_tokens": 10,
+      "latency_ms": 788.5460784399463,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)That's correct. How many questions were on the test altogether?",
+      "learner_turn": "The test had a total of 100 questions.",
+      "input_tokens": 19,
+      "output_tokens": 8,
+      "latency_ms": 394.3868640228101,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)So how many did Grayson not answer?",
+      "learner_turn": "Grayson left 100 - 60 = 40 questions unanswered.",
+      "input_tokens": 16,
+      "output_tokens": 9,
+      "latency_ms": 685.9015078652069,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(generic)That's correct.",
+      "learner_turn": "Sure. I started by calculating how much time Grayson had to answer the questions. He had 120 minutes, so I divided that ",
+      "input_tokens": 11,
+      "output_tokens": 22,
+      "latency_ms": 574.1119532788157,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nGrayson has 145.9 questions on a test. He answers some of the questions for 2.8 hours, taking two minutes for each answer, then realizes he doesn't know the rest of the questions. How many questions does Grayson leave unanswered when he submits his test?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 70,
+      "output_tokens": 9,
+      "latency_ms": 471.9668938062002,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

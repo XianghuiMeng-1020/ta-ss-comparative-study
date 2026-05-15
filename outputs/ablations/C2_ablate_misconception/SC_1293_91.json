@@ -1,0 +1,113 @@
+{
+  "scenario_id": "SC_1293",
+  "condition": "C2_ablate_misconception",
+  "condition_label": "Student Simulation",
+  "seed": 91,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:05.057720",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3226,
+  "total_output_tokens": 270,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nIt takes Polly 20 minutes to cook breakfast every day. She spends 5 minutes cooking lunch. She spends 10 minutes cooking dinner 4 days this week. The rest of the days she spends 30 minutes cooking dinner. How many minutes does Polly spend cooking this week?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nSteven is a 7th grade student. He has difficulty determining which pieces of information are relevant and which are irrelevant to solving the problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nCan't do bodmas, addition or multiplication\n\nYOUR INITIAL INCORRECT ATTEMPT:\nPolly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the first four days of the week.\nShe spends 30 minutes cooking dinner on the remaining 3 days of the week, which is a total of 30 x 3 = 90 minutes.\nTherefore, Polly spends 65 + 90 = 155 minutes cooking this week.\n 155\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)How long does polly spend cooking",
+      "learner_turn": "Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the first four days of the week.\nShe spends 30  I used this approach because Can't do bodmas, addition or multiplication.",
+      "input_tokens": 353,
+      "output_tokens": 35,
+      "latency_ms": 517.3720360978546,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How long at breakfast",
+      "learner_turn": "Okay, but I still think Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir. Maybe the answer is 25?",
+      "input_tokens": 351,
+      "output_tokens": 26,
+      "latency_ms": 345.4705568214561,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)So that is what each week",
+      "learner_turn": "I think I see — so instead I should... Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir. Does that mean the answer is 22?",
+      "input_tokens": 353,
+      "output_tokens": 32,
+      "latency_ms": 591.6182061861239,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)How long cooking breakfast this week",
+      "learner_turn": "I think I see — so instead I should... Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir. Does that mean the answer is 48?",
+      "input_tokens": 353,
+      "output_tokens": 32,
+      "latency_ms": 517.427166436629,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)How long cooking dinner this week",
+      "learner_turn": "I think I see — so instead I should... Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir. Does that mean the answer is 5?",
+      "input_tokens": 353,
+      "output_tokens": 32,
+      "latency_ms": 677.5793149926377,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Use bodmas on that dinner sum",
+      "learner_turn": "I think I see — so instead I should... Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir. Does that mean the answer is 37?",
+      "input_tokens": 353,
+      "output_tokens": 32,
+      "latency_ms": 235.77138197643154,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)(10x4) + (30x3) = 130",
+      "learner_turn": "I think I see — so instead I should... Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir. Does that mean the answer is 36?",
+      "input_tokens": 352,
+      "output_tokens": 32,
+      "latency_ms": 376.0885194267207,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Wrong",
+      "learner_turn": "I think I see — so instead I should... Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir. Does that mean the answer is 14?",
+      "input_tokens": 348,
+      "output_tokens": 32,
+      "latency_ms": 747.654165301291,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIt takes Polly 29.6 minutes to cook breakfast every day. She spends 6.7 minutes cooking lunch. She spends 12.0 minutes cooking dinner 5.4 days this week. The rest of the days she spends 36.7 minutes cooking dinner. How many minutes does Polly spend cooking this week?",
+      "learner_turn": "Hmm, let me try. Can't do bodmas, addition or multiplicat I think the answer might be 39.",
+      "input_tokens": 410,
+      "output_tokens": 17,
+      "latency_ms": 500.75958409623996,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C2"
+}

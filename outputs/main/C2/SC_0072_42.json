@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_0072",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.964315",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2415,
+  "total_output_tokens": 134,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nA man is returning home from work and trying to decide which route to take.  His first route option includes 3 stoplights.  This route will take him 10 minutes if all three lights are green, but each light that is red will add 3 minutes to the trip.  The second route does not include any stoplights and takes 14 minutes.  If the man chooses the first route, how much longer will his trip be if all 3 stoplights are red?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nDeAndre is a 7th grade student. He struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nthere was a conceptual error in the begining, as the student was comparing the time taken between two scenarios of the first route instead of comparing the first and second route. later on after the concept was cleared the student stuck with an answer even after the terms in the subtraction were changed.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nIf all three lights are green, the trip will take 10 minutes.\nIf one light is red, the trip will take 10 + 3 = 13 minutes.\nIf two lights are red, the trip will take 10 + 3 + 3 = 16 minutes.\nIf all three lights are red, the trip will take 10 + 3 + 3 + 3 = 19 minutes.\nSo, if all three stoplights are red, the trip will be 19 - 10 = 9 minutes longer.\n 9\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi , could you please walk me through your solution?",
+      "learner_turn": "If all three lights are green, the trip will take 10 minutes.\nIf one light is red, the trip will tak I used this approach because there was a conceptual error in the begining, as the student.",
+      "input_tokens": 457,
+      "output_tokens": 37,
+      "latency_ms": 290.686182677426,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)okay you calculated the time that would take if all the signals are red is 19. but you see the last sentence of the question asks you how much longer will it take if all three lights are green. this implies that how much longer will it take as compared to the second route? remember that the man is deciding which route to take?",
+      "learner_turn": "Okay, but I still think If all three lights are green, the trip will take 10 minutes. Maybe the answer is 18?",
+      "input_tokens": 511,
+      "output_tokens": 22,
+      "latency_ms": 496.0132160123521,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)how 9 minutes?",
+      "learner_turn": "I think I see — so instead I should... If all three lights are green, the trip will take 10 minutes. Does that mean the answer is 14?",
+      "input_tokens": 450,
+      "output_tokens": 28,
+      "latency_ms": 477.71691855338844,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)19 - 14 = 5 minutes.",
+      "learner_turn": "I think I see — so instead I should... If all three lights are green, the trip will take 10 minutes. Does that mean the answer is 37?",
+      "input_tokens": 453,
+      "output_tokens": 28,
+      "latency_ms": 415.0080064735839,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA man is returning home from work and trying to decide which route to take.  His first route option includes 3.8 stoplights.  This route will take him 14.7 minutes if all three lights are green, but each light that is red will add 3.7 minutes to the trip.  The second route does not include any stoplights and takes 19.7 minutes.  If the man chooses the first route, how much longer will his trip be if all 3.8 stoplights are red?",
+      "learner_turn": "Hmm, let me try. there was a conceptual error in the begi I think the answer might be 16.",
+      "input_tokens": 544,
+      "output_tokens": 19,
+      "latency_ms": 459.45474932664547,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

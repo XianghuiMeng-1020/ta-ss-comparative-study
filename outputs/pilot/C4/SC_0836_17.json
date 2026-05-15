@@ -1,0 +1,152 @@
+{
+  "scenario_id": "SC_0836",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.038722",
+  "n_tutor_turns": 13,
+  "n_learner_turns": 13,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 558,
+  "total_output_tokens": 356,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)show me how you worked thsi out please?",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 20,
+      "output_tokens": 29,
+      "latency_ms": 756.3193161646723,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)show me how you worked this out please?",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 20,
+      "output_tokens": 29,
+      "latency_ms": 266.1386896724029,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)what did you do here?",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 17,
+      "output_tokens": 29,
+      "latency_ms": 448.1514073792988,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)i can see you need to use ratios why have you added 3 and 4 because a ratio is how much one side is in relative to the other?",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 41,
+      "output_tokens": 29,
+      "latency_ms": 221.85571251175855,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)ono that is not how ratios work. it explains how much one side is compared to the other so for example 2:1 ratio if you are in a football stadium there are 2 x as many home fans in comparison to the 1 x amount of away fans. the total amount of fans in the stadium is 9999 therefore 2 parts of 9999 = the home fans leaving 1 part of the 9999= the away fans. use this concept to help you solve the problem",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 97,
+      "output_tokens": 29,
+      "latency_ms": 690.1382475152241,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)ok you have now correctly worked out the total amount of girl = 60 and boys = 45. the next step tells us to focus on percentages - do you understand how to calcaulate 20 per cent of the boys to work out the amount of teachers?",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 59,
+      "output_tokens": 29,
+      "latency_ms": 654.1774959246482,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)a percentage is taking the big number and dividing it to work out the percentage for example. a necklace costs £4.50 is has a 50 per cent of tag 4.50-50 per cent = £2.25  use this to help you",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 51,
+      "output_tokens": 29,
+      "latency_ms": 539.3357975454428,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)yes you are correct there are 9 teachers so 2+3+4=10 use that to work out the amount of girls + the amount of boys + the amount of teachers+ to calculate how many people are at the dance pelase",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 51,
+      "output_tokens": 29,
+      "latency_ms": 545.717450890374,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)the 105 is the combined amount of boys and girls so please dont allow for the twice in your calculation",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 32,
+      "output_tokens": 29,
+      "latency_ms": 533.0020481389361,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)you have already added the teachers as 9 so why are you adding them again?",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 27,
+      "output_tokens": 29,
+      "latency_ms": 550.0854663503262,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(focus)yes you have added the amount of teachers so please deduct 9 from your total as this has already been factored into your euqation",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 36,
+      "output_tokens": 29,
+      "latency_ms": 472.2013462830091,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(focus)the answer 114 is the correct amount you do not need to add any more steps by either adding 9 more or taking away the 9 - can you see this now?",
+      "learner_turn": "To solve this problem, 60 girls represent 4 parts, so one part of students is 60 / 4 = 15 students.\nThe. The answer is 60 girls represent 4.",
+      "input_tokens": 44,
+      "output_tokens": 29,
+      "latency_ms": 687.8031706455815,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe ratio of boys to girls at the dance was 3.8:4.8. There were 75.8 girls at the dance. The teachers were 25.9% of the number of boys. How many people were at the dance?",
+      "learner_turn": "The answer to that problem would be 16.",
+      "input_tokens": 63,
+      "output_tokens": 8,
+      "latency_ms": 416.16782338680105,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

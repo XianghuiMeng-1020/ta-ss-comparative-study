@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1883",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.129651",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1891,
+  "total_output_tokens": 134,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nAbigail has a report due tomorrow which needs to be 1000 words in length. Abigail can type 300 words in half an hour. If she has already written 200 words, how many more minutes will it take her to finish the report?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nEmily is a 7th grade student. She struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nMade allowance for the 200 words already typed twice.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nAbigail still needs to type 1000 - 200 = 800 words.\nIn one hour, Abigail can type 2 x 300 = 600 words.\nIn one minute, Abigail can type 600/60 = 10 words.\nTherefore, it will take Abigail 800/10 = 80 minutes to finish typing the report.\nSince she has already spent some time typing, it will take her 80 - 30 = 50 more minutes to finish the report.\n 50\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Hi Emily.  Your solution is very good, but not entirely correct.  At the beginning you worked out how many words Abigail had left to type, correct?",
+      "learner_turn": "Abigail still needs to type 1000 - 200 = 800 words.\nIn one hour, Abigail can type 2 x 300 = 600 word I used this approach because Made allowance for the 200 words already typed twice..",
+      "input_tokens": 379,
+      "output_tokens": 37,
+      "latency_ms": 501.2206080753311,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Which is correct.  However, at the end of your solution, in the final paragraph, you also made allowances for her having typed some already, correct?",
+      "learner_turn": "Okay, but I still think Yes, I accounted for the 200 words she had already typed and. Maybe the answer is 39?",
+      "input_tokens": 378,
+      "output_tokens": 22,
+      "latency_ms": 747.4739635455759,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Do you think you needed to take these 200 words into account twice?",
+      "learner_turn": "I think I see — so instead I should... No, I only needed to take the 200 words into account once. I. Does that mean the answer is 28?",
+      "input_tokens": 366,
+      "output_tokens": 29,
+      "latency_ms": 228.05689911006402,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)Perfect, well done.",
+      "learner_turn": "I think I see — so instead I should... Yes, I worked out that Abigail had 800 words left to type.. Does that mean the answer is 19?",
+      "input_tokens": 356,
+      "output_tokens": 28,
+      "latency_ms": 429.2913656694627,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAbigail has a report due tomorrow which needs to be 1366.4 words in length. Abigail can type 387.9 words in half an hour. If she has already written 270.9 words, how many more minutes will it take her to finish the report?",
+      "learner_turn": "Hmm, let me try. Made allowance for the 200 words already I think the answer might be 38.",
+      "input_tokens": 412,
+      "output_tokens": 18,
+      "latency_ms": 271.6155656125299,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

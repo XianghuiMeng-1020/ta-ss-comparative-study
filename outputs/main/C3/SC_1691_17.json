@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1691",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.291722",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 244,
+  "total_output_tokens": 130,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Luca, please talk me thorugh your solution",
+      "learner_turn": "Sure. I started by figuring out that there were 10 Ford trucks because there were twice as many Ford trucks as Toyota tr",
+      "input_tokens": 17,
+      "output_tokens": 23,
+      "latency_ms": 291.8940702687981,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)a good try. lets take it a step at a time. we dont yet know how many toyota trucks there are. We know there are 5 VW Bugs and that this is half the number of Toyota trucks. can you work out the number of toyota trucks?",
+      "learner_turn": "Yes, I can. Since there are 5 Volkswagen Bugs and they are half as many as the Toyota trucks, then the number of Toyota ",
+      "input_tokens": 56,
+      "output_tokens": 24,
+      "latency_ms": 701.9989366751117,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)excellent. as you corrcetly said, there are twice as many Ford trucks as Toyota trucks. can you double the number of Toyota trucks?",
+      "learner_turn": "Yes, I can. Since there are 10 Toyota trucks, then there must be twice as many Ford trucks, which would be 10 x 2 = 20 F",
+      "input_tokens": 32,
+      "output_tokens": 27,
+      "latency_ms": 528.1409529419939,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)excellent., what do we know about the number of Ford trucks in relation to the number of Dodge trucks?",
+      "learner_turn": "We know that there are one-third as many Ford trucks as Dodge trucks, so if there are 20 Ford trucks, then there must be",
+      "input_tokens": 28,
+      "output_tokens": 24,
+      "latency_ms": 418.91287501208535,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)well done!",
+      "learner_turn": "Sure. I started by figuring out that there were 10 Ford trucks because there were twice as many Ford trucks as Toyota tr",
+      "input_tokens": 11,
+      "output_tokens": 23,
+      "latency_ms": 744.4081401955036,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThere are one-third as many Ford trucks as Dodge trucks in the parking lot of the Taco Castle.  But there are twice as many Ford trucks as Toyota trucks in this parking lot, and there are half as many Volkswagen Bugs as there are Toyota trucks in this same parking lot.  If there are 7.1 Volkswagon Bugs in the parking lot, how many Dodge trucks are in the parking lot of the Taco Castle?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 100,
+      "output_tokens": 9,
+      "latency_ms": 684.9949252115564,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

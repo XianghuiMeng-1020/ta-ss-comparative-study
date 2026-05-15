@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0561",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.085706",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 403,
+  "total_output_tokens": 227,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)show me how you worked thi sout please?",
+      "learner_turn": "To make one 8-ounce glass of chocolate milk, Charles needs 6.5 + 1.5 = 8 ounces of ingredients. Therefore, he can make a",
+      "input_tokens": 17,
+      "output_tokens": 23,
+      "latency_ms": 306.0570477144304,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)ok i can see how you have approached this but we need to ascertain how much he can make with the supplies he actually has. so please consider this",
+      "learner_turn": "To calculate how much chocolate milk Charles can make with his supplies, we need to subtract the amount of ingredients u",
+      "input_tokens": 38,
+      "output_tokens": 21,
+      "latency_ms": 442.30534729365695,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)can we break it down into smaller steps rather than looking at the 2 ingredients combined. how much milk does he have enough of to make how much chocolate milk?",
+      "learner_turn": "To calculate how much chocolate milk Charles can make with his milk, we need to divide the amount of milk he has by the ",
+      "input_tokens": 39,
+      "output_tokens": 24,
+      "latency_ms": 548.9090400199376,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)you over overcomplicating this please wait until i prompted you for the next step . yes he has enough milk to make 20 glasses. how much chocolate syrup does he have t o make the chocolate milk?",
+      "learner_turn": "Charles has enough chocolate syrup to make 40 glasses of chocolate milk. To calculate this, we need to divide the amount",
+      "input_tokens": 46,
+      "output_tokens": 21,
+      "latency_ms": 455.4312835924459,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)ok so if he has enough ingredients to make 20 glasses of chocolate milk. ho wmuch do we know in ounces each milk holds ?",
+      "learner_turn": "Each glass of chocolate milk requires 8 ounces of ingredients, 6.5 ounces of milk and 1.5 ounces of chocolate syrup. The",
+      "input_tokens": 34,
+      "output_tokens": 21,
+      "latency_ms": 644.0583878935274,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)if you read the question it only asks you how much in ounces of chocolate milk he will drink?",
+      "learner_turn": "Charles can drink a total of 20 glasses of chocolate milk, which is equal to 160 ounces of milk and 320 ounces of chocol",
+      "input_tokens": 28,
+      "output_tokens": 24,
+      "latency_ms": 700.3978854570685,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)it doesnt ask about the syrup the ingredients have already been combined to make the chocolate milk. so 20 glasses = how many ounces of chocolate milk only?",
+      "learner_turn": "Charles can drink a total of 20 glasses of chocolate milk, which is equal to 480 ounces of chocolate milk.",
+      "input_tokens": 37,
+      "output_tokens": 20,
+      "latency_ms": 708.4867675118489,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)20 glasses * 8 ounces =the amount of chocolate milk",
+      "learner_turn": "Charles can drink a total of 20 glasses of chocolate milk, which is equal to 160 ounces of milk and 320 ounces of chocol",
+      "input_tokens": 19,
+      "output_tokens": 24,
+      "latency_ms": 322.23394637340664,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)no it is ? ounces as you have already used the chocolate syrup to make th emilk into chocolate flavour",
+      "learner_turn": "Charles can drink a total of 20 glasses of chocolate milk, which is equal to 480 ounces of chocolate milk.",
+      "input_tokens": 29,
+      "output_tokens": 20,
+      "latency_ms": 376.3721348299423,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)no it is 160 ounces because 20 *8 =?",
+      "learner_turn": "Charles can drink a total of 20 glasses of chocolate milk, which is equal to 160 ounces of chocolate milk.",
+      "input_tokens": 18,
+      "output_tokens": 20,
+      "latency_ms": 222.69197778672316,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nCharles is wondering how much chocolate milk he can make with all the supplies he finds in the fridge. He is going to keep drinking 9.8-ounce glasses until he uses up all the ingredients. Each glass must contain 9.4 ounces of milk and 2.1 ounces of chocolate syrup. If he has 168.1 ounces of milk and 86.0 ounces of chocolate syrup, how many total ounces ounce of chocolate milk will he drink?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 98,
+      "output_tokens": 9,
+      "latency_ms": 631.1605616332375,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1486",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.265560",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1722,
+  "total_output_tokens": 145,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nJames injured his ankle and decides to slowly start working back up to his previous running goals and then surpass them.  Before the injury, he was able to run 100 miles per week.  He wants to get up to 20% more than that total in 280 days and each week he will increase miles walked in the week by the same amount.  How many miles does he need to add per week?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nFirst, we need to find out what his goal is: \n\n100 miles per week x 1.2 = 120 miles per week \n\nNow we need to find out how much he needs to increase his mileage each week: \n\n(120 miles per week - 100 miles per week) ÷ (280 days ÷ 7 days per week) \n\n= 20 miles per week ÷ 40 weeks \n\n= 0.5 miles per week \n\nSo, James needs to add 0.5 miles per week to his running distance in order to reach his goal of running 120 miles per week within 280 days. \n\n 0.5\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Could you check your calculations, do you feel you have made a slight error",
+      "learner_turn": "So I tried this problem. My approach was: First, we need to find out what his goal is: \n\n100 miles per week x 1.2 = 120 mi. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 416,
+      "output_tokens": 40,
+      "latency_ms": 506.8809674987616,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)And you can see how you made that error",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 9? Let me redo: Yes, I didn't realize that 280 days was equivalent to 40 wee",
+      "input_tokens": 411,
+      "output_tokens": 30,
+      "latency_ms": 781.7759728662876,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)Well done",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 8? Let me redo: Great! I'm glad I was able to get the correct answer.",
+      "input_tokens": 404,
+      "output_tokens": 29,
+      "latency_ms": 663.9298764803693,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJames injured his ankle and decides to slowly start working back up to his previous running goals and then surpass them.  Before the injury, he was able to run 131.9 miles per week.  He wants to get up to 24.8% more than that total in 385.0 days and each week he will increase miles walked in the week by the same amount.  How many miles does he need to add per week?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: James injured his ankle and decides to slowly star... I get approximately 35 as my answer. Does that seem right?",
+      "input_tokens": 491,
+      "output_tokens": 46,
+      "latency_ms": 370.3117699177298,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

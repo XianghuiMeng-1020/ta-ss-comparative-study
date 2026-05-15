@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_2061",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.151093",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1769,
+  "total_output_tokens": 116,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nBrandon can catch 6 squirrels or two rabbits in 1 hour. Each squirrel has 300 calories and each rabbit has 800 calories. How many more calories will he get per hour if he catches squirrels instead of rabbits?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nRiya is a 7th grade student. She struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nMisreading information\n\nYOUR INITIAL INCORRECT ATTEMPT:\nIf Brandon catches 6 squirrels in an hour, he catches 6/2 = 3 rabbits in an hour.\nIf he catches 6 squirrels, he gets 6 x 300 = 1800 calories.\nIf he catches 3 rabbits, he gets 3 x 800 = 2400 calories.\nHe gets 2400-1800 = 600 more calories per hour if he catches rabbits instead of squirrels.\n 600\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Riya, talk me through your solution",
+      "learner_turn": "If Brandon catches 6 squirrels in an hour, he catches 6/2 = 3 rabbits in an hour.\nIf he catches 6 sq I used this approach because Misreading information.",
+      "input_tokens": 338,
+      "output_tokens": 29,
+      "latency_ms": 300.4157810695692,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Lets look at your calculations. How many rabbits were caught per hour burning how many calories?",
+      "learner_turn": "Okay, but I still think Brandon caught 3 rabbits per hour burning 2400 calories. Maybe the answer is 12?",
+      "input_tokens": 347,
+      "output_tokens": 19,
+      "latency_ms": 591.3236004908654,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)Double check the question. Brandon can catch 6 squirrels or two rabbits",
+      "learner_turn": "I think I see — so instead I should... Oh, I see! Brandon can catch 6 squirrels or two rabbits in a. Does that mean the answer is 38?",
+      "input_tokens": 343,
+      "output_tokens": 29,
+      "latency_ms": 247.16421451364008,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)You've correctly identified the calories burnt by catching each animal. Focus on finding the difference between 1600 and 1800 to find the overall answer",
+      "learner_turn": "I think I see — so instead I should... Right, the difference between 1600 and 1800 is 200 calories.. Does that mean the answer is 5?",
+      "input_tokens": 355,
+      "output_tokens": 26,
+      "latency_ms": 481.5711735210888,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nBrandon can catch 8.2 squirrels or two rabbits in 1.3 hour. Each squirrel has 442.9 calories and each rabbit has 1061.3 calories. How many more calories will he get per hour if he catches squirrels instead of rabbits?",
+      "learner_turn": "Hmm, let me try. Misreading information I think the answer might be 13.",
+      "input_tokens": 386,
+      "output_tokens": 13,
+      "latency_ms": 793.7504030266011,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

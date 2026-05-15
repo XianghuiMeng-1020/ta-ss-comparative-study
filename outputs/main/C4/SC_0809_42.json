@@ -1,0 +1,162 @@
+{
+  "scenario_id": "SC_0809",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.126992",
+  "n_tutor_turns": 14,
+  "n_learner_turns": 14,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 517,
+  "total_output_tokens": 372,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)can you walk me through your solution stepwise?",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 20,
+      "output_tokens": 28,
+      "latency_ms": 292.04292480249285,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Hi Scott, could you please walk me through your solution?",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 22,
+      "output_tokens": 28,
+      "latency_ms": 680.0499653181621,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)could you please explain why you subtracted 16 from 54?",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 22,
+      "output_tokens": 28,
+      "latency_ms": 772.7541755289063,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)but what was the number of unripe mangoes that you have calculated in your solution?",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 27,
+      "output_tokens": 28,
+      "latency_ms": 541.3690361877027,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)if the number of unripe mangoes is 36 and jordan kept 16 for himself then how can the remaining number of unripe mangoes  be 38 which is greater than that of the original number of unripe mangoes?",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 49,
+      "output_tokens": 28,
+      "latency_ms": 670.9665931113341,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)scott lets say you have 50 candies out of which 20 are chocolate flavoured and 30 are orange flavored. lets say you kept 10 of the orange flavoured candies for yourself and gave the remaining to me. then how many orange candies do i get?",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 57,
+      "output_tokens": 28,
+      "latency_ms": 703.908443059458,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)very good correct answer. can you now explain why you subtracted 10 from 30 instead of subtracting it from 50?",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 32,
+      "output_tokens": 28,
+      "latency_ms": 692.8591392150342,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)so now you can use this concept to find out the number of unripe mangoes that were given to jordan's sister.",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 33,
+      "output_tokens": 28,
+      "latency_ms": 377.08374949539746,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)remember the candy problem. you subtracted 10 from 30 and not 50. use the same concept here.",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 29,
+      "output_tokens": 28,
+      "latency_ms": 329.67835755781016,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)please note that jordan kept 16 unripe mangoes for himself and gave the remaining to his sister implies that he gave the remaining unripe mangoes to her sister. the ripe mangoes are not considered here.",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 47,
+      "output_tokens": 28,
+      "latency_ms": 326.6593910046961,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(telling)He picked 54 - 18 = 36 unripe mangoes. he kept 16 for himself. so the number of remaining unripe mangoes has to be calculated by subtracting 16 from 36.",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 42,
+      "output_tokens": 28,
+      "latency_ms": 625.0185066010542,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(focus)can you now figure out If it takes 4 mangoes to fill a jar, how many jars of pickled mangoes can Jordan's sister make?",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 36,
+      "output_tokens": 28,
+      "latency_ms": 269.67434779945313,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(generic)good job",
+      "learner_turn": "To solve this problem, Jordan picked 54/3 = 18 ripe mangoes.\nHe picked 54 - 18 = 36 unripe mangoes.\nJor. The answer is Jordan picked 54/3 =.",
+      "input_tokens": 14,
+      "output_tokens": 28,
+      "latency_ms": 276.2978575080412,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJordan picked 67.6 mangoes from his tree. One-third of the mangoes were ripe while the other two-thirds were not yet ripe. Jordan kept 22.7 unripe mangoes and gave the remainder to his sister who pickled them in glass jars. If it takes 5.3 mangoes to fill a jar, how many jars of pickled mangoes can Jordan's sister make?",
+      "learner_turn": "The answer to that problem would be 48.",
+      "input_tokens": 87,
+      "output_tokens": 8,
+      "latency_ms": 231.81913927666696,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

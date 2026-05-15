@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1954",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.334497",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2375,
+  "total_output_tokens": 158,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nJackson wants to improve his endurance running. His goal is to start by running 3 miles a day the first week, then spend the next four weeks running one additional mile/day each week. How many miles is Jackson running each day at the end of this exercise program?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nRonny is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nStudent forgot to add for the last week, didn't realize his error.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nAt the end of the first week, Jackson is running 3 miles a day.\nAt the end of the second week, Jackson is running 3+1 = 4 miles a day.\nAt the end of the third week, Jackson is running 4+1 = 5 miles a day.\nAt the end of the fourth week, Jackson is running 5+1 = 6 miles a day.\nAt the end of the exercise program, Jackson is running 6 miles a day.\n 6\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Ronnie.  How many weeks is Jackson's training program?",
+      "learner_turn": "At the end of the first week, Jackson is running 3 miles a day.\nAt the end of the second week, Jacks I used this approach because Student forgot to add for the last week, didn't realize his .",
+      "input_tokens": 384,
+      "output_tokens": 39,
+      "latency_ms": 320.979790164614,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Good, You said at the end of the 4th week, Jackson was running 6 miles a day?  Correct?",
+      "learner_turn": "Okay, but I still think Yes, that's correct. At the end of the 4th week, Jackson was. Maybe the answer is 28?",
+      "input_tokens": 393,
+      "output_tokens": 22,
+      "latency_ms": 786.2862449107604,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Every week, you increase the distance by how far?",
+      "learner_turn": "I think I see — so instead I should... Every week, Jackson increases the distance by 1 mile.. Does that mean the answer is 20?",
+      "input_tokens": 384,
+      "output_tokens": 25,
+      "latency_ms": 389.1008210560524,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)So in your calculation at the start of the 5th week did you increase the distance by 1 mile?",
+      "learner_turn": "I think I see — so instead I should... Yes, I increased the distance by 1 mile at the start of the . Does that mean the answer is 30?",
+      "input_tokens": 394,
+      "output_tokens": 30,
+      "latency_ms": 261.9150985535523,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Correct, that is the solution.",
+      "learner_turn": "I think I see — so instead I should... Jackson's training program is 5 weeks long.. Does that mean the answer is 44?",
+      "input_tokens": 380,
+      "output_tokens": 23,
+      "latency_ms": 793.5622272450411,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJackson wants to improve his endurance running. His goal is to start by running 4.1 miles a day the first week, then spend the next four weeks running one additional mile/day each week. How many miles is Jackson running each day at the end of this exercise program?",
+      "learner_turn": "Hmm, let me try. Student forgot to add for the last week, I think the answer might be 32.",
+      "input_tokens": 440,
+      "output_tokens": 19,
+      "latency_ms": 287.08858693344024,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

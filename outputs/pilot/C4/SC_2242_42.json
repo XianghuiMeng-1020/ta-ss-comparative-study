@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_2242",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.169629",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 305,
+  "total_output_tokens": 248,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Seth, please can you talk me through your answer?",
+      "learner_turn": "To solve this problem, First find how long the first trail takes to hike: 20 miles / 5 miles/hour = 4 h. The answer is First find how long .",
+      "input_tokens": 22,
+      "output_tokens": 30,
+      "latency_ms": 297.1420308848923,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Can you explain what the question is asking you to do?",
+      "learner_turn": "To solve this problem, First find how long the first trail takes to hike: 20 miles / 5 miles/hour = 4 h. The answer is First find how long .",
+      "input_tokens": 23,
+      "output_tokens": 30,
+      "latency_ms": 533.4194585853307,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)That's correct so we need find the difference in the time between the two trails.",
+      "learner_turn": "To solve this problem, First find how long the first trail takes to hike: 20 miles / 5 miles/hour = 4 h. The answer is First find how long .",
+      "input_tokens": 27,
+      "output_tokens": 30,
+      "latency_ms": 542.1979232552696,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Can you explain to me why you think the second trail takes 9 hours?",
+      "learner_turn": "To solve this problem, First find how long the first trail takes to hike: 20 miles / 5 miles/hour = 4 h. The answer is First find how long .",
+      "input_tokens": 26,
+      "output_tokens": 30,
+      "latency_ms": 206.97528578330042,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)The whole trail is 12 miles not each half though.",
+      "learner_turn": "To solve this problem, First find how long the first trail takes to hike: 20 miles / 5 miles/hour = 4 h. The answer is First find how long .",
+      "input_tokens": 22,
+      "output_tokens": 30,
+      "latency_ms": 563.3921315792065,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)Don't rush your answer. Go back now you've calculated the length of both trails and sww if you can answer the question correctly.",
+      "learner_turn": "To solve this problem, First find how long the first trail takes to hike: 20 miles / 5 miles/hour = 4 h. The answer is First find how long .",
+      "input_tokens": 35,
+      "output_tokens": 30,
+      "latency_ms": 305.4787990339152,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)You've told me the first trail takes 4 hours and the 2nd trail takes 5 hours. So the difference between the two trails is?",
+      "learner_turn": "To solve this problem, First find how long the first trail takes to hike: 20 miles / 5 miles/hour = 4 h. The answer is First find how long .",
+      "input_tokens": 36,
+      "output_tokens": 30,
+      "latency_ms": 312.82375131025066,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)That's correct well done.",
+      "learner_turn": "To solve this problem, First find how long the first trail takes to hike: 20 miles / 5 miles/hour = 4 h. The answer is First find how long .",
+      "input_tokens": 16,
+      "output_tokens": 30,
+      "latency_ms": 586.5901737079068,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJames is trying to decide which trail is faster to hike. One trail is 27.7 miles and mostly downhill, so James can cover it at 6.2 miles per hour. The other trail is 16.2 miles, but it's mostly uphill, so James will only be able to cover 3.8 miles per hour and will have to take an hour break halfway through. How many hours faster is the fastest hike?",
+      "learner_turn": "The answer to that problem would be 32.",
+      "input_tokens": 98,
+      "output_tokens": 8,
+      "latency_ms": 246.24699378892035,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

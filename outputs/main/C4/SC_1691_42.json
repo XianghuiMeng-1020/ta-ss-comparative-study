@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1691",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.293044",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 262,
+  "total_output_tokens": 153,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Luca, please talk me thorugh your solution",
+      "learner_turn": "To solve this problem, If there are half as many VW Bugs as there are Toyota trucks in this parking lot. The answer is If there are half as.",
+      "input_tokens": 20,
+      "output_tokens": 29,
+      "latency_ms": 324.2351899680708,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)a good try. lets take it a step at a time. we dont yet know how many toyota trucks there are. We know there are 5 VW Bugs and that this is half the number of Toyota trucks. can you work out the number of toyota trucks?",
+      "learner_turn": "To solve this problem, If there are half as many VW Bugs as there are Toyota trucks in this parking lot. The answer is If there are half as.",
+      "input_tokens": 59,
+      "output_tokens": 29,
+      "latency_ms": 664.8957436944262,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)excellent. as you corrcetly said, there are twice as many Ford trucks as Toyota trucks. can you double the number of Toyota trucks?",
+      "learner_turn": "To solve this problem, If there are half as many VW Bugs as there are Toyota trucks in this parking lot. The answer is If there are half as.",
+      "input_tokens": 35,
+      "output_tokens": 29,
+      "latency_ms": 434.11615155498885,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)excellent., what do we know about the number of Ford trucks in relation to the number of Dodge trucks?",
+      "learner_turn": "To solve this problem, If there are half as many VW Bugs as there are Toyota trucks in this parking lot. The answer is If there are half as.",
+      "input_tokens": 31,
+      "output_tokens": 29,
+      "latency_ms": 305.09508096753035,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)well done!",
+      "learner_turn": "To solve this problem, If there are half as many VW Bugs as there are Toyota trucks in this parking lot. The answer is If there are half as.",
+      "input_tokens": 14,
+      "output_tokens": 29,
+      "latency_ms": 547.7269178099441,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThere are one-third as many Ford trucks as Dodge trucks in the parking lot of the Taco Castle.  But there are twice as many Ford trucks as Toyota trucks in this parking lot, and there are half as many Volkswagen Bugs as there are Toyota trucks in this same parking lot.  If there are 7.1 Volkswagon Bugs in the parking lot, how many Dodge trucks are in the parking lot of the Taco Castle?",
+      "learner_turn": "The answer to that problem would be 32.",
+      "input_tokens": 103,
+      "output_tokens": 8,
+      "latency_ms": 494.3793442022391,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_0996",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.155466",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 121,
+  "total_output_tokens": 92,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Claire, talk me through your workings",
+      "learner_turn": "To solve this problem, When Stefan cuts the rope into four equal parts, he gets 200/4 = 50 meters of ea. The answer is When Stefan cuts the.",
+      "input_tokens": 19,
+      "output_tokens": 28,
+      "latency_ms": 513.5922093783322,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Remember he subdivides each piece too",
+      "learner_turn": "To solve this problem, When Stefan cuts the rope into four equal parts, he gets 200/4 = 50 meters of ea. The answer is When Stefan cuts the.",
+      "input_tokens": 18,
+      "output_tokens": 28,
+      "latency_ms": 355.6545732310299,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)Yes! well done",
+      "learner_turn": "To solve this problem, When Stefan cuts the rope into four equal parts, he gets 200/4 = 50 meters of ea. The answer is When Stefan cuts the.",
+      "input_tokens": 15,
+      "output_tokens": 28,
+      "latency_ms": 744.4710089013206,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA rope has a length of 260.8 meters. Stefan cuts the rope into four equal parts, gives his mother half of the cut pieces, and subdivides the remaining pieces into two more equal parts. What's the length of each piece?",
+      "learner_turn": "The answer to that problem would be 35.",
+      "input_tokens": 69,
+      "output_tokens": 8,
+      "latency_ms": 647.6015422456343,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

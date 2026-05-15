@@ -1,0 +1,192 @@
+{
+  "scenario_id": "SC_0946",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.147670",
+  "n_tutor_turns": 17,
+  "n_learner_turns": 17,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 478,
+  "total_output_tokens": 472,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Brenda, talk me through your solution",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 19,
+      "output_tokens": 29,
+      "latency_ms": 413.23019348641367,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)how many times has the vending machine been used in total?",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 23,
+      "output_tokens": 29,
+      "latency_ms": 656.1795910690844,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)and how many times has it dropped a single snack normally?",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 23,
+      "output_tokens": 29,
+      "latency_ms": 377.9574689444905,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)how did you work that out?",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 18,
+      "output_tokens": 29,
+      "latency_ms": 649.5580424055871,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)If I have 30 sweets and I eat 5, how many do I have left?",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 27,
+      "output_tokens": 29,
+      "latency_ms": 659.9923994740393,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)What about if I eat another 3?",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 19,
+      "output_tokens": 29,
+      "latency_ms": 371.33642654742727,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)good, so how many times did the machine give a single snack?",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 24,
+      "output_tokens": 29,
+      "latency_ms": 566.2503828125272,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)you've just told me that 30 - 5 - 3 = 22",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 24,
+      "output_tokens": 29,
+      "latency_ms": 444.37236203840484,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)good, correct. and then how many times did it fail to drop a snack?",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 26,
+      "output_tokens": 29,
+      "latency_ms": 336.6120139717392,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)so would we add any number to 22 here?",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 21,
+      "output_tokens": 29,
+      "latency_ms": 706.0401651925051,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(probing)if I fail to give you a sweet, do you have any sweets?",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 25,
+      "output_tokens": 29,
+      "latency_ms": 597.7126679783119,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(focus)so if the vending machine fails to drop a snack, will we add any snacks to 22?",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 29,
+      "output_tokens": 29,
+      "latency_ms": 203.79325048406304,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(focus)but the 5 times it fails, it didn't give us a snack",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 24,
+      "output_tokens": 29,
+      "latency_ms": 509.78268163577275,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "(telling)we don't need to add those 5 times to the total",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 23,
+      "output_tokens": 29,
+      "latency_ms": 220.2916823565918,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 14,
+      "tutor_turn": "(telling)the answer is 28",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 16,
+      "output_tokens": 29,
+      "latency_ms": 748.9793190254086,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 15,
+      "tutor_turn": "(telling)we have the 22 times it operated normally. Then it failed to give a snack 5 times. Then it gave a double snack 3 times ( 2 x 3 = 6), so we add 6 + 22 = 28",
+      "learner_turn": "To solve this problem, The vending machine has been used 30 times, so it has failed to drop a snack 30 . The answer is The vending machine .",
+      "input_tokens": 51,
+      "output_tokens": 29,
+      "latency_ms": 545.3550166284958,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 16,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe vending machine fails to drop a snack when it’s purchased one in six times. One in ten times, it will accidentally drop two snacks. The rest of the time, it drops the purchased snack. If thirty people have used the vending machine once each to purchase a snack, how many snacks has the vending machine dropped?",
+      "learner_turn": "The answer to that problem would be 39.",
+      "input_tokens": 86,
+      "output_tokens": 8,
+      "latency_ms": 702.281906942542,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

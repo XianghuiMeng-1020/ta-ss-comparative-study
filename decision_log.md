@@ -54,7 +54,7 @@ Strata with <5 eligible rows were merged into a `misc||misc` bucket before strat
 | Version | Date | Change | Commit Hash |
 |---------|------|--------|-------------|
 | v0.1 | 2026-05-15 | Initial draft | — |
-| v1.0 | PENDING | Freeze after P3 pilot review | — |
+| v1.0 | 2026-05-15 | Freeze after P2 — all 4 condition prompts locked | c2c41e6145c0471c40d2a9c1e43d393cf77ff789 |
 
 ---
 

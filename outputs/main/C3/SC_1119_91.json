@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1119",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.183344",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 247,
+  "total_output_tokens": 193,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Hi Jordy. Tell me about your answer.",
+      "learner_turn": "My answer is that Roman has 7 gold coins left. I used the equation 20 - 3x = 12 to solve for x, which is equal to 2. Tha",
+      "input_tokens": 16,
+      "output_tokens": 29,
+      "latency_ms": 633.0094044280892,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)He sold 3 coins for $12. How much did each coin cost Dorothy?",
+      "learner_turn": "Each coin cost Dorothy $4 because 3 coins x $4 = $12.",
+      "input_tokens": 22,
+      "output_tokens": 12,
+      "latency_ms": 205.5603948038422,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Correct! So if the coins cost a total of $20, and $12 of them have gone. How many dollar worth of gold is left?",
+      "learner_turn": "Roman has $8 worth of gold coins left. Since each gold coin is worth $2, he has 8/2 = 4 gold coins left.",
+      "input_tokens": 33,
+      "output_tokens": 23,
+      "latency_ms": 249.32824599295236,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)You are correct that he has $8 of gold left, but if each is worth $4, how many coins are left?",
+      "learner_turn": "Roman has 4 gold coins left. He sold 3 gold coins for a total of 3 x $4 = $12, so he has 4 gold coins left worth a total",
+      "input_tokens": 30,
+      "output_tokens": 30,
+      "latency_ms": 413.84410979180973,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)4 x $4 would be $16. He only has $8.",
+      "learner_turn": "That's right. He has 4 gold coins left, but each one is worth $2, so the total value is 4 x $2 = $8.",
+      "input_tokens": 19,
+      "output_tokens": 24,
+      "latency_ms": 419.6488921280428,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)But you said they were worth $4 each. You have all the right numbers, but not in the right places.",
+      "learner_turn": "Oh, I see. Roman originally had 20/2 = 10 gold coins, each worth $2. He sold 3 gold coins for a total of 3 x $2 = $6. Af",
+      "input_tokens": 29,
+      "output_tokens": 29,
+      "latency_ms": 411.0134010862637,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)You were correct when you said the coins were worth $4. He has $8 of them. $8 divided by $4 each is?",
+      "learner_turn": "Roman has 8/$4 = 2 gold coins left.",
+      "input_tokens": 31,
+      "output_tokens": 8,
+      "latency_ms": 549.863165610622,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)Correct!",
+      "learner_turn": "My answer is that Roman has 7 gold coins left. I used the equation 20 - 3x = 12 to solve for x, which is equal to 2. Tha",
+      "input_tokens": 10,
+      "output_tokens": 29,
+      "latency_ms": 705.2393445239668,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nRoman the Tavernmaster has $24.9 worth of gold coins. He sells 3.9 gold coins to Dorothy. After she pays him, he has $15.9. How many gold coins does Roman have left?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 57,
+      "output_tokens": 9,
+      "latency_ms": 287.1729491454257,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

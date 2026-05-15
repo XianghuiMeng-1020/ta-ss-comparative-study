@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_1474",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.262538",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3217,
+  "total_output_tokens": 233,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nSally Draper gave her dad Don Draper 10oz of rum on his pancakes. Don can consume a maximum of 3 times that amount of rum for a healthy diet. If he already had 12oz of rum earlier that day, how many oz of rum can Don have after eating all of the rum and pancakes?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nRonny is a 7th grade student. He struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nsimply did not account for all of the information in the question and them added it instead of subtracting it\n\nYOUR INITIAL INCORRECT ATTEMPT:\nDon can consume a maximum of 10 x 3 = 30 oz of rum for a healthy diet.\nDon has already had 12 oz of rum earlier that day, so he can only consume an additional 30 - 12 = 18 oz of rum.\nTherefore, Don can have a maximum of 18 oz of rum after eating all of the rum and pancakes.\n 18\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)hi Ronny can you show me the stpes you took to get to your solution?",
+      "learner_turn": "Don can consume a maximum of 10 x 3 = 30 oz of rum for a healthy diet.\nDon has already had 12 oz of  I used this approach because simply did not account for all of the information in the que.",
+      "input_tokens": 385,
+      "output_tokens": 42,
+      "latency_ms": 291.73081159775955,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)i can see how these steps have helped you but you need to consider and double check you have used all of the information accordingly. You know he can have 30oz and you correctly subtracted the 12oz he had to get your answer of 18oz. Is there anything else  you need to subtract if you relook at the question again?",
+      "learner_turn": "Okay, but I still think No, I don't think there is anything else I need to subtract.. Maybe the answer is 20?",
+      "input_tokens": 430,
+      "output_tokens": 22,
+      "latency_ms": 533.8278597893477,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)how much did sally give don?",
+      "learner_turn": "I think I see — so instead I should... Sally gave Don 10 oz of rum on his pancakes.. Does that mean the answer is 31?",
+      "input_tokens": 376,
+      "output_tokens": 26,
+      "latency_ms": 291.7415788938747,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)where have you taken away the 10oz sally gave don?",
+      "learner_turn": "I think I see — so instead I should... I subtracted the 10 oz of rum Sally gave him from the 30 oz . Does that mean the answer is 49?",
+      "input_tokens": 380,
+      "output_tokens": 31,
+      "latency_ms": 479.8671362091983,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)no you subtracted the 12oz don had earlier that day not the 10oz. what does this now mean you need to do ?",
+      "learner_turn": "I think I see — so instead I should... This means that I need to add the 10 oz of rum Sally gave hi. Does that mean the answer is 48?",
+      "input_tokens": 393,
+      "output_tokens": 31,
+      "latency_ms": 264.8185317216987,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)30oz = the total  minus the 12oz he had = 18oz then you have added 10oz when it has been used like the 12 so what do you need to in fact do to the 10oz from 18oz?",
+      "learner_turn": "I think I see — so instead I should... I need to subtract the 10 oz of rum Sally gave him from the . Does that mean the answer is 34?",
+      "input_tokens": 408,
+      "output_tokens": 31,
+      "latency_ms": 557.3388672744652,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(generic)can you see how we need to use all of the information in the question but also check if we are using the correct mathematical method to help you get the right solution?",
+      "learner_turn": "I think I see — so instead I should... Yes, I can see how it is important to use all of the informa. Does that mean the answer is 7?",
+      "input_tokens": 403,
+      "output_tokens": 30,
+      "latency_ms": 791.0490394355719,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nSally Draper gave her dad Don Draper 10oz of rum on his pancakes. Don can consume a maximum of 4.4 times that amount of rum for a healthy diet. If he already had 12oz of rum earlier that day, how many oz of rum can Don have after eating all of the rum and pancakes?",
+      "learner_turn": "Hmm, let me try. simply did not account for all of the in I think the answer might be 32.",
+      "input_tokens": 442,
+      "output_tokens": 20,
+      "latency_ms": 291.3734418702159,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

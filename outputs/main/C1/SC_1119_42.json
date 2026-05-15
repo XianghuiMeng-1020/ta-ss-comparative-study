@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1119",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.180308",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3316,
+  "total_output_tokens": 292,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nRoman the Tavernmaster has $20 worth of gold coins. He sells 3 gold coins to Dorothy. After she pays him, he has $12. How many gold coins does Roman have left?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nLet x be the value of one gold coin.\nRoman originally had 20/x gold coins.\nHe sold 3 gold coins for a total of 3x dollars.\nAfter selling the 3 gold coins, he has 20 - 3x dollars.\nWe know that 20 - 3x = 12.\nSolving for x, we get x = 2.\nSo each gold coin is worth $2.\nRoman originally had 20/2 = 10 gold coins.\nAfter selling 3 gold coins, he has 10 - 3 = 7 gold coins left.\n 7\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Hi Jordy. Tell me about your answer.",
+      "learner_turn": "So I tried this problem. My approach was: Let x be the value of one gold coin.\nRoman originally had 20/x gold coins.\nHe so. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 357,
+      "output_tokens": 38,
+      "latency_ms": 228.59929063851501,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)He sold 3 coins for $12. How much did each coin cost Dorothy?",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 4? Let me redo: Each coin cost Dorothy $4 because 3 coins x $4 = $12.",
+      "input_tokens": 363,
+      "output_tokens": 30,
+      "latency_ms": 702.0644946989173,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Correct! So if the coins cost a total of $20, and $12 of them have gone. How many dollar worth of gold is left?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Roman has $8 worth of gold coins left. Since each gold coin . So the answer is 48?",
+      "input_tokens": 374,
+      "output_tokens": 30,
+      "latency_ms": 332.2230742734549,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)You are correct that he has $8 of gold left, but if each is worth $4, how many coins are left?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Roman has 4 gold coins left. He sold 3 gold coins for a tota. So the answer is 33?",
+      "input_tokens": 371,
+      "output_tokens": 31,
+      "latency_ms": 427.9469874385287,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)4 x $4 would be $16. He only has $8.",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 4? Let me redo: That's right. He has 4 gold coins left, but each one is wort",
+      "input_tokens": 360,
+      "output_tokens": 31,
+      "latency_ms": 440.0344139661971,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)But you said they were worth $4 each. You have all the right numbers, but not in the right places.",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Oh, I see. Roman originally had 20/2 = 10 gold coins, each w. So the answer is 50?",
+      "input_tokens": 370,
+      "output_tokens": 30,
+      "latency_ms": 493.07142376002304,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)You were correct when you said the coins were worth $4. He has $8 of them. $8 divided by $4 each is?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Roman has 8/$4 = 2 gold coins left.. So the answer is 9?",
+      "input_tokens": 372,
+      "output_tokens": 25,
+      "latency_ms": 513.3195560153931,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)Correct!",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: My answer is that Roman has 7 gold coins left. I used the eq. So the answer is 7?",
+      "input_tokens": 351,
+      "output_tokens": 31,
+      "latency_ms": 247.70450151033523,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nRoman the Tavernmaster has $24.9 worth of gold coins. He sells 3.9 gold coins to Dorothy. After she pays him, he has $15.9. How many gold coins does Roman have left?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Roman the Tavernmaster has $24.9 worth of gold coi... I get approximately 19 as my answer. Does that seem right?",
+      "input_tokens": 398,
+      "output_tokens": 46,
+      "latency_ms": 626.7621064077889,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

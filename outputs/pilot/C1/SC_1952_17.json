@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_1952",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.137709",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3831,
+  "total_output_tokens": 356,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nJosh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nThe increase in value due to repairs is 150% of the original value, which is 150/100 x $80,000 = $120,000.\nSo, the total value of the house after repairs is $80,000 + $50,000 + $120,000 = $250,000.\nTherefore, the profit Josh made is $250,000 - $130,000 (the cost of buying the house and repairs) = $120,000.\n 120,000\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, could you please walk me through your solution?",
+      "learner_turn": "So I tried this problem. My approach was: The increase in value due to repairs is 150% of the original value, which is 150. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 335,
+      "output_tokens": 37,
+      "latency_ms": 322.5764968948663,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)This seems to be a wrong solution. Let's see something else. Let's say I buy an old bike worth $20, repair it for $5 and sell back at a 50% more than the original value. What is the profit i amde?",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 4? Let me redo: The increase in value due to repairs is 50% of the original ",
+      "input_tokens": 367,
+      "output_tokens": 30,
+      "latency_ms": 516.0473739340305,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)One doesn't  include the cost of repairing in the resale value. It's 50% of the original value that is 50%of $20, which is $10. So, the resale value is $30. Since I invested $25 in total, I get a profit of $30-$25=$5.",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 10? Let me redo: Oh, I see. So the increase in value due to repairs is 50% of",
+      "input_tokens": 368,
+      "output_tokens": 32,
+      "latency_ms": 561.064152125916,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Wonderful. Now get back to Josh. Remember what we discussed above. Every statement of it and try to solve Josh's problem",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 2? Let me redo: Okay, so for Josh's problem, the increase in value due to re",
+      "input_tokens": 347,
+      "output_tokens": 30,
+      "latency_ms": 269.0713815531522,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Remember what we did with the bike problem. We don't include the repair cost when calculating resale value",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 4? Let me redo: Oh, right. So for Josh's problem, the increase in value due ",
+      "input_tokens": 344,
+      "output_tokens": 29,
+      "latency_ms": 375.2564481876534,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)$130000 is the amount spent by Josh. Not the resale value. Resale value = original cost + increased cost",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 1? Let me redo: Oh, right. So for Josh's problem, the increase in value due ",
+      "input_tokens": 345,
+      "output_tokens": 29,
+      "latency_ms": 243.09169270449075,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)didn't he put any money for repairs?",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 9? Let me redo: Yes, he put in $50,000 in repairs. So the total value of the",
+      "input_tokens": 333,
+      "output_tokens": 31,
+      "latency_ms": 358.2859855208825,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Resale Value = $80000+$120000 = $ 200000. Money spent by Josh = $80000+$50000=$130000. So what is the profit made by Josh",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 7? Let me redo: The profit Josh made is $200,000 - $130,000 (the cost of buy",
+      "input_tokens": 347,
+      "output_tokens": 30,
+      "latency_ms": 268.8578193567536,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)$200000-$130000 = $ 70000",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 4? Let me redo: No, the profit Josh made is $200,000 - $130,000 (the cost of",
+      "input_tokens": 330,
+      "output_tokens": 30,
+      "latency_ms": 464.29751473224775,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)You are mistaken. Check again. 200000 - 130000 = $ 70000",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 4? Let me redo: Oh, I see. The profit Josh made is $200,000 - $130,000 (the ",
+      "input_tokens": 337,
+      "output_tokens": 30,
+      "latency_ms": 232.4962401425512,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJosh decides to try flipping a house.  He buys a house for $96.4,0 and then puts in $68.4,0 in repairs.  This increased the value of the house by 215.3%.  How much profit did he make?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Josh decides to try flipping a house.  He buys a h... I get approximately 29 as my answer. Does that seem right?",
+      "input_tokens": 378,
+      "output_tokens": 48,
+      "latency_ms": 394.05904113332423,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

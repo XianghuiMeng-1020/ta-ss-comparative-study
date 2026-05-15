@@ -1,0 +1,73 @@
+{
+  "scenario_id": "SC_0800",
+  "condition": "C2_ablate_gradual",
+  "condition_label": "Student Simulation",
+  "seed": 91,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:05.099115",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1926,
+  "total_output_tokens": 123,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nTedra is harvesting his tomatoes. He harvests 400 kg on Wednesday, and half as much on Thursday. He harvests a total of 2000 kg on Wednesday, Thursday, and Friday. How many tomatoes of the number he harvested on Friday are remaining if he gives away 700kg of them to his friends?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nClaire is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student had the wrong mathematical approach to the problem\n\nYOUR INITIAL INCORRECT ATTEMPT:\nTedra harvests 400/2 = 200 kg of tomatoes on Thursday.\nTedra harvests a total of 2000 - 400 - 200 = 1400 kg of tomatoes on Friday.\nAfter giving away 700 kg of tomatoes, Tedra has 1400 - 700 = 700 kg of tomatoes left.\nTedra harvested 700 kg of tomatoes on Friday.\n700 - 700 = 0 kg of tomatoes are remaining.\n 0\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Claire, can you tell me how you got your answer?",
+      "learner_turn": "Tedra harvests 400/2 = 200 kg of tomatoes on Thursday.\nTedra harvests a total of 2000 - 400 - 200 =  I used this approach because The student had the wrong mathematical approach to the probl.",
+      "input_tokens": 370,
+      "output_tokens": 36,
+      "latency_ms": 274.9503312798196,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Okay, Tedra harvested 400 kg of tomatoes on Wednesday and 200 on Thursday. If he harvested a total of 2000 kilos from all three days, then how do you figure out how many he harvested on Friday if we already know he harvested 600 combined between Wednesday and Thursday?",
+      "learner_turn": "Okay, but I still think Since we know Tedra harvested 400 kg on Wednesday and 200 kg. Maybe the answer is 5?",
+      "input_tokens": 408,
+      "output_tokens": 22,
+      "latency_ms": 370.8673526257132,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)",
+      "learner_turn": "I think I see — so instead I should... Great, thank you!. Does that mean the answer is 45?",
+      "input_tokens": 360,
+      "output_tokens": 19,
+      "latency_ms": 504.7471464327366,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)that's correct",
+      "learner_turn": "I think I see — so instead I should... Sure. I figured that Tedra harvested 400 kg of tomatoes on W. Does that mean the answer is 41?",
+      "input_tokens": 361,
+      "output_tokens": 28,
+      "latency_ms": 697.8965332586279,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nTedra is harvesting his tomatoes. He harvests 510.6 kg on Wednesday, and half as much on Thursday. He harvests a total of 2924.4 kg on Wednesday, Thursday, and Friday. How many tomatoes of the number he harvested on Friday are remaining if he gives away 700kg of them to his friends?",
+      "learner_turn": "Hmm, let me try. The student had the wrong mathematical a I think the answer might be 8.",
+      "input_tokens": 427,
+      "output_tokens": 18,
+      "latency_ms": 311.20108747892357,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C2"
+}

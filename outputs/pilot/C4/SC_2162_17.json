@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_2162",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.158977",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 349,
+  "total_output_tokens": 305,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Hi. Could you please guide me through the solution?",
+      "learner_turn": "To solve this problem, Six sets of 1 dozen of doughnuts cost $8 x 6 = $48.\nThree sets of 2 dozens of do. The answer is Six sets of 1 dozen .",
+      "input_tokens": 21,
+      "output_tokens": 33,
+      "latency_ms": 705.4201878671498,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Are you sure that 3 sets of two dozens of doughnuts would cost $ 48? Can you please analyze the question once again and find out?",
+      "learner_turn": "To solve this problem, Six sets of 1 dozen of doughnuts cost $8 x 6 = $48.\nThree sets of 2 dozens of do. The answer is Six sets of 1 dozen .",
+      "input_tokens": 38,
+      "output_tokens": 33,
+      "latency_ms": 761.8237151146326,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)But the question says that each set of two dozen would cost $ 14 ?",
+      "learner_turn": "To solve this problem, Six sets of 1 dozen of doughnuts cost $8 x 6 = $48.\nThree sets of 2 dozens of do. The answer is Six sets of 1 dozen .",
+      "input_tokens": 27,
+      "output_tokens": 33,
+      "latency_ms": 579.1370378679112,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Ok. Let's focus on something else. If you buy two pencils you pay $5, but if you buy 1 pencil you pay $3 for each. How much would you save if you buy 10 pencils in sets of 2 and your friend buys them separately?",
+      "learner_turn": "To solve this problem, Six sets of 1 dozen of doughnuts cost $8 x 6 = $48.\nThree sets of 2 dozens of do. The answer is Six sets of 1 dozen .",
+      "input_tokens": 57,
+      "output_tokens": 33,
+      "latency_ms": 665.6573669960926,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)No. In sets of 2, I would need only 5 sets, not 10 as each set has two pencils. Do you get it now?",
+      "learner_turn": "To solve this problem, Six sets of 1 dozen of doughnuts cost $8 x 6 = $48.\nThree sets of 2 dozens of do. The answer is Six sets of 1 dozen .",
+      "input_tokens": 36,
+      "output_tokens": 33,
+      "latency_ms": 421.06071672155855,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)Great. Using this concept can you solve the problem given previously to you once again?",
+      "learner_turn": "To solve this problem, Six sets of 1 dozen of doughnuts cost $8 x 6 = $48.\nThree sets of 2 dozens of do. The answer is Six sets of 1 dozen .",
+      "input_tokens": 27,
+      "output_tokens": 33,
+      "latency_ms": 798.5956304228669,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)Remember what we discussed about pencils?",
+      "learner_turn": "To solve this problem, Six sets of 1 dozen of doughnuts cost $8 x 6 = $48.\nThree sets of 2 dozens of do. The answer is Six sets of 1 dozen .",
+      "input_tokens": 18,
+      "output_tokens": 33,
+      "latency_ms": 653.3493352369516,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)Following what we did for pencils, can you please calculate for doughnuts?",
+      "learner_turn": "To solve this problem, Six sets of 1 dozen of doughnuts cost $8 x 6 = $48.\nThree sets of 2 dozens of do. The answer is Six sets of 1 dozen .",
+      "input_tokens": 24,
+      "output_tokens": 33,
+      "latency_ms": 553.5640962809103,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)NO. If you buy 3 sets of 2 dozens with each set costing $ 14, you actually pay 3*14 = $ 42",
+      "learner_turn": "To solve this problem, Six sets of 1 dozen of doughnuts cost $8 x 6 = $48.\nThree sets of 2 dozens of do. The answer is Six sets of 1 dozen .",
+      "input_tokens": 34,
+      "output_tokens": 33,
+      "latency_ms": 367.64783409590797,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIf you buy a dozen of doughnuts, it costs $9.8; but if you buy 2.5 dozens, it costs $19.0. How much will you save from buying 4.4 sets of 2.4 dozens than buying 7.2 sets of 1.3 dozen?",
+      "learner_turn": "The answer to that problem would be 17.",
+      "input_tokens": 67,
+      "output_tokens": 8,
+      "latency_ms": 680.6893427224537,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

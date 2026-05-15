@@ -1,0 +1,83 @@
+{
+  "scenario_id": "SC_0921",
+  "condition": "C2_ablate_misconception",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:05.037561",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2234,
+  "total_output_tokens": 163,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nHarry decided to buy some balloons for his friend's birthday party. One balloon costs $0.5, and a pack of 10 balloons is cheaper and costs only $3. Finally, Harry wants to bring to the party exactly 14 balloons. How much did he need to pay for them?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nRiya is a 7th grade student. She struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nStudent thought he needed to buy 2 packs of 10.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nHarry needs to buy 2 packs of 10 balloons, which will give him 20 balloons in total. He will then need to buy 4 more individual balloons to get to 14. \n\n2 packs of 10 balloons cost 2 x $3 = $6.\n4 individual balloons cost 4 x $0.5 = $2.\n\nTherefore, Harry needed to pay $6 + $2 = $8 for 14 balloons. \n\n 8\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, can you explain your answer?",
+      "learner_turn": "Harry needs to buy 2 packs of 10 balloons, which will give him 20 balloons in total. He will then ne I used this approach because Student thought he needed to buy 2 packs of 10..",
+      "input_tokens": 359,
+      "output_tokens": 36,
+      "latency_ms": 481.312800232712,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Hi Riya, can you tell me how you solved this?",
+      "learner_turn": "Okay, but I still think Harry needs 2 packs of 10 balloons to get to 14 balloons.. Maybe the answer is 30?",
+      "input_tokens": 363,
+      "output_tokens": 22,
+      "latency_ms": 464.6066918691162,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)OK, let's go back to the question. If Harry needs 14 balloons, how many packs of 10 does he need?",
+      "learner_turn": "I think I see — so instead I should... Oh, okay. So Harry needs 1 pack of 10 balloons and 4 individ. Does that mean the answer is 34?",
+      "input_tokens": 373,
+      "output_tokens": 29,
+      "latency_ms": 242.7804532372099,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)He only needs one pack of 10, then he will buy 4 single balloons.",
+      "learner_turn": "I think I see — so instead I should... Sure. I figured that Harry needed to buy 2 packs of 10 ballo. Does that mean the answer is 33?",
+      "input_tokens": 367,
+      "output_tokens": 29,
+      "latency_ms": 563.1768804682406,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)Well done!",
+      "learner_turn": "I think I see — so instead I should... Harry needs 2 packs of 10 balloons to get to 14 balloons.. Does that mean the answer is 16?",
+      "input_tokens": 355,
+      "output_tokens": 28,
+      "latency_ms": 241.71569455347324,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nHarry decided to buy some balloons for his friend's birthday party. One balloon costs $0.7, and a pack of 13.0 balloons is cheaper and costs only $4.0. Finally, Harry wants to bring to the party exactly 19.4 balloons. How much did he need to pay for them?",
+      "learner_turn": "Hmm, let me try. Student thought he needed to buy 2 packs I think the answer might be 30.",
+      "input_tokens": 417,
+      "output_tokens": 19,
+      "latency_ms": 367.02993843654895,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C2"
+}

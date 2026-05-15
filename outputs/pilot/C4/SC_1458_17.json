@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1458",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.103458",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 193,
+  "total_output_tokens": 148,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Remember that she found 5 of the tickets rather than winning them",
+      "learner_turn": "To solve this problem, If tickets are valued at $3 then in total, Taegan has won $30 in total tickets /. The answer is If tickets are value.",
+      "input_tokens": 24,
+      "output_tokens": 28,
+      "latency_ms": 619.5582611495755,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)She won 5 tickets total not per game",
+      "learner_turn": "To solve this problem, If tickets are valued at $3 then in total, Taegan has won $30 in total tickets /. The answer is If tickets are value.",
+      "input_tokens": 20,
+      "output_tokens": 28,
+      "latency_ms": 753.9687082104866,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Yes she won 5 tickets. She did 5 games. How many tickets per game?",
+      "learner_turn": "To solve this problem, If tickets are valued at $3 then in total, Taegan has won $30 in total tickets /. The answer is If tickets are value.",
+      "input_tokens": 26,
+      "output_tokens": 28,
+      "latency_ms": 517.4475765659259,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)5/5 not multiplying",
+      "learner_turn": "To solve this problem, If tickets are valued at $3 then in total, Taegan has won $30 in total tickets /. The answer is If tickets are value.",
+      "input_tokens": 15,
+      "output_tokens": 28,
+      "latency_ms": 793.2484351431935,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)No 1 ticket per game",
+      "learner_turn": "To solve this problem, If tickets are valued at $3 then in total, Taegan has won $30 in total tickets /. The answer is If tickets are value.",
+      "input_tokens": 17,
+      "output_tokens": 28,
+      "latency_ms": 780.6174504395748,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nTaegan goes to a carnival where she wins tickets from each of the 7.5 carnival games and also finds 7.4 tickets on the floor. Each ticket is worth $4.3. In total, she has tickets that total a value of $36.9. If Taegan won an equal number of tickets from each of the games, how many tickets did she win from each game?",
+      "learner_turn": "The answer to that problem would be 6.",
+      "input_tokens": 91,
+      "output_tokens": 8,
+      "latency_ms": 600.1079673818733,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

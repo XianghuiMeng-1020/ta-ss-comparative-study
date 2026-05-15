@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1455",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.101020",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 223,
+  "total_output_tokens": 148,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Are you confident this is the correct answer , have you double checked",
+      "learner_turn": "To solve this problem, If half of the fruit equals 9 pieces, then Tanya bought 2*9=18 pieces of fruit.\n. The answer is If half of the fruit.",
+      "input_tokens": 25,
+      "output_tokens": 28,
+      "latency_ms": 502.1381791472178,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(telling)I think you maybe need to check again",
+      "learner_turn": "To solve this problem, If half of the fruit equals 9 pieces, then Tanya bought 2*9=18 pieces of fruit.\n. The answer is If half of the fruit.",
+      "input_tokens": 20,
+      "output_tokens": 28,
+      "latency_ms": 657.1727126953908,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)If Tanya had originally 18 pieces of fruit and the apples , pears and pineapples 12 how many plums were there",
+      "learner_turn": "To solve this problem, If half of the fruit equals 9 pieces, then Tanya bought 2*9=18 pieces of fruit.\n. The answer is If half of the fruit.",
+      "input_tokens": 33,
+      "output_tokens": 28,
+      "latency_ms": 451.61359548904875,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)So 18 minus 12 gives us",
+      "learner_turn": "To solve this problem, If half of the fruit equals 9 pieces, then Tanya bought 2*9=18 pieces of fruit.\n. The answer is If half of the fruit.",
+      "input_tokens": 18,
+      "output_tokens": 28,
+      "latency_ms": 471.94908999859257,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Correct",
+      "learner_turn": "To solve this problem, If half of the fruit equals 9 pieces, then Tanya bought 2*9=18 pieces of fruit.\n. The answer is If half of the fruit.",
+      "input_tokens": 13,
+      "output_tokens": 28,
+      "latency_ms": 354.4707785299423,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nTanya went to the grocery store to buy some fruit.  She bought 7.3 pears, 4.9 Granny Smith apples, 2.7 pineapples, and a small basket of plums, which were all placed in a single paper bag.  Unfortunately, the bag that the fruit had been placed in had developed a hole.  Therefore, as Tanya walked home, half of the fruit fell out of the bag.  When she later counted the fruit left in the bag, there were only 13.2 pieces remaining.  How many plums did she buy?",
+      "learner_turn": "The answer to that problem would be 5.",
+      "input_tokens": 114,
+      "output_tokens": 8,
+      "latency_ms": 391.06524455737826,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

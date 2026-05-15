@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_2202",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.385510",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": true,
+  "exclusion_code": "E2",
+  "exclusion_reason": "Turn 0: non-math content (war)",
+  "total_input_tokens": 2444,
+  "total_output_tokens": 152,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nPete walks backwards three times faster than Susan walks forwards, and Tracy does one-handed cartwheels twice as fast as Susan walks forwards.  But Pete can walk on his hands only one quarter the speed that Tracy can do cartwheels.  If Pete walks on his hands at 2 miles per hour, how fast can Pete walk backwards, in miles per hour?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nSeth is a 7th grade student. He has problem with understanding of underlying ideas and principles and a recognition of when to apply them.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student had got muddled with their equations\n\nYOUR INITIAL INCORRECT ATTEMPT:\nLet's call Susan's forward walking speed \"x\" miles per hour.\nThen, Pete's backward walking speed is 3x miles per hour.\nAnd Tracy's cartwheeling speed is 2x miles per hour.\nWe're told that Pete's hand-walking speed is 1/4 of Tracy's cartwheeling speed, so:\n2/4x = 2 mph  (converting Tracy's speed to miles per hour)\nSimplifying this equation:\nx = 2 mph\nNow we can find Pete's backward walking speed:\n3x = 3(2) = 6 mph\n 6\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Hi Seth, let's start with the number we know, which is the speed that Pete walks on his hands. Using this information, how fast can Tracy do cartwheels?",
+      "learner_turn": "Let's call Susan's forward walking speed \"x\" miles per hour.\nThen, Pete's backward walking speed is  I used this approach because The student had got muddled with their equations.",
+      "input_tokens": 407,
+      "output_tokens": 29,
+      "latency_ms": 324.68815761928835,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Hi Seth, let's start with the number we know, which is the speed that Pete walks on his hands. Using this information, how fast can Tracy do cartwheels?",
+      "learner_turn": "Okay, but I still think Susan's walking speed is 4 mph, since it is half of Tracy's . Maybe the answer is 6?",
+      "input_tokens": 407,
+      "output_tokens": 23,
+      "latency_ms": 468.8284378632978,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)That's correct. so if Susan walks at half the speed of Tracy's cartwheels, what speed does she walk?",
+      "learner_turn": "I think I see — so instead I should... Since Susan's walking speed is 4 mph, then Pete's backward w. Does that mean the answer is 9?",
+      "input_tokens": 397,
+      "output_tokens": 27,
+      "latency_ms": 284.86341565817855,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Correct. And if Pete walks backwards 3x faster than Susan's walking speed, how fast does he walk backwards?",
+      "learner_turn": "I think I see — so instead I should... Since Pete's hand-walking speed is 1/4 of Tracy's cartwheeli. Does that mean the answer is 16?",
+      "input_tokens": 397,
+      "output_tokens": 25,
+      "latency_ms": 574.9631748519068,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)Correct",
+      "learner_turn": "I think I see — so instead I should... Susan's walking speed is 4 mph, since it is half of Tracy's . Does that mean the answer is 27?",
+      "input_tokens": 380,
+      "output_tokens": 29,
+      "latency_ms": 432.0677619848843,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nPete walks backwards three times faster than Susan walks forwards, and Tracy does one-handed cartwheels twice as fast as Susan walks forwards.  But Pete can walk on his hands only one quarter the speed that Tracy can do cartwheels.  If Pete walks on his hands at 2.8 miles per hour, how fast can Pete walk backwards, in miles per hour?",
+      "learner_turn": "Hmm, let me try. The student had got muddled with their e I think the answer might be 17.",
+      "input_tokens": 456,
+      "output_tokens": 19,
+      "latency_ms": 327.1782708722079,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

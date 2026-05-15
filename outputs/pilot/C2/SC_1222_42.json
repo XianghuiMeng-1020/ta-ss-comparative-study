@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1222",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.069639",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1746,
+  "total_output_tokens": 140,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nIn four years, Suzy will be twice Mary's age then. If Suzy is 20 now, how old is Mary?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nAlejandra is a 7th grade student. She has problem with understanding of underlying ideas and principles and a recognition of when to apply them.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThey had forgotten to then subtract to get Mary's current age\n\nYOUR INITIAL INCORRECT ATTEMPT:\nLet's start by finding out how old Suzy will be in four years: 20 + 4 = 24\nLet's call Mary's current age \"M\". We know that in four years, Suzy will be twice Mary's age, so we can write an equation: 2M = 24\nSolving for M, we get: M = 24/2 = 12\nTherefore, Mary is currently 12 years old. \n 12\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Talk me through your solution",
+      "learner_turn": "Let's start by finding out how old Suzy will be in four years: 20 + 4 = 24\nLet's call Mary's current I used this approach because They had forgotten to then subtract to get Mary's current ag.",
+      "input_tokens": 334,
+      "output_tokens": 38,
+      "latency_ms": 774.8422791894044,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)You have worked out Mary's age in 4 years time, how can you adjust your solution to work out how old Mary is now?",
+      "learner_turn": "Okay, but I still think To work out Mary's age now, I used the equation 2M = 24. I k. Maybe the answer is 24?",
+      "input_tokens": 353,
+      "output_tokens": 25,
+      "latency_ms": 650.5401987950801,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Remember that Suzy is currently 20 so your current solution is for her age in 4 years time. What do you need to do with Mary's age of 12 to work out her current age?",
+      "learner_turn": "I think I see — so instead I should... To work out Mary's current age, I need to subtract 4 from 12. Does that mean the answer is 7?",
+      "input_tokens": 364,
+      "output_tokens": 29,
+      "latency_ms": 498.0008568367962,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Correct",
+      "learner_turn": "I think I see — so instead I should... I started by figuring out how old Suzy would be in four year. Does that mean the answer is 43?",
+      "input_tokens": 330,
+      "output_tokens": 29,
+      "latency_ms": 540.2561985065853,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIn four years, Suzy will be twice Mary's age then. If Suzy is 28.8 now, how old is Mary?",
+      "learner_turn": "Hmm, let me try. They had forgotten to then subtract to g I think the answer might be 8.",
+      "input_tokens": 365,
+      "output_tokens": 19,
+      "latency_ms": 219.95239918108115,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

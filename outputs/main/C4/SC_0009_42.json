@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0009",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.944367",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 457,
+  "total_output_tokens": 278,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)hi Jia, can you explain your approach to this problem?",
+      "learner_turn": "To solve this problem, East trip up and back down the mountain takes 15+5=20 minutes per trip.\nTwo hour. The answer is East trip up and bac.",
+      "input_tokens": 22,
+      "output_tokens": 27,
+      "latency_ms": 429.69223139367864,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Ok so your second step calculated what activity?",
+      "learner_turn": "To solve this problem, East trip up and back down the mountain takes 15+5=20 minutes per trip.\nTwo hour. The answer is East trip up and bac.",
+      "input_tokens": 20,
+      "output_tokens": 27,
+      "latency_ms": 265.89269838973223,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Great so it calculated a round trip, which includes skiing down the mountain.  What did your last step calculate?",
+      "learner_turn": "To solve this problem, East trip up and back down the mountain takes 15+5=20 minutes per trip.\nTwo hour. The answer is East trip up and bac.",
+      "input_tokens": 31,
+      "output_tokens": 27,
+      "latency_ms": 463.6907539930786,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Can you check through all the steps you made in your solution in relation to what the problem was asking you to calculate?",
+      "learner_turn": "To solve this problem, East trip up and back down the mountain takes 15+5=20 minutes per trip.\nTwo hour. The answer is East trip up and bac.",
+      "input_tokens": 35,
+      "output_tokens": 27,
+      "latency_ms": 467.1269077293675,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)You've multiplied your number of round trips by 2 to calculate the number of times skiers can ski down in 2 hrs, but what figure did you base your first calculation on?",
+      "learner_turn": "To solve this problem, East trip up and back down the mountain takes 15+5=20 minutes per trip.\nTwo hour. The answer is East trip up and bac.",
+      "input_tokens": 44,
+      "output_tokens": 27,
+      "latency_ms": 737.6984553371008,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)But you started by calculating a time amount, which you used again later on, can you compare this to your calculation about skiing down the mountain?",
+      "learner_turn": "To solve this problem, East trip up and back down the mountain takes 15+5=20 minutes per trip.\nTwo hour. The answer is East trip up and bac.",
+      "input_tokens": 38,
+      "output_tokens": 27,
+      "latency_ms": 272.5110480843148,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)Not quite.  Your first calculation was figuring out the number of minutes in 2 hrs.  Can you compare this to your calculation about the number of times a person could ski down the mountain?",
+      "learner_turn": "To solve this problem, East trip up and back down the mountain takes 15+5=20 minutes per trip.\nTwo hour. The answer is East trip up and bac.",
+      "input_tokens": 46,
+      "output_tokens": 27,
+      "latency_ms": 465.9590253250719,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)This isn't quite correct.  You first calculated the number of trips that could be undertaken in 2 hrs.  Then later you multipled the trips by the time.  Can you see the duplication in that part of the solution?",
+      "learner_turn": "To solve this problem, East trip up and back down the mountain takes 15+5=20 minutes per trip.\nTwo hour. The answer is East trip up and bac.",
+      "input_tokens": 50,
+      "output_tokens": 27,
+      "latency_ms": 597.6071429479578,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(probing)So accounting for that duplication, what would be the correct number of times a skier could ski down the mountain in 2 hrs?",
+      "learner_turn": "To solve this problem, East trip up and back down the mountain takes 15+5=20 minutes per trip.\nTwo hour. The answer is East trip up and bac.",
+      "input_tokens": 35,
+      "output_tokens": 27,
+      "latency_ms": 352.1446397415574,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(generic)Excellent, well done for recalculating that in light of realising your mistake.",
+      "learner_turn": "To solve this problem, East trip up and back down the mountain takes 15+5=20 minutes per trip.\nTwo hour. The answer is East trip up and bac.",
+      "input_tokens": 24,
+      "output_tokens": 27,
+      "latency_ms": 325.91936870453014,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe ski lift carries skiers all the way from the bottom of the mountain to the very top of the mountain, and then drops them off so they can ski back down the mountain. If it takes a skier 22.5 minutes to ride the lift from the bottom to the top of the mountain, and then it takes 6.8 minutes to ski back down the mountain, what is the most number of times a person can ski down the mountain in 2.6 hours?",
+      "learner_turn": "The answer to that problem would be 24.",
+      "input_tokens": 112,
+      "output_tokens": 8,
+      "latency_ms": 511.032808404139,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

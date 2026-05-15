@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1066",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.054531",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 193,
+  "total_output_tokens": 124,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Seth, Explain to me how you got to your answer.",
+      "learner_turn": "I started by setting up an equation. I said that the first house was worth X and that the new house was worth $500,000. ",
+      "input_tokens": 20,
+      "output_tokens": 24,
+      "latency_ms": 259.59529192729906,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)I like your equation for working out how much Tommy paid for the new house. That is exactly right. Now lets think about how much is first home must be worth.",
+      "learner_turn": "Since Tommy paid 25% of the total price of the new house himself, that means that the first house must have been worth 7",
+      "input_tokens": 40,
+      "output_tokens": 24,
+      "latency_ms": 380.1240131568144,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Remember though he took a loan for %75.",
+      "learner_turn": "Right, so that means that the first house must have been worth $400,000, since he had to take a loan for the 75% he coul",
+      "input_tokens": 17,
+      "output_tokens": 25,
+      "latency_ms": 385.3386052685551,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)We know that he paid $125,00 towards his new home. We now need to divide the 125,000 by 1.25 to work out the solution.",
+      "learner_turn": "Dividing the $125,000 by 1.25 gives us $100,000, which means that Tommy bought his first house for $100,000.",
+      "input_tokens": 33,
+      "output_tokens": 18,
+      "latency_ms": 216.14718341402462,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Exactly right. Well done.",
+      "learner_turn": "I started by setting up an equation. I said that the first house was worth X and that the new house was worth $500,000. ",
+      "input_tokens": 13,
+      "output_tokens": 24,
+      "latency_ms": 760.4535991483073,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nTommy's home is worth 33.5% more than he bought it for. He sells it and buys a new house that costs $656.7,0. If he had to take a loan for the 96.3% he can't pay, how much did he buy his first house for?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 70,
+      "output_tokens": 9,
+      "latency_ms": 491.4472654756571,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

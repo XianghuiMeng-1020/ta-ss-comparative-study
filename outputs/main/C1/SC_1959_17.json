@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1959",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.337018",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1926,
+  "total_output_tokens": 179,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nThe Martin family goes to the mall to get ice cream.  A kiddie scoop is $3.  A regular scoop is $4.  A double scoop is $6.   Mr. and Mrs. Martin each get the regular scoop.  Their two children each get the kiddie scoop.  Their three teenage children each get double scoops.  How much money does Mrs. Martin pay the cashier?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nMr. and Mrs. Martin each get a regular scoop, which costs 2 x $4 = $8.\nTheir two children each get a kiddie scoop, which costs 2 x $3 = $6.\nTheir three teenage children each get a double scoop, which costs 3 x $6 = $18.\nTherefore, Mrs. Martin pays a total of $8 + $8 + $6 + $6 + $18 = $46 to the cashier.\n 46\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Scott can you talk me through your working out please?",
+      "learner_turn": "So I tried this problem. My approach was: Mr. and Mrs. Martin each get a regular scoop, which costs 2 x $4 = $8.\nTheir two. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 374,
+      "output_tokens": 39,
+      "latency_ms": 643.6595678012288,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Check how many numbers are in your final calculation",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 5? Let me redo: There are five numbers in my final calculation: $8, $8, $6, ",
+      "input_tokens": 372,
+      "output_tokens": 29,
+      "latency_ms": 795.4487725416324,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)You should have 3 numbers in your final calcualtion",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 3? Let me redo: Oh, I see. The final calculation should be $8 + $6 + $18 = $",
+      "input_tokens": 372,
+      "output_tokens": 33,
+      "latency_ms": 756.9912417978009,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(generic)Yes that's right, well done",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Sure, I started by calculating the cost of the Mr. and Mrs. . So the answer is 39?",
+      "input_tokens": 368,
+      "output_tokens": 30,
+      "latency_ms": 352.52572776525074,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe Martin family goes to the mall to get ice cream.  A kiddie scoop is $4.5.  A regular scoop is $5.6.  A double scoop is $8.1.   Mr. and Mrs. Martin each get the regular scoop.  Their two children each get the kiddie scoop.  Their three teenage children each get double scoops.  How much money does Mrs. Martin pay the cashier?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: The Martin family goes to the mall to get ice crea... I get approximately 43 as my answer. Does that seem right?",
+      "input_tokens": 440,
+      "output_tokens": 48,
+      "latency_ms": 348.65914048408763,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

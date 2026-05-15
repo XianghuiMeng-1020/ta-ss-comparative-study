@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1368",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.242726",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 261,
+  "total_output_tokens": 132,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jordy can you talk me through your working?",
+      "learner_turn": "To solve this problem, He filled 3 boxes with 15 books each so 3*15 = 45 books\nFrom the rest of his hou. The answer is He filled 3 boxes wi.",
+      "input_tokens": 21,
+      "output_tokens": 31,
+      "latency_ms": 347.2500778290066,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Think again about how many books he is donating in total.",
+      "learner_turn": "To solve this problem, He filled 3 boxes with 15 books each so 3*15 = 45 books\nFrom the rest of his hou. The answer is He filled 3 boxes wi.",
+      "input_tokens": 23,
+      "output_tokens": 31,
+      "latency_ms": 271.52008187330136,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)He filled 3 boxes with 15 books each so 3*15 = 45 books\nFrom the rest of his house he is donating 45+21+4+18 = 88 books for donation",
+      "learner_turn": "To solve this problem, He filled 3 boxes with 15 books each so 3*15 = 45 books\nFrom the rest of his hou. The answer is He filled 3 boxes wi.",
+      "input_tokens": 40,
+      "output_tokens": 31,
+      "latency_ms": 479.92212085404424,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)He had 88 books to donate. His collection is 99 books and he is donating 88 books, so that leaves him with 99-88 = 11 books\nHe picks up 12 books to add to his collection of 11 books so he now has 12+11 = 23 books",
+      "learner_turn": "To solve this problem, He filled 3 boxes with 15 books each so 3*15 = 45 books\nFrom the rest of his hou. The answer is He filled 3 boxes wi.",
+      "input_tokens": 59,
+      "output_tokens": 31,
+      "latency_ms": 613.7978057145567,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nHenry needs to declutter his book collection of 147.0 books.  From his bookshelf, he was able to fill 4.2 boxes of 20.6 books each to take to a donation center.  He had 29.3 books in a room he could donate, 5.1 on his coffee table and 24.9 cookbooks stashed in the kitchen.  When he dropped them off, he noticed a box of books that had a  \"free to a good home\" note.  He grabbed 14.7 books to take back to his place.  How many books does Henry now have?",
+      "learner_turn": "The answer to that problem would be 29.",
+      "input_tokens": 118,
+      "output_tokens": 8,
+      "latency_ms": 455.73393826978844,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

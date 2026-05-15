@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_2147",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.377051",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": true,
+  "exclusion_code": "E2",
+  "exclusion_reason": "Turn 0: non-math content (war)",
+  "total_input_tokens": 3817,
+  "total_output_tokens": 291,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nJohn is twice as old as Mary and half as old as Tonya. If Tanya is 60, what is their average age?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nAyisha is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nstudent did not work backwards from the age we definitely knew\n\nYOUR INITIAL INCORRECT ATTEMPT:\nIf John is half as old as Tanya, then he is 60 x 2 = 120 years old.\nIf John is twice as old as Mary, then Mary is 120/2 = 60 years old.\nThe total age of John and Mary is 120 + 60 = 180 years old.\nThe average age of John, Mary, and Tanya is (180 + 60)/3 = 80 years old.\n 80\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)hi what methods have you used to solve this problem?",
+      "learner_turn": "If John is half as old as Tanya, then he is 60 x 2 = 120 years old.\nIf John is twice as old as Mary, I used this approach because student did not work backwards from the age we definitely kn.",
+      "input_tokens": 346,
+      "output_tokens": 42,
+      "latency_ms": 713.1655185074233,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)john is how old?",
+      "learner_turn": "Okay, but I still think John is 120 years old.. Maybe the answer is 10?",
+      "input_tokens": 340,
+      "output_tokens": 15,
+      "latency_ms": 438.1634209318564,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)that is very unlikely let us work backwards. how old is tonya?",
+      "learner_turn": "I think I see — so instead I should... Tanya is 60 years old.. Does that mean the answer is 29?",
+      "input_tokens": 348,
+      "output_tokens": 21,
+      "latency_ms": 315.35640700200906,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)john is half the age of tanya?",
+      "learner_turn": "I think I see — so instead I should... Yes, John is half the age of Tanya, so he is 60 years old.. Does that mean the answer is 37?",
+      "input_tokens": 343,
+      "output_tokens": 30,
+      "latency_ms": 254.02155835470273,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)half of 100 =?",
+      "learner_turn": "I think I see — so instead I should... Half of 100 is 50.. Does that mean the answer is 14?",
+      "input_tokens": 340,
+      "output_tokens": 21,
+      "latency_ms": 611.5899143741901,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)use this to half 60 to work out John's age",
+      "learner_turn": "I think I see — so instead I should... John's age is 30 years old, since half of 60 is 30.. Does that mean the answer is 47?",
+      "input_tokens": 346,
+      "output_tokens": 28,
+      "latency_ms": 675.3057801479364,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)then you need to half John's age to work out how old mary is?",
+      "learner_turn": "I think I see — so instead I should... Yes, Mary is half of John's age, so she is 15 years old.. Does that mean the answer is 48?",
+      "input_tokens": 350,
+      "output_tokens": 29,
+      "latency_ms": 441.5642839855038,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)mary+ john+ tanyas ages =?",
+      "learner_turn": "I think I see — so instead I should... Mary, John, and Tanya's ages add up to 15 + 30 + 60 = 105 ye. Does that mean the answer is 30?",
+      "input_tokens": 341,
+      "output_tokens": 32,
+      "latency_ms": 489.6092259269946,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)now work out the average of 105 ?",
+      "learner_turn": "I think I see — so instead I should... The average of 105 is 105/3 = 35 years old.. Does that mean the answer is 11?",
+      "input_tokens": 344,
+      "output_tokens": 26,
+      "latency_ms": 212.64173432779592,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(generic)yes can you see how we did this?",
+      "learner_turn": "I think I see — so instead I should... Yes, I can see how we worked this out. We used the informati. Does that mean the answer is 8?",
+      "input_tokens": 344,
+      "output_tokens": 29,
+      "latency_ms": 743.6495095956249,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJohn is twice as old as Mary and half as old as Tonya. If Tanya is 89.2, what is their average age?",
+      "learner_turn": "Hmm, let me try. student did not work backwards from the  I think the answer might be 18.",
+      "input_tokens": 375,
+      "output_tokens": 18,
+      "latency_ms": 762.1202644194813,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

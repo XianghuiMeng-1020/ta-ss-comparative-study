@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_2074",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.364693",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2391,
+  "total_output_tokens": 172,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nAustin is a surfer. He took a trip to the beach during surfing season and the highest wave he caught was two feet higher than four times his height. The shortest wave he caught was four feet higher than his height. The shortest wave was three feet higher than his 7-foot surfboard is long. How tall was the highest wave Austin caught?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nLet's start with the information given about the shortest wave: it was 4 feet higher than Austin's height and 3 feet higher than his surfboard, which is 7 feet long. Therefore, Austin's height must be 7 - 3 = 4 feet.\nNow we can use this information to find the height of the highest wave. We know it was 2 feet higher than four times Austin's height, so it was 2 + 4*4 = 18 feet tall.\n 18\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)You are on the right track. So, the shortest wave is 3ft greater than his 7ft surfboard - so it is?",
+      "learner_turn": "So I tried this problem. My approach was: Let's start with the information given about the shortest wave: it was 4 feet hi. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 395,
+      "output_tokens": 36,
+      "latency_ms": 494.5909526795457,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)That's right! But this 10ft wave is also 4ft higher than Austin, so Austin must be how tall?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: 6ft. So the answer is 15?",
+      "input_tokens": 392,
+      "output_tokens": 18,
+      "latency_ms": 729.0745851519914,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)That's right, Austin is 6ft tall. The highest wave is 4 times his height plus 2 which is?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: 24ft. So the answer is 48?",
+      "input_tokens": 392,
+      "output_tokens": 18,
+      "latency_ms": 381.76802292608113,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(generic)Show me the calculation?",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 10? Let me redo: 4 times Austin's height is 4 x 6 = 24. The highest wave is 2",
+      "input_tokens": 378,
+      "output_tokens": 33,
+      "latency_ms": 323.42773636736973,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)That's right! 26ft is the correct answer.",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: 10ft. So the answer is 30?",
+      "input_tokens": 381,
+      "output_tokens": 18,
+      "latency_ms": 630.3488527844709,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAustin is a surfer. He took a trip to the beach during surfing season and the highest wave he caught was two feet higher than four times his height. The shortest wave he caught was four feet higher than his height. The shortest wave was three feet higher than his 9.8-foot surfboard is long. How tall was the highest wave Austin caught?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Austin is a surfer. He took a trip to the beach du... I get approximately 17 as my answer. Does that seem right?",
+      "input_tokens": 453,
+      "output_tokens": 49,
+      "latency_ms": 618.728796715744,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

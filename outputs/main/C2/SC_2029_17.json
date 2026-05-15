@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_2029",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.360906",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3191,
+  "total_output_tokens": 211,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nRay has 175 cents in nickels. Ray gives 30 cents to Peter, and he gives twice as many cents to Randi as he gave to Peter. How many more nickels does Randi have than Peter?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nAlejandra is a 7th grade student. She struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nforgot to subtract peter's nickels\n\nYOUR INITIAL INCORRECT ATTEMPT:\n175 cents in nickels is equal to 175/5 = 35 nickels.\nRay gave 30 cents to Peter, so he has 175 - 30 = 145 cents left.\nRay gave twice as many cents to Randi as he gave to Peter, so he gave 2 x 30 = 60 cents to Randi.\nRandi has 60/5 = 12 more nickels than Peter, since there are 5 cents in a nickel.\n 12\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic) Hi Alejandra, could you please walk me through your solution?",
+      "learner_turn": "175 cents in nickels is equal to 175/5 = 35 nickels.\nRay gave 30 cents to Peter, so he has 175 - 30  I used this approach because forgot to subtract peter's nickels.",
+      "input_tokens": 351,
+      "output_tokens": 33,
+      "latency_ms": 672.3620143294805,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)good work so far, so randi had 12 nickels right?",
+      "learner_turn": "Okay, but I still think Yes, Randi had 12 more nickels than Peter.. Maybe the answer is 8?",
+      "input_tokens": 350,
+      "output_tokens": 18,
+      "latency_ms": 279.1612622654511,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)let's just focus on randi for now. how many nickels?",
+      "learner_turn": "I think I see — so instead I should... Randi had 12 nickels.. Does that mean the answer is 37?",
+      "input_tokens": 350,
+      "output_tokens": 20,
+      "latency_ms": 471.381957785612,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)ok and how many does peter have?",
+      "learner_turn": "I think I see — so instead I should... Peter has 35 - 12 = 23 nickels.. Does that mean the answer is 7?",
+      "input_tokens": 347,
+      "output_tokens": 24,
+      "latency_ms": 404.81616528206973,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)wait let's look at your solution again. how many cents did ray give peter?",
+      "learner_turn": "I think I see — so instead I should... Ray gave Peter 30 cents.. Does that mean the answer is 46?",
+      "input_tokens": 354,
+      "output_tokens": 21,
+      "latency_ms": 265.20476339207374,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)and how many nickels is that?",
+      "learner_turn": "I think I see — so instead I should... 30 cents is equal to 30/5 = 6 nickels.. Does that mean the answer is 22?",
+      "input_tokens": 346,
+      "output_tokens": 25,
+      "latency_ms": 453.0518319348846,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)great so if randi has 12 nickels, and peter has 6, how many more does randi have?",
+      "learner_turn": "I think I see — so instead I should... Randi has 12 - 6 = 6 more nickels than Peter.. Does that mean the answer is 24?",
+      "input_tokens": 357,
+      "output_tokens": 27,
+      "latency_ms": 690.295488110101,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)great stuff alejandra, correct",
+      "learner_turn": "I think I see — so instead I should... Sure! I started by calculating how many nickels 175 cents is. Does that mean the answer is 37?",
+      "input_tokens": 344,
+      "output_tokens": 27,
+      "latency_ms": 227.8790086338323,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nRay has 230.3 cents in nickels. Ray gives 36.6 cents to Peter, and he gives twice as many cents to Randi as he gave to Peter. How many more nickels does Randi have than Peter?",
+      "learner_turn": "Hmm, let me try. forgot to subtract peter's nickels I think the answer might be 26.",
+      "input_tokens": 392,
+      "output_tokens": 16,
+      "latency_ms": 348.66561055184843,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

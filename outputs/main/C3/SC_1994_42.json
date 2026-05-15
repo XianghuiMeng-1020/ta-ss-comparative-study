@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1994",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.357498",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 265,
+  "total_output_tokens": 174,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi. Can you talk me through your answer?",
+      "learner_turn": "Sure. I started by calculating the cost per friend if Brad participated. That would be $1200 divided by 6, which equals ",
+      "input_tokens": 17,
+      "output_tokens": 21,
+      "latency_ms": 775.0480231408666,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)So Brad's share was what?",
+      "learner_turn": "Brad's share would have been $200.",
+      "input_tokens": 14,
+      "output_tokens": 6,
+      "latency_ms": 630.6861012310799,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Ok so everyone is paying $200 but without Brad they are $200 short.",
+      "learner_turn": "Yes, that's correct. Without Brad, the five friends are left to split the cost of the car, which is $1200. Since each fr",
+      "input_tokens": 22,
+      "output_tokens": 23,
+      "latency_ms": 498.73639865979754,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Do they each need to pay the full share of Brad",
+      "learner_turn": "Yes, they each need to pay the full share of Brad, which is $200. This means that each friend will have to pay $800 more",
+      "input_tokens": 20,
+      "output_tokens": 25,
+      "latency_ms": 741.7220278110598,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)So if each is paying $800.  That would be 800x5",
+      "learner_turn": "Yes, that's correct. The total amount that the five friends have to pay is $800 multiplied by 5, which equals $4000.",
+      "input_tokens": 19,
+      "output_tokens": 21,
+      "latency_ms": 596.3174881802988,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Is the car $4000?",
+      "learner_turn": "No, the car is still $1700. The $4000 is the total amount that the five friends have to pay, which is $800 more than the",
+      "input_tokens": 13,
+      "output_tokens": 25,
+      "latency_ms": 792.7629509944169,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)You correctly identified that each share would be $200 with Brad.  If Brad doesn't pay then they are $200 short.  What is $200 shared between 5 people",
+      "learner_turn": "$200 shared between 5 people would be $200 divided by 5, which equals $40 per person. So without Brad, each of the five ",
+      "input_tokens": 36,
+      "output_tokens": 23,
+      "latency_ms": 778.4448040757978,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)Great.  Well done!",
+      "learner_turn": "Sure. I started by calculating the cost per friend if Brad participated. That would be $1200 divided by 6, which equals ",
+      "input_tokens": 12,
+      "output_tokens": 21,
+      "latency_ms": 322.4537384874185,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA group of six friends planned to buy a car. The cost of the car is $2399.8 and they plan to share the cost equally. They had a car wash to help raise funds, which would be taken out of the total cost. The remaining cost would be split between the six friends. At the car wash, they earn $644.0. However, Brad decided not to join in the purchase of the car. How much more does each friend have to pay now that Brad isn't participating?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 112,
+      "output_tokens": 9,
+      "latency_ms": 451.5286218802104,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

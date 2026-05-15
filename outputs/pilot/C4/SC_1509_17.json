@@ -1,0 +1,92 @@
+{
+  "scenario_id": "SC_1509",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.106005",
+  "n_tutor_turns": 7,
+  "n_learner_turns": 7,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 222,
+  "total_output_tokens": 188,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Why did you start at 24 instead of at 20?",
+      "learner_turn": "To solve this problem, There were 20 x 0.20 = 4 sacks of rice increase after the first harvest.\nSo the . The answer is There were 20 x 0.20.",
+      "input_tokens": 22,
+      "output_tokens": 30,
+      "latency_ms": 279.07741540530543,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)But you just said it was 20 sacks at the first harvest, correct?",
+      "learner_turn": "To solve this problem, There were 20 x 0.20 = 4 sacks of rice increase after the first harvest.\nSo the . The answer is There were 20 x 0.20.",
+      "input_tokens": 25,
+      "output_tokens": 30,
+      "latency_ms": 689.0578635495147,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)What would the answer be if the first harvest was 20 sacks instead of 24?",
+      "learner_turn": "To solve this problem, There were 20 x 0.20 = 4 sacks of rice increase after the first harvest.\nSo the . The answer is There were 20 x 0.20.",
+      "input_tokens": 27,
+      "output_tokens": 30,
+      "latency_ms": 664.7884302687435,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(generic)Why would you add 4.8? 4.8 is not 20% of 20.",
+      "learner_turn": "To solve this problem, There were 20 x 0.20 = 4 sacks of rice increase after the first harvest.\nSo the . The answer is There were 20 x 0.20.",
+      "input_tokens": 23,
+      "output_tokens": 30,
+      "latency_ms": 579.1000037089548,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Remember, we are assuming the first harvest is 20, because that's what the question stated.",
+      "learner_turn": "To solve this problem, There were 20 x 0.20 = 4 sacks of rice increase after the first harvest.\nSo the . The answer is There were 20 x 0.20.",
+      "input_tokens": 27,
+      "output_tokens": 30,
+      "latency_ms": 717.2380330146016,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(generic)Great! Now add the first and second harvest together like you did originally",
+      "learner_turn": "To solve this problem, There were 20 x 0.20 = 4 sacks of rice increase after the first harvest.\nSo the . The answer is There were 20 x 0.20.",
+      "input_tokens": 25,
+      "output_tokens": 30,
+      "latency_ms": 338.20037264962906,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIn a rice field, you can get a total of 24.4 sacks of rice every harvest. If the yield increases by twenty percent after every harvest, what is the total number of sacks of rice you can get after the first and second harvest?",
+      "learner_turn": "The answer to that problem would be 25.",
+      "input_tokens": 73,
+      "output_tokens": 8,
+      "latency_ms": 510.6471873509555,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

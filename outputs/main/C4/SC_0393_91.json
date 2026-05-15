@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_0393",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.034809",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 340,
+  "total_output_tokens": 278,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi , could you please walk me through your solution?",
+      "learner_turn": "To solve this problem, The ratio between the time charged and the time to be charged is 100 / 25 = 4.\nT. The answer is The ratio between th.",
+      "input_tokens": 22,
+      "output_tokens": 30,
+      "latency_ms": 283.23549027210527,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)can you explain how you reached the conclusion that every 15 minutes of charging adds 25% charge/",
+      "learner_turn": "To solve this problem, The ratio between the time charged and the time to be charged is 100 / 25 = 4.\nT. The answer is The ratio between th.",
+      "input_tokens": 29,
+      "output_tokens": 30,
+      "latency_ms": 778.6535617555124,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)lets consider this example. you took 15 minutes to complete 20% of a task. how much more time would you need to complete the task?",
+      "learner_turn": "To solve this problem, The ratio between the time charged and the time to be charged is 100 / 25 = 4.\nT. The answer is The ratio between th.",
+      "input_tokens": 37,
+      "output_tokens": 30,
+      "latency_ms": 202.30736088784326,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)so you mean that you would need 75 minutes to complete 100% of the task?",
+      "learner_turn": "To solve this problem, The ratio between the time charged and the time to be charged is 100 / 25 = 4.\nT. The answer is The ratio between th.",
+      "input_tokens": 27,
+      "output_tokens": 30,
+      "latency_ms": 632.4130906488751,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)and since you have completed 20% in the first 15 minutes therefore it would take you 75-15=60 minutes more to complete the task?",
+      "learner_turn": "To solve this problem, The ratio between the time charged and the time to be charged is 100 / 25 = 4.\nT. The answer is The ratio between th.",
+      "input_tokens": 35,
+      "output_tokens": 30,
+      "latency_ms": 638.5704677272661,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)can you use the same method to figure out how much more time will be required for the cell phone to be charged to 100 %?",
+      "learner_turn": "To solve this problem, The ratio between the time charged and the time to be charged is 100 / 25 = 4.\nT. The answer is The ratio between th.",
+      "input_tokens": 38,
+      "output_tokens": 30,
+      "latency_ms": 251.32603834279232,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)recall the example that we solved. if it takes 45 minutes to reach 25% of charge, how much time would it take to reach 100 % charge?",
+      "learner_turn": "To solve this problem, The ratio between the time charged and the time to be charged is 100 / 25 = 4.\nT. The answer is The ratio between th.",
+      "input_tokens": 39,
+      "output_tokens": 30,
+      "latency_ms": 718.0087385523428,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)very well. now How much longer must the cell phone be charged to reach 100% charge?",
+      "learner_turn": "To solve this problem, The ratio between the time charged and the time to be charged is 100 / 25 = 4.\nT. The answer is The ratio between th.",
+      "input_tokens": 28,
+      "output_tokens": 30,
+      "latency_ms": 558.2178705944953,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)no. it would take 180-25=135 minutes more to reach 100 % charge.",
+      "learner_turn": "To solve this problem, The ratio between the time charged and the time to be charged is 100 / 25 = 4.\nT. The answer is The ratio between th.",
+      "input_tokens": 24,
+      "output_tokens": 30,
+      "latency_ms": 750.6286590111082,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nNick's cell phone was initially empty but was then charged for 63.1 minutes and has reached a 33.2% charge. How much longer must the cell phone be charged to reach 149.8% charge?",
+      "learner_turn": "The answer to that problem would be 39.",
+      "input_tokens": 61,
+      "output_tokens": 8,
+      "latency_ms": 705.1294961912099,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

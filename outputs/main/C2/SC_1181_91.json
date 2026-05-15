@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1181",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.187847",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3555,
+  "total_output_tokens": 250,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nAmanda's car takes five fewer minutes to complete the same trip to the beach than the bus. If the bus takes 40 minutes to drive 80 miles to the beach, how many minutes will it take the car to make a round trip?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nHunter is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nAssumed vaguely the speeds of both the vehicles to be same\n\nYOUR INITIAL INCORRECT ATTEMPT:\nThe bus travels at a rate of 80/40 = 2 miles per minute.\nThe car takes 5 fewer minutes to complete the same trip, so it takes 40-5 = 35 minutes.\nThe car travels at the same rate as the bus, so it also travels at 2 miles per minute.\nThe round trip to the beach is 80 x 2 = 160 miles.\nTherefore, the car will take 160/2 = 80 minutes to make a round trip.\n 80\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, could you please walk me through your solution?",
+      "learner_turn": "The bus travels at a rate of 80/40 = 2 miles per minute.\nThe car takes 5 fewer minutes to complete t I used this approach because Assumed vaguely the speeds of both the vehicles to be same.",
+      "input_tokens": 379,
+      "output_tokens": 38,
+      "latency_ms": 792.6708674204601,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)If two vehicles take different times to complete the same trip, can they have equal speeds?",
+      "learner_turn": "Okay, but I still think No, they cannot. If two vehicles take different times to com. Maybe the answer is 10?",
+      "input_tokens": 386,
+      "output_tokens": 21,
+      "latency_ms": 763.4942861607376,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Following this, can you justify why you assumed that the car and the bus travel at the same speed if the car takes lesser time than the bus? Doesn't seem to make sense",
+      "learner_turn": "I think I see — so instead I should... Yes, I can justify it. Since the car and the bus are both tr. Does that mean the answer is 45?",
+      "input_tokens": 403,
+      "output_tokens": 30,
+      "latency_ms": 285.90533263358355,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)You are contradicting yourself. The car travels faster than the bus. They can't have same speeds.",
+      "learner_turn": "I think I see — so instead I should... Yes, you are right. The car does travel faster than the bus.. Does that mean the answer is 7?",
+      "input_tokens": 386,
+      "output_tokens": 28,
+      "latency_ms": 344.071397497376,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Now get back to the question and tell me how long does Amanda's car take to make a trip to the beach ?",
+      "learner_turn": "I think I see — so instead I should... Amanda's car takes 35 minutes to make a trip to the beach.. Does that mean the answer is 47?",
+      "input_tokens": 393,
+      "output_tokens": 28,
+      "latency_ms": 380.2732083697788,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)So how long should Amanda take to go to the beach and come back?",
+      "learner_turn": "I think I see — so instead I should... Amanda should take 80 minutes to go to the beach and come ba. Does that mean the answer is 19?",
+      "input_tokens": 384,
+      "output_tokens": 29,
+      "latency_ms": 669.3828774753149,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)Again, it doesn't make sense. If I go to school in 15 minutes, how long will a round trip to school take?",
+      "learner_turn": "I think I see — so instead I should... A round trip to school will take 30 minutes, since the dista. Does that mean the answer is 45?",
+      "input_tokens": 392,
+      "output_tokens": 28,
+      "latency_ms": 668.513351405031,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)Can you please use the above concept and answer for amanda as well if one way trip to beach in her car takes 35 mins, how long a round trip would take?",
+      "learner_turn": "I think I see — so instead I should... A round trip to the beach in Amanda's car will take 70 minut. Does that mean the answer is 49?",
+      "input_tokens": 402,
+      "output_tokens": 29,
+      "latency_ms": 203.6605320050706,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAmanda's car takes five fewer minutes to complete the same trip to the beach than the bus. If the bus takes 59.4 minutes to drive 97.7 miles to the beach, how many minutes will it take the car to make a round trip?",
+      "learner_turn": "Hmm, let me try. Assumed vaguely the speeds of both the v I think the answer might be 14.",
+      "input_tokens": 430,
+      "output_tokens": 19,
+      "latency_ms": 400.67508328286056,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

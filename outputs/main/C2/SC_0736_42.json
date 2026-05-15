@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_0736",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.105208",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3128,
+  "total_output_tokens": 202,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nGrayson has 100 questions on a test. He answers some of the questions for 2 hours, taking two minutes for each answer, then realizes he doesn't know the rest of the questions. How many questions does Grayson leave unanswered when he submits his test?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nJordy is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student got confused with the steps in the question and carried out too many division steps. Once the question was broken down in to steps, they were able to find the solution.  \n\nYOUR INITIAL INCORRECT ATTEMPT:\nGrayson has 2 x 60 = 120 minutes to answer the test questions.\nHe spent 2 x 60/2 = 60 minutes answering some of the questions.\nHe spent 120 - 60 = 60 minutes not answering the remaining questions.\nHe could have answered 60/2 = 30 questions in the remaining time.\nTherefore, Grayson leaves 100 - 30 = 70 questions unanswered. \n 70\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Jordy, please can you talk me through your solution?",
+      "learner_turn": "Grayson has 2 x 60 = 120 minutes to answer the test questions.\nHe spent 2 x 60/2 = 60 minutes answer I used this approach because The student got confused with the steps in the question and .",
+      "input_tokens": 386,
+      "output_tokens": 39,
+      "latency_ms": 668.845872399894,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)How long does it take Grayson to answer 1 question?",
+      "learner_turn": "Okay, but I still think Grayson takes 2 minutes to answer one question.. Maybe the answer is 45?",
+      "input_tokens": 386,
+      "output_tokens": 18,
+      "latency_ms": 529.1237379005407,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)So in 2 minutes he could answer how many questions?",
+      "learner_turn": "I think I see — so instead I should... In 2 minutes, Grayson could answer 1 question.. Does that mean the answer is 45?",
+      "input_tokens": 386,
+      "output_tokens": 24,
+      "latency_ms": 624.1039681546401,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Sorry, in 2 hours Grayson could answer how many questions?",
+      "learner_turn": "I think I see — so instead I should... In 2 hours, Grayson could answer 120/2 = 60 questions.. Does that mean the answer is 39?",
+      "input_tokens": 386,
+      "output_tokens": 26,
+      "latency_ms": 247.26097820692877,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)That's correct. How many questions were on the test altogether?",
+      "learner_turn": "I think I see — so instead I should... The test had a total of 100 questions.. Does that mean the answer is 44?",
+      "input_tokens": 386,
+      "output_tokens": 24,
+      "latency_ms": 734.4885111249228,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)So how many did Grayson not answer?",
+      "learner_turn": "I think I see — so instead I should... Grayson left 100 - 60 = 40 questions unanswered.. Does that mean the answer is 9?",
+      "input_tokens": 383,
+      "output_tokens": 25,
+      "latency_ms": 799.2256058125813,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(generic)That's correct.",
+      "learner_turn": "I think I see — so instead I should... Sure. I started by calculating how much time Grayson had to . Does that mean the answer is 37?",
+      "input_tokens": 378,
+      "output_tokens": 28,
+      "latency_ms": 595.9803779788613,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nGrayson has 145.9 questions on a test. He answers some of the questions for 2.8 hours, taking two minutes for each answer, then realizes he doesn't know the rest of the questions. How many questions does Grayson leave unanswered when he submits his test?",
+      "learner_turn": "Hmm, let me try. The student got confused with the steps  I think the answer might be 39.",
+      "input_tokens": 437,
+      "output_tokens": 18,
+      "latency_ms": 588.5418880899995,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

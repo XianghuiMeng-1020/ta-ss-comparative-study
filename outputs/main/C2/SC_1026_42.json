@@ -1,0 +1,172 @@
+{
+  "scenario_id": "SC_1026",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.159114",
+  "n_tutor_turns": 15,
+  "n_learner_turns": 15,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 5253,
+  "total_output_tokens": 458,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nEd has 2 dogs, 3 cats and twice as many fish as cats and dogs combined. How many pets does Ed have in total?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nLakisha is a 7th grade student. She struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nStudent was miscounting, double counting and easily confused and not understanding how to arrive at the solution at all. \n\nYOUR INITIAL INCORRECT ATTEMPT:\nEd has 2+3 = 5 dogs and cats combined.\nHe has 2+3 = 5 cats and dogs combined.\nThus, Ed has 5+5 = 10 cats and dogs and fish combined.\nHe has 2+3 = 5 cats and dogs combined.\nSo, he has 10-5 = 5 fish.\nTherefore, Ed has a total of 2+3+5 = 10 pets.\n 10\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Oh Lakisha, I think we can do this in a much simpler fashion if we focus on it step by step. How many dogs and cats does Ed have, in total?",
+      "learner_turn": "Ed has 2+3 = 5 dogs and cats combined.\nHe has 2+3 = 5 cats and dogs combined.\nThus, Ed has 5+5 = 10  I used this approach because Student was miscounting, double counting and easily confused.",
+      "input_tokens": 362,
+      "output_tokens": 37,
+      "latency_ms": 713.178990853744,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Excellent! Now it says there are twice as many fish, so how many would that be?",
+      "learner_turn": "Okay, but I still think Since there are 5 dogs and cats, then there must be twice as. Maybe the answer is 25?",
+      "input_tokens": 347,
+      "output_tokens": 23,
+      "latency_ms": 231.2187589825377,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Yes! Now, how many pets total? Remember, this is not complicated.",
+      "learner_turn": "I think I see — so instead I should... Ed has a total of 2 dogs, 3 cats, and 5 fish, so he has a to. Does that mean the answer is 22?",
+      "input_tokens": 342,
+      "output_tokens": 33,
+      "latency_ms": 693.1122617298635,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)You said a different number of fish in your previous step, and that was correct. Can you fix that? Remember, twice as many fish as cats and dogs.",
+      "learner_turn": "I think I see — so instead I should... Yes, Ed has 2 dogs, 3 cats, and 5 fish, so he has a total of. Does that mean the answer is 31?",
+      "input_tokens": 359,
+      "output_tokens": 32,
+      "latency_ms": 609.1091929540316,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)No, if there are 5 cats and dogs, then how many is twice that? That is the number of fish.",
+      "learner_turn": "I think I see — so instead I should... Yes, Ed has 2 dogs, 3 cats, and 5 fish, so he has a total of. Does that mean the answer is 12?",
+      "input_tokens": 351,
+      "output_tokens": 32,
+      "latency_ms": 398.0029964882981,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Think of it this way. If I have four chickens and two goats, and then twice as many cows as chickens and goats, then I have 4 + 2 + (2)(4 + 2) = 18",
+      "learner_turn": "I think I see — so instead I should... Yes, that makes sense. So, if Ed has 2 dogs, 3 cats, and twi. Does that mean the answer is 11?",
+      "input_tokens": 366,
+      "output_tokens": 30,
+      "latency_ms": 381.61276303422164,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)This is better, but now you have a math error. Can you check your work?",
+      "learner_turn": "I think I see — so instead I should... Yes, Ed has 2 dogs, 3 cats, and twice as many fish as cats a. Does that mean the answer is 14?",
+      "input_tokens": 346,
+      "output_tokens": 31,
+      "latency_ms": 590.5897531119736,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)No, 2 + 3 is 5 cats and dogs. Twice that is 10 fish. So what is 5 cats and dogs plus 10 fish, how many animals is that?",
+      "learner_turn": "I think I see — so instead I should... Yes, Ed has 2 dogs, 3 cats, and 5 fish, so he has a total of. Does that mean the answer is 12?",
+      "input_tokens": 360,
+      "output_tokens": 32,
+      "latency_ms": 506.01315655668344,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)No, sorry, Lakisha. 5 + 10 is not 10",
+      "learner_turn": "I think I see — so instead I should... Yes, Ed has 2 dogs, 3 cats, and 5 fish, so he has a total of. Does that mean the answer is 26?",
+      "input_tokens": 340,
+      "output_tokens": 32,
+      "latency_ms": 763.3767953587127,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)No, 5 cats and dogs plus 10 fish is 5 + 10 = 15, fifteen pets.",
+      "learner_turn": "I think I see — so instead I should... Yes, Ed has 2 dogs, 3 cats, and 5 fish, so he has a total of. Does that mean the answer is 36?",
+      "input_tokens": 347,
+      "output_tokens": 32,
+      "latency_ms": 351.02426002732295,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(telling)No, it is 15 pets.",
+      "learner_turn": "I think I see — so instead I should... Yes, Ed has 2 dogs, 3 cats, and 5 fish, so he has a total of. Does that mean the answer is 20?",
+      "input_tokens": 336,
+      "output_tokens": 32,
+      "latency_ms": 490.1495452764582,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(telling)No, he has ten fish, and you don't subtract the cats and dogs.",
+      "learner_turn": "I think I see — so instead I should... Yes, Ed has 2 dogs, 3 cats, and 5 fish, so he has a total of. Does that mean the answer is 7?",
+      "input_tokens": 344,
+      "output_tokens": 32,
+      "latency_ms": 451.2659010929488,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(telling)No, he has 10 fish. NOT 5.",
+      "learner_turn": "I think I see — so instead I should... Yes, Ed has 2 dogs, 3 cats, and 5 fish, so he has a total of. Does that mean the answer is 30?",
+      "input_tokens": 338,
+      "output_tokens": 32,
+      "latency_ms": 228.0093934728239,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "(telling)When you said \"total of 15 pets\" you should have stopped there.",
+      "learner_turn": "I think I see — so instead I should... Yes, Ed has 2 dogs, 3 cats, and 5 fish, so he has a total of. Does that mean the answer is 22?",
+      "input_tokens": 343,
+      "output_tokens": 32,
+      "latency_ms": 695.6864460972479,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 14,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nEd has 2.6 dogs, 4.0 cats and twice as many fish as cats and dogs combined. How many pets does Ed have in total?",
+      "learner_turn": "Hmm, let me try. Student was miscounting, double counting I think the answer might be 15.",
+      "input_tokens": 372,
+      "output_tokens": 16,
+      "latency_ms": 273.76500814893143,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

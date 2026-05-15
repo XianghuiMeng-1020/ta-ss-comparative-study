@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1433",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.086295",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 4277,
+  "total_output_tokens": 252,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nChris wants to hold his breath underwater for 90 straight seconds so he starts training each day. On the first day, he holds it for 10 seconds. On the second day, he holds it for 20 seconds. On the third day, he holds it for 30 seconds. After realizing that he can hold it for ten extra seconds each day, he realizes he can calculate how many days it is until he reaches 90 if he keeps up the same pace. So how many days until he can hold his breath for 90 seconds?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nClaire is a 7th grade student. She has problem with understanding of underlying ideas and principles and a recognition of when to apply them.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nInitially, the student worked out the total length of time to complete the task. Once he recognised he only need to calculate the remaining days he struggled with the calculation of 60 divided by 10.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nOn the fourth day, Chris holds his breath for 40 seconds.\nOn the fifth day, Chris holds his breath for 50 seconds.\nOn the sixth day, Chris holds his breath for 60 seconds.\nOn the seventh day, Chris holds his breath for 70 seconds.\nOn the eighth day, Chris holds his breath for 80 seconds.\nOn the ninth day, Chris holds his breath for 90 seconds.\nTherefore, it will take Chris 9 days to be able to hold his breath for 90 seconds.\n 9\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Claire, please can you talk me through your solution?",
+      "learner_turn": "On the fourth day, Chris holds his breath for 40 seconds.\nOn the fifth day, Chris holds his breath f I used this approach because Initially, the student worked out the total length of time t.",
+      "input_tokens": 459,
+      "output_tokens": 36,
+      "latency_ms": 221.62281288623643,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)So how many days until he can hold his breath for 90 seconds?    The question wants to know how much longer 'until' not how many days total.",
+      "learner_turn": "Okay, but I still think Oh, I see. So it would take him 8 more days until he can hol. Maybe the answer is 29?",
+      "input_tokens": 476,
+      "output_tokens": 25,
+      "latency_ms": 226.52913124249602,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Why 8 more days?",
+      "learner_turn": "I think I see — so instead I should... Because on the first day he held his breath for 10 seconds, . Does that mean the answer is 9?",
+      "input_tokens": 453,
+      "output_tokens": 29,
+      "latency_ms": 273.3810183854311,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Today is day 3 - Chris can already hold his breath for 30 seconds. How many more seconds does he need to be able to hold his breath for?",
+      "learner_turn": "I think I see — so instead I should... Chris needs to be able to hold his breath for an additional . Does that mean the answer is 5?",
+      "input_tokens": 478,
+      "output_tokens": 29,
+      "latency_ms": 643.7388225021817,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)And he can improve by how many seconds each day?",
+      "learner_turn": "I think I see — so instead I should... Chris can improve by 10 seconds each day.. Does that mean the answer is 42?",
+      "input_tokens": 459,
+      "output_tokens": 24,
+      "latency_ms": 376.98816441083306,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)To work out how many more days it is going to take him we need to calculate the improvement needed by the improvement that can be made each day. Can you work out the answer?",
+      "learner_turn": "I think I see — so instead I should... Yes, it will take Chris 8 more days to reach 90 seconds. He . Does that mean the answer is 6?",
+      "input_tokens": 484,
+      "output_tokens": 30,
+      "latency_ms": 334.015491467714,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)60 divided by 10 is?",
+      "learner_turn": "I think I see — so instead I should... 60 divided by 10 is 6. So it will take Chris 6 more days to . Does that mean the answer is 35?",
+      "input_tokens": 454,
+      "output_tokens": 32,
+      "latency_ms": 394.95239627698703,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)That's correct - wel done",
+      "learner_turn": "I think I see — so instead I should... Sure. I started by saying that on the first day, Chris held . Does that mean the answer is 49?",
+      "input_tokens": 454,
+      "output_tokens": 29,
+      "latency_ms": 420.14482095478866,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nChris wants to hold his breath underwater for 108.5 straight seconds so he starts training each day. On the first day, he holds it for 14.8 seconds. On the second day, he holds it for 26.3 seconds. On the third day, he holds it for 40.3 seconds. After realizing that he can hold it for ten extra seconds each day, he realizes he can calculate how many days it is until he reaches 128.6 if he keeps up the same pace. So how many days until he can hold his breath for 109.7 seconds?",
+      "learner_turn": "Hmm, let me try. Initially, the student worked out the to I think the answer might be 7.",
+      "input_tokens": 560,
+      "output_tokens": 18,
+      "latency_ms": 569.0319353272389,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

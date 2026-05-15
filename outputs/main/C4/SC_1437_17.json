@@ -1,0 +1,142 @@
+{
+  "scenario_id": "SC_1437",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.255367",
+  "n_tutor_turns": 12,
+  "n_learner_turns": 12,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 326,
+  "total_output_tokens": 316,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Mariana, re-read the problem... how often does Janet use 15 pounds of cat litter?",
+      "learner_turn": "To solve this problem, If she changes the box weekly, then in 210 days, she will change the box 210/7=3. The answer is If she changes the b.",
+      "input_tokens": 26,
+      "output_tokens": 28,
+      "latency_ms": 482.0710246999271,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How many weeks does she need to buy for?",
+      "learner_turn": "To solve this problem, If she changes the box weekly, then in 210 days, she will change the box 210/7=3. The answer is If she changes the b.",
+      "input_tokens": 21,
+      "output_tokens": 28,
+      "latency_ms": 221.97795959116422,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)How many pounds overall would she need then?",
+      "learner_turn": "To solve this problem, If she changes the box weekly, then in 210 days, she will change the box 210/7=3. The answer is If she changes the b.",
+      "input_tokens": 20,
+      "output_tokens": 28,
+      "latency_ms": 541.6840276350747,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Look at who much you said she needed for 1 week just now.",
+      "learner_turn": "To solve this problem, If she changes the box weekly, then in 210 days, she will change the box 210/7=3. The answer is If she changes the b.",
+      "input_tokens": 25,
+      "output_tokens": 28,
+      "latency_ms": 548.7579987603198,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)That is not the answer you gave me a few minutes ago, and it was right.",
+      "learner_turn": "To solve this problem, If she changes the box weekly, then in 210 days, she will change the box 210/7=3. The answer is If she changes the b.",
+      "input_tokens": 28,
+      "output_tokens": 28,
+      "latency_ms": 465.9122628812576,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)No, look back at the first answer you gave me in our discussion",
+      "learner_turn": "To solve this problem, If she changes the box weekly, then in 210 days, she will change the box 210/7=3. The answer is If she changes the b.",
+      "input_tokens": 25,
+      "output_tokens": 28,
+      "latency_ms": 742.3365103788658,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)RE-read the problem, how much does she need per week, then multiple by 30.",
+      "learner_turn": "To solve this problem, If she changes the box weekly, then in 210 days, she will change the box 210/7=3. The answer is If she changes the b.",
+      "input_tokens": 26,
+      "output_tokens": 28,
+      "latency_ms": 393.5590225051467,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Reread the problem, she does NOT need 105 pounds per week.",
+      "learner_turn": "To solve this problem, If she changes the box weekly, then in 210 days, she will change the box 210/7=3. The answer is If she changes the b.",
+      "input_tokens": 23,
+      "output_tokens": 28,
+      "latency_ms": 419.8211173236849,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(probing)Yes! so how many 45 lb containers would she need for 450 lbs",
+      "learner_turn": "To solve this problem, If she changes the box weekly, then in 210 days, she will change the box 210/7=3. The answer is If she changes the b.",
+      "input_tokens": 25,
+      "output_tokens": 28,
+      "latency_ms": 373.01742334814264,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(probing)So how much would 10 containers cost then?",
+      "learner_turn": "To solve this problem, If she changes the box weekly, then in 210 days, she will change the box 210/7=3. The answer is If she changes the b.",
+      "input_tokens": 20,
+      "output_tokens": 28,
+      "latency_ms": 625.9026840325066,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(generic)Excellent!",
+      "learner_turn": "To solve this problem, If she changes the box weekly, then in 210 days, she will change the box 210/7=3. The answer is If she changes the b.",
+      "input_tokens": 13,
+      "output_tokens": 28,
+      "latency_ms": 203.77489689991,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJanet buys 62.0-pound containers of cat litter for $26.9 each.  If her cat litter box holds 21.2 pounds of cat litter, and she changes out the litter weekly, how much will it cost, in dollars, for her to buy enough litter to last 298.6 days?",
+      "learner_turn": "The answer to that problem would be 49.",
+      "input_tokens": 74,
+      "output_tokens": 8,
+      "latency_ms": 256.0243008505587,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

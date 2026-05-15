@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1368",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.241555",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2206,
+  "total_output_tokens": 135,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nHenry needs to declutter his book collection of 99 books.  From his bookshelf, he was able to fill 3 boxes of 15 books each to take to a donation center.  He had 21 books in a room he could donate, 4 on his coffee table and 18 cookbooks stashed in the kitchen.  When he dropped them off, he noticed a box of books that had a  \"free to a good home\" note.  He grabbed 12 books to take back to his place.  How many books does Henry now have?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nJordy is a 7th grade student. He struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThey became confused with the different numbers of books.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nHenry filled 3 boxes with a total of 3 x 15 = 45 books.\nIncluding the 21, 4, and 18 books, Henry donated a total of 21 + 4 + 18 = 43 books.\nTherefore, Henry had 99 - 43 = 56 books left before taking the 12 books from the \"free to a good home\" box.\nAfter taking the 12 books, Henry now has 56 + 12 = 68 books.\n 68\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jordy can you talk me through your working?",
+      "learner_turn": "Henry filled 3 boxes with a total of 3 x 15 = 45 books.\nIncluding the 21, 4, and 18 books, Henry don I used this approach because They became confused with the different numbers of books..",
+      "input_tokens": 410,
+      "output_tokens": 37,
+      "latency_ms": 463.81625341407437,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Think again about how many books he is donating in total.",
+      "learner_turn": "Okay, but I still think Oh, I see. I forgot to include the 12 books he took from the. Maybe the answer is 46?",
+      "input_tokens": 412,
+      "output_tokens": 24,
+      "latency_ms": 264.2529132526088,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)He filled 3 boxes with 15 books each so 3*15 = 45 books\nFrom the rest of his house he is donating 45+21+4+18 = 88 books for donation",
+      "learner_turn": "I think I see — so instead I should... Yes, that's correct. So Henry donated a total of 45 + 88 = 1. Does that mean the answer is 34?",
+      "input_tokens": 429,
+      "output_tokens": 30,
+      "latency_ms": 202.590825194631,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)He had 88 books to donate. His collection is 99 books and he is donating 88 books, so that leaves him with 99-88 = 11 books\nHe picks up 12 books to add to his collection of 11 books so he now has 12+11 = 23 books",
+      "learner_turn": "I think I see — so instead I should... Yes, that's correct. Henry donated a total of 88 books, leav. Does that mean the answer is 40?",
+      "input_tokens": 448,
+      "output_tokens": 27,
+      "latency_ms": 457.8326159866468,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nHenry needs to declutter his book collection of 147.0 books.  From his bookshelf, he was able to fill 4.2 boxes of 20.6 books each to take to a donation center.  He had 29.3 books in a room he could donate, 5.1 on his coffee table and 24.9 cookbooks stashed in the kitchen.  When he dropped them off, he noticed a box of books that had a  \"free to a good home\" note.  He grabbed 14.7 books to take back to his place.  How many books does Henry now have?",
+      "learner_turn": "Hmm, let me try. They became confused with the different  I think the answer might be 44.",
+      "input_tokens": 507,
+      "output_tokens": 17,
+      "latency_ms": 356.26915284246286,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

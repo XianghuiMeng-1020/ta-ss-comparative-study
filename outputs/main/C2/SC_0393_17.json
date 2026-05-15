@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_0393",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.031377",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3800,
+  "total_output_tokens": 277,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nNick's cell phone was initially empty but was then charged for 45 minutes and has reached a 25% charge. How much longer must the cell phone be charged to reach 100% charge?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nRiya is a 7th grade student. She struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nstudent assumed that 45 minutes is taken to charge to 75%  instead of 25%\n\nYOUR INITIAL INCORRECT ATTEMPT:\nEvery 15 minutes of charging adds 25% to the charge of the cell phone.\nTherefore, 45 minutes of charging would add 3 x 25% = 75% to the charge of the cell phone.\nTo reach 100% charge, the cell phone needs to be charged for an additional 25%.\nEvery 15 minutes of charging adds 25%, so 15 minutes of charging will add 25%.\nTherefore, the cell phone needs to be charged for an additional 15 minutes to reach 100% charge.\n 15\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi , could you please walk me through your solution?",
+      "learner_turn": "Every 15 minutes of charging adds 25% to the charge of the cell phone.\nTherefore, 45 minutes of char I used this approach because student assumed that 45 minutes is taken to charge to 75%  i.",
+      "input_tokens": 368,
+      "output_tokens": 36,
+      "latency_ms": 460.7643519690135,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)can you explain how you reached the conclusion that every 15 minutes of charging adds 25% charge/",
+      "learner_turn": "Okay, but I still think Yes, I divided the 75% charge that was needed to reach 100% . Maybe the answer is 28?",
+      "input_tokens": 375,
+      "output_tokens": 23,
+      "latency_ms": 344.67800741147795,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)lets consider this example. you took 15 minutes to complete 20% of a task. how much more time would you need to complete the task?",
+      "learner_turn": "I think I see — so instead I should... To complete the task, I would need 5 more minutes, since 20%. Does that mean the answer is 8?",
+      "input_tokens": 383,
+      "output_tokens": 28,
+      "latency_ms": 780.7413928917671,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)so you mean that you would need 75 minutes to complete 100% of the task?",
+      "learner_turn": "I think I see — so instead I should... Yes, that is correct. I would need 75 minutes to complete 10. Does that mean the answer is 27?",
+      "input_tokens": 373,
+      "output_tokens": 28,
+      "latency_ms": 463.7811118396685,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)and since you have completed 20% in the first 15 minutes therefore it would take you 75-15=60 minutes more to complete the task?",
+      "learner_turn": "I think I see — so instead I should... Yes, that is correct. It would take me 60 minutes more to co. Does that mean the answer is 16?",
+      "input_tokens": 381,
+      "output_tokens": 29,
+      "latency_ms": 612.5167541343176,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)can you use the same method to figure out how much more time will be required for the cell phone to be charged to 100 %?",
+      "learner_turn": "I think I see — so instead I should... Yes, I can use the same method. Since the cell phone was ini. Does that mean the answer is 7?",
+      "input_tokens": 384,
+      "output_tokens": 29,
+      "latency_ms": 665.8637477678496,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)recall the example that we solved. if it takes 45 minutes to reach 25% of charge, how much time would it take to reach 100 % charge?",
+      "learner_turn": "I think I see — so instead I should... Since it took 45 minutes to reach 25% of charge, it would ta. Does that mean the answer is 16?",
+      "input_tokens": 385,
+      "output_tokens": 29,
+      "latency_ms": 494.770286971832,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)very well. now How much longer must the cell phone be charged to reach 100% charge?",
+      "learner_turn": "I think I see — so instead I should... The cell phone needs to be charged for an additional 15 minu. Does that mean the answer is 11?",
+      "input_tokens": 374,
+      "output_tokens": 28,
+      "latency_ms": 487.26356250753827,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)no. it would take 180-25=135 minutes more to reach 100 % charge.",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. Yes, it would take 135 minutes more to reach 100%. Does that mean the answer is 17?",
+      "input_tokens": 370,
+      "output_tokens": 29,
+      "latency_ms": 219.5822662304768,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nNick's cell phone was initially empty but was then charged for 63.1 minutes and has reached a 33.2% charge. How much longer must the cell phone be charged to reach 149.8% charge?",
+      "learner_turn": "Hmm, let me try. student assumed that 45 minutes is taken I think the answer might be 6.",
+      "input_tokens": 407,
+      "output_tokens": 18,
+      "latency_ms": 316.72961327167155,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

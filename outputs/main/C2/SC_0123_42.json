@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_0123",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.975729",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2737,
+  "total_output_tokens": 191,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nAva planted 9 apple trees in her backyard. That's 3 more than Lily planted in her backyard. How many apple trees did they plant in their backyards collectively?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nHeidi is a 7th grade student. She struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nunnecessary use of algebra which confused her\n\nYOUR INITIAL INCORRECT ATTEMPT:\nLet's call the number of apple trees Lily planted \"L\". \nWe know that Ava planted 3 more than Lily, so Ava planted \"L+3\" trees. \nTogether, they planted \"L+L+3\" = \"2L+3\" trees. \nSince we know that Lily planted 9 trees, we can substitute \"L\" with 9: \n2L+3 = 2(9)+3 = 18+3 = 21. \nTherefore, they planted 21 apple trees in their backyards collectively. \n 21\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)talk me through your solution",
+      "learner_turn": "Let's call the number of apple trees Lily planted \"L\". \nWe know that Ava planted 3 more than Lily, s I used this approach because unnecessary use of algebra which confused her.",
+      "input_tokens": 334,
+      "output_tokens": 32,
+      "latency_ms": 364.3292968025627,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)how many trees did Ava plant?",
+      "learner_turn": "Okay, but I still think Ava planted \"L+3\" trees, which is equal to 9+3 = 12 trees.. Maybe the answer is 7?",
+      "input_tokens": 335,
+      "output_tokens": 22,
+      "latency_ms": 517.9904632482942,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)read the question. how many trees did Ava plant?",
+      "learner_turn": "I think I see — so instead I should... Ava planted 9 trees in her backyard, which is 3 more than Li. Does that mean the answer is 13?",
+      "input_tokens": 338,
+      "output_tokens": 29,
+      "latency_ms": 665.7774130421878,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)is she planted 3 more than lily how many did lily plant?",
+      "learner_turn": "I think I see — so instead I should... Lily planted 9 trees in her backyard.. Does that mean the answer is 49?",
+      "input_tokens": 341,
+      "output_tokens": 23,
+      "latency_ms": 285.8547814270922,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)Ava planted 9 trees which was 3 more than lily. How many did lily plant?",
+      "learner_turn": "I think I see — so instead I should... Lily planted 9 trees in her backyard.. Does that mean the answer is 45?",
+      "input_tokens": 344,
+      "output_tokens": 23,
+      "latency_ms": 606.0566740103388,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)9-3=",
+      "learner_turn": "I think I see — so instead I should... 6 trees.. Does that mean the answer is 5?",
+      "input_tokens": 330,
+      "output_tokens": 18,
+      "latency_ms": 312.4740052811381,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)so lily planted 6 trees and Ava planted 9. what's the total?",
+      "learner_turn": "I think I see — so instead I should... The total number of apple trees planted in their backyards c. Does that mean the answer is 6?",
+      "input_tokens": 341,
+      "output_tokens": 27,
+      "latency_ms": 285.4717797374017,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAva planted 11.3 apple trees in her backyard. That's 4.5 more than Lily planted in her backyard. How many apple trees did they plant in their backyards collectively?",
+      "learner_turn": "Hmm, let me try. unnecessary use of algebra which confuse I think the answer might be 48.",
+      "input_tokens": 374,
+      "output_tokens": 17,
+      "latency_ms": 757.9011193529308,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

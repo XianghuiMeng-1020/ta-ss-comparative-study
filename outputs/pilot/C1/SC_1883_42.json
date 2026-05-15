@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1883",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.128882",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1861,
+  "total_output_tokens": 175,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nAbigail has a report due tomorrow which needs to be 1000 words in length. Abigail can type 300 words in half an hour. If she has already written 200 words, how many more minutes will it take her to finish the report?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nAbigail still needs to type 1000 - 200 = 800 words.\nIn one hour, Abigail can type 2 x 300 = 600 words.\nIn one minute, Abigail can type 600/60 = 10 words.\nTherefore, it will take Abigail 800/10 = 80 minutes to finish typing the report.\nSince she has already spent some time typing, it will take her 80 - 30 = 50 more minutes to finish the report.\n 50\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Hi Emily.  Your solution is very good, but not entirely correct.  At the beginning you worked out how many words Abigail had left to type, correct?",
+      "learner_turn": "So I tried this problem. My approach was: Abigail still needs to type 1000 - 200 = 800 words.\nIn one hour, Abigail can typ. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 373,
+      "output_tokens": 38,
+      "latency_ms": 501.2206080753311,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Which is correct.  However, at the end of your solution, in the final paragraph, you also made allowances for her having typed some already, correct?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Yes, I accounted for the 200 words she had already typed and. So the answer is 39?",
+      "input_tokens": 372,
+      "output_tokens": 29,
+      "latency_ms": 747.4739635455759,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Do you think you needed to take these 200 words into account twice?",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 1? Let me redo: No, I only needed to take the 200 words into account once. I",
+      "input_tokens": 360,
+      "output_tokens": 31,
+      "latency_ms": 253.27801951663542,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)Perfect, well done.",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 5? Let me redo: Yes, I worked out that Abigail had 800 words left to type.",
+      "input_tokens": 350,
+      "output_tokens": 30,
+      "latency_ms": 671.9791821580226,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAbigail has a report due tomorrow which needs to be 1366.4 words in length. Abigail can type 387.9 words in half an hour. If she has already written 270.9 words, how many more minutes will it take her to finish the report?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Abigail has a report due tomorrow which needs to b... I get approximately 38 as my answer. Does that seem right?",
+      "input_tokens": 406,
+      "output_tokens": 47,
+      "latency_ms": 271.6155656125299,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

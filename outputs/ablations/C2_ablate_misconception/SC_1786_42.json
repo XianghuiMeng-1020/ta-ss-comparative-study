@@ -1,0 +1,73 @@
+{
+  "scenario_id": "SC_1786",
+  "condition": "C2_ablate_misconception",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:05.055637",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1928,
+  "total_output_tokens": 124,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nMilly is making feather boas for her dance team. Each flamingo has 20 tail feathers, and it's only safe to pluck 25% of their tail feathers at one time. If Milly needs to make 12 boas, and each boa has 200 feathers, how many flamingoes does she need to harvest?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nClaire is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThey already had the correct answer and confused flamingos and feathers.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nMilly can only take 25% of 20 tail feathers, which is 0.25 x 20 = 5 tail feathers.\nMilly needs 12 boas x 200 feathers per boa = 2400 feathers in total.\nTherefore, she needs 2400 feathers ÷ 5 feathers per flamingo = 480 tail feathers.\nAnd she needs 480 tail feathers ÷ 20 tail feathers per flamingo = 24 flamingoes.\n 24\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Have a look at the question as you were getting the correct answer until the end?",
+      "learner_turn": "Milly can only take 25% of 20 tail feathers, which is 0.25 x 20 = 5 tail feathers.\nMilly needs 12 bo I used this approach because They already had the correct answer and confused flamingos a.",
+      "input_tokens": 376,
+      "output_tokens": 37,
+      "latency_ms": 399.53382419306365,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Okay let me help you?",
+      "learner_turn": "Okay, but I still think Yes, please!. Maybe the answer is 40?",
+      "input_tokens": 365,
+      "output_tokens": 12,
+      "latency_ms": 627.3600642012593,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)YOu actually calcualtaed the correct answer in that you would need 480 flamingoes, you just confused feathers and flamingoes. Once you calculated it was 480 you needed this was the answer and no further calculation was needed.",
+      "learner_turn": "I think I see — so instead I should... Oh, I see now! Thank you for helping me understand the probl. Does that mean the answer is 25?",
+      "input_tokens": 397,
+      "output_tokens": 28,
+      "latency_ms": 703.9847660960206,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(generic)Just simple confusion",
+      "learner_turn": "I think I see — so instead I should... Yes, I'm glad I was able to figure it out with your help.. Does that mean the answer is 15?",
+      "input_tokens": 363,
+      "output_tokens": 29,
+      "latency_ms": 257.77878423065255,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nMilly is making feather boas for her dance team. Each flamingo has 25.6 tail feathers, and it's only safe to pluck 30.9% of their tail feathers at one time. If Milly needs to make 14.9 boas, and each boa has 279.7 feathers, how many flamingoes does she need to harvest?",
+      "learner_turn": "Hmm, let me try. They already had the correct answer and  I think the answer might be 6.",
+      "input_tokens": 427,
+      "output_tokens": 18,
+      "latency_ms": 517.1034654306482,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C2"
+}

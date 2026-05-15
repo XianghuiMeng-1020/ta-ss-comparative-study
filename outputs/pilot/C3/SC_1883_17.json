@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1883",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.129941",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 171,
+  "total_output_tokens": 82,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Hi Emily.  Your solution is very good, but not entirely correct.  At the beginning you worked out how many words Abigail had left to type, correct?",
+      "learner_turn": "Yes, I worked out that Abigail had 800 words left to type.",
+      "input_tokens": 35,
+      "output_tokens": 12,
+      "latency_ms": 602.6810056101813,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Which is correct.  However, at the end of your solution, in the final paragraph, you also made allowances for her having typed some already, correct?",
+      "learner_turn": "Yes, I accounted for the 200 words she had already typed and said it would take her 50 more minutes to finish the report",
+      "input_tokens": 34,
+      "output_tokens": 24,
+      "latency_ms": 488.19031882677467,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Do you think you needed to take these 200 words into account twice?",
+      "learner_turn": "No, I only needed to take the 200 words into account once. I should have said it would take her 80 minutes to finish the",
+      "input_tokens": 22,
+      "output_tokens": 25,
+      "latency_ms": 256.03615537891034,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)Perfect, well done.",
+      "learner_turn": "Yes, I worked out that Abigail had 800 words left to type.",
+      "input_tokens": 12,
+      "output_tokens": 12,
+      "latency_ms": 319.3760496715295,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAbigail has a report due tomorrow which needs to be 1366.4 words in length. Abigail can type 387.9 words in half an hour. If she has already written 270.9 words, how many more minutes will it take her to finish the report?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 68,
+      "output_tokens": 9,
+      "latency_ms": 231.32483278559192,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

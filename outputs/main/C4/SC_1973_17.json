@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_1973",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.344726",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 340,
+  "total_output_tokens": 224,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)can you walk me through your solution stepwise?",
+      "learner_turn": "To solve this problem, Monday through Saturday Juanita buys the paper for $0.50 so that's 6*$0.50 = $3.. The answer is Monday through Satur.",
+      "input_tokens": 20,
+      "output_tokens": 24,
+      "latency_ms": 606.0849205249044,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)how many weeks does a year have lakisha?",
+      "learner_turn": "To solve this problem, Monday through Saturday Juanita buys the paper for $0.50 so that's 6*$0.50 = $3.. The answer is Monday through Satur.",
+      "input_tokens": 20,
+      "output_tokens": 24,
+      "latency_ms": 713.2816800121418,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)then why did you multiply the expenditure of $5.00 a week with 7?",
+      "learner_turn": "To solve this problem, Monday through Saturday Juanita buys the paper for $0.50 so that's 6*$0.50 = $3.. The answer is Monday through Satur.",
+      "input_tokens": 25,
+      "output_tokens": 24,
+      "latency_ms": 666.817240786794,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)if you spend $5 each week and there are 52 weeks in a year then where does this 7 come from?",
+      "learner_turn": "To solve this problem, Monday through Saturday Juanita buys the paper for $0.50 so that's 6*$0.50 = $3.. The answer is Monday through Satur.",
+      "input_tokens": 33,
+      "output_tokens": 24,
+      "latency_ms": 733.3763784111829,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)so you have already calculated the expenditure of 7 days (a week) isn't it? you don't need to multiply it with 7 once again. you just need to multiply the expenditure per week with the number of weeks in a year isn't it?",
+      "learner_turn": "To solve this problem, Monday through Saturday Juanita buys the paper for $0.50 so that's 6*$0.50 = $3.. The answer is Monday through Satur.",
+      "input_tokens": 55,
+      "output_tokens": 24,
+      "latency_ms": 238.59198796981184,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)what is 5 multiplies by 52 lakisha?",
+      "learner_turn": "To solve this problem, Monday through Saturday Juanita buys the paper for $0.50 so that's 6*$0.50 = $3.. The answer is Monday through Satur.",
+      "input_tokens": 19,
+      "output_tokens": 24,
+      "latency_ms": 651.3580294670321,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)then why have you written $5 x 52 = 1820? won't it be $260?",
+      "learner_turn": "To solve this problem, Monday through Saturday Juanita buys the paper for $0.50 so that's 6*$0.50 = $3.. The answer is Monday through Satur.",
+      "input_tokens": 26,
+      "output_tokens": 24,
+      "latency_ms": 408.08794854080554,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)she spends $260 a year lashika. now figure out How much more money does Juanita spend buying the newspaper yearly than Grant?",
+      "learner_turn": "To solve this problem, Monday through Saturday Juanita buys the paper for $0.50 so that's 6*$0.50 = $3.. The answer is Monday through Satur.",
+      "input_tokens": 34,
+      "output_tokens": 24,
+      "latency_ms": 637.3581191009398,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)Juanita spends $260.00 on the newspaper for the year and Grants spends $200.00 a year so Juanita spends $260-$200 = $60.00 more\n60",
+      "learner_turn": "To solve this problem, Monday through Saturday Juanita buys the paper for $0.50 so that's 6*$0.50 = $3.. The answer is Monday through Satur.",
+      "input_tokens": 35,
+      "output_tokens": 24,
+      "latency_ms": 497.8093590517778,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nGrant spends $258.0 a year to have the newspaper delivered daily to his house.  Juanita buys the newspaper daily.  Monday through Saturday, she spends $0.6 and on Sunday she spends $2.7.  How much more money does Juanita spend buying the newspaper yearly than Grant?",
+      "learner_turn": "The answer to that problem would be 30.",
+      "input_tokens": 73,
+      "output_tokens": 8,
+      "latency_ms": 530.2580468909723,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

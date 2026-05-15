@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_1729",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.123391",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2976,
+  "total_output_tokens": 213,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\n20% of the job candidates at a temp agency have experience with Excel. 70% of the candidates are only willing to work day shifts. If a manager picks a candidate at random, what are the odds they know Excel and are willing to work nights?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nStephanie is a 7th grade student. She has difficulty determining which pieces of information are relevant and which are irrelevant to solving the problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nShe forgot to convert the number into percent form.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nIf 20% know Excel, then 80% do not. \nIf 70% are willing to work days, then 30% are willing to work nights. \nTo find the probability of both events happening together, we multiply the probabilities: \n\n0.2 (know Excel) x 0.3 (willing to work nights) = 0.06 \n\nSo the odds of picking a candidate at random who knows Excel and is willing to work nights is 6%. \n 0.06\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Stephanie your answer is correct!",
+      "learner_turn": "If 20% know Excel, then 80% do not. \nIf 70% are willing to work days, then 30% are willing to work n I used this approach because She forgot to convert the number into percent form..",
+      "input_tokens": 363,
+      "output_tokens": 36,
+      "latency_ms": 473.31813632048465,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)You are really smart!",
+      "learner_turn": "Okay, but I still think Thank you! I'm glad I figured it out.. Maybe the answer is 33?",
+      "input_tokens": 361,
+      "output_tokens": 18,
+      "latency_ms": 494.8664990143635,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)I'm glad you were able to figure it out",
+      "learner_turn": "I think I see — so instead I should... Yes, I understand that 0.2 x 0.3 = 0.06.. Does that mean the answer is 26?",
+      "input_tokens": 366,
+      "output_tokens": 25,
+      "latency_ms": 734.6649495020972,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)How do you convert 0.1 into percent?",
+      "learner_turn": "I think I see — so instead I should... To convert 0.1 into percent, you would multiply it by 100. S. Does that mean the answer is 8?",
+      "input_tokens": 364,
+      "output_tokens": 28,
+      "latency_ms": 359.7609014733273,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)Exactly so how would you convert 0.06 into percent?",
+      "learner_turn": "I think I see — so instead I should... To convert 0.06 into percent, you would multiply it by 100. . Does that mean the answer is 37?",
+      "input_tokens": 366,
+      "output_tokens": 28,
+      "latency_ms": 744.3677589508088,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)Do you understand that 0.2 x 0.3 was not in percentage form? And now you need to change your answer to percent",
+      "learner_turn": "I think I see — so instead I should... Yes, I understand that 0.2 x 0.3 was not in percentage form . Does that mean the answer is 14?",
+      "input_tokens": 379,
+      "output_tokens": 29,
+      "latency_ms": 576.5317293592386,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(generic)great",
+      "learner_turn": "I think I see — so instead I should... Oh, thank you! I see now that I had to multiply the two prob. Does that mean the answer is 27?",
+      "input_tokens": 358,
+      "output_tokens": 30,
+      "latency_ms": 561.8383843656577,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\n27.2% of the job candidates at a temp agency have experience with Excel. 104.7% of the candidates are only willing to work day shifts. If a manager picks a candidate at random, what are the odds they know Excel and are willing to work nights?",
+      "learner_turn": "Hmm, let me try. She forgot to convert the number into pe I think the answer might be 14.",
+      "input_tokens": 419,
+      "output_tokens": 19,
+      "latency_ms": 436.54679571769793,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

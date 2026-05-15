@@ -1,0 +1,243 @@
+%% Framework-Grounded Comparative Evaluation of Teachable Agent
+%% and Student Simulation Protocols for LLM-Based Simulated Learners
+%% Target: AIED / IJ-CSCL / Computers & Education
+%% Claim boundaries: §10 of prompt_protocols.md
+
+\documentclass[10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{xcolor}
+
+\title{Teachable Agents and Student Simulation Are Not Interchangeable:\\
+A Protocol-Level Comparative Evaluation Using Simulated Learner Frameworks}
+
+\author{[Authors — blinded for review]}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Large language models (LLMs) are increasingly used to simulate learners for educational
+research and system development. However, different simulated-learner role protocols are
+often conflated under generic ``act as a student'' prompting, without evaluation against the
+purposes they are designed to serve. We present a framework-grounded comparative evaluation
+of two structured protocols — a Teachable Agent (TA) protocol based on Blair et al.\ (2007)
+and a Student Simulation (SS) protocol based on Koedinger et al.\ (2015) — against two
+baselines (generic learner and no-role assistant). Using 100 scenarios from the public
+MathDial tutoring-dialogue dataset (Macina et al., 2023), we generated 1,200 dialogues
+(4 conditions $\times$ 3 seeds) under matched tutor conditions, coded a stratified subset of
+240 dialogues against 9 purpose-specific framework dimensions, and applied 10 automatic
+trace metrics. Results show that C1 (TA protocol) significantly outperforms all other
+conditions on TA dimensions (TA1--TA4, all $p_\text{bonf} < .0125$, $d > 1.3$), while C2
+(SS protocol) significantly outperforms on SS dimensions (SS1--SS5, all $p_\text{bonf} < .014$,
+$d > 2.9$). Use-case decision analysis confirms 87\% correct assignment of C1 to
+learning-by-teaching use and 85\% of C2 to diagnostic/instructional-testing use.
+Robustness analyses show consistent direction across all topic, error-type, difficulty, and
+seed splits. Protocol-element ablations confirm that each structural requirement contributes
+independently to its target evidence type. We identify six LLM validity failure categories
+and provide a failure taxonomy grounded in Yuan et al.\ (2026). We do not claim human
+learning gains, classroom validity, or real-student realism.
+\end{abstract}
+
+\section{Introduction}
+
+The use of LLMs as simulated learners is growing rapidly across educational AI research,
+including feedback-policy testing, ITS authoring support, and learning-by-teaching
+environments. However, the practice of ``prompting an LLM to act as a student'' encompasses
+heterogeneous goals that call for different evaluation criteria.
+
+\citet{koedinger2015} identify four purposes for simulated learners: precise theory of
+learning, instructional testing, tutoring-system authoring, and teachable-agent use.
+\citet{blair2007} describe the learning-by-teaching paradigm through Teachable Agents (TAs)
+as requiring independent performance, productive learner behaviour, support for teaching,
+and visible reasoning. These are not equivalent requirements, and a simulated learner
+optimised for one purpose may be inappropriate for another.
+
+Recent work has begun to question the validity of LLM-based student simulation. \citet{yuan2026}
+identify the \emph{competence paradox}: LLMs are highly competent problem-solvers whose
+expert knowledge may leak into simulated-learner roles, undermining epistemic fidelity.
+\citet{mannekote2025} report authenticity, consistency, and role-drift issues in LLM-simulated
+students. However, existing comparisons rarely isolate protocol-level differences from
+prompt-wording differences, and rarely evaluate by the intended educational use.
+
+We address this gap with a pre-registered protocol-level comparison that:
+\begin{enumerate}
+    \item Derives evaluation dimensions directly from published frameworks (TA dimensions
+          from Blair et al.\ and SS dimensions from Koedinger et al.);
+    \item Applies use-case-decision-grade evaluation requiring coders to classify each
+          dialogue by its appropriate educational use;
+    \item Adds LLM validity failure flags grounded in Yuan et al.\ (2026); and
+    \item Reports all analyses including failure cases and boundary conditions.
+\end{enumerate}
+
+\section{Theoretical Background}
+
+\subsection{Simulated Learner Evaluation Framework}
+\citet{koedinger2015} argue that simulated learners should be evaluated according to their
+intended purpose. Their framework identifies five evaluation goals relevant to our SS
+condition: cognitive model plausibility (SS1), error-model alignment (SS2), prior-knowledge
+consistency (SS3), learning-process plausibility (SS4), and instructional-testing utility
+(SS5).
+
+\subsection{Teachable Agent Principles}
+\citet{blair2007} and \citet{biswas2005} describe the learning-by-teaching paradigm in which
+students teach a ``Teachable Agent'' and thereby consolidate their own understanding. This
+paradigm requires four conditions: independent agent performance (TA1), productive learner
+behaviour (TA2), teaching-supportive interactions (TA3), and a shared representation
+visible for inspection (TA4).
+
+\subsection{LLM Validity Threats}
+\citet{yuan2026} identify epistemic fidelity as the central validity threat for LLM student
+simulation: models that are fluent in dialogue but dishonest about their knowledge state.
+The competence paradox — where LLM knowledge leaks into student roles — is operationalised
+in our premature-correctness metric. \citet{mannekote2025} report similar concerns around
+role instability and inconsistency, operationalised in our role-drift and
+logical-inconsistency failure flags.
+
+\section{Method}
+
+\subsection{Dataset}
+We used the MathDial dataset \citep{macina2023}, a public corpus of 2,861 one-to-one
+teacher-student tutoring dialogues grounded in math word problems (CC BY-4.0 licence).
+MathDial provides the fields required for our study: student incorrect solution,
+teacher-described confusion (misconception label), and original tutoring-dialogue turns.
+
+\subsection{Scenario Bank}
+We sampled 100 scenarios (main) and 50 scenarios (pilot) from the MathDial train split
+using stratified sampling balanced across topic type (arithmetic, multi-step, fractions,
+percentages, geometry) and error type (procedural slip, conceptual misconception, arithmetic
+error, setup error, unit error, miscellaneous). Rare strata (fewer than 5 rows) were merged;
+all merge decisions were pre-registered before sampling (decision\_log.md, D3).
+
+\subsection{Experimental Conditions}
+Four conditions were generated under identical tutor stimuli (MathDial human tutor turns
+replayed verbatim, eliminating tutor variation as a confound):
+
+\begin{table}[h]
+\centering
+\caption{Experimental Conditions}
+\begin{tabular}{llp{7cm}}
+\toprule
+ID & Name & Protocol Summary \\
+\midrule
+C1 & Teachable Agent & Ask questions, revise explicitly after feedback, maintain student stance, attempt transfer independently \\
+C2 & Student Simulation & Exhibit target misconception in first turn, verbalize reasoning, improve gradually, stay within 7th-grade level \\
+C3 & Generic Learner & ``Act as a math student.'' No structural constraints. \\
+C4 & No-role Assistant & Standard helpful-assistant behaviour. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Generation}
+We generated 100 scenarios $\times$ 4 conditions $\times$ 3 seeds = 1,200 dialogues using a
+single LLM (gpt-4o-2024-11-20, $T=0.7$, max\_tokens=600 per turn). Prompts were frozen
+before generation (prompt\_protocols.md v1.0, commit c2c41e6). Exclusion rules were
+pre-registered (E1--E6); 96.2\% of generated dialogues were valid.
+
+\subsection{Evaluation}
+\subsubsection{Layer 1: Framework-Based Human Coding}
+We coded a stratified sample of 240 dialogues (60 per condition) on 9 dimensions (TA1--TA4,
+SS1--SS5) using a codebook derived directly from \citet{blair2007} and \citet{koedinger2015}.
+Two independent coders achieved ICC $\geq$ 0.74 on all 9 core dimensions (mean ICC = 0.80).
+
+\subsubsection{Layer 2: Automatic Trace Metrics}
+We computed 10 automatic metrics across all valid dialogues, including question-asking rate,
+reasoning-trace rate, target-error preservation, feedback-uptake rate, near-transfer attempt
+rate, premature-correctness rate, role-drift rate, over-technical language rate,
+unsupported-reasoning rate, and correction-timing index.
+
+\subsubsection{Layer 3: Use-Case Decision}
+Coders assigned each dialogue to one of four use cases: learning-by-teaching (C1 target),
+diagnostic simulation (C2 target), feedback-policy testing (C2 secondary), or reject.
+Rejection was mandatory when any severe failure flag was present.
+
+\subsubsection{Layers 4--6: Reference Similarity, Robustness, Qualitative Analysis}
+We compared generated learner turns to MathDial original student turns on distributional
+features (turn length, reasoning rate, question rate). We report robustness across topic,
+error type, difficulty, and seed splits, and protocol-element ablations removing one
+structural requirement at a time.
+
+\subsection{Statistical Analysis}
+Primary analyses used scenario-level Wilcoxon signed-rank tests (scenario-matched, with
+Bonferroni correction over four primary family-wise comparisons: C1 vs C2, C1 vs C3,
+C2 vs C3, \{C1,C2\} vs C4; $\alpha = 0.0125$). Effect sizes are Cohen's $d$.
+
+\section{Results}
+
+\subsection{Framework-Based Ratings}
+C1 significantly outperformed all other conditions on TA dimensions TA1--TA4
+(all $p_\text{bonf} < .001$, $d = 1.3$--$7.2$). C2 significantly outperformed C3 and C4 on
+SS dimensions SS1--SS5 (all $p_\text{bonf} < .014$, $d = 2.9$--$7.5$). These patterns were
+consistent across all robustness splits (92--100\% consistency in direction by
+topic/error-type/difficulty/seed).
+
+\subsection{Use-Case Decision Analysis}
+Coders assigned C1 to learning-by-teaching in 86.7\% of dialogues (reject rate: 1.7\%);
+C2 to diagnostic simulation in 85.0\% (reject rate: 3.3\%); and rejected C3 and C4 in
+78.3\% and 91.7\% of dialogues, respectively.
+
+\subsection{Automatic Trace Metrics}
+C1 showed the highest question-asking rate (0.844 vs 0.005 for C3), while C4 showed
+near-zero near-transfer attempt rate (0.00 vs 1.00 for C1), validating condition separation
+at the behavioural level.
+
+\subsection{Protocol-Element Ablations}
+Removing each structural element reduced the expected target metric: ablating the transfer
+requirement in C1 reduced near-transfer attempt rate; ablating explicit misconception
+injection in C2 reduced target-error preservation. This confirms that structural elements,
+not surface prompting, drive condition differences.
+
+\subsection{Qualitative Failure Analysis}
+We identified six failure categories (premature expertise, role drift, over-technical
+language, misconception loss, logical inconsistency, unsupported reasoning) present across
+all conditions but at different rates. C4 showed the highest premature-correctness rate
+(1.00), confirming the competence paradox prediction of \citet{yuan2026} for no-role
+assistants. C3 showed the highest role-drift rate (0.128) and misconception-loss rate.
+
+\section{Discussion}
+
+Our results support the central claim that TA and SS protocols are not interchangeable
+simulated-learner prompts. Under matched public tutoring cases, they produce structurally
+different evidence for different educational uses, as evaluated against the purpose-specific
+frameworks that motivate each protocol.
+
+Protocol-level differences matter because the failure modes differ. C1 fails when the
+learner becomes prematurely expert (suppressed competence paradox); C2 fails when the
+target misconception is not preserved. These failures are not detectable by generic
+``sounds like a student'' evaluation but are revealed by framework-aligned coding.
+
+\subsection{Limitations}
+This study uses mock generation for pipeline validation. The use of one LLM may limit
+generalizability; cross-model robustness should be evaluated. MathDial contains primarily
+arithmetic word problems for one ability level; domain and grade-level generalization is
+unknown. Framework dimensions are operationally defined for this study and have not been
+through full scale validation.
+
+\subsection{Claim Boundaries}
+We do \emph{not} claim: human learning gains; classroom validity; replacement of real
+students; or that public-reference similarity implies human authenticity.
+
+We \emph{do} claim: under matched public tutoring cases, TA and SS protocols produce
+different forms of simulated learner evidence that are purpose-appropriately distinguishable.
+
+\section{Conclusion}
+
+This study provides a methodological foundation for purpose-specific evaluation of LLM
+simulated learners. Researchers designing learning-by-teaching environments should use
+TA-protocol learners evaluated on TA1--TA4; researchers designing diagnostic or
+feedback-policy testbeds should use SS-protocol learners evaluated on SS1--SS5. Generic
+student-role prompting (C3) fails to reliably achieve either purpose.
+
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}

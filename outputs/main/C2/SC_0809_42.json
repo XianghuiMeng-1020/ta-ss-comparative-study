@@ -1,0 +1,162 @@
+{
+  "scenario_id": "SC_0809",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.123601",
+  "n_tutor_turns": 14,
+  "n_learner_turns": 14,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 5557,
+  "total_output_tokens": 377,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nJordan picked 54 mangoes from his tree. One-third of the mangoes were ripe while the other two-thirds were not yet ripe. Jordan kept 16 unripe mangoes and gave the remainder to his sister who pickled them in glass jars. If it takes 4 mangoes to fill a jar, how many jars of pickled mangoes can Jordan's sister make?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nScott is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nstudent miscalculated by subtracting 16 from 54 instead of subtracting it from 36\n\nYOUR INITIAL INCORRECT ATTEMPT:\nOne-third of 54 mangoes is (1/3) x 54 = 18 ripe mangoes.\nThe other two-thirds of the mangoes is (2/3) x 54 = 36 unripe mangoes.\nJordan gave 54 - 16 = 38 unripe mangoes to his sister.\nJordan's sister can make 38/4 = 9.5 jars of pickled mangoes.\nSince we cannot have half a jar, Jordan's sister can only make 9 jars of pickled mangoes.\n 9\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)can you walk me through your solution stepwise?",
+      "learner_turn": "One-third of 54 mangoes is (1/3) x 54 = 18 ripe mangoes.\nThe other two-thirds of the mangoes is (2/3 I used this approach because student miscalculated by subtracting 16 from 54 instead of s.",
+      "input_tokens": 380,
+      "output_tokens": 35,
+      "latency_ms": 292.04292480249285,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Hi Scott, could you please walk me through your solution?",
+      "learner_turn": "Okay, but I still think I subtracted 16 from 54 because Jordan kept 16 unripe mangoe. Maybe the answer is 33?",
+      "input_tokens": 382,
+      "output_tokens": 21,
+      "latency_ms": 772.7541755289063,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)could you please explain why you subtracted 16 from 54?",
+      "learner_turn": "I think I see — so instead I should... I calculated the number of unripe mangoes to be 36. I subtra. Does that mean the answer is 41?",
+      "input_tokens": 382,
+      "output_tokens": 28,
+      "latency_ms": 646.6632371467842,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)but what was the number of unripe mangoes that you have calculated in your solution?",
+      "learner_turn": "I think I see — so instead I should... I calculated the number of unripe mangoes to be 36, but I su. Does that mean the answer is 36?",
+      "input_tokens": 387,
+      "output_tokens": 29,
+      "latency_ms": 703.908443059458,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)if the number of unripe mangoes is 36 and jordan kept 16 for himself then how can the remaining number of unripe mangoes  be 38 which is greater than that of the original number of unripe mangoes?",
+      "learner_turn": "I think I see — so instead I should... You would get 20 orange candies. There are 30 orange flavore. Does that mean the answer is 14?",
+      "input_tokens": 409,
+      "output_tokens": 27,
+      "latency_ms": 377.08374949539746,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)scott lets say you have 50 candies out of which 20 are chocolate flavoured and 30 are orange flavored. lets say you kept 10 of the orange flavoured candies for yourself and gave the remaining to me. then how many orange candies do i get?",
+      "learner_turn": "I think I see — so instead I should... I subtracted 10 from 30 because there are only 30 orange fla. Does that mean the answer is 18?",
+      "input_tokens": 417,
+      "output_tokens": 28,
+      "latency_ms": 522.180912842299,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)very good correct answer. can you now explain why you subtracted 10 from 30 instead of subtracting it from 50?",
+      "learner_turn": "I think I see — so instead I should... Yes, I can use this concept to find out the number of unripe. Does that mean the answer is 14?",
+      "input_tokens": 392,
+      "output_tokens": 29,
+      "latency_ms": 625.0185066010542,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)so now you can use this concept to find out the number of unripe mangoes that were given to jordan's sister.",
+      "learner_turn": "I think I see — so instead I should... Yes, I remember the candy problem. I subtracted 10 from 30 a. Does that mean the answer is 12?",
+      "input_tokens": 393,
+      "output_tokens": 28,
+      "latency_ms": 661.5243977032442,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)remember the candy problem. you subtracted 10 from 30 and not 50. use the same concept here.",
+      "learner_turn": "I think I see — so instead I should... Yes, I understand. Jordan kept 16 unripe mangoes for himself. Does that mean the answer is 48?",
+      "input_tokens": 389,
+      "output_tokens": 26,
+      "latency_ms": 231.81913927666696,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)please note that jordan kept 16 unripe mangoes for himself and gave the remaining to his sister implies that he gave the remaining unripe mangoes to her sister. the ripe mangoes are not considered here.",
+      "learner_turn": "I think I see — so instead I should... Yes, I understand. Jordan picked 54 mangoes in total, 18 of . Does that mean the answer is 24?",
+      "input_tokens": 407,
+      "output_tokens": 28,
+      "latency_ms": 338.3339771675252,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(telling)He picked 54 - 18 = 36 unripe mangoes. he kept 16 for himself. so the number of remaining unripe mangoes has to be calculated by subtracting 16 from 36.",
+      "learner_turn": "I think I see — so instead I should... Yes, I can figure out how many jars of pickled mangoes Jorda. Does that mean the answer is 15?",
+      "input_tokens": 402,
+      "output_tokens": 28,
+      "latency_ms": 473.1119985097452,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(focus)can you now figure out If it takes 4 mangoes to fill a jar, how many jars of pickled mangoes can Jordan's sister make?",
+      "learner_turn": "I think I see — so instead I should... Sure. First, I calculated one-third of the 54 mangoes which . Does that mean the answer is 5?",
+      "input_tokens": 396,
+      "output_tokens": 27,
+      "latency_ms": 510.1850615165748,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(generic)good job",
+      "learner_turn": "I think I see — so instead I should... I subtracted 16 from 54 because Jordan kept 16 unripe mangoe. Does that mean the answer is 42?",
+      "input_tokens": 374,
+      "output_tokens": 27,
+      "latency_ms": 221.36441116156334,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJordan picked 67.6 mangoes from his tree. One-third of the mangoes were ripe while the other two-thirds were not yet ripe. Jordan kept 22.7 unripe mangoes and gave the remainder to his sister who pickled them in glass jars. If it takes 5.3 mangoes to fill a jar, how many jars of pickled mangoes can Jordan's sister make?",
+      "learner_turn": "Hmm, let me try. student miscalculated by subtracting 16  I think the answer might be 16.",
+      "input_tokens": 447,
+      "output_tokens": 16,
+      "latency_ms": 435.89961051497744,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

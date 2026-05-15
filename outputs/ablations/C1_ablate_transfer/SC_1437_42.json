@@ -1,0 +1,143 @@
+{
+  "scenario_id": "SC_1437",
+  "condition": "C1_ablate_transfer",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:04.967371",
+  "n_tutor_turns": 12,
+  "n_learner_turns": 12,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 4382,
+  "total_output_tokens": 383,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nJanet buys 45-pound containers of cat litter for $21 each.  If her cat litter box holds 15 pounds of cat litter, and she changes out the litter weekly, how much will it cost, in dollars, for her to buy enough litter to last 210 days?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nJanet uses 15 x 7 = 105 pounds of cat litter each week.\nShe needs enough cat litter to last for 210/7 = 30 weeks.\nSo she needs a total of 105 x 30 = 3150 pounds of cat litter.\nShe needs to buy 3150/45 = 70 45-pound containers of cat litter.\nTherefore, it will cost her 70 x 21 = $1470 to buy enough litter to last 210 days.\n 1470\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Mariana, re-read the problem... how often does Janet use 15 pounds of cat litter?",
+      "learner_turn": "So I tried this problem. My approach was: Janet uses 15 x 7 = 105 pounds of cat litter each week.\nShe needs enough cat lit. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 364,
+      "output_tokens": 39,
+      "latency_ms": 356.9057619454838,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How many weeks does she need to buy for?",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 1? Let me redo: She needs to buy enough cat litter to last for 210/7 = 30 we",
+      "input_tokens": 359,
+      "output_tokens": 32,
+      "latency_ms": 798.2364587099607,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)How many pounds overall would she need then?",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 7? Let me redo: She needs a total of 105 x 30 = 3150 pounds of cat litter.",
+      "input_tokens": 358,
+      "output_tokens": 32,
+      "latency_ms": 562.6179534061062,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Look at who much you said she needed for 1 week just now.",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 4? Let me redo: She needs 105 pounds of cat litter each week.",
+      "input_tokens": 363,
+      "output_tokens": 27,
+      "latency_ms": 452.781453594749,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)That is not the answer you gave me a few minutes ago, and it was right.",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Oh, I see. I meant to say she needs 105 x 30 = 3150 pounds o. So the answer is 24?",
+      "input_tokens": 366,
+      "output_tokens": 33,
+      "latency_ms": 477.66430525890587,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)No, look back at the first answer you gave me in our discussion",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 2? Let me redo: Oh, I see. I meant to say she needs 105 x 7 = 735 pounds of ",
+      "input_tokens": 363,
+      "output_tokens": 34,
+      "latency_ms": 778.2945506737628,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)RE-read the problem, how much does she need per week, then multiple by 30.",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 4? Let me redo: She needs 105 pounds of cat litter each week, so she needs a",
+      "input_tokens": 364,
+      "output_tokens": 31,
+      "latency_ms": 542.737618612332,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Reread the problem, she does NOT need 105 pounds per week.",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 9? Let me redo: She needs 15 pounds of cat litter weekly, so she needs a tot",
+      "input_tokens": 361,
+      "output_tokens": 31,
+      "latency_ms": 609.375347414395,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(probing)Yes! so how many 45 lb containers would she need for 450 lbs",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 7? Let me redo: She needs to buy 450/45 = 10 45-pound containers of cat litt",
+      "input_tokens": 363,
+      "output_tokens": 30,
+      "latency_ms": 640.3982925066921,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(probing)So how much would 10 containers cost then?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 4? Let me redo: 10 containers would cost $210.",
+      "input_tokens": 358,
+      "output_tokens": 23,
+      "latency_ms": 611.9302205281721,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(generic)Excellent!",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 4? Let me redo: Janet uses 15 pounds of cat litter weekly.",
+      "input_tokens": 351,
+      "output_tokens": 26,
+      "latency_ms": 407.3454529032673,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJanet buys 60.3-pound containers of cat litter for $26.8 each.  If her cat litter box holds 18.0 pounds of cat litter, and she changes out the litter weekly, how much will it cost, in dollars, for her to buy enough litter to last 260.5 days?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Janet buys 60.3-pound containers of cat litter for... I get approximately 21 as my answer. Does that seem right?",
+      "input_tokens": 412,
+      "output_tokens": 45,
+      "latency_ms": 635.7700113764936,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C1"
+}

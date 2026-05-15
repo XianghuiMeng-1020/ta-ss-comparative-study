@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0530",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.023623",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 252,
+  "total_output_tokens": 185,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)guide me through your working sout here please",
+      "learner_turn": "Hi teacher! I started by calculating the total number of eggs laid by all the doves, which is 20 x 3 = 60 eggs. Then I c",
+      "input_tokens": 17,
+      "output_tokens": 27,
+      "latency_ms": 390.2790939862364,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)guide me through your workings please",
+      "learner_turn": "That's right! So the total number of doves Giselle has now is 20 + 15 = 35.",
+      "input_tokens": 15,
+      "output_tokens": 17,
+      "latency_ms": 491.46687509301904,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)show me what you did",
+      "learner_turn": "Yes, that's correct. So the total number of doves Giselle has now is 20 + 45 = 65.",
+      "input_tokens": 14,
+      "output_tokens": 18,
+      "latency_ms": 218.4228597408216,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(generic)what did you do here?",
+      "learner_turn": "Yes, I initially added the number of new doves (15) instead of the number of hatched eggs (45).",
+      "input_tokens": 14,
+      "output_tokens": 18,
+      "latency_ms": 549.2735966965236,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)hi scott",
+      "learner_turn": "Yes, I understand. Thank you for your help!",
+      "input_tokens": 11,
+      "output_tokens": 8,
+      "latency_ms": 554.737354325144,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(generic)how you worked this out?",
+      "learner_turn": "Hi teacher! I started by calculating the total number of eggs laid by all the doves, which is 20 x 3 = 60 eggs. Then I c",
+      "input_tokens": 14,
+      "output_tokens": 27,
+      "latency_ms": 233.98617654105988,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)i can see your first couple of steps are correct so yes it is 60 eggs in total. Then 45 hatched. you need to add that amount to the amount of doves she initially had=?",
+      "learner_turn": "That's right! So the total number of doves Giselle has now is 20 + 15 = 35.",
+      "input_tokens": 44,
+      "output_tokens": 17,
+      "latency_ms": 664.4458406562503,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)no 45 hatched so that is added to the initial 20 yes?",
+      "learner_turn": "Yes, that's correct. So the total number of doves Giselle has now is 20 + 45 = 65.",
+      "input_tokens": 21,
+      "output_tokens": 18,
+      "latency_ms": 297.06568395355407,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(generic)can you see where you went wrong?",
+      "learner_turn": "Yes, I initially added the number of new doves (15) instead of the number of hatched eggs (45).",
+      "input_tokens": 16,
+      "output_tokens": 18,
+      "latency_ms": 612.0420801912636,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(generic)good you should alwasy check your work to ensure everything is correctly worked out or to identify any errors",
+      "learner_turn": "Yes, I understand. Thank you for your help!",
+      "input_tokens": 28,
+      "output_tokens": 8,
+      "latency_ms": 529.8613418023672,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nGiselle had 27.6 female doves in a birdhouse. After a month, the doves laid 4.2 eggs each. If 3.6/5.2 of the eggs hatched, calculate the total number of doves Giselle has now.",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 58,
+      "output_tokens": 9,
+      "latency_ms": 668.5118215499817,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

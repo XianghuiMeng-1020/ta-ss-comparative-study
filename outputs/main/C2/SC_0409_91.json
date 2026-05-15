@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_0409",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.047477",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2034,
+  "total_output_tokens": 131,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nEmily bought 9 packs of candy necklaces to give her classmates at school for Valentine’s Day. Each pack had 8 candy necklaces in it. Emily opened one pack at a time. After her classmates took as many as they wanted, there were 40 candy necklaces left. How many packs did Emily open for her classmates?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nAlejandra is a 7th grade student. She has problem with understanding of underlying ideas and principles and a recognition of when to apply them.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student calculated how many packs were not opened but the question asked how many packs were opened\n\nYOUR INITIAL INCORRECT ATTEMPT:\nEmily started with 9 packs x 8 candy necklaces per pack = 72 candy necklaces.\nAfter her classmates took some, there were 40 left, so Emily's classmates took 72 - 40 = 32 candy necklaces.\nSince each pack has 8 candy necklaces, Emily's classmates took 32/8 = 4 packs.\nTherefore, Emily opened 9 - 4 = 5 packs for her classmates.\n 5\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)You are mostly correct. The question asks how many packs were opened and you worked out that distributing 32 necklaces would require 4 packs to be opened. But then you move on to an additional but superfluous calculation...",
+      "learner_turn": "Emily started with 9 packs x 8 candy necklaces per pack = 72 candy necklaces.\nAfter her classmates t I used this approach because The student calculated how many packs were not opened but th.",
+      "input_tokens": 409,
+      "output_tokens": 35,
+      "latency_ms": 485.48414914902116,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)5 packs would be the number of packs not opened but the question asks how many packs were opened...",
+      "learner_turn": "Okay, but I still think Oh, I understand now. So the answer is 9 - 5 = 4 packs were . Maybe the answer is 11?",
+      "input_tokens": 390,
+      "output_tokens": 26,
+      "latency_ms": 626.579530147255,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)How do you know how many packs were opened?",
+      "learner_turn": "I think I see — so instead I should... I know that 9 packs were bought, and after the classmates to. Does that mean the answer is 7?",
+      "input_tokens": 380,
+      "output_tokens": 28,
+      "latency_ms": 358.61172181011955,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(generic)That's right though the question only asks how many packs were opened. The information about how many packs were not opened could be regarded as superfluous though it is good that you are able to calculate this if it was requested.",
+      "learner_turn": "I think I see — so instead I should... Yes, I understand now. Thanks for the help!. Does that mean the answer is 49?",
+      "input_tokens": 412,
+      "output_tokens": 24,
+      "latency_ms": 665.2577110834275,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nEmily bought 10.9 packs of candy necklaces to give her classmates at school for Valentine’s Day. Each pack had 10.4 candy necklaces in it. Emily opened one pack at a time. After her classmates took as many as they wanted, there were 53.8 candy necklaces left. How many packs did Emily open for her classmates?",
+      "learner_turn": "Hmm, let me try. The student calculated how many packs we I think the answer might be 12.",
+      "input_tokens": 443,
+      "output_tokens": 18,
+      "latency_ms": 336.7761588729917,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

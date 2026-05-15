@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1262",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.072076",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 166,
+  "total_output_tokens": 73,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi can you talk me through your answer",
+      "learner_turn": "Sure. To reach his goal of reading an average of 50 pages a day, Berry needs to read a total of 300 pages in six days. S",
+      "input_tokens": 17,
+      "output_tokens": 27,
+      "latency_ms": 456.18390607697575,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Ok I can see you have calculated that he has already read 262 pages and that he wants to read 50 pages a day. How many days are in a week",
+      "learner_turn": "There are seven days in a week. So Berry needs to read a total of 50 x 7 = 350 pages in a week. Since he has already rea",
+      "input_tokens": 40,
+      "output_tokens": 29,
+      "latency_ms": 311.33886300715176,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)correct",
+      "learner_turn": "Great! I understand now. Thanks for helping me.",
+      "input_tokens": 10,
+      "output_tokens": 8,
+      "latency_ms": 757.7479557115727,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nBerry wants to make sure he reads an average of 74.5 pages a day. This week he read 61.3 pages on Sunday, 93.4 pages on Monday, and 40.5 pages on Tuesday. He had a soccer game and fell asleep early on Wednesday so he read nothing. On Thursday he read 96.8 pages, and on Friday he read 73.5 pages. How many pages does he have to read on Saturday to reach his goal?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 99,
+      "output_tokens": 9,
+      "latency_ms": 657.5325917092948,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

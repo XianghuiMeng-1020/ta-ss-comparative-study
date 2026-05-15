@@ -1,0 +1,162 @@
+{
+  "scenario_id": "SC_0097",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.972365",
+  "n_tutor_turns": 14,
+  "n_learner_turns": 14,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 317,
+  "total_output_tokens": 294,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Hi Brenda how did you work it out?",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 20,
+      "output_tokens": 22,
+      "latency_ms": 767.7611422677338,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)how many did Governor Sloan give?",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 18,
+      "output_tokens": 22,
+      "latency_ms": 563.3458256193404,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)how much did the two of them give?",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 20,
+      "output_tokens": 22,
+      "latency_ms": 569.1267574922718,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)how many did governor sandoval give?",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 18,
+      "output_tokens": 22,
+      "latency_ms": 375.7890774720314,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)how many dies the question say?",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 18,
+      "output_tokens": 22,
+      "latency_ms": 489.61061333688883,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)what does the question tell you?",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 18,
+      "output_tokens": 22,
+      "latency_ms": 511.82057615682623,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)how many did governor sandoval give?",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 18,
+      "output_tokens": 22,
+      "latency_ms": 388.88584031737224,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)12",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 13,
+      "output_tokens": 22,
+      "latency_ms": 726.0914215635094,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(generic)yes",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 13,
+      "output_tokens": 22,
+      "latency_ms": 546.305192018699,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)governor sandoval who gave 12, gave twice as many as governor hawkins so how many did hawkins give?",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 30,
+      "output_tokens": 22,
+      "latency_ms": 630.3150230100591,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(telling)12 divided by 2",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 16,
+      "output_tokens": 22,
+      "latency_ms": 226.8689673771381,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(telling)well done so that two of the numbers we need",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 22,
+      "output_tokens": 22,
+      "latency_ms": 649.8046879829984,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(generic)correct well done",
+      "learner_turn": "To solve this problem, Since Governor Sandoval gave 12 commencement addresses, twice the number that Go. The answer is Since Governor Sando.",
+      "input_tokens": 15,
+      "output_tokens": 22,
+      "latency_ms": 496.45472110300597,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIn her first term, Governor Sandoval gave twice as many commencement addresses as Governor Hawkins. Governor Sloan gave ten more commencement addresses than Governor Sandoval in the same amount of time. If Governor Sandoval gave 14.8 commencement addresses, how many commencement addresses did the three of them give altogether?",
+      "learner_turn": "The answer to that problem would be 12.",
+      "input_tokens": 78,
+      "output_tokens": 8,
+      "latency_ms": 701.6475253459316,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

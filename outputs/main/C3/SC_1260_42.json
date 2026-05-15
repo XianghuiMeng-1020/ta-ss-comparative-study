@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_1260",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.201557",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 260,
+  "total_output_tokens": 243,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi can you talk me through your answer",
+      "learner_turn": "Sure. I started by calculating how much gas Winston had used. I added 6 gallons and 2 gallons to get 8 gallons. Then I s",
+      "input_tokens": 17,
+      "output_tokens": 25,
+      "latency_ms": 375.46254023748935,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Ok how many gallons did winston use in total",
+      "learner_turn": "Winston used 8 gallons of gas in total. 6 gallons when he drove to the store and 2 gallons when he drove to the doctor's",
+      "input_tokens": 18,
+      "output_tokens": 25,
+      "latency_ms": 639.5061691173769,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)yes so how much fuel has he got left",
+      "learner_turn": "Winston has 4 gallons of gas left in the tank. He needs to refill the tank with 4 gallons of gas to get back to 12 gallo",
+      "input_tokens": 18,
+      "output_tokens": 27,
+      "latency_ms": 598.1963766221977,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)The question says he started with 10 gallons of fuel so how much did he have left",
+      "learner_turn": "Winston started with 10 gallons of gas and used 8 gallons, so he has 2 gallons of gas left in the tank. He needs to refi",
+      "input_tokens": 26,
+      "output_tokens": 26,
+      "latency_ms": 740.0810021169829,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)yes he has 2 gallons left. how much does a full tank hold",
+      "learner_turn": "A full tank holds 12 gallons of gas. Winston started with 10 gallons of gas and used 8 gallons, so he has 2 gallons of g",
+      "input_tokens": 22,
+      "output_tokens": 26,
+      "latency_ms": 379.6225568607405,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)If he has 2 gallons left and a tank holds 12 gallons how much more will he need",
+      "learner_turn": "Winston needs to refill the tank with 4 gallons of gas to get back to 12 gallons. He has 2 gallons of gas left in the ta",
+      "input_tokens": 27,
+      "output_tokens": 27,
+      "latency_ms": 684.5120627476955,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)You are saying that 2+4=12",
+      "learner_turn": "Yes, 2+4=12. Winston started with 10 gallons of gas and used 8 gallons, so he has 2 gallons of gas left in the tank. He ",
+      "input_tokens": 14,
+      "output_tokens": 25,
+      "latency_ms": 362.39476449823377,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)2+4=6",
+      "learner_turn": "No, 2+4 does not equal 6. 2+4 equals 12. Winston started with 10 gallons of gas and used 8 gallons, so he has 2 gallons ",
+      "input_tokens": 10,
+      "output_tokens": 25,
+      "latency_ms": 484.30236495813574,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)if he had 2 gallons left he would need another 10 to make 12",
+      "learner_turn": "No, if he had 2 gallons left he would need to add 4 more gallons of gas to get back to 12 gallons. He started with 10 ga",
+      "input_tokens": 23,
+      "output_tokens": 28,
+      "latency_ms": 709.0174528818594,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nWinston had 12.1 gallons of gas in his car’s gas tank. He drives to the store and uses 7.4 gallons of gas. Then he drives to the doctor’s office and uses 2.7 gallons of gas. If the tank can hold up to 17.1 gallons of gas, how many gallons of gas will Winston need to refill the entire tank?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 85,
+      "output_tokens": 9,
+      "latency_ms": 438.6279390477632,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1328",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.079114",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1617,
+  "total_output_tokens": 95,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nA small airplane can seat 10 people in first class, 30 in business class, and 50 in economy class seating. If economy class is half full, and business class and first class have the same number of people together as economy class, how many seats are unoccupied in business class if only three people on the flight have first class seats?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nMariana is a 7th grade student. She has problem with understanding of underlying ideas and principles and a recognition of when to apply them.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nthey shuldve subtracted 3 from 25\n\nYOUR INITIAL INCORRECT ATTEMPT:\nLet x be the number of people in business class and first class combined.\nSince economy class is half full, there are 50/2 = 25 people in economy class.\nSince business class and first class have the same number of people together as economy class, we have x + 10 = 25.\nThus, x = 15.\nTherefore, there are 30 - 15 - 3 = 12 seats unoccupied in business class.\n 12\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(telling)walk me through this",
+      "learner_turn": "Let x be the number of people in business class and first class combined.\nSince economy class is hal I used this approach because they shuldve subtracted 3 from 25.",
+      "input_tokens": 379,
+      "output_tokens": 30,
+      "latency_ms": 509.4919156534907,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(telling)There are 25 people in business first and business class, so there are 25 - 3 = 22 in business class.",
+      "learner_turn": "Okay, but I still think Right. I understand now. I should have subtracted 3 from 25 . Maybe the answer is 20?",
+      "input_tokens": 396,
+      "output_tokens": 22,
+      "latency_ms": 286.40141292952825,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)Thus, there are 30 - 22 = 8 unoccupied seats in business class.\n8",
+      "learner_turn": "I think I see — so instead I should... Yes, that's correct. There are 8 unoccupied seats in busines. Does that mean the answer is 7?",
+      "input_tokens": 389,
+      "output_tokens": 26,
+      "latency_ms": 494.4078468177388,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA small airplane can seat 15.0 people in first class, 38.5 in business class, and 69.7 in economy class seating. If economy class is half full, and business class and first class have the same number of people together as economy class, how many seats are unoccupied in business class if only three people on the flight have first class seats?",
+      "learner_turn": "Hmm, let me try. they shuldve subtracted 3 from 25 I think the answer might be 16.",
+      "input_tokens": 453,
+      "output_tokens": 17,
+      "latency_ms": 426.98181454930153,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

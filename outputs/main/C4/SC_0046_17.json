@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_0046",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.960775",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 241,
+  "total_output_tokens": 197,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)please talk me through your solution Riya",
+      "learner_turn": "To solve this problem, The first month she saved 10 dollars\nBy the second month, she had 10+30=40 dolla. The answer is The first month she .",
+      "input_tokens": 19,
+      "output_tokens": 27,
+      "latency_ms": 681.7635276095086,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)so how much did Alice have saved after 2 months?",
+      "learner_turn": "To solve this problem, The first month she saved 10 dollars\nBy the second month, she had 10+30=40 dolla. The answer is The first month she .",
+      "input_tokens": 22,
+      "output_tokens": 27,
+      "latency_ms": 606.4584773184656,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)and how much did she have saved after three months?",
+      "learner_turn": "To solve this problem, The first month she saved 10 dollars\nBy the second month, she had 10+30=40 dolla. The answer is The first month she .",
+      "input_tokens": 22,
+      "output_tokens": 27,
+      "latency_ms": 796.0461039879782,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)how many more dollars did she have saved after three months compared to after two months?",
+      "learner_turn": "To solve this problem, The first month she saved 10 dollars\nBy the second month, she had 10+30=40 dolla. The answer is The first month she .",
+      "input_tokens": 28,
+      "output_tokens": 27,
+      "latency_ms": 303.4810627138487,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)check the question again and see if you can tell me how many more dollars Alice had at 3 months compared to two months",
+      "learner_turn": "To solve this problem, The first month she saved 10 dollars\nBy the second month, she had 10+30=40 dolla. The answer is The first month she .",
+      "input_tokens": 36,
+      "output_tokens": 27,
+      "latency_ms": 315.8466668486669,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)if she had 40 dollars saved after the second month, and she saved 30 more, how many would she have?",
+      "learner_turn": "To solve this problem, The first month she saved 10 dollars\nBy the second month, she had 10+30=40 dolla. The answer is The first month she .",
+      "input_tokens": 32,
+      "output_tokens": 27,
+      "latency_ms": 356.7861656321154,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(generic)correct, well done",
+      "learner_turn": "To solve this problem, The first month she saved 10 dollars\nBy the second month, she had 10+30=40 dolla. The answer is The first month she .",
+      "input_tokens": 15,
+      "output_tokens": 27,
+      "latency_ms": 447.0119299523227,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIt took Alice three months to save up to buy new shoes. If she saved 14.3 dollars the first month and 43.9 more each month, how much did she have saved by the end of the third month?",
+      "learner_turn": "The answer to that problem would be 34.",
+      "input_tokens": 67,
+      "output_tokens": 8,
+      "latency_ms": 256.4563809752599,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0746",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.112997",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 318,
+  "total_output_tokens": 288,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Ayisha, can you explain your answer to me?",
+      "learner_turn": "To solve this problem, If Luka is exactly 2 years older than is Aubrey, then on Aubrey's 8th birthday, . The answer is If Luka is exactly 2.",
+      "input_tokens": 21,
+      "output_tokens": 28,
+      "latency_ms": 602.7461319205722,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)OK. Ayisha, can you tell me who is older, Max or Luka?",
+      "learner_turn": "To solve this problem, If Luka is exactly 2 years older than is Aubrey, then on Aubrey's 8th birthday, . The answer is If Luka is exactly 2.",
+      "input_tokens": 24,
+      "output_tokens": 28,
+      "latency_ms": 483.829507372146,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)How old was Luka when Max was born?",
+      "learner_turn": "To solve this problem, If Luka is exactly 2 years older than is Aubrey, then on Aubrey's 8th birthday, . The answer is If Luka is exactly 2.",
+      "input_tokens": 20,
+      "output_tokens": 28,
+      "latency_ms": 702.4701214180084,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)So who is older?",
+      "learner_turn": "To solve this problem, If Luka is exactly 2 years older than is Aubrey, then on Aubrey's 8th birthday, . The answer is If Luka is exactly 2.",
+      "input_tokens": 16,
+      "output_tokens": 28,
+      "latency_ms": 597.297717140339,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)Were they born in the same year though?",
+      "learner_turn": "To solve this problem, If Luka is exactly 2 years older than is Aubrey, then on Aubrey's 8th birthday, . The answer is If Luka is exactly 2.",
+      "input_tokens": 20,
+      "output_tokens": 28,
+      "latency_ms": 654.4192429181876,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)Luka was born 4 years before Max. Does that help you?",
+      "learner_turn": "To solve this problem, If Luka is exactly 2 years older than is Aubrey, then on Aubrey's 8th birthday, . The answer is If Luka is exactly 2.",
+      "input_tokens": 23,
+      "output_tokens": 28,
+      "latency_ms": 405.8335759977864,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)OK. Now we know that Luka is 4 years older than Max, can we solve the rest of the question?",
+      "learner_turn": "To solve this problem, If Luka is exactly 2 years older than is Aubrey, then on Aubrey's 8th birthday, . The answer is If Luka is exactly 2.",
+      "input_tokens": 32,
+      "output_tokens": 28,
+      "latency_ms": 576.7357330686896,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)If Luka is 4 years older than Max, can they both be 10 at the same time?",
+      "learner_turn": "To solve this problem, If Luka is exactly 2 years older than is Aubrey, then on Aubrey's 8th birthday, . The answer is If Luka is exactly 2.",
+      "input_tokens": 29,
+      "output_tokens": 28,
+      "latency_ms": 544.5085411748116,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)If Luka is 10 and we also know he is older than Max by 4 years, how old does that make Max?",
+      "learner_turn": "To solve this problem, If Luka is exactly 2 years older than is Aubrey, then on Aubrey's 8th birthday, . The answer is If Luka is exactly 2.",
+      "input_tokens": 34,
+      "output_tokens": 28,
+      "latency_ms": 799.7967065982666,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)Luka is 10 and Max is 4 years younger, so Max must be 6 because 10 -4 =6. Does that make sense?",
+      "learner_turn": "To solve this problem, If Luka is exactly 2 years older than is Aubrey, then on Aubrey's 8th birthday, . The answer is If Luka is exactly 2.",
+      "input_tokens": 34,
+      "output_tokens": 28,
+      "latency_ms": 386.6587295540517,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJordan's dog, Max, was born on the same day that Luka turned 5.4 years old.  Luka is exactly 2.6 years older than is Aubrey.  On Aubrey's 8th birthday, how many years old was Jordan's dog, Max?",
+      "learner_turn": "The answer to that problem would be 20.",
+      "input_tokens": 65,
+      "output_tokens": 8,
+      "latency_ms": 208.5717815050576,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

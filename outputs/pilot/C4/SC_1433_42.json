@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1433",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.088194",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 344,
+  "total_output_tokens": 256,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Claire, please can you talk me through your solution?",
+      "learner_turn": "To solve this problem, He still has to improve by 60 more seconds because 90 - 30 = 60\nThis will take 6. The answer is He still has to impr.",
+      "input_tokens": 22,
+      "output_tokens": 31,
+      "latency_ms": 498.53798604509745,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)So how many days until he can hold his breath for 90 seconds?    The question wants to know how much longer 'until' not how many days total.",
+      "learner_turn": "To solve this problem, He still has to improve by 60 more seconds because 90 - 30 = 60\nThis will take 6. The answer is He still has to impr.",
+      "input_tokens": 39,
+      "output_tokens": 31,
+      "latency_ms": 711.3079034643447,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Why 8 more days?",
+      "learner_turn": "To solve this problem, He still has to improve by 60 more seconds because 90 - 30 = 60\nThis will take 6. The answer is He still has to impr.",
+      "input_tokens": 16,
+      "output_tokens": 31,
+      "latency_ms": 308.01192633266334,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Today is day 3 - Chris can already hold his breath for 30 seconds. How many more seconds does he need to be able to hold his breath for?",
+      "learner_turn": "To solve this problem, He still has to improve by 60 more seconds because 90 - 30 = 60\nThis will take 6. The answer is He still has to impr.",
+      "input_tokens": 41,
+      "output_tokens": 31,
+      "latency_ms": 262.9764915207849,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)And he can improve by how many seconds each day?",
+      "learner_turn": "To solve this problem, He still has to improve by 60 more seconds because 90 - 30 = 60\nThis will take 6. The answer is He still has to impr.",
+      "input_tokens": 22,
+      "output_tokens": 31,
+      "latency_ms": 305.54264875291204,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)To work out how many more days it is going to take him we need to calculate the improvement needed by the improvement that can be made each day. Can you work out the answer?",
+      "learner_turn": "To solve this problem, He still has to improve by 60 more seconds because 90 - 30 = 60\nThis will take 6. The answer is He still has to impr.",
+      "input_tokens": 47,
+      "output_tokens": 31,
+      "latency_ms": 793.4328299955804,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)60 divided by 10 is?",
+      "learner_turn": "To solve this problem, He still has to improve by 60 more seconds because 90 - 30 = 60\nThis will take 6. The answer is He still has to impr.",
+      "input_tokens": 17,
+      "output_tokens": 31,
+      "latency_ms": 759.3808074270307,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)That's correct - wel done",
+      "learner_turn": "To solve this problem, He still has to improve by 60 more seconds because 90 - 30 = 60\nThis will take 6. The answer is He still has to impr.",
+      "input_tokens": 17,
+      "output_tokens": 31,
+      "latency_ms": 479.0950390389141,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nChris wants to hold his breath underwater for 108.5 straight seconds so he starts training each day. On the first day, he holds it for 14.8 seconds. On the second day, he holds it for 26.3 seconds. On the third day, he holds it for 40.3 seconds. After realizing that he can hold it for ten extra seconds each day, he realizes he can calculate how many days it is until he reaches 128.6 if he keeps up the same pace. So how many days until he can hold his breath for 109.7 seconds?",
+      "learner_turn": "The answer to that problem would be 23.",
+      "input_tokens": 123,
+      "output_tokens": 8,
+      "latency_ms": 775.9874101697762,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

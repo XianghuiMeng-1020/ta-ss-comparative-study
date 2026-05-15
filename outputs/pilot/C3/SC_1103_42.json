@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1103",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.061142",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 233,
+  "total_output_tokens": 128,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Luca, can you walk me through your math?",
+      "learner_turn": "Sure. I started by adding the initial 50 racers to the 30 that joined after 20 minutes, which gave me a total of 80 race",
+      "input_tokens": 18,
+      "output_tokens": 25,
+      "latency_ms": 671.1821976921024,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Great! You got the right answer but you've gone to far in your workings. Let's look at an example. If 10 people are at a restaurant, after an hour 30 more join, after 30 minutes the diners doubled. At closing there are 70 people. How many people left before closing?",
+      "learner_turn": "Okay. So, at the beginning there were 10 people, then after an hour 30 more joined, making a total of 40 people. After 3",
+      "input_tokens": 59,
+      "output_tokens": 24,
+      "latency_ms": 395.24073665200734,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Perfect. You solved this right! Lets look at the racers and apply the same technique",
+      "learner_turn": "Sure. At the beginning there were 50 racers, then after 20 minutes 30 more joined, making a total of 80 racers. After 30",
+      "input_tokens": 24,
+      "output_tokens": 23,
+      "latency_ms": 273.6756418061673,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Why are you adding the initial 50 racers?",
+      "learner_turn": "Oh, I see. I was adding the initial 50 racers and the 30 that joined after 20 minutes because those are the people who d",
+      "input_tokens": 17,
+      "output_tokens": 25,
+      "latency_ms": 650.6902238869767,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)So the initial 50 racers are included in the 160. So we do not need to re-add them at the end",
+      "learner_turn": "Right, the initial 50 racers are included in the 160, so the total number of people who dropped before finishing the rac",
+      "input_tokens": 30,
+      "output_tokens": 22,
+      "latency_ms": 641.162607233736,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThere were 64.9 racers in a bicycle charity race at the beginning of the race. After 24.1 minutes, 43.1 more racers joined the race. The total number of racers doubled after another 44.3 minutes. If at the end of the race only 169.5 people finished the race, what's the total number of people who dropped before finishing the race?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 85,
+      "output_tokens": 9,
+      "latency_ms": 396.8780515267357,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

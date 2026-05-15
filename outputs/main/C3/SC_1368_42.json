@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1368",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.242149",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 246,
+  "total_output_tokens": 111,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jordy can you talk me through your working?",
+      "learner_turn": "Sure. I started by calculating how many books Henry donated. He filled 3 boxes with 15 books each, so that's 3 x 15 = 45",
+      "input_tokens": 18,
+      "output_tokens": 25,
+      "latency_ms": 296.3231573393156,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Think again about how many books he is donating in total.",
+      "learner_turn": "Oh, I see. I forgot to include the 12 books he took from the \"free to a good home\" box. So, Henry donated a total of 43 ",
+      "input_tokens": 20,
+      "output_tokens": 27,
+      "latency_ms": 379.4239649439668,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)He filled 3 boxes with 15 books each so 3*15 = 45 books\nFrom the rest of his house he is donating 45+21+4+18 = 88 books for donation",
+      "learner_turn": "Yes, that's correct. So Henry donated a total of 45 + 88 = 133 books, and he now has 99 - 133 = -34 books.",
+      "input_tokens": 37,
+      "output_tokens": 25,
+      "latency_ms": 729.9421498449341,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)He had 88 books to donate. His collection is 99 books and he is donating 88 books, so that leaves him with 99-88 = 11 books\nHe picks up 12 books to add to his collection of 11 books so he now has 12+11 = 23 books",
+      "learner_turn": "Yes, that's correct. Henry donated a total of 88 books, leaving him with 99 - 88 = 11 books. He then picked up 12 books ",
+      "input_tokens": 56,
+      "output_tokens": 25,
+      "latency_ms": 456.35273420369697,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nHenry needs to declutter his book collection of 147.0 books.  From his bookshelf, he was able to fill 4.2 boxes of 20.6 books each to take to a donation center.  He had 29.3 books in a room he could donate, 5.1 on his coffee table and 24.9 cookbooks stashed in the kitchen.  When he dropped them off, he noticed a box of books that had a  \"free to a good home\" note.  He grabbed 14.7 books to take back to his place.  How many books does Henry now have?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 115,
+      "output_tokens": 9,
+      "latency_ms": 571.842672217048,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

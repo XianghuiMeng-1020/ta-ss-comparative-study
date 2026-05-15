@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1691",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.290418",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2524,
+  "total_output_tokens": 151,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nThere are one-third as many Ford trucks as Dodge trucks in the parking lot of the Taco Castle.  But there are twice as many Ford trucks as Toyota trucks in this parking lot, and there are half as many Volkswagen Bugs as there are Toyota trucks in this same parking lot.  If there are 5 Volkswagon Bugs in the parking lot, how many Dodge trucks are in the parking lot of the Taco Castle?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nLuca is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nmissed out a step\n\nYOUR INITIAL INCORRECT ATTEMPT:\nIf there are 5 Volkswagen Bugs in the parking lot, then there are twice as many Ford trucks as Toyota trucks, or 2 x 5 = 10 Ford trucks.\nAlso, there are half as many Volkswagen Bugs as there are Toyota trucks, or 5 x 2 = 10 Toyota trucks.\nTherefore, there are one-third as many Ford trucks as Dodge trucks, or 10 x 3 = 30 Dodge trucks in the parking lot. \n 30\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Luca, please talk me thorugh your solution",
+      "learner_turn": "If there are 5 Volkswagen Bugs in the parking lot, then there are twice as many Ford trucks as Toyot I used this approach because missed out a step.",
+      "input_tokens": 397,
+      "output_tokens": 29,
+      "latency_ms": 291.8940702687981,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)a good try. lets take it a step at a time. we dont yet know how many toyota trucks there are. We know there are 5 VW Bugs and that this is half the number of Toyota trucks. can you work out the number of toyota trucks?",
+      "learner_turn": "Okay, but I still think Yes, I can. Since there are 5 Volkswagen Bugs and they are h. Maybe the answer is 19?",
+      "input_tokens": 436,
+      "output_tokens": 23,
+      "latency_ms": 528.1409529419939,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)excellent. as you corrcetly said, there are twice as many Ford trucks as Toyota trucks. can you double the number of Toyota trucks?",
+      "learner_turn": "I think I see — so instead I should... Yes, I can. Since there are 10 Toyota trucks, then there mus. Does that mean the answer is 28?",
+      "input_tokens": 412,
+      "output_tokens": 28,
+      "latency_ms": 314.0700753361593,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)excellent., what do we know about the number of Ford trucks in relation to the number of Dodge trucks?",
+      "learner_turn": "I think I see — so instead I should... We know that there are one-third as many Ford trucks as Dodg. Does that mean the answer is 35?",
+      "input_tokens": 408,
+      "output_tokens": 28,
+      "latency_ms": 684.9949252115564,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)well done!",
+      "learner_turn": "I think I see — so instead I should... Sure. I started by figuring out that there were 10 Ford truc. Does that mean the answer is 23?",
+      "input_tokens": 391,
+      "output_tokens": 28,
+      "latency_ms": 487.29461044477915,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThere are one-third as many Ford trucks as Dodge trucks in the parking lot of the Taco Castle.  But there are twice as many Ford trucks as Toyota trucks in this parking lot, and there are half as many Volkswagen Bugs as there are Toyota trucks in this same parking lot.  If there are 7.1 Volkswagon Bugs in the parking lot, how many Dodge trucks are in the parking lot of the Taco Castle?",
+      "learner_turn": "Hmm, let me try. missed out a step I think the answer might be 14.",
+      "input_tokens": 480,
+      "output_tokens": 15,
+      "latency_ms": 226.03798101135732,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

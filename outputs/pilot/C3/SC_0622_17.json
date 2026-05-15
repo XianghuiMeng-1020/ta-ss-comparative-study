@@ -1,0 +1,162 @@
+{
+  "scenario_id": "SC_0622",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.028159",
+  "n_tutor_turns": 14,
+  "n_learner_turns": 14,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 299,
+  "total_output_tokens": 283,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)talk me through your solution",
+      "learner_turn": "In the first hour, the tank lost 2 gallons, so there were 40-2 = 38 gallons left. In the second hour, the tank lost anot",
+      "input_tokens": 14,
+      "output_tokens": 25,
+      "latency_ms": 792.4005681740929,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)over the four hours how much water does the tank lose?",
+      "learner_turn": "The tank lost a total of 6 gallons of water over the four hours, 2 gallons in the first hour, 2 gallons in the second ho",
+      "input_tokens": 20,
+      "output_tokens": 26,
+      "latency_ms": 517.4987570116073,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)how long is the tank on for?",
+      "learner_turn": "The tank is on for four hours.",
+      "input_tokens": 16,
+      "output_tokens": 7,
+      "latency_ms": 454.74055796679113,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)how much water per hour is lost",
+      "learner_turn": "The tank loses 2 gallons of water per hour.",
+      "input_tokens": 16,
+      "output_tokens": 9,
+      "latency_ms": 282.997856070713,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)so what calculation should we do?",
+      "learner_turn": "We should calculate the total amount of water lost over the four hours by subtracting the amount of water lost in each h",
+      "input_tokens": 15,
+      "output_tokens": 23,
+      "latency_ms": 749.8319716692905,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)so 4 x 2",
+      "learner_turn": "4 x 2 = 8, so the tank lost 8 gallons of water over the four hours.",
+      "input_tokens": 13,
+      "output_tokens": 17,
+      "latency_ms": 365.24941108284276,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)how much water does he add?",
+      "learner_turn": "Hayden adds 4 gallons of water to the tank over the four hours, 1 gallon in the third hour and 3 gallons in the fourth h",
+      "input_tokens": 15,
+      "output_tokens": 26,
+      "latency_ms": 352.47419797911147,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)so how much is left at the end?",
+      "learner_turn": "At the end of the fourth hour, there is 40 gallons of water left in the tank.",
+      "input_tokens": 17,
+      "output_tokens": 17,
+      "latency_ms": 437.98819208414653,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(probing)we start with 40 then subtract 8 then subtract 4",
+      "learner_turn": "That's correct. We start with 40 gallons of water, subtract 8 gallons of water that is lost over the four hours, and sub",
+      "input_tokens": 19,
+      "output_tokens": 23,
+      "latency_ms": 710.0376207624424,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)40 - 8",
+      "learner_turn": "40 - 8 = 32, so there would be 32 gallons of water left in the tank at the end of the fourth hour if Hayden had not adde",
+      "input_tokens": 12,
+      "output_tokens": 29,
+      "latency_ms": 335.79739633842456,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(probing)plus the 4 he added",
+      "learner_turn": "Plus the 4 gallons of water that Hayden added, there is 40 gallons of water left in the tank at the end of the fourth ho",
+      "input_tokens": 14,
+      "output_tokens": 26,
+      "latency_ms": 418.50251882346515,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(focus)32 +4",
+      "learner_turn": "32 + 4 = 40, so there is 40 gallons of water left in the tank at the end of the fourth hour.",
+      "input_tokens": 11,
+      "output_tokens": 23,
+      "latency_ms": 709.6322634810999,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(telling)the answer is 36",
+      "learner_turn": "That's correct. We start with 40 gallons of water, subtract 8 gallons of water that is lost over the four hours, and sub",
+      "input_tokens": 13,
+      "output_tokens": 23,
+      "latency_ms": 782.2156783687609,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nHayden has a tank with a small hole in the bottom. The tank starts with 57.4 gallons of water. It loses 2.7 gallons of water per hour. Hayden does not add any water for the first two hours. He adds 1.2 gallon of water to the tank in hour three. He adds three gallons of water to the tank in the fourth hour. How much water is left in the tank at the end of the fourth hour?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 104,
+      "output_tokens": 9,
+      "latency_ms": 466.1500250011049,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

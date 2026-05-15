@@ -1,0 +1,92 @@
+{
+  "scenario_id": "SC_0404",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.036444",
+  "n_tutor_turns": 7,
+  "n_learner_turns": 7,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2971,
+  "total_output_tokens": 195,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nDrew is reseeding his lawn with grass seed. One bag of grass seed covers 250 square feet of lawn. His lawn is 22 feet from the house to the curb and 36 feet from side to side. He bought four bags of seed. How many extra square feet could the leftover grass seed cover after Drew reseeds his lawn?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nLakisha is a 7th grade student. She has difficulty determining which pieces of information are relevant and which are irrelevant to solving the problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student simply only seen that there was enough to cover the land so  there was no more left over because it covered the amount needed. Correct calculations just no subtracting at the end.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nThe area of Drew's lawn is 22 x 36 = 792 square feet.\nFour bags of grass seed can cover 4 x 250 = 1000 square feet.\nDrew will use all the grass seed to cover his lawn, so there won't be any leftover to cover extra square feet.\nTherefore, the leftover grass seed can't cover any extra square feet.\n 0\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Could you talk me through your method and answer and method please Lakisha?",
+      "learner_turn": "The area of Drew's lawn is 22 x 36 = 792 square feet.\nFour bags of grass seed can cover 4 x 250 = 10 I used this approach because The student simply only seen that there was enough to cover .",
+      "input_tokens": 403,
+      "output_tokens": 42,
+      "latency_ms": 738.8435323427159,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)so your calculations are correct well done. is the amount of lawn seed equal to the exact size of the lawn or are you sure there is not any left over at all?",
+      "learner_turn": "Okay, but I still think Yes, my calculations are correct. The amount of grass seed i. Maybe the answer is 45?",
+      "input_tokens": 423,
+      "output_tokens": 21,
+      "latency_ms": 333.2347744188372,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)so if the lawn size is 792 square feet and there is enough seed to cover 1000 square feet, these two numbers are not the same so is there too much or not enough?",
+      "learner_turn": "I think I see — so instead I should... There is enough grass seed to cover the exact size of the la. Does that mean the answer is 14?",
+      "input_tokens": 424,
+      "output_tokens": 29,
+      "latency_ms": 650.7049623866117,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)so the lawn size is 792 and drew has enough to cover 1000. These are two different numbers, so he has either too much or too little. not equal",
+      "learner_turn": "I think I see — so instead I should... Drew has enough grass seed to cover the exact size of his la. Does that mean the answer is 11?",
+      "input_tokens": 419,
+      "output_tokens": 29,
+      "latency_ms": 636.8244615015001,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)so the lawn size is 792 and Drew has enough to cover 1000square feet. so we would simply take away the 792 needed from the 1000 that Drew has. Does this make sense?",
+      "learner_turn": "I think I see — so instead I should... Yes, that makes sense. If Drew has enough grass seed to cove. Does that mean the answer is 50?",
+      "input_tokens": 423,
+      "output_tokens": 28,
+      "latency_ms": 275.0923173915525,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(generic)dooes this make sense that there would be some left over because the amount needed is less than the amount that he has",
+      "learner_turn": "I think I see — so instead I should... Yes, that makes sense. Since Drew has enough grass seed to c. Does that mean the answer is 40?",
+      "input_tokens": 413,
+      "output_tokens": 28,
+      "latency_ms": 657.2602966562098,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nDrew is reseeding his lawn with grass seed. One bag of grass seed covers 327.5 square feet of lawn. His lawn is 29.1 feet from the house to the curb and 52.7 feet from side to side. He bought four bags of seed. How many extra square feet could the leftover grass seed cover after Drew reseeds his lawn?",
+      "learner_turn": "Hmm, let me try. The student simply only seen that there  I think the answer might be 20.",
+      "input_tokens": 466,
+      "output_tokens": 18,
+      "latency_ms": 760.2624122593502,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

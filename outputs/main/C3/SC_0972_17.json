@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_0972",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.151104",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 210,
+  "total_output_tokens": 109,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)how did we get 7.5?",
+      "learner_turn": "We got 7.5 by dividing 30 seconds (the time it takes to drain 4 cans) by 4 (the number of cans drained in 30 seconds).",
+      "input_tokens": 14,
+      "output_tokens": 25,
+      "latency_ms": 226.20649483154656,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)how many times does he need to walk to the sink?",
+      "learner_turn": "Jerry needs to walk to the sink and back to his desk twice, since it takes him 10 seconds each way.",
+      "input_tokens": 20,
+      "output_tokens": 21,
+      "latency_ms": 495.19828910932546,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)if he has 28 cans and each time brings 4, how many trip is that?",
+      "learner_turn": "Jerry needs to make 7 trips, since 28 divided by 4 is 7.",
+      "input_tokens": 24,
+      "output_tokens": 13,
+      "latency_ms": 608.0119651494165,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)and how long does 7 trips take?",
+      "learner_turn": "7 trips would take Jerry 20 seconds (10 seconds each way) x 7 trips = 140 seconds.",
+      "input_tokens": 16,
+      "output_tokens": 17,
+      "latency_ms": 204.53081783300823,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)20 seconds is good, but then he needs another 30 seconds per trip so that gives what?",
+      "learner_turn": "Jerry would need an additional 30 seconds per trip, so 7 trips would take him 30 seconds x 7 trips = 210 seconds. Combin",
+      "input_tokens": 26,
+      "output_tokens": 24,
+      "latency_ms": 452.669855054343,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJerry has a bunch of half-empty soda cans on his desk. He needs to drain all of them and put them in the recycling bin. He can carry four cans at once, and it takes him 43.8 seconds to drain those 5.2 cans. It takes him ten seconds each way to walk to the sink and recycling bin and then back to his desk. If there are 40.7 cans on Jerry's desk, how long does it take him to throw all of them away?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 110,
+      "output_tokens": 9,
+      "latency_ms": 351.4060093615564,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

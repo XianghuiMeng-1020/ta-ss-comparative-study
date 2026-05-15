@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1289",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.075049",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 220,
+  "total_output_tokens": 232,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)How much did Fred earn from washing the car",
+      "learner_turn": "To solve this problem, Before washing the car Fred had $14 - $6 = $8.\nFred spent half his allowance for. The answer is Before washing the c.",
+      "input_tokens": 21,
+      "output_tokens": 28,
+      "latency_ms": 249.37960072993522,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How much did he have before",
+      "learner_turn": "To solve this problem, Before washing the car Fred had $14 - $6 = $8.\nFred spent half his allowance for. The answer is Before washing the c.",
+      "input_tokens": 18,
+      "output_tokens": 28,
+      "latency_ms": 201.2729824706032,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)After being given 6 dollars for washing the car how much did he have",
+      "learner_turn": "To solve this problem, Before washing the car Fred had $14 - $6 = $8.\nFred spent half his allowance for. The answer is Before washing the c.",
+      "input_tokens": 26,
+      "output_tokens": 28,
+      "latency_ms": 322.1193900168073,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)he had 14 at the end",
+      "learner_turn": "To solve this problem, Before washing the car Fred had $14 - $6 = $8.\nFred spent half his allowance for. The answer is Before washing the c.",
+      "input_tokens": 18,
+      "output_tokens": 28,
+      "latency_ms": 394.3059296222133,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)He hadn't been given the 6",
+      "learner_turn": "To solve this problem, Before washing the car Fred had $14 - $6 = $8.\nFred spent half his allowance for. The answer is Before washing the c.",
+      "input_tokens": 18,
+      "output_tokens": 28,
+      "latency_ms": 535.8318046242617,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)The 14 is at the end. Take away the 6 first",
+      "learner_turn": "To solve this problem, Before washing the car Fred had $14 - $6 = $8.\nFred spent half his allowance for. The answer is Before washing the c.",
+      "input_tokens": 23,
+      "output_tokens": 28,
+      "latency_ms": 280.17064748195514,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)He was left with 8 after the movie",
+      "learner_turn": "To solve this problem, Before washing the car Fred had $14 - $6 = $8.\nFred spent half his allowance for. The answer is Before washing the c.",
+      "input_tokens": 20,
+      "output_tokens": 28,
+      "latency_ms": 305.74873586201534,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)2 x 8 = 16",
+      "learner_turn": "To solve this problem, Before washing the car Fred had $14 - $6 = $8.\nFred spent half his allowance for. The answer is Before washing the c.",
+      "input_tokens": 17,
+      "output_tokens": 28,
+      "latency_ms": 346.50198462156516,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nFred spent half of his allowance going to the movies. He washed the family car and earned 8.6 dollars. What is his weekly allowance if he ended with 20.7 dollars?",
+      "learner_turn": "The answer to that problem would be 34.",
+      "input_tokens": 59,
+      "output_tokens": 8,
+      "latency_ms": 343.22618282699005,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

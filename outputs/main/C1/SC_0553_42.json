@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_0553",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.070718",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3770,
+  "total_output_tokens": 316,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nJames decides to try and collect rare artifacts in the field.  He spends 6 months researching before going on a 2-year-long expedition for his first find.  The second artifact takes 3 times as long for the research and discovery.  How long did it take him to find both?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nFor the first artifact, James spent 6 months researching and 2 years on the expedition, which is 2 x 12 = 24 months.\nSo, it took him a total of 6 + 24 = 30 months to find the first artifact.\nFor the second artifact, he spent 3 times as long, which is 3 x 30 = 90 months.\nTherefore, it took him a total of 30 + 90 = 120 months to find both artifacts.\n 120\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hey Ayisha, this looks like a hard problem, what did you tackle first?",
+      "learner_turn": "So I tried this problem. My approach was: For the first artifact, James spent 6 months researching and 2 years on the expe. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 372,
+      "output_tokens": 36,
+      "latency_ms": 763.0030972213405,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)What about the research time needed before the expedition, have you taken that into account?",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 10? Let me redo: Oh, right! I forgot to add the 6 months of research for the ",
+      "input_tokens": 374,
+      "output_tokens": 31,
+      "latency_ms": 280.4390771267823,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)We need to work this into the whole solution back to the beginning, not just add it on to the end because we forgot it",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 10? Let me redo: Right, so the total time it took him to find both artifacts ",
+      "input_tokens": 384,
+      "output_tokens": 30,
+      "latency_ms": 404.5250703785887,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)How long did it take to find the first artifact including the 6 months of research?",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 7? Let me redo: The first artifact took 6 months of research and 2 years of ",
+      "input_tokens": 375,
+      "output_tokens": 30,
+      "latency_ms": 230.81047918285793,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)And what's that in years?",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 3? Let me redo: The first artifact took a total of 30 months, which is 2.5 y",
+      "input_tokens": 364,
+      "output_tokens": 31,
+      "latency_ms": 538.448597721118,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)Now read back the question and work out the time it took to find the second artifact, using the information you have given me above",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 10? Let me redo: James spent 6 months researching before going on a 2-year-lo",
+      "input_tokens": 384,
+      "output_tokens": 28,
+      "latency_ms": 516.204922436119,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)Which is how much in years?",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 5? Let me redo: 120 months is 10 years.",
+      "input_tokens": 365,
+      "output_tokens": 23,
+      "latency_ms": 482.54565278755365,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)So we've confirmed your original answer was correct?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Yes, my original answer was correct. It took James 10 years . So the answer is 25?",
+      "input_tokens": 367,
+      "output_tokens": 29,
+      "latency_ms": 389.9092879714297,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(generic)Great job",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 5? Let me redo: At first, I tried to figure out how long it would take to fi",
+      "input_tokens": 361,
+      "output_tokens": 32,
+      "latency_ms": 219.64050547817303,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJames decides to try and collect rare artifacts in the field.  He spends 8.6 months researching before going on a 2.8-year-long expedition for his first find.  The second artifact takes 4.4 times as long for the research and discovery.  How long did it take him to find both?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: James decides to try and collect rare artifacts in... I get approximately 41 as my answer. Does that seem right?",
+      "input_tokens": 424,
+      "output_tokens": 46,
+      "latency_ms": 457.14722464116034,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

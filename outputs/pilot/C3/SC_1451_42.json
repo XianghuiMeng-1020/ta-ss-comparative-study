@@ -1,0 +1,312 @@
+{
+  "scenario_id": "SC_1451",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.095600",
+  "n_tutor_turns": 29,
+  "n_learner_turns": 29,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 684,
+  "total_output_tokens": 512,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Would you like to check your answer one more time ?",
+      "learner_turn": "Yes, I would like to double check my answer.",
+      "input_tokens": 20,
+      "output_tokens": 9,
+      "latency_ms": 660.6353069144542,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Thank you, see if you come up with the same answer this time",
+      "learner_turn": "Ken gave a total of 10 + 10 = 20 pencils to Manny and Nilo. Let x be the number of pencils Ken gave to Nilo. Then x + 10",
+      "input_tokens": 22,
+      "output_tokens": 30,
+      "latency_ms": 588.4394487185818,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Did Manny and Milo both receive the same number of pencils",
+      "learner_turn": "No, Manny received 10 pencils and Nilo received 15 pencils.",
+      "input_tokens": 20,
+      "output_tokens": 10,
+      "latency_ms": 674.5292005216693,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)So if we know how many they each received how can we work out how many Ken kept",
+      "learner_turn": "Ken kept 50 pencils in total. He gave 10 pencils to Manny and 15 pencils to Nilo, so he kept 50 - 10 - 15 = 25 pencils.",
+      "input_tokens": 27,
+      "output_tokens": 28,
+      "latency_ms": 380.76848210661467,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)How can we work out how many more pencils Milo had to Manny",
+      "learner_turn": "Nilo had 15 pencils and Manny had 10 pencils, so Nilo had 5 more pencils than Manny.",
+      "input_tokens": 22,
+      "output_tokens": 17,
+      "latency_ms": 328.8085065383048,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Could you show me how you worked this out",
+      "learner_turn": "We know that Manny had 10 pencils and Nilo had 15 pencils. To find out how many more pencils Nilo had than Manny, we sub",
+      "input_tokens": 18,
+      "output_tokens": 25,
+      "latency_ms": 274.7979876383302,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)And how did you work this out",
+      "learner_turn": "I used the subtraction equation 15 - 10 = 5. 15 is the total number of pencils Nilo had, and 10 is the total number of p",
+      "input_tokens": 16,
+      "output_tokens": 27,
+      "latency_ms": 687.7189985681775,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)So if Manny had 10 and Nilo had 10 more than Manny would you solution work ?",
+      "learner_turn": "Yes, my solution would still work. We would still subtract 10 from the total number of pencils Nilo had (which would be ",
+      "input_tokens": 26,
+      "output_tokens": 22,
+      "latency_ms": 465.84817129902774,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)Why would we subtract 10",
+      "learner_turn": "We subtract 10 because it is the total number of pencils Manny had. We are trying to find out how many more pencils Nilo",
+      "input_tokens": 14,
+      "output_tokens": 24,
+      "latency_ms": 283.3222084714744,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)So Ken has 50 gives Manny 10 how many would this leave him",
+      "learner_turn": "Ken would have 50 - 10 = 40 pencils left after giving 10 pencils to Manny.",
+      "input_tokens": 22,
+      "output_tokens": 16,
+      "latency_ms": 508.2121080378202,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(telling)Correct so if had 40 and then gave nilo 10 more than he gave Manny how many c would Ken have left, show your reward i",
+      "learner_turn": "Ken would have 40 - 10 - (10 + 10) = 40 - 30 = 10 pencils left after giving 10 pencils to Manny and 10 more pencils to N",
+      "input_tokens": 35,
+      "output_tokens": 30,
+      "latency_ms": 525.297241909069,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(telling)",
+      "learner_turn": "Ken would give Nilo 10 more pencils than he gave to Manny, so he would give Nilo 40 - 10 = 30 pencils.",
+      "input_tokens": 10,
+      "output_tokens": 23,
+      "latency_ms": 503.6536973134255,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(telling)Let’s assume after Manny Ken has 40 left. How many does he give to Nilo",
+      "learner_turn": "Ken would give Nilo 30 pencils.",
+      "input_tokens": 24,
+      "output_tokens": 6,
+      "latency_ms": 234.22532415236074,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "(probing)Which would be how many",
+      "learner_turn": "Yes, 30 is 10 more than the 10 pencils Ken gave to Manny.",
+      "input_tokens": 14,
+      "output_tokens": 13,
+      "latency_ms": 683.9594631273503,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 14,
+      "tutor_turn": "(telling)Is 30 10 more than the 10 he gave to Manny ?",
+      "learner_turn": "Yes, 10 more than 10 is 30.",
+      "input_tokens": 21,
+      "output_tokens": 7,
+      "latency_ms": 661.9952344832016,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 15,
+      "tutor_turn": "(focus)So is 10 more than 10 30?",
+      "learner_turn": "Ken gave Manny 10 pencils and Nilo 10 more pencils than he gave to Manny. This means that Ken gave Nilo 10 + 10 = 30 pen",
+      "input_tokens": 16,
+      "output_tokens": 27,
+      "latency_ms": 792.645222599936,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 16,
+      "tutor_turn": "(probing)Could you explain this by writing your answer down please",
+      "learner_turn": "Ken would have given away 10 + 10 = 20 pencils if he gave Manny and Nilo each 10 pencils.",
+      "input_tokens": 19,
+      "output_tokens": 20,
+      "latency_ms": 466.47927329267634,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 17,
+      "tutor_turn": "(focus)If Ken had given Manny and Nilo each 10 pencils how many would he have given away",
+      "learner_turn": "Ken has given away 10 + 10 + 10 = 30 pencils in total.",
+      "input_tokens": 26,
+      "output_tokens": 14,
+      "latency_ms": 703.9314565512082,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 18,
+      "tutor_turn": "(telling)He then gave Nilo another 10 so how many has he now given away",
+      "learner_turn": "Ken had 50 pencils in total. He gave away 30 pencils, so he has 50 - 30 = 20 pencils left.",
+      "input_tokens": 23,
+      "output_tokens": 21,
+      "latency_ms": 317.9368467903267,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 19,
+      "tutor_turn": "(telling)He therefore has given 30 away from the amount he stays with so how many does Ken have left",
+      "learner_turn": "He has 20 pencils left.",
+      "input_tokens": 28,
+      "output_tokens": 5,
+      "latency_ms": 690.9452926556933,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 20,
+      "tutor_turn": "(focus)He ?",
+      "learner_turn": "Yes, this is the same answer I got when I first solved the problem. Ken gave away a total of 10 + 10 + 10 = 30 pencils, ",
+      "input_tokens": 11,
+      "output_tokens": 28,
+      "latency_ms": 763.5575938615347,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 21,
+      "tutor_turn": "(probing)Does this equate to your first answer?",
+      "learner_turn": "Yes, I would like to recheck my answers.",
+      "input_tokens": 16,
+      "output_tokens": 8,
+      "latency_ms": 471.1533118822349,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 22,
+      "tutor_turn": "(probing)Would you like to recheck your answers, as I think we may have come up,with a different solution if you check back , I can see a difference",
+      "learner_turn": "I think I made a miscalculation when I first solved the problem. I initially said that Ken gave 5 + 10 = 15 pencils to M",
+      "input_tokens": 37,
+      "output_tokens": 26,
+      "latency_ms": 621.1440408114579,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 23,
+      "tutor_turn": "(generic)Well done I will give you a few minutes, your final answer is correct so see if you can work out where you made a miscalculation at the beginning",
+      "learner_turn": "Yes, I see where I made the miscalculation. I forgot to add the 10 pencils that Ken gave to Nilo when I was calculating ",
+      "input_tokens": 38,
+      "output_tokens": 24,
+      "latency_ms": 546.7885289115892,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 24,
+      "tutor_turn": "(generic)Do you see where this was",
+      "learner_turn": "Yes, I think I could solve a similar problem another time. I understand the process of solving the problem and I know ho",
+      "input_tokens": 15,
+      "output_tokens": 23,
+      "latency_ms": 328.9415296037398,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 25,
+      "tutor_turn": "(generic)Well done, do you now think you could solve a similar problem another time ?",
+      "learner_turn": "Sure, that sounds great!",
+      "input_tokens": 24,
+      "output_tokens": 4,
+      "latency_ms": 498.8748747566739,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 26,
+      "tutor_turn": "(generic)Thank you shall we have a break and then try a similar problem?",
+      "learner_turn": "Sounds good! See you in 40 minutes.",
+      "input_tokens": 22,
+      "output_tokens": 7,
+      "latency_ms": 274.3668950961608,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 27,
+      "tutor_turn": "(generic)Ok go and enjoy your break and meet me back here in 40 minutes",
+      "learner_turn": "Yes, I would like to double check my answer.",
+      "input_tokens": 23,
+      "output_tokens": 9,
+      "latency_ms": 514.4511253274633,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 28,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nKen had fifty pencils, and he wanted to share some of them with his two friends, Manny and Nilo. Ken gave ten pencils to Manny and ten more pencils to Nilo than he gave to Manny. He kept the rest of the pencils. How many pencils did Ken keep?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 75,
+      "output_tokens": 9,
+      "latency_ms": 438.8520916626262,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

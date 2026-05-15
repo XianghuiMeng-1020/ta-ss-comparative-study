@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1954",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.335560",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 179,
+  "total_output_tokens": 75,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Ronnie.  How many weeks is Jackson's training program?",
+      "learner_turn": "Jackson's training program is 5 weeks long.",
+      "input_tokens": 18,
+      "output_tokens": 7,
+      "latency_ms": 755.2300404444884,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Good, You said at the end of the 4th week, Jackson was running 6 miles a day?  Correct?",
+      "learner_turn": "Yes, that's correct. At the end of the 4th week, Jackson was running 6 miles a day.",
+      "input_tokens": 27,
+      "output_tokens": 17,
+      "latency_ms": 250.86306783082824,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Every week, you increase the distance by how far?",
+      "learner_turn": "Every week, Jackson increases the distance by 1 mile.",
+      "input_tokens": 18,
+      "output_tokens": 9,
+      "latency_ms": 523.1205867417141,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)So in your calculation at the start of the 5th week did you increase the distance by 1 mile?",
+      "learner_turn": "Yes, I increased the distance by 1 mile at the start of the 5th week. So at the end of the 5th week, Jackson is running ",
+      "input_tokens": 28,
+      "output_tokens": 26,
+      "latency_ms": 534.7206119941101,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Correct, that is the solution.",
+      "learner_turn": "Jackson's training program is 5 weeks long.",
+      "input_tokens": 14,
+      "output_tokens": 7,
+      "latency_ms": 263.5592822373645,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJackson wants to improve his endurance running. His goal is to start by running 4.1 miles a day the first week, then spend the next four weeks running one additional mile/day each week. How many miles is Jackson running each day at the end of this exercise program?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 74,
+      "output_tokens": 9,
+      "latency_ms": 598.7877426635632,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

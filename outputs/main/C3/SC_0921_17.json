@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_0921",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.138787",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 170,
+  "total_output_tokens": 107,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, can you explain your answer?",
+      "learner_turn": "Sure. I figured that Harry needed to buy 2 packs of 10 balloons, which would give him 20 balloons in total. Then he woul",
+      "input_tokens": 15,
+      "output_tokens": 24,
+      "latency_ms": 201.46826339993615,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Hi Riya, can you tell me how you solved this?",
+      "learner_turn": "Harry needs 2 packs of 10 balloons to get to 14 balloons.",
+      "input_tokens": 19,
+      "output_tokens": 12,
+      "latency_ms": 548.0305802673682,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)OK, let's go back to the question. If Harry needs 14 balloons, how many packs of 10 does he need?",
+      "learner_turn": "Oh, okay. So Harry needs 1 pack of 10 balloons and 4 individual balloons, which would cost 1 x $3 = $3 for the pack and ",
+      "input_tokens": 29,
+      "output_tokens": 26,
+      "latency_ms": 698.1715892197358,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)He only needs one pack of 10, then he will buy 4 single balloons.",
+      "learner_turn": "Sure. I figured that Harry needed to buy 2 packs of 10 balloons, which would give him 20 balloons in total. Then he woul",
+      "input_tokens": 23,
+      "output_tokens": 24,
+      "latency_ms": 450.45745875654785,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)Well done!",
+      "learner_turn": "Harry needs 2 packs of 10 balloons to get to 14 balloons.",
+      "input_tokens": 11,
+      "output_tokens": 12,
+      "latency_ms": 256.93732055826615,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nHarry decided to buy some balloons for his friend's birthday party. One balloon costs $0.7, and a pack of 14.1 balloons is cheaper and costs only $4.1. Finally, Harry wants to bring to the party exactly 20.6 balloons. How much did he need to pay for them?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 73,
+      "output_tokens": 9,
+      "latency_ms": 364.9366027172438,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

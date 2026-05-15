@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_2076",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.153596",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2259,
+  "total_output_tokens": 155,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nA 26-mile circular marathon has four checkpoints inside it. The first is one mile from the start line, and the last checkpoint is one mile from the finish line. The checkpoints have equal spacing between them. How many miles apart are each of the consecutive checkpoints between the start-finish line?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nSteven is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nOmitting information. In this case the student assumed the track to be a straight one.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nThe total distance between the first and last checkpoints is 26 - 1 - 1 = 24 miles.\nSince there are four checkpoints in total, there are three intervals between them.\nThus, each interval is 24/3 = 8 miles apart.\nTherefore, each of the consecutive checkpoints between the start-finish line is 8 miles apart.\n 8\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi steve, could you please walk me through your solution?",
+      "learner_turn": "The total distance between the first and last checkpoints is 26 - 1 - 1 = 24 miles.\nSince there are  I used this approach because Omitting information. In this case the student assumed the t.",
+      "input_tokens": 368,
+      "output_tokens": 36,
+      "latency_ms": 324.00423871363273,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Remember that the track is circular",
+      "learner_turn": "Okay, but I still think Oh, I see. That means that the checkpoints are evenly spaced. Maybe the answer is 46?",
+      "input_tokens": 364,
+      "output_tokens": 21,
+      "latency_ms": 498.66984611742913,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Remember that the track is circular",
+      "learner_turn": "I think I see — so instead I should... Yes, I understand now. Since the track is circular, there ar. Does that mean the answer is 20?",
+      "input_tokens": 364,
+      "output_tokens": 27,
+      "latency_ms": 739.1025152231715,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Remember that the track is circular",
+      "learner_turn": "I think I see — so instead I should... Sure. The total distance between the first and last checkpoi. Does that mean the answer is 19?",
+      "input_tokens": 364,
+      "output_tokens": 26,
+      "latency_ms": 427.46974363080017,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)If the track is circular, then there are 4 intervals. Not 3. Do you get it?",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. That means that the checkpoints are evenly spaced. Does that mean the answer is 12?",
+      "input_tokens": 374,
+      "output_tokens": 27,
+      "latency_ms": 755.1557471092924,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA 35.1-mile circular marathon has four checkpoints inside it. The first is one mile from the start line, and the last checkpoint is one mile from the finish line. The checkpoints have equal spacing between them. How many miles apart are each of the consecutive checkpoints between the start-finish line?",
+      "learner_turn": "Hmm, let me try. Omitting information. In this case the s I think the answer might be 50.",
+      "input_tokens": 425,
+      "output_tokens": 18,
+      "latency_ms": 758.5515701524516,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

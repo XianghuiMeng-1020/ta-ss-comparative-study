@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_2219",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.392299",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 229,
+  "total_output_tokens": 133,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Riya can you talk me through your working please?",
+      "learner_turn": "Sure. I figured that Andy had to stop for 3 minutes at 4 red lights, so he lost 3 x 4 = 12 minutes. He also had to wait ",
+      "input_tokens": 19,
+      "output_tokens": 29,
+      "latency_ms": 295.01881384391896,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)How long in total did it take him to get there?",
+      "learner_turn": "It took him a total of 52 minutes to get to school (45 minutes + 22 minutes delay).",
+      "input_tokens": 20,
+      "output_tokens": 18,
+      "latency_ms": 235.96911629026218,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)It normally takes him 30 minutes to get there",
+      "learner_turn": "That means he was 22 minutes late, which is more than the usual 30 minutes it takes him to get there.",
+      "input_tokens": 18,
+      "output_tokens": 21,
+      "latency_ms": 308.9606816268752,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)He was up by 22 minutes and it usually takes him 30 minutes so how long did it take him?",
+      "learner_turn": "It took him 52 minutes to get to school (45 minutes + 22 minutes delay).",
+      "input_tokens": 29,
+      "output_tokens": 15,
+      "latency_ms": 555.7628766992673,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)How long had he allowed for the journey?",
+      "learner_turn": "He had allowed 45 minutes for the journey (8:00 AM - 7:15 AM).",
+      "input_tokens": 17,
+      "output_tokens": 13,
+      "latency_ms": 764.881264906202,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)So if it took him 52 minutes, how many minutes late was he?",
+      "learner_turn": "He was 22 minutes late (52 minutes - 30 minutes = 22 minutes).",
+      "input_tokens": 22,
+      "output_tokens": 13,
+      "latency_ms": 793.9168580847578,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)He was 7 minutes late as he allowed 45 minutes but it took 52",
+      "learner_turn": "That's correct. He was 7 minutes late (52 minutes - 45 minutes = 7 minutes).",
+      "input_tokens": 23,
+      "output_tokens": 15,
+      "latency_ms": 310.54103894851846,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAndy is running late. School starts at 10.4:0 AM and it normally takes him 42.5 minutes to get there, but today he had to stop for 4.2 minutes each at 4.8 red lights and wait 13.8 minutes to get past construction. If he left his house at 9.9:18.8, how many minutes late will he be?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 81,
+      "output_tokens": 9,
+      "latency_ms": 208.28769961719604,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

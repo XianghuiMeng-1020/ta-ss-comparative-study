@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1103",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.060115",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2387,
+  "total_output_tokens": 163,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nThere were 50 racers in a bicycle charity race at the beginning of the race. After 20 minutes, 30 more racers joined the race. The total number of racers doubled after another 30 minutes. If at the end of the race only 130 people finished the race, what's the total number of people who dropped before finishing the race?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nLuca is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThey were adding the initial 50 not realising they are included in the total 160\n\nYOUR INITIAL INCORRECT ATTEMPT:\nAfter 20 minutes, there were 50 + 30 = 80 racers.\nAfter another 30 minutes, the total number of racers doubled to 80 x 2 = 160 racers.\nSo, 160 - 130 = 30 racers did not finish the race.\nTherefore, the total number of people who dropped before finishing the race was 50 + 30 = 80 people. \n 80\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Luca, can you walk me through your math?",
+      "learner_turn": "After 20 minutes, there were 50 + 30 = 80 racers.\nAfter another 30 minutes, the total number of race I used this approach because They were adding the initial 50 not realising they are inclu.",
+      "input_tokens": 377,
+      "output_tokens": 36,
+      "latency_ms": 305.08017905553345,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Great! You got the right answer but you've gone to far in your workings. Let's look at an example. If 10 people are at a restaurant, after an hour 30 more join, after 30 minutes the diners doubled. At closing there are 70 people. How many people left before closing?",
+      "learner_turn": "Okay, but I still think Okay. So, at the beginning there were 10 people, then after . Maybe the answer is 33?",
+      "input_tokens": 418,
+      "output_tokens": 22,
+      "latency_ms": 435.5925307877096,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Perfect. You solved this right! Lets look at the racers and apply the same technique",
+      "learner_turn": "I think I see — so instead I should... Sure. At the beginning there were 50 racers, then after 20 m. Does that mean the answer is 8?",
+      "input_tokens": 383,
+      "output_tokens": 28,
+      "latency_ms": 364.09659456979676,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Why are you adding the initial 50 racers?",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. I was adding the initial 50 racers and the 30 tha. Does that mean the answer is 23?",
+      "input_tokens": 376,
+      "output_tokens": 30,
+      "latency_ms": 400.8158170682065,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)So the initial 50 racers are included in the 160. So we do not need to re-add them at the end",
+      "learner_turn": "I think I see — so instead I should... Right, the initial 50 racers are included in the 160, so the. Does that mean the answer is 50?",
+      "input_tokens": 389,
+      "output_tokens": 28,
+      "latency_ms": 329.6691469696328,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThere were 64.9 racers in a bicycle charity race at the beginning of the race. After 24.1 minutes, 43.1 more racers joined the race. The total number of racers doubled after another 44.3 minutes. If at the end of the race only 169.5 people finished the race, what's the total number of people who dropped before finishing the race?",
+      "learner_turn": "Hmm, let me try. They were adding the initial 50 not real I think the answer might be 31.",
+      "input_tokens": 444,
+      "output_tokens": 19,
+      "latency_ms": 454.85514049125493,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

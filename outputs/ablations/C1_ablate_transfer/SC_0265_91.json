@@ -1,0 +1,113 @@
+{
+  "scenario_id": "SC_0265",
+  "condition": "C1_ablate_transfer",
+  "condition_label": "Teachable Agent",
+  "seed": 91,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:04.970587",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3309,
+  "total_output_tokens": 292,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nDanny helps his friends carpool to work. He has to drive 8 miles to the first friend's house, half that distance to the second friend's house, then 3 times the total distance driven so far to get to work. How many miles does Danny drive between the second friend's house and work?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nDanny drove 8/2 = 4 miles to the second friend's house.\nHe drove a total of 8 + 4 = 12 miles to get to the second friend's house.\nThen, he drove 3 x 12 = 36 miles from the second friend's house to work.\nTherefore, Danny drove 36 - 12 = 24 miles between the second friend's house and work.\n 24\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Ale, could you please walk me through your solution?",
+      "learner_turn": "So I tried this problem. My approach was: Danny drove 8/2 = 4 miles to the second friend's house.\nHe drove a total of 8 + . Wait — can you explain why we need to do that step first?",
+      "input_tokens": 358,
+      "output_tokens": 40,
+      "latency_ms": 229.35199451177343,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Hi Ale, could you please walk me through your solution?",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 3? Let me redo: I subtracted 12 from 36 because 12 is the total distance Dan",
+      "input_tokens": 358,
+      "output_tokens": 30,
+      "latency_ms": 490.0911446915715,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Could you please explain why you subtracted 12 from 36?",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 7? Let me redo: Oh, I see. The distance between Danny's house and the first ",
+      "input_tokens": 358,
+      "output_tokens": 29,
+      "latency_ms": 242.1372327555357,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)No. The distance between Danny's house and his 2nd friend is not 4 miles. It's the distance between the 1st and 2nd friend's house.",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 1? Let me redo: The distance Danny drives from his second friend's house to ",
+      "input_tokens": 372,
+      "output_tokens": 28,
+      "latency_ms": 443.16728460166667,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Could you please me the distance he drives from his second friend's house to work?",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 3? Let me redo: Oh, I see. I made a mistake. The total distance Danny drove ",
+      "input_tokens": 363,
+      "output_tokens": 30,
+      "latency_ms": 763.4716486331886,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)Are you sure? You've calculated it to be 36 miles in the penultimate step of your solution.",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 10? Let me redo: I understand now. The total distance Danny drove to get to w",
+      "input_tokens": 365,
+      "output_tokens": 30,
+      "latency_ms": 414.37940615555,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)No. 36 miles is indeed the distance between his 2nd friend's home and work.",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 2? Let me redo: I understand now. The total distance Danny drove to get to w",
+      "input_tokens": 362,
+      "output_tokens": 30,
+      "latency_ms": 251.62333434063925,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)No. It's not 24 miles. It's 36 miles",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 6? Let me redo: Sure! I started by calculating the distance from Danny's hou",
+      "input_tokens": 356,
+      "output_tokens": 28,
+      "latency_ms": 769.6348254954531,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nDanny helps his friends carpool to work. He has to drive 11.6 miles to the first friend's house, half that distance to the second friend's house, then 4.2 times the total distance driven so far to get to work. How many miles does Danny drive between the second friend's house and work?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Danny helps his friends carpool to work. He has to... I get approximately 19 as my answer. Does that seem right?",
+      "input_tokens": 417,
+      "output_tokens": 47,
+      "latency_ms": 363.48190836319105,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C1"
+}

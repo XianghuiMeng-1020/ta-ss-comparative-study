@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_0646",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.030505",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3080,
+  "total_output_tokens": 277,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nBob is tilling a plot of his garden. The plot is 110 feet wide by 120 feet long. His tiller digs a swath two feet wide, and he can till 1 foot of ground in about 2 seconds. How long will it take him to till this plot of land, in minutes?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nThe area of the plot is 110 x 120 = 13200 square feet.\nHe will need to till 13200 / 2 = 6600 swaths.\nEach swath is 2 feet wide and he tills 1 foot in 2 seconds, so each swath will take him 2 x 2 = 4 seconds to till.\nSo, it will take him 6600 x 4 = 26400 seconds to till the whole plot.\nConverting to minutes, we get 26400 / 60 = 440 minutes.\n 440\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi , could you please walk me through your solution?",
+      "learner_turn": "So I tried this problem. My approach was: The area of the plot is 110 x 120 = 13200 square feet.\nHe will need to till 1320. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 376,
+      "output_tokens": 40,
+      "latency_ms": 406.5630396634648,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Hi , could you please walk me through your solution?",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 5? Let me redo: Yes, the question said that he can till 1 foot of ground in ",
+      "input_tokens": 376,
+      "output_tokens": 31,
+      "latency_ms": 633.577438216314,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Can you please explain why did you calculate each swath will take 4 seconds? It is clearly mentioned 2 seconds in the question.",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 10? Let me redo: Yes, I understand now. For each swath, it will take him 2 se",
+      "input_tokens": 389,
+      "output_tokens": 31,
+      "latency_ms": 205.37304749165864,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)The whole thing takes 2 seconds. Do you follow?",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 9? Let me redo: Yes, I understand now. He can till both feet of the swath in",
+      "input_tokens": 375,
+      "output_tokens": 31,
+      "latency_ms": 747.6221165269797,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Both the processes occur simultaneously. That is in 2 seconds.",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 6? Let me redo: Oh, I see. It takes 2 seconds to till both feet of the swath",
+      "input_tokens": 376,
+      "output_tokens": 32,
+      "latency_ms": 441.4049057322819,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)No. It takes 2 seconds for the swath.",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 7? Let me redo: Yes, it will take him 6600 x 2 = 13200 seconds, or 13200 / 6",
+      "input_tokens": 374,
+      "output_tokens": 33,
+      "latency_ms": 377.1206317997331,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)Now can you calculate how much time will he take for 6600 swaths?",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 5? Let me redo: Sure. I started by calculating the area of the plot, which i",
+      "input_tokens": 379,
+      "output_tokens": 30,
+      "latency_ms": 233.29499835734927,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nBob is tilling a plot of his garden. The plot is 161.5 feet wide by 146.1 feet long. His tiller digs a swath two feet wide, and he can till 1.4 foot of ground in about 2.6 seconds. How long will it take him to till this plot of land, in minutes?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Bob is tilling a plot of his garden. The plot is 1... I get approximately 11 as my answer. Does that seem right?",
+      "input_tokens": 435,
+      "output_tokens": 49,
+      "latency_ms": 519.3738431209974,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

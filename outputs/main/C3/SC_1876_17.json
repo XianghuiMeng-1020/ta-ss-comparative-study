@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1876",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.318747",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 158,
+  "total_output_tokens": 106,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Winnie, can you talk me through your solution?",
+      "learner_turn": "Sure. I started by calculating the total number of wheels for the cars, which is 19 x 5 = 95. Then I subtracted the spar",
+      "input_tokens": 18,
+      "output_tokens": 25,
+      "latency_ms": 637.9612364740926,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Can you tell me why you subtracted the spare wheels? did you need to do this?",
+      "learner_turn": "Yes, I needed to subtract the spare wheels because they weren't in use by the cars. Since the problem said that each car",
+      "input_tokens": 25,
+      "output_tokens": 23,
+      "latency_ms": 668.1801018959278,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Not quite, you have misunderstood the question. You correctly calculated 19 x 5 = 95. how would you then find out the motorcycles?",
+      "learner_turn": "Oh, I see. I would subtract the total number of wheels for the cars from the total number of wheels for all the vehicles",
+      "input_tokens": 32,
+      "output_tokens": 24,
+      "latency_ms": 259.33954147051736,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Brilliant, well done.",
+      "learner_turn": "Sure. I started by calculating the total number of wheels for the cars, which is 19 x 5 = 95. Then I subtracted the spar",
+      "input_tokens": 12,
+      "output_tokens": 25,
+      "latency_ms": 634.5892222500233,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIn a parking lot, there are cars and motorcycles.  Each car has 6.4 wheels (including one spare) and each motorcycle has 2.7 wheels. There are 27.2 cars in the parking lot. Altogether all vehicles have 170.3 wheels. How many motorcycles are at the parking lot?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 71,
+      "output_tokens": 9,
+      "latency_ms": 370.85582904422,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

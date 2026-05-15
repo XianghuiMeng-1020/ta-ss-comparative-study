@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_1956",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.145809",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 315,
+  "total_output_tokens": 278,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Hi Jia, so you have figured out Michael's brothers ages as being 5 and 15. Correct?",
+      "learner_turn": "To solve this problem, The oldest brother is 15 because 3 x 5 = 15\nMichael is 8 because if 1 + (Michael. The answer is The oldest brother i.",
+      "input_tokens": 28,
+      "output_tokens": 30,
+      "latency_ms": 387.8722152329344,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Let's try it using x to represent Michael's current age.  What would the equation be in this case?",
+      "learner_turn": "To solve this problem, The oldest brother is 15 because 3 x 5 = 15\nMichael is 8 because if 1 + (Michael. The answer is The oldest brother i.",
+      "input_tokens": 30,
+      "output_tokens": 30,
+      "latency_ms": 727.9138068270721,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Write an equation relating Michael's age (x)  to his older brother who is 15.",
+      "learner_turn": "To solve this problem, The oldest brother is 15 because 3 x 5 = 15\nMichael is 8 because if 1 + (Michael. The answer is The oldest brother i.",
+      "input_tokens": 26,
+      "output_tokens": 30,
+      "latency_ms": 785.5245616642997,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)How would you represent Michael's age (x) when he was 1 year younger as an equation?",
+      "learner_turn": "To solve this problem, The oldest brother is 15 because 3 x 5 = 15\nMichael is 8 because if 1 + (Michael. The answer is The oldest brother i.",
+      "input_tokens": 28,
+      "output_tokens": 30,
+      "latency_ms": 542.23122850931,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Correct. How would you represent twice that age (x-1) in an equation?",
+      "learner_turn": "To solve this problem, The oldest brother is 15 because 3 x 5 = 15\nMichael is 8 because if 1 + (Michael. The answer is The oldest brother i.",
+      "input_tokens": 24,
+      "output_tokens": 30,
+      "latency_ms": 364.0539451666752,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Now how would you represent 1 year older than 2(x-1) as an equation?",
+      "learner_turn": "To solve this problem, The oldest brother is 15 because 3 x 5 = 15\nMichael is 8 because if 1 + (Michael. The answer is The oldest brother i.",
+      "input_tokens": 25,
+      "output_tokens": 30,
+      "latency_ms": 683.6332819773968,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)Correct, so 2(x-1)+1 =15. (You said Michael's older brother is 15).  Solve the equation for x which is Michael's age.",
+      "learner_turn": "To solve this problem, The oldest brother is 15 because 3 x 5 = 15\nMichael is 8 because if 1 + (Michael. The answer is The oldest brother i.",
+      "input_tokens": 32,
+      "output_tokens": 30,
+      "latency_ms": 276.0395278939611,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)Show me how you expanded the equation 2(x-1)+1=15",
+      "learner_turn": "To solve this problem, The oldest brother is 15 because 3 x 5 = 15\nMichael is 8 because if 1 + (Michael. The answer is The oldest brother i.",
+      "input_tokens": 20,
+      "output_tokens": 30,
+      "latency_ms": 203.06144722780152,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(generic)Correct, you calculated the correct ages 5, 7, 15, and the combined ages of 30.  Good Work!",
+      "learner_turn": "To solve this problem, The oldest brother is 15 because 3 x 5 = 15\nMichael is 8 because if 1 + (Michael. The answer is The oldest brother i.",
+      "input_tokens": 29,
+      "output_tokens": 30,
+      "latency_ms": 615.4086515407287,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nMichael has two brothers. His oldest brother is 1.5 year older than twice Michael's age when Michael was a year younger. His younger brother is 7.3 years old, which is a third of the age of the older brother. What is their combined age?",
+      "learner_turn": "The answer to that problem would be 35.",
+      "input_tokens": 73,
+      "output_tokens": 8,
+      "latency_ms": 773.0978314191324,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

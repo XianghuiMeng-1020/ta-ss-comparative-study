@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_0725",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.100881",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1569,
+  "total_output_tokens": 145,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nDue to a drought, Jerry's household can only use 1000 gallons of water during July. Jerry uses 100 gallons for drinking and cooking and 20 gallons per shower. He wants to fill his pool, which measures 10 feet by 10 feet by 6 feet. If each gallon of water fills 1 cubic foot of the pool, how many showers can Jerry take in July?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nThe pool measures 10 x 10 x 6 = 600 cubic feet.\nSo, Jerry needs 600 gallons of water to fill his pool.\nHe already uses 100 gallons for drinking and cooking, so he has 1000 - 100 = 900 gallons left.\nEach shower uses 20 gallons of water, so Jerry can take 900/20 = 45 showers in July.\n 45\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)can you walk me through your solution stepwise?",
+      "learner_turn": "So I tried this problem. My approach was: The pool measures 10 x 10 x 6 = 600 cubic feet.\nSo, Jerry needs 600 gallons of w. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 366,
+      "output_tokens": 40,
+      "latency_ms": 630.3755398449844,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)well done for calculating the volume of the pool correctly. and you have correctly understood that you need to subtract the 100 gallons required for drinking and cooking. but have you accounted for the water that is to be used to fill the 600 cubic feet pool?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Oh, right! I forgot to subtract the 600 gallons from the 900. So the answer is 31?",
+      "input_tokens": 405,
+      "output_tokens": 29,
+      "latency_ms": 376.4626514279337,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)genius!!!!",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 4? Let me redo: Sure. First, I calculated the volume of the pool by multiply",
+      "input_tokens": 359,
+      "output_tokens": 29,
+      "latency_ms": 602.0074467105328,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nDue to a drought, Jerry's household can only use 1498.1 gallons of water during July. Jerry uses 144.5 gallons for drinking and cooking and 27.4 gallons per shower. He wants to fill his pool, which measures 12.3 feet by 15.0 feet by 8.7 feet. If each gallon of water fills 1.4 cubic foot of the pool, how many showers can Jerry take in July?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Due to a drought, Jerry's household can only use 1... I get approximately 49 as my answer. Does that seem right?",
+      "input_tokens": 439,
+      "output_tokens": 47,
+      "latency_ms": 477.8469281416464,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

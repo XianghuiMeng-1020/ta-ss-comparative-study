@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0407",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.043982",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 281,
+  "total_output_tokens": 249,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Hi Luca, this is basically correct except you have calculated the cost of teh 12 months of food incorrectly. Have a read of the problem again and see if you can spot the error...",
+      "learner_turn": "Oh, I see. I forgot to multiply the monthly cost of food by 12 months, so it should be 25 x 12 = $300. So the total cost",
+      "input_tokens": 43,
+      "output_tokens": 28,
+      "latency_ms": 747.3938208295694,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Which items do the two women pay for half & half?",
+      "learner_turn": "The two women pay for half of the adoption fee and half of the vet visits. They each pay for their own toys.",
+      "input_tokens": 20,
+      "output_tokens": 23,
+      "latency_ms": 418.6783474467014,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)And the cat food...",
+      "learner_turn": "The two women split the cost of the cat food, so each person pays for half of the monthly cost of food, which is 25 x 12",
+      "input_tokens": 13,
+      "output_tokens": 27,
+      "latency_ms": 366.62031880686027,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Isn't $300 the total...",
+      "learner_turn": "Yes, the total cost of the cat food for the first year is $300. So the total cost of the cat in the first year is 25+250",
+      "input_tokens": 13,
+      "output_tokens": 27,
+      "latency_ms": 397.9044028506604,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)But aren't they splitting it...",
+      "learner_turn": "Yes, they are splitting the cost of the cat food, so each person pays for half of the monthly cost of food, which is 25 ",
+      "input_tokens": 14,
+      "output_tokens": 25,
+      "latency_ms": 267.09799345327826,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Is half of $300,$300?",
+      "learner_turn": "Yes, half of $300 is $300. The two women split the cost of the cat food, so each person pays for half of the monthly cos",
+      "input_tokens": 13,
+      "output_tokens": 26,
+      "latency_ms": 634.2452669803602,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)What is half of 10?",
+      "learner_turn": "Half of 10 is 5.",
+      "input_tokens": 14,
+      "output_tokens": 5,
+      "latency_ms": 755.6716019823226,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)So what is half of $300?",
+      "learner_turn": "Half of $300 is $150. The two women split the cost of the cat food, so each person pays for half of the monthly cost of ",
+      "input_tokens": 15,
+      "output_tokens": 26,
+      "latency_ms": 538.2439149532852,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(probing)Isn't paying half for half the cat food like paying for 6 months of catfood each?",
+      "learner_turn": "Yes, paying half of the cat food is like paying for 6 months of cat food each. The two women split the cost of the cat f",
+      "input_tokens": 25,
+      "output_tokens": 27,
+      "latency_ms": 532.6756354927356,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(probing)Half of $300 is not $300...",
+      "learner_turn": "No, you're right. Half of $300 is $150. The two women split the cost of the cat food, so each person pays for half of th",
+      "input_tokens": 15,
+      "output_tokens": 26,
+      "latency_ms": 705.553981375357,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJenny decided to get a cat with her girlfriend.  They agreed to split all the costs down the middle except for they would each buy their own toys for the cat.  The adoption fee was $69.7, the vet visits cost $609.6 for the first year and the monthly cost of food was $31.2.  She bought $273.8 in toys.  How much did Jenny spend on the cat in the first year?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 96,
+      "output_tokens": 9,
+      "latency_ms": 620.716557322676,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

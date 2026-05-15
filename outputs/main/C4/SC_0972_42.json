@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_0972",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.152112",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 228,
+  "total_output_tokens": 163,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)how did we get 7.5?",
+      "learner_turn": "To solve this problem, Jerry has to walk to the sink/recycling bin 28 cans / 4 cans per trip = 7 trips\n. The answer is Jerry has to walk to.",
+      "input_tokens": 17,
+      "output_tokens": 31,
+      "latency_ms": 673.9715254476614,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)how many times does he need to walk to the sink?",
+      "learner_turn": "To solve this problem, Jerry has to walk to the sink/recycling bin 28 cans / 4 cans per trip = 7 trips\n. The answer is Jerry has to walk to.",
+      "input_tokens": 23,
+      "output_tokens": 31,
+      "latency_ms": 384.63571936505514,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)if he has 28 cans and each time brings 4, how many trip is that?",
+      "learner_turn": "To solve this problem, Jerry has to walk to the sink/recycling bin 28 cans / 4 cans per trip = 7 trips\n. The answer is Jerry has to walk to.",
+      "input_tokens": 27,
+      "output_tokens": 31,
+      "latency_ms": 506.3801754382732,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)and how long does 7 trips take?",
+      "learner_turn": "To solve this problem, Jerry has to walk to the sink/recycling bin 28 cans / 4 cans per trip = 7 trips\n. The answer is Jerry has to walk to.",
+      "input_tokens": 19,
+      "output_tokens": 31,
+      "latency_ms": 513.2231605586453,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)20 seconds is good, but then he needs another 30 seconds per trip so that gives what?",
+      "learner_turn": "To solve this problem, Jerry has to walk to the sink/recycling bin 28 cans / 4 cans per trip = 7 trips\n. The answer is Jerry has to walk to.",
+      "input_tokens": 29,
+      "output_tokens": 31,
+      "latency_ms": 585.5345995992768,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJerry has a bunch of half-empty soda cans on his desk. He needs to drain all of them and put them in the recycling bin. He can carry four cans at once, and it takes him 43.8 seconds to drain those 5.2 cans. It takes him ten seconds each way to walk to the sink and recycling bin and then back to his desk. If there are 40.7 cans on Jerry's desk, how long does it take him to throw all of them away?",
+      "learner_turn": "The answer to that problem would be 30.",
+      "input_tokens": 113,
+      "output_tokens": 8,
+      "latency_ms": 473.6969332170214,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

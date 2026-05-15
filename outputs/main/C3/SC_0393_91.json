@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_0393",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.033733",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 310,
+  "total_output_tokens": 188,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi , could you please walk me through your solution?",
+      "learner_turn": "Sure. Initially, the cell phone was empty and was charged for 45 minutes, so it reached a 25% charge. To reach 100% char",
+      "input_tokens": 19,
+      "output_tokens": 23,
+      "latency_ms": 283.23549027210527,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)can you explain how you reached the conclusion that every 15 minutes of charging adds 25% charge/",
+      "learner_turn": "Yes, I divided the 75% charge that was needed to reach 100% by the 45 minutes of charging that was done. This gave me a ",
+      "input_tokens": 26,
+      "output_tokens": 25,
+      "latency_ms": 778.6535617555124,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)lets consider this example. you took 15 minutes to complete 20% of a task. how much more time would you need to complete the task?",
+      "learner_turn": "To complete the task, I would need 5 more minutes, since 20% of the task was completed in 15 minutes, so 100% of the tas",
+      "input_tokens": 34,
+      "output_tokens": 25,
+      "latency_ms": 202.30736088784326,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)so you mean that you would need 75 minutes to complete 100% of the task?",
+      "learner_turn": "Yes, that is correct. I would need 75 minutes to complete 100% of the task.",
+      "input_tokens": 24,
+      "output_tokens": 15,
+      "latency_ms": 632.4130906488751,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)and since you have completed 20% in the first 15 minutes therefore it would take you 75-15=60 minutes more to complete the task?",
+      "learner_turn": "Yes, that is correct. It would take me 60 minutes more to complete the task.",
+      "input_tokens": 32,
+      "output_tokens": 15,
+      "latency_ms": 638.5704677272661,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)can you use the same method to figure out how much more time will be required for the cell phone to be charged to 100 %?",
+      "learner_turn": "Yes, I can use the same method. Since the cell phone was initially empty and was charged for 45 minutes, it reached a 25",
+      "input_tokens": 35,
+      "output_tokens": 24,
+      "latency_ms": 251.32603834279232,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)recall the example that we solved. if it takes 45 minutes to reach 25% of charge, how much time would it take to reach 100 % charge?",
+      "learner_turn": "Since it took 45 minutes to reach 25% of charge, it would take 180 minutes (45 x 4) to reach 100% charge.",
+      "input_tokens": 36,
+      "output_tokens": 22,
+      "latency_ms": 718.0087385523428,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)very well. now How much longer must the cell phone be charged to reach 100% charge?",
+      "learner_turn": "The cell phone needs to be charged for an additional 15 minutes to reach 100% charge.",
+      "input_tokens": 25,
+      "output_tokens": 16,
+      "latency_ms": 558.2178705944953,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)no. it would take 180-25=135 minutes more to reach 100 % charge.",
+      "learner_turn": "Oh, I see. Yes, it would take 135 minutes more to reach 100% charge.",
+      "input_tokens": 21,
+      "output_tokens": 14,
+      "latency_ms": 750.6286590111082,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nNick's cell phone was initially empty but was then charged for 63.1 minutes and has reached a 33.2% charge. How much longer must the cell phone be charged to reach 149.8% charge?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 58,
+      "output_tokens": 9,
+      "latency_ms": 774.3885781713905,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

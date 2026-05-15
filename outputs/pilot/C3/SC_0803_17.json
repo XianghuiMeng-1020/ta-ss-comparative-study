@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_0803",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.034085",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 126,
+  "total_output_tokens": 32,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)How tall was the tree at the start?",
+      "learner_turn": "The tree was 16 inches tall at the start.",
+      "input_tokens": 17,
+      "output_tokens": 9,
+      "latency_ms": 403.90731819569436,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)That's right, and it grew by how much?",
+      "learner_turn": "The tree grew by 24 inches.",
+      "input_tokens": 17,
+      "output_tokens": 6,
+      "latency_ms": 477.0350460783902,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)good so it ended up how tall?",
+      "learner_turn": "The tree ended up being 48 inches tall.",
+      "input_tokens": 16,
+      "output_tokens": 8,
+      "latency_ms": 209.3049218389595,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA mother planted a 23.1-inch tree on her son's first birthday.  On the day the tree was planted, the boy was 31.1 inches tall.  If the tree grows twice as fast as the boy does, how tall will the tree be by the time the boy is 48.2 inches tall?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 76,
+      "output_tokens": 9,
+      "latency_ms": 680.1025865989548,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

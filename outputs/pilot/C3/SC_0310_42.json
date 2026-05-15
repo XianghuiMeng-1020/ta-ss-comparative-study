@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_0310",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.018149",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 136,
+  "total_output_tokens": 66,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jordy, could you please walk me through your solution?",
+      "learner_turn": "Sure. I started by calculating 25% of 32 students, which is 0.25 x 32 = 8 students. Then, I subtracted 8 from 32 to get ",
+      "input_tokens": 19,
+      "output_tokens": 25,
+      "latency_ms": 529.998984263857,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)But you already subtracted 8 once. Why are you subtracting again in the final step?",
+      "learner_turn": "Oh, right. I was subtracting 8 twice. I should have just subtracted 6 from 24 to get 10 students who failed.",
+      "input_tokens": 24,
+      "output_tokens": 21,
+      "latency_ms": 352.5451282525204,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Subtract 6 from 24. Is it 10?",
+      "learner_turn": "Yes, it is 10.",
+      "input_tokens": 16,
+      "output_tokens": 4,
+      "latency_ms": 381.53077264764266,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)No. it is 24-6=18",
+      "learner_turn": "Oh, I see. So, 18 students failed.",
+      "input_tokens": 13,
+      "output_tokens": 7,
+      "latency_ms": 776.5524799372533,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThere are 40.6 students in a statistics course.  34.5 percent of the class received an A.  1.3/5.3 of the remaining students got either a B or C, and the rest of the students failed.  How many students failed?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 64,
+      "output_tokens": 9,
+      "latency_ms": 706.1348326967998,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

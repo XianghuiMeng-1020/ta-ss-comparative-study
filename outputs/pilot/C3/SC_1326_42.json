@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1326",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.077023",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 192,
+  "total_output_tokens": 109,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(telling)walk me through your solution",
+      "learner_turn": "I started by figuring out how much the 45 minutes of charging had added to the charge of the cell phone. I knew that eve",
+      "input_tokens": 14,
+      "output_tokens": 25,
+      "latency_ms": 554.071183297345,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(telling)The ratio between the time charged and the time to be charged is 100 / 25 = 4.\nTo reach 100%, the cell must be charged for 45 minutes * 4 = 180 minutes.",
+      "learner_turn": "Oh, I see now! So, the 45 minutes of charging had only added 75% to the charge of the cell phone. To reach 100%, the cel",
+      "input_tokens": 43,
+      "output_tokens": 26,
+      "latency_ms": 403.2491954178831,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)he ratio between the time charged and the time to be charged is 100 / 25 = 4.\nTo reach 100%, the cell must be charged for 45 minutes * 4 = 180 minutes.",
+      "learner_turn": "Ah, I understand now. So, the 45 minutes of charging had only added 75% to the charge of the cell phone. To reach 100%, ",
+      "input_tokens": 43,
+      "output_tokens": 24,
+      "latency_ms": 672.1383958790202,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)Subtracting the 45 minutes that Jimmy already used to charge the cell phone, there are still 180 - 45 =135 minutes of charging time left.",
+      "learner_turn": "I started by figuring out how much the 45 minutes of charging had added to the charge of the cell phone. I knew that eve",
+      "input_tokens": 34,
+      "output_tokens": 25,
+      "latency_ms": 432.61302363415837,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nNick's cell phone was initially empty but was then charged for 60.5 minutes and has reached a 34.4% charge. How much longer must the cell phone be charged to reach 120.8% charge?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 58,
+      "output_tokens": 9,
+      "latency_ms": 364.95499925125046,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1340",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.230807",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1612,
+  "total_output_tokens": 103,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nThis weekend's football game matched the Seattle Seahawks with the Denver Broncos. The final score was 37-23, with the Seattle Seahawks taking the win. If a touchdown is worth 7 points and a field goal is worth 3 points, how many touchdowns did the Seattle Seahawks score if they scored 3 field goals during the game?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nCody is a 7th grade student. He has problem with understanding of underlying ideas and principles and a recognition of when to apply them.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student used the wrong final score of 23, not the actual final Seahawk score of 37\n\nYOUR INITIAL INCORRECT ATTEMPT:\nThe Seattle Seahawks scored 23 points in total, and they scored 3 field goals, which is 3 x 3 = 9 points from field goals.\nTo find out how many points they scored from touchdowns, we can subtract the points from field goals from the total points: 23 - 9 = 14.\nSince a touchdown is worth 7 points, the Seattle Seahawks scored 14/7 = 2 touchdowns.\n 2\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Cody, can you tell me how you got your answer?",
+      "learner_turn": "The Seattle Seahawks scored 23 points in total, and they scored 3 field goals, which is 3 x 3 = 9 po I used this approach because The student used the wrong final score of 23, not the actual.",
+      "input_tokens": 388,
+      "output_tokens": 39,
+      "latency_ms": 478.37171595584414,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)What was the total number of points the Seahawks scored?",
+      "learner_turn": "Okay, but I still think The Seahawks scored 23 points in total.. Maybe the answer is 31?",
+      "input_tokens": 387,
+      "output_tokens": 17,
+      "latency_ms": 272.15075097992894,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)But the final score was 37-23, and the Seahawks won.",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. The Seahawks scored 37 points and the Broncos sco. Does that mean the answer is 19?",
+      "input_tokens": 387,
+      "output_tokens": 28,
+      "latency_ms": 252.29564225346562,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThis weekend's football game matched the Seattle Seahawks with the Denver Broncos. The final score was 48.2-32.9, with the Seattle Seahawks taking the win. If a touchdown is worth 8.6 points and a field goal is worth 4.0 points, how many touchdowns did the Seattle Seahawks score if they scored 3.6 field goals during the game?",
+      "learner_turn": "Hmm, let me try. The student used the wrong final score o I think the answer might be 20.",
+      "input_tokens": 450,
+      "output_tokens": 19,
+      "latency_ms": 786.3333679904322,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

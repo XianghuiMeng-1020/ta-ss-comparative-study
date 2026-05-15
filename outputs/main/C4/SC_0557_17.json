@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_0557",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.077698",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 168,
+  "total_output_tokens": 95,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Scott, can you walk me through your solution?",
+      "learner_turn": "To solve this problem, Dorothy paid $12 for 3 gold coins so each gold coin is worth $12/3 = $4\nThe Tave. The answer is Dorothy paid $12 for.",
+      "input_tokens": 21,
+      "output_tokens": 29,
+      "latency_ms": 529.7892871978718,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Wow. That seems like a lot! let's start from the beginning- if Dorothy paid $12 for 3 gold coins, how would we calculate what 1 gold coin is worth?",
+      "learner_turn": "To solve this problem, Dorothy paid $12 for 3 gold coins so each gold coin is worth $12/3 = $4\nThe Tave. The answer is Dorothy paid $12 for.",
+      "input_tokens": 41,
+      "output_tokens": 29,
+      "latency_ms": 210.0751978966781,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)I've just realised there is a mistake in the question. Dorothy paid him $8 for three coins as the question said he has $12 left. That makes the correct solution provided to me wrong.",
+      "learner_turn": "To solve this problem, Dorothy paid $12 for 3 gold coins so each gold coin is worth $12/3 = $4\nThe Tave. The answer is Dorothy paid $12 for.",
+      "input_tokens": 46,
+      "output_tokens": 29,
+      "latency_ms": 507.58893070646576,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nRoman the Tavernmaster has $24.9 worth of gold coins. He sells 3.9 gold coins to Dorothy. After she pays him, he has $15.9. How many gold coins does Roman have left?",
+      "learner_turn": "The answer to that problem would be 24.",
+      "input_tokens": 60,
+      "output_tokens": 8,
+      "latency_ms": 607.8234857508764,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

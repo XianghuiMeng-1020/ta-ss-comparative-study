@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1340",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.231863",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 152,
+  "total_output_tokens": 83,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Cody, can you tell me how you got your answer?",
+      "learner_turn": "To solve this problem, The Seattle Seahawks scored 3 field goals during the length of the game and each. The answer is The Seattle Seahawks.",
+      "input_tokens": 23,
+      "output_tokens": 25,
+      "latency_ms": 404.3391458160906,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)What was the total number of points the Seahawks scored?",
+      "learner_turn": "To solve this problem, The Seattle Seahawks scored 3 field goals during the length of the game and each. The answer is The Seattle Seahawks.",
+      "input_tokens": 22,
+      "output_tokens": 25,
+      "latency_ms": 508.0643281502536,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)But the final score was 37-23, and the Seahawks won.",
+      "learner_turn": "To solve this problem, The Seattle Seahawks scored 3 field goals during the length of the game and each. The answer is The Seattle Seahawks.",
+      "input_tokens": 22,
+      "output_tokens": 25,
+      "latency_ms": 219.8776344763318,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThis weekend's football game matched the Seattle Seahawks with the Denver Broncos. The final score was 48.2-32.9, with the Seattle Seahawks taking the win. If a touchdown is worth 8.6 points and a field goal is worth 4.0 points, how many touchdowns did the Seattle Seahawks score if they scored 3.6 field goals during the game?",
+      "learner_turn": "The answer to that problem would be 31.",
+      "input_tokens": 85,
+      "output_tokens": 8,
+      "latency_ms": 420.63616249153404,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

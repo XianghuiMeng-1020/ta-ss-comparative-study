@@ -1,0 +1,162 @@
+{
+  "scenario_id": "SC_2241",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.160653",
+  "n_tutor_turns": 14,
+  "n_learner_turns": 14,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 5477,
+  "total_output_tokens": 432,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nHalf of Taylor's house guests like weak coffee and the other half like strong coffee in the morning.  Taylor uses 1 tablespoon of coffee per cup of water to make it weak and he doubles that amount to make it strong.  If he makes 12 cups of both weak and strong coffee, how many tablespoons of coffee will he need?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nTaylor needs 12/2 = 6 cups of weak coffee.\nHe also needs 12/2 = 6 cups of strong coffee.\nTo make weak coffee, he needs 1 tablespoon per cup, so for 6 cups, he needs 1 x 6 = 6 tablespoons.\nTo make strong coffee, he needs 2 tablespoons per cup, so for 6 cups, he needs 2 x 6 = 12 tablespoons.\nIn total, he needs 6 + 12 = 18 tablespoons of coffee.\n 18\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Emily, please could you talk me through your solution?",
+      "learner_turn": "So I tried this problem. My approach was: Taylor needs 12/2 = 6 cups of weak coffee.\nHe also needs 12/2 = 6 cups of strong. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 380,
+      "output_tokens": 39,
+      "latency_ms": 722.1686300342215,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)If I made some coffee, one with one sugar and one with two sugars, which would be the sweetest?",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 8? Let me redo: The one with two sugars would be the sweetest because it has",
+      "input_tokens": 389,
+      "output_tokens": 30,
+      "latency_ms": 440.5947286230521,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)If I made two coffees each with one sugar, which would be the sweetest?",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 10? Let me redo: Both coffees would be equally sweet since they both have the",
+      "input_tokens": 384,
+      "output_tokens": 29,
+      "latency_ms": 716.5192216294297,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)That's correct so let's get back to Taylor. For a weak coffee Taylor uses how many spoons of coffee?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: For a weak coffee, Taylor needs 1 tablespoon per cup, so for. So the answer is 36?",
+      "input_tokens": 389,
+      "output_tokens": 29,
+      "latency_ms": 312.86487638892265,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Yes and how many does he need to make according to the question?",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 2? Let me redo: He needs 6 tablespoons of coffee to make weak coffee and 12 ",
+      "input_tokens": 383,
+      "output_tokens": 30,
+      "latency_ms": 760.0303520158328,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)Read the question carefully. How many cups of coffee is Taylor making?",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 1? Let me redo: Taylor is making 12 cups of both weak and strong coffee.",
+      "input_tokens": 382,
+      "output_tokens": 29,
+      "latency_ms": 412.5537290384532,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)That's correct 12 weak cups and 12 strong cups. So how many altogether?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Taylor needs 12 cups of weak coffee and 12 cups of strong co. So the answer is 42?",
+      "input_tokens": 383,
+      "output_tokens": 30,
+      "latency_ms": 635.3886641087956,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)Correct so can you review your answer for me please?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Taylor needs 6 tablespoons of coffee to make weak coffee and. So the answer is 21?",
+      "input_tokens": 380,
+      "output_tokens": 28,
+      "latency_ms": 696.0190850226254,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)Can you explain why you think Taylor needs 6 tablespoons of coffee to make 12 weak coffees?",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 10? Let me redo: Taylor needs 1 tablespoon of coffee per cup of water to make",
+      "input_tokens": 387,
+      "output_tokens": 30,
+      "latency_ms": 784.4490149402823,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)The question doesn't mention teaspoons so please just focus on tablespoons. Taylor needs 2 tablespoons of coffee to make one weak coffee.",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 6? Let me redo: That's correct, Taylor needs 2 tablespoons of coffee to make",
+      "input_tokens": 392,
+      "output_tokens": 28,
+      "latency_ms": 340.644983239323,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(focus)Let's start again as I think we are confused. I tablespoon of coffee makes one weak coffee. For 12 weak coffees I need... tablespoons for coffee?",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 7? Let me redo: For 12 weak coffees, Taylor needs 12 tablespoons of coffee, ",
+      "input_tokens": 396,
+      "output_tokens": 28,
+      "latency_ms": 609.5179174981063,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(telling)No, Taylor needs 12 tablespoons for coffee for 12 weak coffees. For weak coffee there is a 1:1 correspondence e.g. 1 tablespoon = one weak coffee. For strong coffee there is a 2:1 correspondence e.g. 2 tablespoons = one strong coffee.",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 3? Let me redo: That's correct. For 12 weak coffees, Taylor needs 12 tablesp",
+      "input_tokens": 411,
+      "output_tokens": 28,
+      "latency_ms": 227.77266976341195,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(generic)That's correct, well done.",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Sure. To make weak coffee, Taylor needs 1 tablespoon per cup. So the answer is 32?",
+      "input_tokens": 374,
+      "output_tokens": 28,
+      "latency_ms": 487.614217217163,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nHalf of Taylor's house guests like weak coffee and the other half like strong coffee in the morning.  Taylor uses 1.4 tablespoon of coffee per cup of water to make it weak and he doubles that amount to make it strong.  If he makes 15.6 cups of both weak and strong coffee, how many tablespoons of coffee will he need?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Half of Taylor's house guests like weak coffee and... I get approximately 6 as my answer. Does that seem right?",
+      "input_tokens": 447,
+      "output_tokens": 46,
+      "latency_ms": 588.5737149352243,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

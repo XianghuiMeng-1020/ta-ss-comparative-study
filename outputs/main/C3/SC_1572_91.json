@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1572",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.288121",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 148,
+  "total_output_tokens": 79,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, tell me your thoughts",
+      "learner_turn": "I think my answer is correct. I used a calculator to make sure I didn't make any calculation errors.",
+      "input_tokens": 14,
+      "output_tokens": 19,
+      "latency_ms": 527.0938604041285,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)ok, explain how you got there",
+      "learner_turn": "I figured out that Jaco would spend $72 on gifts for his 8 friends, and then $18 on gifts for his mother and father. The",
+      "input_tokens": 15,
+      "output_tokens": 25,
+      "latency_ms": 304.0700646733187,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Youre right that he spent 72$ on his friends. You need to subtract this ffrom the inital 100 to find out how much he has to spend on his parents",
+      "learner_turn": "Oh, I see. So I should have subtracted $72 from the initial $100 budget to find out how much he has to spend on his pare",
+      "input_tokens": 39,
+      "output_tokens": 26,
+      "latency_ms": 274.5037076123317,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJaco wants to buy Christmas gifts for his 9.8 friends that are worth $12.7 each.  Also, he wants to buy gifts for his mother and father that are of the same amount. He has a $144.1 budget to buy all gifts. How much is Jaco's budget for each of his mother and father's gift?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 80,
+      "output_tokens": 9,
+      "latency_ms": 387.10032433075463,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

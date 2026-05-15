@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1994",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.356469",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3838,
+  "total_output_tokens": 242,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nA group of six friends planned to buy a car. The cost of the car is $1700 and they plan to share the cost equally. They had a car wash to help raise funds, which would be taken out of the total cost. The remaining cost would be split between the six friends. At the car wash, they earn $500. However, Brad decided not to join in the purchase of the car. How much more does each friend have to pay now that Brad isn't participating?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nAlejandra is a 7th grade student. She struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nShe thought that each student would be paying $200 more so was multiplying it rather than dividing.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nThe cost of the car after the car wash is $1700 - $500 = $1200.\nThe cost per friend would have been $1200 / 6 = $200.\nWithout Brad, there are only 5 friends left to split the cost, so each friend now has to pay $200 x 5 = $1000.\nEach friend now has to pay $1000 - $200 = $800 more than they would have if Brad had participated.\n 800\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi. Can you talk me through your answer?",
+      "learner_turn": "The cost of the car after the car wash is $1700 - $500 = $1200.\nThe cost per friend would have been  I used this approach because She thought that each student would be paying $200 more so w.",
+      "input_tokens": 414,
+      "output_tokens": 39,
+      "latency_ms": 775.0480231408666,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)So Brad's share was what?",
+      "learner_turn": "Okay, but I still think Brad's share would have been $200.. Maybe the answer is 50?",
+      "input_tokens": 411,
+      "output_tokens": 16,
+      "latency_ms": 788.4135566557675,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Ok so everyone is paying $200 but without Brad they are $200 short.",
+      "learner_turn": "I think I see — so instead I should... Yes, that's correct. Without Brad, the five friends are left. Does that mean the answer is 15?",
+      "input_tokens": 419,
+      "output_tokens": 26,
+      "latency_ms": 741.7220278110598,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Do they each need to pay the full share of Brad",
+      "learner_turn": "I think I see — so instead I should... Yes, they each need to pay the full share of Brad, which is . Does that mean the answer is 47?",
+      "input_tokens": 417,
+      "output_tokens": 30,
+      "latency_ms": 430.2265613731961,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)So if each is paying $800.  That would be 800x5",
+      "learner_turn": "I think I see — so instead I should... Yes, that's correct. The total amount that the five friends . Does that mean the answer is 39?",
+      "input_tokens": 416,
+      "output_tokens": 27,
+      "latency_ms": 778.4448040757978,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Is the car $4000?",
+      "learner_turn": "I think I see — so instead I should... No, the car is still $1700. The $4000 is the total amount th. Does that mean the answer is 18?",
+      "input_tokens": 410,
+      "output_tokens": 29,
+      "latency_ms": 564.8874703908609,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)You correctly identified that each share would be $200 with Brad.  If Brad doesn't pay then they are $200 short.  What is $200 shared between 5 people",
+      "learner_turn": "I think I see — so instead I should... $200 shared between 5 people would be $200 divided by 5, whi. Does that mean the answer is 21?",
+      "input_tokens": 433,
+      "output_tokens": 28,
+      "latency_ms": 648.2456342262715,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)Great.  Well done!",
+      "learner_turn": "I think I see — so instead I should... Sure. I started by calculating the cost per friend if Brad p. Does that mean the answer is 36?",
+      "input_tokens": 409,
+      "output_tokens": 28,
+      "latency_ms": 283.3626616137154,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA group of six friends planned to buy a car. The cost of the car is $2399.8 and they plan to share the cost equally. They had a car wash to help raise funds, which would be taken out of the total cost. The remaining cost would be split between the six friends. At the car wash, they earn $644.0. However, Brad decided not to join in the purchase of the car. How much more does each friend have to pay now that Brad isn't participating?",
+      "learner_turn": "Hmm, let me try. She thought that each student would be p I think the answer might be 36.",
+      "input_tokens": 509,
+      "output_tokens": 19,
+      "latency_ms": 549.8289813603135,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

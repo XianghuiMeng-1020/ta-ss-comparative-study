@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1993",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.353410",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 180,
+  "total_output_tokens": 128,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Seth.  Walk me through your solution please?",
+      "learner_turn": "Sure. Jeff started with 20 cats. He found 2 more kittens on Monday, so he now has 20 + 2 = 22 cats. He found 1 injured c",
+      "input_tokens": 17,
+      "output_tokens": 28,
+      "latency_ms": 437.7458852376603,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Can you explain each number in Wednesday please?  What do they represent?",
+      "learner_turn": "Sure. The 3 represents the number of people who adopted cats, the 2 represents the number of cats each person adopted, a",
+      "input_tokens": 21,
+      "output_tokens": 22,
+      "latency_ms": 728.8203368067218,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)So 3 people adopted 12 cats on Wednesday.  How many cats each would they have?",
+      "learner_turn": "Each person would have adopted 2 cats, so 3 people x 2 cats each = 6 cats.",
+      "input_tokens": 24,
+      "output_tokens": 17,
+      "latency_ms": 482.5796705777713,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(generic)Great.  So if 6 cats were adopted.  How many were left at the shelter?",
+      "learner_turn": "Jeff started with 20 cats, found 2 more on Monday, 1 more on Tuesday, and had 6 cats adopted on Wednesday. So the total ",
+      "input_tokens": 23,
+      "output_tokens": 24,
+      "latency_ms": 399.0308288885383,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)Great work.  Well done!",
+      "learner_turn": "Sure. Jeff started with 20 cats. He found 2 more kittens on Monday, so he now has 20 + 2 = 22 cats. He found 1 injured c",
+      "input_tokens": 13,
+      "output_tokens": 28,
+      "latency_ms": 694.6134990171302,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJeff has a shelter where he currently takes care of 26.1 cats. On Monday he found 2.6 kittens in a box and took them to the shelter. On Tuesday he found 1.3 more cat with a leg injury. On Wednesday 3.9 people adopted 2.9 cats each. How many cats does Jeff currently have in his shelter?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 82,
+      "output_tokens": 9,
+      "latency_ms": 469.9213307237589,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

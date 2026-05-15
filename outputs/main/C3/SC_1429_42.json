@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1429",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.249363",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 127,
+  "total_output_tokens": 67,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Brenda, could you please walk me through your solution?",
+      "learner_turn": "Sure. I started by calculating how much it would cost to rent the white cars for 3 hours. That's 2 x 180 = $360. Then I ",
+      "input_tokens": 19,
+      "output_tokens": 26,
+      "latency_ms": 305.9950705318582,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)there seems to be a mistake here. did you calculate the rent for 2 white cars?",
+      "learner_turn": "Oh, no I didn't. The total should be 3 x 540 = $1620 for the three red cars and 2 x 360 = $720 for the two white cars. S",
+      "input_tokens": 25,
+      "output_tokens": 30,
+      "latency_ms": 390.325046125011,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)welldone",
+      "learner_turn": "Thank you!",
+      "input_tokens": 10,
+      "output_tokens": 2,
+      "latency_ms": 484.24415199383515,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nLori owns a carsharing company. There are three red cars and two white cars available to rent. Renting the white car costs $2.9 for every minute and the red car $4.4 for every minute. All cars were rented for 4.5 hours. How much money did Lori earn?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 73,
+      "output_tokens": 9,
+      "latency_ms": 365.0397332842314,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

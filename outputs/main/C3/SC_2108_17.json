@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_2108",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.369165",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 154,
+  "total_output_tokens": 82,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jordy, can you please explain your work to me?",
+      "learner_turn": "Sure, I divided 18 by 1.5 because that is the amount the price is increased by (50%). That gave me the regular price of ",
+      "input_tokens": 19,
+      "output_tokens": 24,
+      "latency_ms": 704.8905815974729,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)I see you used 150% of the regular price. The question says he pays 50% more. So we need to determine how much 50% of the weekly price of $18 is.",
+      "learner_turn": "Oh, I see. 50% of $18 is $9, so he would have paid $18 + $9 = $27 for the same haircut on the weekend.",
+      "input_tokens": 40,
+      "output_tokens": 25,
+      "latency_ms": 565.4195957957877,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)Yes, 50% is $9. So I see you added that to the price he paid on Monday to determine the same haircut on a weekend to be $27. Great job.",
+      "learner_turn": "Sure, I divided 18 by 1.5 because that is the amount the price is increased by (50%). That gave me the regular price of ",
+      "input_tokens": 39,
+      "output_tokens": 24,
+      "latency_ms": 388.5997146809892,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAt Mario's barbershop haircuts are 70.9% more expensive during the weekends. If Mario paid $27.0 for his last haircut on Monday, how much he would have paid the day before?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 56,
+      "output_tokens": 9,
+      "latency_ms": 618.6457673887714,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

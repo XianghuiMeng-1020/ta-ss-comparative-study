@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_0292",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.017773",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 333,
+  "total_output_tokens": 192,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, could you please walk me through your solution?",
+      "learner_turn": "Sure. First, I subtracted the amount of concrete used for the first anchor from the total amount of concrete needed for ",
+      "input_tokens": 18,
+      "output_tokens": 21,
+      "latency_ms": 641.4051017985648,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Do you agree to the fact that the question mentions the two anchors need the same amount of concrete?",
+      "learner_turn": "Yes, I agree that the question mentions the two anchors need the same amount of concrete. That is why I subtracted the a",
+      "input_tokens": 28,
+      "output_tokens": 23,
+      "latency_ms": 621.707781271167,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)But that doesn't give you the same amount. According to you the second anchor needs 900 tons whereas the first needs 700 tons. How is this making sense? Do you see you made a mistake by subtracting 700 from 1600?",
+      "learner_turn": "Yes, I see that I made a mistake by subtracting 700 from 1600. I should have divided 1600 by 2 to get the amount of conc",
+      "input_tokens": 49,
+      "output_tokens": 26,
+      "latency_ms": 273.18497179441744,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)No. You don't divide as well. Anchors and decks are completely different units. They are not related to each other. Treat them separately. Based on the info given in the question, can you tell how much concrete is needed for the two anchors if they need the same amount of concrete?",
+      "learner_turn": "Yes, I understand now. Based on the information given in the question, the two anchors need the same amount of concrete,",
+      "input_tokens": 60,
+      "output_tokens": 21,
+      "latency_ms": 771.7928612139115,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Its not 800 tons each. Its 700 tons each",
+      "learner_turn": "Ah, I see now. Based on the information given in the question, the two anchors need 700 tons each, which means the total",
+      "input_tokens": 18,
+      "output_tokens": 23,
+      "latency_ms": 533.8428110273729,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)You seem to have forgotten the deck",
+      "learner_turn": "Oh, right. I forgot about the deck. Based on the information given in the question, the two anchors need 700 tons each, ",
+      "input_tokens": 16,
+      "output_tokens": 22,
+      "latency_ms": 703.8502234900786,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)1600(deck)+1400(two anchors)=3000",
+      "learner_turn": "Yes, you are correct. The total amount of concrete needed for the two anchors and the roadway deck is 3200 tons. Then, I",
+      "input_tokens": 11,
+      "output_tokens": 23,
+      "latency_ms": 550.6633364024901,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Its not 3200 tons. Its 3000 tons.",
+      "learner_turn": "Oh, right. I see now. The total amount of concrete needed for the two anchors and the roadway deck is 3000 tons. Then, I",
+      "input_tokens": 16,
+      "output_tokens": 24,
+      "latency_ms": 584.55995446605,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJohnny is an engineer designing a bridge. The roadway deck for the top of the bridge needs 2360.7 tons of concrete to construct. The two bridge anchors need equal amounts of concrete, but only one has been built so far, using 921.8 tons of concrete. Johnny had to calculate how many tons of concrete the supporting pillars underneath the bridge would need, and he found that the total amount of concrete in the entire bridge will be 6828.2 tons. How much concrete did Johnny find he needs for the supporting pillars?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 117,
+      "output_tokens": 9,
+      "latency_ms": 376.4052947386876,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

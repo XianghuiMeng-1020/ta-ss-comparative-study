@@ -1,0 +1,183 @@
+{
+  "scenario_id": "SC_1838",
+  "condition": "C1_ablate_revise",
+  "condition_label": "Teachable Agent",
+  "seed": 91,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:05.013344",
+  "n_tutor_turns": 16,
+  "n_learner_turns": 16,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 6013,
+  "total_output_tokens": 485,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nCoral reads 30 pages of a book on night 1, and 2 less than twice that on night 2.  Night 3 Coral reads 3 more pages than the sum of the first two nights.  How many total pages did Coral read in the 3 nights?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nTwice the number of pages Coral read on night 1 is 2*30 = 60 pages.\n2 less than twice the number of pages Coral read on night 1 is 60-2 = 58 pages on night 2.\nThe sum of the number of pages Coral read on night 1 and night 2 is 30+58 = 88 pages.\nCoral read 3 more pages on night 3 than the sum of the first two nights, so she read 88+3 = 91 pages in total.\n 91\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Lakisha. Can you take me through your answer?",
+      "learner_turn": "So I tried this problem. My approach was: Twice the number of pages Coral read on night 1 is 2*30 = 60 pages.\n2 less than . Wait — can you explain why we need to do that step first?",
+      "input_tokens": 370,
+      "output_tokens": 40,
+      "latency_ms": 659.26850808832,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Could you retry the calculation for the sum of the first two nights and tell me what you get?",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 7? Let me redo: Yes. The sum of the number of pages Coral read on night 1 an",
+      "input_tokens": 380,
+      "output_tokens": 32,
+      "latency_ms": 754.2007128856764,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Could you read the second sentence of the question again?",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 3? Let me redo: Sure. The second sentence of the question is \"Night 3 Coral ",
+      "input_tokens": 371,
+      "output_tokens": 29,
+      "latency_ms": 456.7001292569129,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)So is the answer to night 3 88?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 7? Let me redo: No, the answer to night 3 is 91. The sum of the first two ni",
+      "input_tokens": 369,
+      "output_tokens": 33,
+      "latency_ms": 793.1118327407016,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)Thats great! So how many pages did Coral read in the three nights together?",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 1? Let me redo: Coral read 91 pages in the three nights together.",
+      "input_tokens": 375,
+      "output_tokens": 27,
+      "latency_ms": 655.5466245741213,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)If I read 10 pages one night, 5 another, and 5 on the third, how many pages have I read all together?",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 6? Let me redo: You have read 10+5+5 = 20 pages all together.",
+      "input_tokens": 383,
+      "output_tokens": 27,
+      "latency_ms": 624.5361013945236,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)Could you do the same with the three nights Coral read?",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 2? Let me redo: Yes. Coral read 30+58+3 = 91 pages all together.",
+      "input_tokens": 372,
+      "output_tokens": 27,
+      "latency_ms": 696.0463491040541,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)How many pages on night 1?",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 5? Let me redo: Coral read 30 pages on night 1.",
+      "input_tokens": 367,
+      "output_tokens": 25,
+      "latency_ms": 200.966491138505,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)How many on night 2?",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 5? Let me redo: Coral read 58 pages on night 2.",
+      "input_tokens": 366,
+      "output_tokens": 25,
+      "latency_ms": 406.4654866062754,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)How many on night 3?",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 6? Let me redo: Coral read 3 pages on night 3.",
+      "input_tokens": 366,
+      "output_tokens": 25,
+      "latency_ms": 690.0002336690935,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(probing)Did she?",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 7? Let me redo: Yes, she read 3 pages on night 3.",
+      "input_tokens": 363,
+      "output_tokens": 26,
+      "latency_ms": 636.9914409942553,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(telling)The question says she read 3 more pages than the sum of the first two nights on night three.",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 2? Let me redo: That's correct. The sum of the first two nights was 30+58 = ",
+      "input_tokens": 380,
+      "output_tokens": 30,
+      "latency_ms": 574.1489286952901,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(telling)91 pages in total on night three only.",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 2? Let me redo: No, 91 pages in total for all three nights. On night three, ",
+      "input_tokens": 369,
+      "output_tokens": 30,
+      "latency_ms": 369.1155865368289,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "(telling)Coral read 30 pages on night 1, 58 pages on night 2 and 91 pages on night three. 30+58+91= 179 pages",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 6? Let me redo: No, that's not correct. Coral read 30 pages on night 1, 58 p",
+      "input_tokens": 382,
+      "output_tokens": 31,
+      "latency_ms": 409.53955589399357,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 14,
+      "tutor_turn": "(telling)You have literally just written my answer, whilst writing she read only 91 pages in total",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 10? Let me redo: Yes, that's correct. Coral read 30 pages on night 1, 58 page",
+      "input_tokens": 377,
+      "output_tokens": 30,
+      "latency_ms": 448.562307709332,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 15,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nCoral reads 38.0 pages of a book on night 1.4, and 2.6 less than twice that on night 2.9.  Night 3.6 Coral reads 3.7 more pages than the sum of the first two nights.  How many total pages did Coral read in the 4.1 nights?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Coral reads 38.0 pages of a book on night 1.4, and... I get approximately 36 as my answer. Does that seem right?",
+      "input_tokens": 423,
+      "output_tokens": 48,
+      "latency_ms": 519.854415631814,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C1"
+}

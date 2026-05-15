@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_0241",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.013762",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3465,
+  "total_output_tokens": 242,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nAndy walks 50 meters from his house to school. After school, he comes back to the house and goes to the market. If he walks 140 meters in total, how many meters is the distance between the house and the market?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nLuca is a 7th grade student. He has difficulty determining which pieces of information are relevant and which are irrelevant to solving the problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student didn't factor in that Andy walked 50 meters to school and then another 50 meters back to school before going to the market\n\nYOUR INITIAL INCORRECT ATTEMPT:\nAndy walks a total of 140 meters, which includes going to school and coming back home. So, the distance between his house and school is 50 meters, and the total distance he walked to school and then to the market is 140 meters. \n\nTherefore, the distance between his house and the market is 140 - 50 = 90 meters.\n 90\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Luca, can you tell me how you got to your answer?",
+      "learner_turn": "Andy walks a total of 140 meters, which includes going to school and coming back home. So, the dista I used this approach because The student didn't factor in that Andy walked 50 meters to s.",
+      "input_tokens": 374,
+      "output_tokens": 36,
+      "latency_ms": 351.8146755492721,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Andy walked 50 meters from his house to school. But then he walked back from the school to his house",
+      "learner_turn": "Okay, but I still think Oh, I see. So, the distance between his house and the market. Maybe the answer is 9?",
+      "input_tokens": 382,
+      "output_tokens": 22,
+      "latency_ms": 460.9690424724466,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)How far is Andy's house from the school?",
+      "learner_turn": "I think I see — so instead I should... Andy's house is 50 meters from the school.. Does that mean the answer is 15?",
+      "input_tokens": 370,
+      "output_tokens": 24,
+      "latency_ms": 329.17552378064545,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Andy walked 50 meters from his house to school, and then he walked BACK from school to house",
+      "learner_turn": "I think I see — so instead I should... So, the distance between his house and the market is 140 met. Does that mean the answer is 5?",
+      "input_tokens": 380,
+      "output_tokens": 28,
+      "latency_ms": 258.96051586058724,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)If you walk 50 meters from point A to point B, and then you walk back from point B to point A taking the same route, how far did you walk?",
+      "learner_turn": "I think I see — so instead I should... I walked a total of 100 meters, since I walked 50 meters in . Does that mean the answer is 12?",
+      "input_tokens": 393,
+      "output_tokens": 30,
+      "latency_ms": 220.69481031508192,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)So Andy walked 50 meters to get from his house to school, and then he walked from school back to his house, which is another 50 meters",
+      "learner_turn": "I think I see — so instead I should... That's right. So the distance between his house and the mark. Does that mean the answer is 36?",
+      "input_tokens": 389,
+      "output_tokens": 27,
+      "latency_ms": 577.4173879074244,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus) To get the distance between the house and the market, you have to add Andy's two trips of 50 meters each, and then subtract that from the total amount he walked",
+      "learner_turn": "I think I see — so instead I should... Ah, I understand. So the distance between his house and the . Does that mean the answer is 50?",
+      "input_tokens": 394,
+      "output_tokens": 28,
+      "latency_ms": 697.9640795900565,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)right!",
+      "learner_turn": "I think I see — so instead I should... Yes, I figured that the total distance Andy walked was 140 m. Does that mean the answer is 18?",
+      "input_tokens": 363,
+      "output_tokens": 28,
+      "latency_ms": 757.5440546239586,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAndy walks 70.9 meters from his house to school. After school, he comes back to the house and goes to the market. If he walks 198.5 meters in total, how many meters is the distance between the house and the market?",
+      "learner_turn": "Hmm, let me try. The student didn't factor in that Andy w I think the answer might be 43.",
+      "input_tokens": 420,
+      "output_tokens": 19,
+      "latency_ms": 334.8856769719715,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

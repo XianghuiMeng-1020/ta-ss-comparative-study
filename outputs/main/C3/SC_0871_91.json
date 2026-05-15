@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_0871",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.130053",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 173,
+  "total_output_tokens": 80,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Michael, you have made a small error in your calculations.  The problem doesn't state that the library is only open on weekdays.  Can you revise your solution please?",
+      "learner_turn": "Oh, I see. The total number of visitors for the week should be 50 + 100 + 7 x 20 = 270 visitors.",
+      "input_tokens": 38,
+      "output_tokens": 23,
+      "latency_ms": 457.2663097729198,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)No, please check again.  Monday and Tuesday are correct - 150 in total.  How many days are left?",
+      "learner_turn": "Oh, I see. There are 7 days in the week and Monday and Tuesday have already been accounted for, so there are 5 days left",
+      "input_tokens": 27,
+      "output_tokens": 25,
+      "latency_ms": 556.2736711867083,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)Yes, that's correct.  Good work.  it was an easy mistake to make, but make sure you read the questions properly to avoid doing something similar in the exam.",
+      "learner_turn": "Oh, I see. The total number of visitors for the week should be 50 + 100 + 7 x 20 = 270 visitors.",
+      "input_tokens": 37,
+      "output_tokens": 23,
+      "latency_ms": 776.1567216222967,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJenny's local library received 69.6 visitors on Monday. On Tuesday, the library received twice that number. On the remaining days of the week, an average of 24.9 visitors went to the library. What's the total number of visitors who went to the library that week?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 71,
+      "output_tokens": 9,
+      "latency_ms": 270.3805546606034,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

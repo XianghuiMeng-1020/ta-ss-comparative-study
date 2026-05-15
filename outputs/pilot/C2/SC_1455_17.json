@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1455",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.099126",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2635,
+  "total_output_tokens": 150,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nTanya went to the grocery store to buy some fruit.  She bought 6 pears, 4 Granny Smith apples, 2 pineapples, and a small basket of plums, which were all placed in a single paper bag.  Unfortunately, the bag that the fruit had been placed in had developed a hole.  Therefore, as Tanya walked home, half of the fruit fell out of the bag.  When she later counted the fruit left in the bag, there were only 9 pieces remaining.  How many plums did she buy?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nHunter is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nDid not understand the question\n\nYOUR INITIAL INCORRECT ATTEMPT:\nLet's first find out how many pieces of fruit Tanya originally had in the bag before half fell out.\nTanya bought 6 pears + 4 apples + 2 pineapples + x plums = 10 + x total pieces of fruit\nHalf of the fruit fell out, so Tanya was left with (10 + x)/2 = 9 pieces of fruit.\nMultiplying both sides by 2 gives us 10 + x = 18.\nSubtracting 10 from both sides gives us x = 8.\nTherefore, Tanya bought 8 plums.\n 8\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Are you confident this is the correct answer , have you double checked",
+      "learner_turn": "Let's first find out how many pieces of fruit Tanya originally had in the bag before half fell out.\n I used this approach because Did not understand the question.",
+      "input_tokens": 427,
+      "output_tokens": 29,
+      "latency_ms": 505.0903137922954,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(telling)I think you maybe need to check again",
+      "learner_turn": "Okay, but I still think Alright, I'll double check it again. After double checking, . Maybe the answer is 12?",
+      "input_tokens": 422,
+      "output_tokens": 20,
+      "latency_ms": 639.2786926434471,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)If Tanya had originally 18 pieces of fruit and the apples , pears and pineapples 12 how many plums were there",
+      "learner_turn": "I think I see — so instead I should... Since Tanya had 18 pieces of fruit in the bag originally and. Does that mean the answer is 18?",
+      "input_tokens": 435,
+      "output_tokens": 28,
+      "latency_ms": 636.0820213447544,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)So 18 minus 12 gives us",
+      "learner_turn": "I think I see — so instead I should... 18 minus 12 equals 6. Therefore, Tanya had 6 plums in the ba. Does that mean the answer is 22?",
+      "input_tokens": 420,
+      "output_tokens": 29,
+      "latency_ms": 232.33543768968661,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Correct",
+      "learner_turn": "I think I see — so instead I should... Yes, I am confident this is the correct answer. I have doubl. Does that mean the answer is 13?",
+      "input_tokens": 415,
+      "output_tokens": 28,
+      "latency_ms": 664.2945953006335,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nTanya went to the grocery store to buy some fruit.  She bought 7.3 pears, 4.9 Granny Smith apples, 2.7 pineapples, and a small basket of plums, which were all placed in a single paper bag.  Unfortunately, the bag that the fruit had been placed in had developed a hole.  Therefore, as Tanya walked home, half of the fruit fell out of the bag.  When she later counted the fruit left in the bag, there were only 13.2 pieces remaining.  How many plums did she buy?",
+      "learner_turn": "Hmm, let me try. Did not understand the question I think the answer might be 13.",
+      "input_tokens": 516,
+      "output_tokens": 16,
+      "latency_ms": 712.0646078278843,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

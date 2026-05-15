@@ -1,0 +1,312 @@
+{
+  "scenario_id": "SC_1451",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.092441",
+  "n_tutor_turns": 29,
+  "n_learner_turns": 29,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 11617,
+  "total_output_tokens": 798,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nKen had fifty pencils, and he wanted to share some of them with his two friends, Manny and Nilo. Ken gave ten pencils to Manny and ten more pencils to Nilo than he gave to Manny. He kept the rest of the pencils. How many pencils did Ken keep?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nBrenda is a 7th grade student. She struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student was not understanding the option that Nilo had 10 more than Manny which led to the incorrect solution\n\nYOUR INITIAL INCORRECT ATTEMPT:\nKen gave a total of 10 + 10 = 20 pencils to Manny and Nilo.\nLet x be the number of pencils Ken gave to Nilo.\nThen x + 10 is the number of pencils Ken gave to Manny.\nSo x + (x + 10) = 20\nSimplifying the equation, we get:\n2x + 10 = 20\n2x = 10\nx = 5\nTherefore, Ken gave 5 + 10 = 15 pencils to Manny and Nilo.\nThus, Ken kept 50 - 15 = 35 pencils.\n 35\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Would you like to check your answer one more time ?",
+      "learner_turn": "Ken gave a total of 10 + 10 = 20 pencils to Manny and Nilo.\nLet x be the number of pencils Ken gave  I used this approach because The student was not understanding the option that Nilo had 1.",
+      "input_tokens": 397,
+      "output_tokens": 40,
+      "latency_ms": 450.05799016598036,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Thank you, see if you come up with the same answer this time",
+      "learner_turn": "Okay, but I still think Ken gave a total of 10 + 10 = 20 pencils to Manny and Nilo. . Maybe the answer is 10?",
+      "input_tokens": 399,
+      "output_tokens": 26,
+      "latency_ms": 657.4227548780078,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Did Manny and Milo both receive the same number of pencils",
+      "learner_turn": "I think I see — so instead I should... No, Manny received 10 pencils and Nilo received 15 pencils.. Does that mean the answer is 10?",
+      "input_tokens": 397,
+      "output_tokens": 26,
+      "latency_ms": 396.13253370830967,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)So if we know how many they each received how can we work out how many Ken kept",
+      "learner_turn": "I think I see — so instead I should... Ken kept 50 pencils in total. He gave 10 pencils to Manny an. Does that mean the answer is 13?",
+      "input_tokens": 404,
+      "output_tokens": 29,
+      "latency_ms": 505.88966699336663,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)How can we work out how many more pencils Milo had to Manny",
+      "learner_turn": "I think I see — so instead I should... Nilo had 15 pencils and Manny had 10 pencils, so Nilo had 5 . Does that mean the answer is 42?",
+      "input_tokens": 399,
+      "output_tokens": 30,
+      "latency_ms": 262.12233197600364,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Could you show me how you worked this out",
+      "learner_turn": "I think I see — so instead I should... We know that Manny had 10 pencils and Nilo had 15 pencils. T. Does that mean the answer is 10?",
+      "input_tokens": 395,
+      "output_tokens": 29,
+      "latency_ms": 527.091408065388,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)And how did you work this out",
+      "learner_turn": "I think I see — so instead I should... I used the subtraction equation 15 - 10 = 5. 15 is the total. Does that mean the answer is 45?",
+      "input_tokens": 393,
+      "output_tokens": 30,
+      "latency_ms": 679.7508713498655,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)So if Manny had 10 and Nilo had 10 more than Manny would you solution work ?",
+      "learner_turn": "I think I see — so instead I should... Yes, my solution would still work. We would still subtract 1. Does that mean the answer is 13?",
+      "input_tokens": 403,
+      "output_tokens": 27,
+      "latency_ms": 761.9817528454984,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)Why would we subtract 10",
+      "learner_turn": "I think I see — so instead I should... We subtract 10 because it is the total number of pencils Man. Does that mean the answer is 42?",
+      "input_tokens": 391,
+      "output_tokens": 28,
+      "latency_ms": 662.919790569572,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)So Ken has 50 gives Manny 10 how many would this leave him",
+      "learner_turn": "I think I see — so instead I should... Ken would have 50 - 10 = 40 pencils left after giving 10 pen. Does that mean the answer is 22?",
+      "input_tokens": 399,
+      "output_tokens": 30,
+      "latency_ms": 564.7634079455117,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(telling)Correct so if had 40 and then gave nilo 10 more than he gave Manny how many c would Ken have left, show your reward i",
+      "learner_turn": "I think I see — so instead I should... Ken would have 40 - 10 - (10 + 10) = 40 - 30 = 10 pencils le. Does that mean the answer is 12?",
+      "input_tokens": 412,
+      "output_tokens": 34,
+      "latency_ms": 444.8315204221893,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(telling)",
+      "learner_turn": "I think I see — so instead I should... Ken would give Nilo 10 more pencils than he gave to Manny, s. Does that mean the answer is 26?",
+      "input_tokens": 387,
+      "output_tokens": 29,
+      "latency_ms": 791.1673827604693,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(telling)Let’s assume after Manny Ken has 40 left. How many does he give to Nilo",
+      "learner_turn": "I think I see — so instead I should... Ken would give Nilo 30 pencils.. Does that mean the answer is 35?",
+      "input_tokens": 401,
+      "output_tokens": 22,
+      "latency_ms": 437.98731660655176,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "(probing)Which would be how many",
+      "learner_turn": "I think I see — so instead I should... Yes, 30 is 10 more than the 10 pencils Ken gave to Manny.. Does that mean the answer is 18?",
+      "input_tokens": 391,
+      "output_tokens": 29,
+      "latency_ms": 685.7047759391146,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 14,
+      "tutor_turn": "(telling)Is 30 10 more than the 10 he gave to Manny ?",
+      "learner_turn": "I think I see — so instead I should... Yes, 10 more than 10 is 30.. Does that mean the answer is 50?",
+      "input_tokens": 398,
+      "output_tokens": 23,
+      "latency_ms": 274.86991817684464,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 15,
+      "tutor_turn": "(focus)So is 10 more than 10 30?",
+      "learner_turn": "I think I see — so instead I should... Ken gave Manny 10 pencils and Nilo 10 more pencils than he g. Does that mean the answer is 7?",
+      "input_tokens": 393,
+      "output_tokens": 29,
+      "latency_ms": 203.00263965717858,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 16,
+      "tutor_turn": "(probing)Could you explain this by writing your answer down please",
+      "learner_turn": "I think I see — so instead I should... Ken would have given away 10 + 10 = 20 pencils if he gave Ma. Does that mean the answer is 30?",
+      "input_tokens": 396,
+      "output_tokens": 31,
+      "latency_ms": 559.7835471127148,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 17,
+      "tutor_turn": "(focus)If Ken had given Manny and Nilo each 10 pencils how many would he have given away",
+      "learner_turn": "I think I see — so instead I should... Ken has given away 10 + 10 + 10 = 30 pencils in total.. Does that mean the answer is 9?",
+      "input_tokens": 403,
+      "output_tokens": 30,
+      "latency_ms": 690.8488646961299,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 18,
+      "tutor_turn": "(telling)He then gave Nilo another 10 so how many has he now given away",
+      "learner_turn": "I think I see — so instead I should... Ken had 50 pencils in total. He gave away 30 pencils, so he . Does that mean the answer is 36?",
+      "input_tokens": 400,
+      "output_tokens": 30,
+      "latency_ms": 473.02398482709293,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 19,
+      "tutor_turn": "(telling)He therefore has given 30 away from the amount he stays with so how many does Ken have left",
+      "learner_turn": "I think I see — so instead I should... He has 20 pencils left.. Does that mean the answer is 46?",
+      "input_tokens": 405,
+      "output_tokens": 21,
+      "latency_ms": 592.1042218203862,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 20,
+      "tutor_turn": "(focus)He ?",
+      "learner_turn": "I think I see — so instead I should... Yes, this is the same answer I got when I first solved the p. Does that mean the answer is 38?",
+      "input_tokens": 388,
+      "output_tokens": 30,
+      "latency_ms": 434.55905870266054,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 21,
+      "tutor_turn": "(probing)Does this equate to your first answer?",
+      "learner_turn": "I think I see — so instead I should... Yes, I would like to recheck my answers.. Does that mean the answer is 13?",
+      "input_tokens": 393,
+      "output_tokens": 24,
+      "latency_ms": 716.5214204654445,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 22,
+      "tutor_turn": "(probing)Would you like to recheck your answers, as I think we may have come up,with a different solution if you check back , I can see a difference",
+      "learner_turn": "I think I see — so instead I should... I think I made a miscalculation when I first solved the prob. Does that mean the answer is 31?",
+      "input_tokens": 414,
+      "output_tokens": 28,
+      "latency_ms": 753.6019977119926,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 23,
+      "tutor_turn": "(generic)Well done I will give you a few minutes, your final answer is correct so see if you can work out where you made a miscalculation at the beginning",
+      "learner_turn": "I think I see — so instead I should... Yes, I see where I made the miscalculation. I forgot to add . Does that mean the answer is 21?",
+      "input_tokens": 415,
+      "output_tokens": 29,
+      "latency_ms": 458.790707730879,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 24,
+      "tutor_turn": "(generic)Do you see where this was",
+      "learner_turn": "I think I see — so instead I should... Yes, I think I could solve a similar problem another time. I. Does that mean the answer is 14?",
+      "input_tokens": 392,
+      "output_tokens": 28,
+      "latency_ms": 767.5359029363434,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 25,
+      "tutor_turn": "(generic)Well done, do you now think you could solve a similar problem another time ?",
+      "learner_turn": "I think I see — so instead I should... Sure, that sounds great!. Does that mean the answer is 24?",
+      "input_tokens": 401,
+      "output_tokens": 20,
+      "latency_ms": 536.1029808970097,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 26,
+      "tutor_turn": "(generic)Thank you shall we have a break and then try a similar problem?",
+      "learner_turn": "I think I see — so instead I should... Sounds good! See you in 40 minutes.. Does that mean the answer is 42?",
+      "input_tokens": 399,
+      "output_tokens": 23,
+      "latency_ms": 460.0853030536169,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 27,
+      "tutor_turn": "(generic)Ok go and enjoy your break and meet me back here in 40 minutes",
+      "learner_turn": "I think I see — so instead I should... Yes, I would like to double check my answer.. Does that mean the answer is 36?",
+      "input_tokens": 400,
+      "output_tokens": 25,
+      "latency_ms": 668.4349141981713,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 28,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nKen had fifty pencils, and he wanted to share some of them with his two friends, Manny and Nilo. Ken gave ten pencils to Manny and ten more pencils to Nilo than he gave to Manny. He kept the rest of the pencils. How many pencils did Ken keep?",
+      "learner_turn": "Hmm, let me try. The student was not understanding the op I think the answer might be 32.",
+      "input_tokens": 452,
+      "output_tokens": 18,
+      "latency_ms": 358.4088793393151,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

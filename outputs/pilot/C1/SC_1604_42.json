@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_1604",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.111958",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2694,
+  "total_output_tokens": 257,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nAmanda needs 12 more marbles to have twice as many marbles as Katrina, and Mabel has 5 times as many marbles as Katrina. If Mabel has 85 marbles, how many more marbles does Mabel have than Amanda?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nKatrina has 85/5 = 17 marbles.\nTwice the number of Katrina's marbles is 17 x 2 = 34 marbles.\nAmanda has 34 - 12 = 22 marbles.\nMabel has 85 - 17 = 68 more marbles than Katrina.\nTherefore, Mabel has 68 - 22 = 46 more marbles than Amanda.\n 46\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Luca, could you tell me how you decided that Katrina should have 17 marbles?",
+      "learner_turn": "So I tried this problem. My approach was: Katrina has 85/5 = 17 marbles.\nTwice the number of Katrina's marbles is 17 x 2 =. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 337,
+      "output_tokens": 38,
+      "latency_ms": 786.2722460899367,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Why did you subtract 12 from 34?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 2? Let me redo: Because Amanda needed 12 more marbles to have twice as many ",
+      "input_tokens": 329,
+      "output_tokens": 29,
+      "latency_ms": 289.11509770562066,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)How many marbles does Amanda have?",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 10? Let me redo: Amanda has 22 marbles.",
+      "input_tokens": 328,
+      "output_tokens": 22,
+      "latency_ms": 686.3929929345445,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)How many marbles does Mabel have?",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 6? Let me redo: Mabel has 68 more marbles than Katrina, so Mabel has 85 marb",
+      "input_tokens": 328,
+      "output_tokens": 30,
+      "latency_ms": 728.3033760985641,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)How can you tell how many more marbles Mabel has than Amanda?",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 9? Let me redo: I subtracted 22 (the number of marbles Amanda has) from 68 (",
+      "input_tokens": 334,
+      "output_tokens": 30,
+      "latency_ms": 244.2235150636003,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)Can you subtract the number of marbles Amanda has from the number of marbles Mabel has?",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 3? Let me redo: Yes, I can subtract the number of marbles Amanda has (22) fr",
+      "input_tokens": 338,
+      "output_tokens": 30,
+      "latency_ms": 434.0698751220003,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(generic)Well done.",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 3? Let me redo: Sure. I started by dividing 85 by 5 since Mabel had 5 times ",
+      "input_tokens": 324,
+      "output_tokens": 31,
+      "latency_ms": 758.8305494194475,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAmanda needs 17.1 more marbles to have twice as many marbles as Katrina, and Mabel has 6.2 times as many marbles as Katrina. If Mabel has 104.5 marbles, how many more marbles does Mabel have than Amanda?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Amanda needs 17.1 more marbles to have twice as ma... I get approximately 17 as my answer. Does that seem right?",
+      "input_tokens": 376,
+      "output_tokens": 47,
+      "latency_ms": 778.541792592074,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

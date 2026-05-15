@@ -1,0 +1,142 @@
+{
+  "scenario_id": "SC_0040",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.955167",
+  "n_tutor_turns": 12,
+  "n_learner_turns": 12,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 371,
+  "total_output_tokens": 316,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Scott, According to the problem, how many rose petals are needed to make an ounce of perfume?",
+      "learner_turn": "To solve this problem, First find the number of roses needed for one ounce of perfume: 320 petals / 8 p. The answer is First find the numbe.",
+      "input_tokens": 29,
+      "output_tokens": 28,
+      "latency_ms": 319.80306589312124,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How many ounces are in each bottle of perfume?",
+      "learner_turn": "To solve this problem, First find the number of roses needed for one ounce of perfume: 320 petals / 8 p. The answer is First find the numbe.",
+      "input_tokens": 21,
+      "output_tokens": 28,
+      "latency_ms": 214.98707535242997,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Given what you know above, how many rose petals would it take to make a 12 ounce bottle of perfume?",
+      "learner_turn": "To solve this problem, First find the number of roses needed for one ounce of perfume: 320 petals / 8 p. The answer is First find the numbe.",
+      "input_tokens": 32,
+      "output_tokens": 28,
+      "latency_ms": 581.5999070734599,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)If it takes 320 rose petals per ounce to make the perfume, how many would it take to make 12 tims as much?",
+      "learner_turn": "To solve this problem, First find the number of roses needed for one ounce of perfume: 320 petals / 8 p. The answer is First find the numbe.",
+      "input_tokens": 35,
+      "output_tokens": 28,
+      "latency_ms": 653.0209339540088,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)If it take 3840 rose petals to make one bottle, how many rose petals would it take to make 20 bottles?",
+      "learner_turn": "To solve this problem, First find the number of roses needed for one ounce of perfume: 320 petals / 8 p. The answer is First find the numbe.",
+      "input_tokens": 33,
+      "output_tokens": 28,
+      "latency_ms": 354.28129671210417,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Recheck your math",
+      "learner_turn": "To solve this problem, First find the number of roses needed for one ounce of perfume: 320 petals / 8 p. The answer is First find the numbe.",
+      "input_tokens": 15,
+      "output_tokens": 28,
+      "latency_ms": 409.2288514659552,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)Not 2 bottles... 20 bottles, recheck",
+      "learner_turn": "To solve this problem, First find the number of roses needed for one ounce of perfume: 320 petals / 8 p. The answer is First find the numbe.",
+      "input_tokens": 18,
+      "output_tokens": 28,
+      "latency_ms": 246.42737548813432,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)You are multiplying 3840 by 2, you should multiple by 20",
+      "learner_turn": "To solve this problem, First find the number of roses needed for one ounce of perfume: 320 petals / 8 p. The answer is First find the numbe.",
+      "input_tokens": 23,
+      "output_tokens": 28,
+      "latency_ms": 641.3120782619347,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)You are not correct 20 is 10 times bigger than the 2 you are using ry again.",
+      "learner_turn": "To solve this problem, First find the number of roses needed for one ounce of perfume: 320 petals / 8 p. The answer is First find the numbe.",
+      "input_tokens": 29,
+      "output_tokens": 28,
+      "latency_ms": 453.1448279112434,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(probing)You are multiplying by 2 you must use 20 which would give an answer 10 times bigger than the answer you have been giving... try again.",
+      "learner_turn": "To solve this problem, First find the number of roses needed for one ounce of perfume: 320 petals / 8 p. The answer is First find the numbe.",
+      "input_tokens": 38,
+      "output_tokens": 28,
+      "latency_ms": 593.0109371638844,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(telling)In you last attempt you totally missed it... 7680 was correct for 2 bottles... multiple that by 10!",
+      "learner_turn": "To solve this problem, First find the number of roses needed for one ounce of perfume: 320 petals / 8 p. The answer is First find the numbe.",
+      "input_tokens": 30,
+      "output_tokens": 28,
+      "latency_ms": 650.0964273687416,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIt takes 435.6 rose petals to make an ounce of perfume. If each rose produces 11.7 petals, and there are 17.9 roses per bush, how many bushes will Fern have to harvest to make 28.6 18.0-ounce bottles of perfume?",
+      "learner_turn": "The answer to that problem would be 48.",
+      "input_tokens": 68,
+      "output_tokens": 8,
+      "latency_ms": 748.0081575894918,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

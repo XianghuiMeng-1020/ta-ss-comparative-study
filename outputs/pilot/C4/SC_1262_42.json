@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1262",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.072737",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 178,
+  "total_output_tokens": 107,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi can you talk me through your answer",
+      "learner_turn": "To solve this problem, He has to read 350 pages a week because 7 x 50 = 350\nHe has read 262 pages becau. The answer is He has to read 350 p.",
+      "input_tokens": 20,
+      "output_tokens": 33,
+      "latency_ms": 611.2559057803023,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Ok I can see you have calculated that he has already read 262 pages and that he wants to read 50 pages a day. How many days are in a week",
+      "learner_turn": "To solve this problem, He has to read 350 pages a week because 7 x 50 = 350\nHe has read 262 pages becau. The answer is He has to read 350 p.",
+      "input_tokens": 43,
+      "output_tokens": 33,
+      "latency_ms": 460.7438591765503,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)correct",
+      "learner_turn": "To solve this problem, He has to read 350 pages a week because 7 x 50 = 350\nHe has read 262 pages becau. The answer is He has to read 350 p.",
+      "input_tokens": 13,
+      "output_tokens": 33,
+      "latency_ms": 271.55623870779016,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nBerry wants to make sure he reads an average of 74.5 pages a day. This week he read 61.3 pages on Sunday, 93.4 pages on Monday, and 40.5 pages on Tuesday. He had a soccer game and fell asleep early on Wednesday so he read nothing. On Thursday he read 96.8 pages, and on Friday he read 73.5 pages. How many pages does he have to read on Saturday to reach his goal?",
+      "learner_turn": "The answer to that problem would be 34.",
+      "input_tokens": 102,
+      "output_tokens": 8,
+      "latency_ms": 283.83553826409303,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

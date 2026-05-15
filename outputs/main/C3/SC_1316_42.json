@@ -1,0 +1,142 @@
+{
+  "scenario_id": "SC_1316",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.227459",
+  "n_tutor_turns": 12,
+  "n_learner_turns": 12,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 413,
+  "total_output_tokens": 231,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Hunter, can you walk me through what you did to solve this problem?",
+      "learner_turn": "Sure. I started by calculating the number of customers who did not return their books, which was 1000 x 0.63 = 630. Then",
+      "input_tokens": 23,
+      "output_tokens": 23,
+      "latency_ms": 453.4240908925116,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Okay, there's some really good work here, you're very close. Let me ask you this:",
+      "learner_turn": "Sure. What do you want to know?",
+      "input_tokens": 24,
+      "output_tokens": 7,
+      "latency_ms": 609.1072588668135,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)If I sell $1,000 worth of books today, and tomorrow, people return $200 worth of those books, how much money do I keep?",
+      "learner_turn": "You would keep $800 in sales after subtracting the returns. You would have sold $1,000 worth of books and refunded $200 ",
+      "input_tokens": 32,
+      "output_tokens": 21,
+      "latency_ms": 316.7953059031676,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Right. So, I took my total sales, and subtracted my returns from that number. Is that what you did in your calculations?",
+      "learner_turn": "Yes, that's exactly what I did. I took the total sales of $9450 and subtracted the returns of $5550 to get the total amo",
+      "input_tokens": 31,
+      "output_tokens": 24,
+      "latency_ms": 778.9752212424414,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)Okay, so talk to me about your thinking on getting $9450 as your total sales.",
+      "learner_turn": "To get the total sales, I multiplied the number of customers who did not return their books (1000 x 0.63 = 630) by the c",
+      "input_tokens": 24,
+      "output_tokens": 25,
+      "latency_ms": 453.9121034690181,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Okay, so back to my example from a minute ago. I had $1000 in sales, and $200 in returns, so like you told me, I kept $800 in sales. Can you figure out what percent of my customers did not return their books?",
+      "learner_turn": "Sure. The number of customers who did not return their books is 800, and the total number of customers is 1000, so 800/1",
+      "input_tokens": 52,
+      "output_tokens": 23,
+      "latency_ms": 717.1209993655215,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)Right, very good. So, that $800 that I kept came from the 80% of my customers that didn't return their books. \nIn your problem, the $9450 came from the 63% of customers who didn't return their books.",
+      "learner_turn": "Yes, that's correct. The $9450 came from the 630 customers who didn't return their books, which was 63% of the total 100",
+      "input_tokens": 46,
+      "output_tokens": 22,
+      "latency_ms": 410.4161751628403,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)Right, but in my example, the money from people who kept their books was the profit. But you used it as the total in yours. Do you see the issue?",
+      "learner_turn": "Yes, I see the issue. In my problem, the $9450 was the total sales, not the profit, since I still had to subtract the re",
+      "input_tokens": 39,
+      "output_tokens": 25,
+      "latency_ms": 327.6993726147199,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)No, the $9450 wasn't the total sales. It's the sales that weren't returned. The total sales is the money ALL 100% the customers originally spent.",
+      "learner_turn": "Oh, I understand now. The total sales is the money all 1000 customers originally spent, which was 1000 x $15 = $15000. T",
+      "input_tokens": 34,
+      "output_tokens": 23,
+      "latency_ms": 581.9097097850959,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(generic)Yes! Very good.",
+      "learner_turn": "Thanks, I'll try to remember that.",
+      "input_tokens": 12,
+      "output_tokens": 6,
+      "latency_ms": 379.81051477872535,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(generic)So you actually had the right answer after your first step, and then you did some extra work. Good job, don't let yourself overthink things.",
+      "learner_turn": "Sure. I started by calculating the number of customers who did not return their books, which was 1000 x 0.63 = 630. Then",
+      "input_tokens": 34,
+      "output_tokens": 23,
+      "latency_ms": 694.834100361385,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nDianne runs a store that sells books.  52.1% of her 1206.2 customers end up returning their books.  Her books all cost 20.7 dollars apiece.  How much money does she keep in sales after subtracting the returns?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 62,
+      "output_tokens": 9,
+      "latency_ms": 659.8108989455642,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

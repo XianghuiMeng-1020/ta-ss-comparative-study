@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1532",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.283841",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1644,
+  "total_output_tokens": 100,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nA rope has a length of 200 meters. Stefan cuts the rope into four equal parts, gives his mother half of the cut pieces, and subdivides the remaining pieces into two more equal parts. What's the length of each piece?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nHeidi is a 7th grade student. She has problem with understanding of underlying ideas and principles and a recognition of when to apply them.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student treats Stefan's rope as if it is one piece 100m long and which is then divided. However, it has alraedy been divided and each piece is 50m long, adn subdivided again, each piece is 25m\n\nYOUR INITIAL INCORRECT ATTEMPT:\nEach part of the rope is 200/4 = 50 meters long.\nStefan has four pieces of 50 meters each.\nHe gives his mother half of the cut pieces, which is 2 pieces (2 x 50 = 100 meters).\nStefan is left with 2 pieces (2 x 50 = 100 meters).\nHe subdivides the remaining pieces into two more equal parts, which means each part is 100/2 = 50 meters long.\n 50\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)This is pretty good but not quite right. So Stefan is left with 2 pieces each 50m long. If he cuts each piece in half, how many pieces does he have?",
+      "learner_turn": "Each part of the rope is 200/4 = 50 meters long.\nStefan has four pieces of 50 meters each.\nHe gives  I used this approach because The student treats Stefan's rope as if it is one piece 100m .",
+      "input_tokens": 415,
+      "output_tokens": 39,
+      "latency_ms": 637.4047122384004,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)That's right!",
+      "learner_turn": "Okay, but I still think He has four pieces, each 25 meters long.. Maybe the answer is 11?",
+      "input_tokens": 386,
+      "output_tokens": 18,
+      "latency_ms": 646.4023425071301,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)Since you have worked out the correct answer so quickly there is nothing more to say. Well done!",
+      "learner_turn": "I think I see — so instead I should... He has four pieces, each 25 meters long.. Does that mean the answer is 13?",
+      "input_tokens": 402,
+      "output_tokens": 24,
+      "latency_ms": 208.95401459118517,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA rope has a length of 260.8 meters. Stefan cuts the rope into four equal parts, gives his mother half of the cut pieces, and subdivides the remaining pieces into two more equal parts. What's the length of each piece?",
+      "learner_turn": "Hmm, let me try. The student treats Stefan's rope as if i I think the answer might be 39.",
+      "input_tokens": 441,
+      "output_tokens": 19,
+      "latency_ms": 689.9365641387623,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

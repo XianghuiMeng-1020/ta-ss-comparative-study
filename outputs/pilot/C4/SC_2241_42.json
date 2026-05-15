@@ -1,0 +1,162 @@
+{
+  "scenario_id": "SC_2241",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.164975",
+  "n_tutor_turns": 14,
+  "n_learner_turns": 14,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 465,
+  "total_output_tokens": 359,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Emily, please could you talk me through your solution?",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 22,
+      "output_tokens": 27,
+      "latency_ms": 722.1686300342215,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)If I made some coffee, one with one sugar and one with two sugars, which would be the sweetest?",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 31,
+      "output_tokens": 27,
+      "latency_ms": 323.0783676222569,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)If I made two coffees each with one sugar, which would be the sweetest?",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 26,
+      "output_tokens": 27,
+      "latency_ms": 484.21146899904846,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)That's correct so let's get back to Taylor. For a weak coffee Taylor uses how many spoons of coffee?",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 31,
+      "output_tokens": 27,
+      "latency_ms": 644.5626173822635,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Yes and how many does he need to make according to the question?",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 25,
+      "output_tokens": 27,
+      "latency_ms": 564.9781712630332,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)Read the question carefully. How many cups of coffee is Taylor making?",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 24,
+      "output_tokens": 27,
+      "latency_ms": 795.4305104239598,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)That's correct 12 weak cups and 12 strong cups. So how many altogether?",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 25,
+      "output_tokens": 27,
+      "latency_ms": 312.86487638892265,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)Correct so can you review your answer for me please?",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 22,
+      "output_tokens": 27,
+      "latency_ms": 306.1204468795107,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)Can you explain why you think Taylor needs 6 tablespoons of coffee to make 12 weak coffees?",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 29,
+      "output_tokens": 27,
+      "latency_ms": 760.0303520158328,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)The question doesn't mention teaspoons so please just focus on tablespoons. Taylor needs 2 tablespoons of coffee to make one weak coffee.",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 34,
+      "output_tokens": 27,
+      "latency_ms": 610.423796209162,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(focus)Let's start again as I think we are confused. I tablespoon of coffee makes one weak coffee. For 12 weak coffees I need... tablespoons for coffee?",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 38,
+      "output_tokens": 27,
+      "latency_ms": 205.33308247144316,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(telling)No, Taylor needs 12 tablespoons for coffee for 12 weak coffees. For weak coffee there is a 1:1 correspondence e.g. 1 tablespoon = one weak coffee. For strong coffee there is a 2:1 correspondence e.g. 2 tablespoons = one strong coffee.",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 53,
+      "output_tokens": 27,
+      "latency_ms": 389.4688200253853,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(generic)That's correct, well done.",
+      "learner_turn": "To solve this problem, He uses 1 tablespoon for weak coffee and doubles that for strong so the strong u. The answer is He uses 1 tablespoon.",
+      "input_tokens": 16,
+      "output_tokens": 27,
+      "latency_ms": 635.3886641087956,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nHalf of Taylor's house guests like weak coffee and the other half like strong coffee in the morning.  Taylor uses 1.4 tablespoon of coffee per cup of water to make it weak and he doubles that amount to make it strong.  If he makes 15.6 cups of both weak and strong coffee, how many tablespoons of coffee will he need?",
+      "learner_turn": "The answer to that problem would be 21.",
+      "input_tokens": 89,
+      "output_tokens": 8,
+      "latency_ms": 696.0190850226254,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

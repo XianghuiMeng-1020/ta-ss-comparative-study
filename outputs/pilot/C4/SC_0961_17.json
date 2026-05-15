@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_0961",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.045952",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 293,
+  "total_output_tokens": 269,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Hi Steven, can you tell me about why you did 3 x 52?",
+      "learner_turn": "To solve this problem, She and her husband have 1 slice each and her children split 1 slice so that's 1. The answer is She and her husband .",
+      "input_tokens": 25,
+      "output_tokens": 29,
+      "latency_ms": 334.5026995523664,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Did you notice the problem says \"On Saturdays and Sundays\"?",
+      "learner_turn": "To solve this problem, She and her husband have 1 slice each and her children split 1 slice so that's 1. The answer is She and her husband .",
+      "input_tokens": 22,
+      "output_tokens": 29,
+      "latency_ms": 284.9598161184077,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Not quite, what you had before was closer, only how many slices does the family eat in one full weekend?",
+      "learner_turn": "To solve this problem, She and her husband have 1 slice each and her children split 1 slice so that's 1. The answer is She and her husband .",
+      "input_tokens": 32,
+      "output_tokens": 29,
+      "latency_ms": 681.4017230009616,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)They eat 3 slices each day, but how many days are there over the weekend?",
+      "learner_turn": "To solve this problem, She and her husband have 1 slice each and her children split 1 slice so that's 1. The answer is She and her husband .",
+      "input_tokens": 27,
+      "output_tokens": 29,
+      "latency_ms": 686.5711073579259,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Good, so can you use that to fix your answer?",
+      "learner_turn": "To solve this problem, She and her husband have 1 slice each and her children split 1 slice so that's 1. The answer is She and her husband .",
+      "input_tokens": 22,
+      "output_tokens": 29,
+      "latency_ms": 687.2272132809039,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)Be careful. Just take what you did originally and change the 3x52 into what?",
+      "learner_turn": "To solve this problem, She and her husband have 1 slice each and her children split 1 slice so that's 1. The answer is She and her husband .",
+      "input_tokens": 26,
+      "output_tokens": 29,
+      "latency_ms": 782.8236840548356,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)6.5 is not correct",
+      "learner_turn": "To solve this problem, She and her husband have 1 slice each and her children split 1 slice so that's 1. The answer is She and her husband .",
+      "input_tokens": 16,
+      "output_tokens": 29,
+      "latency_ms": 268.82176921358507,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)If she uses 6 slices per weekend, how many slices does she use over 52 weeks?",
+      "learner_turn": "To solve this problem, She and her husband have 1 slice each and her children split 1 slice so that's 1. The answer is She and her husband .",
+      "input_tokens": 28,
+      "output_tokens": 29,
+      "latency_ms": 729.513872323014,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(generic)good!",
+      "learner_turn": "To solve this problem, She and her husband have 1 slice each and her children split 1 slice so that's 1. The answer is She and her husband .",
+      "input_tokens": 13,
+      "output_tokens": 29,
+      "latency_ms": 738.3937098515881,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nOn Saturdays and Sundays, Suzanne makes french toast for the family.  She and her husband each have 1.5 whole slice and her daughters split 1.2 slice.  She uses a thick sliced bread that comes 15.9 slices per loaf.  Over 72.6 weeks, how many loaves of bread will she need to make french toast?",
+      "learner_turn": "The answer to that problem would be 42.",
+      "input_tokens": 82,
+      "output_tokens": 8,
+      "latency_ms": 509.92448152602446,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

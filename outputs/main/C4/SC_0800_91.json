@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_0800",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.120305",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 191,
+  "total_output_tokens": 116,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Claire, can you tell me how you got your answer?",
+      "learner_turn": "To solve this problem, Tedra harvests 1/2 * 400 kg = 200 kg of tomatoes on Thursday.\nTedra harvests 200. The answer is Tedra harvests 1/2 *.",
+      "input_tokens": 23,
+      "output_tokens": 27,
+      "latency_ms": 435.13225453992123,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Okay, Tedra harvested 400 kg of tomatoes on Wednesday and 200 on Thursday. If he harvested a total of 2000 kilos from all three days, then how do you figure out how many he harvested on Friday if we already know he harvested 600 combined between Wednesday and Thursday?",
+      "learner_turn": "To solve this problem, Tedra harvests 1/2 * 400 kg = 200 kg of tomatoes on Thursday.\nTedra harvests 200. The answer is Tedra harvests 1/2 *.",
+      "input_tokens": 61,
+      "output_tokens": 27,
+      "latency_ms": 629.8052620723292,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)",
+      "learner_turn": "To solve this problem, Tedra harvests 1/2 * 400 kg = 200 kg of tomatoes on Thursday.\nTedra harvests 200. The answer is Tedra harvests 1/2 *.",
+      "input_tokens": 13,
+      "output_tokens": 27,
+      "latency_ms": 261.7339456442168,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)that's correct",
+      "learner_turn": "To solve this problem, Tedra harvests 1/2 * 400 kg = 200 kg of tomatoes on Thursday.\nTedra harvests 200. The answer is Tedra harvests 1/2 *.",
+      "input_tokens": 14,
+      "output_tokens": 27,
+      "latency_ms": 517.2688287807523,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nTedra is harvesting his tomatoes. He harvests 492.3 kg on Wednesday, and half as much on Thursday. He harvests a total of 2643.4 kg on Wednesday, Thursday, and Friday. How many tomatoes of the number he harvested on Friday are remaining if he gives away 700kg of them to his friends?",
+      "learner_turn": "The answer to that problem would be 20.",
+      "input_tokens": 80,
+      "output_tokens": 8,
+      "latency_ms": 486.1405989629567,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

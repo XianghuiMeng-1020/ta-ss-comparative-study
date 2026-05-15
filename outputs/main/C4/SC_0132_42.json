@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_0132",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.982664",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 335,
+  "total_output_tokens": 218,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)It's good that ypou tried to do this using algebra butteh answer is not quite right",
+      "learner_turn": "To solve this problem, Angie earned 80 and paid 42 for necessities, so she had 80 - 42 = $38 left.\nAngi. The answer is Angie earned 80 and .",
+      "input_tokens": 28,
+      "output_tokens": 30,
+      "latency_ms": 650.4763334766145,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Lets go through it step by step Household expenses are $42, and she earns $80, how much does she have left after paying household expenses?",
+      "learner_turn": "To solve this problem, Angie earned 80 and paid 42 for necessities, so she had 80 - 42 = $38 left.\nAngi. The answer is Angie earned 80 and .",
+      "input_tokens": 37,
+      "output_tokens": 30,
+      "latency_ms": 653.1418900906251,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)How much did Angie have left at the end of the month?",
+      "learner_turn": "To solve this problem, Angie earned 80 and paid 42 for necessities, so she had 80 - 42 = $38 left.\nAngi. The answer is Angie earned 80 and .",
+      "input_tokens": 24,
+      "output_tokens": 30,
+      "latency_ms": 240.94527995397866,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Don't go too far ahead! Lets take this step by step. So after household expenses Angie is left with $38, and at the end of the month she has $18. What is the difference between $38 and $18?",
+      "learner_turn": "To solve this problem, Angie earned 80 and paid 42 for necessities, so she had 80 - 42 = $38 left.\nAngi. The answer is Angie earned 80 and .",
+      "input_tokens": 50,
+      "output_tokens": 30,
+      "latency_ms": 476.36087217354736,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)That's right! Well done! I liked your idea of trying to do it with algebra though, that would be something like:",
+      "learner_turn": "To solve this problem, Angie earned 80 and paid 42 for necessities, so she had 80 - 42 = $38 left.\nAngi. The answer is Angie earned 80 and .",
+      "input_tokens": 33,
+      "output_tokens": 30,
+      "latency_ms": 794.02608268174,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)No $20 was right! Your formula shoudld have been: salary = HouseholdBills + MoneyLeftOver + taxes; this is $80 = $42 + $18 + Taxes; this is $80 = 60 + Taxes. So what are Taxes?",
+      "learner_turn": "To solve this problem, Angie earned 80 and paid 42 for necessities, so she had 80 - 42 = $38 left.\nAngi. The answer is Angie earned 80 and .",
+      "input_tokens": 48,
+      "output_tokens": 30,
+      "latency_ms": 748.8075257545794,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(generic)That's right! So using algebra was a good approach but the numbers needed to be in the right places.",
+      "learner_turn": "To solve this problem, Angie earned 80 and paid 42 for necessities, so she had 80 - 42 = $38 left.\nAngi. The answer is Angie earned 80 and .",
+      "input_tokens": 31,
+      "output_tokens": 30,
+      "latency_ms": 370.55752639820037,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAngie is part of a household with shared expenses and contributes $57.1 a month for necessities. She has a salary of $106.2 per month. She also pays a share of the household taxes each month. At the end of this month, she had $26.5 left over. How much did she pay in taxes this month?",
+      "learner_turn": "The answer to that problem would be 7.",
+      "input_tokens": 84,
+      "output_tokens": 8,
+      "latency_ms": 230.41621132108858,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

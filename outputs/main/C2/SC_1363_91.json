@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1363",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.237722",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2664,
+  "total_output_tokens": 160,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nDuring a unit on probability, a teacher surveys her class asking her students two questions.  The first question was whether they prefer dogs or cats, and the second question was whether they movies or video games.  Of the 30 students in her class, 50% chose dogs and video games as their two answers, while 10% chose dogs and movies as their two answers.  In total, how many students in this teacher's class prefer dogs over cats?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nSeth is a 7th grade student. He struggle most with understanding what the problem is asking them to do.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nStudent thought that there was an additional variable to take into account when calculating the probability, when it was only two groups to take into consideration.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nLet x be the number of students who prefer dogs over cats. \nThen, 0.5(30) = 15 students chose dogs and video games, and 0.1(30) = 3 students chose dogs and movies. \nSince these two groups overlap with the x students who prefer dogs over cats, we can set up the equation: \n15 + 3 + x = 30 \nSolving for x, we get: \nx = 12 \nTherefore, 12 students in this teacher's class prefer dogs over cats. \n 12\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Seth, can you explain how you came to your solution for me?",
+      "learner_turn": "Let x be the number of students who prefer dogs over cats. \nThen, 0.5(30) = 15 students chose dogs a I used this approach because Student thought that there was an additional variable to tak.",
+      "input_tokens": 424,
+      "output_tokens": 35,
+      "latency_ms": 214.5145595838423,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How many options did students have to choose their preference for dogs oer cats?",
+      "learner_turn": "Okay, but I still think Students had two options to choose their preference for dogs. Maybe the answer is 8?",
+      "input_tokens": 425,
+      "output_tokens": 20,
+      "latency_ms": 555.1840784270062,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Exactly. And do these groups overlap or are they separate?",
+      "learner_turn": "I think I see — so instead I should... The two groups overlap because some students chose both dogs. Does that mean the answer is 19?",
+      "input_tokens": 421,
+      "output_tokens": 26,
+      "latency_ms": 548.0900341685369,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)You are correct that the students prefer dogs oer cats is the sum of the two groups, however these groups do not overlap as they are two separate options, as you indicated previously. Now that we know the total number of students who prefer dogs over cats is the sum of the two groups, how many students prefer dogs over cats?",
+      "learner_turn": "I think I see — so instead I should... The total number of students who prefer dogs over cats is 15. Does that mean the answer is 26?",
+      "input_tokens": 472,
+      "output_tokens": 28,
+      "latency_ms": 280.492632891413,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)Excellent work this is the correct answer.",
+      "learner_turn": "I think I see — so instead I should... Sure, I used the equation 15 + 3 + x = 30, where x is the nu. Does that mean the answer is 30?",
+      "input_tokens": 418,
+      "output_tokens": 33,
+      "latency_ms": 796.6480295362456,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nDuring a unit on probability, a teacher surveys her class asking her students two questions.  The first question was whether they prefer dogs or cats, and the second question was whether they movies or video games.  Of the 42.4 students in her class, 61.8% chose dogs and video games as their two answers, while 12.4% chose dogs and movies as their two answers.  In total, how many students in this teacher's class prefer dogs over cats?",
+      "learner_turn": "Hmm, let me try. Student thought that there was an additi I think the answer might be 12.",
+      "input_tokens": 504,
+      "output_tokens": 18,
+      "latency_ms": 374.5275167977137,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_1082",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.172589",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3571,
+  "total_output_tokens": 268,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nMrs. Choi purchased a house for $80000. Five years later, she sold it for a 20% profit and got a 5% broker's commission from the original price. How much did the house sell for?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nLuca is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student was appearing g to see the commission as something to pay not gain\n\nYOUR INITIAL INCORRECT ATTEMPT:\nMrs. Choi's profit from selling the house is 20/100 x $80000 = $16000.\nThe selling price of the house before the broker's commission is $80000 + $16000 = $96000.\nMrs. Choi's broker's commission is 5/100 x $80000 = $4000.\nThe selling price of the house after the broker's commission is $96000 - $4000 = $92000.\n 92000\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Could you explain your final step to me as you have done well until then",
+      "learner_turn": "Mrs. Choi's profit from selling the house is 20/100 x $80000 = $16000.\nThe selling price of the hous I used this approach because The student was appearing g to see the commission as somethi.",
+      "input_tokens": 358,
+      "output_tokens": 35,
+      "latency_ms": 798.8761569495485,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Could you explain why you too, the commission away as this was something she received",
+      "learner_turn": "Okay, but I still think Yes. The broker's commission was 5% of the original price of. Maybe the answer is 43?",
+      "input_tokens": 358,
+      "output_tokens": 21,
+      "latency_ms": 240.67427417617358,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)The selling price of the house is 96000 plus she received the profit so what should we do",
+      "learner_turn": "I think I see — so instead I should... Mrs. Choi received a 20% profit on the original price of the. Does that mean the answer is 48?",
+      "input_tokens": 361,
+      "output_tokens": 28,
+      "latency_ms": 706.1939596458056,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)96000 plus the 400 would be",
+      "learner_turn": "I think I see — so instead I should... The total selling price of the house is $96000 which is the . Does that mean the answer is 31?",
+      "input_tokens": 349,
+      "output_tokens": 29,
+      "latency_ms": 600.8854203092112,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic).?",
+      "learner_turn": "I think I see — so instead I should... Is there anything else I can help you with?. Does that mean the answer is 44?",
+      "input_tokens": 344,
+      "output_tokens": 25,
+      "latency_ms": 301.84166559452495,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)What is the 96000 plus the 4000",
+      "learner_turn": "I think I see — so instead I should... The total selling price of the house is $96000 which is the . Does that mean the answer is 20?",
+      "input_tokens": 350,
+      "output_tokens": 29,
+      "latency_ms": 247.40051458806514,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)No we need to had the selling price plus 4000",
+      "learner_turn": "I think I see — so instead I should... The total selling price of the house before deducting the br. Does that mean the answer is 21?",
+      "input_tokens": 353,
+      "output_tokens": 27,
+      "latency_ms": 479.727276921405,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)you have to add 96,000 plus 4,000 to get the correct answer",
+      "learner_turn": "I think I see — so instead I should... The total selling price of the house before deducting the br. Does that mean the answer is 42?",
+      "input_tokens": 355,
+      "output_tokens": 27,
+      "latency_ms": 241.41432103031346,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)You do not deduct you add",
+      "learner_turn": "I think I see — so instead I should... That's correct. The total selling price of the house before . Does that mean the answer is 30?",
+      "input_tokens": 349,
+      "output_tokens": 27,
+      "latency_ms": 679.3162201020823,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nMrs. Choi purchased a house for $117541.6. Five years later, she sold it for a 28.6% profit and got a 7.3% broker's commission from the original price. How much did the house sell for?",
+      "learner_turn": "Hmm, let me try. The student was appearing g to see the c I think the answer might be 17.",
+      "input_tokens": 394,
+      "output_tokens": 20,
+      "latency_ms": 358.60977921577046,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

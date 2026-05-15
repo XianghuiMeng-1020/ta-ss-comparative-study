@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1066",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.054748",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": true,
+  "exclusion_code": "E2",
+  "exclusion_reason": "Turn 0: non-math content (war)",
+  "total_input_tokens": 211,
+  "total_output_tokens": 163,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Seth, Explain to me how you got to your answer.",
+      "learner_turn": "To solve this problem, He paid 25% of the new home price because 100 - 75 = 25\nHe paid $125,000 towards. The answer is He paid 25% of the n.",
+      "input_tokens": 23,
+      "output_tokens": 31,
+      "latency_ms": 311.5901493026734,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)I like your equation for working out how much Tommy paid for the new house. That is exactly right. Now lets think about how much is first home must be worth.",
+      "learner_turn": "To solve this problem, He paid 25% of the new home price because 100 - 75 = 25\nHe paid $125,000 towards. The answer is He paid 25% of the n.",
+      "input_tokens": 43,
+      "output_tokens": 31,
+      "latency_ms": 798.5463733964239,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Remember though he took a loan for %75.",
+      "learner_turn": "To solve this problem, He paid 25% of the new home price because 100 - 75 = 25\nHe paid $125,000 towards. The answer is He paid 25% of the n.",
+      "input_tokens": 20,
+      "output_tokens": 31,
+      "latency_ms": 726.306914534142,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)We know that he paid $125,00 towards his new home. We now need to divide the 125,000 by 1.25 to work out the solution.",
+      "learner_turn": "To solve this problem, He paid 25% of the new home price because 100 - 75 = 25\nHe paid $125,000 towards. The answer is He paid 25% of the n.",
+      "input_tokens": 36,
+      "output_tokens": 31,
+      "latency_ms": 708.1206576947739,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Exactly right. Well done.",
+      "learner_turn": "To solve this problem, He paid 25% of the new home price because 100 - 75 = 25\nHe paid $125,000 towards. The answer is He paid 25% of the n.",
+      "input_tokens": 16,
+      "output_tokens": 31,
+      "latency_ms": 217.68120580445088,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nTommy's home is worth 33.5% more than he bought it for. He sells it and buys a new house that costs $656.7,0. If he had to take a loan for the 96.3% he can't pay, how much did he buy his first house for?",
+      "learner_turn": "The answer to that problem would be 45.",
+      "input_tokens": 73,
+      "output_tokens": 8,
+      "latency_ms": 746.2012366526603,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

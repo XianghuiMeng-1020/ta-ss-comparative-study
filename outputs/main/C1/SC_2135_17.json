@@ -1,0 +1,92 @@
+{
+  "scenario_id": "SC_2135",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.370767",
+  "n_tutor_turns": 7,
+  "n_learner_turns": 7,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2791,
+  "total_output_tokens": 240,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nFlies are Betty's frog's favorite food. Every day the frog eats 2 flies. Betty puts the flies she finds in a bottle. In the morning Betty catches 5 flies inside a bottle, and in the afternoon she catches 6 more, but when she removes the lid, one escapes.  Betty wants to gather the whole week's food for her frog. How many more flies does she need?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nBetty catches 5+6 = 11 flies in a day.\nBut one escaped, so she has 11-1 = 10 flies in a day.\nIn a week, there are 7 days, so Betty gathers 7 x 10 = 70 flies.\nThe frog eats 2 flies a day, so in a week, it eats 2 x 7 = 14 flies.\nTherefore, Betty needs 70-14 = 56 more flies. \n 56\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jia, can you tell me how you got your answer?",
+      "learner_turn": "So I tried this problem. My approach was: Betty catches 5+6 = 11 flies in a day.\nBut one escaped, so she has 11-1 = 10 fli. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 377,
+      "output_tokens": 40,
+      "latency_ms": 609.824995256094,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)You said that you multiplied 10x 7 to get the total number of flies Betty can catch in a week, but that's not what we need to find out-we need to figure out how many flies Betty still needs to catch if the frog eats 2 flies per day",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 1? Let me redo: Oh, right. I forgot to take into account the flies the frog ",
+      "input_tokens": 415,
+      "output_tokens": 30,
+      "latency_ms": 394.44419362306064,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Yes, the frog eats 14 flies per week.  Betty currently has 10 flies right now, yes?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Yes, Betty has 10 flies right now. So, she needs 56 more fli. So the answer is 12?",
+      "input_tokens": 382,
+      "output_tokens": 30,
+      "latency_ms": 676.136062412723,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)How many flies does Betty need to feed the frog for a week if it eats 2 flies per day?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 1? Let me redo: Betty needs 70-14 = 56 more flies to feed the frog for a wee",
+      "input_tokens": 386,
+      "output_tokens": 32,
+      "latency_ms": 243.53692680521974,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Where is the number 70 from?",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 9? Let me redo: The number 70 is from the total number of flies Betty can ca",
+      "input_tokens": 372,
+      "output_tokens": 31,
+      "latency_ms": 518.475775997523,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)No, we don't need to know how many flies Betty can catch in a week, we only need to know how many MORE Betty needs to feed the frog for a week, if she needs 14 flies a week and she already has 10",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 3? Let me redo: Oh right, if Betty already has 10 flies and the frog needs 1",
+      "input_tokens": 410,
+      "output_tokens": 31,
+      "latency_ms": 387.36984450695365,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nFlies are Betty's frog's favorite food. Every day the frog eats 2.6 flies. Betty puts the flies she finds in a bottle. In the morning Betty catches 7.1 flies inside a bottle, and in the afternoon she catches 9.0 more, but when she removes the lid, one escapes.  Betty wants to gather the whole week's food for her frog. How many more flies does she need?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Flies are Betty's frog's favorite food. Every day ... I get approximately 9 as my answer. Does that seem right?",
+      "input_tokens": 449,
+      "output_tokens": 46,
+      "latency_ms": 296.5411454975955,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

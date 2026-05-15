@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1253",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.196298",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 189,
+  "total_output_tokens": 54,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)would you please check how many calories Jonathan eats on a Saturday in total given the same as the rest of the week plus the extras",
+      "learner_turn": "On Saturday, Jonathan eats 2500 + 1000 = 3500 calories in total",
+      "input_tokens": 35,
+      "output_tokens": 12,
+      "latency_ms": 774.8298286505614,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)so if you add this to the total you got for the sunday to Friday how many does he eat in a week",
+      "learner_turn": "Jonathan eats 16000 + 3500 = 19500 calories in a week",
+      "input_tokens": 32,
+      "output_tokens": 11,
+      "latency_ms": 512.8761853748005,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)try to re check as you first said he ate 15000 sunday to friday so this is the figure to add to his saturday total",
+      "learner_turn": "Jonathan eats 15000 + 3500 = 18500 calories in a week",
+      "input_tokens": 34,
+      "output_tokens": 11,
+      "latency_ms": 466.46252942909257,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)so now we need to take this from the calories he burnt which you correctly said was 21000 , what would this make your answer",
+      "learner_turn": "Jonathan's weekly caloric deficit is 21000 - 18500 = 2500 calories.",
+      "input_tokens": 34,
+      "output_tokens": 11,
+      "latency_ms": 787.924825959379,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJonathan eats 3626.6 calories every day except for Saturday, when he consumes an extra 1320.8 calories.  He burns 3906.2 calories every day.  What is his weekly caloric deficit?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 54,
+      "output_tokens": 9,
+      "latency_ms": 243.62230261640354,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

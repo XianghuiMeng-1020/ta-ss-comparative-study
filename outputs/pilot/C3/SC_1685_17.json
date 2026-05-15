@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1685",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.118791",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 222,
+  "total_output_tokens": 151,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Walk me through your solution?",
+      "learner_turn": "To find the number of candles on Rupert's cake, I first multiplied Peter's age (1 year) by 3.5 to get 3.5 years. Then I ",
+      "input_tokens": 14,
+      "output_tokens": 24,
+      "latency_ms": 698.5920911452729,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How old can we assume peter is?",
+      "learner_turn": "We can assume that Peter is 1 year old since Rupert is 3 and 1/2 times older than Peter.",
+      "input_tokens": 16,
+      "output_tokens": 19,
+      "latency_ms": 614.4414171398233,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)How many candles were on Peters cake and what do these normally represent?",
+      "learner_turn": "Peter had 10 candles on his cake, which normally represent the age of the person whose birthday it is.",
+      "input_tokens": 22,
+      "output_tokens": 19,
+      "latency_ms": 450.75194787659575,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)So how old was Peter?",
+      "learner_turn": "Peter was 1 year old.",
+      "input_tokens": 14,
+      "output_tokens": 5,
+      "latency_ms": 585.5006829251539,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Peter is 10 years old as he has 10 candles on his cakde",
+      "learner_turn": "That's correct. Peter was 1 year old and had 10 candles on his cake, representing his age.",
+      "input_tokens": 22,
+      "output_tokens": 17,
+      "latency_ms": 556.8747027766108,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)Peter is 10 years old",
+      "learner_turn": "That's correct. Peter is 10 years old and Rupert is 3 and 1/2 times older than Peter, making him 3.5 years older.",
+      "input_tokens": 14,
+      "output_tokens": 22,
+      "latency_ms": 666.2311899070706,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)Rupert is dad is 3.5 times older than peter. What mathematical word also means times?",
+      "learner_turn": "The mathematical word for times is multiplication. Rupert is 3.5 times older than Peter, which is the same as saying he ",
+      "input_tokens": 24,
+      "output_tokens": 21,
+      "latency_ms": 617.6896302188529,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)So if Peter is 10 and Rupert is 3.5 multiplied by Peters age how old is rupert?",
+      "learner_turn": "Rupert is 3.5 multiplied by Peter's age which is 10, making Rupert 35 years old.",
+      "input_tokens": 26,
+      "output_tokens": 15,
+      "latency_ms": 492.2619099238203,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nPeter and his dad Rupert shared the same birthday.  To make it special, they each got their own birthday cake.  Peter has 12.4 candles on his cake.  Rupert is 4.0 and 1.3/2.6 times older than Peter.  How many candles will be on Rupert's cake?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 70,
+      "output_tokens": 9,
+      "latency_ms": 580.6812879548846,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

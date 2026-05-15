@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1398",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.083599",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2072,
+  "total_output_tokens": 130,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nWhen Jason plays the video game, Duty for Ashes, his mission to slay the dragon hoard requires that he fire his weapon on average every 15 seconds.   And each time he fires his weapon, his power-fire setting allows him to shoot a flame for 5 seconds.  On average, how many seconds per minute does Jason shoot flames at the dragon hoard?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nJia is a 7th grade student. She has problem with understanding of underlying ideas and principles and a recognition of when to apply them.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nmisinterpreted the time he shoots his gun for\n\nYOUR INITIAL INCORRECT ATTEMPT:\nJason fires his weapon every 15 seconds, so he shoots flames for 5 seconds every 15 seconds. This means he shoots flames for 5/15 = 1/3 of each 15-second interval.\nThere are 60 seconds in a minute, so there are 60/15 = 4 intervals of 15 seconds in a minute.\nTherefore, Jason shoots flames for 4 x 1/3 = 4/3 minutes per minute.\nConverting this fraction to seconds, we get 4/3 x 60 = 80 seconds per minute.\n 80\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi , could you please walk me through your solution?",
+      "learner_turn": "Jason fires his weapon every 15 seconds, so he shoots flames for 5 seconds every 15 seconds. This me I used this approach because misinterpreted the time he shoots his gun for.",
+      "input_tokens": 394,
+      "output_tokens": 32,
+      "latency_ms": 301.00384000123677,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)there is a mistake in here. could you please tell me how many times does he shoots his weapon in a minute if one time shooting takes 15 seconds?",
+      "learner_turn": "Okay, but I still think He shoots his weapon 4 times in a minute, since each time he. Maybe the answer is 16?",
+      "input_tokens": 413,
+      "output_tokens": 23,
+      "latency_ms": 678.4178018384912,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Good. after each shooting he throws flame for 10 seconds. so how many times he throws flame after shooting",
+      "learner_turn": "I think I see — so instead I should... After each shooting, he throws a flame for 5 seconds. So, in. Does that mean the answer is 39?",
+      "input_tokens": 403,
+      "output_tokens": 28,
+      "latency_ms": 545.7744274433916,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)20 seconds is not as same as 1 minute. but 20 seconds is the correct answer",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. Yes, you're right. In a minute, he throws a flame. Does that mean the answer is 49?",
+      "input_tokens": 400,
+      "output_tokens": 29,
+      "latency_ms": 319.3088811081767,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nWhen Jason plays the video game, Duty for Ashes, his mission to slay the dragon hoard requires that he fire his weapon on average every 18.2 seconds.   And each time he fires his weapon, his power-fire setting allows him to shoot a flame for 6.0 seconds.  On average, how many seconds per minute does Jason shoot flames at the dragon hoard?",
+      "learner_turn": "Hmm, let me try. misinterpreted the time he shoots his gu I think the answer might be 10.",
+      "input_tokens": 462,
+      "output_tokens": 18,
+      "latency_ms": 247.9841133716488,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

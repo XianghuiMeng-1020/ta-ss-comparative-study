@@ -1,0 +1,103 @@
+{
+  "scenario_id": "SC_1314",
+  "condition": "C1_ablate_revise",
+  "condition_label": "Teachable Agent",
+  "seed": 17,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:05.034007",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2703,
+  "total_output_tokens": 274,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nJohn is twice as old as Mary and half as old as Tonya. If Tanya is 60, what is their average age?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nIf John is half as old as Tanya, then he is 60 x 2 = 120 years old.\nIf John is twice as old as Mary, then Mary is 120/2 = 60 years old.\nThe total age of John and Mary is 120 + 60 = 180 years old.\nThe average age of John, Mary, and Tanya is (180 + 60)/3 = 80 years old.\n 80\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)If john is half the age of tanya, and she is 60, how old does that make him?",
+      "learner_turn": "So I tried this problem. My approach was: If John is half as old as Tanya, then he is 60 x 2 = 120 years old.\nIf John is t. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 340,
+      "output_tokens": 43,
+      "latency_ms": 474.62786127113475,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)he is half her age, not double. by x2 you are doubling.",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 5? Let me redo: Oh, I see. John is 60/2 = 30 years old.",
+      "input_tokens": 334,
+      "output_tokens": 28,
+      "latency_ms": 351.5591224105972,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)now use this info to solve the problem again",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 7? Let me redo: The total age of John and Mary is 30 + 60 = 90 years old. Th",
+      "input_tokens": 331,
+      "output_tokens": 34,
+      "latency_ms": 219.92552777509587,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)you're right that you have 60 and 30, but you've forgotten to work out Mary's age. she is half of john's age, remember.",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Oh, right. Mary is 30/2 = 15 years old. The total age of Joh. So the answer is 23?",
+      "input_tokens": 345,
+      "output_tokens": 31,
+      "latency_ms": 484.2591584263945,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)you need to add the 3 ages together",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 6? Let me redo: The total age of John, Mary, and Tanya is 45 + 15 + 60 = 120",
+      "input_tokens": 330,
+      "output_tokens": 34,
+      "latency_ms": 480.0040728203155,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)you've told me that mary is 15, john is 30 and Tanya is 60. add these uo",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 2? Let me redo: The total age of John, Mary, and Tanya is 15 + 30 + 60 = 105",
+      "input_tokens": 339,
+      "output_tokens": 34,
+      "latency_ms": 783.0626117533147,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(generic)fab",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 1? Let me redo: Thank you!",
+      "input_tokens": 323,
+      "output_tokens": 20,
+      "latency_ms": 795.4796397192089,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJohn is twice as old as Mary and half as old as Tonya. If Tanya is 85.0, what is their average age?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: John is twice as old as Mary and half as old as To... I get approximately 45 as my answer. Does that seem right?",
+      "input_tokens": 361,
+      "output_tokens": 50,
+      "latency_ms": 546.6852835655862,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C1"
+}

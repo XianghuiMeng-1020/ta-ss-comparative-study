@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0561",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.087421",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 436,
+  "total_output_tokens": 308,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)show me how you worked thi sout please?",
+      "learner_turn": "To solve this problem, He has enough milk for 20 glasses of chocolate milk because 130 / 6.5 = 20\nHe ha. The answer is He has enough milk f.",
+      "input_tokens": 20,
+      "output_tokens": 30,
+      "latency_ms": 371.2158627528187,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)ok i can see how you have approached this but we need to ascertain how much he can make with the supplies he actually has. so please consider this",
+      "learner_turn": "To solve this problem, He has enough milk for 20 glasses of chocolate milk because 130 / 6.5 = 20\nHe ha. The answer is He has enough milk f.",
+      "input_tokens": 41,
+      "output_tokens": 30,
+      "latency_ms": 768.5326895841167,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)can we break it down into smaller steps rather than looking at the 2 ingredients combined. how much milk does he have enough of to make how much chocolate milk?",
+      "learner_turn": "To solve this problem, He has enough milk for 20 glasses of chocolate milk because 130 / 6.5 = 20\nHe ha. The answer is He has enough milk f.",
+      "input_tokens": 42,
+      "output_tokens": 30,
+      "latency_ms": 686.2140445954406,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)you over overcomplicating this please wait until i prompted you for the next step . yes he has enough milk to make 20 glasses. how much chocolate syrup does he have t o make the chocolate milk?",
+      "learner_turn": "To solve this problem, He has enough milk for 20 glasses of chocolate milk because 130 / 6.5 = 20\nHe ha. The answer is He has enough milk f.",
+      "input_tokens": 49,
+      "output_tokens": 30,
+      "latency_ms": 477.3936259645753,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)ok so if he has enough ingredients to make 20 glasses of chocolate milk. ho wmuch do we know in ounces each milk holds ?",
+      "learner_turn": "To solve this problem, He has enough milk for 20 glasses of chocolate milk because 130 / 6.5 = 20\nHe ha. The answer is He has enough milk f.",
+      "input_tokens": 37,
+      "output_tokens": 30,
+      "latency_ms": 636.4115547537949,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)if you read the question it only asks you how much in ounces of chocolate milk he will drink?",
+      "learner_turn": "To solve this problem, He has enough milk for 20 glasses of chocolate milk because 130 / 6.5 = 20\nHe ha. The answer is He has enough milk f.",
+      "input_tokens": 31,
+      "output_tokens": 30,
+      "latency_ms": 771.7156528603473,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)it doesnt ask about the syrup the ingredients have already been combined to make the chocolate milk. so 20 glasses = how many ounces of chocolate milk only?",
+      "learner_turn": "To solve this problem, He has enough milk for 20 glasses of chocolate milk because 130 / 6.5 = 20\nHe ha. The answer is He has enough milk f.",
+      "input_tokens": 40,
+      "output_tokens": 30,
+      "latency_ms": 471.9498752428442,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)20 glasses * 8 ounces =the amount of chocolate milk",
+      "learner_turn": "To solve this problem, He has enough milk for 20 glasses of chocolate milk because 130 / 6.5 = 20\nHe ha. The answer is He has enough milk f.",
+      "input_tokens": 22,
+      "output_tokens": 30,
+      "latency_ms": 551.3698266223973,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)no it is ? ounces as you have already used the chocolate syrup to make th emilk into chocolate flavour",
+      "learner_turn": "To solve this problem, He has enough milk for 20 glasses of chocolate milk because 130 / 6.5 = 20\nHe ha. The answer is He has enough milk f.",
+      "input_tokens": 32,
+      "output_tokens": 30,
+      "latency_ms": 342.2549733895212,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)no it is 160 ounces because 20 *8 =?",
+      "learner_turn": "To solve this problem, He has enough milk for 20 glasses of chocolate milk because 130 / 6.5 = 20\nHe ha. The answer is He has enough milk f.",
+      "input_tokens": 21,
+      "output_tokens": 30,
+      "latency_ms": 401.79560773122034,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nCharles is wondering how much chocolate milk he can make with all the supplies he finds in the fridge. He is going to keep drinking 9.8-ounce glasses until he uses up all the ingredients. Each glass must contain 9.4 ounces of milk and 2.1 ounces of chocolate syrup. If he has 168.1 ounces of milk and 86.0 ounces of chocolate syrup, how many total ounces ounce of chocolate milk will he drink?",
+      "learner_turn": "The answer to that problem would be 23.",
+      "input_tokens": 101,
+      "output_tokens": 8,
+      "latency_ms": 720.1889543039298,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

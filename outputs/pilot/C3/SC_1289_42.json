@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1289",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.074371",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 193,
+  "total_output_tokens": 126,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)How much did Fred earn from washing the car",
+      "learner_turn": "He earned 6 dollars",
+      "input_tokens": 18,
+      "output_tokens": 4,
+      "latency_ms": 249.37960072993522,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How much did he have before",
+      "learner_turn": "He had 14 dollars before washing the car",
+      "input_tokens": 15,
+      "output_tokens": 8,
+      "latency_ms": 201.2729824706032,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)After being given 6 dollars for washing the car how much did he have",
+      "learner_turn": "He had 20 dollars after being given 6 dollars for washing the car",
+      "input_tokens": 23,
+      "output_tokens": 13,
+      "latency_ms": 322.1193900168073,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)he had 14 at the end",
+      "learner_turn": "That means he had to have started with 14 + 6 = 20 dollars",
+      "input_tokens": 15,
+      "output_tokens": 14,
+      "latency_ms": 394.3059296222133,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)He hadn't been given the 6",
+      "learner_turn": "Oh, right. That means he had to have started with 14 dollars. So, his weekly allowance is 14 dollars",
+      "input_tokens": 15,
+      "output_tokens": 19,
+      "latency_ms": 535.8318046242617,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)The 14 is at the end. Take away the 6 first",
+      "learner_turn": "That means he had 8 dollars before washing the car. So, his weekly allowance is 8 dollars",
+      "input_tokens": 20,
+      "output_tokens": 17,
+      "latency_ms": 280.17064748195514,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)He was left with 8 after the movie",
+      "learner_turn": "That means he had to have started with 8 + 6 = 14 dollars. So, his weekly allowance is 14 dollars",
+      "input_tokens": 17,
+      "output_tokens": 21,
+      "latency_ms": 305.74873586201534,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)2 x 8 = 16",
+      "learner_turn": "That means he had to have started with 16 + 6 = 22 dollars. So, his weekly allowance is 22 dollars",
+      "input_tokens": 14,
+      "output_tokens": 21,
+      "latency_ms": 346.50198462156516,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nFred spent half of his allowance going to the movies. He washed the family car and earned 8.6 dollars. What is his weekly allowance if he ended with 20.7 dollars?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 56,
+      "output_tokens": 9,
+      "latency_ms": 475.4434521736665,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

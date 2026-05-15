@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_1260",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.202598",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 290,
+  "total_output_tokens": 269,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi can you talk me through your answer",
+      "learner_turn": "To solve this problem, After driving to the store and doctor’s office, Winston has 10 - 6 - 2 = 2 gallo. The answer is After driving to the.",
+      "input_tokens": 20,
+      "output_tokens": 29,
+      "latency_ms": 693.6073131716247,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Ok how many gallons did winston use in total",
+      "learner_turn": "To solve this problem, After driving to the store and doctor’s office, Winston has 10 - 6 - 2 = 2 gallo. The answer is After driving to the.",
+      "input_tokens": 21,
+      "output_tokens": 29,
+      "latency_ms": 412.9923830571274,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)yes so how much fuel has he got left",
+      "learner_turn": "To solve this problem, After driving to the store and doctor’s office, Winston has 10 - 6 - 2 = 2 gallo. The answer is After driving to the.",
+      "input_tokens": 21,
+      "output_tokens": 29,
+      "latency_ms": 496.94210070965994,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)The question says he started with 10 gallons of fuel so how much did he have left",
+      "learner_turn": "To solve this problem, After driving to the store and doctor’s office, Winston has 10 - 6 - 2 = 2 gallo. The answer is After driving to the.",
+      "input_tokens": 29,
+      "output_tokens": 29,
+      "latency_ms": 537.1390827293446,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)yes he has 2 gallons left. how much does a full tank hold",
+      "learner_turn": "To solve this problem, After driving to the store and doctor’s office, Winston has 10 - 6 - 2 = 2 gallo. The answer is After driving to the.",
+      "input_tokens": 25,
+      "output_tokens": 29,
+      "latency_ms": 340.73581171893136,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)If he has 2 gallons left and a tank holds 12 gallons how much more will he need",
+      "learner_turn": "To solve this problem, After driving to the store and doctor’s office, Winston has 10 - 6 - 2 = 2 gallo. The answer is After driving to the.",
+      "input_tokens": 30,
+      "output_tokens": 29,
+      "latency_ms": 502.31514544724,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)You are saying that 2+4=12",
+      "learner_turn": "To solve this problem, After driving to the store and doctor’s office, Winston has 10 - 6 - 2 = 2 gallo. The answer is After driving to the.",
+      "input_tokens": 17,
+      "output_tokens": 29,
+      "latency_ms": 620.9986471332652,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)2+4=6",
+      "learner_turn": "To solve this problem, After driving to the store and doctor’s office, Winston has 10 - 6 - 2 = 2 gallo. The answer is After driving to the.",
+      "input_tokens": 13,
+      "output_tokens": 29,
+      "latency_ms": 788.2834169784135,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)if he had 2 gallons left he would need another 10 to make 12",
+      "learner_turn": "To solve this problem, After driving to the store and doctor’s office, Winston has 10 - 6 - 2 = 2 gallo. The answer is After driving to the.",
+      "input_tokens": 26,
+      "output_tokens": 29,
+      "latency_ms": 787.1733833962049,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nWinston had 12.1 gallons of gas in his car’s gas tank. He drives to the store and uses 7.4 gallons of gas. Then he drives to the doctor’s office and uses 2.7 gallons of gas. If the tank can hold up to 17.1 gallons of gas, how many gallons of gas will Winston need to refill the entire tank?",
+      "learner_turn": "The answer to that problem would be 49.",
+      "input_tokens": 88,
+      "output_tokens": 8,
+      "latency_ms": 490.24650833040835,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

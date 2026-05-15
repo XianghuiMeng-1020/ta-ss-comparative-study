@@ -1,0 +1,133 @@
+{
+  "scenario_id": "SC_0243",
+  "condition": "C2_ablate_misconception",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:05.066998",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 4356,
+  "total_output_tokens": 304,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nThe Giants baseball team is trying to make their league playoff. They have played 20 games and won 12 of them. To make the playoffs, they need to win 2/3 of their games over the season. If there are 10 games left, how many do they have to win to make the playoffs?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nSteven is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student was including an unnecessary step at the end when they were taking into account how many games were remaining\n\nYOUR INITIAL INCORRECT ATTEMPT:\nTo make the playoffs, the Giants need to win 2/3 x 30 = 20 games over the season.\nThey have already won 12 games, so they need to win 20 - 12 = 8 more games.\nSince there are 10 games left, they need to win at least 80% of the remaining games.\nTherefore, they need to win at least 8 games x 80% = 6.4 games, which rounds up to <<7>>7 games.\n 7\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Steven, please tell me about your solution",
+      "learner_turn": "To make the playoffs, the Giants need to win 2/3 x 30 = 20 games over the season.\nThey have already  I used this approach because The student was including an unnecessary step at the end whe.",
+      "input_tokens": 390,
+      "output_tokens": 37,
+      "latency_ms": 578.7603632251115,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)how many games are there in total in a season?",
+      "learner_turn": "Okay, but I still think There are 30 games in a season.. Maybe the answer is 17?",
+      "input_tokens": 392,
+      "output_tokens": 17,
+      "latency_ms": 498.3745070291611,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)so how many do they need to win?",
+      "learner_turn": "I think I see — so instead I should... They need to win 20 games out of the 30 in the season to mak. Does that mean the answer is 7?",
+      "input_tokens": 390,
+      "output_tokens": 31,
+      "latency_ms": 226.79459125970087,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)correct, and how many have they won already?",
+      "learner_turn": "I think I see — so instead I should... The Giants have already won 12 games.. Does that mean the answer is 5?",
+      "input_tokens": 390,
+      "output_tokens": 23,
+      "latency_ms": 628.4958990186177,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)so how many more to reach 20?",
+      "learner_turn": "I think I see — so instead I should... The Giants need to win 8 more games to reach 20 and make the. Does that mean the answer is 32?",
+      "input_tokens": 389,
+      "output_tokens": 30,
+      "latency_ms": 550.4720391914234,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(generic)great, there is your solution",
+      "learner_turn": "I think I see — so instead I should... Yes, they need to win 7 games out of the remaining 10 games . Does that mean the answer is 39?",
+      "input_tokens": 387,
+      "output_tokens": 30,
+      "latency_ms": 519.0666785690241,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)why do you think 7?",
+      "learner_turn": "I think I see — so instead I should... I used the equation 2/3 x 30 = 20 to determine that they nee. Does that mean the answer is 16?",
+      "input_tokens": 387,
+      "output_tokens": 30,
+      "latency_ms": 733.648072211904,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)explain why you included that last step? you've already told me that they need to win 8 more games",
+      "learner_turn": "I think I see — so instead I should... Since there are only 10 games left in the season, they need . Does that mean the answer is 49?",
+      "input_tokens": 401,
+      "output_tokens": 29,
+      "latency_ms": 772.0549757393139,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)you don't need to consider how many games are left in the season",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. So if they have already won 12 games, they just n. Does that mean the answer is 33?",
+      "input_tokens": 395,
+      "output_tokens": 30,
+      "latency_ms": 440.0844478812446,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(generic)correct",
+      "learner_turn": "I think I see — so instead I should... My solution is that the Giants need to win 7 games out of th. Does that mean the answer is 50?",
+      "input_tokens": 383,
+      "output_tokens": 30,
+      "latency_ms": 449.3937867868741,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe Giants baseball team is trying to make their league playoff. They have played 26.2 games and won 16.3 of them. To make the playoffs, they need to win 2.8/3.9 of their games over the season. If there are 13.1 games left, how many do they have to win to make the playoffs?",
+      "learner_turn": "Hmm, let me try. The student was including an unnecessary I think the answer might be 20.",
+      "input_tokens": 452,
+      "output_tokens": 17,
+      "latency_ms": 702.4490849104482,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C2"
+}

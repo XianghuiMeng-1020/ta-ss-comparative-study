@@ -1,0 +1,92 @@
+{
+  "scenario_id": "SC_2135",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.373084",
+  "n_tutor_turns": 7,
+  "n_learner_turns": 7,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 292,
+  "total_output_tokens": 153,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jia, can you tell me how you got your answer?",
+      "learner_turn": "Sure. I started by calculating the total number of flies Betty caught in a day, which is 5+6 = 11. Then I subtracted one",
+      "input_tokens": 20,
+      "output_tokens": 24,
+      "latency_ms": 609.824995256094,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)You said that you multiplied 10x 7 to get the total number of flies Betty can catch in a week, but that's not what we need to find out-we need to figure out how many flies Betty still needs to catch if the frog eats 2 flies per day",
+      "learner_turn": "Oh, right. I forgot to take into account the flies the frog eats. So, if the frog eats 2 flies per day, that means in a ",
+      "input_tokens": 58,
+      "output_tokens": 26,
+      "latency_ms": 207.70323745177228,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Yes, the frog eats 14 flies per week.  Betty currently has 10 flies right now, yes?",
+      "learner_turn": "Yes, Betty has 10 flies right now. So, she needs 56 more flies to have enough for the week, which is 70-14 = 56.",
+      "input_tokens": 25,
+      "output_tokens": 24,
+      "latency_ms": 394.44419362306064,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)How many flies does Betty need to feed the frog for a week if it eats 2 flies per day?",
+      "learner_turn": "Betty needs 70-14 = 56 more flies to feed the frog for a week if it eats 2 flies per day.",
+      "input_tokens": 29,
+      "output_tokens": 21,
+      "latency_ms": 271.1087664673929,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Where is the number 70 from?",
+      "learner_turn": "The number 70 is from the total number of flies Betty can catch in a week, which is 7 x 10 = 70.",
+      "input_tokens": 15,
+      "output_tokens": 23,
+      "latency_ms": 315.9018897625368,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)No, we don't need to know how many flies Betty can catch in a week, we only need to know how many MORE Betty needs to feed the frog for a week, if she needs 14 flies a week and she already has 10",
+      "learner_turn": "Oh right, if Betty already has 10 flies and the frog needs 14 flies a week, then she needs 14-10 = 4 more flies to feed ",
+      "input_tokens": 53,
+      "output_tokens": 26,
+      "latency_ms": 453.3962162142871,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nFlies are Betty's frog's favorite food. Every day the frog eats 2.6 flies. Betty puts the flies she finds in a bottle. In the morning Betty catches 7.1 flies inside a bottle, and in the afternoon she catches 9.0 more, but when she removes the lid, one escapes.  Betty wants to gather the whole week's food for her frog. How many more flies does she need?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 92,
+      "output_tokens": 9,
+      "latency_ms": 243.53692680521974,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

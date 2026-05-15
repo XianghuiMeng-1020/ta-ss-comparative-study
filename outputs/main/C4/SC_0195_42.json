@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_0195",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.994109",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 193,
+  "total_output_tokens": 104,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, do you want to tell me your solution?",
+      "learner_turn": "To solve this problem, First find how long Carly runs the second week: 2 miles * 2 + 3 = 7 miles.\nThen . The answer is First find how long .",
+      "input_tokens": 21,
+      "output_tokens": 32,
+      "latency_ms": 278.28553113780936,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)OK, you are right up to your last step. If she ran 9 miles in the third week, and 5 miles less in the fourth, how many miles did she run in the fourth week?",
+      "learner_turn": "To solve this problem, First find how long Carly runs the second week: 2 miles * 2 + 3 = 7 miles.\nThen . The answer is First find how long .",
+      "input_tokens": 47,
+      "output_tokens": 32,
+      "latency_ms": 336.93898166199176,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)yes that's correct",
+      "learner_turn": "To solve this problem, First find how long Carly runs the second week: 2 miles * 2 + 3 = 7 miles.\nThen . The answer is First find how long .",
+      "input_tokens": 15,
+      "output_tokens": 32,
+      "latency_ms": 515.8789061731004,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nCarly is trying to get in shape to try out for the soccer team. She starts by running 2.7 miles a week. The second week, she runs twice as long plus 3.9 extra miles per week. The third week she runs 11.5/9.3 as much as she ran the second week. The week after that, she sprains her ankle and has to reduce her running time by 6.8 miles per week. How many miles did she run the week she was injured?",
+      "learner_turn": "The answer to that problem would be 14.",
+      "input_tokens": 110,
+      "output_tokens": 8,
+      "latency_ms": 528.4573857715034,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

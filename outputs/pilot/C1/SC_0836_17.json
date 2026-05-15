@@ -1,0 +1,152 @@
+{
+  "scenario_id": "SC_0836",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.035450",
+  "n_tutor_turns": 13,
+  "n_learner_turns": 13,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 5069,
+  "total_output_tokens": 431,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nThe ratio of boys to girls at the dance was 3:4. There were 60 girls at the dance. The teachers were 20% of the number of boys. How many people were at the dance?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nIf the ratio of boys to girls is 3:4, then the total ratio is 3+4 = 7.\nIf there were 60 girls, then the total number of people at the dance is 60/(4/7) = 105.\nLet x be the number of boys. Then we can write:\n3/4 = x/60\nSolving for x, we get:\nx = 45\nThe number of teachers is 20% of the number of boys, which is 0.2*45 = 9.\nTherefore, the total number of people at the dance is 105 + 45 + 9 = 159.\n 159\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)show me how you worked thsi out please?",
+      "learner_turn": "So I tried this problem. My approach was: If the ratio of boys to girls is 3:4, then the total ratio is 3+4 = 7.\nIf there . Wait — can you explain why we need to do that step first?",
+      "input_tokens": 367,
+      "output_tokens": 41,
+      "latency_ms": 756.3193161646723,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)show me how you worked this out please?",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 7? Let me redo: The ratio of boys to girls was 3:4, so I added 3 and 4 to ge",
+      "input_tokens": 367,
+      "output_tokens": 34,
+      "latency_ms": 448.1514073792988,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)what did you do here?",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 3? Let me redo: Oh, I see. So for this problem, the ratio of boys to girls i",
+      "input_tokens": 364,
+      "output_tokens": 32,
+      "latency_ms": 690.1382475152241,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)i can see you need to use ratios why have you added 3 and 4 because a ratio is how much one side is in relative to the other?",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 10? Let me redo: Yes, I understand how to calculate 20% of the boys. To calcu",
+      "input_tokens": 388,
+      "output_tokens": 30,
+      "latency_ms": 775.6173144706894,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)ono that is not how ratios work. it explains how much one side is compared to the other so for example 2:1 ratio if you are in a football stadium there are 2 x as many home fans in comparison to the 1 x amount of away fans. the total amount of fans in the stadium is 9999 therefore 2 parts of 9999 = the home fans leaving 1 part of the 9999= the away fans. use this concept to help you solve the problem",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 4? Let me redo: Yes, I understand. To calculate the number of teachers, I wo",
+      "input_tokens": 444,
+      "output_tokens": 29,
+      "latency_ms": 550.0854663503262,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)ok you have now correctly worked out the total amount of girl = 60 and boys = 45. the next step tells us to focus on percentages - do you understand how to calcaulate 20 per cent of the boys to work out the amount of teachers?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Yes, I understand. The total number of people at the dance i. So the answer is 34?",
+      "input_tokens": 406,
+      "output_tokens": 29,
+      "latency_ms": 456.64673513027407,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)a percentage is taking the big number and dividing it to work out the percentage for example. a necklace costs £4.50 is has a 50 per cent of tag 4.50-50 per cent = £2.25  use this to help you",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 3? Let me redo: Oh, I see. The total number of people at the dance is 60 gir",
+      "input_tokens": 398,
+      "output_tokens": 32,
+      "latency_ms": 416.16782338680105,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)yes you are correct there are 9 teachers so 2+3+4=10 use that to work out the amount of girls + the amount of boys + the amount of teachers+ to calculate how many people are at the dance pelase",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Oh, I see. I had already added the number of teachers (9) wh. So the answer is 10?",
+      "input_tokens": 398,
+      "output_tokens": 30,
+      "latency_ms": 797.1134775397952,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)the 105 is the combined amount of boys and girls so please dont allow for the twice in your calculation",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 1? Let me redo: Oh, I see. The total number of people at the dance is 60 gir",
+      "input_tokens": 379,
+      "output_tokens": 32,
+      "latency_ms": 686.8824536317394,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)you have already added the teachers as 9 so why are you adding them again?",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 5? Let me redo: Yes, I understand. The total number of people at the dance i",
+      "input_tokens": 374,
+      "output_tokens": 30,
+      "latency_ms": 386.8518935850809,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(focus)yes you have added the amount of teachers so please deduct 9 from your total as this has already been factored into your euqation",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 9? Let me redo: First, I figured out the ratio of boys to girls by adding 3 ",
+      "input_tokens": 383,
+      "output_tokens": 31,
+      "latency_ms": 558.2017078624677,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(focus)the answer 114 is the correct amount you do not need to add any more steps by either adding 9 more or taking away the 9 - can you see this now?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: The ratio of boys to girls was 3:4, so I added 3 and 4 to ge. So the answer is 32?",
+      "input_tokens": 391,
+      "output_tokens": 33,
+      "latency_ms": 607.4221246529582,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe ratio of boys to girls at the dance was 3.8:4.8. There were 75.8 girls at the dance. The teachers were 25.9% of the number of boys. How many people were at the dance?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: The ratio of boys to girls at the dance was 3.8:4.... I get approximately 22 as my answer. Does that seem right?",
+      "input_tokens": 410,
+      "output_tokens": 48,
+      "latency_ms": 422.80863855460325,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

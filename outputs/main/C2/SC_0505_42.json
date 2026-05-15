@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0505",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.061510",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 4162,
+  "total_output_tokens": 293,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nIf 1 ounce of Dawn liquid soap can make 200,000 bubbles, and Dr. Bronner's liquid soap can make twice as many bubbles per ounce as Dawn liquid soap, then how many bubbles can be made from one half ounce of an equal mixture of Dawn and Dr. Bronner's liquid soaps?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nJian is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nAssumed 1 ounce of mixed liquid instead of one-half.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nOne half ounce is equal to 0.5 x 2 = 1 ounce of the equal mixture.\nDr. Bronner's liquid soap can make 2 x 200,000 = 400,000 bubbles per ounce.\nSo, one ounce of the equal mixture can make 200,000 + 400,000 = 600,000 bubbles.\nTherefore, one half ounce of the equal mixture can make 0.5 x 600,000 = 300,000 bubbles.\n 300,000\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, could you please walk me through your solution?",
+      "learner_turn": "One half ounce is equal to 0.5 x 2 = 1 ounce of the equal mixture.\nDr. Bronner's liquid soap can mak I used this approach because Assumed 1 ounce of mixed liquid instead of one-half..",
+      "input_tokens": 364,
+      "output_tokens": 36,
+      "latency_ms": 472.0840117688869,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)One half of a 1/2-ounce liquid is how many ounces?",
+      "learner_turn": "Okay, but I still think One fourth of an ounce. 0.25 ounces.. Maybe the answer is 40?",
+      "input_tokens": 365,
+      "output_tokens": 17,
+      "latency_ms": 583.0598976526982,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Great. This means that the half ounce of the mixed liquid contains 0.25 ounces of Dawn liquid soap and 0.25 ounces of Dr Bronner's liquid. Do you get it?",
+      "learner_turn": "I think I see — so instead I should... Yes, I understand now. So, 0.25 ounces of Dawn liquid soap c. Does that mean the answer is 42?",
+      "input_tokens": 384,
+      "output_tokens": 28,
+      "latency_ms": 351.9081236005972,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)No. If one ounce of Dawn can make 200000 bubbles how many can 0.25 ounces make? Is it 200000 bubbles ?",
+      "learner_turn": "I think I see — so instead I should... Yes, 0.25 ounces of Dawn liquid soap can make 200,000 bubble. Does that mean the answer is 23?",
+      "input_tokens": 376,
+      "output_tokens": 27,
+      "latency_ms": 589.9222906582775,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)If 2 litres of paint can cover up 4 sq metres of wall, how much can 0.5 litres can cover up?",
+      "learner_turn": "I think I see — so instead I should... 0.5 litres of paint can cover up 0.5 x 4 = 2 sq metres of wa. Does that mean the answer is 46?",
+      "input_tokens": 376,
+      "output_tokens": 32,
+      "latency_ms": 281.4836134247038,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)Correct. Now find out how many bubbles can be made of 0.25 ounces of each liquids on these lines.",
+      "learner_turn": "I think I see — so instead I should... 0.25 ounces of Dawn liquid soap can make 200,000 bubbles and. Does that mean the answer is 26?",
+      "input_tokens": 374,
+      "output_tokens": 27,
+      "latency_ms": 409.739270911248,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)0.25 ounces of Dawn liquid can make 0.25*200000 = 50000 bubbles. Do you get it ?",
+      "learner_turn": "I think I see — so instead I should... Yes, I understand. 0.25 ounces of Dawn liquid soap can make . Does that mean the answer is 17?",
+      "input_tokens": 371,
+      "output_tokens": 28,
+      "latency_ms": 751.3386578863593,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)This isn't the correct answer. Can you please tell me how many ounces of Dawn and Dr Bronner liquid are there in one half ounce of the mixture if its an equal mixture?",
+      "learner_turn": "I think I see — so instead I should... Yes, one half ounce of the equal mixture contains 0.25 ounce. Does that mean the answer is 49?",
+      "input_tokens": 388,
+      "output_tokens": 27,
+      "latency_ms": 770.6317579728963,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)So, if 1 ounce of Dawn liquid can make 200000 bubbles, how many bubbles can be made from 0.25 ounces of it?",
+      "learner_turn": "I think I see — so instead I should... 0.25 ounces of Dawn liquid soap can make 200,000 bubbles.. Does that mean the answer is 40?",
+      "input_tokens": 377,
+      "output_tokens": 26,
+      "latency_ms": 503.8094913912562,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)0.25 ounces of Dawn liquid soap can make 200,000*0.25=50000 bubbles",
+      "learner_turn": "I think I see — so instead I should... Yes, 0.25 ounces of Dawn liquid soap can make 200,000 bubble. Does that mean the answer is 26?",
+      "input_tokens": 365,
+      "output_tokens": 27,
+      "latency_ms": 504.92485814656715,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIf 1.5 ounce of Dawn liquid soap can make 297.0,0 bubbles, and Dr. Bronner's liquid soap can make twice as many bubbles per ounce as Dawn liquid soap, then how many bubbles can be made from one half ounce of an equal mixture of Dawn and Dr. Bronner's liquid soaps?",
+      "learner_turn": "Hmm, let me try. Assumed 1 ounce of mixed liquid instead  I think the answer might be 21.",
+      "input_tokens": 422,
+      "output_tokens": 18,
+      "latency_ms": 488.43360564510783,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

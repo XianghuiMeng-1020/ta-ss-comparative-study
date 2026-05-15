@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_2047",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.149470",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 357,
+  "total_output_tokens": 288,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Lakisha, you've made a good start on this!  Have another look though.  How much do 4 creeping jennies cost?",
+      "learner_turn": "To solve this problem, Each pot will have 4 creeping jennies that cost $4.00 each so that's 4*4 = $16.0. The answer is Each pot will have 4.",
+      "input_tokens": 32,
+      "output_tokens": 28,
+      "latency_ms": 298.6312310231601,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)That's correct - do you see the mistake you made?",
+      "learner_turn": "To solve this problem, Each pot will have 4 creeping jennies that cost $4.00 each so that's 4*4 = $16.0. The answer is Each pot will have 4.",
+      "input_tokens": 22,
+      "output_tokens": 28,
+      "latency_ms": 667.7441442964488,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)That's not quite right but good try!  Check the cost of each planter again.  Add up the cost of 1 fern, 4 creeping jennies and 4 geraniums.",
+      "learner_turn": "To solve this problem, Each pot will have 4 creeping jennies that cost $4.00 each so that's 4*4 = $16.0. The answer is Each pot will have 4.",
+      "input_tokens": 39,
+      "output_tokens": 28,
+      "latency_ms": 547.6720750923529,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)You said earlier that 4 creeping jennies cost $16, so can you factor this in?",
+      "learner_turn": "To solve this problem, Each pot will have 4 creeping jennies that cost $4.00 each so that's 4*4 = $16.0. The answer is Each pot will have 4.",
+      "input_tokens": 27,
+      "output_tokens": 28,
+      "latency_ms": 362.4980928056476,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Not quite. Have you included 4 creeping jennies in each pot and 4 geraniums?",
+      "learner_turn": "To solve this problem, Each pot will have 4 creeping jennies that cost $4.00 each so that's 4*4 = $16.0. The answer is Each pot will have 4.",
+      "input_tokens": 26,
+      "output_tokens": 28,
+      "latency_ms": 377.77918996377673,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Did you include all plants?",
+      "learner_turn": "To solve this problem, Each pot will have 4 creeping jennies that cost $4.00 each so that's 4*4 = $16.0. The answer is Each pot will have 4.",
+      "input_tokens": 17,
+      "output_tokens": 28,
+      "latency_ms": 539.9295483514197,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)No - you haven't included all the plants.  The cost of all the plants for 1 planter is $45.  Can you take it from here?",
+      "learner_turn": "To solve this problem, Each pot will have 4 creeping jennies that cost $4.00 each so that's 4*4 = $16.0. The answer is Each pot will have 4.",
+      "input_tokens": 37,
+      "output_tokens": 28,
+      "latency_ms": 536.1894434923768,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)Why did you multiply that by 36?  We know how much one planter is, so how much are 4 planters?",
+      "learner_turn": "To solve this problem, Each pot will have 4 creeping jennies that cost $4.00 each so that's 4*4 = $16.0. The answer is Each pot will have 4.",
+      "input_tokens": 32,
+      "output_tokens": 28,
+      "latency_ms": 402.46624488928774,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(probing)If one planter is $45, how much are 4 planters?",
+      "learner_turn": "To solve this problem, Each pot will have 4 creeping jennies that cost $4.00 each so that's 4*4 = $16.0. The answer is Each pot will have 4.",
+      "input_tokens": 22,
+      "output_tokens": 28,
+      "latency_ms": 351.2957437609626,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(probing)No, I asked what is $45 x 4?",
+      "learner_turn": "To solve this problem, Each pot will have 4 creeping jennies that cost $4.00 each so that's 4*4 = $16.0. The answer is Each pot will have 4.",
+      "input_tokens": 20,
+      "output_tokens": 28,
+      "latency_ms": 651.4777305411712,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nWes wants to place a large planter pot at each corner of his rectangle-shaped pool.  Each planter will have a large palm fern that is $21.1 per plant, 6.0 creeping jennies that costs $5.5 per plant and 5.2 geraniums that cost $5.2 per plant.  How much will it cost to fill all the pots?",
+      "learner_turn": "The answer to that problem would be 49.",
+      "input_tokens": 83,
+      "output_tokens": 8,
+      "latency_ms": 254.55743970067078,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

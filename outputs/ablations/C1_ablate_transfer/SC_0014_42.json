@@ -1,0 +1,73 @@
+{
+  "scenario_id": "SC_0014",
+  "condition": "C1_ablate_transfer",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:04.998418",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1861,
+  "total_output_tokens": 176,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nIn Henry's collection of music CDs, he has 3 more country CDs than rock CDs but twice as many rock CDs as classical CDs. If he has 23 country CDs, how many classical CDs make up his collection?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nLet's start by using algebra to solve for the number of rock CDs. \n\nLet R be the number of rock CDs and C be the number of classical CDs. \n\nFrom the problem, we know: \n\nR = 2C  (twice as many rock CDs as classical CDs) \n\nR = C + 3  (3 more country CDs than rock CDs) \n\nWe can use substitution to solve for C: \n\n2C = C + 3 \n\nC = 3 \n\nTherefore, Henry has 3 classical CDs in his collection. \n\n 3\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)how many rock cds does he have?",
+      "learner_turn": "So I tried this problem. My approach was: Let's start by using algebra to solve for the number of rock CDs. \n\nLet R be the. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 362,
+      "output_tokens": 38,
+      "latency_ms": 256.0682036693292,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(telling)not quite. he has 23-3",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 1? Let me redo: Oh, right. Henry has 20 rock CDs in his collection. We can c",
+      "input_tokens": 360,
+      "output_tokens": 31,
+      "latency_ms": 626.0367079958697,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)sure! how if he has twice as many and we need todo the inverse, what would we do?",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 3? Let me redo: If we need to calculate the number of classical CDs given th",
+      "input_tokens": 373,
+      "output_tokens": 30,
+      "latency_ms": 757.3565580963648,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)yep",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 4? Let me redo: Henry has 6 rock CDs in his collection. We can calculate thi",
+      "input_tokens": 356,
+      "output_tokens": 30,
+      "latency_ms": 311.36358010548634,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIn Henry's collection of music CDs, he has 4.2 more country CDs than rock CDs but twice as many rock CDs as classical CDs. If he has 30.1 country CDs, how many classical CDs make up his collection?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: In Henry's collection of music CDs, he has 4.2 mor... I get approximately 5 as my answer. Does that seem right?",
+      "input_tokens": 410,
+      "output_tokens": 47,
+      "latency_ms": 571.0368507786768,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C1"
+}

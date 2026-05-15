@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_2162",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.158576",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 319,
+  "total_output_tokens": 256,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Hi. Could you please guide me through the solution?",
+      "learner_turn": "Sure. First, I calculated that one dozen costs $8, and two dozens cost $8 x 2 = $16. Then, I calculated that two dozens ",
+      "input_tokens": 18,
+      "output_tokens": 24,
+      "latency_ms": 459.4488665458322,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Are you sure that 3 sets of two dozens of doughnuts would cost $ 48? Can you please analyze the question once again and find out?",
+      "learner_turn": "Yes, I am sure that 3 sets of two dozens of doughnuts would cost $48. To double check, I multiplied 3 x 16 = $48, which ",
+      "input_tokens": 35,
+      "output_tokens": 26,
+      "latency_ms": 270.19535684295306,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)But the question says that each set of two dozen would cost $ 14 ?",
+      "learner_turn": "Yes, the question does say that each set of two dozen would cost $14. However, when I calculated the cost of 3 sets of 2",
+      "input_tokens": 24,
+      "output_tokens": 25,
+      "latency_ms": 265.02736547237396,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Ok. Let's focus on something else. If you buy two pencils you pay $5, but if you buy 1 pencil you pay $3 for each. How much would you save if you buy 10 pencils in sets of 2 and your friend buys them separately?",
+      "learner_turn": "If you buy 10 pencils in sets of 2, it would cost 10 x 5 = $50. If your friend buys them separately, it would cost 10 x ",
+      "input_tokens": 54,
+      "output_tokens": 28,
+      "latency_ms": 631.5014341620681,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)No. In sets of 2, I would need only 5 sets, not 10 as each set has two pencils. Do you get it now?",
+      "learner_turn": "Yes, I understand now. If you buy 5 sets of 2 pencils, it would cost 5 x 5 = $25. If your friend buys them separately, i",
+      "input_tokens": 33,
+      "output_tokens": 27,
+      "latency_ms": 548.3363779388446,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)Great. Using this concept can you solve the problem given previously to you once again?",
+      "learner_turn": "Yes. If you buy 3 sets of 2 dozens of doughnuts, it would cost 3 x 16 = $48. If you buy 6 sets of 1 dozen, it would cost",
+      "input_tokens": 24,
+      "output_tokens": 30,
+      "latency_ms": 415.3854305601344,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)Remember what we discussed about pencils?",
+      "learner_turn": "Yes, I remember. If you buy 5 sets of 2 pencils, it would cost 5 x 5 = $25. If your friend buys them separately, it woul",
+      "input_tokens": 15,
+      "output_tokens": 27,
+      "latency_ms": 606.2931383227321,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)Following what we did for pencils, can you please calculate for doughnuts?",
+      "learner_turn": "Yes. If you buy 3 sets of 2 dozens of doughnuts, it would cost 3 x 16 = $48. If you buy 6 sets of 1 dozen, it would cost",
+      "input_tokens": 21,
+      "output_tokens": 30,
+      "latency_ms": 366.0708897570522,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)NO. If you buy 3 sets of 2 dozens with each set costing $ 14, you actually pay 3*14 = $ 42",
+      "learner_turn": "Yes, you are right. If you buy 3 sets of 2 dozens of doughnuts, it would cost 3 x 14 = $42. If you buy 6 sets of 1 dozen",
+      "input_tokens": 31,
+      "output_tokens": 30,
+      "latency_ms": 291.74108842126907,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIf you buy a dozen of doughnuts, it costs $9.8; but if you buy 2.5 dozens, it costs $19.0. How much will you save from buying 4.4 sets of 2.4 dozens than buying 7.2 sets of 1.3 dozen?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 64,
+      "output_tokens": 9,
+      "latency_ms": 303.31471380686344,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

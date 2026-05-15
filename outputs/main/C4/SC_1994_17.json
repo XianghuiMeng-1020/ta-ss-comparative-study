@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1994",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.358453",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 292,
+  "total_output_tokens": 232,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi. Can you talk me through your answer?",
+      "learner_turn": "To solve this problem, Start by finding the total that is left, $1700 car price - $500 earned at car wa. The answer is Start by finding the.",
+      "input_tokens": 20,
+      "output_tokens": 28,
+      "latency_ms": 565.2118670840221,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)So Brad's share was what?",
+      "learner_turn": "To solve this problem, Start by finding the total that is left, $1700 car price - $500 earned at car wa. The answer is Start by finding the.",
+      "input_tokens": 17,
+      "output_tokens": 28,
+      "latency_ms": 464.61570753637017,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Ok so everyone is paying $200 but without Brad they are $200 short.",
+      "learner_turn": "To solve this problem, Start by finding the total that is left, $1700 car price - $500 earned at car wa. The answer is Start by finding the.",
+      "input_tokens": 25,
+      "output_tokens": 28,
+      "latency_ms": 355.4043314125896,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Do they each need to pay the full share of Brad",
+      "learner_turn": "To solve this problem, Start by finding the total that is left, $1700 car price - $500 earned at car wa. The answer is Start by finding the.",
+      "input_tokens": 23,
+      "output_tokens": 28,
+      "latency_ms": 343.30526508916216,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)So if each is paying $800.  That would be 800x5",
+      "learner_turn": "To solve this problem, Start by finding the total that is left, $1700 car price - $500 earned at car wa. The answer is Start by finding the.",
+      "input_tokens": 22,
+      "output_tokens": 28,
+      "latency_ms": 300.20660860126975,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Is the car $4000?",
+      "learner_turn": "To solve this problem, Start by finding the total that is left, $1700 car price - $500 earned at car wa. The answer is Start by finding the.",
+      "input_tokens": 16,
+      "output_tokens": 28,
+      "latency_ms": 350.34376709665537,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)You correctly identified that each share would be $200 with Brad.  If Brad doesn't pay then they are $200 short.  What is $200 shared between 5 people",
+      "learner_turn": "To solve this problem, Start by finding the total that is left, $1700 car price - $500 earned at car wa. The answer is Start by finding the.",
+      "input_tokens": 39,
+      "output_tokens": 28,
+      "latency_ms": 361.83601857724966,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)Great.  Well done!",
+      "learner_turn": "To solve this problem, Start by finding the total that is left, $1700 car price - $500 earned at car wa. The answer is Start by finding the.",
+      "input_tokens": 15,
+      "output_tokens": 28,
+      "latency_ms": 582.3518869013535,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA group of six friends planned to buy a car. The cost of the car is $2399.8 and they plan to share the cost equally. They had a car wash to help raise funds, which would be taken out of the total cost. The remaining cost would be split between the six friends. At the car wash, they earn $644.0. However, Brad decided not to join in the purchase of the car. How much more does each friend have to pay now that Brad isn't participating?",
+      "learner_turn": "The answer to that problem would be 43.",
+      "input_tokens": 115,
+      "output_tokens": 8,
+      "latency_ms": 302.05291874442185,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

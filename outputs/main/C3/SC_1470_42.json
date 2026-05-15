@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1470",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.259264",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 169,
+  "total_output_tokens": 151,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jordy, could you talk me through your solution?",
+      "learner_turn": "Sure, my solution was that in x years, Ahmed will be 11 + x years old and Fouad will be 26 + x years old. Then I set up ",
+      "input_tokens": 18,
+      "output_tokens": 29,
+      "latency_ms": 556.1619683644185,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Okay, not quite, let's start over. Could you simplify this for me: (X+11)*2 = X+26.",
+      "learner_turn": "Sure. We can start by subtracting 11 from both sides to get X*2 = X+15. Then we can divide both sides by 2 to get X = 15",
+      "input_tokens": 24,
+      "output_tokens": 28,
+      "latency_ms": 612.4262050894238,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)Not quite. The answer required you to simplify is to look like this: X*2 + 22 = X + 26. X represents the number of years before Fouad's age doubles Ahmed's age.",
+      "learner_turn": "Oh, I see. We can start by subtracting X from both sides to get 2X + 22 = 26. Then we can subtract 22 from both sides to",
+      "input_tokens": 41,
+      "output_tokens": 28,
+      "latency_ms": 550.5298516668806,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)The first part is correct. But you don't need to divide by 2",
+      "learner_turn": "Oh, I see. We can start by subtracting X from both sides to get 2X + 22 = 26. Then we can subtract 22 from both sides to",
+      "input_tokens": 22,
+      "output_tokens": 28,
+      "latency_ms": 796.5732966004745,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)Good well done, that was tough!",
+      "learner_turn": "Sure, my solution was that in x years, Ahmed will be 11 + x years old and Fouad will be 26 + x years old. Then I set up ",
+      "input_tokens": 15,
+      "output_tokens": 29,
+      "latency_ms": 308.94964396297974,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAhmed is 16.1 years old and Fouad is 37.4 years old. In how many years will Fouad's age be double Ahmed's current age?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 49,
+      "output_tokens": 9,
+      "latency_ms": 656.6656711338774,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

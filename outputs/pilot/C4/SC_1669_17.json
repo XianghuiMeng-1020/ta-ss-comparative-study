@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1669",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.116139",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 165,
+  "total_output_tokens": 132,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)If they use 7 grams each wash, how many grams is that per day?",
+      "learner_turn": "To solve this problem, Anne and her brother use 1 gram + 1 gram = 2 grams.\nAnne's dad uses 3 grams and . The answer is Anne and her brother.",
+      "input_tokens": 26,
+      "output_tokens": 31,
+      "latency_ms": 323.2090215643478,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)they use 7 grams per wash and how many washes per day?",
+      "learner_turn": "To solve this problem, Anne and her brother use 1 gram + 1 gram = 2 grams.\nAnne's dad uses 3 grams and . The answer is Anne and her brother.",
+      "input_tokens": 24,
+      "output_tokens": 31,
+      "latency_ms": 304.8643358024655,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)good!",
+      "learner_turn": "To solve this problem, Anne and her brother use 1 gram + 1 gram = 2 grams.\nAnne's dad uses 3 grams and . The answer is Anne and her brother.",
+      "input_tokens": 13,
+      "output_tokens": 31,
+      "latency_ms": 504.987135770576,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)so that 105 grams last how long?",
+      "learner_turn": "To solve this problem, Anne and her brother use 1 gram + 1 gram = 2 grams.\nAnne's dad uses 3 grams and . The answer is Anne and her brother.",
+      "input_tokens": 19,
+      "output_tokens": 31,
+      "latency_ms": 385.3829404666784,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe toothpaste in Anne's family's bathroom contains 129.3 grams. Anne's dad uses 4.0 grams at each brushing, her mom uses 2.7 grams, Anne and her brother use 1.3 gram each. Each member of the family brushes their teeth three times a day. How many days will it take for the toothpaste to run out?",
+      "learner_turn": "The answer to that problem would be 33.",
+      "input_tokens": 83,
+      "output_tokens": 8,
+      "latency_ms": 203.75297908662463,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1328",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.080121",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 165,
+  "total_output_tokens": 104,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(telling)walk me through this",
+      "learner_turn": "To solve this problem, There are 50 / 2 = 25 people in economy class.\nThere are 25 people in business f. The answer is There are 50 / 2 = 2.",
+      "input_tokens": 16,
+      "output_tokens": 32,
+      "latency_ms": 509.4919156534907,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(telling)There are 25 people in business first and business class, so there are 25 - 3 = 22 in business class.",
+      "learner_turn": "To solve this problem, There are 50 / 2 = 25 people in economy class.\nThere are 25 people in business f. The answer is There are 50 / 2 = 2.",
+      "input_tokens": 33,
+      "output_tokens": 32,
+      "latency_ms": 348.58421896697143,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)Thus, there are 30 - 22 = 8 unoccupied seats in business class.\n8",
+      "learner_turn": "To solve this problem, There are 50 / 2 = 25 people in economy class.\nThere are 25 people in business f. The answer is There are 50 / 2 = 2.",
+      "input_tokens": 26,
+      "output_tokens": 32,
+      "latency_ms": 739.3911105820082,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA small airplane can seat 15.0 people in first class, 38.5 in business class, and 69.7 in economy class seating. If economy class is half full, and business class and first class have the same number of people together as economy class, how many seats are unoccupied in business class if only three people on the flight have first class seats?",
+      "learner_turn": "The answer to that problem would be 7.",
+      "input_tokens": 90,
+      "output_tokens": 8,
+      "latency_ms": 494.4078468177388,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

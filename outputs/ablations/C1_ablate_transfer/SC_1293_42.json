@@ -1,0 +1,113 @@
+{
+  "scenario_id": "SC_1293",
+  "condition": "C1_ablate_transfer",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:04.985299",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3154,
+  "total_output_tokens": 326,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nIt takes Polly 20 minutes to cook breakfast every day. She spends 5 minutes cooking lunch. She spends 10 minutes cooking dinner 4 days this week. The rest of the days she spends 30 minutes cooking dinner. How many minutes does Polly spend cooking this week?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nPolly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the first four days of the week.\nShe spends 30 minutes cooking dinner on the remaining 3 days of the week, which is a total of 30 x 3 = 90 minutes.\nTherefore, Polly spends 65 + 90 = 155 minutes cooking this week.\n 155\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)How long does polly spend cooking",
+      "learner_turn": "So I tried this problem. My approach was: Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the first four days of the . Wait — can you explain why we need to do that step first?",
+      "input_tokens": 345,
+      "output_tokens": 42,
+      "latency_ms": 350.7746714338589,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How long at breakfast",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 10? Let me redo: Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir",
+      "input_tokens": 343,
+      "output_tokens": 34,
+      "latency_ms": 474.0869639163418,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)So that is what each week",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 6? Let me redo: Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir",
+      "input_tokens": 345,
+      "output_tokens": 34,
+      "latency_ms": 475.9732777835689,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)How long cooking breakfast this week",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 9? Let me redo: Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir",
+      "input_tokens": 345,
+      "output_tokens": 34,
+      "latency_ms": 303.7133705062695,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)How long cooking dinner this week",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 1? Let me redo: Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir",
+      "input_tokens": 345,
+      "output_tokens": 34,
+      "latency_ms": 566.0408609877948,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Use bodmas on that dinner sum",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 5? Let me redo: Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir",
+      "input_tokens": 345,
+      "output_tokens": 34,
+      "latency_ms": 221.38857357789146,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)(10x4) + (30x3) = 130",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 5? Let me redo: Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir",
+      "input_tokens": 344,
+      "output_tokens": 34,
+      "latency_ms": 693.7981058402977,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Wrong",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 7? Let me redo: Polly spends 20 + 5 + 10 x 4 = 65 minutes cooking on the fir",
+      "input_tokens": 340,
+      "output_tokens": 34,
+      "latency_ms": 200.52134949413772,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIt takes Polly 29.6 minutes to cook breakfast every day. She spends 6.7 minutes cooking lunch. She spends 12.0 minutes cooking dinner 5.4 days this week. The rest of the days she spends 36.7 minutes cooking dinner. How many minutes does Polly spend cooking this week?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: It takes Polly 29.6 minutes to cook breakfast ever... I get approximately 20 as my answer. Does that seem right?",
+      "input_tokens": 402,
+      "output_tokens": 46,
+      "latency_ms": 539.0017539131849,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C1"
+}

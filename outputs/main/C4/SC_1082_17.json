@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_1082",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.174524",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 261,
+  "total_output_tokens": 260,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Could you explain your final step to me as you have done well until then",
+      "learner_turn": "To solve this problem, The 20% profit amounts to $80 000 x 20/100 = $16 000.\nThe 5% commission amounts . The answer is The 20% profit amoun.",
+      "input_tokens": 27,
+      "output_tokens": 28,
+      "latency_ms": 682.7168318514355,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Could you explain why you too, the commission away as this was something she received",
+      "learner_turn": "To solve this problem, The 20% profit amounts to $80 000 x 20/100 = $16 000.\nThe 5% commission amounts . The answer is The 20% profit amoun.",
+      "input_tokens": 27,
+      "output_tokens": 28,
+      "latency_ms": 632.9910600673742,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)The selling price of the house is 96000 plus she received the profit so what should we do",
+      "learner_turn": "To solve this problem, The 20% profit amounts to $80 000 x 20/100 = $16 000.\nThe 5% commission amounts . The answer is The 20% profit amoun.",
+      "input_tokens": 30,
+      "output_tokens": 28,
+      "latency_ms": 737.2426360163129,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)96000 plus the 400 would be",
+      "learner_turn": "To solve this problem, The 20% profit amounts to $80 000 x 20/100 = $16 000.\nThe 5% commission amounts . The answer is The 20% profit amoun.",
+      "input_tokens": 18,
+      "output_tokens": 28,
+      "latency_ms": 578.7223124859465,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic).?",
+      "learner_turn": "To solve this problem, The 20% profit amounts to $80 000 x 20/100 = $16 000.\nThe 5% commission amounts . The answer is The 20% profit amoun.",
+      "input_tokens": 13,
+      "output_tokens": 28,
+      "latency_ms": 595.2693679808253,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)What is the 96000 plus the 4000",
+      "learner_turn": "To solve this problem, The 20% profit amounts to $80 000 x 20/100 = $16 000.\nThe 5% commission amounts . The answer is The 20% profit amoun.",
+      "input_tokens": 19,
+      "output_tokens": 28,
+      "latency_ms": 602.5841545171356,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)No we need to had the selling price plus 4000",
+      "learner_turn": "To solve this problem, The 20% profit amounts to $80 000 x 20/100 = $16 000.\nThe 5% commission amounts . The answer is The 20% profit amoun.",
+      "input_tokens": 22,
+      "output_tokens": 28,
+      "latency_ms": 250.37197941692256,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)you have to add 96,000 plus 4,000 to get the correct answer",
+      "learner_turn": "To solve this problem, The 20% profit amounts to $80 000 x 20/100 = $16 000.\nThe 5% commission amounts . The answer is The 20% profit amoun.",
+      "input_tokens": 24,
+      "output_tokens": 28,
+      "latency_ms": 621.1023105762918,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)You do not deduct you add",
+      "learner_turn": "To solve this problem, The 20% profit amounts to $80 000 x 20/100 = $16 000.\nThe 5% commission amounts . The answer is The 20% profit amoun.",
+      "input_tokens": 18,
+      "output_tokens": 28,
+      "latency_ms": 795.8055995901952,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nMrs. Choi purchased a house for $117541.6. Five years later, she sold it for a 28.6% profit and got a 7.3% broker's commission from the original price. How much did the house sell for?",
+      "learner_turn": "The answer to that problem would be 47.",
+      "input_tokens": 63,
+      "output_tokens": 8,
+      "latency_ms": 255.8312495216927,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0448",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.052638",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 4241,
+  "total_output_tokens": 316,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nTammy just got her hair cut. For every 14 haircuts, she gets a free additional haircut. She has gotten 5 free haircuts already. She is 5 haircuts away from another free one. How many haircuts has she gotten there?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nJian is a 7th grade student. He has difficulty determining which pieces of information are relevant and which are irrelevant to solving the problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nCouldn't get to grips with the basic calculation required to determine how many cuts Tammy had had towards the next free one\n\nYOUR INITIAL INCORRECT ATTEMPT:\nTammy has received a total of 5 + 1 = 6 free haircuts.\nSince she gets a free haircut for every 14 haircuts, she has received a total of 6 x 14 = 84 haircuts.\nAdding the 5 haircuts she is away from another free one, Tammy has gotten a total of 84 + 5 = 89 haircuts. \n 89\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Hi Jian.  Can you tell me how many free haircuts Tammy has had so far please?",
+      "learner_turn": "Tammy has received a total of 5 + 1 = 6 free haircuts.\nSince she gets a free haircut for every 14 ha I used this approach because Couldn't get to grips with the basic calculation required to.",
+      "input_tokens": 372,
+      "output_tokens": 38,
+      "latency_ms": 717.9157359267729,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Are you sure?  Have another read of the question please.",
+      "learner_turn": "Okay, but I still think Oh, I see. Tammy has had a total of 6 free haircuts plus the. Maybe the answer is 30?",
+      "input_tokens": 366,
+      "output_tokens": 24,
+      "latency_ms": 666.2505520008308,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)In the question it states quite clearly how many free haircuts Tammy has gotten already, and it isn't six.  Can you check again please?",
+      "learner_turn": "I think I see — so instead I should... Yes, I understand now. Tammy has had 6 free haircuts already. Does that mean the answer is 14?",
+      "input_tokens": 380,
+      "output_tokens": 27,
+      "latency_ms": 557.4149852038211,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)I just said that she hasn't had six haircuts: the question states \"he has gotten 5 free haircuts already\", so when you say six this is wrong.  Have another go at finding a solution please.",
+      "learner_turn": "I think I see — so instead I should... Tammy has had 5 free haircuts already. She is 5 haircuts awa. Does that mean the answer is 15?",
+      "input_tokens": 391,
+      "output_tokens": 28,
+      "latency_ms": 250.58756592811724,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Let's stick with just the free haircuts for the moment.  How many paid haircuts are needed for a free one?",
+      "learner_turn": "I think I see — so instead I should... For every 14 paid haircuts, Tammy gets a free additional hai. Does that mean the answer is 43?",
+      "input_tokens": 376,
+      "output_tokens": 27,
+      "latency_ms": 563.5230075521168,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Good, so to have had 5 free haircuts, how many haircuts would she have had overall?",
+      "learner_turn": "I think I see — so instead I should... Tammy has had 5 free haircuts already, so she has had a tota. Does that mean the answer is 45?",
+      "input_tokens": 372,
+      "output_tokens": 29,
+      "latency_ms": 780.5915120518072,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)Please stick to just answering what I'm asking for, we'll get to the rest of the solution.  \n\nSo, she has had 70 haircuts, that's right.  If she gets another free one when she's had 14 haircuts overall, and she is 5 haircuts away from this point, how many cuts above the 70 has she had?",
+      "learner_turn": "I think I see — so instead I should... Tammy has had a total of 70 + 5 = 75 haircuts.. Does that mean the answer is 31?",
+      "input_tokens": 411,
+      "output_tokens": 28,
+      "latency_ms": 511.15477981499816,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)That's not quite right.  The number of haircuts needed is 14, and she is 5 away from this, so how many has she had?",
+      "learner_turn": "I think I see — so instead I should... Tammy has had a total of 70 + 5 = 75 haircuts. She is 5 hair. Does that mean the answer is 12?",
+      "input_tokens": 380,
+      "output_tokens": 32,
+      "latency_ms": 243.12773963319506,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(probing)No, just stick to this one part please: she needs to reach 14 and is 5 away from this, so how many haircuts has she had (above the 70 we already calculated)?",
+      "learner_turn": "I think I see — so instead I should... Tammy has had a total of 70 + 5 = 75 haircuts. She is 5 hair. Does that mean the answer is 47?",
+      "input_tokens": 388,
+      "output_tokens": 32,
+      "latency_ms": 228.4046595726488,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)If she needs another 5 cuts to get a free one, that means she has had 14 - 5 = 9 haircuts.  Add this to the number she already had to qualify for 5 free cuts please.",
+      "learner_turn": "I think I see — so instead I should... Tammy has had a total of 70 + 9 = 79 haircuts. She is 5 hair. Does that mean the answer is 32?",
+      "input_tokens": 393,
+      "output_tokens": 32,
+      "latency_ms": 561.5642383760637,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nTammy just got her hair cut. For every 19.6 haircuts, she gets a free additional haircut. She has gotten 7.0 free haircuts already. She is 7.4 haircuts away from another free one. How many haircuts has she gotten there?",
+      "learner_turn": "Hmm, let me try. Couldn't get to grips with the basic cal I think the answer might be 21.",
+      "input_tokens": 412,
+      "output_tokens": 19,
+      "latency_ms": 779.4208255422492,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

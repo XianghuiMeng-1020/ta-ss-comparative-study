@@ -1,0 +1,312 @@
+{
+  "scenario_id": "SC_1451",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.096814",
+  "n_tutor_turns": 29,
+  "n_learner_turns": 29,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 771,
+  "total_output_tokens": 904,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Would you like to check your answer one more time ?",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 23,
+      "output_tokens": 32,
+      "latency_ms": 450.05799016598036,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Thank you, see if you come up with the same answer this time",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 25,
+      "output_tokens": 32,
+      "latency_ms": 248.94551230536962,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Did Manny and Milo both receive the same number of pencils",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 23,
+      "output_tokens": 32,
+      "latency_ms": 295.22712866617417,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)So if we know how many they each received how can we work out how many Ken kept",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 30,
+      "output_tokens": 32,
+      "latency_ms": 396.13253370830967,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)How can we work out how many more pencils Milo had to Manny",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 25,
+      "output_tokens": 32,
+      "latency_ms": 282.23492582060146,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Could you show me how you worked this out",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 21,
+      "output_tokens": 32,
+      "latency_ms": 322.52626087618825,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)And how did you work this out",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 19,
+      "output_tokens": 32,
+      "latency_ms": 262.12233197600364,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)So if Manny had 10 and Nilo had 10 more than Manny would you solution work ?",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 29,
+      "output_tokens": 32,
+      "latency_ms": 250.2528110674873,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)Why would we subtract 10",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 17,
+      "output_tokens": 32,
+      "latency_ms": 438.85726611638995,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)So Ken has 50 gives Manny 10 how many would this leave him",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 25,
+      "output_tokens": 32,
+      "latency_ms": 711.8262572428782,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(telling)Correct so if had 40 and then gave nilo 10 more than he gave Manny how many c would Ken have left, show your reward i",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 38,
+      "output_tokens": 32,
+      "latency_ms": 679.7508713498655,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(telling)",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 13,
+      "output_tokens": 32,
+      "latency_ms": 279.33406950519793,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(telling)Let’s assume after Manny Ken has 40 left. How many does he give to Nilo",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 27,
+      "output_tokens": 32,
+      "latency_ms": 244.38032471323388,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "(probing)Which would be how many",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 17,
+      "output_tokens": 32,
+      "latency_ms": 662.919790569572,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 14,
+      "tutor_turn": "(telling)Is 30 10 more than the 10 he gave to Manny ?",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 24,
+      "output_tokens": 32,
+      "latency_ms": 368.29513583156023,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 15,
+      "tutor_turn": "(focus)So is 10 more than 10 30?",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 19,
+      "output_tokens": 32,
+      "latency_ms": 271.9837434256101,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 16,
+      "tutor_turn": "(probing)Could you explain this by writing your answer down please",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 22,
+      "output_tokens": 32,
+      "latency_ms": 761.1676786088414,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 17,
+      "tutor_turn": "(focus)If Ken had given Manny and Nilo each 10 pencils how many would he have given away",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 29,
+      "output_tokens": 32,
+      "latency_ms": 267.30845454954743,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 18,
+      "tutor_turn": "(telling)He then gave Nilo another 10 so how many has he now given away",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 26,
+      "output_tokens": 32,
+      "latency_ms": 213.85185197688426,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 19,
+      "tutor_turn": "(telling)He therefore has given 30 away from the amount he stays with so how many does Ken have left",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 31,
+      "output_tokens": 32,
+      "latency_ms": 659.1280371104849,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 20,
+      "tutor_turn": "(focus)He ?",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 14,
+      "output_tokens": 32,
+      "latency_ms": 791.1673827604693,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 21,
+      "tutor_turn": "(probing)Does this equate to your first answer?",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 19,
+      "output_tokens": 32,
+      "latency_ms": 488.2194804995307,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 22,
+      "tutor_turn": "(probing)Would you like to recheck your answers, as I think we may have come up,with a different solution if you check back , I can see a difference",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 40,
+      "output_tokens": 32,
+      "latency_ms": 527.7480477774089,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 23,
+      "tutor_turn": "(generic)Well done I will give you a few minutes, your final answer is correct so see if you can work out where you made a miscalculation at the beginning",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 41,
+      "output_tokens": 32,
+      "latency_ms": 685.7047759391146,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 24,
+      "tutor_turn": "(generic)Do you see where this was",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 18,
+      "output_tokens": 32,
+      "latency_ms": 628.8465043520175,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 25,
+      "tutor_turn": "(generic)Well done, do you now think you could solve a similar problem another time ?",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 27,
+      "output_tokens": 32,
+      "latency_ms": 313.2419930426203,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 26,
+      "tutor_turn": "(generic)Thank you shall we have a break and then try a similar problem?",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 25,
+      "output_tokens": 32,
+      "latency_ms": 203.00263965717858,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 27,
+      "tutor_turn": "(generic)Ok go and enjoy your break and meet me back here in 40 minutes",
+      "learner_turn": "To solve this problem, Nilo received 10 + 10 = 20.\nThus, Ken gave a total of 10 + 20 = 30.\nTherefore, K. The answer is Nilo received 10 + 1.",
+      "input_tokens": 26,
+      "output_tokens": 32,
+      "latency_ms": 434.89147096711054,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 28,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nKen had fifty pencils, and he wanted to share some of them with his two friends, Manny and Nilo. Ken gave ten pencils to Manny and ten more pencils to Nilo than he gave to Manny. He kept the rest of the pencils. How many pencils did Ken keep?",
+      "learner_turn": "The answer to that problem would be 11.",
+      "input_tokens": 78,
+      "output_tokens": 8,
+      "latency_ms": 245.71238227821038,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

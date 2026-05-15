@@ -1,0 +1,92 @@
+{
+  "scenario_id": "SC_2231",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.398871",
+  "n_tutor_turns": 7,
+  "n_learner_turns": 7,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 210,
+  "total_output_tokens": 160,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Ho Michael, can you explain your answer?",
+      "learner_turn": "Sure. I used an equation to solve the problem. I set up an equation that said 12x = 26, where x is the number of pounds ",
+      "input_tokens": 16,
+      "output_tokens": 26,
+      "latency_ms": 543.5275760994409,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)OK, let's start with what we know. How much did he spend?",
+      "learner_turn": "Tony had $87 before buying cheese and beef, and $61 after buying them, so he spent 87 - 61 = 26 dollars on cheese and be",
+      "input_tokens": 21,
+      "output_tokens": 26,
+      "latency_ms": 798.7809175917779,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Good. We don't know how much cheese and beef he bought, just the amount he spent. We can use trial and error to work out how much of each he bought. Lets start off assuming he bought one pound of cheese. How much does that leave him to spemd?",
+      "learner_turn": "If Tony bought 1 pound of cheese, then he spent $7 on cheese, leaving him with $80. He then spent $5 on beef, leaving hi",
+      "input_tokens": 58,
+      "output_tokens": 25,
+      "latency_ms": 300.6445719471719,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)OK, try 2 pounds of cheese.",
+      "learner_turn": "If Tony bought 2 pounds of cheese, then he spent $14 on cheese, leaving him with $73. He then spent $5 on beef, leaving ",
+      "input_tokens": 15,
+      "output_tokens": 24,
+      "latency_ms": 576.3728624877764,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)No, $68 does not equal $61. Try 3 pounds of cheese.",
+      "learner_turn": "If Tony bought 3 pounds of cheese, then he spent $21 on cheese, leaving him with $66. He then spent $5 on beef, leaving ",
+      "input_tokens": 20,
+      "output_tokens": 24,
+      "latency_ms": 518.9597391655037,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(generic)That's right.",
+      "learner_turn": "Sure. I used an equation to solve the problem. I set up an equation that said 12x = 26, where x is the number of pounds ",
+      "input_tokens": 11,
+      "output_tokens": 26,
+      "latency_ms": 620.1876517101337,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nTony has $105.2. He needs to buy some cheese, which costs $9.5 a pound and a pound of beef that costs $6.5 a pound. After buying the beef and his cheese, he has $90.0 left. How many pounds of cheese did he buy?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 69,
+      "output_tokens": 9,
+      "latency_ms": 341.93458365639714,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1974",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.347849",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3353,
+  "total_output_tokens": 253,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nAt Mario's barbershop haircuts are 50% more expensive during the weekends. If Mario paid $18 for his last haircut on Monday, how much he would have paid the day before?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nDeAndre is a 7th grade student. He has problem with understanding of underlying ideas and principles and a recognition of when to apply them.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nstudent assumed that $18 / 1.5 was the regular price instead of 18 x 1.5. the misconception was repeated till the end.\n\nYOUR INITIAL INCORRECT ATTEMPT:\nDuring the weekends, haircuts cost 50% more, which means the price is 100% + 50% = 150% of the regular price.\nIf Mario paid $18 for his last haircut on Monday, the regular price is $18/1.5 = $12.\nTherefore, he would have paid $12 x 1.5 = $18 for the same haircut on the weekend.\n 18\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)can you walk me through your solution stepwise?",
+      "learner_turn": "During the weekends, haircuts cost 50% more, which means the price is 100% + 50% = 150% of the regul I used this approach because student assumed that $18 / 1.5 was the regular price instead.",
+      "input_tokens": 352,
+      "output_tokens": 36,
+      "latency_ms": 618.901990651922,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Mario paid $18 for his last haircut on Monday. so tell me , the price on monday is the regular price or the weekend price? what do you mean by a weekend ?",
+      "learner_turn": "Okay, but I still think The price on Monday was the regular price. By weekend, I mea. Maybe the answer is 20?",
+      "input_tokens": 377,
+      "output_tokens": 22,
+      "latency_ms": 301.015068339476,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)very good. you identified your mistake correctly. now if The price on Monday was the regular price. By weekend, I mean Saturday and Sunday. So, the price on the weekend is 50% more expensive than the regular price. what is the price on weekends then?",
+      "learner_turn": "I think I see — so instead I should... The price on the weekends is $12 x 1.5 = $18. This is becaus. Does that mean the answer is 20?",
+      "input_tokens": 389,
+      "output_tokens": 30,
+      "latency_ms": 778.8425276349702,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)it will be $18 x 1.5 isn't it?",
+      "learner_turn": "I think I see — so instead I should... No, it would be $12 x 1.5 = $18. The regular price is $12 an. Does that mean the answer is 49?",
+      "input_tokens": 352,
+      "output_tokens": 31,
+      "latency_ms": 406.53915578297955,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)The regular price is $12 is it? check our previous conversations. what did we talk about weekdays and weekends? which one is the regular price?",
+      "learner_turn": "I think I see — so instead I should... The regular price is the price on Monday, which was $18. The. Does that mean the answer is 15?",
+      "input_tokens": 369,
+      "output_tokens": 28,
+      "latency_ms": 690.4986793271768,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)The regular price is the price on Monday, which was $18. The weekend price is 50% more expensive, which is $18 x 1.5",
+      "learner_turn": "I think I see — so instead I should... No, the weekend price is $12 x 1.5 = $18. The regular price . Does that mean the answer is 43?",
+      "input_tokens": 367,
+      "output_tokens": 30,
+      "latency_ms": 273.1837331420426,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)The regular price is $18 on Monday, and the weekend price is 50% more expensive then shouldn't you multiply $18 with 1.5 to get the weekend price?",
+      "learner_turn": "I think I see — so instead I should... No, the regular price is $18 on Monday, and the weekend pric. Does that mean the answer is 14?",
+      "input_tokens": 371,
+      "output_tokens": 28,
+      "latency_ms": 224.2346437341937,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Mario's $18 cut on Monday would have been 50% more expensive on Sunday or $18*50% = $9 more expensive\nThat means he would have paid $9 more on Sunday than what he paid ($18) on Monday or $9+$18 = $27\n27",
+      "learner_turn": "I think I see — so instead I should... No, the regular price is $18 on Monday, and the weekend pric. Does that mean the answer is 45?",
+      "input_tokens": 385,
+      "output_tokens": 28,
+      "latency_ms": 429.52283619089053,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAt Mario's barbershop haircuts are 70.9% more expensive during the weekends. If Mario paid $27.0 for his last haircut on Monday, how much he would have paid the day before?",
+      "learner_turn": "Hmm, let me try. student assumed that $18 / 1.5 was the r I think the answer might be 48.",
+      "input_tokens": 391,
+      "output_tokens": 20,
+      "latency_ms": 515.8290669113223,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

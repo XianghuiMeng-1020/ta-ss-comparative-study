@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1669",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.115481",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1870,
+  "total_output_tokens": 122,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nThe toothpaste in Anne's family's bathroom contains 105 grams. Anne's dad uses 3 grams at each brushing, her mom uses 2 grams, Anne and her brother use 1 gram each. Each member of the family brushes their teeth three times a day. How many days will it take for the toothpaste to run out?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nLakisha is a 7th grade student. She has difficulty determining which pieces of information are relevant and which are irrelevant to solving the problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nmixed up number of days\n\nYOUR INITIAL INCORRECT ATTEMPT:\nEach family member uses a total of 3+2+1+1 = 7 grams of toothpaste per day.\nFor the whole family, they use 7 x 4 = 28 grams of toothpaste per day.\nTherefore, the toothpaste will last for 105/28 = 3.75 days.\nSince they can't use a partial day of toothpaste, the toothpaste will last for 3 days.\n 3\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)If they use 7 grams each wash, how many grams is that per day?",
+      "learner_turn": "Each family member uses a total of 3+2+1+1 = 7 grams of toothpaste per day.\nFor the whole family, th I used this approach because mixed up number of days.",
+      "input_tokens": 367,
+      "output_tokens": 30,
+      "latency_ms": 209.6026791465429,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)they use 7 grams per wash and how many washes per day?",
+      "learner_turn": "Okay, but I still think Each family member brushes their teeth three times a day, so. Maybe the answer is 20?",
+      "input_tokens": 365,
+      "output_tokens": 21,
+      "latency_ms": 386.35207490250957,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)good!",
+      "learner_turn": "I think I see — so instead I should... 105/21 = 5 days. Since they can't use a partial day of tooth. Does that mean the answer is 50?",
+      "input_tokens": 354,
+      "output_tokens": 29,
+      "latency_ms": 554.3498839831317,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)so that 105 grams last how long?",
+      "learner_turn": "I think I see — so instead I should... 7 x 4 = 28 grams of toothpaste per day.. Does that mean the answer is 11?",
+      "input_tokens": 360,
+      "output_tokens": 26,
+      "latency_ms": 549.7878702510312,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe toothpaste in Anne's family's bathroom contains 129.3 grams. Anne's dad uses 4.0 grams at each brushing, her mom uses 2.7 grams, Anne and her brother use 1.3 gram each. Each member of the family brushes their teeth three times a day. How many days will it take for the toothpaste to run out?",
+      "learner_turn": "Hmm, let me try. mixed up number of days I think the answer might be 42.",
+      "input_tokens": 424,
+      "output_tokens": 16,
+      "latency_ms": 670.491232933636,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

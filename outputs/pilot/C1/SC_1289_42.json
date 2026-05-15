@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1289",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.073339",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": true,
+  "exclusion_code": "E2",
+  "exclusion_reason": "Turn 0: non-math content (movie)",
+  "total_input_tokens": 3109,
+  "total_output_tokens": 298,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nFred spent half of his allowance going to the movies. He washed the family car and earned 6 dollars. What is his weekly allowance if he ended with 14 dollars?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nIf Fred spent half his allowance at the movies and ended up with 14 dollars, he must have started with 14 + 6 = 20 dollars.\nLet x be his weekly allowance.\nThen, x/2 is what he spent at the movies.\nSo, we can write the equation: x/2 + 6 = 20.\nSubtracting 6 from both sides: x/2 = 14.\nMultiplying both sides by 2: x = 28.\n 28\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)How much did Fred earn from washing the car",
+      "learner_turn": "So I tried this problem. My approach was: If Fred spent half his allowance at the movies and ended up with 14 dollars, he . Wait — can you explain why we need to do that step first?",
+      "input_tokens": 342,
+      "output_tokens": 38,
+      "latency_ms": 249.37960072993522,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How much did he have before",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 6? Let me redo: He had 14 dollars before washing the car",
+      "input_tokens": 339,
+      "output_tokens": 26,
+      "latency_ms": 322.1193900168073,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)After being given 6 dollars for washing the car how much did he have",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 9? Let me redo: He had 20 dollars after being given 6 dollars for washing th",
+      "input_tokens": 347,
+      "output_tokens": 30,
+      "latency_ms": 206.80830985434835,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)he had 14 at the end",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 3? Let me redo: That means he had to have started with 14 + 6 = 20 dollars",
+      "input_tokens": 339,
+      "output_tokens": 32,
+      "latency_ms": 666.2718187756984,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)He hadn't been given the 6",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 8? Let me redo: Oh, right. That means he had to have started with 14 dollars",
+      "input_tokens": 339,
+      "output_tokens": 30,
+      "latency_ms": 343.22618282699005,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)The 14 is at the end. Take away the 6 first",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 2? Let me redo: That means he had 8 dollars before washing the car. So, his ",
+      "input_tokens": 344,
+      "output_tokens": 30,
+      "latency_ms": 572.9710030630583,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)He was left with 8 after the movie",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 2? Let me redo: That means he had to have started with 8 + 6 = 14 dollars. S",
+      "input_tokens": 341,
+      "output_tokens": 33,
+      "latency_ms": 642.0844608443215,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)2 x 8 = 16",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 5? Let me redo: That means he had to have started with 16 + 6 = 22 dollars. ",
+      "input_tokens": 338,
+      "output_tokens": 32,
+      "latency_ms": 469.24224257474833,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nFred spent half of his allowance going to the movies. He washed the family car and earned 8.6 dollars. What is his weekly allowance if he ended with 20.7 dollars?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Fred spent half of his allowance going to the movi... I get approximately 33 as my answer. Does that seem right?",
+      "input_tokens": 380,
+      "output_tokens": 47,
+      "latency_ms": 779.7831671085597,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

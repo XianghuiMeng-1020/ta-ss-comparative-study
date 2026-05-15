@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_2147",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.377365",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 220,
+  "total_output_tokens": 142,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)hi what methods have you used to solve this problem?",
+      "learner_turn": "Hi, I used the information given in the problem to figure out the age of John and Mary. Then I added the ages of John, M",
+      "input_tokens": 19,
+      "output_tokens": 26,
+      "latency_ms": 564.2809566282655,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)john is how old?",
+      "learner_turn": "John is 120 years old.",
+      "input_tokens": 13,
+      "output_tokens": 5,
+      "latency_ms": 264.7669801867602,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)that is very unlikely let us work backwards. how old is tonya?",
+      "learner_turn": "Tanya is 60 years old.",
+      "input_tokens": 21,
+      "output_tokens": 5,
+      "latency_ms": 774.1887787075883,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)john is half the age of tanya?",
+      "learner_turn": "Yes, John is half the age of Tanya, so he is 60 years old.",
+      "input_tokens": 16,
+      "output_tokens": 14,
+      "latency_ms": 507.1735807065791,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)half of 100 =?",
+      "learner_turn": "Half of 100 is 50.",
+      "input_tokens": 13,
+      "output_tokens": 5,
+      "latency_ms": 252.36174147983144,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)use this to half 60 to work out John's age",
+      "learner_turn": "John's age is 30 years old, since half of 60 is 30.",
+      "input_tokens": 19,
+      "output_tokens": 12,
+      "latency_ms": 560.3377159755817,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)then you need to half John's age to work out how old mary is?",
+      "learner_turn": "Yes, Mary is half of John's age, so she is 15 years old.",
+      "input_tokens": 23,
+      "output_tokens": 13,
+      "latency_ms": 412.94628107555025,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)mary+ john+ tanyas ages =?",
+      "learner_turn": "Mary, John, and Tanya's ages add up to 15 + 30 + 60 = 105 years old.",
+      "input_tokens": 14,
+      "output_tokens": 17,
+      "latency_ms": 731.2637150497944,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)now work out the average of 105 ?",
+      "learner_turn": "The average of 105 is 105/3 = 35 years old.",
+      "input_tokens": 17,
+      "output_tokens": 10,
+      "latency_ms": 594.695770527165,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(generic)yes can you see how we did this?",
+      "learner_turn": "Yes, I can see how we worked this out. We used the information given in the problem to figure out the age of John and Ma",
+      "input_tokens": 17,
+      "output_tokens": 26,
+      "latency_ms": 423.6137967220373,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJohn is twice as old as Mary and half as old as Tonya. If Tanya is 89.2, what is their average age?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 48,
+      "output_tokens": 9,
+      "latency_ms": 261.29477785505657,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

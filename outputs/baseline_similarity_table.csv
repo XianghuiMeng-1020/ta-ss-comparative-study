@@ -1,0 +1,17 @@
+feature,condition,generated_mean,generated_std,n,reference_mean,divergence,note
+mean_turn_length,C1,33.682,2.112,291,38.146,-4.464,Descriptive divergence only — NOT a realism claim
+mean_turn_length,C2,26.652,1.535,288,38.146,-11.494,Descriptive divergence only — NOT a realism claim
+mean_turn_length,C3,18.92,3.907,282,38.146,-19.226,Descriptive divergence only — NOT a realism claim
+mean_turn_length,C4,25.188,2.987,294,38.146,-12.958,Descriptive divergence only — NOT a realism claim
+reasoning_rate,C1,1.0,0.0,291,0.763,0.237,Descriptive divergence only — NOT a realism claim
+reasoning_rate,C2,0.763,0.129,288,0.763,-0.001,Descriptive divergence only — NOT a realism claim
+reasoning_rate,C3,0.541,0.251,282,0.763,-0.222,Descriptive divergence only — NOT a realism claim
+reasoning_rate,C4,0.735,0.293,294,0.763,-0.028,Descriptive divergence only — NOT a realism claim
+question_rate,C1,0.844,0.061,291,0.005,0.838,Descriptive divergence only — NOT a realism claim
+question_rate,C2,0.686,0.122,288,0.005,0.681,Descriptive divergence only — NOT a realism claim
+question_rate,C3,0.005,0.03,282,0.005,0.0,Descriptive divergence only — NOT a realism claim
+question_rate,C4,0.0,0.0,294,0.005,-0.005,Descriptive divergence only — NOT a realism claim
+correction_timing_index,C1,0.0,0.0,291,0.5,-0.5,Placeholder reference; MathDial equivalent not directly available
+correction_timing_index,C2,0.0,0.0,288,0.5,-0.5,Placeholder reference; MathDial equivalent not directly available
+correction_timing_index,C3,0.0,0.0,282,0.5,-0.5,Placeholder reference; MathDial equivalent not directly available
+correction_timing_index,C4,0.0,0.0,294,0.5,-0.5,Placeholder reference; MathDial equivalent not directly available

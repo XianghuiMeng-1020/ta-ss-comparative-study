@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1250",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.193089",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 180,
+  "total_output_tokens": 138,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)do you think maybe you should check your weekend figures as these were different to the weekday ones",
+      "learner_turn": "To solve this problem, On weekdays it earns $600/weekday * 5 weekdays = $3000\nDuring the weekend it ear. The answer is On weekdays it earns.",
+      "input_tokens": 30,
+      "output_tokens": 26,
+      "latency_ms": 221.96281215570295,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)what total would your weekend figure be",
+      "learner_turn": "To solve this problem, On weekdays it earns $600/weekday * 5 weekdays = $3000\nDuring the weekend it ear. The answer is On weekdays it earns.",
+      "input_tokens": 19,
+      "output_tokens": 26,
+      "latency_ms": 514.9720228567596,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)correct so if you now add this to the weekly figure of 3000 what would the weekly total be",
+      "learner_turn": "To solve this problem, On weekdays it earns $600/weekday * 5 weekdays = $3000\nDuring the weekend it ear. The answer is On weekdays it earns.",
+      "input_tokens": 31,
+      "output_tokens": 26,
+      "latency_ms": 489.5746597998756,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)so if we then times this figure by 4 the total for the month would be how much",
+      "learner_turn": "To solve this problem, On weekdays it earns $600/weekday * 5 weekdays = $3000\nDuring the weekend it ear. The answer is On weekdays it earns.",
+      "input_tokens": 30,
+      "output_tokens": 26,
+      "latency_ms": 749.9707363740644,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)correct well done",
+      "learner_turn": "To solve this problem, On weekdays it earns $600/weekday * 5 weekdays = $3000\nDuring the weekend it ear. The answer is On weekdays it earns.",
+      "input_tokens": 15,
+      "output_tokens": 26,
+      "latency_ms": 295.07237200195414,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAn Italian restaurant earns $852.2 every weekday and twice as much on the weekend. How much money does it earn by the end of the month?",
+      "learner_turn": "The answer to that problem would be 44.",
+      "input_tokens": 55,
+      "output_tokens": 8,
+      "latency_ms": 516.854492945012,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

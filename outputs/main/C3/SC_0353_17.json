@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0353",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.026863",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 378,
+  "total_output_tokens": 229,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jian, can you explain your working please?",
+      "learner_turn": "Sure. I started by calculating the volume of the aquarium, which is 4 x 6 x 3 = 72 cubic feet. Then I realized that Nanc",
+      "input_tokens": 17,
+      "output_tokens": 26,
+      "latency_ms": 266.4057728138035,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)You're right it holds 72 cubic feet, and there was 18 in there after the cat knocked it over. Then what did Nancy do?",
+      "learner_turn": "Nancy tripled the amount of water in the aquarium. So she added 18 x 3 = 54 cubic feet of water, bringing the total to 7",
+      "input_tokens": 33,
+      "output_tokens": 26,
+      "latency_ms": 548.8595398224167,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)What is 72/18?",
+      "learner_turn": "72/18 = 4.",
+      "input_tokens": 12,
+      "output_tokens": 3,
+      "latency_ms": 619.4696590599533,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)So if Nancy has increased the water from 18 to 72, she has quadrupled it right, not tripled?",
+      "learner_turn": "Yes, that's correct. Nancy quadrupled the amount of water in the aquarium, not tripled. She added 18 x 4 = 72 cubic feet",
+      "input_tokens": 27,
+      "output_tokens": 23,
+      "latency_ms": 284.64092584116935,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)But the question specifically says she tripled it,",
+      "learner_turn": "You're right, the question does say she tripled it. I apologize for my mistake. Nancy tripled the amount of water in the",
+      "input_tokens": 17,
+      "output_tokens": 22,
+      "latency_ms": 759.1723434058919,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)But increasing from 18 to 72 is not tripling.\nYou are reading the question as though she added tripe that amount of water. But that's not what she did",
+      "learner_turn": "I understand now. Nancy tripled the amount of water in the aquarium, not quadrupled. She added 18 x 3 = 54 cubic feet of",
+      "input_tokens": 38,
+      "output_tokens": 24,
+      "latency_ms": 505.42412309838244,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)But you are still quadrupling it, because you are increasing the water in the aquarium from 18 to 72. That is quadrupling it, not tripling it. The question doesn't say she added 3 times 18, it says she added water until she got a total of 3 x 18",
+      "learner_turn": "I understand now. Nancy tripled the amount of water in the aquarium, not quadrupled. She added 18 x 3 = 54 cubic feet of",
+      "input_tokens": 58,
+      "output_tokens": 24,
+      "latency_ms": 407.2298728242131,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Adding 3 times the amount of something, is quadrupling it. Adding 2 times something would be tripling it",
+      "learner_turn": "I understand now. Nancy tripled the amount of water in the aquarium by adding 2 times the original amount of water, not ",
+      "input_tokens": 27,
+      "output_tokens": 22,
+      "latency_ms": 454.22965461180877,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)She added 18X2, but there was only 18 in there already. So why are you adding 36?",
+      "learner_turn": "I understand now. Nancy tripled the amount of water in the aquarium by adding 2 times the original amount of water, not ",
+      "input_tokens": 26,
+      "output_tokens": 22,
+      "latency_ms": 720.9869672567496,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)There is 18 in there, and she adds 36, ok? So what does 18 + 36 equal?",
+      "learner_turn": "18 + 36 = 54 cubic feet. Nancy tripled the amount of water in the aquarium by adding 18 x 2 = 36 cubic feet of water to ",
+      "input_tokens": 26,
+      "output_tokens": 28,
+      "latency_ms": 708.9011396339015,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nNancy is filling an aquarium for her fish. She fills it halfway and goes to answer the door. While she's gone, her cat knocks the aquarium over and spills half the water in it. Then Nancy comes back and triples the amount of water in the aquarium. If the aquarium is 5.8 feet long, 7.7 feet wide, and 4.2 feet high, how many cubic feet of water are in the aquarium?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 97,
+      "output_tokens": 9,
+      "latency_ms": 405.71746082442525,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

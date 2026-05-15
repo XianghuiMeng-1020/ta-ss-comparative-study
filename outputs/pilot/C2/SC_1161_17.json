@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1161",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.066444",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3446,
+  "total_output_tokens": 254,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nAndy is mixing blue, green and white paint in a 1 : 2 : 5 ratio. If he uses 6 gallons of green paint, how many gallons of paint does he use total?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nRishi is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nThe student kept mixing up the ratio numbers with the amount of gallons used\n\nYOUR INITIAL INCORRECT ATTEMPT:\nThe ratio of blue to green to white paint is 1 : 2 : 5, which means for every 2 gallons of green paint, Andy uses 1 gallon of blue paint and 5 gallons of white paint. \n\nSince Andy uses 6 gallons of green paint, he will use 6/2 = 3 gallons of blue paint and 6 x 5 = 30 gallons of white paint. \n\nTherefore, in total, Andy will use 3 + 6 + 30 = 39 gallons of paint. \n\n 39\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Rishi can you talk me through your answer?",
+      "learner_turn": "The ratio of blue to green to white paint is 1 : 2 : 5, which means for every 2 gallons of green pai I used this approach because The student kept mixing up the ratio numbers with the amount.",
+      "input_tokens": 375,
+      "output_tokens": 40,
+      "latency_ms": 493.18540752951554,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)OK, so we know that Andy uses 6 gallons of green paint. This is two units in the ratio, so what would one unit be worth?",
+      "learner_turn": "Okay, but I still think One unit in the ratio would be worth 3 gallons of green pain. Maybe the answer is 35?",
+      "input_tokens": 392,
+      "output_tokens": 23,
+      "latency_ms": 381.1385351284003,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)Each unit in the ration is worth the same amount. We know that 1 unit is 3 gallons. Can you use this to work out the answer?",
+      "learner_turn": "I think I see — so instead I should... Yes, since Andy uses 6 gallons of green paint, that would be. Does that mean the answer is 42?",
+      "input_tokens": 393,
+      "output_tokens": 28,
+      "latency_ms": 466.4910715377311,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)1 unit is 3 gallons, so he uses 3 gallons of blue paint. How much white paint does he use?",
+      "learner_turn": "I think I see — so instead I should... Since 1 unit is 5 gallons of white paint, and Andy uses 2 un. Does that mean the answer is 15?",
+      "input_tokens": 386,
+      "output_tokens": 30,
+      "latency_ms": 746.4602077235013,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)1 unit is always 3 gallons.",
+      "learner_turn": "I think I see — so instead I should... Yes, that's correct. So if Andy uses 6 gallons of green pain. Does that mean the answer is 17?",
+      "input_tokens": 372,
+      "output_tokens": 28,
+      "latency_ms": 667.4923832445365,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)Andy uses 3 x 5 = 15 gallons of white paint.",
+      "learner_turn": "I think I see — so instead I should... That's correct. So the total amount of paint Andy uses is 3 . Does that mean the answer is 24?",
+      "input_tokens": 377,
+      "output_tokens": 29,
+      "latency_ms": 459.92485381925115,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(generic)That's correct",
+      "learner_turn": "I think I see — so instead I should... Andy used 6 gallons of green paint, 3 gallons of blue paint,. Does that mean the answer is 39?",
+      "input_tokens": 368,
+      "output_tokens": 28,
+      "latency_ms": 609.584550084327,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)Perfect",
+      "learner_turn": "I think I see — so instead I should... Sure. I started by looking at the ratio of blue, green, and . Does that mean the answer is 5?",
+      "input_tokens": 367,
+      "output_tokens": 29,
+      "latency_ms": 678.8681553143228,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAndy is mixing blue, green and white paint in a 1.3 : 3.0 : 7.0 ratio. If he uses 8.5 gallons of green paint, how many gallons of paint does he use total?",
+      "learner_turn": "Hmm, let me try. The student kept mixing up the ratio num I think the answer might be 40.",
+      "input_tokens": 416,
+      "output_tokens": 19,
+      "latency_ms": 771.8899440618361,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

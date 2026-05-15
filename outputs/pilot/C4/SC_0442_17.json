@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_0442",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.020681",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 148,
+  "total_output_tokens": 89,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi , could you please walk me through your solution?",
+      "learner_turn": "To solve this problem, Aaron eats 1/2*30 sweets + 1/2*40 sweets + 1/2*50 sweets = 60 candy sweets.\nThe . The answer is Aaron eats 1/2*30 sw.",
+      "input_tokens": 22,
+      "output_tokens": 27,
+      "latency_ms": 550.5902286066932,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)steven please note that if aaron ate half of the cherry flavored sweets and gave 5 to his friend that how can the remaining cherry flavored sweets be 25?",
+      "learner_turn": "To solve this problem, Aaron eats 1/2*30 sweets + 1/2*40 sweets + 1/2*50 sweets = 60 candy sweets.\nThe . The answer is Aaron eats 1/2*30 sw.",
+      "input_tokens": 41,
+      "output_tokens": 27,
+      "latency_ms": 438.80781004476785,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)excellent",
+      "learner_turn": "To solve this problem, Aaron eats 1/2*30 sweets + 1/2*40 sweets + 1/2*50 sweets = 60 candy sweets.\nThe . The answer is Aaron eats 1/2*30 sw.",
+      "input_tokens": 13,
+      "output_tokens": 27,
+      "latency_ms": 550.6680454566899,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA packet of candy sweets has 44.2 cherry-flavored sweets, 59.5 strawberry-flavored sweets, and 71.4 pineapple-flavored sweets. Aaron eats half of each of the flavored sweets and gives 6.6 cherry-flavored sweets to his friend. How many sweets are still in the packet of candy?",
+      "learner_turn": "The answer to that problem would be 13.",
+      "input_tokens": 72,
+      "output_tokens": 8,
+      "latency_ms": 766.7346297092296,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

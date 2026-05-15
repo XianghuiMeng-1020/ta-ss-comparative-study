@@ -1,0 +1,83 @@
+{
+  "scenario_id": "SC_0605",
+  "condition": "C1_ablate_transfer",
+  "condition_label": "Teachable Agent",
+  "seed": 91,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:04.986956",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2119,
+  "total_output_tokens": 198,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nOne dress requires 5.5 yards of fabric. Amare needs to make 4 dresses for the wedding and she has 7 feet of fabric. How many feet of fabric does Amare still need for the dresses?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nOne yard is equal to 3 feet, so 5.5 yards is equal to 5.5 x 3 = 16.5 feet.\nAmare needs a total of 4 x 16.5 = 66 feet of fabric for the dresses.\nShe has 7 x 3 = 21 feet of fabric.\nTherefore, Amare still needs 66 - 21 = 45 feet of fabric for the dresses.\n 45\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)You've coorrectly calculated that the 4 dresses would need 66ft of fabric. However you've also notice that Amare already has some fabric. How much fabric does Amare have?",
+      "learner_turn": "So I tried this problem. My approach was: One yard is equal to 3 feet, so 5.5 yards is equal to 5.5 x 3 = 16.5 feet.\nAmare. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 358,
+      "output_tokens": 41,
+      "latency_ms": 337.2172015700052,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)What are the units for this?",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 7? Let me redo: The units for this are feet.",
+      "input_tokens": 336,
+      "output_tokens": 24,
+      "latency_ms": 254.5881680269789,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)What are the units for the total amount of fabric that Amare needs?",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 8? Let me redo: The units for the total amount of fabric that Amare needs ar",
+      "input_tokens": 343,
+      "output_tokens": 30,
+      "latency_ms": 467.5893998643467,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)So, since they are using the same units, what calculation should be done to determine how much fabric is actually needed (sicne Amare already ahs 7 feet)?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 8? Let me redo: The calculation needed to determine how much fabric Amare st",
+      "input_tokens": 357,
+      "output_tokens": 28,
+      "latency_ms": 454.0177415839652,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)That's the correct answer! Did you spot the error in your original answer?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Yes, I spotted the error in my original answer. I had subtra. So the answer is 27?",
+      "input_tokens": 343,
+      "output_tokens": 29,
+      "latency_ms": 392.1477100442001,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nOne dress requires 7.0 yards of fabric. Amare needs to make 4.8 dresses for the wedding and she has 9.3 feet of fabric. How many feet of fabric does Amare still need for the dresses?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: One dress requires 7.0 yards of fabric. Amare need... I get approximately 40 as my answer. Does that seem right?",
+      "input_tokens": 382,
+      "output_tokens": 46,
+      "latency_ms": 529.0531747572055,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C1"
+}

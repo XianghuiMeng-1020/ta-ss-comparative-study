@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_1952",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.138779",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3963,
+  "total_output_tokens": 304,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nJosh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nDeAndre is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nIncluded the cost of repair works in resale value\n\nYOUR INITIAL INCORRECT ATTEMPT:\nThe increase in value due to repairs is 150% of the original value, which is 150/100 x $80,000 = $120,000.\nSo, the total value of the house after repairs is $80,000 + $50,000 + $120,000 = $250,000.\nTherefore, the profit Josh made is $250,000 - $130,000 (the cost of buying the house and repairs) = $120,000.\n 120,000\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, could you please walk me through your solution?",
+      "learner_turn": "The increase in value due to repairs is 150% of the original value, which is 150/100 x $80,000 = $12 I used this approach because Included the cost of repair works in resale value.",
+      "input_tokens": 347,
+      "output_tokens": 34,
+      "latency_ms": 322.5764968948663,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)This seems to be a wrong solution. Let's see something else. Let's say I buy an old bike worth $20, repair it for $5 and sell back at a 50% more than the original value. What is the profit i amde?",
+      "learner_turn": "Okay, but I still think The increase in value due to repairs is 50% of the original . Maybe the answer is 40?",
+      "input_tokens": 379,
+      "output_tokens": 23,
+      "latency_ms": 339.09464564954766,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)One doesn't  include the cost of repairing in the resale value. It's 50% of the original value that is 50%of $20, which is $10. So, the resale value is $30. Since I invested $25 in total, I get a profit of $30-$25=$5.",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. So the increase in value due to repairs is 50% of. Does that mean the answer is 7?",
+      "input_tokens": 380,
+      "output_tokens": 30,
+      "latency_ms": 760.6928868568203,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Wonderful. Now get back to Josh. Remember what we discussed above. Every statement of it and try to solve Josh's problem",
+      "learner_turn": "I think I see — so instead I should... Okay, so for Josh's problem, the increase in value due to re. Does that mean the answer is 46?",
+      "input_tokens": 359,
+      "output_tokens": 28,
+      "latency_ms": 711.3165345818911,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Remember what we did with the bike problem. We don't include the repair cost when calculating resale value",
+      "learner_turn": "I think I see — so instead I should... Oh, right. So for Josh's problem, the increase in value due . Does that mean the answer is 43?",
+      "input_tokens": 356,
+      "output_tokens": 28,
+      "latency_ms": 560.5868274493021,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)$130000 is the amount spent by Josh. Not the resale value. Resale value = original cost + increased cost",
+      "learner_turn": "I think I see — so instead I should... Oh, right. So for Josh's problem, the increase in value due . Does that mean the answer is 17?",
+      "input_tokens": 357,
+      "output_tokens": 28,
+      "latency_ms": 253.42529467546478,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)didn't he put any money for repairs?",
+      "learner_turn": "I think I see — so instead I should... Yes, he put in $50,000 in repairs. So the total value of the. Does that mean the answer is 37?",
+      "input_tokens": 345,
+      "output_tokens": 29,
+      "latency_ms": 576.2145714336383,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Resale Value = $80000+$120000 = $ 200000. Money spent by Josh = $80000+$50000=$130000. So what is the profit made by Josh",
+      "learner_turn": "I think I see — so instead I should... The profit Josh made is $200,000 - $130,000 (the cost of buy. Does that mean the answer is 50?",
+      "input_tokens": 359,
+      "output_tokens": 28,
+      "latency_ms": 345.95925342482656,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(telling)$200000-$130000 = $ 70000",
+      "learner_turn": "I think I see — so instead I should... No, the profit Josh made is $200,000 - $130,000 (the cost of. Does that mean the answer is 45?",
+      "input_tokens": 342,
+      "output_tokens": 28,
+      "latency_ms": 703.1523622935566,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(telling)You are mistaken. Check again. 200000 - 130000 = $ 70000",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. The profit Josh made is $200,000 - $130,000 (the . Does that mean the answer is 5?",
+      "input_tokens": 349,
+      "output_tokens": 29,
+      "latency_ms": 243.09169270449075,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJosh decides to try flipping a house.  He buys a house for $96.4,0 and then puts in $68.4,0 in repairs.  This increased the value of the house by 215.3%.  How much profit did he make?",
+      "learner_turn": "Hmm, let me try. Included the cost of repair works in res I think the answer might be 27.",
+      "input_tokens": 390,
+      "output_tokens": 19,
+      "latency_ms": 632.6909565681954,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

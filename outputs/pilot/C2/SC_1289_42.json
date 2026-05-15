@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_1289",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.073857",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": true,
+  "exclusion_code": "E2",
+  "exclusion_reason": "Turn 0: non-math content (movie)",
+  "total_input_tokens": 3235,
+  "total_output_tokens": 249,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nFred spent half of his allowance going to the movies. He washed the family car and earned 6 dollars. What is his weekly allowance if he ended with 14 dollars?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nDeAndre is a 7th grade student. He has difficulty determining which pieces of information are relevant and which are irrelevant to solving the problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nCould not understand the concepts of money being given and taken away\n\nYOUR INITIAL INCORRECT ATTEMPT:\nIf Fred spent half his allowance at the movies and ended up with 14 dollars, he must have started with 14 + 6 = 20 dollars.\nLet x be his weekly allowance.\nThen, x/2 is what he spent at the movies.\nSo, we can write the equation: x/2 + 6 = 20.\nSubtracting 6 from both sides: x/2 = 14.\nMultiplying both sides by 2: x = 28.\n 28\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)How much did Fred earn from washing the car",
+      "learner_turn": "If Fred spent half his allowance at the movies and ended up with 14 dollars, he must have started wi I used this approach because Could not understand the concepts of money being given and t.",
+      "input_tokens": 356,
+      "output_tokens": 36,
+      "latency_ms": 249.37960072993522,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How much did he have before",
+      "learner_turn": "Okay, but I still think He had 14 dollars before washing the car. Maybe the answer is 5?",
+      "input_tokens": 353,
+      "output_tokens": 18,
+      "latency_ms": 414.9881908455445,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)After being given 6 dollars for washing the car how much did he have",
+      "learner_turn": "I think I see — so instead I should... He had 20 dollars after being given 6 dollars for washing th. Does that mean the answer is 12?",
+      "input_tokens": 361,
+      "output_tokens": 28,
+      "latency_ms": 394.3059296222133,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)he had 14 at the end",
+      "learner_turn": "I think I see — so instead I should... That means he had to have started with 14 + 6 = 20 dollars. Does that mean the answer is 40?",
+      "input_tokens": 353,
+      "output_tokens": 30,
+      "latency_ms": 206.80830985434835,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)He hadn't been given the 6",
+      "learner_turn": "I think I see — so instead I should... Oh, right. That means he had to have started with 14 dollars. Does that mean the answer is 21?",
+      "input_tokens": 353,
+      "output_tokens": 28,
+      "latency_ms": 305.74873586201534,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)The 14 is at the end. Take away the 6 first",
+      "learner_turn": "I think I see — so instead I should... That means he had 8 dollars before washing the car. So, his . Does that mean the answer is 20?",
+      "input_tokens": 358,
+      "output_tokens": 29,
+      "latency_ms": 323.3974194187183,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)He was left with 8 after the movie",
+      "learner_turn": "I think I see — so instead I should... That means he had to have started with 8 + 6 = 14 dollars. S. Does that mean the answer is 20?",
+      "input_tokens": 355,
+      "output_tokens": 31,
+      "latency_ms": 649.15122979821,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)2 x 8 = 16",
+      "learner_turn": "I think I see — so instead I should... That means he had to have started with 16 + 6 = 22 dollars. . Does that mean the answer is 48?",
+      "input_tokens": 352,
+      "output_tokens": 31,
+      "latency_ms": 581.528380835693,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nFred spent half of his allowance going to the movies. He washed the family car and earned 8.6 dollars. What is his weekly allowance if he ended with 20.7 dollars?",
+      "learner_turn": "Hmm, let me try. Could not understand the concepts of mon I think the answer might be 44.",
+      "input_tokens": 394,
+      "output_tokens": 18,
+      "latency_ms": 241.0047306914095,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

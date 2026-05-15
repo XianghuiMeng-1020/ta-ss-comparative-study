@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1036",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.168191",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1681,
+  "total_output_tokens": 97,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nA certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of RAM increased by 30%. After two years, the price stabilized and finally fell by 20% from what it has risen. What is the current price of RAM if it was $50 before the fire?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nMariana is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nMariana inadvertantly substituted an inappropraite value into her equation. Once this was pointed out, she easily resolved the problem\n\nYOUR INITIAL INCORRECT ATTEMPT:\nAfter the fire outbreak, the price of RAM increased by 30%, which means it increased by 30/100 x 50 = $15.\nSo, the price of RAM after the fire outbreak was $50 + $15 = $65.\nThen, the price fell by 20% from what it has risen, which means it fell by 20/100 x 15 = $3.\nTherefore, the current price of RAM is $65 - $3 = $62.\n 62\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)Hi Mariana, this is almost correct. You've correctly calculated the price after 30% rise ($65), but then you make and error, can you see it?",
+      "learner_turn": "After the fire outbreak, the price of RAM increased by 30%, which means it increased by 30/100 x 50  I used this approach because Mariana inadvertantly substituted an inappropraite value int.",
+      "input_tokens": 407,
+      "output_tokens": 31,
+      "latency_ms": 777.788697439642,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)That's right! Well done!",
+      "learner_turn": "Okay, but I still think After the fire outbreak, the price of RAM increased by 30%, . Maybe the answer is 39?",
+      "input_tokens": 386,
+      "output_tokens": 22,
+      "latency_ms": 447.03693294848574,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)You know you can increase a number by 30% by timesing it by 1.3. So 1.3*50=65. Similarly, you can reduce a number by 20% by timesing it by 0.8. So 0.8*65=52. It can be a bit quicker to do it this way. But your answer and approach to the problem are correct.",
+      "learner_turn": "I think I see — so instead I should... After the fire outbreak, the price of RAM increased by 30%, . Does that mean the answer is 33?",
+      "input_tokens": 434,
+      "output_tokens": 28,
+      "latency_ms": 555.4606759624826,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of RAM increased by 39.4%. After two years, the price stabilized and finally fell by 25.1% from what it has risen. What is the current price of RAM if it was $63.9 before the fire?",
+      "learner_turn": "Hmm, let me try. Mariana inadvertantly substituted an ina I think the answer might be 19.",
+      "input_tokens": 454,
+      "output_tokens": 16,
+      "latency_ms": 775.1519106059245,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

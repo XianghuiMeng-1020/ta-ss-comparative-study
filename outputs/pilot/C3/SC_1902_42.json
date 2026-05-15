@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1902",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.133116",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 181,
+  "total_output_tokens": 88,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)can you please total up the amount of candy cards amanda initially had before giving any away?",
+      "learner_turn": "Initially, Amanda had 7 candy bars.",
+      "input_tokens": 26,
+      "output_tokens": 6,
+      "latency_ms": 775.3625671121537,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Plus how many more?",
+      "learner_turn": "Plus 30 candy bars, so a total of 37 candy bars.",
+      "input_tokens": 13,
+      "output_tokens": 11,
+      "latency_ms": 507.6860956452137,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Okay can how many did she give away to her sister?",
+      "learner_turn": "She gave away 3 candy bars the first time and 12 candy bars the second time, for a total of 15 candy bars.",
+      "input_tokens": 20,
+      "output_tokens": 23,
+      "latency_ms": 619.9679803984683,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Ok can we focus on the question again then please. With this in mind can you retry the calculation",
+      "learner_turn": "Amanda had 7 candy bars initially. She gave 3 to her sister the first time and 4 times as many the second time, which wa",
+      "input_tokens": 28,
+      "output_tokens": 25,
+      "latency_ms": 264.8498448565704,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)Good, do you see where you went wrong?",
+      "learner_turn": "Yes, I made a mistake in the calculation and got 19 instead of 22.",
+      "input_tokens": 17,
+      "output_tokens": 14,
+      "latency_ms": 453.3312949341489,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAmanda had 9.3 candy bars. She gave 4.1 to her sister. The next day, Amanda won some prize money and bought another 42.8 candy bars. She gave her sister 5.3 times as many candy bars as she did the first time. How many candy bars did Amanda keep for herself altogether?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 77,
+      "output_tokens": 9,
+      "latency_ms": 559.7579136712204,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

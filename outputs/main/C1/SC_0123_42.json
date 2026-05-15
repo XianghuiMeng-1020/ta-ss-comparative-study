@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_0123",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:06.974163",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2705,
+  "total_output_tokens": 242,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nAva planted 9 apple trees in her backyard. That's 3 more than Lily planted in her backyard. How many apple trees did they plant in their backyards collectively?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nLet's call the number of apple trees Lily planted \"L\". \nWe know that Ava planted 3 more than Lily, so Ava planted \"L+3\" trees. \nTogether, they planted \"L+L+3\" = \"2L+3\" trees. \nSince we know that Lily planted 9 trees, we can substitute \"L\" with 9: \n2L+3 = 2(9)+3 = 18+3 = 21. \nTherefore, they planted 21 apple trees in their backyards collectively. \n 21\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)talk me through your solution",
+      "learner_turn": "So I tried this problem. My approach was: Let's call the number of apple trees Lily planted \"L\". \nWe know that Ava planted. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 330,
+      "output_tokens": 36,
+      "latency_ms": 364.3292968025627,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)how many trees did Ava plant?",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 9? Let me redo: Ava planted \"L+3\" trees, which is equal to 9+3 = 12 trees.",
+      "input_tokens": 331,
+      "output_tokens": 30,
+      "latency_ms": 502.8535433432229,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)read the question. how many trees did Ava plant?",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 9? Let me redo: Ava planted 9 trees in her backyard, which is 3 more than Li",
+      "input_tokens": 334,
+      "output_tokens": 31,
+      "latency_ms": 618.1860110599903,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)is she planted 3 more than lily how many did lily plant?",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 6? Let me redo: Lily planted 9 trees in her backyard.",
+      "input_tokens": 337,
+      "output_tokens": 25,
+      "latency_ms": 707.5300306747549,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)Ava planted 9 trees which was 3 more than lily. How many did lily plant?",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 2? Let me redo: Lily planted 9 trees in her backyard.",
+      "input_tokens": 340,
+      "output_tokens": 25,
+      "latency_ms": 791.9988499161677,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(telling)9-3=",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 8? Let me redo: 6 trees.",
+      "input_tokens": 326,
+      "output_tokens": 20,
+      "latency_ms": 604.1165721260094,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)so lily planted 6 trees and Ava planted 9. what's the total?",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 8? Let me redo: The total number of apple trees planted in their backyards c",
+      "input_tokens": 337,
+      "output_tokens": 29,
+      "latency_ms": 608.1093681677918,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAva planted 11.3 apple trees in her backyard. That's 4.5 more than Lily planted in her backyard. How many apple trees did they plant in their backyards collectively?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Ava planted 11.3 apple trees in her backyard. That... I get approximately 25 as my answer. Does that seem right?",
+      "input_tokens": 370,
+      "output_tokens": 46,
+      "latency_ms": 640.1518363332558,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

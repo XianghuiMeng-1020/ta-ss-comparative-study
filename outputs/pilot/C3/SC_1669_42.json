@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1669",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.115913",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 150,
+  "total_output_tokens": 70,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)If they use 7 grams each wash, how many grams is that per day?",
+      "learner_turn": "7 x 4 = 28 grams of toothpaste per day.",
+      "input_tokens": 23,
+      "output_tokens": 10,
+      "latency_ms": 209.6026791465429,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)they use 7 grams per wash and how many washes per day?",
+      "learner_turn": "Each family member brushes their teeth three times a day, so 7 x 3 = 21 grams of toothpaste per day.",
+      "input_tokens": 21,
+      "output_tokens": 21,
+      "latency_ms": 345.23478885257293,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)good!",
+      "learner_turn": "105/21 = 5 days. Since they can't use a partial day of toothpaste, the toothpaste will last for 5 days.",
+      "input_tokens": 10,
+      "output_tokens": 20,
+      "latency_ms": 501.50065438830165,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)so that 105 grams last how long?",
+      "learner_turn": "7 x 4 = 28 grams of toothpaste per day.",
+      "input_tokens": 16,
+      "output_tokens": 10,
+      "latency_ms": 554.3498839831317,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe toothpaste in Anne's family's bathroom contains 129.3 grams. Anne's dad uses 4.0 grams at each brushing, her mom uses 2.7 grams, Anne and her brother use 1.3 gram each. Each member of the family brushes their teeth three times a day. How many days will it take for the toothpaste to run out?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 80,
+      "output_tokens": 9,
+      "latency_ms": 260.35629473468566,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

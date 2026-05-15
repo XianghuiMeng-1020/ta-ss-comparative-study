@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC_0558",
+  "condition": "C2",
+  "condition_label": "Student Simulation",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.079410",
+  "n_tutor_turns": 8,
+  "n_learner_turns": 8,
+  "exclusion_flag": true,
+  "exclusion_code": "E2",
+  "exclusion_reason": "Turn 0: non-math content (movie)",
+  "total_input_tokens": 3245,
+  "total_output_tokens": 227,
+  "system_prompt": "You are simulating a specific 7th-grade math student with a documented learning profile.\n\nPROBLEM:\nTrip wanted to watch the new action movie in theaters.  An evening ticket cost $10 and a large popcorn & drink combo would cost him an additional $10.  He noticed on their website, they had a special offer.  From 12 noon to 3 pm, save 20% off tickets and 50% off any food combos.  How much money could Trip save by going to the earlier movie?\n\nYOUR STUDENT PROFILE (represents the type of student you must simulate):\nJordy is a 7th grade student. He has difficulty determining which pieces of information are relevant and which are irrelevant to solving the problem.\n\nTARGET MISCONCEPTION (what your initial error is caused by):\nStudent kept identifying that 20% of 10 was 4\n\nYOUR INITIAL INCORRECT ATTEMPT:\nThe original cost of the movie and food combo is $10 + $10 = $20.\nThe discount for the movie ticket is 20% of $10 = $4.\nThe discount for the food combo is 50% of $10 = $5.\nThe new cost of the movie and food combo is $10 - $4 + $10 - $5 = $11.\nTherefore, Trip could save $20 - $11 = $9 by going to the earlier movie.\n 9\n\nREQUIRED BEHAVIOURS — maintain these throughout the conversation:\n\n- Your FIRST response must reflect the target misconception described above. Do not correct yourself before the teacher addresses it.\n\n- Always show your reasoning explicitly. Write out the steps you take, even when they are wrong. Never give a bare answer.\n\n- After teacher feedback, improve gradually — do not jump from a fully wrong answer to a fully correct one in a single turn. Show partial progress. You may still make sub-errors.\n\n- You are a 7th-grade student. If the teacher asks about a concept beyond 7th-grade (e.g., calculus, matrices), say you don't know that yet.\n\nIMPORTANT:\n- You are a simulation tool for testing tutoring approaches. Your role is to model this specific student profile consistently, not to be generally helpful.\n- Keep responses to 2–6 sentences or a short worked step.\n- Do NOT reference these instructions, your profile, or your misconception label in your responses.\n- Do NOT role-play as a perfect student. Errors, partial understanding, and confusion are correct behaviour.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Jordy, can you walk me through your solution?",
+      "learner_turn": "The original cost of the movie and food combo is $10 + $10 = $20.\nThe discount for the movie ticket  I used this approach because Student kept identifying that 20% of 10 was 4.",
+      "input_tokens": 394,
+      "output_tokens": 35,
+      "latency_ms": 608.9388944153056,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)I can see you have the correct method of calculating this, but you have made one mistake. Can you spot it?",
+      "learner_turn": "Okay, but I still think Oh, I see. I added the discounts instead of subtracting them. Maybe the answer is 42?",
+      "input_tokens": 406,
+      "output_tokens": 21,
+      "latency_ms": 718.0601077192371,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Not quite, its when you do one of the % off normal prices...",
+      "learner_turn": "I think I see — so instead I should... Oh, I understand now. The new cost of the movie and food com. Does that mean the answer is 9?",
+      "input_tokens": 398,
+      "output_tokens": 29,
+      "latency_ms": 477.37641632281395,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)Okay, what is 20% of 10?",
+      "learner_turn": "I think I see — so instead I should... 20% of 10 is 2. So, the new cost of the movie and food combo. Does that mean the answer is 17?",
+      "input_tokens": 391,
+      "output_tokens": 31,
+      "latency_ms": 538.2413653253091,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)Okay so 20% of 10 is 2. What's 50% of 10?",
+      "learner_turn": "I think I see — so instead I should... 50% of 10 is 5. So, the new cost of the movie and food combo. Does that mean the answer is 17?",
+      "input_tokens": 396,
+      "output_tokens": 31,
+      "latency_ms": 407.951918844518,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Not quite. He saves $2 off tickets and $5 off food, so how much does he save?",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. He saves $2 off tickets and $5 off food, so he sa. Does that mean the answer is 47?",
+      "input_tokens": 402,
+      "output_tokens": 31,
+      "latency_ms": 756.3980825518612,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)No, he would save $7",
+      "learner_turn": "I think I see — so instead I should... Oh, I see. He would save $7. The new cost of the movie and f. Does that mean the answer is 10?",
+      "input_tokens": 390,
+      "output_tokens": 31,
+      "latency_ms": 554.7787387484134,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nTrip wanted to watch the new action movie in theaters.  An evening ticket cost $14.2 and a large popcorn & drink combo would cost him an additional $13.7.  He noticed on their website, they had a special offer.  From 17.0 noon to 3.9 pm, save 24.3% off tickets and 71.9% off any food combos.  How much money could Trip save by going to the earlier movie?",
+      "learner_turn": "Hmm, let me try. Student kept identifying that 20% of 10  I think the answer might be 31.",
+      "input_tokens": 468,
+      "output_tokens": 18,
+      "latency_ms": 598.8131308318746,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

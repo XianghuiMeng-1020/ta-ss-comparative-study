@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_0953",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.042851",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 262,
+  "total_output_tokens": 260,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Jia, What is the number of apartments that have at least 1 person living in them?",
+      "learner_turn": "To solve this problem, At least one person lives in 85/100 * 120 = 102 apartments.\nAt least two persons. The answer is At least one person .",
+      "input_tokens": 28,
+      "output_tokens": 28,
+      "latency_ms": 664.6243540870416,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)What is the number of apartments that have at least 2 people living in them?",
+      "learner_turn": "To solve this problem, At least one person lives in 85/100 * 120 = 102 apartments.\nAt least two persons. The answer is At least one person .",
+      "input_tokens": 27,
+      "output_tokens": 28,
+      "latency_ms": 792.2132424019045,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)How many apartments have only one person living in them.",
+      "learner_turn": "To solve this problem, At least one person lives in 85/100 * 120 = 102 apartments.\nAt least two persons. The answer is At least one person .",
+      "input_tokens": 22,
+      "output_tokens": 28,
+      "latency_ms": 633.78751800299,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)You are saying all 120 apartments have at least one person... what is the actual number with at least one?",
+      "learner_turn": "To solve this problem, At least one person lives in 85/100 * 120 = 102 apartments.\nAt least two persons. The answer is At least one person .",
+      "input_tokens": 32,
+      "output_tokens": 28,
+      "latency_ms": 673.82308198029,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)So, recalculate using the correct number of apartments with at least one person.",
+      "learner_turn": "To solve this problem, At least one person lives in 85/100 * 120 = 102 apartments.\nAt least two persons. The answer is At least one person .",
+      "input_tokens": 25,
+      "output_tokens": 28,
+      "latency_ms": 587.0764228382384,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)re-check your subtraction.",
+      "learner_turn": "To solve this problem, At least one person lives in 85/100 * 120 = 102 apartments.\nAt least two persons. The answer is At least one person .",
+      "input_tokens": 15,
+      "output_tokens": 28,
+      "latency_ms": 448.9548170211259,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)So 72+18= 102?",
+      "learner_turn": "To solve this problem, At least one person lives in 85/100 * 120 = 102 apartments.\nAt least two persons. The answer is At least one person .",
+      "input_tokens": 15,
+      "output_tokens": 28,
+      "latency_ms": 300.55288203242424,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(probing)You need to try again, 102-72 does NOT equal 18",
+      "learner_turn": "To solve this problem, At least one person lives in 85/100 * 120 = 102 apartments.\nAt least two persons. The answer is At least one person .",
+      "input_tokens": 22,
+      "output_tokens": 28,
+      "latency_ms": 435.99851504877387,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(generic)yes!",
+      "learner_turn": "To solve this problem, At least one person lives in 85/100 * 120 = 102 apartments.\nAt least two persons. The answer is At least one person .",
+      "input_tokens": 13,
+      "output_tokens": 28,
+      "latency_ms": 541.6711577588992,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIn a block of flats, there are 166.4 apartments. 127.4% of them have at least 1.3 resident, while 80.3% of the apartments have at least two residents. How many apartments have only one resident?",
+      "learner_turn": "The answer to that problem would be 47.",
+      "input_tokens": 63,
+      "output_tokens": 8,
+      "latency_ms": 323.3527540554604,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

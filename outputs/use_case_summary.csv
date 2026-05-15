@@ -1,0 +1,5 @@
+condition,expected_use_case,n_packets,n_correct_assignment,pct_correct_assignment,n_reject,pct_reject
+C1,learning_by_teaching,60,52,86.7,1,1.7
+C2,diagnostic_simulation,60,51,85.0,2,3.3
+C3,reject,60,47,78.3,47,78.3
+C4,reject,60,55,91.7,55,91.7

@@ -1,0 +1,122 @@
+{
+  "scenario_id": "SC_1956",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.144638",
+  "n_tutor_turns": 10,
+  "n_learner_turns": 10,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 285,
+  "total_output_tokens": 176,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Hi Jia, so you have figured out Michael's brothers ages as being 5 and 15. Correct?",
+      "learner_turn": "Yes, that's correct. I used x to represent Michael's age when he was a year younger and then used that to figure out the",
+      "input_tokens": 25,
+      "output_tokens": 24,
+      "latency_ms": 387.8722152329344,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Let's try it using x to represent Michael's current age.  What would the equation be in this case?",
+      "learner_turn": "In this case, the equation would be x+2+5+1/3(x+2) = 30.",
+      "input_tokens": 27,
+      "output_tokens": 10,
+      "latency_ms": 727.9138068270721,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Write an equation relating Michael's age (x)  to his older brother who is 15.",
+      "learner_turn": "The equation would be x+2 = 15.",
+      "input_tokens": 23,
+      "output_tokens": 7,
+      "latency_ms": 785.5245616642997,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)How would you represent Michael's age (x) when he was 1 year younger as an equation?",
+      "learner_turn": "The equation would be x-1 = the age of Michael when he was 1 year younger.",
+      "input_tokens": 25,
+      "output_tokens": 16,
+      "latency_ms": 542.23122850931,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Correct. How would you represent twice that age (x-1) in an equation?",
+      "learner_turn": "The equation would be 2(x-1) = twice the age of Michael when he was 1 year younger.",
+      "input_tokens": 21,
+      "output_tokens": 17,
+      "latency_ms": 364.0539451666752,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)Now how would you represent 1 year older than 2(x-1) as an equation?",
+      "learner_turn": "The equation would be 2(x-1) + 1 = 1 year older than twice the age of Michael when he was 1 year younger.",
+      "input_tokens": 22,
+      "output_tokens": 23,
+      "latency_ms": 683.6332819773968,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(probing)Correct, so 2(x-1)+1 =15. (You said Michael's older brother is 15).  Solve the equation for x which is Michael's age.",
+      "learner_turn": "Solving the equation for x, we get x = 7. Therefore, Michael's current age is 7+3 = 10, and the combined age of the thre",
+      "input_tokens": 29,
+      "output_tokens": 25,
+      "latency_ms": 276.0395278939611,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)Show me how you expanded the equation 2(x-1)+1=15",
+      "learner_turn": "Expanding the equation 2(x-1)+1=15, we get 2x-2+1=15. Then we can rearrange it to 2x+1=15, and solve for x to get x=7.",
+      "input_tokens": 17,
+      "output_tokens": 21,
+      "latency_ms": 203.06144722780152,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(generic)Correct, you calculated the correct ages 5, 7, 15, and the combined ages of 30.  Good Work!",
+      "learner_turn": "Yes, that's correct. I used x to represent Michael's age when he was a year younger and then used that to figure out the",
+      "input_tokens": 26,
+      "output_tokens": 24,
+      "latency_ms": 615.4086515407287,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nMichael has two brothers. His oldest brother is 1.5 year older than twice Michael's age when Michael was a year younger. His younger brother is 7.3 years old, which is a third of the age of the older brother. What is their combined age?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 70,
+      "output_tokens": 9,
+      "latency_ms": 750.7689407975888,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

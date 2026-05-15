@@ -1,0 +1,132 @@
+{
+  "scenario_id": "SC_0530",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.024027",
+  "n_tutor_turns": 11,
+  "n_learner_turns": 11,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 285,
+  "total_output_tokens": 308,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)guide me through your working sout here please",
+      "learner_turn": "To solve this problem, If Giselle had 20 doves that laid 3 eggs each, the total number of eggs in the b. The answer is If Giselle had 20 do.",
+      "input_tokens": 20,
+      "output_tokens": 30,
+      "latency_ms": 450.7384829957507,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)guide me through your workings please",
+      "learner_turn": "To solve this problem, If Giselle had 20 doves that laid 3 eggs each, the total number of eggs in the b. The answer is If Giselle had 20 do.",
+      "input_tokens": 18,
+      "output_tokens": 30,
+      "latency_ms": 404.404981731543,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)show me what you did",
+      "learner_turn": "To solve this problem, If Giselle had 20 doves that laid 3 eggs each, the total number of eggs in the b. The answer is If Giselle had 20 do.",
+      "input_tokens": 17,
+      "output_tokens": 30,
+      "latency_ms": 307.6411779148485,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(generic)what did you do here?",
+      "learner_turn": "To solve this problem, If Giselle had 20 doves that laid 3 eggs each, the total number of eggs in the b. The answer is If Giselle had 20 do.",
+      "input_tokens": 17,
+      "output_tokens": 30,
+      "latency_ms": 237.90723205167967,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)hi scott",
+      "learner_turn": "To solve this problem, If Giselle had 20 doves that laid 3 eggs each, the total number of eggs in the b. The answer is If Giselle had 20 do.",
+      "input_tokens": 14,
+      "output_tokens": 30,
+      "latency_ms": 279.75801042099476,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(generic)how you worked this out?",
+      "learner_turn": "To solve this problem, If Giselle had 20 doves that laid 3 eggs each, the total number of eggs in the b. The answer is If Giselle had 20 do.",
+      "input_tokens": 17,
+      "output_tokens": 30,
+      "latency_ms": 566.9489396868819,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)i can see your first couple of steps are correct so yes it is 60 eggs in total. Then 45 hatched. you need to add that amount to the amount of doves she initially had=?",
+      "learner_turn": "To solve this problem, If Giselle had 20 doves that laid 3 eggs each, the total number of eggs in the b. The answer is If Giselle had 20 do.",
+      "input_tokens": 47,
+      "output_tokens": 30,
+      "latency_ms": 478.775341832119,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)no 45 hatched so that is added to the initial 20 yes?",
+      "learner_turn": "To solve this problem, If Giselle had 20 doves that laid 3 eggs each, the total number of eggs in the b. The answer is If Giselle had 20 do.",
+      "input_tokens": 24,
+      "output_tokens": 30,
+      "latency_ms": 308.76693939275543,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(generic)can you see where you went wrong?",
+      "learner_turn": "To solve this problem, If Giselle had 20 doves that laid 3 eggs each, the total number of eggs in the b. The answer is If Giselle had 20 do.",
+      "input_tokens": 19,
+      "output_tokens": 30,
+      "latency_ms": 587.1801069469172,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(generic)good you should alwasy check your work to ensure everything is correctly worked out or to identify any errors",
+      "learner_turn": "To solve this problem, If Giselle had 20 doves that laid 3 eggs each, the total number of eggs in the b. The answer is If Giselle had 20 do.",
+      "input_tokens": 31,
+      "output_tokens": 30,
+      "latency_ms": 475.90703205116705,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nGiselle had 27.6 female doves in a birdhouse. After a month, the doves laid 4.2 eggs each. If 3.6/5.2 of the eggs hatched, calculate the total number of doves Giselle has now.",
+      "learner_turn": "The answer to that problem would be 49.",
+      "input_tokens": 61,
+      "output_tokens": 8,
+      "latency_ms": 206.81361493061962,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

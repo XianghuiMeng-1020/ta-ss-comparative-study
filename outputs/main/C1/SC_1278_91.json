@@ -1,0 +1,92 @@
+{
+  "scenario_id": "SC_1278",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.205023",
+  "n_tutor_turns": 7,
+  "n_learner_turns": 7,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2695,
+  "total_output_tokens": 230,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nOpenAI runs a robotics competition that limits the weight of each robot. Each robot can be no more than twice the minimum weight and no less than 5 pounds heavier than the standard robot. The standard robot weighs 100 pounds. What is the maximum weight of a robot in the competition?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nThe minimum weight of a robot is 100 x 2 = 200 pounds.\nThe weight of the robot can be no more than twice the minimum weight, meaning the maximum weight is 200 x 2 = 400 pounds.\nThe weight of the robot can be no less than 5 pounds heavier than the standard robot, meaning the maximum weight is 100 + 5 = 105 pounds.\nTherefore, the maximum weight of the robot in the competition is 105 pounds.\n 105\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)Hi Claire, can you tell me what you were confused about in this question?",
+      "learner_turn": "So I tried this problem. My approach was: The minimum weight of a robot is 100 x 2 = 200 pounds.\nThe weight of the robot c. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 379,
+      "output_tokens": 40,
+      "latency_ms": 714.0516992976617,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)Why do you say 105 pounds?",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 1? Let me redo: Because the maximum weight of the robot can be no more than ",
+      "input_tokens": 371,
+      "output_tokens": 30,
+      "latency_ms": 681.1670965093047,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)Let's read the question again. How should we find the minimum weight?",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 8? Let me redo: We should find the minimum weight by multiplying the standar",
+      "input_tokens": 377,
+      "output_tokens": 28,
+      "latency_ms": 306.25907866883097,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)No, let's focus on the sentence \"no less than 5 pounds heavier than the standard robot.\" How should we calculate the minimum weight?",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 4? Let me redo: To calculate the minimum weight, we should add 5 pounds to t",
+      "input_tokens": 388,
+      "output_tokens": 30,
+      "latency_ms": 776.9444756788647,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)Yes, the minimum is 105 pountds. What should we do now, to determine the maximum weight?",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 2? Let me redo: To determine the maximum weight, we should multiply the mini",
+      "input_tokens": 381,
+      "output_tokens": 28,
+      "latency_ms": 262.54548666554615,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(generic)Correct!",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: I was confused about what the maximum weight of the robot wa. So the answer is 29?",
+      "input_tokens": 366,
+      "output_tokens": 29,
+      "latency_ms": 538.3830524056941,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nOpenAI runs a robotics competition that limits the weight of each robot. Each robot can be no more than twice the minimum weight and no less than 6.7 pounds heavier than the standard robot. The standard robot weighs 142.6 pounds. What is the maximum weight of a robot in the competition?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: OpenAI runs a robotics competition that limits the... I get approximately 9 as my answer. Does that seem right?",
+      "input_tokens": 433,
+      "output_tokens": 45,
+      "latency_ms": 273.7954097822145,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

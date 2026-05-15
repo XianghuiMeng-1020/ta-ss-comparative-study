@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_2029",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.363340",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 239,
+  "total_output_tokens": 256,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic) Hi Alejandra, could you please walk me through your solution?",
+      "learner_turn": "To solve this problem, Ray gave 30*2 = 60 cents to Randi.\nRandi has 60/5 = 12 nickels.\nPeter has 30/5 =. The answer is Ray gave 30*2 = 60 c.",
+      "input_tokens": 23,
+      "output_tokens": 31,
+      "latency_ms": 336.0584686984072,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)good work so far, so randi had 12 nickels right?",
+      "learner_turn": "To solve this problem, Ray gave 30*2 = 60 cents to Randi.\nRandi has 60/5 = 12 nickels.\nPeter has 30/5 =. The answer is Ray gave 30*2 = 60 c.",
+      "input_tokens": 22,
+      "output_tokens": 31,
+      "latency_ms": 701.9043133325436,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)let's just focus on randi for now. how many nickels?",
+      "learner_turn": "To solve this problem, Ray gave 30*2 = 60 cents to Randi.\nRandi has 60/5 = 12 nickels.\nPeter has 30/5 =. The answer is Ray gave 30*2 = 60 c.",
+      "input_tokens": 22,
+      "output_tokens": 31,
+      "latency_ms": 647.0376194536027,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)ok and how many does peter have?",
+      "learner_turn": "To solve this problem, Ray gave 30*2 = 60 cents to Randi.\nRandi has 60/5 = 12 nickels.\nPeter has 30/5 =. The answer is Ray gave 30*2 = 60 c.",
+      "input_tokens": 19,
+      "output_tokens": 31,
+      "latency_ms": 508.1259945172396,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)wait let's look at your solution again. how many cents did ray give peter?",
+      "learner_turn": "To solve this problem, Ray gave 30*2 = 60 cents to Randi.\nRandi has 60/5 = 12 nickels.\nPeter has 30/5 =. The answer is Ray gave 30*2 = 60 c.",
+      "input_tokens": 26,
+      "output_tokens": 31,
+      "latency_ms": 432.7367408004317,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)and how many nickels is that?",
+      "learner_turn": "To solve this problem, Ray gave 30*2 = 60 cents to Randi.\nRandi has 60/5 = 12 nickels.\nPeter has 30/5 =. The answer is Ray gave 30*2 = 60 c.",
+      "input_tokens": 18,
+      "output_tokens": 31,
+      "latency_ms": 231.6592524027458,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)great so if randi has 12 nickels, and peter has 6, how many more does randi have?",
+      "learner_turn": "To solve this problem, Ray gave 30*2 = 60 cents to Randi.\nRandi has 60/5 = 12 nickels.\nPeter has 30/5 =. The answer is Ray gave 30*2 = 60 c.",
+      "input_tokens": 29,
+      "output_tokens": 31,
+      "latency_ms": 602.5172701605511,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)great stuff alejandra, correct",
+      "learner_turn": "To solve this problem, Ray gave 30*2 = 60 cents to Randi.\nRandi has 60/5 = 12 nickels.\nPeter has 30/5 =. The answer is Ray gave 30*2 = 60 c.",
+      "input_tokens": 16,
+      "output_tokens": 31,
+      "latency_ms": 431.73038736855443,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nRay has 230.3 cents in nickels. Ray gives 36.6 cents to Peter, and he gives twice as many cents to Randi as he gave to Peter. How many more nickels does Randi have than Peter?",
+      "learner_turn": "The answer to that problem would be 28.",
+      "input_tokens": 64,
+      "output_tokens": 8,
+      "latency_ms": 766.6551473369846,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

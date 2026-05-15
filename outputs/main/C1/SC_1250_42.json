@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1250",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.190563",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 2058,
+  "total_output_tokens": 199,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nAn Italian restaurant earns $600 every weekday and twice as much on the weekend. How much money does it earn by the end of the month?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nThere are 5 weekdays in a week.\nSo, the Italian restaurant earns 5 x $600 = $3000 every weekday in a week.\nAnd, it earns 2 x $600 = $1200 every weekend in a week.\nTherefore, in a week, the Italian restaurant earns a total of $3000 + $1200 = $4200.\nIn a month (assuming 4 weeks), it earns $4200 x 4 = $16800.\n 16800\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)do you think maybe you should check your weekend figures as these were different to the weekday ones",
+      "learner_turn": "So I tried this problem. My approach was: There are 5 weekdays in a week.\nSo, the Italian restaurant earns 5 x $600 = $300. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 343,
+      "output_tokens": 38,
+      "latency_ms": 642.6665851276196,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)what total would your weekend figure be",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 9? Let me redo: The total for the weekend would be 2 x $600 = $1200.",
+      "input_tokens": 332,
+      "output_tokens": 30,
+      "latency_ms": 518.7685513021141,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)correct so if you now add this to the weekly figure of 3000 what would the weekly total be",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: The weekly total would be $3000 + $1200 = $4200.. So the answer is 15?",
+      "input_tokens": 344,
+      "output_tokens": 27,
+      "latency_ms": 268.1750075978529,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)so if we then times this figure by 4 the total for the month would be how much",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 3? Let me redo: The total for the month would be $4200 x 4 = $16,800.",
+      "input_tokens": 343,
+      "output_tokens": 30,
+      "latency_ms": 542.2236682743651,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)correct well done",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: Oh, I see. I forgot to multiply the weekend earnings by two.. So the answer is 17?",
+      "input_tokens": 328,
+      "output_tokens": 29,
+      "latency_ms": 375.107443555322,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nAn Italian restaurant earns $852.2 every weekday and twice as much on the weekend. How much money does it earn by the end of the month?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: An Italian restaurant earns $852.2 every weekday a... I get approximately 44 as my answer. Does that seem right?",
+      "input_tokens": 368,
+      "output_tokens": 45,
+      "latency_ms": 715.1669614802132,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

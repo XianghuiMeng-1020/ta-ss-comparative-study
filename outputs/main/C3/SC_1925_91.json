@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1925",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.328938",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 149,
+  "total_output_tokens": 79,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(focus)You have made an error by adding the two neighbourhoods , Jenny will only be selling to the better one",
+      "learner_turn": "Oh, I see. So, Jenny will make 25 x $2 = $50 from selling cookies in Neighborhood B. The better choice is Neighborhood B",
+      "input_tokens": 29,
+      "output_tokens": 24,
+      "latency_ms": 319.82615343905303,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(generic)Correct do you see the error you made",
+      "learner_turn": "Yes, I made the mistake of adding the number of boxes of cookies from both neighborhoods instead of just the better one.",
+      "input_tokens": 17,
+      "output_tokens": 22,
+      "latency_ms": 468.5338405030608,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(generic)Yes correct well done",
+      "learner_turn": "Oh, I see. So, Jenny will make 25 x $2 = $50 from selling cookies in Neighborhood B. The better choice is Neighborhood B",
+      "input_tokens": 13,
+      "output_tokens": 24,
+      "latency_ms": 242.86123803660084,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 13.7 homes which each will buy 2.9 boxes of cookies.  Neighborhood B has 6.4 homes, each of which will buy 6.8 boxes of cookies.  Assuming each box of cookies costs $2.5, how much will Jenny make at the better choice of the two neighborhoods?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 90,
+      "output_tokens": 9,
+      "latency_ms": 686.0858591172143,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

@@ -1,0 +1,192 @@
+{
+  "scenario_id": "SC_0946",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.142985",
+  "n_tutor_turns": 17,
+  "n_learner_turns": 17,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 6445,
+  "total_output_tokens": 526,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nThe vending machine fails to drop a snack when it’s purchased one in six times. One in ten times, it will accidentally drop two snacks. The rest of the time, it drops the purchased snack. If thirty people have used the vending machine once each to purchase a snack, how many snacks has the vending machine dropped?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nOut of 30 purchases, the vending machine fails to drop a snack 1/6 of the time, which is 30/6 = 5 times.\nOut of 30 purchases, the vending machine accidentally drops two snacks 1/10 of the time, which is 30/10 = 3 times.\nSo, the vending machine has dropped 2 x 3 = 6 additional snacks.\nTherefore, the vending machine has dropped a total of 5 + 6 = 11 snacks.\n 11\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Brenda, talk me through your solution",
+      "learner_turn": "So I tried this problem. My approach was: Out of 30 purchases, the vending machine fails to drop a snack 1/6 of the time, . Wait — can you explain why we need to do that step first?",
+      "input_tokens": 370,
+      "output_tokens": 38,
+      "latency_ms": 351.5319551824054,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)how many times has the vending machine been used in total?",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 9? Let me redo: The vending machine has been used 30 times in total.",
+      "input_tokens": 374,
+      "output_tokens": 28,
+      "latency_ms": 244.64234108661412,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)and how many times has it dropped a single snack normally?",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 1? Let me redo: The vending machine has dropped a single snack normally 25 t",
+      "input_tokens": 374,
+      "output_tokens": 29,
+      "latency_ms": 200.97537183757413,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)how did you work that out?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 2? Let me redo: I worked it out by subtracting the 5 times it failed to drop",
+      "input_tokens": 369,
+      "output_tokens": 31,
+      "latency_ms": 269.8164908741136,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)If I have 30 sweets and I eat 5, how many do I have left?",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 7? Let me redo: You would have 25 sweets left.",
+      "input_tokens": 378,
+      "output_tokens": 24,
+      "latency_ms": 571.3384561405801,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(probing)What about if I eat another 3?",
+      "learner_turn": "I think I see what you mean. So instead of 9, I should use 5? Let me redo: You would have 22 sweets left.",
+      "input_tokens": 370,
+      "output_tokens": 24,
+      "latency_ms": 760.7579516874004,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)good, so how many times did the machine give a single snack?",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 6? Let me redo: The vending machine gave a single snack 25 times.",
+      "input_tokens": 375,
+      "output_tokens": 27,
+      "latency_ms": 404.77450674081996,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)you've just told me that 30 - 5 - 3 = 22",
+      "learner_turn": "I think I see what you mean. So instead of 1, I should use 10? Let me redo: Yes, that's correct. The 30 is the total number of times the",
+      "input_tokens": 375,
+      "output_tokens": 30,
+      "latency_ms": 336.80288810061404,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)good, correct. and then how many times did it fail to drop a snack?",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: The vending machine failed to drop a snack 5 times.. So the answer is 27?",
+      "input_tokens": 377,
+      "output_tokens": 27,
+      "latency_ms": 266.3811310978455,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(focus)so would we add any number to 22 here?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 9? Let me redo: Yes, we would add the 5 times it failed to drop a snack and ",
+      "input_tokens": 372,
+      "output_tokens": 32,
+      "latency_ms": 493.9700048650661,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(probing)if I fail to give you a sweet, do you have any sweets?",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 7? Let me redo: No, if you fail to give me a sweet, I would not have any swe",
+      "input_tokens": 376,
+      "output_tokens": 33,
+      "latency_ms": 450.19852957294074,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(focus)so if the vending machine fails to drop a snack, will we add any snacks to 22?",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 2? Let me redo: No, if the vending machine fails to drop a snack, we would n",
+      "input_tokens": 380,
+      "output_tokens": 31,
+      "latency_ms": 223.76780677187887,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(focus)but the 5 times it fails, it didn't give us a snack",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 1? Let me redo: That's correct. The 5 times it failed to drop a snack, it di",
+      "input_tokens": 375,
+      "output_tokens": 31,
+      "latency_ms": 631.8263073940539,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "(telling)we don't need to add those 5 times to the total",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 8? Let me redo: No, we do need to add those 5 times to the total. Even thoug",
+      "input_tokens": 374,
+      "output_tokens": 32,
+      "latency_ms": 332.69847793943586,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 14,
+      "tutor_turn": "(telling)the answer is 28",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 8? Let me redo: No, the answer is 30. We need to add the 5 times it failed t",
+      "input_tokens": 367,
+      "output_tokens": 33,
+      "latency_ms": 330.8054557763031,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 15,
+      "tutor_turn": "(telling)we have the 22 times it operated normally. Then it failed to give a snack 5 times. Then it gave a double snack 3 times ( 2 x 3 = 6), so we add 6 + 22 = 28",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 10? Let me redo: Yes, that's correct. We have the 22 times it operated normal",
+      "input_tokens": 402,
+      "output_tokens": 29,
+      "latency_ms": 682.4255341136902,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 16,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nThe vending machine fails to drop a snack when it’s purchased one in six times. One in ten times, it will accidentally drop two snacks. The rest of the time, it drops the purchased snack. If thirty people have used the vending machine once each to purchase a snack, how many snacks has the vending machine dropped?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: The vending machine fails to drop a snack when it’... I get approximately 42 as my answer. Does that seem right?",
+      "input_tokens": 437,
+      "output_tokens": 47,
+      "latency_ms": 654.3884715459802,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

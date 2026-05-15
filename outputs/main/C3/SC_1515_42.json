@@ -1,0 +1,162 @@
+{
+  "scenario_id": "SC_1515",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.272656",
+  "n_tutor_turns": 14,
+  "n_learner_turns": 14,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 368,
+  "total_output_tokens": 182,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Winnie, can you tell me how you got your answer?",
+      "learner_turn": "Yes, I used the information given that the apples were two times cheaper than the oranges. So, I calculated that the cos",
+      "input_tokens": 20,
+      "output_tokens": 22,
+      "latency_ms": 428.6765509130976,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Okay, How many kg of apples did Betty buy?",
+      "learner_turn": "Betty bought 3 kg of apples.",
+      "input_tokens": 18,
+      "output_tokens": 6,
+      "latency_ms": 484.1917048328321,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)and 1 kg of oranges.  So if 1 kg of oranges cost $12, and the apples were 2 times cheaper than the oranges, we know that 1kg of oranges costs $12.",
+      "learner_turn": "Yes, that's correct. So, if 1 kg of oranges cost $12, then 1 kg of apples would cost 1/2 x $12 = $6. Then, the total cos",
+      "input_tokens": 40,
+      "output_tokens": 27,
+      "latency_ms": 388.79465938800416,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)so if we know that 1 kg of apples would cost $6, and Betty bought 3 kg of apples",
+      "learner_turn": "Yes, that's right. So, the total cost of the 3 kg of apples would be 3 x $6 = $18.",
+      "input_tokens": 28,
+      "output_tokens": 20,
+      "latency_ms": 752.8077892040236,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(focus)so 1 kg of apples would cost how much?",
+      "learner_turn": "1 kg of apples would cost $6.",
+      "input_tokens": 18,
+      "output_tokens": 7,
+      "latency_ms": 289.70751010045365,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)Wait, I made a mistake",
+      "learner_turn": "That's okay. What mistake did you make?",
+      "input_tokens": 14,
+      "output_tokens": 7,
+      "latency_ms": 764.7770975474479,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)Let's start over. How much did 3 kg of apples cost?",
+      "learner_turn": "3 kg of apples would cost 3 x $6 = $18.",
+      "input_tokens": 20,
+      "output_tokens": 11,
+      "latency_ms": 774.4737532047927,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(focus)Actually, if 3 kg of apples were 2x cheaper than the oranges, and 1 kg of oranges cost $12, that would mean the cost for 3k of apples would be half the total cost of 1 kg of oranges, so...",
+      "learner_turn": "Yes, that's right. So, the cost of 3 kg of apples would be 1/2 x $12 = $6. Then, the total cost of oranges and apples wo",
+      "input_tokens": 49,
+      "output_tokens": 27,
+      "latency_ms": 583.0025129983889,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "(focus)So if 3 kg of apples costs $6, how much does 1 kg of apples cost",
+      "learner_turn": "1 kg of apples would cost $6.",
+      "input_tokens": 25,
+      "output_tokens": 7,
+      "latency_ms": 444.66122813405684,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 9,
+      "tutor_turn": "(probing)3 kg of apples costs $6, so 1 kg of apples is",
+      "learner_turn": "1 kg of apples would cost $6.",
+      "input_tokens": 21,
+      "output_tokens": 7,
+      "latency_ms": 625.630327665562,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 10,
+      "tutor_turn": "(focus)What is 6 divided by 3",
+      "learner_turn": "6 divided by 3 is equal to 2.",
+      "input_tokens": 15,
+      "output_tokens": 8,
+      "latency_ms": 321.80432508524444,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 11,
+      "tutor_turn": "(focus)So if 3 kg of apples costs $6, and 1 kg costs 1/3 of that?",
+      "learner_turn": "Yes, that's right. 1 kg of apples would cost 1/3 of $6, which is $2.",
+      "input_tokens": 24,
+      "output_tokens": 15,
+      "latency_ms": 464.5488035651756,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 12,
+      "tutor_turn": "(telling)now you got it",
+      "learner_turn": "Yes, I understand now. Thank you for helping me.",
+      "input_tokens": 13,
+      "output_tokens": 9,
+      "latency_ms": 574.0567408982731,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 13,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nBetty bought 1.4 kg of oranges and 4.0 kg of apples. The total cost of oranges was $15.8. The apples were two times cheaper than the oranges. How much did Betty pay for 1.2 kg of apples?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 63,
+      "output_tokens": 9,
+      "latency_ms": 624.2856037889821,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

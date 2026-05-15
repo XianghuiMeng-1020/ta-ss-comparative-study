@@ -1,0 +1,113 @@
+{
+  "scenario_id": "SC_1820",
+  "condition": "C1_ablate_transfer",
+  "condition_label": "Teachable Agent",
+  "seed": 42,
+  "phase": null,
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:24:04.989833",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3393,
+  "total_output_tokens": 298,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nA father and a son start approaching each other at the same time from opposite ends of a hallway that is 16m long. If the father is walking three times as fast as the son, at what distance from the father's end of the hallway will they meet?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nLet's call the distance from the father's end of the hallway to where they meet \"x\". \n\nSince they are walking towards each other, their total distance covered will be 16 meters. \n\nLet's call the son's speed \"s\". Then the father's speed is 3s. \n\nWe can set up an equation: \n\nx + (3s)x = 16 \n\nSimplifying: \n\n4x = 16 \n\nx = 4 \n\nSo they will meet 4 meters from the father's end of the hallway. \n\n 4\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(probing)We want to know how far from the father's end they will meet. Think, who is walking further here, and how much was it?",
+      "learner_turn": "So I tried this problem. My approach was: Let's call the distance from the father's end of the hallway to where they meet . Wait — can you explain why we need to do that step first?",
+      "input_tokens": 381,
+      "output_tokens": 37,
+      "latency_ms": 236.80498360768166,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)How far did the father walk? That tells you how far he is from his end of the hallway.",
+      "learner_turn": "I think I see what you mean. So instead of 6, I should use 4? Let me redo: The father walked 12 meters, so he will be 4 meters from his",
+      "input_tokens": 376,
+      "output_tokens": 31,
+      "latency_ms": 376.36790443650216,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)If the father walked 30 meters, and met his son, then they would be 30 meters from where the father started.",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 4? Let me redo: Yes, if the father walked 30 meters, then they would be 30 m",
+      "input_tokens": 378,
+      "output_tokens": 31,
+      "latency_ms": 250.9416652878698,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(generic)So can you look at your solution again.",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 9? Let me redo: Yes, I can. Since the father is walking three times as fast ",
+      "input_tokens": 365,
+      "output_tokens": 30,
+      "latency_ms": 537.5407799511175,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(generic)Can you draw a picture to represent what you're thinking?",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 4? Let me redo: Sure. Here is a picture that shows the father and son walkin",
+      "input_tokens": 367,
+      "output_tokens": 30,
+      "latency_ms": 569.2220811755437,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)The 4 meters is closest to whose end of the hallway?",
+      "learner_turn": "I think I see what you mean. So instead of 4, I should use 9? Let me redo: The 4 meters is closest to the father's end of the hallway.",
+      "input_tokens": 368,
+      "output_tokens": 30,
+      "latency_ms": 262.32923574890253,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(telling)If the father walked 12 meters, then he is TWELVE meters from HIS END of the hallway.",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 7? Let me redo: Yes, if the father walked 12 meters, then he is 12 meters fr",
+      "input_tokens": 374,
+      "output_tokens": 31,
+      "latency_ms": 584.2686729424059,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(generic)Excellent, that is the answer.",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 3? Let me redo: Yes, the answer is 12 meters from the father's end of the ha",
+      "input_tokens": 362,
+      "output_tokens": 31,
+      "latency_ms": 686.0174797240604,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nA father and a son start approaching each other at the same time from opposite ends of a hallway that is 16m long. If the father is walking three times as fast as the son, at what distance from the father's end of the hallway will they meet?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: A father and a son start approaching each other at... I get approximately 46 as my answer. Does that seem right?",
+      "input_tokens": 422,
+      "output_tokens": 47,
+      "latency_ms": 780.7146518604884,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true,
+  "base_condition": "C1"
+}

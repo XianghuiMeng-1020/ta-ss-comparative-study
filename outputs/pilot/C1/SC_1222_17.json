@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_1222",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.068732",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 1681,
+  "total_output_tokens": 181,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nIn four years, Suzy will be twice Mary's age then. If Suzy is 20 now, how old is Mary?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nLet's start by finding out how old Suzy will be in four years: 20 + 4 = 24\nLet's call Mary's current age \"M\". We know that in four years, Suzy will be twice Mary's age, so we can write an equation: 2M = 24\nSolving for M, we get: M = 24/2 = 12\nTherefore, Mary is currently 12 years old. \n 12\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Talk me through your solution",
+      "learner_turn": "So I tried this problem. My approach was: Let's start by finding out how old Suzy will be in four years: 20 + 4 = 24\nLet's. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 321,
+      "output_tokens": 40,
+      "latency_ms": 369.4775722075426,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)You have worked out Mary's age in 4 years time, how can you adjust your solution to work out how old Mary is now?",
+      "learner_turn": "I think I see what you mean. So instead of 3, I should use 7? Let me redo: To work out Mary's age now, I used the equation 2M = 24. I k",
+      "input_tokens": 340,
+      "output_tokens": 33,
+      "latency_ms": 397.50102340813123,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)Remember that Suzy is currently 20 so your current solution is for her age in 4 years time. What do you need to do with Mary's age of 12 to work out her current age?",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 8? Let me redo: To work out Mary's current age, I need to subtract 4 from 12",
+      "input_tokens": 351,
+      "output_tokens": 31,
+      "latency_ms": 681.6419235209241,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)Correct",
+      "learner_turn": "Oh I see! I was wrong about that part. Let me revise: I started by figuring out how old Suzy would be in four year. So the answer is 8?",
+      "input_tokens": 317,
+      "output_tokens": 30,
+      "latency_ms": 616.0542341575677,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nIn four years, Suzy will be twice Mary's age then. If Suzy is 28.8 now, how old is Mary?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: In four years, Suzy will be twice Mary's age then.... I get approximately 15 as my answer. Does that seem right?",
+      "input_tokens": 352,
+      "output_tokens": 47,
+      "latency_ms": 543.3428071973581,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

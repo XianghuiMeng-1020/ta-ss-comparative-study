@@ -1,0 +1,62 @@
+{
+  "scenario_id": "SC_1927",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.332240",
+  "n_tutor_turns": 4,
+  "n_learner_turns": 4,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 159,
+  "total_output_tokens": 83,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Can you walk me through how you solved the problem?",
+      "learner_turn": "To solve this problem, His new deadlift is 300*2.5+100=850 pounds\nSo he added 850-300=550 pounds to his. The answer is His new deadlift is .",
+      "input_tokens": 22,
+      "output_tokens": 25,
+      "latency_ms": 629.6487325529007,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)It looks like you missed a step. The problem says that Bobby could deadlift 100 pounds more than 250% of his deadlift at 13. How much would that be?",
+      "learner_turn": "To solve this problem, His new deadlift is 300*2.5+100=850 pounds\nSo he added 850-300=550 pounds to his. The answer is His new deadlift is .",
+      "input_tokens": 41,
+      "output_tokens": 25,
+      "latency_ms": 661.9451929261234,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)You did not calculate that correctly. You calculated 150% of Bobby's deadlift instead of 250% of his deadlift. What would the calculation be now?",
+      "learner_turn": "To solve this problem, His new deadlift is 300*2.5+100=850 pounds\nSo he added 850-300=550 pounds to his. The answer is His new deadlift is .",
+      "input_tokens": 36,
+      "output_tokens": 25,
+      "latency_ms": 663.6055438949875,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nBobby can deadlift 399.3 pounds at 18.0.  When he is 24.7 he can deadlift 146.8 pounds more than 301.2% of his previous deadlift.  How many pounds did he add per year?",
+      "learner_turn": "The answer to that problem would be 28.",
+      "input_tokens": 60,
+      "output_tokens": 8,
+      "latency_ms": 487.7180111335027,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

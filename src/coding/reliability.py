@@ -51,16 +51,35 @@ def compute_icc(ratings_wide: pd.DataFrame, dimension: str) -> dict:
     if not HAS_PINGOUIN:
         return {"icc_value": None, "icc_ci_lower": None, "icc_ci_upper": None}
 
-    df_long = ratings_wide.melt(var_name="coder", value_name="rating").dropna()
-    df_long["target"] = df_long.index // ratings_wide.shape[1]
+    # ratings_wide index = packet_id; columns = coder_ids
+    df_long = ratings_wide.reset_index().melt(
+        id_vars=ratings_wide.index.name or "index",
+        var_name="coder",
+        value_name="rating",
+    ).dropna()
+    df_long = df_long.rename(columns={df_long.columns[0]: "target"})
     icc_res = pg.intraclass_corr(
-        data=df_long, targets="target", raters="coder", ratings="rating"
+        data=df_long, targets="target", raters="coder", ratings="rating",
+        nan_policy="omit",
     )
-    row = icc_res[icc_res["Type"] == "ICC2k"].iloc[0]
+    # pingouin >= 0.5: Type names are ICC(A,k), ICC(C,k), ICC(1,k) etc.
+    # Prefer ICC(A,k) = two-way random, multiple raters (equivalent to ICC2k)
+    for icc_type in ["ICC(A,k)", "ICC(C,k)", "ICC(A,1)", "ICC(1,1)"]:
+        match = icc_res[icc_res["Type"] == icc_type]
+        if not match.empty:
+            row = match.iloc[0]
+            ci = row["CI95"] if "CI95" in row.index else [None, None]
+            return {
+                "icc_value": round(float(row["ICC"]), 4),
+                "icc_ci_lower": round(float(ci[0]), 4) if ci[0] is not None else None,
+                "icc_ci_upper": round(float(ci[1]), 4) if ci[1] is not None else None,
+            }
+    row = icc_res.iloc[0]
+    ci = row.get("CI95", [None, None])
     return {
         "icc_value": round(float(row["ICC"]), 4),
-        "icc_ci_lower": round(float(row["CI95%"][0]), 4),
-        "icc_ci_upper": round(float(row["CI95%"][1]), 4),
+        "icc_ci_lower": round(float(ci[0]), 4) if ci[0] is not None else None,
+        "icc_ci_upper": round(float(ci[1]), 4) if ci[1] is not None else None,
     }
 
 

@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_2061",
+  "condition": "C3",
+  "condition_label": "Generic Learner",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.152027",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 159,
+  "total_output_tokens": 88,
+  "system_prompt": "Act as a math student responding to the tutor.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi Riya, talk me through your solution",
+      "learner_turn": "I started by figuring out how many rabbits Brandon can catch in an hour. I figured out that if he catches 6 squirrels, h",
+      "input_tokens": 16,
+      "output_tokens": 24,
+      "latency_ms": 300.4157810695692,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Lets look at your calculations. How many rabbits were caught per hour burning how many calories?",
+      "learner_turn": "Brandon caught 3 rabbits per hour burning 2400 calories",
+      "input_tokens": 25,
+      "output_tokens": 9,
+      "latency_ms": 274.25492548438604,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(telling)Double check the question. Brandon can catch 6 squirrels or two rabbits",
+      "learner_turn": "Oh, I see! Brandon can catch 6 squirrels or two rabbits in an hour. So if he catches 6 squirrels, he gets 1800 calories ",
+      "input_tokens": 21,
+      "output_tokens": 24,
+      "latency_ms": 570.6636543604294,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(focus)You've correctly identified the calories burnt by catching each animal. Focus on finding the difference between 1600 and 1800 to find the overall answer",
+      "learner_turn": "Right, the difference between 1600 and 1800 is 200 calories. So he gets 200 more calories per hour if he catches squirre",
+      "input_tokens": 33,
+      "output_tokens": 22,
+      "latency_ms": 754.3750726865553,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nBrandon can catch 8.2 squirrels or two rabbits in 1.3 hour. Each squirrel has 442.9 calories and each rabbit has 1061.3 calories. How many more calories will he get per hour if he catches squirrels instead of rabbits?",
+      "learner_turn": "I think it's something like that. Let me try.",
+      "input_tokens": 64,
+      "output_tokens": 9,
+      "latency_ms": 247.16421451364008,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

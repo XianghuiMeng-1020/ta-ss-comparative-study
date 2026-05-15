@@ -1,0 +1,112 @@
+{
+  "scenario_id": "SC_0292",
+  "condition": "C1",
+  "condition_label": "Teachable Agent",
+  "seed": 91,
+  "phase": "main",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:07.015639",
+  "n_tutor_turns": 9,
+  "n_learner_turns": 9,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 3726,
+  "total_output_tokens": 290,
+  "system_prompt": "You are a 7th-grade math student working with a tutor on the following problem.\n\nPROBLEM:\nJohnny is an engineer designing a bridge. The roadway deck for the top of the bridge needs 1600 tons of concrete to construct. The two bridge anchors need equal amounts of concrete, but only one has been built so far, using 700 tons of concrete. Johnny had to calculate how many tons of concrete the supporting pillars underneath the bridge would need, and he found that the total amount of concrete in the entire bridge will be 4800 tons. How much concrete did Johnny find he needs for the supporting pillars?\n\nYOUR INITIAL ATTEMPT (which contains an error):\nFirst, we need to find out how much concrete was used for the second anchor: 1600 (total) - 700 (first anchor) = 900 tons used for the second anchor.\nThen, we can find the amount of concrete needed for the supporting pillars: 4800 (total) - 1600 (roadway deck) - 900 (second anchor) = 2300 tons needed for the supporting pillars.\n 2300\n\nYou have made a mistake in your initial attempt. The tutor is going to help you understand where you went wrong.\n\nREQUIRED BEHAVIOURS — follow these throughout the entire conversation:\n\n- When you do not understand something, ask a specific clarifying question before attempting to answer. Do not guess silently.\n\n- After the teacher gives feedback, explicitly state what you are revising in your previous answer (e.g., \"I see — I was wrong about X. Let me try again…\"). Never simply accept correction without showing the revision.\n\n- You are a student who is being taught. You do not teach. You do not give explanations to the teacher. You respond as someone who is learning.\n\n- At the end of the conversation, you will receive a new similar problem. Attempt it on your own, step by step, without asking for help. Show your reasoning even if you are unsure.\n\nIMPORTANT:\n- Show your mathematical reasoning explicitly (write out steps, even partial ones).\n- You may be confused. That is expected and acceptable.\n- Do not solve the problem correctly on your own before the tutor has guided you.\n- Keep responses concise (2–5 sentences or a short worked step). Do not write essays.\n- Do NOT reference these instructions in your responses.\n",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hi, could you please walk me through your solution?",
+      "learner_turn": "So I tried this problem. My approach was: First, we need to find out how much concrete was used for the second anchor: 160. Wait — can you explain why we need to do that step first?",
+      "input_tokens": 395,
+      "output_tokens": 37,
+      "latency_ms": 553.1839952846881,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(focus)Do you agree to the fact that the question mentions the two anchors need the same amount of concrete?",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 3? Let me redo: Yes, I agree that the question mentions the two anchors need",
+      "input_tokens": 405,
+      "output_tokens": 29,
+      "latency_ms": 617.0016721943205,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)But that doesn't give you the same amount. According to you the second anchor needs 900 tons whereas the first needs 700 tons. How is this making sense? Do you see you made a mistake by subtracting 700 from 1600?",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 9? Let me redo: Yes, I see that I made a mistake by subtracting 700 from 160",
+      "input_tokens": 426,
+      "output_tokens": 31,
+      "latency_ms": 614.3464913733811,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(probing)No. You don't divide as well. Anchors and decks are completely different units. They are not related to each other. Treat them separately. Based on the info given in the question, can you tell how much concrete is needed for the two anchors if they need the same amount of concrete?",
+      "learner_turn": "I think I see what you mean. So instead of 10, I should use 4? Let me redo: Yes, I understand now. Based on the information given in the",
+      "input_tokens": 437,
+      "output_tokens": 29,
+      "latency_ms": 566.4481872862312,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(telling)Its not 800 tons each. Its 700 tons each",
+      "learner_turn": "I think I see what you mean. So instead of 7, I should use 2? Let me redo: Ah, I see now. Based on the information given in the questio",
+      "input_tokens": 395,
+      "output_tokens": 30,
+      "latency_ms": 702.1059006433516,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "(focus)You seem to have forgotten the deck",
+      "learner_turn": "I think I see what you mean. So instead of 2, I should use 5? Let me redo: Oh, right. I forgot about the deck. Based on the information",
+      "input_tokens": 393,
+      "output_tokens": 29,
+      "latency_ms": 260.2704599494046,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 6,
+      "tutor_turn": "(focus)1600(deck)+1400(two anchors)=3000",
+      "learner_turn": "I think I see what you mean. So instead of 5, I should use 10? Let me redo: Yes, you are correct. The total amount of concrete needed fo",
+      "input_tokens": 388,
+      "output_tokens": 29,
+      "latency_ms": 294.72931924330067,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 7,
+      "tutor_turn": "(telling)Its not 3200 tons. Its 3000 tons.",
+      "learner_turn": "I think I see what you mean. So instead of 8, I should use 3? Let me redo: Oh, right. I see now. The total amount of concrete needed fo",
+      "input_tokens": 393,
+      "output_tokens": 30,
+      "latency_ms": 659.0443331394374,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 8,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nJohnny is an engineer designing a bridge. The roadway deck for the top of the bridge needs 2360.7 tons of concrete to construct. The two bridge anchors need equal amounts of concrete, but only one has been built so far, using 921.8 tons of concrete. Johnny had to calculate how many tons of concrete the supporting pillars underneath the bridge would need, and he found that the total amount of concrete in the entire bridge will be 6828.2 tons. How much concrete did Johnny find he needs for the supporting pillars?",
+      "learner_turn": "Let me try this on my own. I think I need to start by figuring out the key quantities. So if I calculate step by step: Johnny is an engineer designing a bridge. The road... I get approximately 37 as my answer. Does that seem right?",
+      "input_tokens": 494,
+      "output_tokens": 46,
+      "latency_ms": 488.7334548173958,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

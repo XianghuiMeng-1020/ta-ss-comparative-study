@@ -1,0 +1,82 @@
+{
+  "scenario_id": "SC_1123",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 42,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.064869",
+  "n_tutor_turns": 6,
+  "n_learner_turns": 6,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 236,
+  "total_output_tokens": 153,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Heidi, please can you explain your workings to me?",
+      "learner_turn": "To solve this problem, There are 60 goldfish because 15 / .25 = 60\n75% of the fish are below the surfac. The answer is There are 60 goldfis.",
+      "input_tokens": 22,
+      "output_tokens": 29,
+      "latency_ms": 672.5563428475067,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)okay great. How do we work out how many fish are in the pond in total?",
+      "learner_turn": "To solve this problem, There are 60 goldfish because 15 / .25 = 60\n75% of the fish are below the surfac. The answer is There are 60 goldfis.",
+      "input_tokens": 28,
+      "output_tokens": 29,
+      "latency_ms": 286.0235963451392,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(probing)We know that 25% of 20 is not 15, so lets try a different example. If I can see 2 fish at the surface and that is 10% of the total number of fish, how many fish are there in total?",
+      "learner_turn": "To solve this problem, There are 60 goldfish because 15 / .25 = 60\n75% of the fish are below the surfac. The answer is There are 60 goldfis.",
+      "input_tokens": 53,
+      "output_tokens": 29,
+      "latency_ms": 459.09198701257907,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)Good. So we need to work out what 15/0.25 is to reach the total number of fish",
+      "learner_turn": "To solve this problem, There are 60 goldfish because 15 / .25 = 60\n75% of the fish are below the surfac. The answer is There are 60 goldfis.",
+      "input_tokens": 29,
+      "output_tokens": 29,
+      "latency_ms": 616.9613323049302,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "(probing)Great. So we have 25% of the 60 fish as 15, how many remaining are there to make 75%?",
+      "learner_turn": "To solve this problem, There are 60 goldfish because 15 / .25 = 60\n75% of the fish are below the surfac. The answer is There are 60 goldfis.",
+      "input_tokens": 31,
+      "output_tokens": 29,
+      "latency_ms": 766.6404978307035,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 5,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nToby is counting goldfish in the local pond. He knows that only 30.7% of goldfish are at the surface and the rest are too deep below the surface to be able to see. If he counts 19.5 goldfish, how many are below the surface?",
+      "learner_turn": "The answer to that problem would be 9.",
+      "input_tokens": 73,
+      "output_tokens": 8,
+      "latency_ms": 609.101788198426,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}

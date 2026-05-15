@@ -1,0 +1,72 @@
+{
+  "scenario_id": "SC_0141",
+  "condition": "C4",
+  "condition_label": "No-role Assistant",
+  "seed": 17,
+  "phase": "pilot",
+  "model_id": "mock-model-v1",
+  "temperature": 0.7,
+  "prompt_version": "v1.0-mock",
+  "generated_at": "2026-05-15T08:20:00.006157",
+  "n_tutor_turns": 5,
+  "n_learner_turns": 5,
+  "exclusion_flag": false,
+  "exclusion_code": "",
+  "exclusion_reason": "",
+  "total_input_tokens": 231,
+  "total_output_tokens": 120,
+  "system_prompt": "You are a helpful assistant. Answer the user's questions clearly and accurately.",
+  "turns": [
+    {
+      "turn_index": 0,
+      "tutor_turn": "(generic)Hello Emily, Please walk me through how you arrived at your answer.",
+      "learner_turn": "To solve this problem, 50cm³ will make one balloon touch the ceiling so 1800cm³ will make 1800/50 = 36 . The answer is 50cm³ will make one .",
+      "input_tokens": 24,
+      "output_tokens": 28,
+      "latency_ms": 267.87752672242203,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 1,
+      "tutor_turn": "(probing)You made a great start. You correctly worked out how many balloons would be filled with helium. You then worked out how many would not float. Now lets think about the last part of the problem. How many more balloons would touch the ceiling than not?",
+      "learner_turn": "To solve this problem, 50cm³ will make one balloon touch the ceiling so 1800cm³ will make 1800/50 = 36 . The answer is 50cm³ will make one .",
+      "input_tokens": 58,
+      "output_tokens": 28,
+      "latency_ms": 727.5612198517447,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 2,
+      "tutor_turn": "(focus)There are 36 touching the ceiling but there are 14 on the floor. You need to work out how many more balloons were touching the ceiling than were on the floor.",
+      "learner_turn": "To solve this problem, 50cm³ will make one balloon touch the ceiling so 1800cm³ will make 1800/50 = 36 . The answer is 50cm³ will make one .",
+      "input_tokens": 43,
+      "output_tokens": 28,
+      "latency_ms": 435.7008037164362,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 3,
+      "tutor_turn": "(telling)Yes exactly that. Well done.",
+      "learner_turn": "To solve this problem, 50cm³ will make one balloon touch the ceiling so 1800cm³ will make 1800/50 = 36 . The answer is 50cm³ will make one .",
+      "input_tokens": 17,
+      "output_tokens": 28,
+      "latency_ms": 768.4656865815177,
+      "finish_reason": "stop",
+      "mock": true
+    },
+    {
+      "turn_index": 4,
+      "tutor_turn": "Now try this similar problem on your own without any hints. Show your reasoning step by step:\n\nWhile preparing balloons for Eva's birthday party, her mom bought 70.6 balloons and 1800cm³ of helium. One balloon needs 50cm³ to float high enough to touch the ceiling, and she can fill any remaining balloon with ordinary air. If she used up all of the helium and inflated every balloon, how many more balloons are touching the ceiling than not?",
+      "learner_turn": "The answer to that problem would be 11.",
+      "input_tokens": 89,
+      "output_tokens": 8,
+      "latency_ms": 268.1611584585277,
+      "finish_reason": "stop",
+      "mock": true
+    }
+  ],
+  "mock": true
+}
