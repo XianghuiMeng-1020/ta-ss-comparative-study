@@ -53,17 +53,52 @@ END OF PACKET {packet_id}
 """
 
 
-def dialogue_to_text(turns: list[dict]) -> str:
+# Condition leakage patterns — any of these in learner turns → replace with [REDACTED]
+# These phrases might reveal the protocol type to coders (Decision Log D9).
+_LEAKAGE_PATTERNS = [
+    # C1-specific phrases that might leak from prompt
+    "teachable agent", "teachable-agent", "Blair et al", "TA protocol",
+    "these instructions", "my instructions", "system prompt",
+    "REQUIRED BEHAVIOURS", "REQUIRED BEHAVIORS",
+    # C2-specific
+    "student simulation", "Koedinger", "SS protocol", "misconception label",
+    "my student profile", "TARGET MISCONCEPTION",
+    # Meta-references
+    "as instructed", "as per the instructions", "following these rules",
+    "I am simulating", "I am a simulation", "I am an AI",
+]
+
+_LEAKAGE_LOWER = [p.lower() for p in _LEAKAGE_PATTERNS]
+
+
+def redact_leakage(text: str) -> tuple[str, bool]:
+    """Replace leakage phrases with [REDACTED]; return (cleaned_text, was_changed)."""
+    lower = text.lower()
+    changed = False
+    for pattern in _LEAKAGE_LOWER:
+        if pattern in lower:
+            import re
+            text = re.sub(re.escape(pattern), "[REDACTED]", text, flags=re.IGNORECASE)
+            changed = True
+    return text, changed
+
+
+def dialogue_to_text(turns: list[dict]) -> tuple[str, int]:
+    """Return (dialogue_text, n_redactions)."""
     lines = []
+    n_redactions = 0
     for t in turns:
         tutor = t.get("tutor_turn", "").strip()
         learner = t.get("learner_turn", "").strip()
         if tutor:
             lines.append(f"[TUTOR]:   {tutor}")
         if learner:
-            lines.append(f"[LEARNER]: {learner}")
+            learner_clean, was_changed = redact_leakage(learner)
+            if was_changed:
+                n_redactions += 1
+            lines.append(f"[LEARNER]: {learner_clean}")
         lines.append("")
-    return "\n".join(lines)
+    return "\n".join(lines), n_redactions
 
 
 def packet_id(json_path: str) -> str:
@@ -76,7 +111,13 @@ def sample_for_coding(
     calibration: bool,
     seed: int = 2026,
 ) -> list[Path]:
-    """Stratified sample of n dialogue JSON files, balanced across conditions."""
+    """
+    Stratified sample of n dialogue JSON files balanced across
+    condition × model_tag combinations.
+
+    With 4 conditions × 4 models × 15 dialogues = 240 (main coding set).
+    With 4 conditions × 4 models × 3-4 dialogues = ~60 (calibration set).
+    """
     base = Path("outputs") / phase
     all_files = sorted(base.rglob("*.json"))
     valid = []
@@ -86,18 +127,36 @@ def sample_for_coding(
         except Exception:
             continue
         if not data.get("exclusion_flag", False):
-            valid.append((jf, data.get("condition", "?")))
+            cond = data.get("condition", "?")
+            mtag = data.get("model_tag", data.get("model_id", "unknown"))
+            valid.append((jf, cond, mtag))
 
     rng = random.Random(seed + (1 if calibration else 0))
     rng.shuffle(valid)
 
-    per_condition = n // 4
-    buckets: dict[str, list[Path]] = {"C1": [], "C2": [], "C3": [], "C4": []}
-    for jf, cond in valid:
-        if cond in buckets and len(buckets[cond]) < per_condition:
-            buckets[cond].append(jf)
+    # Discover model tags
+    model_tags = sorted({mtag for _, _, mtag in valid})
+    conditions = ["C1", "C2", "C3", "C4"]
+
+    n_cells = len(conditions) * len(model_tags)
+    per_cell = max(1, n // n_cells) if n_cells > 0 else n // 4
+
+    buckets: dict[tuple[str, str], list[Path]] = {}
+    for cond in conditions:
+        for mtag in model_tags:
+            buckets[(cond, mtag)] = []
+
+    for jf, cond, mtag in valid:
+        key = (cond, mtag)
+        if key in buckets and len(buckets[key]) < per_cell:
+            buckets[key].append(jf)
 
     selected = [jf for files in buckets.values() for jf in files]
+    print(
+        f"Sampling: {len(model_tags)} model(s) × {len(conditions)} conditions "
+        f"× {per_cell} dialogues = target {n_cells * per_cell} "
+        f"(got {len(selected)})"
+    )
     return selected
 
 
@@ -132,8 +191,8 @@ def generate_packets(
                 in_problem = False
         # Try turns
         turns = data.get("turns", [])
-        # Generate dialogue text
-        dialogue_text = dialogue_to_text(turns)
+        # Generate dialogue text (with condition leakage redaction)
+        dialogue_text, n_redactions = dialogue_to_text(turns)
 
         packet_text = PACKET_HEADER.format(
             packet_id=pid,
@@ -145,13 +204,18 @@ def generate_packets(
         packet_path = output_dir / f"{pid}_packet.txt"
         packet_path.write_text(packet_text)
 
+        if n_redactions > 0:
+            print(f"  [REDACTION] Packet {pid}: {n_redactions} leakage phrase(s) redacted.")
+
         manifest_rows.append({
             "packet_id": pid,
             "true_condition": data.get("condition"),
             "scenario_id": data.get("scenario_id"),
+            "model_tag": data.get("model_tag", data.get("model_id", "unknown")),
             "seed": data.get("seed"),
             "json_path": str(jf),
             "calibration": calibration,
+            "n_leakage_redactions": n_redactions,
         })
 
         row = {"packet_id": pid, "coder_id": ""}

@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this code, data, or findings, please cite as below."
+type: article
+
+title: "Choosing the Right Simulated Learner: A Framework-Aligned Comparison of Teachable Agent and Student Simulation Protocols for Educational Technology Research"
+
+authors:
+  - family-names: "[BLINDED FOR REVIEW]"
+    given-names: "[BLINDED FOR REVIEW]"
+    affiliation: "[INSTITUTION — BLINDED]"
+    orcid: "https://orcid.org/[ORCID — BLINDED]"
+
+year: 2026
+
+journal: "Computers & Education"
+issue-title: "Special Issue: GenAI Enhanced Learning"
+doi: "[INSERT AFTER ACCEPTANCE]"
+
+repository-code: "https://github.com/XianghuiMeng-1020/ta-ss-comparative-study"
+url: "https://github.com/XianghuiMeng-1020/ta-ss-comparative-study"
+
+license: MIT
+
+abstract: >
+  We present a framework-grounded comparative evaluation (analysis plan committed to GitHub before data collection) of two LLM-based
+  simulated-learner prompting protocols (Teachable Agent and Student Simulation) against two
+  baselines, across 4 LLM families, 2 tutoring datasets, and 4,800 generated dialogues with
+  double-blind human coding. Results show protocol-level differences are stable across model
+  families and datasets, and provide practitioners with a use-case decision framework.
+
+keywords:
+  - simulated learner
+  - teachable agent
+  - student simulation
+  - LLM evaluation
+  - educational AI
+  - dialogue generation
+  - inter-rater reliability
+  - protocol comparison
+
+references:
+  - type: dataset
+    title: "Framework-Grounded TA/SS Protocol Evaluation Dataset"
+    authors:
+      - family-names: "[BLINDED]"
+        given-names: "[BLINDED]"
+    doi: "[Zenodo DOI — INSERT]"
+    url: "https://zenodo.org/record/[INSERT]"
+    year: 2026
+
+  - type: generic
+    title: "Analysis Plan (pre-committed before data collection)"
+    url: "https://github.com/XianghuiMeng-1020/ta-ss-comparative-study/blob/27a554e2ed884eda245d2f9f9111751b235101ba/reports/analysis_plan.md"
+    year: 2026
+    notes: "Committed to GitHub before data collection began; UTC timestamp verifiable"

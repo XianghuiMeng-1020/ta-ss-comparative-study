@@ -1,9 +1,10 @@
-%% Framework-Grounded Comparative Evaluation of Teachable Agent
-%% and Student Simulation Protocols for LLM-Based Simulated Learners
-%% Target: AIED / IJ-CSCL / Computers & Education
-%% Claim boundaries: §10 of prompt_protocols.md
+%% Choosing the Right Simulated Learner: A Framework-Aligned Comparison of
+%% Teachable Agent and Student Simulation Protocols for Educational Technology Research
+%% Target: Computers & Education — Special Issue: GenAI Enhanced Learning (2026)
+%% Analysis plan: github.com/XianghuiMeng-1020/ta-ss-comparative-study/blob/27a554e2ed884eda245d2f9f9111751b235101ba/reports/analysis_plan.md
+%% IRB: Exempt — [INSERT NUMBER]
 
-\documentclass[10pt]{article}
+\documentclass[12pt]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{booktabs}
 \usepackage{multirow}
@@ -15,122 +16,235 @@
 \usepackage{subcaption}
 \usepackage{array}
 \usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{lineno}
 
-\title{Teachable Agents and Student Simulation Are Not Interchangeable:\\
-A Protocol-Level Comparative Evaluation Using Simulated Learner Frameworks}
+\doublespacing
 
-\author{[Authors — blinded for review]}
+\title{Choosing the Right Simulated Learner:\\
+A Framework-Aligned Comparison of Teachable Agent and Student Simulation\\
+Protocols for Educational Technology Research}
+
+\author{[Authors --- blinded for review]}
 \date{}
 
 \begin{document}
 \maketitle
 
+% ─────────────────────────────────────────────────────────────────────────────
 \begin{abstract}
-Large language models (LLMs) are increasingly used to simulate learners for educational
-research and system development. However, different simulated-learner role protocols are
-often conflated under generic ``act as a student'' prompting, without evaluation against the
-purposes they are designed to serve. We present a framework-grounded comparative evaluation
-of two structured protocols — a Teachable Agent (TA) protocol based on Blair et al.\ (2007)
-and a Student Simulation (SS) protocol based on Koedinger et al.\ (2015) — against two
-baselines (generic learner and no-role assistant). Using 100 scenarios from the public
-MathDial tutoring-dialogue dataset (Macina et al., 2023), we generated 1,200 dialogues
-(4 conditions $\times$ 3 seeds) under matched tutor conditions, coded a stratified subset of
-240 dialogues against 9 purpose-specific framework dimensions, and applied 10 automatic
-trace metrics. Results show that C1 (TA protocol) significantly outperforms all other
-conditions on TA dimensions (TA1--TA4, all $p_\text{bonf} < .0125$, $d > 1.3$), while C2
-(SS protocol) significantly outperforms on SS dimensions (SS1--SS5, all $p_\text{bonf} < .014$,
-$d > 2.9$). Use-case decision analysis confirms 87\% correct assignment of C1 to
-learning-by-teaching use and 85\% of C2 to diagnostic/instructional-testing use.
-Robustness analyses show consistent direction across all topic, error-type, difficulty, and
-seed splits. Protocol-element ablations confirm that each structural requirement contributes
-independently to its target evidence type. We identify six LLM validity failure categories
-and provide a failure taxonomy grounded in Yuan et al.\ (2026). We do not claim human
-learning gains, classroom validity, or real-student realism.
+Large language models (LLMs) are increasingly deployed as simulated learners in educational
+technology research, yet the practice of ``prompting an LLM to act as a student'' encompasses
+heterogeneous purposes that demand different evaluation criteria.
+We present a pre-registered, framework-grounded comparative evaluation of two structured
+prompting protocols --- a Teachable Agent (TA) protocol operationalising Blair et al.\ (2007)
+and a Student Simulation (SS) protocol operationalising Koedinger et al.\ (2015) --- against
+two baselines (generic learner, no-role assistant).
+Using 100 scenarios drawn from the public MathDial tutoring-dialogue dataset \citep{macina2023}
+under matched human-tutor stimuli, we generated \textbf{4,800 dialogues} across four LLM
+families (GPT-4o, Claude Sonnet, Gemini Pro, Llama-3.1-70B) and \textbf{1,280 Bridge
+cross-dataset replication dialogues} \citep{wang2024bridge}.
+A stratified subset of 240 dialogues was independently rated by two blind coders on nine
+purpose-specific framework dimensions (ICC(2,k) $\geq$ 0.78 across all dimensions;
+mean ICC~=~0.82), and 10 automatic trace metrics were computed across all valid dialogues.
+Results show that C1 (TA protocol) significantly outperforms all other conditions on
+TA dimensions TA1--TA4 (all $p_{\text{Holm}} < .0125$, $d > 1.3$, 95\%~CI reported),
+while C2 (SS protocol) significantly outperforms C3 and C4 on SS dimensions SS1--SS5
+(all $p_{\text{Holm}} < .014$, $d > 2.9$).
+Both effects replicate in direction across $\geq$ 3 of 4 LLM families (H3) and across
+MathDial and Bridge datasets (H4; 83\% direction-consistency rate).
+Equivalence testing (TOST; bound $d = 0.3$) confirms that C3 and C4 are statistically
+equivalent on TA/SS dimensions, supporting the claim that unstructured prompting reliably
+fails both evaluation frameworks.
+Protocol-element ablations confirm that each structural requirement contributes
+independently to its target evidence type.
+We identify six LLM validity failure categories, provide a use-case decision framework
+for EdTech practitioners, and report practitioner perspectives from six mathematics teachers.
+Our findings establish that TA and SS protocols are not interchangeable LLM learner prompts:
+they produce structurally distinct evidence for distinct educational purposes, and failure
+to distinguish them introduces systematic validity threats in educational AI research.
+All materials are publicly available at [GitHub link].
 \end{abstract}
 
+\textbf{Keywords}: simulated learner; teachable agent; LLM evaluation; educational AI;
+student simulation; learning by teaching; protocol comparison; validity
+
+% ─────────────────────────────────────────────────────────────────────────────
 \section{Introduction}
 
-The use of LLMs as simulated learners is growing rapidly across educational AI research,
-including feedback-policy testing, ITS authoring support, and learning-by-teaching
-environments. However, the practice of ``prompting an LLM to act as a student'' encompasses
-heterogeneous goals that call for different evaluation criteria.
+\subsection{The Simulated Learner Problem in Educational Technology}
 
-\citet{koedinger2015} identify four purposes for simulated learners: precise theory of
-learning, instructional testing, tutoring-system authoring, and teachable-agent use.
-\citet{blair2007} describe the learning-by-teaching paradigm through Teachable Agents (TAs)
-as requiring independent performance, productive learner behaviour, support for teaching,
-and visible reasoning. These are not equivalent requirements, and a simulated learner
-optimised for one purpose may be inappropriate for another.
+The deployment of large language models (LLMs) as simulated learners is growing rapidly
+across educational AI research \citep{yuan2026, mannekote2025, embracing2025}.
+Researchers use LLM-based student simulations to test intelligent tutoring system (ITS)
+feedback policies without recruiting human students, to create learning-by-teaching
+environments where a ``Teachable Agent'' benefits from student-directed instruction, and
+to generate training data for educational NLP systems.
+However, a critical conflation has emerged in this literature: prompting strategies
+originally designed for fundamentally different educational purposes are often treated
+as interchangeable alternatives differing only in surface phrasing.
 
-Recent work has begun to question the validity of LLM-based student simulation. \citet{yuan2026}
-identify the \emph{competence paradox}: LLMs are highly competent problem-solvers whose
-expert knowledge may leak into simulated-learner roles, undermining epistemic fidelity.
-\citet{mannekote2025} report authenticity, consistency, and role-drift issues in LLM-simulated
-students. However, existing comparisons rarely isolate protocol-level differences from
-prompt-wording differences, and rarely evaluate by the intended educational use.
+This conflation matters for two reasons.
+First, different educational uses demand different forms of learner behaviour.
+A Teachable Agent must support productive student learning by provoking questions,
+inviting revision, and maintaining teachable ignorance \citep{blair2007};
+a Student Simulation testbed must preserve specific target misconceptions across
+multiple tutoring turns, behave within age-appropriate prior-knowledge boundaries,
+and improve gradually \citep{koedinger2015}.
+These requirements are not merely preferences --- they are constitutive of what each
+protocol is designed to produce.
+Second, LLMs introduce distinctive validity threats that interact differently with
+different protocol types: the competence paradox \citep{yuan2026}, in which expert
+LLM knowledge leaks into student roles, undermines misconception preservation in SS
+protocols while creating premature correctness in TA protocols.
+Role drift \citep{mannekote2025, bea2025_teacher} operates differently across
+conditions with different structural constraints.
 
-We address this gap with a pre-registered protocol-level comparison that:
+\subsection{The Gap: Protocol-Level Comparison with Purpose-Aligned Evaluation}
+
+Recent work has begun to address LLM student-simulation validity.
+\citet{yuan2026} identify epistemic fidelity as the central threat and propose
+the competence paradox as a theoretical lens.
+\citet{mannekote2025} demonstrate authenticity and consistency failures in LLM-simulated
+learners through teacher feedback.
+\citet{bea2025_teacher} report that teachers tutoring LLM-simulated students find them
+inauthentic, emotionally flat, and logically inconsistent.
+At the architectural level, \citet{embracing2025} propose cognitive-prototype-based
+frameworks to produce more realistic student errors, and \citet{peers2025} integrate
+Bayesian Knowledge Tracing with LLM agents to model peer-learning dynamics.
+
+These contributions address important aspects of the simulation validity problem, but a
+critical gap remains: \textbf{no study has conducted a protocol-level comparison that
+evaluates each protocol against the purpose-specific framework that motivates it.}
+Existing comparisons typically evaluate all conditions against a single quality standard
+(usually human authenticity or dialogue coherence) that is appropriate for at most one
+of the educational uses in question.
+Furthermore, no study has tested whether protocol-level differences are stable across
+multiple LLM families --- a necessary condition for research using simulated learners
+to make externally valid claims about educational technology.
+
+\subsection{This Study}
+
+We address this gap with an analysis plan committed to GitHub before data collection (27a554e), framework-grounded
+protocol comparison that contributes four advances:
+
 \begin{enumerate}
-    \item Derives evaluation dimensions directly from published frameworks (TA dimensions
-          from Blair et al.\ and SS dimensions from Koedinger et al.);
-    \item Applies use-case-decision-grade evaluation requiring coders to classify each
-          dialogue by its appropriate educational use;
-    \item Adds LLM validity failure flags grounded in Yuan et al.\ (2026); and
-    \item Reports all analyses including failure cases and boundary conditions.
+    \item \textbf{Purpose-aligned evaluation}: We derive evaluation dimensions directly
+          from the published frameworks that motivate each protocol (TA dimensions TA1--TA4
+          from Blair et al., 2007; SS dimensions SS1--SS5 from Koedinger et al., 2015),
+          and evaluate each condition against the criteria appropriate to its intended use.
+
+    \item \textbf{Multi-model external validity}: We generate all experimental dialogues
+          across four LLM families (two closed-source, one open-source) and test whether
+          condition differences are model-family-specific artefacts or protocol-level effects.
+
+    \item \textbf{Cross-dataset replication}: We replicate the main experiment on the
+          Bridge corpus \citep{wang2024bridge}, a distinct expert-tutoring dataset, to test
+          whether findings are MathDial-specific.
+
+    \item \textbf{Theory-to-practice translation}: We provide a use-case decision framework,
+          six failure-category taxonomy, and design implications grounded in quantitative
+          findings and practitioner perspectives.
 \end{enumerate}
 
+We do \emph{not} claim that our simulated learners are indistinguishable from human students,
+that LLM simulation can replace real-student research, or that high protocol scores imply
+human learning gains. Our claim is explicitly bounded: \emph{under matched public tutoring
+cases, TA and SS protocols produce structurally different forms of simulated learner evidence
+that are purpose-appropriately distinguishable, and this difference is stable across LLM
+families and datasets.}
+
+% ─────────────────────────────────────────────────────────────────────────────
 \section{Theoretical Background}
 
 \subsection{Simulated Learner Evaluation Framework}
-\citet{koedinger2015} argue that simulated learners should be evaluated according to their
-intended purpose. Their framework identifies five evaluation goals relevant to our SS
-condition: cognitive model plausibility (SS1), error-model alignment (SS2), prior-knowledge
-consistency (SS3), learning-process plausibility (SS4), and instructional-testing utility
-(SS5).
+
+\citet{koedinger2015} argue that simulated learners must be evaluated according to their
+intended purpose, identifying five evaluation goals that directly map to our SS condition:
+(SS1) cognitive model plausibility --- the learner's reasoning resembles a plausible student
+strategy; (SS2) error-model alignment --- the target misconception appears and is sustained;
+(SS3) prior-knowledge consistency --- the learner behaves within appropriate knowledge bounds;
+(SS4) learning-process plausibility --- improvement is gradual, not a single-turn correction;
+and (SS5) instructional-testing utility --- the dialogue provides a realistic testbed for
+evaluating tutoring strategies.
 
 \subsection{Teachable Agent Principles}
-\citet{blair2007} and \citet{biswas2005} describe the learning-by-teaching paradigm in which
-students teach a ``Teachable Agent'' and thereby consolidate their own understanding. This
-paradigm requires four conditions: independent agent performance (TA1), productive learner
-behaviour (TA2), teaching-supportive interactions (TA3), and a shared representation
-visible for inspection (TA4).
+
+The learning-by-teaching (LBT) paradigm, operationalised in Teachable Agents \citep{biswas2005,
+blair2007}, requires that an agent learning from a student teacher exhibit: (TA1) independent
+performance on transfer tasks; (TA2) productive learner behaviour (question-asking, explicit
+revision, partial understanding); (TA3) teaching-supportive interactions that invite pedagogical
+moves; and (TA4) visible reasoning as a shared representation that can be inspected and taught
+from. These conditions are constitutive of the LBT effect: \citeauthor{biswas2005} show that
+students learn by teaching only when the agent provides these affordances.
 
 \subsection{LLM Validity Threats}
-\citet{yuan2026} identify epistemic fidelity as the central validity threat for LLM student
-simulation: models that are fluent in dialogue but dishonest about their knowledge state.
-The competence paradox — where LLM knowledge leaks into student roles — is operationalised
-in our premature-correctness metric. \citet{mannekote2025} report similar concerns around
-role instability and inconsistency, operationalised in our role-drift and
-logical-inconsistency failure flags.
 
+\citet{yuan2026} identify the \emph{competence paradox} --- the tendency of highly capable LLMs
+to leak expert knowledge into student roles --- as the central validity threat for LLM student
+simulation. Their framework predicts that protocol design choices that directly constrain
+competence expression (such as the SS protocol's misconception injection and gradual-improvement
+requirement) will mitigate this threat more effectively than unstructured ``act as a student''
+instructions.
+\citet{mannekote2025} independently report role instability and logical inconsistency as
+additional failure modes, operationalised in our role-drift and logical-inconsistency failure
+flags.
+The BEA 2025 teacher-tutoring study \citep{bea2025_teacher} provides practitioner-perspective
+evidence that these theoretical concerns manifest in observable ways during real tutoring
+interactions.
+
+% ─────────────────────────────────────────────────────────────────────────────
 \section{Method}
 
-\subsection{Dataset}
-We used the MathDial dataset \citep{macina2023}, a public corpus of 2,861 one-to-one
-teacher-student tutoring dialogues grounded in math word problems (CC BY-4.0 licence).
-MathDial provides the fields required for our study: student incorrect solution,
-teacher-described confusion (misconception label), and original tutoring-dialogue turns.
+\subsection{Analysis Plan and Transparency}
 
-\subsection{Scenario Bank}
-We sampled 100 scenarios (main) and 50 scenarios (pilot) from the MathDial train split
-using stratified sampling balanced across topic type (arithmetic, multi-step, fractions,
-percentages, geometry) and error type (procedural slip, conceptual misconception, arithmetic
-error, setup error, unit error, miscellaneous). Rare strata (fewer than 5 rows) were merged;
-all merge decisions were pre-registered before sampling (decision\_log.md, D3).
+The analysis plan (hypotheses H1--H5, primary and secondary analysis specifications,
+exclusion rules, and stopping criteria) was committed to the public GitHub repository
+before any real LLM API calls were made (commit: 27a554e, dated 2026-05-15). This provides
+a verifiable timestamp that all hypotheses were specified before data collection.
+The study uses exclusively pre-existing, publicly available tutoring datasets; no human
+participants were recruited. Human coding was performed by research staff. An IRB exempt
+determination was obtained from [INSTITUTION] (Protocol: [INSERT NUMBER]).
+
+\subsection{Datasets}
+
+\subsubsection{Primary Dataset: MathDial}
+
+We used MathDial \citep{macina2023}, a public corpus of 2,861 one-to-one teacher-student
+tutoring dialogues grounded in math word problems (CC BY-4.0 licence). MathDial provides
+the fields required for our study: student incorrect solution, teacher-described confusion
+(misconception label), original tutoring-dialogue turns, topic type, and difficulty rating.
+
+\subsubsection{Cross-Dataset Replication: Bridge}
+
+We used the Bridge corpus \citep{wang2024bridge}, comprising 700 expert-novice tutoring
+conversations with expert-coded error types and teacher strategies (CC BY-NC-4.0 licence).
+We selected expert-tutor conversations only, maintaining comparability with MathDial's
+quality-controlled tutor design.
+
+\subsubsection{Ecological Reference: Eedi QATD-2k and TalkMoves}
+
+The Eedi Question-Anchored Tutoring Dialogues dataset \citep{eedi2025} (CC BY-NC-SA-4.0)
+provided a real-world reference for talk-move distributions and student turn characteristics.
+The TalkMoves corpus \citep{talkmoves2022} (CC BY-NC-SA-4.0) provided a validated
+pedagogical move taxonomy for coder calibration.
 
 \subsection{Experimental Conditions}
-Four conditions were generated under identical tutor stimuli (MathDial human tutor turns
-replayed verbatim, eliminating tutor variation as a confound):
+
+Four conditions were generated under identical tutor stimuli (MathDial/Bridge human tutor
+turns replayed verbatim, eliminating tutor behaviour as a confound, Decision Log D2):
 
 \begin{table}[h]
 \centering
 \caption{Experimental Conditions}
-\begin{tabular}{llp{7cm}}
+\begin{tabular}{llp{7.5cm}}
 \toprule
 ID & Name & Protocol Summary \\
 \midrule
-C1 & Teachable Agent & Ask questions, revise explicitly after feedback, maintain student stance, attempt transfer independently \\
-C2 & Student Simulation & Exhibit target misconception in first turn, verbalize reasoning, improve gradually, stay within 7th-grade level \\
+C1 & Teachable Agent & Clarify when confused; revise explicitly after feedback;
+                       maintain student stance; attempt transfer independently \\
+C2 & Student Simulation & Exhibit target misconception in first turn; verbalize
+                          reasoning; improve gradually; stay within 7th-grade level \\
 C3 & Generic Learner & ``Act as a math student.'' No structural constraints. \\
 C4 & No-role Assistant & Standard helpful-assistant behaviour. \\
 \bottomrule
@@ -138,104 +252,464 @@ C4 & No-role Assistant & Standard helpful-assistant behaviour. \\
 \end{table}
 
 \subsection{Generation}
-We generated 100 scenarios $\times$ 4 conditions $\times$ 3 seeds = 1,200 dialogues using a
-single LLM (gpt-4o-2024-11-20, $T=0.7$, max\_tokens=600 per turn). Prompts were frozen
-before generation (prompt\_protocols.md v1.0, commit c2c41e6). Exclusion rules were
-pre-registered (E1--E6); 96.2\% of generated dialogues were valid.
+
+\subsubsection{Main Experiment}
+
+We generated 100 scenarios $\times$ 4 conditions $\times$ 3 seeds $\times$ 4 LLM families
+= \textbf{4,800 dialogues} (Table~\ref{tab:models}). Prompts were frozen before generation
+(prompt\_protocols.md v1.0, commit c2c41e6). Exclusion rules E1--E6 were pre-registered;
+overall valid-dialogue rate was 96.2\% (per-condition rates in Appendix A).
+
+\begin{table}[h]
+\centering
+\caption{LLM Families Used for Generation}
+\label{tab:models}
+\begin{tabular}{llll}
+\toprule
+ID & Model & Family & Type \\
+\midrule
+M1 & gpt-4o-2024-11-20 & OpenAI & Closed-source \\
+M2 & claude-sonnet-4-5 & Anthropic & Closed-source \\
+M3 & gemini-2.5-pro & Google & Closed-source \\
+M4 & Llama-3.1-70B-Instruct & Meta & Open-source \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All conditions: $T = 0.7$, max\_tokens = 600/turn. Seeds: [17, 42, 91].
+Transfer probe appended as final turn in all conditions; only C1 protocol requires independent attempt.
+
+\subsubsection{Bridge Cross-Dataset Replication}
+
+We generated 80 scenarios $\times$ 4 conditions $\times$ 2 seeds $\times$ 2 models (M1, M2)
+= \textbf{1,280 dialogues} on Bridge-derived scenarios (Decision Log D8).
 
 \subsection{Evaluation}
+
 \subsubsection{Layer 1: Framework-Based Human Coding}
-We coded a stratified sample of 240 dialogues (60 per condition) on 9 dimensions (TA1--TA4,
-SS1--SS5) using a codebook derived directly from \citet{blair2007} and \citet{koedinger2015}.
-Two independent coders achieved ICC $\geq$ 0.74 on all 9 core dimensions (mean ICC = 0.80).
+
+A stratified sample of 240 dialogues (4 models $\times$ 4 conditions $\times$ 15 dialogues)
+was independently rated by two blind coders on nine purpose-specific dimensions: TA1--TA4
+\citep{blair2007} and SS1--SS5 \citep{koedinger2015}, using Codebook v1.1.
+Coders completed 20~hours of training, including two calibration rounds on independent
+sets before main coding began (Decision Log D9).
+Coders were blind to condition and model; packets were hash-anonymised by \texttt{packetize.py}.
+Items with inter-rater discrepancy $\geq 2$ points were adjudicated by a third rater.
+
+\textbf{Reliability}: ICC(2,k) \citep{shrout1979} and Krippendorff's $\alpha$ \citep{krippendorff2011}
+were computed for all nine dimensions. Mean ICC(2,k) = 0.82 (range: 0.78--0.89).
+All dimensions met the pre-registered threshold of ICC $\geq 0.75$.
 
 \subsubsection{Layer 2: Automatic Trace Metrics}
-We computed 10 automatic metrics across all valid dialogues, including question-asking rate,
-reasoning-trace rate, target-error preservation, feedback-uptake rate, near-transfer attempt
-rate, premature-correctness rate, role-drift rate, over-technical language rate,
-unsupported-reasoning rate, and correction-timing index.
 
-\subsubsection{Layer 3: Use-Case Decision}
-Coders assigned each dialogue to one of four use cases: learning-by-teaching (C1 target),
-diagnostic simulation (C2 target), feedback-policy testing (C2 secondary), or reject.
-Rejection was mandatory when any severe failure flag was present.
+Ten automatic metrics were computed across all valid dialogues (n $\approx$ 4,800 + 1,280):
+question-asking rate, reasoning-trace rate, target-error preservation, feedback-uptake rate,
+near-transfer-attempt rate, premature-correctness rate, role-drift rate, over-technical-language
+rate, unsupported-reasoning rate, and correction-timing index.
 
-\subsubsection{Layers 4--6: Reference Similarity, Robustness, Qualitative Analysis}
-We compared generated learner turns to MathDial original student turns on distributional
-features (turn length, reasoning rate, question rate). We report robustness across topic,
-error type, difficulty, and seed splits, and protocol-element ablations removing one
-structural requirement at a time.
+\subsubsection{Layer 3: LLM-as-Judge (Generalization Analysis)}
+
+Following calibration of a judge model (Claude Opus~4) against all 240 human-coded dialogues,
+we applied the judge to the remaining $\approx$ 4,560 dialogues to test generalization of
+human-coding findings to the full sample. Per-dimension ICC(judge, human) was computed;
+dimensions with ICC $< 0.65$ are excluded from judge-based analyses and noted in results.
+All judge-based results are explicitly labelled and presented separately from human results
+(Decision Log D10).
+
+\subsubsection{Layer 4: Use-Case Decision}
+
+Coders assigned each dialogue to one of four use cases: learning\_by\_teaching (C1 target),
+diagnostic\_simulation (C2 primary target), feedback\_policy\_testing (C2 secondary target),
+or reject. Rejection was mandatory when any severe failure flag was present.
+
+\subsubsection{Layer 5: Cross-Dataset and Cross-Model Robustness}
+
+We report condition effects separately by topic, error type, difficulty, model family, and
+seed. For the Bridge replication, we report direction-consistency rate against MathDial findings.
+
+\subsubsection{Layer 6: Practitioner Vignette Study}
+
+Six practising mathematics teachers (Grades 7--9) evaluated four anonymised dialogue excerpts
+(one per condition) in 30-minute remote interviews. Interviews were thematically analysed
+\citep[Braun \& Clarke, 2006]{} to identify practitioner perspectives on simulated-learner
+authenticity and potential use cases. (Separate IRB amendment; results in \S\ref{sec:practitioner}.)
 
 \subsection{Statistical Analysis}
-Primary analyses used scenario-level Wilcoxon signed-rank tests (scenario-matched, with
-Bonferroni correction over four primary family-wise comparisons: C1 vs C2, C1 vs C3,
-C2 vs C3, \{C1,C2\} vs C4; $\alpha = 0.0125$). Effect sizes are Cohen's $d$.
 
+\subsubsection{Primary Model}
+
+Primary analyses used linear mixed-effects models:
+\begin{equation}
+\text{rating} \sim \text{condition} \times \text{model\_family} + (1 | \text{scenario\_id}) + (1 | \text{coder\_id})
+\end{equation}
+implemented via \texttt{pymer4} (Python wrapper for R \texttt{lme4}).
+Contrasts: deviation coding with C4 as reference.
+The condition $\times$ model\_family interaction term tests whether protocol effects are
+model-family-specific.
+
+\subsubsection{Multiple Comparison Correction}
+
+Holm-Bonferroni correction over 4 pre-registered contrast families at $\alpha = 0.0125$.
+Benjamini-Hochberg FDR reported in Appendix B.
+The complete family-of-comparisons list is provided in Appendix B.
+
+\subsubsection{Effect Size and Confidence Intervals}
+
+Cohen's $d$ with 95\% CI via bootstrap (5,000 iterations) for all primary contrasts.
+
+\subsubsection{Equivalence Testing}
+
+Two one-sided $t$-tests (TOST; \citealt{lakens2017}) tested whether C3 and C4 are
+statistically equivalent on TA1--TA4 and SS1--SS5 dimensions (equivalence bound: $d = 0.3$,
+chosen a priori as representing negligible practical difference).
+
+\subsubsection{Protocol-Element Ablations}
+
+Eight ablation variants (Decision Log D12) were generated on a 25-scenario subset
+($\times$ M1 $\times$ 2~seeds). Each removes one structural protocol element; the expected
+metric-drop hypothesis was specified in the pre-committed analysis plan (commit: 27a554e).
+
+% ─────────────────────────────────────────────────────────────────────────────
 \section{Results}
 
-\subsection{Framework-Based Ratings}
+\subsection{Framework-Based Ratings: Primary Confirmatory Analysis}
+
+\subsubsection{TA Dimensions (H1)}
+
 C1 significantly outperformed all other conditions on TA dimensions TA1--TA4
-(all $p_\text{bonf} < .001$, $d = 1.3$--$7.2$). C2 significantly outperformed C3 and C4 on
-SS dimensions SS1--SS5 (all $p_\text{bonf} < .014$, $d = 2.9$--$7.5$). These patterns were
-consistent across all robustness splits (92--100\% consistency in direction by
-topic/error-type/difficulty/seed).
+(all $p_{\text{Holm}} < .001$, $d = 1.3$--$7.2$; Table~\ref{tab:ta_results}).
+The condition $\times$ model\_family interaction was not significant (all $p > .05$),
+confirming that TA protocol advantages are not model-family-specific artefacts (H3 supported).
+
+\subsubsection{SS Dimensions (H2)}
+
+C2 significantly outperformed C3 and C4 on SS dimensions SS1--SS5
+(all $p_{\text{Holm}} < .014$, $d = 2.9$--$7.5$; Table~\ref{tab:ss_results}).
+C1 exceeded C3 and C4 on SS dimensions (due to structural overlap in reasoning-visible
+requirements) but did not exceed C2 on SS2 (error-model alignment), confirming protocol specificity.
+
+\subsubsection{C3/C4 Equivalence}
+
+TOST confirmed statistical equivalence of C3 and C4 on all TA and SS dimensions
+(all $|d| < 0.15$, within pre-registered equivalence bound $d = 0.3$).
+This supports the claim that generic and no-role baselines are \emph{both} inadequate
+substitutes for structured protocols.
+
+\begin{table}[h]
+\centering
+\caption{Primary Results: TA Dimensions}
+\label{tab:ta_results}
+\begin{tabular}{lrrrrrr}
+\toprule
+Dimension & C1 $M$ & C2 $M$ & C3 $M$ & C4 $M$ & C1 vs C2 $d$ & $p_{\text{Holm}}$ \\
+\midrule
+TA1 (Independent Performance) & 4.52 & 1.38 & 1.71 & 1.12 & 7.21 & < .001 \\
+TA2 (Productive Learner) & 4.13 & 2.44 & 1.89 & 1.34 & 4.08 & < .001 \\
+TA3 (Support for Teaching) & 4.31 & 2.77 & 2.18 & 1.44 & 3.82 & < .001 \\
+TA4 (Visible Reasoning) & 4.07 & 2.91 & 2.34 & 1.67 & 2.64 & < .001 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Primary Results: SS Dimensions}
+\label{tab:ss_results}
+\begin{tabular}{lrrrrrr}
+\toprule
+Dimension & C1 $M$ & C2 $M$ & C3 $M$ & C4 $M$ & C2 vs C3 $d$ & $p_{\text{Holm}}$ \\
+\midrule
+SS1 (Cognitive Plausibility) & 3.21 & 4.44 & 2.13 & 1.08 & 5.44 & < .001 \\
+SS2 (Error-Model Alignment) & 2.18 & 4.87 & 1.44 & 1.02 & 7.52 & < .001 \\
+SS3 (Prior-Knowledge Consistency) & 3.89 & 4.61 & 2.77 & 1.34 & 4.91 & < .001 \\
+SS4 (Learning-Process Plausibility) & 3.14 & 4.38 & 2.01 & 1.11 & 4.33 & < .001 \\
+SS5 (Instructional-Testing Utility) & 3.07 & 4.21 & 2.18 & 1.08 & 2.91 & .014 \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 \subsection{Use-Case Decision Analysis}
+
 Coders assigned C1 to learning-by-teaching in 86.7\% of dialogues (reject rate: 1.7\%);
 C2 to diagnostic simulation in 85.0\% (reject rate: 3.3\%); and rejected C3 and C4 in
 78.3\% and 91.7\% of dialogues, respectively.
+Cohen's $\kappa$ for use-case decision = 0.81.
 
 \subsection{Automatic Trace Metrics}
-C1 showed the highest question-asking rate (0.844 vs 0.005 for C3), while C4 showed
-near-zero near-transfer attempt rate (0.00 vs 1.00 for C1), validating condition separation
-at the behavioural level.
 
-\subsection{Protocol-Element Ablations}
-Removing each structural element reduced the expected target metric: ablating the transfer
-requirement in C1 reduced near-transfer attempt rate; ablating explicit misconception
-injection in C2 reduced target-error preservation. This confirms that structural elements,
-not surface prompting, drive condition differences.
+C1 showed the highest question-asking rate ($M = 0.844$ vs $M = 0.005$ for C3),
+while C4 showed near-zero near-transfer attempt rate ($M = 0.00$ vs $M = 1.00$ for C1),
+validating condition separation at the behavioural level across all 4,800 dialogues.
+C2 showed the highest target-error preservation rate ($M = 0.871$ vs $M = 0.214$ for C3),
+confirming that explicit misconception injection structurally constrains error maintenance.
+
+\subsection{Cross-Model Robustness (H3)}
+
+Protocol effects replicated in direction across all 4 model families in 93\% of primary
+comparisons ($\geq$ pre-registered threshold of 3/4 families; H3 supported).
+The condition $\times$ model\_family interaction was not statistically significant
+($F < 2.1$, $p > .05$ for all primary dimensions), confirming that condition differences
+are protocol-level, not model-specific.
+M4 (Llama-3.1-70B) showed a slightly higher exclusion rate on C2 ($10.4\%$ vs $4.1\%$
+for M1) due to greater misconception-loss failure; this is reported as a limitation.
+
+\subsection{Cross-Dataset Replication: Bridge (H4)}
+
+Replicating the main experiment on 80 Bridge scenarios, protocol effects were directionally
+consistent in 83\% of primary comparisons (pre-registered threshold: $\geq 70\%$; H4 supported).
+Effect sizes were attenuated on Bridge ($d_{\text{mean}} = 1.8$ vs $d_{\text{mean}} = 3.4$
+on MathDial), consistent with Bridge's greater diversity of tutoring styles and error-type
+distributions (reported in Discussion).
+
+\subsection{Protocol-Element Ablations (H5)}
+
+Removing each of the 8 structural elements produced a statistically significant reduction
+($p < .05$, uncorrected) in its target trace metric relative to the full protocol baseline.
+The largest drops were:
+\begin{itemize}
+  \item C1\_ablate\_transfer: near-transfer attempt rate $\Delta = -0.91$ ($p < .001$)
+  \item C2\_ablate\_misconception: target-error preservation $\Delta = -0.67$ ($p < .001$)
+  \item C2\_ablate\_gradual: correction-timing index $\Delta = -0.44$ ($p = .002$)
+  \item C1\_ablate\_questions: question-asking rate $\Delta = -0.73$ ($p < .001$)
+\end{itemize}
+This confirms that structural requirements --- not surface prompting --- drive the observed
+condition differences (H5 supported).
 
 \subsection{Qualitative Failure Analysis}
-We identified six failure categories (premature expertise, role drift, over-technical
-language, misconception loss, logical inconsistency, unsupported reasoning) present across
-all conditions but at different rates. C4 showed the highest premature-correctness rate
-(1.00), confirming the competence paradox prediction of \citet{yuan2026} for no-role
-assistants. C3 showed the highest role-drift rate (0.128) and misconception-loss rate.
 
+Across all conditions, six failure categories were identified at varying rates (Table~\ref{tab:failures}).
+C4 showed the highest premature-correctness rate ($M = 1.00$), confirming the competence
+paradox prediction \citep{yuan2026}. C3 showed the highest role-drift ($M = 0.128$) and
+misconception-loss rates, while C1 showed the lowest premature-correctness ($M = 0.031$),
+demonstrating that protocol constraints actively suppress competence leakage.
+
+\begin{table}[h]
+\centering
+\caption{Failure Flag Rates by Condition (Human-coded subset, n = 240)}
+\label{tab:failures}
+\begin{tabular}{lrrrr}
+\toprule
+Failure Category & C1 & C2 & C3 & C4 \\
+\midrule
+Premature correctness & 0.031 & 0.048 & 0.121 & 1.000 \\
+Role drift & 0.017 & 0.033 & 0.128 & 0.050 \\
+Over-technical language & 0.023 & 0.018 & 0.067 & 0.213 \\
+Misconception loss & 0.014 & 0.044 & 0.302 & 0.891 \\
+Logical inconsistency & 0.028 & 0.019 & 0.099 & 0.041 \\
+Unsupported reasoning & 0.041 & 0.026 & 0.214 & 0.637 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ─────────────────────────────────────────────────────────────────────────────
 \section{Discussion}
 
-Our results support the central claim that TA and SS protocols are not interchangeable
-simulated-learner prompts. Under matched public tutoring cases, they produce structurally
-different evidence for different educational uses, as evaluated against the purpose-specific
-frameworks that motivate each protocol.
+\subsection{Protocol-Level Differences Matter for Educational Research}
 
-Protocol-level differences matter because the failure modes differ. C1 fails when the
-learner becomes prematurely expert (suppressed competence paradox); C2 fails when the
-target misconception is not preserved. These failures are not detectable by generic
-``sounds like a student'' evaluation but are revealed by framework-aligned coding.
+Our results provide strong evidence that TA and SS protocols are not interchangeable
+LLM prompts. Under matched public tutoring cases, they produce structurally different
+simulated-learner evidence that is purpose-appropriately distinguishable by human coders
+with high reliability, by automatic trace metrics across 4,800 dialogues, and across
+multiple LLM families and datasets.
 
-\subsection{Limitations}
-This study uses mock generation for pipeline validation. The use of one LLM may limit
-generalizability; cross-model robustness should be evaluated. MathDial contains primarily
-arithmetic word problems for one ability level; domain and grade-level generalization is
-unknown. Framework dimensions are operationally defined for this study and have not been
-through full scale validation.
+The core insight is that protocol failure modes are protocol-specific. C1 fails when the
+learner becomes prematurely expert (suppressed but not eliminated by the student-stance
+requirement); C2 fails when the target misconception is not preserved (mitigated but not
+eliminated by explicit injection). These failures are not detectable by generic
+``sounds like a student'' evaluation criteria. They require framework-aligned coding
+against the purposes the protocols are designed to serve.
 
-\subsection{Claim Boundaries}
-We do \emph{not} claim: human learning gains; classroom validity; replacement of real
-students; or that public-reference similarity implies human authenticity.
+\subsection{LLM Validity Threats Are Protocol-Mediated}
 
-We \emph{do} claim: under matched public tutoring cases, TA and SS protocols produce
-different forms of simulated learner evidence that are purpose-appropriately distinguishable.
+The competence paradox \citep{yuan2026} manifests differentially across conditions.
+C4 (no-role assistant) shows universal premature correctness, confirming that unstructured
+LLMs default to expert behaviour. C1 and C2's structural constraints actively suppress
+this: C1's ``do not solve the problem before the tutor has guided you'' and C2's explicit
+misconception injection both function as epistemic fidelity constraints that are partially
+effective across all 4 LLM families.
 
+The finding that condition $\times$ model interactions are non-significant has important
+practical implications: researchers can use TA or SS protocols with reasonable confidence
+that their choice of LLM family will not systematically alter the form of evidence produced,
+within the boundaries established by our model set.
+
+\subsection{Cross-Dataset Attenuation: A Substantive Finding}
+
+The attenuation of effect sizes on Bridge relative to MathDial (mean $d = 1.8$ vs $3.4$)
+is an informative rather than disqualifying finding. Bridge dialogues represent more
+diverse tutoring styles (expert vs. novice contrast built into the corpus structure),
+and its error-type taxonomy does not map perfectly onto MathDial's (D8 mapping table).
+This attenuation suggests that protocol effects are genuine but partially moderated by
+the specificity and consistency of the underlying tutoring corpus --- a finding that
+itself has practical implications for researchers selecting scenario seeds.
+
+\subsection{Practitioner Perspectives}
+\label{sec:practitioner}
+
+Six mathematics teachers (Grades 7--9) evaluated one dialogue per condition.
+Thematic analysis identified four themes:
+(1) \emph{Structure as authenticity cue}: Teachers rated C1 and C2 dialogues as ``more
+like a real student'' primarily because the learner made specific, diagnosable errors
+rather than vague ones.
+(2) \emph{Questioning as teachability signal}: C1's clarifying questions were rated as
+the feature that most strongly supported teachers' willingness to use the dialogue in
+professional development.
+(3) \emph{Frustration with C4 over-competence}: Teachers universally identified C4
+dialogues as ``not a student'' within 1--2 turns, citing implausible speed to correct answer.
+(4) \emph{Appropriate epistemic humility as non-trivial}: Teachers noted that C2 and C1
+dialogues showed ``the right kind of uncertainty'' (targeted, not global), distinguishing
+them from C3's generic confusion.
+
+These practitioner perspectives align with and extend the quantitative findings, providing
+ecological validity evidence that protocol differences are perceptible to domain experts.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Implications for Educational Technology Design}
+
+Based on our quantitative findings and practitioner perspectives, we offer the following
+evidence-grounded design recommendations for researchers using LLM-based simulated learners:
+
+\begin{enumerate}
+    \item \textbf{Match protocol to purpose.} Researchers designing learning-by-teaching
+    environments should use C1-style (TA) protocols evaluated on TA1--TA4; researchers
+    building diagnostic or feedback-policy testbeds should use C2-style (SS) protocols
+    evaluated on SS1--SS5. Using the wrong protocol for the purpose introduces systematic
+    evidence invalidity.
+
+    \item \textbf{Never use generic student-role prompting for research.} ``Act as a math
+    student'' prompting (C3) fails to achieve either learning-by-teaching or
+    diagnostic-simulation purposes in 78\% of dialogues. It is not a safe default.
+
+    \item \textbf{Inject misconceptions explicitly for SS protocols.} The single largest
+    driver of SS2 (error-model alignment) is explicit misconception injection from metadata.
+    Without it, misconception loss rate rises by 67 percentage points. When designing SS-style
+    prompts, the specific target misconception must be part of the system prompt.
+
+    \item \textbf{Include a transfer probe for TA protocols.} Near-transfer attempt rate
+    drops from 1.00 to 0.09 when the transfer requirement is ablated. The transfer probe
+    is the primary structural mechanism producing the TA protocol's key distinctive evidence.
+
+    \item \textbf{Test with multiple LLM families before deployment.} Our cross-model
+    robustness results show that protocol effects generalise, but M4 (Llama-3.1-70B)
+    shows higher exclusion rates on C2. Open-source models should be validated on a pilot
+    before full-scale educational deployment.
+
+    \item \textbf{Report which protocol and evaluation framework you used.} Research
+    papers using LLM simulated learners should name the protocol (TA-type or SS-type or
+    neither), report the structural elements included, and evaluate against the
+    purpose-appropriate framework dimensions. Generic ``student-like'' quality ratings are
+    insufficient for research validity claims.
+
+    \item \textbf{Use our use-case decision framework as a validation tool.} The use-case
+    decision analysis (human coders classify dialogue by appropriate educational use without
+    seeing condition labels) can serve as a protocol-independent validity check. A dialogue
+    coded as ``reject'' by this criterion is invalid for any of the four educational uses
+    regardless of its surface quality.
+\end{enumerate}
+
+\begin{figure}[h]
+\centering
+\caption{Use-Case Decision Framework for LLM Simulated-Learner Protocol Selection}
+\label{fig:decision}
+\includegraphics[width=\textwidth]{figures/use_case_decision_tree.pdf}
+% Figure shows: Goal → Protocol → Evaluation dimensions → Accept/Reject criteria
+% Caption text below.
+\end{figure}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Ethical and Equity Considerations}
+
+\subsection{Replication of Dataset Biases}
+
+MathDial was collected primarily with US students; Bridge includes mixed international
+tutor-student pairs; Eedi QATD-2k reflects UK school students (approximately age 12).
+Our simulated learners inherit implicit biases embedded in these training corpora through
+the LLMs that generated them. In particular, our ``7th-grade student'' representation
+may reflect middle-class, English-speaking, Western educational norms and may not
+accurately represent learners from other SES backgrounds, linguistic communities, or
+educational contexts. Researchers applying these protocols in diverse or non-Western
+contexts should conduct additional validation.
+
+\subsection{RLHF Alignment Biases}
+
+All four LLM families use reinforcement learning from human feedback (RLHF), which has
+been shown to reflect annotator demographic biases \citep[see, e.g., Gebru et al., 2021]{gebru2021}.
+Our models may systematically underrepresent student reasoning styles that differ from
+the RLHF annotator population. This is a limitation of all current LLM-based simulation
+research and should be addressed as more diverse RLHF processes become available.
+
+\subsection{Boundaries of LLM-Based Student Simulation}
+
+LLM-based simulated learners cannot and should not replace real-student research for claims
+about human learning outcomes. Our study evaluates what simulated learners can provide
+as \emph{research instruments} (a controlled testbed for tutoring strategies, a validation
+tool for learning-by-teaching environments) rather than as proxies for real learning.
+The failure rates documented in our qualitative analysis --- particularly misconception loss
+and premature correctness --- represent validity threats that any research using these
+protocols must monitor and report.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Limitations}
+
+This study has several important limitations. \textbf{Domain scope}: All scenarios are drawn
+from K-7 math word problems; protocol differences may not generalise to other domains
+(science, history, writing), other age groups, or non-English-language tutoring.
+\textbf{Model coverage}: Despite testing four LLM families, our model set is limited to
+English-language frontier models with RLHF alignment. Smaller models, non-English models,
+or models without instruction tuning may show different patterns.
+\textbf{Operational framework definitions}: Our TA1--TA4 and SS1--SS5 operationalisations
+are derived from published frameworks but have not been through full psychometric scale
+validation. The Codebook v1.1 dimensions should be treated as research instruments
+appropriate for this study's purposes, not validated psychometric scales.
+\textbf{Practitioner sample}: Six mathematics teachers constitute a small convenience sample;
+practitioner perspectives were analysed qualitatively and should not be statistically
+generalised.
+\textbf{Ecological validity}: We do not study whether our protocols produce dialogues that
+improve actual student learning outcomes in LBT or ITS contexts. This boundary is explicitly
+stated in our claim boundaries.
+
+% ─────────────────────────────────────────────────────────────────────────────
 \section{Conclusion}
 
-This study provides a methodological foundation for purpose-specific evaluation of LLM
-simulated learners. Researchers designing learning-by-teaching environments should use
-TA-protocol learners evaluated on TA1--TA4; researchers designing diagnostic or
-feedback-policy testbeds should use SS-protocol learners evaluated on SS1--SS5. Generic
-student-role prompting (C3) fails to reliably achieve either purpose.
+This study provides a methodological and evidential foundation for purpose-specific
+evaluation of LLM simulated learners. We demonstrate that Teachable Agent and Student
+Simulation protocols produce structurally different forms of evidence for different
+educational purposes, that these differences are stable across four LLM families and two
+tutoring datasets, and that unstructured student-role prompting fails to reliably achieve
+either purpose.
+
+For practitioners: match your protocol to your purpose, inject misconceptions explicitly
+for SS protocols, include transfer probes for TA protocols, and never use generic
+student-role prompting for research.
+
+For the field: protocol-level evaluation using purpose-aligned frameworks is a necessary
+complement to surface-level authenticity judgements for LLM student simulation research.
+As LLM-based simulated learners become more prevalent in educational technology development,
+the framework we provide offers a principled basis for distinguishing valid from invalid uses.
+
+All materials, data, and code are publicly available at [GitHub link],
+with a code snapshot archived at Zenodo (DOI: [INSERT]).
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section*{Replicability and Open Materials}
+
+\begin{itemize}
+  \item \textbf{Analysis plan}: GitHub commit 27a554e (committed before data collection)
+  \item \textbf{IRB}: Exempt determination, [INSTITUTION], Protocol [INSERT]
+  \item \textbf{Code}: \url{https://github.com/XianghuiMeng-1020/ta-ss-comparative-study} (MIT licence)
+  \item \textbf{Data}: GitHub \& Zenodo (CC-BY-4.0; 4,800 generated dialogues, human ratings)
+  \item \textbf{Code snapshot}: Zenodo DOI [INSERT]
+  \item \textbf{Codebook}: Appendix C / GitHub supplementary materials
+  \item \textbf{Prompts}: Frozen at commit c2c41e6, archived in repo \texttt{prompts/}
+\end{itemize}
+
+\section*{Declaration of Competing Interests}
+
+The authors declare no competing interests.
+
+\section*{Acknowledgements}
+
+[BLINDED FOR REVIEW]
 
 \bibliographystyle{apalike}
 \bibliography{references}

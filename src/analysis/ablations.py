@@ -1,16 +1,23 @@
 """
-Protocol-element ablation analysis.
+Protocol-element ablation analysis — 8 ablation variants (Decision Log D12).
 
-Runs 4 ablation variants on a 25-scenario subset (3 seeds each):
-  C1-ablate-transfer   : remove near-transfer requirement → expect TA1 to drop
-  C1-ablate-revise     : remove must-revise → expect TA2 to drop
-  C2-ablate-misconception: remove explicit misconception injection → expect SS2 to drop
-  C2-ablate-gradual    : remove gradual-learning constraint → expect SS4 to drop
+Removes one structural element at a time and measures the expected drop in the
+corresponding automatic trace metric. All 8 ablation hypotheses are pre-registered (H5).
 
-Generation is done inline; analysis compares ablation vs full-protocol condition.
+Ablation variants:
+  C1_ablate_transfer      : remove near-transfer requirement       → expect TA1 drop
+  C1_ablate_revise        : remove explicit revision requirement   → expect TA2 drop
+  C1_ablate_questions     : remove clarifying-question requirement → expect TA2/TA3 drop
+  C1_ablate_student_stance: remove student-stance maintenance      → expect TA3 drop
+  C2_ablate_misconception : remove target misconception injection  → expect SS2 drop
+  C2_ablate_gradual       : remove gradual-learning constraint     → expect SS4 drop
+  C2_ablate_verbalize     : remove verbalize-reasoning requirement → expect SS1/TA4 drop
+  C2_ablate_prior_knowledge: remove prior-knowledge boundary      → expect SS3 drop
+
+Execution: 25 scenarios × M1 × 2 seeds = 50 dialogues × 8 ablations = 400 total.
 
 Usage:
-  python src/analysis/ablations.py --n-scenarios 25 --seeds 17 42 91
+  python src/analysis/ablations.py --n-scenarios 25 --seeds 17 42
 """
 
 import argparse
@@ -27,25 +34,55 @@ from src.generation.conditions.c1_teachable_agent import build_system_prompt as 
 from src.generation.conditions.c2_student_simulation import build_system_prompt as c2_prompt
 
 ABLATION_CONFIGS = {
+    # C1 ablations (Decision Log D12)
     "C1_ablate_transfer": {
         "base_condition": "C1",
         "prompt_fn": lambda s: c1_prompt(s, ablate_transfer=True),
         "expected_drop_dimension": "TA1",
+        "expected_drop_metric": "rule_near_transfer_attempt",
     },
     "C1_ablate_revise": {
         "base_condition": "C1",
         "prompt_fn": lambda s: c1_prompt(s, ablate_revise=True),
         "expected_drop_dimension": "TA2",
+        "expected_drop_metric": "rule_feedback_uptake_rate",
     },
+    "C1_ablate_questions": {
+        "base_condition": "C1",
+        "prompt_fn": lambda s: c1_prompt(s, ablate_questions=True),
+        "expected_drop_dimension": "TA2",
+        "expected_drop_metric": "rule_question_asking_rate",
+    },
+    "C1_ablate_student_stance": {
+        "base_condition": "C1",
+        "prompt_fn": lambda s: c1_prompt(s, ablate_student_stance=True),
+        "expected_drop_dimension": "TA3",
+        "expected_drop_metric": "rule_role_drift_rate",  # stance removal → role drift increases
+    },
+    # C2 ablations (Decision Log D12)
     "C2_ablate_misconception": {
         "base_condition": "C2",
         "prompt_fn": lambda s: c2_prompt(s, ablate_misconception=True),
         "expected_drop_dimension": "SS2",
+        "expected_drop_metric": "rule_target_error_preservation",
     },
     "C2_ablate_gradual": {
         "base_condition": "C2",
         "prompt_fn": lambda s: c2_prompt(s, ablate_gradual=True),
         "expected_drop_dimension": "SS4",
+        "expected_drop_metric": "rule_correction_timing_index",
+    },
+    "C2_ablate_verbalize": {
+        "base_condition": "C2",
+        "prompt_fn": lambda s: c2_prompt(s, ablate_verbalize=True),
+        "expected_drop_dimension": "SS1",
+        "expected_drop_metric": "rule_reasoning_trace_rate",
+    },
+    "C2_ablate_prior_knowledge": {
+        "base_condition": "C2",
+        "prompt_fn": lambda s: c2_prompt(s, ablate_prior_knowledge=True),
+        "expected_drop_dimension": "SS3",
+        "expected_drop_metric": "rule_over_technical_language_rate",  # prior-knowledge removal → more technical
     },
 }
 
@@ -159,13 +196,7 @@ def summarise_ablations(output_dir: Path):
             continue
         expected_col = cfg["expected_drop_dimension"]
         # Map dimension label to trace metric
-        dim_to_metric = {
-            "TA1": "rule_near_transfer_attempt",
-            "TA2": "rule_feedback_uptake_rate",
-            "SS2": "rule_target_error_preservation",
-            "SS4": "rule_correction_timing_index",
-        }
-        metric_col = dim_to_metric.get(expected_col, "")
+        metric_col = ABLATION_CONFIGS[ablation_name].get("expected_drop_metric", "")
         if metric_col and metric_col in subset.columns:
             mean_val = subset[metric_col].mean()
             print(f"  {ablation_name} → {metric_col}: {mean_val:.3f}")

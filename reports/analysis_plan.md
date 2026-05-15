@@ -1,9 +1,9 @@
 # Analysis Plan — Pre-committed to GitHub Before Data Collection
 ## Framework-Grounded Comparative Evaluation of Teachable Agent and Student Simulation Protocols
 
-**Commit date**: [INSERT BEFORE GENERATION BEGINS]
-**Commit hash**: [INSERT]
-**GitHub URL**: github.com/[REPO]/blob/[COMMIT]/reports/analysis_plan.md
+**Commit date**: 2026-05-15 18:00:40 UTC+8
+**Commit hash**: 27a554e2ed884eda245d2f9f9111751b235101ba
+**GitHub URL**: github.com/XianghuiMeng-1020/ta-ss-comparative-study/blob/27a554e2ed884eda245d2f9f9111751b235101ba/reports/analysis_plan.md
 **Corresponding author**: [BLINDED FOR REVIEW]
 
 > This document was committed to the public GitHub repository before any real LLM API
