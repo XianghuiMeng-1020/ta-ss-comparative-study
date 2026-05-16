@@ -205,8 +205,8 @@ def main() -> None:
     parser.add_argument("--max-tokens", type=int, default=600)
     parser.add_argument(
         "--backend", default="auto",
-        choices=["auto", "openai", "anthropic", "google", "vllm"],
-        help="API backend; 'auto' infers from model_id",
+        choices=["auto", "openai", "openrouter", "anthropic", "google", "vllm"],
+        help="API backend; 'auto' infers from model_id (M2-M4 default to openrouter)",
     )
     parser.add_argument("--conditions", nargs="+", default=["C1", "C2", "C3", "C4"])
     parser.add_argument(

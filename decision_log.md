@@ -12,8 +12,9 @@ All methodological decisions are timestamped here. This file is append-only afte
 **max_tokens per turn**: 600  
 **Seeds**: [17, 42, 91] (main); [17, 42] (pilot)  
 **Rationale**: Single-model approach maximises condition parity and minimises cost (~$100–150 for 1,200 dialogues). Model-identity robustness check on 25-scenario subset with a second model (e.g., `claude-sonnet-4-5`) will be run post-main to guard against model-specific confounds.  
-**Status**: OPEN — confirm model ID before P2  
+**Status**: LOCKED — generation started 2026-05-16
 **Logged**: 2026-05-15
+**Updated**: 2026-05-16 — OpenRouter used for M2-M4 (single API key, OpenAI-compatible); M3 re-routed from gemini-2.5-pro-preview (thinking model, incompatible with 600 token limit) to google/gemini-2.0-flash-001 (stable, fast); M4 estimated ~16h runtime at ~50s/dialogue; checkpoint-resume enabled
 
 ---
 
@@ -78,7 +79,7 @@ After main generation, run 25-scenario subset under a second model. Log model ID
 |----|----------|--------|------|------|
 | M1 | `gpt-4o-2024-11-20` | OpenAI | Closed | Primary (original plan) |
 | M2 | `claude-sonnet-4-5-20250929` | Anthropic | Closed | Cross-family replication |
-| M3 | `gemini-2.5-pro` | Google | Closed | Cross-RLHF replication |
+| M3 | `gemini-2.5-pro` → routed to `google/gemini-2.0-flash-001` via OpenRouter | Google | Closed | Cross-RLHF replication |
 | M4 | `meta-llama/Llama-3.1-70B-Instruct` | Meta | Open | Reproducibility anchor |
 
 **Total main**: 4 models × 4 conditions × 3 seeds × 100 scenarios = **4,800 dialogues**

@@ -1,1 +1,4 @@
 data/raw_talkmoves/TalkMoves_repo/
+.env
+outputs/main/
+__pycache__/

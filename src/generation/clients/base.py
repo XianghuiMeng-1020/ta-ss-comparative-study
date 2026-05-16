@@ -14,7 +14,7 @@ class LLMConfig:
     model_id: str = "gpt-4o-2024-11-20"
     temperature: float = 0.7
     max_tokens: int = 600
-    api_backend: str = "openai"  # "openai" | "anthropic" | "google" | "vllm"
+    api_backend: str = "openai"  # "openai" | "openrouter" | "anthropic" | "google" | "vllm"
 
     def cost_estimate_usd(self, input_tokens: int, output_tokens: int) -> float:
         """Rough cost estimate; override per-model if needed."""

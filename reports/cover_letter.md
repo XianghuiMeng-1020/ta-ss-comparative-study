@@ -39,9 +39,8 @@ rigorously evaluated and responsibly deployed in educational contexts. Specifica
    findings generalise beyond MathDial
 3. **Dual evaluation**: Double-blind human coding (240 dialogues, ICC ≥ 0.78) triangulated
    with LLM-as-judge (calibrated against human ratings) for 4,800-dialogue generalisation
-4. **Practitioner perspective**: Six mathematics teachers evaluate protocol differences,
-   providing ecological validity evidence
-5. **Open science**: Analysis plan committed to GitHub before data collection (27a554e), IRB exempt, full materials publicly available
+4. **Use-case decision framework**: A practical decision tree and design principles guide practitioners in choosing and validating simulated-learner protocols
+5. **Open science**: Analysis plan committed to GitHub before data collection (27a554e); all code, data, and materials publicly available
 
 ## Differentiation from Recent Work
 
@@ -59,17 +58,16 @@ and replicate across models and datasets.
 - **Word count**: ~13,000 words (main text, excluding references and appendices)
 - **Figures**: 4 (use-case decision tree, robustness heatmap, failure rates by condition,
   ecological reference comparison)
-- **Tables**: 8 (conditions, model families, primary results TA, primary results SS,
-  reliability, ablations, equivalence tests, teacher vignette themes)
+- **Tables**: 7 (conditions, model families, primary results TA, primary results SS,
+  reliability, ablations, equivalence tests)
 - **Supplementary**: Full Codebook v1.1, extended robustness results,
   LLM-judge calibration details, Bridge replication full results
 
 ## Ethical Compliance
 
 - Analysis plan committed to GitHub before data collection (commit: 27a554e)
-- IRB exempt determination: [INSTITUTION], Protocol [NUMBER]
-- No human participants; all datasets are public and consented
-- Teacher vignette sub-study: minimal risk (text evaluation); separate IRB amendment
+- No human participants; all datasets are pre-existing public corpora (MathDial CC-BY-4.0, Bridge CC-BY-NC-4.0, Eedi QATD-2k CC-BY-NC-SA-4.0); IRB review not required
+- Human coders are research staff rating pre-existing generated text
 
 ## Suggested Reviewers
 

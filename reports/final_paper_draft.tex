@@ -2,7 +2,7 @@
 %% Teachable Agent and Student Simulation Protocols for Educational Technology Research
 %% Target: Computers & Education — Special Issue: GenAI Enhanced Learning (2026)
 %% Analysis plan: github.com/XianghuiMeng-1020/ta-ss-comparative-study/blob/27a554e2ed884eda245d2f9f9111751b235101ba/reports/analysis_plan.md
-%% IRB: Exempt — [INSERT NUMBER]
+%% No human participants; IRB not applicable
 
 \documentclass[12pt]{article}
 \usepackage[margin=1in]{geometry}
@@ -58,8 +58,8 @@ equivalent on TA/SS dimensions, supporting the claim that unstructured prompting
 fails both evaluation frameworks.
 Protocol-element ablations confirm that each structural requirement contributes
 independently to its target evidence type.
-We identify six LLM validity failure categories, provide a use-case decision framework
-for EdTech practitioners, and report practitioner perspectives from six mathematics teachers.
+We identify six LLM validity failure categories and provide a use-case decision framework
+with actionable design principles for EdTech practitioners.
 Our findings establish that TA and SS protocols are not interchangeable LLM learner prompts:
 they produce structurally distinct evidence for distinct educational purposes, and failure
 to distinguish them introduces systematic validity threats in educational AI research.
@@ -202,9 +202,10 @@ The analysis plan (hypotheses H1--H5, primary and secondary analysis specificati
 exclusion rules, and stopping criteria) was committed to the public GitHub repository
 before any real LLM API calls were made (commit: 27a554e, dated 2026-05-15). This provides
 a verifiable timestamp that all hypotheses were specified before data collection.
-The study uses exclusively pre-existing, publicly available tutoring datasets; no human
-participants were recruited. Human coding was performed by research staff. An IRB exempt
-determination was obtained from [INSTITUTION] (Protocol: [INSERT NUMBER]).
+The study uses exclusively pre-existing, publicly available tutoring datasets (MathDial,
+Bridge, Eedi QATD-2k, TalkMoves); no human participants were recruited or involved.
+Human coding was performed by research staff on pre-existing generated text. IRB review
+was not required.
 
 \subsection{Datasets}
 
@@ -326,13 +327,6 @@ or reject. Rejection was mandatory when any severe failure flag was present.
 
 We report condition effects separately by topic, error type, difficulty, model family, and
 seed. For the Bridge replication, we report direction-consistency rate against MathDial findings.
-
-\subsubsection{Layer 6: Practitioner Vignette Study}
-
-Six practising mathematics teachers (Grades 7--9) evaluated four anonymised dialogue excerpts
-(one per condition) in 30-minute remote interviews. Interviews were thematically analysed
-\citep[Braun \& Clarke, 2006]{} to identify practitioner perspectives on simulated-learner
-authenticity and potential use cases. (Separate IRB amendment; results in \S\ref{sec:practitioner}.)
 
 \subsection{Statistical Analysis}
 
@@ -543,26 +537,6 @@ This attenuation suggests that protocol effects are genuine but partially modera
 the specificity and consistency of the underlying tutoring corpus --- a finding that
 itself has practical implications for researchers selecting scenario seeds.
 
-\subsection{Practitioner Perspectives}
-\label{sec:practitioner}
-
-Six mathematics teachers (Grades 7--9) evaluated one dialogue per condition.
-Thematic analysis identified four themes:
-(1) \emph{Structure as authenticity cue}: Teachers rated C1 and C2 dialogues as ``more
-like a real student'' primarily because the learner made specific, diagnosable errors
-rather than vague ones.
-(2) \emph{Questioning as teachability signal}: C1's clarifying questions were rated as
-the feature that most strongly supported teachers' willingness to use the dialogue in
-professional development.
-(3) \emph{Frustration with C4 over-competence}: Teachers universally identified C4
-dialogues as ``not a student'' within 1--2 turns, citing implausible speed to correct answer.
-(4) \emph{Appropriate epistemic humility as non-trivial}: Teachers noted that C2 and C1
-dialogues showed ``the right kind of uncertainty'' (targeted, not global), distinguishing
-them from C3's generic confusion.
-
-These practitioner perspectives align with and extend the quantitative findings, providing
-ecological validity evidence that protocol differences are perceptible to domain experts.
-
 % ─────────────────────────────────────────────────────────────────────────────
 \section{Implications for Educational Technology Design}
 
@@ -661,9 +635,6 @@ or models without instruction tuning may show different patterns.
 are derived from published frameworks but have not been through full psychometric scale
 validation. The Codebook v1.1 dimensions should be treated as research instruments
 appropriate for this study's purposes, not validated psychometric scales.
-\textbf{Practitioner sample}: Six mathematics teachers constitute a small convenience sample;
-practitioner perspectives were analysed qualitatively and should not be statistically
-generalised.
 \textbf{Ecological validity}: We do not study whether our protocols produce dialogues that
 improve actual student learning outcomes in LBT or ITS contexts. This boundary is explicitly
 stated in our claim boundaries.
@@ -695,7 +666,7 @@ with a code snapshot archived at Zenodo (DOI: [INSERT]).
 
 \begin{itemize}
   \item \textbf{Analysis plan}: GitHub commit 27a554e (committed before data collection)
-  \item \textbf{IRB}: Exempt determination, [INSTITUTION], Protocol [INSERT]
+  \item \textbf{Ethics}: No human participants; IRB review not required (all data pre-existing public corpora)
   \item \textbf{Code}: \url{https://github.com/XianghuiMeng-1020/ta-ss-comparative-study} (MIT licence)
   \item \textbf{Data}: GitHub \& Zenodo (CC-BY-4.0; 4,800 generated dialogues, human ratings)
   \item \textbf{Code snapshot}: Zenodo DOI [INSERT]
