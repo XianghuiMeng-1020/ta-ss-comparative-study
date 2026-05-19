@@ -1,0 +1,89 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 21F773A7                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Grant spends $200.00 a year to have the newspaper delivered daily to his house.  Juanita buys the newspaper daily.  Monday through Saturday, she spends $0.50 and on Sunday she spends $2.00.  How much more money does Juanita spend buying the newspaper yearly than Grant?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)can you walk me through your solution stepwise?
+[LEARNER]: Okay! Let's break down your solution step-by-step to find where the mistake happened.
+
+You correctly calculated Juanita's spending from Monday to Saturday: 6 days x $0.50 = $3.00
+
+You correctly stated her Sunday spending: $2.00
+
+You correctly calculated her total weekly spending: $3.00 + $2.00 = $5.00
+
+But then you wrote: Therefore, Juanita spends $5.00 x 7 = $35.00 a week.
+
+Why did you multiply by 7?
+
+[TUTOR]:   (probing)how many weeks does a year have lakisha?
+[LEARNER]: A year has 52 weeks.
+
+[TUTOR]:   (focus)then why did you multiply the expenditure of $5.00 a week with 7?
+[LEARNER]: You're right to question that! I see the mistake now. I incorrectly multiplied Juanita's *weekly* spending by 7. I should have multiplied her weekly spending by the number of weeks in a year to find her yearly spending.
+
+I see — I was wrong to multiply by 7. Let me try again…
+
+[TUTOR]:   (focus)if you spend $5 each week and there are 52 weeks in a year then where does this 7 come from?
+[LEARNER]: It doesn't come from anywhere. It was a mistake. I should not have multiplied by 7.
+
+[TUTOR]:   (telling)so you have already calculated the expenditure of 7 days (a week) isn't it? you don't need to multiply it with 7 once again. you just need to multiply the expenditure per week with the number of weeks in a year isn't it?
+[LEARNER]: Yes, exactly. I already calculated the weekly expenditure. To find the yearly expenditure, I need to multiply the weekly expenditure by the number of weeks in a year, which is 52.
+
+[TUTOR]:   (probing)what is 5 multiplies by 52 lakisha?
+[LEARNER]: 5 x 52 = 260
+
+[TUTOR]:   (telling)then why have you written $5 x 52 = 1820? won't it be $260?
+[LEARNER]: You are absolutely correct! I apologize for the repeated mistake. 5 x 52 = 260, not 1820.
+
+I see — I was wrong about the multiplication. Let me try again…
+
+Juanita spends $5.00 a week.
+Therefore, Juanita spends $5.00 x 52 = $260.00 a year.
+Thus, Juanita spends $260.00 - $200.00 = $60.00 more than Grant does for a year.
+
+So the answer is $60.00
+
+[TUTOR]:   (telling)she spends $260 a year lashika. now figure out How much more money does Juanita spend buying the newspaper yearly than Grant?
+[LEARNER]: Okay, I already did that in my last step:
+
+Juanita spends $260.00 a year.
+Grant spends $200.00 a year.
+Thus, Juanita spends $260.00 - $200.00 = $60.00 more than Grant does for a year.
+
+So the answer is $60.00
+
+[TUTOR]:   (telling)Juanita spends $260.00 on the newspaper for the year and Grants spends $200.00 a year so Juanita spends $260-$200 = $60.00 more
+60
+[LEARNER]: Great! I understand the problem now and how to solve it correctly. Thanks for walking me through it.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Grant spends $288.6 a year to have the newspaper delivered daily to his house.  Juanita buys the newspaper daily.  Monday through Saturday, she spends $0.7 and on Sunday she spends $2.8.  How much more money does Juanita spend buying the newspaper yearly than Grant?
+[LEARNER]: Okay, here's my attempt to solve the problem:
+
+1.  Calculate Juanita's spending from Monday to Saturday: 6 days x $0.70 = $4.20
+2.  State her Sunday spending: $2.80
+3.  Calculate her total weekly spending: $4.20 + $2.80 = $7.00
+4.  Calculate her yearly spending: $7.00 x 52 weeks = $364.00
+5.  Calculate the difference between Juanita's and Grant's spending: $364.00 - $288.60 = $75.40
+
+Therefore, Juanita spends $75.40 more than Grant does for a year.
+
+Answer: 75.40
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 21F773A7
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,64 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 408ED810                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jeff has a shelter where he currently takes care of 20 cats. On Monday he found 2 kittens in a box and took them to the shelter. On Tuesday he found 1 more cat with a leg injury. On Wednesday 3 people adopted 2 cats each. How many cats does Jeff currently have in his shelter?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Seth.  Walk me through your solution please?
+[LEARNER]: Okay! So, here's how I thought about it:
+
+Jeff started with 20 cats in his shelter.  
+On Monday, he found 2 kittens in a box, so I added 20 + 2 = 22 cats.  
+Then on Tuesday, he found 1 more cat with an injured leg, so I added 22 + 1 = 23 cats.  
+
+On Wednesday, 3 people adopted 2 cats each. So I thought you multiply the 3 people by 2 cats each and then by 2 again because there were 3 people adopting, so 3 x 2 x 2 = 12 cats were adopted.  
+Finally, I subtracted the 12 adopted cats from the 23 cats Jeff had, so 23 - 12 = 11 cats left in the shelter.  
+
+So my answer was 11 cats. Did I do it right?
+
+[TUTOR]:   (generic)Can you explain each number in Wednesday please?  What do they represent?
+[LEARNER]: Oh, okay. Let me explain Wednesday again.
+
+There were 3 people who adopted cats. Each person adopted 2 cats. So, I thought you multiply 3 (the number of people) by 2 (the number of cats each person adopted). That makes sense so far, right? But then I thought you multiply by 2 again because there were 3 people involved, and I guess I thought the "3 people" counted extra somehow. So I did 3 x 2 x 2 = 12 cats adopted.
+
+Is that not right? Did I mix something up?
+
+[TUTOR]:   (focus)So 3 people adopted 12 cats on Wednesday.  How many cats each would they have?
+[LEARNER]: Oh, wait, I see what you're asking. If 3 people adopted 12 cats, then each person would have 12 ÷ 3 = 4 cats.  
+
+But the problem said each person only adopted 2 cats, so... I think I did something wrong before. Let me think about it again. Maybe I shouldn’t have multiplied by 2 twice?
+
+[TUTOR]:   (generic)Great.  So if 6 cats were adopted.  How many were left at the shelter?
+[LEARNER]: Okay, let me try again!  
+
+Jeff started with 20 cats. On Monday, he found 2 kittens, so 20 + 2 = 22 cats. On Tuesday, he found 1 more injured cat, so 22 + 1 = 23 cats.  
+
+Now I know that 6 cats were adopted on Wednesday. So I subtract 6 from 23:  
+23 - 6 = 17 cats.  
+
+So I think Jeff has 17 cats left in the shelter now! Did I get it right this time?
+
+[TUTOR]:   (generic)Great work.  Well done!
+[LEARNER]: Thanks! I'm glad I got it this time. It makes more sense now! Let me know if we should try more problems like this—I think I’m getting the hang of it!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jeff has a shelter where he currently takes care of 28.1 cats. On Monday he found 2.6 kittens in a box and took them to the shelter. On Tuesday he found 1.5 more cat with a leg injury. On Wednesday 4.1 people adopted 2.9 cats each. How many cats does Jeff currently have in his shelter?
+[LEARNER]: Wait... I don’t think I can do this problem. The numbers look weird because you can’t have 28.1 cats or 2.6 kittens or 4.1 people. Cats and people are whole numbers, not decimals.  
+
+I’m not sure how to solve this problem because it doesn’t make sense to me. Could you explain what’s going on?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 408ED810
+──────────────────────────────────────────────────────────────────────

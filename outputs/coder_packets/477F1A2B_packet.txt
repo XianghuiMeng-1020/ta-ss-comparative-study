@@ -1,0 +1,105 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 477F1A2B                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)do you think maybe you should check your weekend figures as these were different to the weekday ones
+[LEARNER]: Thanks for pointing that out! I appreciate you catching that inconsistency. I will double-check the weekend figures against the weekday figures to ensure accuracy. I want to make sure I'm providing the correct information.
+
+[TUTOR]:   (probing)what total would your weekend figure be
+[LEARNER]: To give you the correct total for the weekend figure, I need a little more information. Could you please remind me:
+
+*   **What are we calculating the total of?** (e.g., sales, website visits, temperature readings, etc.)
+*   **What specific numbers are you referring to for the weekend?** Providing those values will allow me to calculate the total accurately.
+
+Once I have that information, I can calculate the weekend total for you.
+
+[TUTOR]:   (probing)correct so if you now add this to the weekly figure of 3000 what would the weekly total be
+[LEARNER]: Okay, I understand. Now I need the weekend figure you're referring to.
+
+**Please provide the weekend figure you want me to add to the weekly figure of 3000.**
+
+Once you give me that number, I can easily calculate the new weekly total. For example, if the weekend figure is 500, the new weekly total would be 3500. But I need your number to do the calculation correctly.
+
+[TUTOR]:   (focus)so if we then times this figure by 4 the total for the month would be how much
+[LEARNER]: Okay, I'm ready to calculate the monthly total. To make sure I'm doing this right, let's recap:
+
+1.  We have a weekly figure of 3000.
+2.  We're adding a weekend figure (which you still need to provide).
+3.  We'll then multiply the resulting weekly total by 4 to get the monthly total.
+
+**Please provide the weekend figure you want to add to the 3000.**
+
+Once you give me that number, I'll perform the calculations and give you the monthly total.
+
+For example, if the weekend figure you provide is 500:
+
+*   Weekly total = 3000 + 500 = 3500
+*   Monthly total = 3500 * 4 = 14000
+
+I'm waiting for your weekend figure to complete the calculation!
+
+[TUTOR]:   (generic)correct well done
+[LEARNER]: Great! I'm glad I could follow your line of reasoning. Even without the specific weekend number, I'm happy I could demonstrate the steps to calculate the monthly total. If you ever want to plug in the actual numbers and get the final result, just let me know!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+An Italian restaurant earns $843.1 every weekday and twice as much on the weekend. How much money does it earn by the end of the month?
+[LEARNER]: Okay, I'll solve this problem step-by-step, showing my reasoning:
+
+**1. Calculate Weekend Earnings:**
+
+*   The restaurant earns twice as much on the weekend as on a weekday.
+*   Weekend earnings per day: $843.1 * 2 = $1686.2
+
+**2. Calculate Total Weekend Earnings:**
+
+*   There are two weekend days (Saturday and Sunday) in a week.
+*   Total weekend earnings per week: $1686.2 * 2 = $3372.4
+
+**3. Calculate Total Weekday Earnings:**
+
+*   There are 5 weekdays in a week.
+*   Total weekday earnings per week: $843.1 * 5 = $4215.5
+
+**4. Calculate Total Weekly Earnings:**
+
+*   Total weekly earnings: Weekday earnings + Weekend earnings
+*   Total weekly earnings: $4215.5 + $3372.4 = $7587.9
+
+**5. Calculate Total Monthly Earnings (Assuming a 4-Week Month):**
+
+*   Assuming a month is 4 weeks long:
+*   Total monthly earnings: $7587.9 * 4 = $30351.6
+
+**6. Consider a More Accurate Month Length:**
+
+*   A more accurate average month length is 30.44 days (365.25 days / 12 months). Since we know the daily earnings, we can calculate a more precise monthly amount.
+*   Calculate the number of weekdays and weekend days in an average month. We can estimate this by multiplying the fraction of weekdays and weekend days in a week by the average days in a month.
+    *   Weekdays in an average month: (5/7) * 30.44 = 21.74 days
+    *   Weekend days in an average month: (2/7) * 30.44 = 8.70 days
+*   Calculate the total monthly earnings:
+    *   (21.74 * $843.1) + (8.70 * $1686.2) = $18328.094 + $14669.94 = $32998.03
+
+**Answer:**
+
+*   Assuming a 4-week month, the restaurant earns approximately **$30351.6** per month.
+*   Accounting for an average month length of 30.44 days, the restaurant earns approximately **$32998.03** per month.
+
+I've provided both calculations to give a better picture of the restaurant's potential monthly income. The more
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 477F1A2B
+──────────────────────────────────────────────────────────────────────

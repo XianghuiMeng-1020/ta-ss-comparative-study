@@ -1,0 +1,77 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 9D2A66AF                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jerry has a bunch of half-empty soda cans on his desk. He needs to drain all of them and put them in the recycling bin. He can carry four cans at once, and it takes him 30 seconds to drain those 4 cans. It takes him ten seconds each way to walk to the sink and recycling bin and then back to his desk. If there are 28 cans on Jerry's desk, how long does it take him to throw all of them away?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)how did we get 7.5?
+[LEARNER]: I divided 30 by 4 to get how long it takes to drain one can.
+
+So 30 ÷ 4 = 7.5 seconds per can.
+
+I thought if 4 cans take 30 seconds total, then 1 can should take 30 divided by 4.
+
+[TUTOR]:   (focus)how many times does he need to walk to the sink?
+[LEARNER]: Oh, let me think about this...
+
+Jerry has 28 cans and can carry 4 at a time.
+
+So he needs to make 28 ÷ 4 = 7 trips to the sink.
+
+That means he walks to the sink and back 7 times.
+
+[TUTOR]:   (probing)if he has 28 cans and each time brings 4, how many trip is that?
+[LEARNER]: Wait, let me recalculate that.
+
+If he has 28 cans and brings 4 cans each trip, then 28 ÷ 4 = 7 trips.
+
+So he makes 7 trips to the sink.
+
+[TUTOR]:   (focus)and how long does 7 trips take?
+[LEARNER]: Each trip takes 30 seconds to drain the cans, plus 10 seconds to walk there and 10 seconds to walk back.
+
+So one trip is 30 + 10 + 10 = 50 seconds.
+
+For 7 trips, that's 50 × 7 = 350 seconds total.
+
+[TUTOR]:   (probing)20 seconds is good, but then he needs another 30 seconds per trip so that gives what?
+[LEARNER]: Oh right, so each trip is 20 seconds for walking plus 30 seconds for draining.
+
+That's 20 + 30 = 50 seconds per trip.
+
+Then 50 × 7 = 350 seconds for all 7 trips.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jerry has a bunch of half-empty soda cans on his desk. He needs to drain all of them and put them in the recycling bin. He can carry four cans at once, and it takes him 40.9 seconds to drain those 5.3 cans. It takes him ten seconds each way to walk to the sink and recycling bin and then back to his desk. If there are 35.4 cans on Jerry's desk, how long does it take him to throw all of them away?
+[LEARNER]: Okay, let me work through this step by step.
+
+First, I need to figure out how many trips Jerry makes.
+He has 35.4 cans and carries 4 cans at a time.
+So 35.4 ÷ 4 = 8.85 trips.
+
+Each trip takes:
+- 10 seconds to walk to the sink
+- 10 seconds to walk back
+- 40.9 seconds to drain the cans
+
+So one trip is 10 + 10 + 40.9 = 60.9 seconds.
+
+For 8.85 trips, that's 60.9 × 8.85 = 538.965 seconds total.
+
+So it takes about 539 seconds.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 9D2A66AF
+──────────────────────────────────────────────────────────────────────

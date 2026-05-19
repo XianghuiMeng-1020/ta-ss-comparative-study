@@ -1,0 +1,67 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 6BD4A343                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Grayson has 100 questions on a test. He answers some of the questions for 2 hours, taking two minutes for each answer, then realizes he doesn't know the rest of the questions. How many questions does Grayson leave unanswered when he submits his test?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hello Jordy, please can you talk me through your solution?
+[LEARNER]: I'd be happy to walk you through my initial attempt. Here's what I did:
+
+Grayson has 2 x 60 = 120 minutes to answer the test questions.
+He spent 2 x 60/2 = 60 minutes answering some of the questions.
+He spent 120 - 60 = 60 minutes not answering the remaining questions.
+He could have answered 60/2 = 30 questions in the remaining time.
+Therefore, Grayson leaves 100 - 30 = 70 questions unanswered.
+
+Can you tell me where I went wrong?
+
+[TUTOR]:   (focus)How long does it take Grayson to answer 1 question?
+[LEARNER]: According to the problem, Grayson takes 2 minutes to answer each question.
+
+[TUTOR]:   (focus)So in 2 minutes he could answer how many questions?
+[LEARNER]: Since it takes Grayson 2 minutes to answer 1 question, in 2 minutes, he could answer 1 question.
+
+[TUTOR]:   (focus)Sorry, in 2 hours Grayson could answer how many questions?
+[LEARNER]: Since Grayson has 2 x 60 = 120 minutes to answer questions, and it takes him 2 minutes to answer 1 question, he could answer 120/2 = 60 questions in 2 hours.
+
+[TUTOR]:   (focus)That's correct. How many questions were on the test altogether?
+[LEARNER]: The problem states that Grayson has 100 questions on the test. 
+
+I see — I was wrong about how many questions Grayson left unanswered. Let me try again…
+
+Since Grayson can answer 60 questions in 2 hours, and there are 100 questions on the test, he leaves 100 - 60 = 40 questions unanswered.
+
+[TUTOR]:   (focus)So how many did Grayson not answer?
+[LEARNER]: Grayson leaves 40 questions unanswered.
+
+[TUTOR]:   (generic)That's correct.
+[LEARNER]: I'm glad I was able to correct my mistake. Thank you for walking me through it!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Grayson has 120.0 questions on a test. He answers some of the questions for 2.8 hours, taking two minutes for each answer, then realizes he doesn't know the rest of the questions. How many questions does Grayson leave unanswered when he submits his test?
+[LEARNER]: Let's break it down step by step:
+
+1. First, I need to find out how many minutes Grayson has to answer questions.
+2.8 hours x 60 minutes/hour = 2.8 x 60 = 168 minutes
+2. Since it takes Grayson 2 minutes to answer 1 question, I can find out how many questions he can answer in 168 minutes:
+168 minutes / 2 minutes/question = 84 questions
+3. Since Grayson has 120 questions on the test is incorrect,  it is actually stated he has 120.0, but this is likely a typo and 120 questions is a more reasonable amount of questions on a test. Assuming this I would subtract the questions he answered, 84, from the total number of questions, 120:
+120 - 84 = 36
+
+Grayson leaves 36 questions unanswered.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 6BD4A343
+──────────────────────────────────────────────────────────────────────

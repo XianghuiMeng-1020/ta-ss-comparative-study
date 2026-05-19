@@ -1,0 +1,82 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: C98CE58D                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Seth.  Walk me through your solution please?
+[LEARNER]: So, for the problem we were working on, I think I have a solution. I started by factoring the quadratic expression on the left-hand side of the equation. I got (x + 3)(x - 2) = 0. Then, I set each factor equal to zero and solved for x. I found that x + 3 = 0 gives me x = -3, and x - 2 = 0 gives me x = 2.
+
+I'm pretty sure that's correct, but I'm not entirely confident in my work. I was hoping you could take a look and let me know if I made any mistakes. Did I miss anything or take any wrong turns?
+
+[TUTOR]:   (generic)Can you explain each number in Wednesday please?  What do they represent?
+[LEARNER]: You're referring to the numbers in the solution I wrote down for Wednesday's problem, right?
+
+Okay, so let's go through them. I have a few numbers written down: 3, 2, 0, and -3.
+
+The 3 and 2 are the roots of the quadratic equation. They're the values of x that make the equation true. In other words, when x is equal to -3 or 2, the equation is satisfied.
+
+The 0 is the result of setting each factor equal to zero. When I factored the quadratic expression, I got (x + 3)(x - 2) = 0. The 0 on the right-hand side of the equation represents the fact that the product of the two factors is equal to zero.
+
+And finally, the -3 is the solution to the equation x + 3 = 0. When I subtracted 3 from both sides of the equation, I got x = -3. This is one of the values of x that satisfies the original equation.
+
+Do any of these numbers seem unclear or confusing? I'd be happy to elaborate if you'd like!
+
+[TUTOR]:   (focus)So 3 people adopted 12 cats on Wednesday.  How many cats each would they have?
+[LEARNER]: To find out how many cats each person would have, we need to divide the total number of cats (12) by the number of people (3).
+
+12 ÷ 3 = 4
+
+So, each person would have 4 cats.
+
+[TUTOR]:   (generic)Great.  So if 6 cats were adopted.  How many were left at the shelter?
+[LEARNER]: Let's think about this... If 3 people adopted 12 cats on Wednesday, and now 6 cats are adopted, that means the 6 cats are being adopted from the original 12 cats.
+
+To find out how many cats are left, we need to subtract the number of cats adopted (6) from the original number of cats (12).
+
+12 - 6 = 6
+
+So, there are 6 cats left at the shelter.
+
+[TUTOR]:   (generic)Great work.  Well done!
+[LEARNER]: I'm glad I could get the answers correct and understand the problems. It's always a great feeling when the math works out and I can visualize the solution. Thanks for the feedback and for helping me improve my math skills!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jeff has a shelter where he currently takes care of 28.5 cats. On Monday he found 2.5 kittens in a box and took them to the shelter. On Tuesday he found 1.3 more cat with a leg injury. On Wednesday 3.7 people adopted 2.7 cats each. How many cats does Jeff currently have in his shelter?
+[LEARNER]: Let's break this problem down step by step.
+
+Step 1: Jeff starts with 28.5 cats in his shelter.
+
+Step 2: On Monday, he finds 2.5 kittens in a box and takes them to the shelter. To find the new total, I'll add 28.5 and 2.5.
+
+28.5 + 2.5 = 31
+
+Step 3: On Tuesday, he finds 1.3 more cat with a leg injury. I'll add 1.3 to the total number of cats.
+
+31 + 1.3 = 32.3
+
+Step 4: On Wednesday, 3.7 people adopt 2.7 cats each. To find the total number of cats adopted, I'll multiply the number of people by the number of cats each person adopts.
+
+3.7 x 2.7 = 10
+
+Step 5: Since 10 cats were adopted, I'll subtract 10 from the total number of cats.
+
+32.3 - 10 = 22.3
+
+Therefore, Jeff currently has 22.3 cats in his shelter.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET C98CE58D
+──────────────────────────────────────────────────────────────────────

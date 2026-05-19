@@ -1,0 +1,78 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: C6FBF897                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+A man is returning home from work and trying to decide which route to take.  His first route option includes 3 stoplights.  This route will take him 10 minutes if all three lights are green, but each light that is red will add 3 minutes to the trip.  The second route does not include any stoplights and takes 14 minutes.  If the man chooses the first route, how much longer will his trip be if all 3 stoplights are red?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi , could you please walk me through your solution?
+[LEARNER]: Hi! Here's what I did:
+
+I started with the base time of 10 minutes when all lights are green. Then I added 3 minutes for each red light:
+- 1 red light: 10 + 3 = 13 minutes
+- 2 red lights: 10 + 3 + 3 = 16 minutes  
+- 3 red lights: 10 + 3 + 3 + 3 = 19 minutes
+
+Then I calculated how much longer the trip would be by subtracting: 19 - 10 = 9 minutes.
+
+So my answer was 9 minutes longer if all three lights are red.
+
+[TUTOR]:   (focus)okay you calculated the time that would take if all the signals are red is 19. but you see the last sentence of the question asks you how much longer will it take if all three lights are green. this implies that how much longer will it take as compared to the second route? remember that the man is deciding which route to take?
+[LEARNER]: Oh, I see what you're saying! I was comparing the time with all red lights to the time with all green lights, but the question is actually asking how much longer the first route would take compared to the second route (which is 14 minutes).
+
+So if all three lights are red, the first route takes 19 minutes, and the second route takes 14 minutes.
+
+Let me recalculate: 19 - 14 = 5 minutes.
+
+So the trip would be 5 minutes longer than the second route.
+
+[TUTOR]:   (focus)how 9 minutes?
+[LEARNER]: Wait, I'm confused. I just said 5 minutes (19 - 14 = 5). 
+
+Are you saying the answer should be 9 minutes? Can you help me understand what I should be comparing?
+
+[TUTOR]:   (telling)19 - 14 = 5 minutes.
+[LEARNER]: Yes, you're right! I see now - I was wrong about comparing it to the all-green scenario. Let me revise:
+
+If all three stoplights are red, the first route takes 19 minutes. The second route takes 14 minutes. So the first route would be 19 - 14 = 5 minutes longer than the second route.
+
+The answer is 5 minutes, not 9 minutes.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+A man is returning home from work and trying to decide which route to take.  His first route option includes 4.2 stoplights.  This route will take him 12.6 minutes if all three lights are green, but each light that is red will add 4.0 minutes to the trip.  The second route does not include any stoplights and takes 20.7 minutes.  If the man chooses the first route, how much longer will his trip be if all 4.5 stoplights are red?
+[LEARNER]: Let me work through this step by step:
+
+First, I need to find the total time for the first route if all the stoplights are red.
+
+Base time with all green lights: 12.6 minutes
+
+Number of stoplights: 4.2 (I notice this says 4.2 stoplights, but then mentions "all three lights" and later "all 4.5 stoplights" - this seems inconsistent, but I'll use 4.5 as stated in the final question)
+
+Time added per red light: 4.0 minutes
+
+If all 4.5 stoplights are red:
+Total time = 12.6 + (4.5 × 4.0)
+Total time = 12.6 + 18.0
+Total time = 30.6 minutes
+
+The second route takes: 20.7 minutes
+
+How much longer is the first route compared to the second route?
+30.6 - 20.7 = 9.9 minutes
+
+The trip would be 9.9 minutes longer.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET C6FBF897
+──────────────────────────────────────────────────────────────────────

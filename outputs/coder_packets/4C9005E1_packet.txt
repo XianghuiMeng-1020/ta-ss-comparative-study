@@ -1,0 +1,67 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 4C9005E1                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Henry needs to declutter his book collection of 99 books.  From his bookshelf, he was able to fill 3 boxes of 15 books each to take to a donation center.  He had 21 books in a room he could donate, 4 on his coffee table and 18 cookbooks stashed in the kitchen.  When he dropped them off, he noticed a box of books that had a  "free to a good home" note.  He grabbed 12 books to take back to his place.  How many books does Henry now have?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Jordy can you talk me through your working?
+[LEARNER]: Hi! So I started by figuring out how many books Henry put in the boxes - that's 3 boxes times 15 books each, which equals 45 books.
+
+Then I added up the other books he donated: 21 from his room, plus 4 from the coffee table, plus 18 cookbooks from the kitchen. That gave me 21 + 4 + 18 = 43 books.
+
+I subtracted those 43 books from his original 99 books to get 56 books left. Then he took 12 more books from the donation center, so I added those: 56 + 12 = 68 books total.
+
+[TUTOR]:   (focus)Think again about how many books he is donating in total.
+[LEARNER]: Oh, wait... let me recalculate the total books he donated.
+
+He filled 3 boxes with 45 books total, plus he had 21 books from his room, 4 from the coffee table, and 18 cookbooks from the kitchen.
+
+So the total donated should be 45 + 21 + 4 + 18 = 88 books!
+
+Then 99 - 88 = 11 books left, and adding the 12 books he took back gives 11 + 12 = 23 books.
+
+[TUTOR]:   (telling)He filled 3 boxes with 15 books each so 3*15 = 45 books
+From the rest of his house he is donating 45+21+4+18 = 88 books for donation
+[LEARNER]: Yes, you're right! So Henry is donating 88 books total to the donation center.
+
+Starting with 99 books, after donating 88, he has 99 - 88 = 11 books left.
+
+Then he picked up 12 books from the "free to a good home" box, so 11 + 12 = 23 books.
+
+Henry now has 23 books!
+
+[TUTOR]:   (telling)He had 88 books to donate. His collection is 99 books and he is donating 88 books, so that leaves him with 99-88 = 11 books
+He picks up 12 books to add to his collection of 11 books so he now has 12+11 = 23 books
+[LEARNER]: Yes, I see it now! Henry started with 99 books and donated 88 books, leaving him with 99 - 88 = 11 books.
+
+Then he added the 12 books from the donation center, so 11 + 12 = 23 books.
+
+So Henry has 23 books in total now.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Henry needs to declutter his book collection of 129.9 books.  From his bookshelf, he was able to fill 4.3 boxes of 19.3 books each to take to a donation center.  He had 25.7 books in a room he could donate, 5.3 on his coffee table and 25.7 cookbooks stashed in the kitchen.  When he dropped them off, he noticed a box of books that had a  "free to a good home" note.  He grabbed 17.3 books to take back to his place.  How many books does Henry now have?
+[LEARNER]: Okay, let me work through this step by step.
+
+First, I need to find how many books Henry put in the boxes: 4.3 boxes times 19.3 books each equals 4.3 × 19.3 = 82.99 books.
+
+Next, I'll add up all the books he's donating: the 82.99 books in boxes, plus 25.7 from his room, plus 5.3 from the coffee table, plus 25.7 cookbooks from the kitchen.
+
+So total donated = 82.99 + 25.7 + 5.3 + 25.7 = 139.69 books.
+
+Wait, that's more than 129.9 books he started with... I think I made a mistake somewhere with the decimals?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 4C9005E1
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,73 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 85CDA52C                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Jordy can you talk me through your working?
+[LEARNER]: So I was trying to solve this problem, and I got stuck on the last step. Let me show you what I have so far... *rummages through notes*
+
+Okay, so the problem is this: Find the value of x in the equation 2x + 5 = 11.
+
+I started by subtracting 5 from both sides, which gives me 2x = 6. Then, I was going to divide both sides by 2 to solve for x... but I'm not sure if I did it right. I got x = 3, but I'm not confident in my answer. Can you help me check my work?
+
+[TUTOR]:   (focus)Think again about how many books he is donating in total.
+[LEARNER]: Wait a minute... I think I see where I went wrong. So, the problem says that Jordy is donating 5 boxes of books, and each box contains 8 books. And then, he's also donating 2 more boxes of books, but these boxes only have 4 books in each.
+
+So, if I multiply the number of boxes by the number of books in each box, I get... *pauses to calculate*...5 x 8 = 40 books, and then 2 x 4 = 8 books.
+
+And if I add those two numbers together, I get... *pauses again*...40 + 8 = 48 books. So, Jordy is donating a total of 48 books! Is that correct?
+
+[TUTOR]:   (telling)He filled 3 boxes with 15 books each so 3*15 = 45 books
+From the rest of his house he is donating 45+21+4+18 = 88 books for donation
+[LEARNER]: I get it now. So, Jordy filled 3 boxes with 15 books each, which is 3 x 15 = 45 books. And then, from the rest of his house, he's donating 45 more books, plus 21 books, plus 4 books, plus 18 books.
+
+So, if I add all those numbers together, I get... 45 + 21 = 66, and then 66 + 4 = 70, and then 70 + 18 = 88 books.
+
+So, in total, Jordy is donating 45 + 88 = 133 books! I should have seen that earlier, thank you for explaining it to me!
+
+[TUTOR]:   (telling)He had 88 books to donate. His collection is 99 books and he is donating 88 books, so that leaves him with 99-88 = 11 books
+He picks up 12 books to add to his collection of 11 books so he now has 12+11 = 23 books
+[LEARNER]: I understand now. So, Jordy had 88 books to donate, and his original collection was 99 books. To find out how many books he had left after donating, I need to subtract 88 from 99, which gives me... 99 - 88 = 11 books.
+
+And then, he picks up 12 more books to add to his collection of 11 books. To find out how many books he has now, I need to add 12 and 11 together, which gives me... 12 + 11 = 23 books.
+
+So, Jordy now has a total of 23 books. I'll make sure to remember that!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Henry needs to declutter his book collection of 144.2 books.  From his bookshelf, he was able to fill 3.8 boxes of 20.3 books each to take to a donation center.  He had 29.1 books in a room he could donate, 5.7 on his coffee table and 26.7 cookbooks stashed in the kitchen.  When he dropped them off, he noticed a box of books that had a  "free to a good home" note.  He grabbed 15.4 books to take back to his place.  How many books does Henry now have?
+[LEARNER]: Let's break this problem down step by step.
+
+Step 1: Find the total number of books Henry is donating from his bookshelf.
+He filled 3.8 boxes with 20.3 books each, so I'll multiply 3.8 by 20.3 to find the total number of books:
+3.8 x 20.3 = 77.14 books
+
+Step 2: Add the number of books Henry is donating from the rest of his house to the number of books he's donating from his bookshelf.
+He has 29.1 books from a room, 5.7 books from his coffee table, and 26.7 cookbooks from the kitchen, so I'll add those numbers to the 77.14 books from his bookshelf:
+77.14 + 29.1 + 5.7 + 26.7 = 138.74 books
+
+Step 3: Subtract the total number of books Henry is donating from his original collection.
+Henry's original collection was 144.2 books, and he's donating 138.74 books, so I'll subtract 138.74 from 144.2:
+144.2 - 138.74 = 5.46 books
+
+Step 4: Add the number of books Henry picked up to his remaining collection.
+Henry picked up 15.4 books, and he had 5.46 books left after donating, so I'll add those numbers together:
+5.46 + 15.4 = 20.86 books
+
+Therefore, Henry now has 20.86 books.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 85CDA52C
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,52 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: E9CB769B                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Austin is a surfer. He took a trip to the beach during surfing season and the highest wave he caught was two feet higher than four times his height. The shortest wave he caught was four feet higher than his height. The shortest wave was three feet higher than his 7-foot surfboard is long. How tall was the highest wave Austin caught?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)You are on the right track. So, the shortest wave is 3ft greater than his 7ft surfboard - so it is?
+[LEARNER]: So, if the shortest wave is 3 feet higher than his surfboard, that means it's 7 + 3 = 10 feet tall.
+
+[TUTOR]:   (focus)That's right! But this 10ft wave is also 4ft higher than Austin, so Austin must be how tall?
+[LEARNER]: If the 10ft wave is 4ft higher than Austin, then I need to subtract 4 from 10 to find Austin's height. So, Austin's height is 10 - 4 = 6 feet. Wait, I thought I already figured out that Austin was 4 feet tall earlier?
+
+[TUTOR]:   (focus)That's right, Austin is 6ft tall. The highest wave is 4 times his height plus 2 which is?
+[LEARNER]: I think I made a mistake earlier when I said Austin was 4ft tall... anyway, now that I know he's 6ft tall, I can find the height of the highest wave. So, four times Austin's height is 6 x 4 = 24, and then I add 2, which makes 24 + 2 = 26 feet.
+
+[TUTOR]:   (generic)Show me the calculation?
+[LEARNER]: Here are the steps:
+
+1. 4 times Austin's height = 4 x 6 =?
+2. I multiply 4 and 6... 4 x 6 = 24
+3. Add 2 to that result... 24 + 2 = 26
+
+So, the highest wave is 26 feet tall.
+
+[TUTOR]:   (focus)That's right! 26ft is the correct answer.
+[LEARNER]: I'm glad I was able to get it right in the end. I was a bit mixed up earlier, but it all worked out. So, to recap, Austin is 6ft tall, the shortest wave is 10ft tall, and the highest wave is 26ft tall. Got it!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Austin is a surfer. He took a trip to the beach during surfing season and the highest wave he caught was two feet higher than four times his height. The shortest wave he caught was four feet higher than his height. The shortest wave was three feet higher than his 8.6-foot surfboard is long. How tall was the highest wave Austin caught?
+[LEARNER]: Let's start with the information about the shortest wave: it was 3 feet higher than his surfboard, which is 8.6 feet long. So, the shortest wave is 8.6 + 3 = 11.6 feet.
+
+Then, I know that the shortest wave is 4 feet higher than Austin's height, so I need to subtract 4 from 11.6 to find Austin's height. That's 11.6 - 4 = 7.6 feet.
+
+Now, I can use this information to find the height of the highest wave. It was 2 feet higher than four times Austin's height, so I need to multiply 7.6 by 4... that's 7.6 x 4 = 30.4. Then, I add 2... 30.4 + 2 = 32.4 feet.
+
+So, the highest wave Austin caught was 32.4 feet tall.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET E9CB769B
+──────────────────────────────────────────────────────────────────────

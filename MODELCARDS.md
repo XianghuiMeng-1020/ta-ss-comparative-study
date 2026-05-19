@@ -1,10 +1,54 @@
-# Model Cards for Generated Dialogues
-## Framework-Grounded Comparative Evaluation of TA and SS Protocols
+# Model Cards for Generated Dialogues and QA Responses
+## IEEE TLT v2: Multi-Model, Multi-Question-Type, Multi-Dimension Comparative Analysis
 
 Following Mitchell et al. (2019) "Model Cards for Model Reporting."
 
-Prompt hash: SHA-256 of `prompts/` directory at commit c2c41e6
-(Run `git rev-parse c2c41e6:prompts/` to verify.)
+**v1 (legacy)**: Prompt hash SHA-256 of `prompts/` at commit c2c41e6 (C&E design).
+**v2 (current)**: Prompt hash SHA-256 of `prompts/naive_student_prompt.txt` at commit [INSERT].
+Analysis plan v2.0 pre-registered at: [INSERT commit hash before P2 unlearning begins].
+
+---
+
+## v2 Model Roster
+
+| ID | Model | Params | Tier | P1 | P2 |
+|----|-------|--------|------|----|----|
+| M01 | SmolLM2-360M-Instruct | 0.36B | Tiny | ✓ | — |
+| M02 | TinyLlama-1.1B-Chat | 1.1B | Tiny | ✓ | — |
+| M03 | Llama-3.2-1B-Instruct | 1.0B | Tiny | ✓ | — |
+| M04 | Qwen2.5-1.5B-Instruct | 1.5B | Small | ✓ | — |
+| M05 | Phi-3.5-mini-instruct | 3.8B | Small | ✓ | — |
+| M06 | Llama-3.2-3B-Instruct | 3.0B | Small | ✓ | — |
+| M07 | Qwen3-4B | 4.0B | Mid | ✓ | — |
+| M08 | Mistral-7B-Instruct-v0.3 | 7.0B | Mid (anchor) | ✓ | ✓ |
+| M09 | Llama-3.1-8B-Instruct | 8.0B | Mid | ✓ | — |
+| M10 | gpt-4o-2024-11-20 | ~200B | Big | ✓ (OED reuse) | — |
+| M11 | claude-sonnet-4-5-20250929 | ~70B | Big | ✓ (OED reuse) | — |
+| M12 | Llama-3.1-70B-Instruct | 70B | Big | ✓ (OED reuse) | — |
+| P2-Qwen | Qwen2.5-3B-Instruct | 3B | Small | — | ✓ (cross-family) |
+
+---
+
+## P2 Unlearned Adapter Cards
+
+### P2-M08: Mistral-7B Unlearned (10%/30%/50% ratios × 5 seeds)
+
+**Base model**: `mistralai/Mistral-7B-Instruct-v0.3`
+**Training**: LoRA fine-tuning with KL-divergence forgetting loss
+**Hyperparameters**: β=0.1, lr=1e-4, 20 epochs, batch_size=8, r=8, α=32
+**Forget set**: Python MCQ items (10%/30%/50% of eligible items)
+**Hardware**: 1× A100 40GB
+**Adapter location**: `outputs/unlearning/mistral_7b_instruct_v0_3/ratio{N}_seed{S}/`
+**HuggingFace Hub**: [INSERT after training]
+
+### P2-Qwen: Qwen2.5-3B Unlearned (10%/30%/50% ratios × 5 seeds)
+
+**Base model**: `Qwen/Qwen2.5-3B-Instruct`
+**Training**: Same hyperparameters as P2-M08
+**Adapter location**: `outputs/unlearning/qwen2_5_3b_instruct/ratio{N}_seed{S}/`
+**HuggingFace Hub**: [INSERT after training]
+
+---
 
 ---
 

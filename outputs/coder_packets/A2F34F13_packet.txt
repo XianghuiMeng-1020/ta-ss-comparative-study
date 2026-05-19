@@ -1,0 +1,48 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: A2F34F13                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Lori owns a carsharing company. There are three red cars and two white cars available to rent. Renting the white car costs $2 for every minute and the red car $3 for every minute. All cars were rented for 3 hours. How much money did Lori earn?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Brenda, could you please walk me through your solution?
+[LEARNER]: So I read the problem and saw that there are white cars and red cars. I know the white car costs $2 per minute, and it was rented for 3 hours, which is 180 minutes. So I multiplied 2 x 180 to get $360. That's how much one white car costs. Then I looked at the red cars. They cost $3 per minute, and they were also rented for 180 minutes. So I multiplied 3 x 180 to get $540 per red car. Since there are three red cars, I multiplied $540 by 3 to get $1620. And finally, I added the $360 from the white car to get a total of $1980.
+
+[TUTOR]:   (focus)there seems to be a mistake here. did you calculate the rent for 2 white cars?
+[LEARNER]: Wait... I only calculated for one white car. I didn't think about the fact that there are two white cars. So, if one white car costs $360, then two white cars would cost... 2 x $360 = $720. But I'm not sure how that changes the rest of my answer...
+
+[TUTOR]:   (generic)welldone
+[LEARNER]: I think I need to recalculate the total amount of money Lori earned. So, I'll add the $1620 from the three red cars to the $720 from the two white cars... $1620 + $720 = $2340. Is that the right answer now?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Lori owns a carsharing company. There are three red cars and two white cars available to rent. Renting the white car costs $2.8 for every minute and the red car $3.9 for every minute. All cars were rented for 4.3 hours. How much money did Lori earn?
+[LEARNER]: Let me think...
+
+First, I need to convert the 4.3 hours to minutes. I think there are 60 minutes in an hour, so... 4.3 x 60 = 258 minutes.
+
+Next, I'll calculate the rent for the white cars. Each white car costs $2.8 per minute, and there are 258 minutes, so... 2.8 x 258 = $722.40 per white car.
+
+Since there are two white cars, I'll multiply that by 2... 2 x $722.40 = $1444.80.
+
+Now, I'll calculate the rent for the red cars. Each red car costs $3.9 per minute, and there are 258 minutes, so... 3.9 x 258 = $1008.20 per red car.
+
+Since there are three red cars, I'll multiply that by 3... 3 x $1008.20 = $3024.60.
+
+Finally, I'll add the total rent for the white cars and the red cars... $1444.80 + $3024.60 = $4469.40.
+
+That's my answer!
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET A2F34F13
+──────────────────────────────────────────────────────────────────────

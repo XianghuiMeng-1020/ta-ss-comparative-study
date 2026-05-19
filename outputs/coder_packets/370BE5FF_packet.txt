@@ -1,0 +1,76 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 370BE5FF                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)In the first month, Grant makes $350. Let's break the payment for the second month down into two parts. Firstly, Grant makes double what they make in the first month, so this is?
+[LEARNER]: Okay, let's break down Grant's earnings for the second month.
+
+*   **First part:** Grant makes double what they made in the first month, which was $350. Double of $350 is $350 * 2 = $700.
+
+So, the first part of Grant's earnings in the second month is $700.
+
+[TUTOR]:   (focus)And the second part, is that they make doubel + $50, so this is?
+[LEARNER]: Okay, let's calculate the second part of Grant's earnings in the second month:
+
+*   **Second Part:** Grant makes double + $50. We know double is $700, so we add $50 to that. $700 + $50 = $750
+
+Therefore, the second part of Grant's earnings in the second month is $750.
+
+[TUTOR]:   (focus)That's right! So, you know that grant makes $350 in the first month, $750 in teh second month, how much in the third month?
+[LEARNER]: Okay, I need a little clarification. Based on our previous calculations, Grant makes $700 in the first part of the second month and $750 in the second part. This seems contradictory.
+
+Could you please confirm whether Grant makes **$700** or **$750** in the second month? Once I have that correct number, I can't tell you Grant's earnings in the third month because there is no information about the third month.
+
+[TUTOR]:   (focus)And the total for teh 3 months is?
+[LEARNER]: Okay, I still need to know how much Grant makes in the second month. You've given conflicting information.
+
+*   **Option 1:** If Grant makes $700 in the second month, then the total for the first two months is $350 + $700 = $1050.
+
+*   **Option 2:** If Grant makes $750 in the second month, then the total for the first two months is $350 + $750 = $1100.
+
+Please clarify the amount for the second month, and I can then give you the total for the two months. I still can't tell you the total for the third month, as there is no information about it.
+
+[TUTOR]:   (generic)That's right!
+[LEARNER]: I'm glad I could help! Just let me know if you have any other questions.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Grant has worked as a freelance math worker for the last three months.  The first month he made 501.1$.  The second month he made 64.0$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?
+[LEARNER]: Okay, I'll solve this problem step-by-step:
+
+**1. Second Month's Earnings:**
+
+*   Double the first month's earnings: $501.1 * 2 = $1002.2
+*   Add $64.0: $1002.2 + $64.0 = $1066.2
+*   Therefore, Grant made $1066.2 in the second month.
+
+**2. Sum of First Two Months:**
+
+*   Add the first and second month's earnings: $501.1 + $1066.2 = $1567.3
+
+**3. Third Month's Earnings:**
+
+*   Quadruple the sum of the first two months: $1567.3 * 4 = $6269.2
+
+**4. Total Earnings for Three Months:**
+
+*   Add the earnings from all three months: $501.1 + $1066.2 + $6269.2 = $7836.5
+
+**Answer:** Grant made a total of $7836.5 in his first three months.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 370BE5FF
+──────────────────────────────────────────────────────────────────────

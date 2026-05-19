@@ -61,6 +61,7 @@ def compute_metrics_for_dialogue(data: dict) -> dict:
     scenario_id = data.get("scenario_id", "")
     condition = data.get("condition", "")
     seed = data.get("seed", 0)
+    model_id = data.get("model_id", "")
 
     # Retrieve scenario context from embedded system_prompt fallback
     teacher_described_confusion = ""
@@ -113,6 +114,7 @@ def compute_metrics_for_dialogue(data: dict) -> dict:
         "scenario_id": scenario_id,
         "condition": condition,
         "seed": seed,
+        "model_id": model_id,
         # Metric 1
         "rule_question_asking_rate": qa_rate,
         # Metric 2
@@ -178,8 +180,18 @@ def main():
     args = parser.parse_args()
 
     output_dir = Path("outputs") / args.phase
-    json_files = sorted(output_dir.rglob("*.json"))
-    print(f"Found {len(json_files)} dialogue JSON files in {output_dir}")
+
+    # Prefer model-specific subdirectories (e.g. outputs/main/gpt-4o-2024-11-20/C1/)
+    # to avoid including legacy mock-data directories (C1/, C2/, C3/, C4/ at the top level).
+    model_dirs = [d for d in output_dir.iterdir() if d.is_dir() and not d.name.startswith("C")]
+    if model_dirs:
+        json_files = []
+        for md in sorted(model_dirs):
+            json_files.extend(sorted(md.rglob("*.json")))
+        print(f"Found {len(model_dirs)} model dirs, {len(json_files)} dialogue JSON files in {output_dir}")
+    else:
+        json_files = sorted(output_dir.rglob("*.json"))
+        print(f"Found {len(json_files)} dialogue JSON files in {output_dir}")
 
     rows = []
     for jf in tqdm(json_files, desc="Computing trace metrics"):
@@ -206,6 +218,11 @@ def main():
     numeric_cols = [c for c in df.columns if c.startswith("rule_") and df[c].dtype in ["float64", "bool"]]
     summary = df.groupby("condition")[numeric_cols].mean().round(3)
     print(summary.to_string())
+
+    if "model_id" in df.columns and df["model_id"].nunique() > 1:
+        print("\n=== Metric means by model × condition ===")
+        summary2 = df.groupby(["model_id", "condition"])[numeric_cols].mean().round(3)
+        print(summary2.to_string())
 
 
 if __name__ == "__main__":

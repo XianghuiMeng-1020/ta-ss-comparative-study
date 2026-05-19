@@ -1,0 +1,87 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 716B98AC                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Could you explain your final step to me as you have done well until then
+[LEARNER]: This conversation has just begun. I haven't taken any steps or provided any explanations yet. I'm happy to help answer your questions and provide information, but I don't have a "final step" to explain. What would you like to talk about?
+
+[TUTOR]:   (probing)Could you explain why you too, the commission away as this was something she received
+[LEARNER]: I think there might be some confusion. This conversation just started, and I haven't discussed any commissions or transactions with you. I'm a text-based AI assistant, and I don't have the ability to receive or send physical commissions. I'm here to provide information and answer your questions to the best of my knowledge. Could you please provide more context or clarify what you're referring to?
+
+[TUTOR]:   (telling)The selling price of the house is 96000 plus she received the profit so what should we do
+[LEARNER]: It seems like we're in the middle of a conversation about a real estate transaction. However, I don't have any prior knowledge or context about the conversation. To help you, I'll start fresh.
+
+If the selling price of the house is $96,000 and the person received a profit, it's likely that the profit is being referred to as a commission. In this case, the commission is usually a percentage of the selling price.
+
+Could you please tell me what the commission percentage is or what the profit amount is? That way, I can help you calculate the total amount the person should receive.
+
+[TUTOR]:   (focus)96000 plus the 400 would be
+[LEARNER]: If the selling price of the house is $96,000 and the person received a profit of $400, then the total amount would be:
+
+$96,000 + $400 = $96,400
+
+[TUTOR]:   (generic).?
+[LEARNER]: It seems like you're expecting a response, but I'm not sure what you're asking. The "?" suggests a question, but there isn't a specific question being asked.
+
+If you'd like to ask a question or clarify something, I'm here to help. Please feel free to ask, and I'll do my best to provide a helpful response.
+
+[TUTOR]:   (focus)What is the 96000 plus the 4000
+[LEARNER]: A simple math question!
+
+$96,000 + $4,000 = $100,000
+
+[TUTOR]:   (telling)No we need to had the selling price plus 4000
+[LEARNER]: In that case, we need to add the selling price of $96,000 to $4,000.
+
+$96,000 + $4,000 = $100,000
+
+[TUTOR]:   (telling)you have to add 96,000 plus 4,000 to get the correct answer
+[LEARNER]: $96,000 + $4,000 = $100,000
+
+[TUTOR]:   (telling)You do not deduct you add
+[LEARNER]: $96,000 + $4,000 = $100,000
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Mrs. Choi purchased a house for $115074.7. Five years later, she sold it for a 24.7% profit and got a 6.7% broker's commission from the original price. How much did the house sell for?
+[LEARNER]: To find the selling price, I'll break down the problem step by step.
+
+Step 1: Find the profit amount
+Profit percentage = 24.7%
+Original price = $115,074.70
+Profit amount = Original price x Profit percentage
+= $115,074.70 x 0.247
+= $28,449.11
+
+Step 2: Find the selling price (without commission)
+Selling price = Original price + Profit amount
+= $115,074.70 + $28,449.11
+= $143,523.81
+
+Step 3: Find the broker's commission
+Commission percentage = 6.7%
+Original price = $115,074.70
+Commission amount = Original price x Commission percentage
+= $115,074.70 x 0.067
+= $7,710.03
+
+However, the commission is not added to the selling price. It's a separate amount that Mrs. Choi receives.
+
+Therefore, the house sold for $143,523.81, and Mrs. Choi received a broker's commission of $7,710.03.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 716B98AC
+──────────────────────────────────────────────────────────────────────

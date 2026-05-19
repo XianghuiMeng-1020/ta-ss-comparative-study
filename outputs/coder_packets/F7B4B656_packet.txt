@@ -1,0 +1,39 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: F7B4B656                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jeff makes 10 donuts each day for 12 days. Jeff eats one of the donuts each day. Chris then comes over and eats 8 donuts. If 10 donuts fit in each box, how many boxes can Jeff fill with his donuts?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hey Stephanie, what was the purpose of subtracting one donut in your first step? Can you rethink that and look at your steps again?
+[LEARNER]: Okay, so first Jeff makes 10-1 = 9 donuts each day. I did that because he eats one donut each day. But then later I subtracted 12 donuts because Jeff ate one each day. So, I subtracted the donuts Jeff ate twice. I will try again.
+
+[TUTOR]:   (probing)If I made 5 donuts a day for 20 days, but ate one each day and if I go ahead and subtract one symbolizing the donuts I ate, for example: (5-1)x20= 80. There is no need to subtract donuts again representing the ones I ate, because I have already done so.
+[LEARNER]: Okay, I see. So, Jeff makes 10 donuts each day. Over 12 days, Jeff makes a total of 10 x 12 = 120 donuts. After Jeff eats one each day, he has 120-12 = 108 donuts left. After Chris eats 8 donuts, Jeff has 108-8 = 100 donuts left. Jeff can fill 100/10 = 10 boxes with his donuts. So the answer is 10.
+
+[TUTOR]:   (generic)So, rework it again.
+[LEARNER]: Okay, so Jeff makes 10 donuts each day for 12 days. That's 10 x 12 = 120 donuts. Jeff eats one donut each day, so he eats 12 donuts total. Chris eats 8 donuts. So, the total donuts eaten are 12 + 8 = 20 donuts. Jeff has 120 - 20 = 100 donuts left. Since 10 donuts fit in each box, Jeff can fill 100 / 10 = 10 boxes. The answer is 10.
+
+[TUTOR]:   (generic)Excellent!
+[LEARNER]: Thanks!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jeff makes 14.7 donuts each day for 16.5 days. Jeff eats one of the donuts each day. Chris then comes over and eats 11.2 donuts. If 14.5 donuts fit in each box, how many boxes can Jeff fill with his donuts?
+[LEARNER]: Okay, so Jeff makes 14.7 donuts each day for 16.5 days. That's 14.7 x 16.5 = 242.55 donuts. Jeff eats one donut each day, so he eats 16.5 donuts total. Chris eats 11.2 donuts. So, the total donuts eaten are 16.5 + 11.2 = 27.7 donuts. Jeff has 242.55 - 27.7 = 214.85 donuts left. Since 14.5 donuts fit in each box, Jeff can fill 214.85 / 14.5 = 14.817 boxes. Since he can't have a fraction of a box, Jeff can fill 14 boxes.
+
+So the answer is 14.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET F7B4B656
+──────────────────────────────────────────────────────────────────────

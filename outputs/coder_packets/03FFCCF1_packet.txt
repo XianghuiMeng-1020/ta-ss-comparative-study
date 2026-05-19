@@ -1,0 +1,89 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 03FFCCF1                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+A group of six friends planned to buy a car. The cost of the car is $1700 and they plan to share the cost equally. They had a car wash to help raise funds, which would be taken out of the total cost. The remaining cost would be split between the six friends. At the car wash, they earn $500. However, Brad decided not to join in the purchase of the car. How much more does each friend have to pay now that Brad isn't participating?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi. Can you talk me through your answer?
+[LEARNER]: Sure! Here's my thinking step-by-step from my initial attempt:
+
+1. The cost of the car after the car wash is $1700 - $500 = $1200.  
+2. If all six friends split the cost equally, I calculated $1200 / 6 = $200 per friend.  
+3. When Brad decided not to participate, I thought there were only 5 friends left to split the cost. I then multiplied $200 by 5 to get $1000.  
+4. I subtracted $200 (the original cost per friend) from $1000 and concluded that each friend pays $800 more.  
+
+But now I think I made a mistake. Can you explain where I went wrong?
+
+[TUTOR]:   (generic)So Brad's share was what?
+[LEARNER]: Brad's share would have been $200, just like each of the six friends when they were all splitting the cost equally. I see that now. Did I make a mistake in how I handled Brad's absence?
+
+[TUTOR]:   (probing)Ok so everyone is paying $200 but without Brad they are $200 short.
+[LEARNER]: Oh, I see now! Without Brad, the group is $200 short because he is not contributing his share. This $200 would need to be divided among the remaining 5 friends. Let me revise my work.
+
+[TUTOR]:   (probing)Do they each need to pay the full share of Brad
+[LEARNER]: No, they don't each need to pay the full $200 that Brad would have paid. Instead, they share Brad's $200 equally among the 5 remaining friends. I see where I went wrong before! Let me try again.
+
+[TUTOR]:   (focus)So if each is paying $800.  That would be 800x5
+[LEARNER]: Oh, you're right—if each were paying $800, the total would be $800 × 5 = $4000, which is far more than the $1200 cost of the car after the car wash. That doesn't make sense! I definitely made a mistake in my earlier attempt. Let me reevaluate this step by step.  
+
+1. The total remaining cost of the car is $1200.  
+2. Without Brad, 5 friends split this $1200.  
+3. Each friend now pays $1200 ÷ 5 = $240.  
+
+So, each friend now pays $240 instead of $200. That means each friend pays $240 - $200 = $40 more.  
+
+Thank you for guiding me! My earlier answer was way off.
+
+[TUTOR]:   (probing)Is the car $4000?
+[LEARNER]: No, the car is not $4000. The car costs $1700, and after the car wash, the remaining cost is $1200. I now realize my earlier thought about $800 per person was completely wrong. I corrected my math, and each of the 5 remaining friends pays $240, which is $40 more than the original $200 when Brad was included. Thank you for helping me see that mistake!
+
+[TUTOR]:   (telling)You correctly identified that each share would be $200 with Brad.  If Brad doesn't pay then they are $200 short.  What is $200 shared between 5 people
+[LEARNER]: Ah, I see! If Brad doesn’t pay his $200, that $200 is split equally among the remaining 5 friends.  
+
+$200 ÷ 5 = $40.  
+
+So, each friend has to pay $40 more. I see now—I was wrong earlier when I tried to calculate this! Let me restate it clearly:  
+
+Each friend originally would have paid $200. Now, with Brad gone, they each pay $200 + $40 = $240. Each friend pays $40 more. Thank you for guiding me!
+
+[TUTOR]:   (generic)Great.  Well done!
+[LEARNER]: Thank you! I understand it much better now. I’ll be more careful with sharing costs like this in the future. If you have another problem, I’m ready to give it a try!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+A group of six friends planned to buy a car. The cost of the car is $2335.4 and they plan to share the cost equally. They had a car wash to help raise funds, which would be taken out of the total cost. The remaining cost would be split between the six friends. At the car wash, they earn $647.9. However, Brad decided not to join in the purchase of the car. How much more does each friend have to pay now that Brad isn't participating?
+[LEARNER]: Alright, I'll try this problem step by step on my own:
+
+1. **Calculate the remaining cost of the car after the car wash**:  
+   The total cost of the car is $2335.4, and they earned $647.9 at the car wash.  
+   Remaining cost = $2335.4 - $647.9 = $1687.5.  
+
+2. **Calculate the cost per person if all 6 friends shared equally**:  
+   If all 6 friends were participating, each would pay:  
+   $1687.5 ÷ 6 = $281.25 per person.  
+
+3. **Account for Brad not participating**:  
+   Without Brad, only 5 friends are sharing the $1687.5. Each of the 5 friends now pays:  
+   $1687.5 ÷ 5 = $337.50 per person.  
+
+4. **Calculate how much more each of the 5 friends has to pay**:  
+   Originally, with Brad, each friend would have paid $281.25. Now, each pays $337.50.  
+   The additional amount each friend pays is:  
+   $337.50 - $281.25 = $56.25.  
+
+So, **each friend has to pay $56.25 more** now that Brad isn’t participating.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 03FFCCF1
+──────────────────────────────────────────────────────────────────────

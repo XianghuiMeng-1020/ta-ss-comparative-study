@@ -1,0 +1,59 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 409E38BC                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+A group of 30 tourists sets out on a walking tour of the rainforest. Two tourists are eaten by anacondas, then half the remaining tourists try to pet poisonous dart frogs and get poisoned. If only 1/7 of the poisoned tourists recovered, how many tourists are left at the end of the tour?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)you are almost right!!
+[LEARNER]: Okay, I think I see it now.
+
+Two tourists were eaten by anacondas, so there are 30 - 2 = 28 tourists left.
+Half of the remaining tourists (28 / 2 = 14) got poisoned.
+Only 1/7 of the poisoned tourists recovered, so 1/7 * 14 = 2 tourists recovered. So, 2 of the poisoned tourists are okay.
+Therefore, there are still the 28 -14 = 14 non-poisoned tourists + 2 recovered tourists = 16 tourists left at the end of the tour.
+16
+
+[TUTOR]:   (focus)well we have the 14 leftover tourists and 2 who recovered...what does that tell us?
+[LEARNER]: Okay, so there were 14 tourists who didn't get poisoned, and 2 who recovered from being poisoned. That means those 2 are no longer poisoned. But the other 14 who *did* get poisoned are still poisoned, right? So they're not okay.
+
+So we have 30 - 2 = 28 tourists left after the anacondas.
+Then 28 / 2 = 14 got poisoned, and 14 didn't.
+Then 1/7 * 14 = 2 recovered.
+So the answer would be the 14 who didn't get poisoned + the 2 who recovered = 16.
+16 tourists are left.
+
+[TUTOR]:   (generic)great!
+[LEARNER]: So, 30 - 2 = 28 tourists are left after the anacondas. Half of 28 is 14, so 14 got poisoned. 1/7 of the 14 tourists recovered, which is 2 tourists. That means 14 - 2 = 12 poisoned tourists are still not okay. So, the tourists who are left are the ones who didn't get poisoned (14) and the ones who recovered (2). So 14 + 2 = 16. But we need to subtract the 12 poisoned tourists, so 16 - 12 = 4.
+
+There are 4 tourists left.
+4
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+A group of 38.6 tourists sets out on a walking tour of the rainforest. Two tourists are eaten by anacondas, then half the remaining tourists try to pet poisonous dart frogs and get poisoned. If only 1.5/8.6 of the poisoned tourists recovered, how many tourists are left at the end of the tour?
+[LEARNER]: Okay, I'll try it on my own.
+
+*   Start: 38.6 tourists
+*   Anacondas: 38.6 - 2 = 36.6 tourists
+*   Poisoned: 36.6 / 2 = 18.3 tourists
+*   Recovered: (1.5 / 8.6) \* 18.3 = 3.191860465... tourists (I'll round this to 3.19)
+*   Tourists left: 36.6 - 18.3 = 18.3 non-poisoned tourists. And 3.19 recovered. So 18.3 + 3.19 = 21.49
+*   Then 21.49 - (18.3 - 3.19) = 6.38
+
+So, 6.38 tourists are left at the end of the tour.
+6.  38
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 409E38BC
+──────────────────────────────────────────────────────────────────────

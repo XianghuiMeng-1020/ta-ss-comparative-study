@@ -1,0 +1,69 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 7A5497A4                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)In the first month, Grant makes $350. Let's break the payment for the second month down into two parts. Firstly, Grant makes double what they make in the first month, so this is?
+[LEARNER]: To find out how much Grant made that is double the first month, I will multiply 350 by 2. 
+
+2 x 350 = 700
+
+[TUTOR]:   (focus)And the second part, is that they make doubel + $50, so this is?
+[LEARNER]: To find the total amount Grant made in the second month, I will add 50 to the double amount.
+
+700 + 50 = 750
+
+[TUTOR]:   (focus)That's right! So, you know that grant makes $350 in the first month, $750 in teh second month, how much in the third month?
+[LEARNER]: To find the amount Grant made in the third month, I need to quadruple the sum of the first two months. The sum of the first two months is 350 + 750 = 1100. 
+
+4 x 1100 = 4400
+
+[TUTOR]:   (focus)And the total for teh 3 months is?
+[LEARNER]: To find the total, I need to add the amounts from all three months.
+
+350 + 750 = 1100 (first two months)
+1100 + 4400 = 5500
+
+So, the total for the three months is 5500.
+
+[TUTOR]:   (generic)That's right!
+[LEARNER]: I see that I made a mistake in my initial attempt. I was wrong about the amount Grant made in the second month and also the total amount. Let me try to understand what I did wrong. I think I misunderstood the "50$ more than double" part. I'll make sure to break it down correctly next time.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Grant has worked as a freelance math worker for the last three months.  The first month he made 513.1$.  The second month he made 73.3$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?
+[LEARNER]: To find the total amount Grant made, I will break it down step by step.
+
+First, I need to find out how much Grant made in the second month. 
+Grant made double the first month's amount, which is:
+2 x 513.1 = 1026.2
+Then, he made 73.3$ more than that, so:
+1026.2 + 73.3 = 1099.5
+
+Next, I need to find the sum of the first two months:
+513.1 + 1099.5 = 1612.6
+
+Then, I need to find out how much Grant made in the third month. He quadrupled the sum of the first two months:
+4 x 1612.6 = 6445.04
+
+Finally, I will add the amounts from all three months to find the total:
+513.1 + 1099.5 = 1612.6 (first two months)
+1612.6 + 6445.04 = 8057.64
+
+So, the total amount Grant made in his first three months is 8057.64.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 7A5497A4
+──────────────────────────────────────────────────────────────────────

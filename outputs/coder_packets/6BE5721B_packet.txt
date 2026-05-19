@@ -1,0 +1,54 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 6BE5721B                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+At Mario's barbershop haircuts are 50% more expensive during the weekends. If Mario paid $18 for his last haircut on Monday, how much he would have paid the day before?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Jordy, can you please explain your work to me?
+[LEARNER]: Hi! So I know that on weekends, haircuts cost 50% more than on weekdays. That means the weekend price is 150% of the regular price, right?
+
+Since Mario paid $18 on Monday, I figured that's the regular price. So to find what he'd pay on Sunday (the day before Monday), I calculated 150% of $18, which is $18 × 1.5 = $27.
+
+Wait, actually looking back at my work, I wrote something different - I think I got confused with my steps. But the weekend price should be $27 because it's 50% more than $18.
+
+[TUTOR]:   (probing)I see you used 150% of the regular price. The question says he pays 50% more. So we need to determine how much 50% of the weekly price of $18 is.
+[LEARNER]: Oh, okay! So 50% of $18 would be $18 × 0.5 = $9.
+
+So if the haircut costs 50% more on the weekend, that means I need to add $9 to the regular price of $18.
+
+That would make the weekend price $18 + $9 = $27.
+
+[TUTOR]:   (telling)Yes, 50% is $9. So I see you added that to the price he paid on Monday to determine the same haircut on a weekend to be $27. Great job.
+[LEARNER]: Thanks! So that means if Mario got his haircut on Sunday instead of Monday, he would have paid $27 because weekends are more expensive.
+
+I added the $9 (which is 50% of $18) to the Monday price of $18 to get the Sunday price of $27.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+At Mario's barbershop haircuts are 71.9% more expensive during the weekends. If Mario paid $24.1 for his last haircut on Monday, how much he would have paid the day before?
+[LEARNER]: Okay, let me work through this step by step.
+
+Mario paid $24.1 on Monday, which is the regular weekday price.
+
+On weekends, haircuts are 71.9% more expensive, so I need to find 71.9% of $24.1.
+
+71.9% of $24.1 = $24.1 × 0.719 = $17.33 (approximately)
+
+Now I add that to the regular price: $24.1 + $17.33 = $41.43
+
+So Mario would have paid $41.43 if he got his haircut on Sunday (the day before Monday).
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 6BE5721B
+──────────────────────────────────────────────────────────────────────

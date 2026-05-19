@@ -1,0 +1,3 @@
+
+RESPONSE FORMAT:
+First, briefly reason through the options (1–2 sentences showing your confusion or partial understanding). Then state your answer as: "My answer is: [A/B/C/D]". Explain why you think that choice is right, even if you are uncertain.

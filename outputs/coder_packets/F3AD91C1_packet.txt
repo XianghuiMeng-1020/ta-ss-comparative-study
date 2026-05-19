@@ -1,0 +1,84 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: F3AD91C1                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Ho Michael, can you explain your answer?
+[LEARNER]: Okay, sure! Can you tell me which problem you're referring to?  I want to make sure I'm explaining the right thing.  Also, if you have any specific parts that are confusing you, pointing those out would be really helpful!  Thanks!
+
+[TUTOR]:   (focus)OK, let's start with what we know. How much did he spend?
+[LEARNER]: Okay, so we're trying to figure out how much he spent in total, right?  I think I saw something about apples and oranges...  Let me look back at the problem. Give me a sec... Okay, so is it just adding the cost of the apples to the cost of the oranges? Is that what you're asking?
+
+[TUTOR]:   (focus)Good. We don't know how much cheese and beef he bought, just the amount he spent. We can use trial and error to work out how much of each he bought. Lets start off assuming he bought one pound of cheese. How much does that leave him to spemd?
+[LEARNER]: Okay, so if he bought one pound of cheese... and cheese costs... let me check the problem again... okay, $4 per pound.  So, one pound of cheese would cost $4.  And we know his total spending on cheese and beef was...?  (Checking the problem again...) $17!  Okay, so if he spent $4 on cheese, that leaves $17 - $4 = $13 to spend on beef.  Is that right? I'm just making sure I'm following along correctly.
+
+[TUTOR]:   (focus)OK, try 2 pounds of cheese.
+[LEARNER]: Okay, let's try 2 pounds of cheese. So, if cheese is $4 per pound, then 2 pounds would cost 2 * $4 = $8. And since he spent $17 total on cheese and beef, that would leave $17 - $8 = $9 for the beef. Okay, I got it! What do we do next? Do we see if that amount of beef is possible?
+
+[TUTOR]:   (telling)No, $68 does not equal $61. Try 3 pounds of cheese.
+[LEARNER]: Oops! You're right! I totally messed up the calculation there. I was probably thinking ahead. Okay, let's try this again, focusing on the steps.
+
+So, 3 pounds of cheese... Cheese is $4 a pound, so 3 * $4 = $12 spent on cheese. Total spent on cheese and beef is $17, so that leaves $17 - $12 = $5 for beef.
+
+Okay, I think I'm back on track. Sorry about that! So, now what? Do we check if $5 is a possible amount to spend on beef, based on the price per pound?
+
+[TUTOR]:   (generic)That's right.
+[LEARNER]: Okay, great! Beef is $5 per pound, right? So if he spent $5 on beef, he must have bought $5 / $5 = 1 pound of beef. Okay, so with 3 pounds of cheese and 1 pound of beef, we know the total spent on cheese and beef is $17. Is that what we need to show?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Tony has $120.0. He needs to buy some cheese, which costs $8.7 a pound and a pound of beef that costs $7.4 a pound. After buying the beef and his cheese, he has $84.9 left. How many pounds of cheese did he buy?
+[LEARNER]: Okay, I'll try this one on my own! Let's see...
+
+**1. Figure out how much Tony spent:**
+
+* He started with $120.0 and ended with $84.9.
+* So, he spent $120.0 - $84.9 = $35.1
+
+**2. Let's use "b" for the pounds of beef and "c" for the pounds of cheese.**
+
+**3. Write down the equations:**
+
+* We know the beef costs $7.4 per pound, and cheese costs $8.7 per pound.  And he spent $35.1 total.  So:  `7.4b + 8.7c = 35.1`
+
+**4. We know he only bought *one* pound of beef,**
+
+* So, b = 1.
+
+**5. Substitute "b" into the equation:**
+
+* `7.4(1) + 8.7c = 35.1`
+* `7.4 + 8.7c = 35.1`
+
+**6. Solve for "c" (the pounds of cheese):**
+
+* Subtract 7.4 from both sides: `8.7c = 35.1 - 7.4`
+* `8.7c = 27.7`
+* Divide both sides by 8.7: `c = 27.7 / 8.7`
+* `c = 3.18`
+
+**7. Approximate "c" to the nearest pound:**
+
+* Tony must have bought approximately 3 pounds of cheese.
+
+**Answer:**
+
+Tony bought approximately 3 pounds of cheese.
+
+How did I do? Did I get the right answer?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET F3AD91C1
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,56 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: CA0B0E03                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hello DeAndre, Can you explain to me how you got to your answer?
+[LEARNER]: I'd be happy to walk you through my thought process. I was trying to solve the problem 2x + 5 = 11, and I wanted to isolate the variable x. I started by subtracting 5 from both sides of the equation, which gave me 2x = 6. Then, I divided both sides by 2 to solve for x. That's how I got x = 3. Does that make sense to you?
+
+[TUTOR]:   (probing)Ok. You have worked out the weight of the dog and the number of people that can fit inside the canoe. Now lets think more specifically about the weight of the people in the canoe?
+[LEARNER]: I think I see where you're going with this. So, I calculated that the canoe can hold a maximum of 450 pounds, and the dog weighs about 50 pounds. That leaves 400 pounds for the people. But I didn't actually calculate the weight of each person... I just assumed an average weight. I think I used 150 pounds per person, but that might not be accurate. Should I have used a different weight, or is there a way to account for different weights of people?
+
+[TUTOR]:   (focus)Yes exactly that now. Can you see how you have now given me a different answer to your original one?
+[LEARNER]: I see what you're getting at now. Yeah, I think I made a mistake by assuming a fixed weight per person. If I use a different weight, like 180 pounds per person, that changes the number of people that can fit in the canoe. Let me recalculate... (pauses to do the math) Okay, if I use 180 pounds per person, that means the canoe can only hold... (pauses again)...about 2 people, not 3 like I originally said. Yeah, I can see how my assumption affected the answer.
+
+[TUTOR]:   (telling)Well done.
+[LEARNER]: (smiling) Thanks! I'm glad I was able to catch that mistake and recalculate the correct answer. It's always good to double-check my work and make sure my assumptions are accurate. I feel more confident in my answer now. Is there anything else I should be thinking about in this problem, or is that it?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Penny's canoe can carry 7.9 people, but if she wants to take her dog, she will only fit 2.8/4.3 of that number inside. If every person in a trip where Penny had her dog inside the canoe weighed 170.7 pounds, and the dog 1.2/5.3 as much weight, calculate the total weight the canoe was carrying?
+[LEARNER]: Let's break it down step by step.
+
+First, I need to find the number of people that can fit in the canoe with the dog. It says that with the dog, Penny can only fit 2.8/4.3 of the original number of people. So, I'll multiply the original number of people (7.9) by 2.8/4.3:
+
+7.9 x (2.8/4.3) = 7.9 x 0.651 = 5.15
+
+So, with the dog, the canoe can carry approximately 5.15 people.
+
+Next, I need to find the weight of the dog. It says that the dog weighs 1.2/5.3 as much as a person. Since each person weighs 170.7 pounds, I'll multiply that by 1.2/5.3:
+
+170.7 x (1.2/5.3) = 170.7 x 0.226 = 38.59
+
+So, the dog weighs approximately 38.59 pounds.
+
+Now, I need to find the total weight of the people and the dog. I'll multiply the number of people (5.15) by the weight of each person (170.7 pounds), and then add the weight of the dog:
+
+5.15 x 170.7 = 880.005
+880.005 + 38.59 = 918.595
+
+Rounding to two decimal places, the total weight the canoe was carrying is approximately 918.60 pounds.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET CA0B0E03
+──────────────────────────────────────────────────────────────────────

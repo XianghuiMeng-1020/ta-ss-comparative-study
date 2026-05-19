@@ -1,0 +1,120 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 2D627C29                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)It's good that ypou tried to do this using algebra butteh answer is not quite right
+[LEARNER]: It seems I made a mistake. Can you please provide more context or information about the problem I was trying to solve, and what the correct answer is? I'll do my best to understand where I went wrong and learn from it.
+
+[TUTOR]:   (probing)Lets go through it step by step Household expenses are $42, and she earns $80, how much does she have left after paying household expenses?
+[LEARNER]: To find out how much she has left after paying household expenses, we need to subtract the household expenses from her earnings.
+
+ Household expenses = $42
+ Earnings = $80
+
+ Subtracting household expenses from earnings:
+ $80 - $42 = $38
+
+So, she has $38 left after paying household expenses.
+
+[TUTOR]:   (probing)How much did Angie have left at the end of the month?
+[LEARNER]: I don't have any information about Angie's situation at the end of the month. We only discussed the calculation of household expenses and earnings. Could you please provide more context or information about Angie's situation, such as her income, expenses, and any other relevant details?
+
+[TUTOR]:   (probing)Don't go too far ahead! Lets take this step by step. So after household expenses Angie is left with $38, and at the end of the month she has $18. What is the difference between $38 and $18?
+[LEARNER]: Let's take it one step at a time.
+
+To find the difference between $38 and $18, we can subtract $18 from $38:
+
+$38 - $18 = $20
+
+So, the difference between $38 and $18 is $20.
+
+[TUTOR]:   (generic)That's right! Well done! I liked your idea of trying to do it with algebra though, that would be something like:
+[LEARNER]: I'm glad I was able to get the correct answer in the end.
+
+And yes, if we were to use algebra, it would be something like:
+
+Let x be the amount Angie had left after household expenses ($38) and y be the amount she had at the end of the month ($18). Then the difference between the two amounts would be:
+
+x - y =?
+
+Which would be:
+
+38 - y = 20
+
+Or, solving for the difference:
+
+x - y = 20
+
+I'm glad I could try the algebra approach, even if it didn't quite work out at first!
+
+[TUTOR]:   (probing)No $20 was right! Your formula shoudld have been: salary = HouseholdBills + MoneyLeftOver + taxes; this is $80 = $42 + $18 + Taxes; this is $80 = 60 + Taxes. So what are Taxes?
+[LEARNER]: I see now that the correct formula is:
+
+Salary = Household Bills + Money Left Over + Taxes
+
+Which, in this case, becomes:
+
+$80 = $42 + $18 + Taxes
+
+Combining the constants, we get:
+
+$80 = $60 + Taxes
+
+To find the value of Taxes, we can subtract $60 from both sides of the equation:
+
+Taxes = $80 - $60
+Taxes = $20
+
+So, the Taxes are $20.
+
+[TUTOR]:   (generic)That's right! So using algebra was a good approach but the numbers needed to be in the right places.
+[LEARNER]: Using algebra can be a powerful way to solve problems, but it's crucial to set up the equation correctly. In this case, I was on the right track, but I didn't have the numbers in the right places. Thankfully, we were able to work through it together and arrive at the correct solution. I'll keep practicing and learning to improve my algebra skills, and I appreciate your feedback and guidance!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Angie is part of a household with shared expenses and contributes $54.8 a month for necessities. She has a salary of $104.7 per month. She also pays a share of the household taxes each month. At the end of this month, she had $22.7 left over. How much did she pay in taxes this month?
+[LEARNER]: Let's break it down step by step.
+
+We know:
+
+* Angie's salary: $104.7
+* Household expenses (necessities): $54.8
+* Money left over at the end of the month: $22.7
+* We need to find the amount she paid in taxes.
+
+Let's use the same approach as before, setting up an equation based on the relationship between her salary, expenses, taxes, and money left over:
+
+Salary = Household Expenses + Taxes + Money Left Over
+
+We can plug in the numbers we know:
+
+$104.7 = $54.8 + Taxes + $22.7
+
+Combine the constants:
+
+$104.7 = $77.5 + Taxes
+
+Now, subtract $77.5 from both sides to isolate Taxes:
+
+Taxes = $104.7 - $77.5
+
+Taxes = $27.2
+
+So, Angie paid $27.2 in taxes this month.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 2D627C29
+──────────────────────────────────────────────────────────────────────

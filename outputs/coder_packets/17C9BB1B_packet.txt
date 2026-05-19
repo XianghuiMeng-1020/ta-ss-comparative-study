@@ -1,0 +1,96 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 17C9BB1B                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)Hi Claire, can you tell me what you were confused about in this question?
+[LEARNER]: Hi! Yes, I'm having trouble understanding what the question is actually asking me to do. 
+
+I see that we have a triangle with sides 5, 12, and 13, and I recognize that's a right triangle (since 5² + 12² = 25 + 144 = 169 = 13²). 
+
+But then the question mentions something about the "altitude to the hypotenuse" and asks me to find the length of that altitude. I'm not entirely sure what "altitude to the hypotenuse" means. Is that like... a height? And if so, where does it go? Does it start from one of the vertices?
+
+Also, I'm not sure how to approach finding this length. Should I be using the Pythagorean theorem again, or is there some other formula I should know about?
+
+[TUTOR]:   (probing)Why do you say 105 pounds?
+[LEARNER]: Oh! I'm sorry, I think there's been a mix-up. I didn't say anything about 105 pounds - I was talking about a triangle with sides 5, 12, and 13, and trying to find the altitude to the hypotenuse.
+
+Are you maybe looking at a different problem, or did you mean to ask me about something else? I'm working on a geometry problem about triangles, not anything involving weight or pounds.
+
+Could you clarify what you're asking about?
+
+[TUTOR]:   (focus)Let's read the question again. How should we find the minimum weight?
+[LEARNER]: Wait, I'm confused now. Looking back at what we've been discussing, I don't see any question about finding a minimum weight. 
+
+Could you show me the actual problem you want me to work on? I think I might have been talking about the wrong question entirely. 
+
+Is there a problem that involves finding a minimum weight? Maybe something about optimization or a word problem? I'd really appreciate if you could share the full question so I can understand what I'm supposed to be solving!
+
+[TUTOR]:   (focus)No, let's focus on the sentence "no less than 5 pounds heavier than the standard robot." How should we calculate the minimum weight?
+[LEARNER]: Oh! Now I see - there IS a problem about weight that I should be looking at! I apologize for the confusion.
+
+So if I'm understanding correctly, we need to figure out what "no less than 5 pounds heavier than the standard robot" means.
+
+Let me think about this... if a robot is "no less than 5 pounds heavier," that means it has to be AT LEAST 5 pounds heavier than the standard robot, right?
+
+So if the standard robot weighs some amount (let's call it S), then the minimum weight would be S + 5 pounds?
+
+But wait, I need to know what the standard robot weighs first. Is that information given in the problem? Could you help me find that part?
+
+[TUTOR]:   (focus)Yes, the minimum is 105 pountds. What should we do now, to determine the maximum weight?
+[LEARNER]: Okay, so the minimum weight is 105 pounds - got it!
+
+Now for the maximum weight... I need to look at what other constraint is given in the problem. 
+
+Is there another condition that limits how heavy the robot can be? Maybe something like "no more than" a certain amount, or "at most" some weight?
+
+Could you help me find what the problem says about the upper limit on the weight? I want to make sure I'm reading the constraint correctly so I can figure out the maximum weight properly.
+
+[TUTOR]:   (generic)Correct!
+[LEARNER]: Great! So I need to find the other constraint in the problem that will tell me the maximum weight.
+
+Let me look for phrases like "no more than," "at most," "less than," or "does not exceed" - those would give me the upper bound.
+
+Once I find that constraint, I can determine the maximum weight, and then I'll have the complete range of possible weights for the robot!
+
+Can you point me to where that maximum constraint is stated in the problem? Or should I be looking at a specific sentence?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+OpenAI runs a robotics competition that limits the weight of each robot. Each robot can be no more than twice the minimum weight and no less than 6.8 pounds heavier than the standard robot. The standard robot weighs 136.4 pounds. What is the maximum weight of a robot in the competition?
+[LEARNER]: Okay, let me work through this step by step!
+
+**Given information:**
+- Standard robot weighs 136.4 pounds
+- Each robot must be "no less than 6.8 pounds heavier than the standard robot"
+- Each robot can be "no more than twice the minimum weight"
+
+**Step 1: Find the minimum weight**
+
+"No less than 6.8 pounds heavier than the standard robot" means the robot must be AT LEAST 6.8 pounds heavier than 136.4 pounds.
+
+Minimum weight = 136.4 + 6.8 = 143.2 pounds
+
+**Step 2: Find the maximum weight**
+
+"No more than twice the minimum weight" means the robot can be AT MOST 2 times the minimum weight.
+
+Maximum weight = 2 × 143.2 = 286.4 pounds
+
+**Answer: The maximum weight of a robot in the competition is 286.4 pounds.**
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 17C9BB1B
+──────────────────────────────────────────────────────────────────────

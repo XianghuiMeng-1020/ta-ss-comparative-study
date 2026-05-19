@@ -1,0 +1,90 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 37718D30                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Mrs. Choi purchased a house for $80000. Five years later, she sold it for a 20% profit and got a 5% broker's commission from the original price. How much did the house sell for?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Could you explain your final step to me as you have done well until then
+[LEARNER]: I see where I might have gone wrong. In my final step, I subtracted the broker's commission from the selling price instead of adding it. But I'm not sure how to correctly account for the 5% commission. Could you explain how the broker's commission should affect the selling price?
+
+[TUTOR]:   (probing)Could you explain why you too, the commission away as this was something she received
+[LEARNER]: Oh, I see now! I misunderstood what the commission represented. I thought it was something being subtracted from the selling price, but since it’s money that Mrs. Choi received in addition to the selling price, I should add it instead. Let me revise my final step to correct this mistake. Thank you for pointing that out!
+
+[TUTOR]:   (telling)The selling price of the house is 96000 plus she received the profit so what should we do
+[LEARNER]: Got it! I was wrong to subtract the commission earlier. Instead, I should add the commission to the selling price. Let me try again:
+
+The selling price of the house is $96,000. The broker's commission is $4,000, so the total amount Mrs. Choi received is $96,000 + $4,000 = $100,000.
+
+I see now where I made the mistake earlier. Thank you!
+
+[TUTOR]:   (focus)96000 plus the 400 would be
+[LEARNER]: Oh, I see now! $96,000 plus $4,000 would be $100,000. So, the correct selling price of the house is $100,000. Thank you for helping me focus on this step!
+
+[TUTOR]:   (generic).?
+[LEARNER]: I see—let me clarify. The selling price of the house is $96,000, and then I need to add the $4,000 commission. So, $96,000 + $4,000 = $100,000. The house sold for $100,000 in total. Was that the correct way to approach it?
+
+[TUTOR]:   (focus)What is the 96000 plus the 4000
+[LEARNER]: Ah, I see now. $96,000 + $4,000 is $100,000. The total amount Mrs. Choi received for the house is $100,000. Thank you for helping me focus!
+
+[TUTOR]:   (telling)No we need to had the selling price plus 4000
+[LEARNER]: Oh, I understand now! I need to add the original selling price of $80,000 plus the profit of $16,000 and then add the $4,000 commission.  
+
+So:  
+$80,000 + $16,000 + $4,000 = **$100,000**.  
+
+Thank you for pointing that out! The house sold for $100,000.
+
+[TUTOR]:   (telling)you have to add 96,000 plus 4,000 to get the correct answer
+[LEARNER]: Oh, I see! I need to add $96,000 (the selling price) plus $4,000 (the broker’s commission).  
+
+So:  
+$96,000 + $4,000 = **$100,000**.  
+
+Thank you for clearing that up! The house sold for $100,000.
+
+[TUTOR]:   (telling)You do not deduct you add
+[LEARNER]: Got it! I now see that I made the mistake of deducting earlier when I should have added.  
+
+So:  
+The selling price of the house is $96,000. Adding the $4,000 broker's commission gives:  
+$96,000 + $4,000 = **$100,000**.  
+
+Thank you for helping me correct this! The house sold for $100,000.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Mrs. Choi purchased a house for $113125.1. Five years later, she sold it for a 27.4% profit and got a 7.2% broker's commission from the original price. How much did the house sell for?
+[LEARNER]: Okay, I’ll try this step by step on my own:
+
+1. **Calculate the profit Mrs. Choi made on the house:**
+   The profit is 27.4% of the original price.
+   \( 27.4\% \times 113125.1 = \frac{27.4}{100} \times 113125.1 = 30999.29 \)
+
+2. **Find the selling price before adding the broker’s commission:**
+   Selling price = Original price + Profit  
+   \( 113125.1 + 30999.29 = 144124.39 \)
+
+3. **Calculate the broker's commission:**
+   The broker's commission is 7.2% of the original price.
+   \( 7.2\% \times 113125.1 = \frac{7.2}{100} \times 113125.1 = 8145.01 \)
+
+4. **Add the broker’s commission to the selling price:**
+   Final selling price = Selling price + Broker's commission  
+   \( 144124.39 + 8145.01 = 152269.4 \)
+
+**Final Answer:** The house sold for **$152,269.40**.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 37718D30
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,128 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 99AB19DA                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hello! Can you walk me through your problem?
+[LEARNER]: Hello! Of course, I'd be happy to help. Could you please provide some details about the problem you're experiencing so I can assist you step by step?
+
+[TUTOR]:   (focus)I see where your error is. Let's start at the beginning. If there are 72 rooms over the 3 cylinders, how many rooms does each cylinder have?
+[LEARNER]: If there are 72 rooms divided evenly across 3 cylinders, we calculate the number of rooms per cylinder by dividing:
+
+\[
+72 \div 3 = 24
+\]
+
+So, each cylinder has **24 rooms**.
+
+[TUTOR]:   (focus)So if we know that there are 5 kitchens in each of the 3 cylinders, how many kitchens are there total?
+[LEARNER]: If there are 5 kitchens in each of the 3 cylinders, we calculate the total number of kitchens by multiplying:
+
+\[
+5 \times 3 = 15
+\]
+
+So, there are **15 kitchens total**.
+
+[TUTOR]:   (telling)Great job!
+[LEARNER]: Thank you! 😊 Let me know if there's anything else you'd like help with!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+The space station, Lupus-1.2, is an enormous spacecraft made up of three identical cylindrical structures that house the living quarters for the crew.   The three cylindrical structures are linked together by a series of tunnels that hold them together and allow the crew to move between cylinders.  Each cylindrical structure contains 16.2 bedrooms, 9.0 bathrooms, and several kitchens.  If the entire space station has 90.8 rooms, how many kitchens are there on the entire space station?
+[LEARNER]: Let's break this problem down step by step to find the number of kitchens on the entire space station:
+
+---
+
+### Step 1: Understand the total number of rooms per cylinder.
+Each cylindrical structure has:
+- **16.2 bedrooms**
+- **9.0 bathrooms**
+- **some number of kitchens (we'll solve for this)**
+
+The total number of rooms in one cylinder is the sum of bedrooms, bathrooms, and kitchens. Let’s call the number of kitchens in one cylinder **\( k \)**. Therefore, the total number of rooms in one cylinder is:
+
+\[
+16.2 + 9.0 + k
+\]
+
+---
+
+### Step 2: Understand the total number of rooms for all three cylinders.
+The space station has **3 identical cylinders**, and the total number of rooms across the entire space station is **90.8 rooms**. This means the total rooms in all three cylinders can also be expressed as:
+
+\[
+3 \times (16.2 + 9.0 + k) = 90.8
+\]
+
+---
+
+### Step 3: Simplify the equation.
+First, calculate the sum of the bedrooms and bathrooms in one cylinder:
+
+\[
+16.2 + 9.0 = 25.2
+\]
+
+Substitute this into the equation:
+
+\[
+3 \times (25.2 + k) = 90.8
+\]
+
+Now distribute the 3 across the parentheses:
+
+\[
+75.6 + 3k = 90.8
+\]
+
+---
+
+### Step 4: Solve for \( k \), the number of kitchens per cylinder.
+Subtract 75.6 from both sides:
+
+\[
+3k = 90.8 - 75.6
+\]
+
+\[
+3k = 15.2
+\]
+
+Divide both sides by 3:
+
+\[
+k = \frac{15.2}{3} = 5.07
+\]
+
+So, there are approximately **5.07 kitchens per cylinder**.
+
+---
+
+### Step 5: Find the total number of kitchens in the space station.
+Since there are **3 cylinders**, the total number of kitchens is:
+
+\[
+3 \times 5.07 = 15.21
+\]
+
+---
+
+### Final Answer:
+There are approximately **15.2 kitchens** on the entire space station.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 99AB19DA
+──────────────────────────────────────────────────────────────────────

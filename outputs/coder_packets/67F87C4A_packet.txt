@@ -1,0 +1,49 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 67F87C4A                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+In a parking lot, there are cars and motorcycles.  Each car has 5 wheels (including one spare) and each motorcycle has 2 wheels. There are 19 cars in the parking lot. Altogether all vehicles have 117 wheels. How many motorcycles are at the parking lot?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Winnie, can you talk me through your solution?
+[LEARNER]: Okay, so first I calculated the total number of wheels the cars have: 19 cars x 5 wheels/car = 95 wheels. Then, I subtracted the number of spare tires to account for only the wheels in use: 95 - 19 = 76 wheels. Next, I subtracted the car wheels in use from the total number of wheels to find the number of motorcycle wheels: 117 - 76 = 41 wheels. Finally, I divided the number of motorcycle wheels by the number of wheels per motorcycle to find the number of motorcycles: 41/2 = 20.5. Since you can't have half a motorcycle, I rounded down to 20 motorcycles.
+
+[TUTOR]:   (focus)Can you tell me why you subtracted the spare wheels? did you need to do this?
+[LEARNER]: I thought I needed to subtract the spare wheels because the problem asks how many motorcycles are at the parking lot, and the spare wheels aren't actually being used on the cars. Was that the wrong thing to do?
+
+[TUTOR]:   (focus)Not quite, you have misunderstood the question. You correctly calculated 19 x 5 = 95. how would you then find out the motorcycles?
+[LEARNER]: Okay, I think I see what you mean. The problem says each *car* has 5 wheels *including* the spare. So, the 95 wheels accounts for all the car wheels, used and spare. To find the number of motorcycle wheels, I should subtract the total number of car wheels (95) from the total number of wheels (117). Is that right?
+
+[TUTOR]:   (focus)Brilliant, well done.
+[LEARNER]: So, the motorcycles have 117 - 95 = 22 wheels. Now I need to find the number of motorcycles. Each motorcycle has 2 wheels, so there are 22/2 = 11 motorcycles.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+In a parking lot, there are cars and motorcycles.  Each car has 6.4 wheels (including one spare) and each motorcycle has 2.9 wheels. There are 22.9 cars in the parking lot. Altogether all vehicles have 146.6 wheels. How many motorcycles are at the parking lot?
+[LEARNER]: Okay, here's my attempt:
+
+1.  **Find the total number of car wheels:** 22.9 cars * 6.4 wheels/car = 146.56 wheels
+2.  **Find the number of motorcycle wheels:** 146.6 total wheels - 146.56 car wheels = 0.04 wheels
+3.  **Find the number of motorcycles:** 0.04 wheels / 2.9 wheels/motorcycle = 0.01379 motorcycles
+
+Since you can't have a fraction of a motorcycle, I must have made a mistake. I'll recheck my calculations.
+
+1.  **Total car wheels:** 22.9 * 6.4 = 146.56 (Correct)
+2.  **Motorcycle wheels:** 146.6 - 146.56 = 0.04 (Correct)
+3.  **Number of motorcycles:** 0.04 / 2.9 = 0.01379 (Correct)
+
+Hmm, I am not sure, but I will round to the nearest whole number. So there are 0 motorcycles.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 67F87C4A
+──────────────────────────────────────────────────────────────────────

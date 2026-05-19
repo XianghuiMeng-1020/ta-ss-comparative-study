@@ -1,0 +1,76 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: C0A2B724                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jeff has a shelter where he currently takes care of 20 cats. On Monday he found 2 kittens in a box and took them to the shelter. On Tuesday he found 1 more cat with a leg injury. On Wednesday 3 people adopted 2 cats each. How many cats does Jeff currently have in his shelter?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Seth.  Walk me through your solution please?
+[LEARNER]: Hi! Here's what I did:
+
+Jeff started with 20 cats.
+
+On Monday, he found 2 kittens, so I added them: 20 + 2 = 22 cats.
+
+On Tuesday, he found 1 injured cat, so I added it: 22 + 1 = 23 cats.
+
+On Wednesday, 3 people adopted 2 cats each. I calculated this as 3 × 2 × 2 = 12 cats adopted.
+
+Then I subtracted: 23 - 12 = 11 cats remaining.
+
+[TUTOR]:   (generic)Can you explain each number in Wednesday please?  What do they represent?
+[LEARNER]: For Wednesday, I was trying to figure out how many cats were adopted total.
+
+The first 3 represents the 3 people who adopted cats.
+
+The first 2 represents that each person adopted 2 cats.
+
+The second 2... I'm not sure what that represents actually. I think I multiplied by 2 twice somehow, but I don't know why I did that.
+
+[TUTOR]:   (focus)So 3 people adopted 12 cats on Wednesday.  How many cats each would they have?
+[LEARNER]: Oh, wait. If 3 people adopted 12 cats total, then each person would have adopted 12 ÷ 3 = 4 cats each.
+
+But the problem says each person adopted 2 cats, not 4 cats. So I must have calculated the total number of adopted cats wrong.
+
+[TUTOR]:   (generic)Great.  So if 6 cats were adopted.  How many were left at the shelter?
+[LEARNER]: I see — I was wrong about the number of cats adopted. Let me try again.
+
+Jeff had 23 cats before Wednesday.
+
+If 6 cats were adopted on Wednesday, then he has 23 - 6 = 17 cats left in the shelter.
+
+So the answer should be 17 cats, not 11.
+
+[TUTOR]:   (generic)Great work.  Well done!
+[LEARNER]: Thank you!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jeff has a shelter where he currently takes care of 29.1 cats. On Monday he found 2.9 kittens in a box and took them to the shelter. On Tuesday he found 1.3 more cat with a leg injury. On Wednesday 4.3 people adopted 2.8 cats each. How many cats does Jeff currently have in his shelter?
+[LEARNER]: Okay, let me work through this step by step:
+
+Jeff started with 29.1 cats.
+
+On Monday, he found 2.9 kittens, so: 29.1 + 2.9 = 32 cats.
+
+On Tuesday, he found 1.3 more cats, so: 32 + 1.3 = 33.3 cats.
+
+On Wednesday, 4.3 people adopted 2.8 cats each. The total number of cats adopted is: 4.3 × 2.8 = 12.04 cats.
+
+So the number of cats remaining is: 33.3 - 12.04 = 21.26 cats.
+
+Therefore, Jeff currently has 21.26 cats in his shelter.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET C0A2B724
+──────────────────────────────────────────────────────────────────────

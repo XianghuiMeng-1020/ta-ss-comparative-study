@@ -1,0 +1,78 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: FA7C9D61                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)You've coorrectly calculated that the 4 dresses would need 66ft of fabric. However you've also notice that Amare already has some fabric. How much fabric does Amare have?
+[LEARNER]: You're right! Let me look at what fabric Amare already has.
+
+According to the problem, Amare already has 7 feet of fabric.
+
+So if she needs 66 feet total for the 4 dresses, and she already has 7 feet, then she still needs to buy:
+
+66 - 7 = 59 feet of fabric
+
+Is that correct?
+
+[TUTOR]:   (focus)What are the units for this?
+[LEARNER]: The units are **feet** (or ft).
+
+So Amare needs to buy **59 feet** of fabric.
+
+[TUTOR]:   (focus)What are the units for the total amount of fabric that Amare needs?
+[LEARNER]: The units for the total amount of fabric that Amare needs are **feet** (or ft).
+
+The total amount needed is **66 feet** of fabric to make all 4 dresses.
+
+[TUTOR]:   (focus)So, since they are using the same units, what calculation should be done to determine how much fabric is actually needed (sicne Amare already ahs 7 feet)?
+[LEARNER]: Since both measurements are in the same units (feet), I should **subtract** the fabric Amare already has from the total amount needed:
+
+66 feet (total needed) - 7 feet (already has) = 59 feet (still needs to buy)
+
+So Amare needs to buy **59 feet** of fabric.
+
+[TUTOR]:   (generic)That's the correct answer! Did you spot the error in your original answer?
+[LEARNER]: Yes! In my original answer, I mistakenly **added** the 7 feet of fabric Amare already had to the total needed (66 + 7 = 73 feet), when I should have **subtracted** it instead (66 - 7 = 59 feet).
+
+The logic error was that if she already has some fabric, she needs *less* additional fabric to buy, not more. So subtraction was the correct operation, not addition.
+
+Thank you for helping me catch that mistake!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+One dress requires 7.3 yards of fabric. Amare needs to make 5.2 dresses for the wedding and she has 9.4 feet of fabric. How many feet of fabric does Amare still need for the dresses?
+[LEARNER]: Let me work through this step by step.
+
+**Step 1: Calculate the total fabric needed**
+- One dress requires 7.3 yards of fabric
+- Amare needs to make 5.2 dresses
+- Total fabric needed = 7.3 × 5.2 = 37.96 yards
+
+**Step 2: Convert yards to feet**
+Wait, I notice the problem asks for the answer in feet, and Amare has 9.4 feet of fabric. But the dress requirements are in yards. I need to convert!
+
+- 1 yard = 3 feet
+- Total fabric needed = 37.96 yards × 3 = 113.88 feet
+
+**Step 3: Calculate how much more fabric is needed**
+- Total needed: 113.88 feet
+- Already has: 9.4 feet
+- Still needs: 113.88 - 9.4 = 104.48 feet
+
+**Answer: Amare still needs 104.48 feet of fabric.**
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET FA7C9D61
+──────────────────────────────────────────────────────────────────────

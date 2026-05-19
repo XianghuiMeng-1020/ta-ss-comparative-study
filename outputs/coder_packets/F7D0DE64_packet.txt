@@ -1,0 +1,73 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: F7D0DE64                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+It takes Polly 20 minutes to cook breakfast every day. She spends 5 minutes cooking lunch. She spends 10 minutes cooking dinner 4 days this week. The rest of the days she spends 30 minutes cooking dinner. How many minutes does Polly spend cooking this week?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)How long does polly spend cooking
+[LEARNER]: You've made a good start by identifying the different cooking times. However, you've only calculated the cooking time for the first four days of the week. Remember, Polly cooks breakfast and lunch *every* day, but the time she spends on dinner changes.
+
+Can you explain how you calculated the 65 minutes for the first four days? I want to see if we can pinpoint where the mistake happened.
+
+[TUTOR]:   (probing)How long at breakfast
+[LEARNER]: Okay, let's break it down further. How many minutes does Polly spend on breakfast each day? And how many days are in a week?
+
+[TUTOR]:   (probing)So that is what each week
+[LEARNER]: Yes, a week has seven days. Now, think about how breakfast fits into the calculation. How would you incorporate the daily breakfast time into finding the total cooking time for the week?
+
+[TUTOR]:   (probing)How long cooking breakfast this week
+[LEARNER]: You're on the right track! Since Polly spends 20 minutes on breakfast each day, and there are 7 days in a week, how many total minutes does she spend on breakfast for the entire week? Show your work.
+
+[TUTOR]:   (probing)How long cooking dinner this week
+[LEARNER]: We'll get to dinner, but first, let's focus on breakfast and lunch for the whole week. You've already figured out breakfast. Now, how would you calculate the total time she spends on lunch for the entire week, given that she spends 5 minutes on lunch each day?
+
+[TUTOR]:   (probing)Use bodmas on that dinner sum
+[LEARNER]: BODMAS (or PEMDAS) is definitely important here! But before we apply it, let's take things one step at a time.
+
+First, let's calculate the total time Polly spends on lunch for the whole week. You know she spends 5 minutes each day. How would you calculate the total lunch time for the week? Show your work.
+
+[TUTOR]:   (telling)(10x4) + (30x3) = 130
+[LEARNER]: That's correct for the total time spent on dinner! You correctly multiplied the dinner times by the number of days for each duration and added them together.
+
+Now, let's take a step back. What did we figure out about breakfast and lunch? And how can we combine all of these pieces of information to find the total cooking time for the week?
+
+[TUTOR]:   (telling)Wrong
+[LEARNER]: I apologize. You are absolutely correct that your original answer was wrong. I was trying to encourage you, but I should have been more clear.
+
+Your calculation of the total time spent on dinner (130 minutes) is correct. However, your original calculation of 65 minutes for the first four days was incorrect because it didn't account for breakfast and lunch every day.
+
+So, let's go back to the beginning. What is the total time Polly spends on breakfast *this week*? What is the total time Polly spends on lunch *this week*? You've already figured out the total time for dinner. Then, how do we combine those three values to get the final answer?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+It takes Polly 24.1 minutes to cook breakfast every day. She spends 6.7 minutes cooking lunch. She spends 14.2 minutes cooking dinner 5.6 days this week. The rest of the days she spends 42.9 minutes cooking dinner. How many minutes does Polly spend cooking this week?
+[LEARNER]: Okay, here's my attempt to solve the problem:
+
+1.  **Breakfast:** Polly spends 24.1 minutes on breakfast each day, so for the whole week she spends 24.1 minutes/day * 7 days = 168.7 minutes.
+
+2.  **Lunch:** Polly spends 6.7 minutes on lunch each day, so for the whole week she spends 6.7 minutes/day * 7 days = 46.9 minutes.
+
+3.  **Dinner (Part 1):** Polly spends 14.2 minutes cooking dinner for 5.6 days, which is a total of 14.2 minutes/day * 5.6 days = 79.52 minutes.
+
+4.  **Dinner (Part 2):** The rest of the week is 7 days - 5.6 days = 1.4 days. On those days, she spends 42.9 minutes cooking dinner, which is a total of 42.9 minutes/day * 1.4 days = 60.06 minutes.
+
+5.  **Total Dinner:** The total time spent on dinner is 79.52 minutes + 60.06 minutes = 139.58 minutes.
+
+6.  **Total Cooking Time:** The total time Polly spends cooking this week is 168.7 minutes (breakfast) + 46.9 minutes (lunch) + 139.58 minutes (dinner) = 355.18 minutes.
+
+So, Polly spends 355.18 minutes cooking this week.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET F7D0DE64
+──────────────────────────────────────────────────────────────────────

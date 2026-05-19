@@ -1,0 +1,102 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 37BB8896                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)do you think maybe you should check your weekend figures as these were different to the weekday ones
+[LEARNER]: Oh! You're absolutely right! Let me check those weekend figures again.
+
+Looking at the problem more carefully:
+
+**Weekdays:** 50 cars per hour for 8 hours
+- 50 × 8 = 400 cars per day
+- 5 weekdays: 400 × 5 = 2,000 cars
+
+**Weekends:** Wait, let me reread this... "On the weekends, it recorded 5 cars more per hour than on weekdays"
+
+So that means:
+- Weekend rate = 50 + 5 = **55 cars per hour** (not 50!)
+- 55 × 8 = 440 cars per day
+- 2 weekend days: 440 × 2 = 880 cars
+
+**Total for the week:**
+2,000 + 880 = **2,880 cars**
+
+Thank you for catching that! I completely missed that the weekend had a different hourly rate. I was using 50 cars per hour for both weekdays AND weekends, when I should have been using 55 cars per hour for the weekends.
+
+[TUTOR]:   (probing)what total would your weekend figure be
+[LEARNER]: My weekend figure would be:
+
+**Weekend total:** 880 cars
+
+That's calculated as:
+- 55 cars per hour × 8 hours = 440 cars per day
+- 440 cars per day × 2 days = **880 cars**
+
+[TUTOR]:   (probing)correct so if you now add this to the weekly figure of 3000 what would the weekly total be
+[LEARNER]: Oh wait, I need to recalculate the weekday figure!
+
+Let me check: If the weekend total is 880 cars, and you're saying the weekly (weekday) figure is 3000...
+
+**Weekly total would be:**
+3,000 + 880 = **3,880 cars**
+
+But hold on - I calculated weekdays as 2,000 cars earlier (50 cars/hour × 8 hours × 5 days). Are you saying it should be 3,000? Let me recheck the weekday calculation to make sure I have that right too!
+
+[TUTOR]:   (focus)so if we then times this figure by 4 the total for the month would be how much
+[LEARNER]: If we take the weekly total of 3,880 cars and multiply by 4 weeks:
+
+3,880 × 4 = **15,520 cars**
+
+So the total for the month would be **15,520 cars**.
+
+[TUTOR]:   (generic)correct well done
+[LEARNER]: Thank you so much! I really appreciate your patience in walking me through this step-by-step. 
+
+The key mistake I made at the beginning was not carefully reading that the weekend rate was different (55 cars/hour instead of 50 cars/hour). Your probing questions helped me catch that error and work through the problem correctly.
+
+So the final answer is **15,520 cars** recorded in the month!
+
+I've learned that I need to read word problems more carefully and pay attention to all the different rates and conditions given. Thanks again for your help!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+An Italian restaurant earns $819.9 every weekday and twice as much on the weekend. How much money does it earn by the end of the month?
+[LEARNER]: Let me work through this step-by-step:
+
+**Step 1: Identify the weekday earnings**
+- Weekday earnings = $819.9 per day
+
+**Step 2: Calculate weekend earnings**
+- Weekend earnings = twice the weekday amount
+- Weekend earnings = $819.9 × 2 = $1,639.8 per day
+
+**Step 3: Calculate total weekday earnings for one week**
+- 5 weekdays × $819.9 = $4,099.5
+
+**Step 4: Calculate total weekend earnings for one week**
+- 2 weekend days × $1,639.8 = $3,279.6
+
+**Step 5: Calculate total earnings for one week**
+- $4,099.5 + $3,279.6 = $7,379.1
+
+**Step 6: Calculate total earnings for the month (4 weeks)**
+- $7,379.1 × 4 = **$29,516.4**
+
+The restaurant earns **$29,516.40** by the end of the month.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 37BB8896
+──────────────────────────────────────────────────────────────────────

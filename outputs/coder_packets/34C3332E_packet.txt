@@ -1,0 +1,48 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 34C3332E                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jackson wants to improve his endurance running. His goal is to start by running 3 miles a day the first week, then spend the next four weeks running one additional mile/day each week. How many miles is Jackson running each day at the end of this exercise program?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Ronnie.  How many weeks is Jackson's training program?
+[LEARNER]: Jackson's training program is 5 weeks. He runs for 3 miles a day for the first week, and then he increases his running by 1 mile a day for each of the next 4 weeks.
+
+[TUTOR]:   (focus)Good, You said at the end of the 4th week, Jackson was running 6 miles a day?  Correct?
+[LEARNER]: Yeah... I think so. I did the math: 3 miles at the start, then 4, then 5, then 6. So, at the end of the 4th week, Jackson is running 6 miles a day.
+
+[TUTOR]:   (probing)Every week, you increase the distance by how far?
+[LEARNER]: Jackson increases his running distance by 1 mile each week. So, he starts with 3 miles, then 4 miles, then 5 miles, then 6 miles... (pausing, thinking) Wait, I did that for 4 weeks, but I think I'm supposed to do it for one more week, right?
+
+[TUTOR]:   (telling)So in your calculation at the start of the 5th week did you increase the distance by 1 mile?
+[LEARNER]: No... I didn't. I stopped at 6 miles. I should have added 1 more mile for the 5th week. So, at the end of the 5th week, Jackson would be running... (pausing, recalculating)...6 + 1 = 7 miles a day.
+
+[TUTOR]:   (telling)Correct, that is the solution.
+[LEARNER]: I'm glad I was able to figure it out. I made a mistake by stopping at the 4th week, but adding that extra mile for the 5th week made it work. So, Jackson is running 7 miles a day at the end of the program.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jackson wants to improve his endurance running. His goal is to start by running 3.9 miles a day the first week, then spend the next four weeks running one additional mile/day each week. How many miles is Jackson running each day at the end of this exercise program?
+[LEARNER]: Let's break it down step by step:
+
+Week 1: Jackson runs 3.9 miles a day.
+Week 2: He increases his running by 1 mile, so he runs 3.9 + 1 = 4.9 miles a day.
+Week 3: He increases his running by 1 mile again, so he runs 4.9 + 1 = 5.9 miles a day.
+Week 4: He increases his running by 1 mile again, so he runs 5.9 + 1 = 6.9 miles a day.
+Week 5: He increases his running by 1 mile again, so he runs... (thinking) I should add 1 more mile... 6.9 + 1 = 7.9 miles a day.
+
+So, at the end of the program, Jackson is running 7.9 miles a day.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 34C3332E
+──────────────────────────────────────────────────────────────────────

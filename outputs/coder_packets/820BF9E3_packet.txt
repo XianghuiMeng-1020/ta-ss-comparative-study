@@ -1,0 +1,52 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 820BF9E3                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Penny's canoe can carry 6 people, but if she wants to take her dog, she will only fit 2/3 of that number inside. If every person in a trip where Penny had her dog inside the canoe weighed 140 pounds, and the dog 1/4 as much weight, calculate the total weight the canoe was carrying?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hello DeAndre, Can you explain to me how you got to your answer?
+[LEARNER]: Penny can fit 6 x 2/3 = 4 people in the canoe if she has her dog.
+The weight of the dog is 1/4 x 140 = 35 pounds.
+If Penny takes her dog, the canoe will be carrying 4 + 1 = 5 beings.
+The total weight of the beings in the canoe is 5 x 140 = 700 pounds.
+The canoe was carrying 700 + 35 = 735 pounds in total.
+ 735
+
+[TUTOR]:   (probing)Ok. You have worked out the weight of the dog and the number of people that can fit inside the canoe. Now lets think more specifically about the weight of the people in the canoe?
+[LEARNER]: What do you mean? I thought I already figured that out when I did 5 x 140 = 700 pounds.
+
+[TUTOR]:   (focus)Yes exactly that now. Can you see how you have now given me a different answer to your original one?
+[LEARNER]: I don't see. In both cases, I said the canoe was carrying 735 pounds in total at the end.
+
+[TUTOR]:   (telling)Well done.
+[LEARNER]: But you said I made a mistake. Where is the mistake?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Penny's canoe can carry 7.9 people, but if she wants to take her dog, she will only fit 2.5/3.7 of that number inside. If every person in a trip where Penny had her dog inside the canoe weighed 191.2 pounds, and the dog 1.4/5.5 as much weight, calculate the total weight the canoe was carrying?
+[LEARNER]: Okay, I'll try it!
+
+First, I need to find out how many people fit in the canoe with the dog. That's 7.9 x 2.5/3.7. I'll do the division first: 2.5 / 3.7 = 0.6756 (approximately). Then, 7.9 x 0.6756 = 5.337 (approximately). So about 5.337 people fit in the canoe with the dog.
+
+Next, I need to find the weight of the dog. That's 1.4/5.5 x 191.2. First, 1.4 / 5.5 = 0.2545 (approximately). Then, 0.2545 x 191.2 = 48.66 (approximately). So the dog weighs about 48.66 pounds.
+
+Now, I need to find the total weight of the people. That's 5.337 x 191.2 = 1020.4 (approximately).
+
+Finally, I add the weight of the people and the dog: 1020.4 + 48.66 = 1069.06.
+
+So the total weight the canoe was carrying is about 1069.06 pounds.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 820BF9E3
+──────────────────────────────────────────────────────────────────────

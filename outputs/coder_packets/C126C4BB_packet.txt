@@ -1,0 +1,49 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: C126C4BB                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+OpenAI runs a robotics competition that limits the weight of each robot. Each robot can be no more than twice the minimum weight and no less than 5 pounds heavier than the standard robot. The standard robot weighs 100 pounds. What is the maximum weight of a robot in the competition?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)Hi Claire, can you tell me what you were confused about in this question?
+[LEARNER]: Hi, I was confused about how to find the minimum weight of the robot. I multiplied the standard weight by 2, but I'm not sure that's right.
+
+[TUTOR]:   (probing)Why do you say 105 pounds?
+[LEARNER]: I got 105 pounds because the problem says the robot can be no less than 5 pounds heavier than the standard robot, which weighs 100 pounds. So I added 5 to 100. But now I think that's the *minimum* weight, not the maximum.
+
+[TUTOR]:   (focus)Let's read the question again. How should we find the minimum weight?
+[LEARNER]: Okay, the problem says the robot can be "no less than 5 pounds heavier than the standard robot." The standard robot is 100 pounds. So, the minimum weight is 100 + 5 = 105 pounds. Is that right?
+
+[TUTOR]:   (focus)No, let's focus on the sentence "no less than 5 pounds heavier than the standard robot." How should we calculate the minimum weight?
+[LEARNER]: Okay, so "no less than 5 pounds heavier" means it has to be at least 5 pounds heavier. So, if the standard robot is 100 pounds, the minimum weight would be 100 + 5 = 105 pounds. Is that what you mean?
+
+[TUTOR]:   (focus)Yes, the minimum is 105 pountds. What should we do now, to determine the maximum weight?
+[LEARNER]: Now that I know the minimum weight is 105 pounds, I need to use the other piece of information: "each robot can be no more than twice the minimum weight." So, I should multiply the minimum weight (105 pounds) by 2 to find the maximum weight. Is that right?
+
+[TUTOR]:   (generic)Correct!
+[LEARNER]: Okay, so the maximum weight is 105 * 2 = 210 pounds. That means the robot can weigh anywhere between 105 pounds and 210 pounds. So the maximum weight is 210 pounds.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+OpenAI runs a robotics competition that limits the weight of each robot. Each robot can be no more than twice the minimum weight and no less than 6.8 pounds heavier than the standard robot. The standard robot weighs 131.0 pounds. What is the maximum weight of a robot in the competition?
+[LEARNER]: Okay, here's how I'll solve it:
+
+1.  Find the minimum weight: The robot must be "no less than 6.8 pounds heavier than the standard robot." The standard robot weighs 131.0 pounds. So, the minimum weight is 131.0 + 6.8 = 137.8 pounds.
+
+2.  Find the maximum weight: The robot can be "no more than twice the minimum weight." So, I multiply the minimum weight by 2: 137.8 * 2 = 275.6 pounds.
+
+3.  Answer: The maximum weight of a robot in the competition is 275.6 pounds.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET C126C4BB
+──────────────────────────────────────────────────────────────────────

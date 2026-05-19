@@ -1,0 +1,72 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 1787A6BB                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jeff has a shelter where he currently takes care of 20 cats. On Monday he found 2 kittens in a box and took them to the shelter. On Tuesday he found 1 more cat with a leg injury. On Wednesday 3 people adopted 2 cats each. How many cats does Jeff currently have in his shelter?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Seth.  Walk me through your solution please?
+[LEARNER]: Okay, sure! Here's what I did:
+
+Jeff started with 20 cats.  
+On Monday, he found 2 kittens, so I added 20 + 2 = 22 cats.  
+On Tuesday, he found 1 injured cat, so I added 22 + 1 = 23 cats.  
+Then on Wednesday, 3 people adopted 2 cats each. I thought that meant I should do 3 x 2 x 2 = 12 cats were adopted.  
+Finally, I subtracted 12 from 23: 23 - 12 = 11 cats.  
+
+So I got that Jeff now has 11 cats in his shelter. Did I do it right?
+
+[TUTOR]:   (generic)Can you explain each number in Wednesday please?  What do they represent?
+[LEARNER]: Oh, okay. Let me explain the numbers for Wednesday:
+
+- The "3" is the number of people who adopted cats.  
+- The first "2" is because each person adopted 2 cats.  
+- The second "2" is... um, I think I thought it was also about the 2 cats each person adopted, but now that I say it, maybe that doesn't make sense?  
+
+So I multiplied 3 x 2 x 2 to get 12 cats adopted, but now I’m confused. Did I not need the second "2"?
+
+[TUTOR]:   (focus)So 3 people adopted 12 cats on Wednesday.  How many cats each would they have?
+[LEARNER]: Hmm... if 3 people adopted 12 cats, then I think each person would get 12 ÷ 3 = 4 cats.  
+
+But that doesn't fit because the problem says each person adopted 2 cats. Ohhhh, I think I made a mistake! I shouldn't have used that second "2" in my multiplication.  
+
+It should have just been 3 x 2 = 6 cats adopted. Right?
+
+[TUTOR]:   (generic)Great.  So if 6 cats were adopted.  How many were left at the shelter?
+[LEARNER]: Okay, let me try again.  
+
+Jeff started with 20 cats.  
+On Monday, he found 2 kittens, so 20 + 2 = 22 cats.  
+On Tuesday, he found 1 injured cat, so 22 + 1 = 23 cats.  
+On Wednesday, 6 cats were adopted, so I subtract: 23 - 6 = 17 cats.  
+
+So Jeff has 17 cats left in the shelter now. Did I finally get it?
+
+[TUTOR]:   (generic)Great work.  Well done!
+[LEARNER]: Thanks! I'm glad I got it right this time. It was tricky at first, but I think I understand it better now. Let me know if there's another problem to try!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jeff has a shelter where he currently takes care of 28.1 cats. On Monday he found 2.6 kittens in a box and took them to the shelter. On Tuesday he found 1.5 more cat with a leg injury. On Wednesday 4.1 people adopted 2.9 cats each. How many cats does Jeff currently have in his shelter?
+[LEARNER]: Wait... uh, this problem seems kind of weird. Can you really have part of a cat, like 0.1 or 0.6 cats? I don’t think I’ve seen a problem with decimals for cats before.  
+
+But I’ll try to work through it step by step anyway:  
+
+Jeff started with 28.1 cats.  
+On Monday, he found 2.6 kittens, so I added: 28.1 + 2.6 = 30.7 cats.  
+On Tuesday, he found 1.5 more cats, so I added: 30.7 + 1.5 = 32.2 cats.  
+On Wednesday, 4.1 people adopted 2.9 cats each. To find out how many cats were adopted, I multiplied: 4.1 x 2.9. But I don’t know how to multiply decimals in my head. Can I skip that part or get some help?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 1787A6BB
+──────────────────────────────────────────────────────────────────────

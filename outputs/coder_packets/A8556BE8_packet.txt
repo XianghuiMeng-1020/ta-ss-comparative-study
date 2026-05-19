@@ -1,0 +1,80 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: A8556BE8                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+It took Alice three months to save up to buy new shoes. If she saved 10 dollars the first month and 30 more each month, how much did she have saved by the end of the third month?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)please talk me through your solution Riya
+[LEARNER]: Okay, so Alice saved 10 dollars the first month.
+
+Then it says she saved 30 more each month. So in the second month, she saved 10 + 30 = 40 dollars.
+
+For the third month, she saved 30 more than the second month, so that's 40 + 30 = 70 dollars.
+
+To find the total, I added up what she saved each month: 10 + 40 + 70 = 120 dollars.
+
+So, Alice saved 120 dollars in all.
+
+[TUTOR]:   (probing)so how much did Alice have saved after 2 months?
+[LEARNER]: After the first month, she had 10 dollars. The problem says she saved 30 more each month.
+
+So, after the second month, she had 10 + 30 = 40 dollars.
+
+So, after 2 months, Alice had 40 dollars.
+
+[TUTOR]:   (probing)and how much did she have saved after three months?
+[LEARNER]: Okay, so at the end of the second month, she had 40 dollars.
+
+Then she saved 30 more in the third month, so she had 40 + 30 = 70 dollars in the third month.
+
+So, after three months, she had 70 dollars.
+
+[TUTOR]:   (focus)how many more dollars did she have saved after three months compared to after two months?
+[LEARNER]: Well, at the end of two months, she had 40 dollars. At the end of three months, she had 70 dollars.
+
+So, to find the difference, I subtract: 70 - 40 = 30 dollars.
+
+She had 30 more dollars saved after three months compared to after two months.
+
+[TUTOR]:   (focus)check the question again and see if you can tell me how many more dollars Alice had at 3 months compared to two months
+[LEARNER]: Okay, the question says she saved 10 dollars the first month and 30 *more* each month.
+
+After two months, I said she had 40 dollars. After three months, I said she had 70 dollars. The problem says she saved 30 more each month, so to get the total at the end of three months, it would be the amount she had after two months plus 30 dollars.
+
+So she has 30 more dollars at three months compared to two months. I think I already said that.
+
+[TUTOR]:   (telling)if she had 40 dollars saved after the second month, and she saved 30 more, how many would she have?
+[LEARNER]: If she had 40 dollars saved after the second month, and she saved 30 more, then she would have 40 + 30 = 70 dollars.
+
+[TUTOR]:   (generic)correct, well done
+[LEARNER]: Yay!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+It took Alice three months to save up to buy new shoes. If she saved 13.2 dollars the first month and 44.1 more each month, how much did she have saved by the end of the third month?
+[LEARNER]: Okay, this is like the last problem!
+
+First month: Alice saved 13.2 dollars.
+
+Second month: She saved 44.1 more, so she saved 13.2 + 44.1 = 57.3 dollars.
+
+Third month: She saved 44.1 more than the second month, so she saved 57.3 + 44.1 = 101.4 dollars.
+
+Total: 13.2 + 57.3 + 101.4 = 171.9 dollars
+
+So Alice saved 171.9 dollars in all.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET A8556BE8
+──────────────────────────────────────────────────────────────────────

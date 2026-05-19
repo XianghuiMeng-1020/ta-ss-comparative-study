@@ -119,7 +119,15 @@ def sample_for_coding(
     With 4 conditions × 4 models × 3-4 dialogues = ~60 (calibration set).
     """
     base = Path("outputs") / phase
-    all_files = sorted(base.rglob("*.json"))
+    # Prefer model-specific subdirectories; skip legacy flat C1–C4 dirs that contain mock data.
+    model_dirs = [d for d in base.iterdir() if d.is_dir() and not d.name.startswith("C")]
+    if model_dirs:
+        candidate_files = []
+        for md in sorted(model_dirs):
+            candidate_files.extend(sorted(md.rglob("*.json")))
+    else:
+        candidate_files = sorted(base.rglob("*.json"))
+    all_files = candidate_files
     valid = []
     for jf in all_files:
         try:
@@ -229,7 +237,8 @@ def generate_packets(
 
     # Manifest — locked, not shared with coders
     manifest_df = pd.DataFrame(manifest_rows)
-    manifest_path = output_dir / "manifest.csv"
+    manifest_suffix = "_calibration" if calibration else ""
+    manifest_path = output_dir / f"manifest{manifest_suffix}.csv"
     manifest_df.to_csv(manifest_path, index=False)
     print(f"Manifest saved (DO NOT SHARE WITH CODERS): {manifest_path}")
 

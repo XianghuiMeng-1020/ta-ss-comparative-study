@@ -1,0 +1,94 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 375FDFCE                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Brenda, could you please walk me through your solution?
+[LEARNER]: Hi there! Of course, I'd be happy to help. Could you let me know which part of the solution you're unsure about or need clarification on? We can go through it step by step together!
+
+[TUTOR]:   (focus)there seems to be a mistake here. did you calculate the rent for 2 white cars?
+[LEARNER]: Oh, good catch! Let me double-check that part. It looks like I may have missed the calculation for the rent of 2 white cars. Could you remind me what the rental rate is for a single white car? I’ll recalculate it with you to ensure it’s correct!
+
+[TUTOR]:   (generic)welldone
+[LEARNER]: Thank you! 😊 Let me know if there’s anything else you’d like me to go over or if you have more questions. You’re doing great! Keep it up!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Lori owns a carsharing company. There are three red cars and two white cars available to rent. Renting the white car costs $2.9 for every minute and the red car $3.9 for every minute. All cars were rented for 3.9 hours. How much money did Lori earn?
+[LEARNER]: Alright, let me solve this step by step. Here's my reasoning:
+
+---
+
+### Step 1: Gather the information
+- **Number of red cars**: 3
+- **Number of white cars**: 2
+- **Cost of renting a red car per minute**: $3.9
+- **Cost of renting a white car per minute**: $2.9
+- **Rental duration**: 3.9 hours
+
+---
+
+### Step 2: Convert hours to minutes
+Since there are 60 minutes in an hour:
+\[
+3.9 \, \text{hours} = 3.9 \times 60 = 234 \, \text{minutes}
+\]
+
+So, each car was rented for **234 minutes**.
+
+---
+
+### Step 3: Calculate the earnings from the red cars
+Each red car is rented for $3.9 per minute. The total rental cost for one red car is:
+\[
+3.9 \, \text{dollars/minute} \times 234 \, \text{minutes} = 912.6 \, \text{dollars}
+\]
+
+Since there are 3 red cars, the total earnings from red cars is:
+\[
+912.6 \, \text{dollars} \times 3 = 2737.8 \, \text{dollars}
+\]
+
+---
+
+### Step 4: Calculate the earnings from the white cars
+Each white car is rented for $2.9 per minute. The total rental cost for one white car is:
+\[
+2.9 \, \text{dollars/minute} \times 234 \, \text{minutes} = 678.6 \, \text{dollars}
+\]
+
+Since there are 2 white cars, the total earnings from white cars is:
+\[
+678.6 \, \text{dollars} \times 2 = 1357.2 \, \text{dollars}
+\]
+
+---
+
+### Step 5: Add the total earnings
+Now, add the earnings from the red cars and the white cars:
+\[
+2737.8 \, \text{dollars} + 1357.2 \, \text{dollars} = 4095 \, \text{dollars}
+\]
+
+---
+
+### Final Answer:
+Lori earned **$4095** from renting out all her cars.
+
+Let me know if I made any mistakes or if you need any clarification! 😊
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 375FDFCE
+──────────────────────────────────────────────────────────────────────

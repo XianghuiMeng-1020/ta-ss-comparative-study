@@ -1,0 +1,72 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 330AEF96                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+It takes Polly 20 minutes to cook breakfast every day. She spends 5 minutes cooking lunch. She spends 10 minutes cooking dinner 4 days this week. The rest of the days she spends 30 minutes cooking dinner. How many minutes does Polly spend cooking this week?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)How long does polly spend cooking
+[LEARNER]: Okay, so Polly cooks breakfast for 20 minutes, lunch for 5 minutes, and dinner for either 10 or 30 minutes each day.
+
+For the first 4 days, she spends 20 minutes on breakfast + 5 minutes on lunch + 10 minutes on dinner. That's 20 + 5 + 10 = 35 minutes each day. So for 4 days, it's 35 minutes x 4 days = 140 minutes.
+
+For the other 3 days, she spends 20 minutes on breakfast + 5 minutes on lunch + 30 minutes on dinner. That's 20 + 5 + 30 = 55 minutes each day. So for 3 days, it's 55 minutes x 3 days = 165 minutes.
+
+So in total, Polly spends 140 + 165 = 305 minutes cooking this week.
+305
+
+[TUTOR]:   (probing)How long at breakfast
+[LEARNER]: Polly spends 20 minutes on breakfast each day, so over the whole week she spends 20 x 7 = 140 minutes on breakfast.
+140
+
+[TUTOR]:   (probing)So that is what each week
+[LEARNER]: Yes, Polly spends 140 minutes on breakfast each week.
+140
+
+[TUTOR]:   (probing)How long cooking breakfast this week
+[LEARNER]: Like I said before, Polly spends 20 minutes each day on breakfast. There are 7 days in a week. So, she spends 20 x 7 = 140 minutes cooking breakfast this week.
+140
+
+[TUTOR]:   (probing)How long cooking dinner this week
+[LEARNER]: Okay, so Polly spends 10 minutes cooking dinner for 4 days, which is 10 x 4 = 40 minutes. Then she spends 30 minutes cooking dinner for the other 3 days, so that's 30 x 3 = 90 minutes. In total, she spends 40 + 90 = 130 minutes cooking dinner this week.
+130
+
+[TUTOR]:   (probing)Use bodmas on that dinner sum
+[LEARNER]: I don't know what bodmas is. But I know Polly spends 10 minutes cooking dinner for 4 days, which is 10 x 4 = 40 minutes. Then she spends 30 minutes cooking dinner for the other 3 days, so that's 30 x 3 = 90 minutes. In total, she spends 40 + 90 = 130 minutes cooking dinner this week.
+130
+
+[TUTOR]:   (telling)(10x4) + (30x3) = 130
+[LEARNER]: Okay, so 10 times 4 is 40, and 30 times 3 is 90. Then you add 40 and 90, and that equals 130. I got that part right!
+130
+
+[TUTOR]:   (telling)Wrong
+[LEARNER]: Oh. 10 times 4 is 40, and 30 times 3 is 90. So 40 + 90... hmm... I still get 130. Did I mess up the times tables?
+130
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+It takes Polly 24.1 minutes to cook breakfast every day. She spends 6.7 minutes cooking lunch. She spends 14.2 minutes cooking dinner 5.6 days this week. The rest of the days she spends 42.9 minutes cooking dinner. How many minutes does Polly spend cooking this week?
+[LEARNER]: Okay, this is like the last problem but with different numbers.
+
+First, I need to figure out how long Polly spends on breakfast and lunch each day. That's 24.1 + 6.7 = 30.8 minutes.
+
+Then, for 5.6 days, she spends 14.2 minutes on dinner. So that's 14.2 x 5.6 = 79.52 minutes.
+
+For the rest of the week, which is 7 - 5.6 = 1.4 days, she spends 42.9 minutes on dinner. So that's 42.9 x 1.4 = 60.06 minutes.
+
+So in total, she spends 30.8 + 79.52 + 60.06 = 170.38 minutes cooking this week.
+170.38
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 330AEF96
+──────────────────────────────────────────────────────────────────────

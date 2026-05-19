@@ -1,0 +1,82 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 33BBD9ED                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+In Henry's collection of music CDs, he has 3 more country CDs than rock CDs but twice as many rock CDs as classical CDs. If he has 23 country CDs, how many classical CDs make up his collection?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)how many rock cds does he have?
+[LEARNER]: I'm not sure how to find an exact answer yet because I think I made a mistake earlier. Can you help me figure out where I went wrong in my initial attempt?
+
+[TUTOR]:   (telling)not quite. he has 23-3
+[LEARNER]: Oh, I see now! I misunderstood the relationship between the country and rock CDs. I was wrong to say that "R = C + 3." It should be that the number of *country CDs* is R + 3. Let me revise my work with this correction.  
+
+Let me try again:  
+1. R = 2C (twice as many rock CDs as classical CDs).  
+2. The number of country CDs is R + 3.  
+3. Given that the country CDs total 23, we can set up an equation:  
+   R + 3 = 23.  
+
+Let me solve for R:  
+R = 23 - 3  
+R = 20.  
+
+So, Henry has 20 rock CDs. Now I can use this to find the classical CDs. Let me keep going.
+
+[TUTOR]:   (focus)sure! how if he has twice as many and we need todo the inverse, what would we do?
+[LEARNER]: Oh, I see now! If Henry has twice as many rock CDs as classical CDs (R = 2C), then to find the number of classical CDs from the rock CDs, I need to *divide* by 2 instead of multiplying. Thank you for pointing that out! Let me revise my thinking:
+
+Since we know R = 20 (from earlier), and R = 2C, I’ll divide 20 by 2:  
+C = 20 ÷ 2  
+C = 10.
+
+So, Henry has 10 classical CDs. Thank you for helping me correct that!
+
+[TUTOR]:   (focus)yep
+[LEARNER]: Got it! I was wrong earlier about how to handle the "twice as many" relationship. Now I see that I needed to divide by 2 to find the classical CDs. Let me summarize:  
+
+- Henry has 20 rock CDs.  
+- Since R = 2C, dividing 20 by 2 gives us C = 10.  
+- So, Henry has 10 classical CDs.  
+
+Thank you for guiding me through this! I'm ready to try a similar problem now.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+In Henry's collection of music CDs, he has 3.9 more country CDs than rock CDs but twice as many rock CDs as classical CDs. If he has 30.7 country CDs, how many classical CDs make up his collection?
+[LEARNER]: Let me solve this step by step:
+
+1. Let R represent the number of rock CDs and C represent the number of classical CDs.
+
+2. From the problem, I know:
+   - R = 2C (twice as many rock CDs as classical CDs).
+   - The number of country CDs is R + 3.9.
+   - The total number of country CDs is 30.7.
+
+3. I can set up the equation for the country CDs:
+   R + 3.9 = 30.7.
+
+4. Solve for R:
+   R = 30.7 - 3.9  
+   R = 26.8.
+
+5. Now I know R = 26.8, and since R = 2C, I can find C:
+   C = R ÷ 2  
+   C = 26.8 ÷ 2  
+   C = 13.4.
+
+So, Henry has **13.4 classical CDs** in his collection.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 33BBD9ED
+──────────────────────────────────────────────────────────────────────

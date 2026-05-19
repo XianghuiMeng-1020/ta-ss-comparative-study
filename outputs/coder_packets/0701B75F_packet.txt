@@ -1,0 +1,59 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 0701B75F                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Ho Michael, can you explain your answer?
+[LEARNER]: I got a bit stuck on that last question. I was trying to solve for x in the equation 2x + 5 = 11. I think I subtracted 5 from both sides, but then I got a bit confused. I wrote down x = 3, but I'm not really sure if that's right. Can you walk me through it and make sure I'm doing it correctly?
+
+[TUTOR]:   (focus)OK, let's start with what we know. How much did he spend?
+[LEARNER]: So, I think it said in the problem that he spent $15 on the video game and $8 on the snack. So, in total, he spent $15 + $8, which is... $23. Is that right?
+
+[TUTOR]:   (focus)Good. We don't know how much cheese and beef he bought, just the amount he spent. We can use trial and error to work out how much of each he bought. Lets start off assuming he bought one pound of cheese. How much does that leave him to spemd?
+[LEARNER]: If he spent $23 in total and the cheese costs $5 per pound, then if he bought one pound of cheese, that would be $5. To find out how much he has left to spend on beef, I would subtract $5 from $23... So, $23 - $5 = $18. Is that right? He would have $18 left to spend on beef?
+
+[TUTOR]:   (focus)OK, try 2 pounds of cheese.
+[LEARNER]: If he bought 2 pounds of cheese, that would be 2 x $5 = $10. To find out how much he has left to spend on beef, I would subtract $10 from $23... So, $23 - $10 = $13. Is that right? He would have $13 left to spend on beef if he bought 2 pounds of cheese?
+
+[TUTOR]:   (telling)No, $68 does not equal $61. Try 3 pounds of cheese.
+[LEARNER]: So if he bought 3 pounds of cheese, that would be 3 x $5 = $15. To find out how much he has left to spend on beef, I would subtract $15 from $23... So, $23 - $15 = $8. Wait, that's the same amount as the snack! Could he have bought 3 pounds of cheese and spent the remaining $8 on beef?
+
+[TUTOR]:   (generic)That's right.
+[LEARNER]: I'm glad I was able to figure it out. So, just to make sure I understand, he spent $15 on 3 pounds of cheese and $8 on beef, which adds up to the total of $23. Is that correct?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Tony has $128.9. He needs to buy some cheese, which costs $9.1 a pound and a pound of beef that costs $6.6 a pound. After buying the beef and his cheese, he has $82.2 left. How many pounds of cheese did he buy?
+[LEARNER]: Let's break it down step by step.
+
+First, I'll find out how much Tony spent in total on the cheese and beef. I'll subtract the amount he has left from the amount he started with:
+
+$128.9 (initial amount) - $82.2 (amount left) = $46.7 (amount spent on cheese and beef)
+
+Next, I'll try to figure out how much he spent on the beef. Since the problem says he bought a pound of beef, I know he spent $6.6 on the beef.
+
+Now, I'll subtract the cost of the beef from the total amount he spent on cheese and beef:
+
+$46.7 (amount spent on cheese and beef) - $6.6 (cost of beef) = $40.1 (amount spent on cheese)
+
+Since the cheese costs $9.1 per pound, I'll divide the amount he spent on cheese by the cost per pound to find out how many pounds he bought:
+
+$40.1 (amount spent on cheese) ÷ $9.1 (cost per pound) = 4.4
+
+So, Tony bought approximately 4.4 pounds of cheese.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 0701B75F
+──────────────────────────────────────────────────────────────────────

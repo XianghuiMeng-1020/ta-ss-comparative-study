@@ -1,0 +1,72 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 11F96291                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)In the first month, Grant makes $350. Let's break the payment for the second month down into two parts. Firstly, Grant makes double what they make in the first month, so this is?
+[LEARNER]: Oh, okay. Let me think about the second month in two parts.
+
+So in the first month, Grant made $350.
+
+For the first part of the second month payment, he makes double what he made in the first month. That would be:
+2 × 350 = 700$
+
+Is that the first part?
+
+[TUTOR]:   (focus)And the second part, is that they make doubel + $50, so this is?
+[LEARNER]: Wait, I'm a bit confused now. 
+
+So the second part is double plus $50? Let me calculate that:
+
+The second part would be: 2 × 350 + 50 = 700 + 50 = 750$
+
+So does that mean the total for the second month is 700 + 750 = 1450$?
+
+[TUTOR]:   (focus)That's right! So, you know that grant makes $350 in the first month, $750 in teh second month, how much in the third month?
+[LEARNER]: Okay, so for the third month, he quadrupled the sum of the first two months.
+
+The sum of the first two months is: 350 + 750 = 1100$
+
+So in the third month he made: 4 × 1100 = 4400$
+
+[TUTOR]:   (focus)And the total for teh 3 months is?
+[LEARNER]: The total for the 3 months is:
+
+350 + 750 + 4400 = 5500$
+
+[TUTOR]:   (generic)That's right!
+[LEARNER]: Oh great! I see where I went wrong before. I was doubling the $50 instead of doubling the whole $350 first and then adding the $50. Breaking it down into parts like you showed me really helped me understand what "double plus $50" means. Thanks!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Grant has worked as a freelance math worker for the last three months.  The first month he made 510.6$.  The second month he made 61.7$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?
+[LEARNER]: Okay, let me work through this step by step.
+
+**First month:** Grant made $510.6
+
+**Second month:** He made double the first month plus $61.7
+- Double the first month: 2 × 510.6 = 1021.2$
+- Plus the extra amount: 1021.2 + 61.7 = 1082.9$
+
+**Third month:** He quadrupled the sum of the first two months
+- Sum of first two months: 510.6 + 1082.9 = 1593.5$
+- Quadruple that sum: 4 × 1593.5 = 6374$
+
+**Total for all three months:**
+510.6 + 1082.9 + 6374 = 7967.5$
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 11F96291
+──────────────────────────────────────────────────────────────────────

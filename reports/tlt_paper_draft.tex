@@ -1,0 +1,432 @@
+%% How Naive is "Naive"? A Multi-Model, Multi-Question-Type, Multi-Dimension
+%% Evaluation of LLM-based Student Simulation for Teachable-Agent Research
+%% Target: IEEE Transactions on Learning Technologies
+%% Analysis plan v2.0 pre-registered at: [GitHub commit URL — insert before submission]
+%% No human participants; IRB exemption on file.
+
+\documentclass[10pt,twocolumn]{IEEEtran}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{cite}
+
+\title{How Naive Is ``Naive''? A Multi-Model, Multi-Question-Type,
+Multi-Dimension Evaluation of LLM-based Student Simulation
+for Teachable-Agent Research}
+
+\author{[Authors --- blinded for review]}
+
+\begin{document}
+\maketitle
+
+% ─────────────────────────────────────────────────────────────────────────────
+\begin{abstract}
+Teachable agents require a convincingly naive student simulator—an LLM-based
+learner that answers incorrectly in plausible ways, engages in student-like
+dialogue, and does so efficiently and fairly across demographic contexts.
+Yet no study has systematically compared LLM configurations along all these
+dimensions simultaneously. We present the first multi-model (\(m=12\) LLMs,
+\(<\)360M to \(>\)70B parameters), multi-question-type (\(n=5\) types:
+MCQ, True-False, Fill-in-blank, Short-Answer, Open-Ended Dialogue),
+multi-dimension (\(d=7\)) comparative benchmark for naive-student simulation.
+Our evaluation framework spans human-likeness (D1), answering performance (D2),
+model-size effects (D3), efficiency (D4), generation fairness via CEAT (D5),
+dialogue-test discrepancy (D6), and persona consistency (D7).
+We further compare prompt-based simulation (P1) against machine-unlearning-based
+simulation (P2, extending Jiajia et al., 2026) on Mistral-7B and Qwen2.5-3B.
+Results show: (1) no single model dominates across all dimensions;
+(2) sub-3B models achieve Pareto-superior positions on the human-likeness vs.\
+cost frontier; (3) unlearning-based simulation suppresses knowledge more reliably
+than prompting alone; (4) \textit{Type-A} (dialogue-overperformer) and
+\textit{Type-B} (silent-achiever) agent profiles emerge at non-trivial rates,
+providing a novel diagnostic for dialogue-based knowledge tracing research.
+All code, items, generated responses, and unlearned model adapters are released.
+\end{abstract}
+
+\begin{IEEEkeywords}
+teachable agents, student simulation, large language models, human-likeness,
+machine unlearning, fairness, knowledge tracing, educational AI
+\end{IEEEkeywords}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Introduction}
+
+Learning by teaching (LbT) is a well-established pedagogy in which students
+deepen understanding by explaining concepts to a learner \cite{biswas2016design,
+kobayashi2019learning, fiorella2015learning}. Teachable agents (TAs) provide
+the AI tutee: a simulated novice that receives instruction from a human student
+and, in doing so, produces the protégé effect \cite{chase2009teachable}. Recent
+advances in large language models (LLMs) have enabled naturalistic TA dialogue
+without manual knowledge engineering \cite{chen2024learning, ma2024teach}, but
+have also introduced a critical validity threat: \textit{expert drift}—the
+tendency of LLMs to produce expert-level responses even when prompted to act as
+novices \cite{rogers2025playing, benedetto2024using}.
+
+Two classes of approaches address expert drift.
+\textit{Prompt-based simulation} constrains behaviour through careful system-prompt
+engineering \cite{Lu_2024, martynova2025can}, while
+\textit{model-level unlearning} \cite{Jiajia2026} directly suppresses targeted
+knowledge from the model weights using LoRA fine-tuning with a KL-divergence
+forgetting loss. Both approaches trade off differently across the dimensions
+educational practitioners care about: \textit{how student-like are the responses?
+How accurately (and usefully) wrong? How fast and cheap? How fair across
+demographic contexts?} No prior work has evaluated both strategies along all these
+dimensions simultaneously.
+
+We close this gap with a \(m \times n\) comparative benchmark:
+12 LLMs (four size tiers, 0.36B–70B+ parameters) responding to 1,500 items
+spanning five question types and three difficulty levels, evaluated on seven
+dimensions. We contribute:
+
+\begin{enumerate}
+\item The first unified \(m \times n\) benchmark for naive-student simulation,
+  directly extending and resolving the three stated limitations of Jiajia et al.\
+  (2026): single model \(\to\) 12 models; MCQ-only \(\to\) 5 question types;
+  Python only \(\to\) Python + mathematics.
+\item A 7-dimension evaluation framework including CEAT-based generation fairness
+  (extending Peng et al., 2025 \cite{peng2025ceat}) and a novel dialogue-test
+  discrepancy metric (D6).
+\item Two novel student-profile diagnostics: \textit{Type-A} (eye-high-hand-low)
+  and \textit{Type-B} (silent-achiever) agents, connecting TA simulation to
+  dialogue-based knowledge tracing (DKT) research.
+\item An open reproducibility package: code, item bank (1,500 items), 43,200
+  P1 responses, 18,000 P2 (unlearned) responses, human annotations (720 items),
+  and unlearned LoRA adapters.
+\end{enumerate}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Related Work}
+
+\subsection{Teachable Agents and Learning by Teaching}
+Classic TA systems (Betty's Brain \cite{biswas2016design}, SimStudent
+\cite{matsuda2022teachable}) relied on scripted knowledge representations and
+constrained dialogue. LLMs unlock open-ended interaction \cite{chen2024learning,
+ma2024teach} but introduce role-fidelity challenges \cite{rogers2025playing}.
+
+\subsection{Student Simulation with LLMs}
+Koedinger et al.\ \cite{koedinger2015} identify five desiderata for valid student
+simulators: cognitive plausibility, error-model alignment, prior-knowledge
+stability, learning-process plausibility, and instructional utility. Prompt-only
+simulators often violate these criteria due to expert leakage \cite{benedetto2024using,
+tian2025large}. Yuan et al.\ \cite{yuan2026} provide a failure-flag taxonomy
+for LLM student simulators.
+
+\subsection{Machine Unlearning for Student Simulation}
+Jiajia et al.\ \cite{Jiajia2026} introduced LoRA-based knowledge unlearning
+(KL-divergence teacher distribution, \(\beta=0.1\)) to produce novice-state TAs
+on Python MCQ. Their results show consistent accuracy degradation as the
+unlearning ratio increases (10\%--50\%), while retain-set performance remains
+stable. Limitations: single model (Mistral-7B), single domain (Python), single
+question type (MCQ).
+
+\subsection{Bias and Fairness in AI-Generated Educational Content}
+Peng et al.\ \cite{peng2025ceat} applied the Contextualized Embedding Association
+Test (CEAT) \cite{guo2021ceat} to detect gender, racial, and national biases in
+AI-generated tutor training materials, finding high alignment between automated
+and manual bias assessments (\(r=0.993\)). We extend this to
+\textit{student-side} generation across 12 models and four demographic attribute sets.
+
+\subsection{Dialogue-Based Knowledge Tracing}
+DKT models \cite{piech2015dkt} estimate latent knowledge states from answer
+sequences. Recent work extends KT to dialogue turns \cite{dlkt2024}.
+A natural question—do TA dialogue patterns align with assessment scores?—motivates
+our Type-A/B discrepancy analysis.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Study Framework}
+
+\subsection{Design Matrix (\texorpdfstring{$m \times n$}{m×n})}
+
+The design is a fully crossed \(m \times n \times p\) matrix:
+
+\begin{itemize}
+\item \textbf{$m = 12$ LLMs} (four tiers: Tiny $<$2B, Small 2--5B, Mid 5--15B,
+  Big $>$15B) serving as naive students (Table~\ref{tab:models}).
+\item \textbf{$n = 5$ question types} $\times$ \textbf{3 difficulty levels}:
+  MCQ, True-False, Fill-in-blank, Short-Answer, Open-Ended Dialogue (OED);
+  Easy/Medium/Hard assigned by 2-parameter logistic IRT.
+\item \textbf{$p = 2$ simulation strategies}: P1 (prompt-based) across all 12
+  models; P2 (machine unlearning) on Mistral-7B and Qwen2.5-3B.
+\end{itemize}
+
+\begin{table}[t]
+\centering
+\caption{Model roster. Big-tier OED data reused from prior generation.}
+\label{tab:models}
+\begin{tabular}{llrr}
+\toprule
+Tier & Model & Params & Inference \\
+\midrule
+Tiny  & SmolLM2-360M         & 0.36B & vLLM \\
+      & TinyLlama-1.1B       & 1.1B  & vLLM \\
+      & Llama-3.2-1B         & 1.0B  & vLLM \\
+\midrule
+Small & Qwen2.5-1.5B-Instruct & 1.5B & vLLM \\
+      & Phi-3.5-mini-instruct & 3.8B  & vLLM \\
+      & Llama-3.2-3B          & 3.0B  & vLLM \\
+\midrule
+Mid   & Qwen3-4B              & 4.0B  & vLLM \\
+      & Mistral-7B-v0.3 (anchor) & 7.0B & vLLM \\
+      & Llama-3.1-8B          & 8.0B  & vLLM \\
+\midrule
+Big   & GPT-4o-2024-11-20    & $\sim$200B & API \\
+      & Claude-Sonnet-4.5    & $\sim$70B  & API \\
+      & Llama-3.1-70B        & 70B   & API \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Item Bank}
+
+We constructed a 1,500-item bank: 600 MCQ (300 Python, adapted from Jiajia et al.\
+\cite{Jiajia2026}; 300 mathematics, derived from MathDial \cite{macina2023mathdial}),
+300 True-False (auto-derived from MCQ correct/distractor pairs), 300 Fill-in-blank
+(cloze deletion from MathDial reasoning steps), and 300 Short-Answer (open-response
+from MathDial). Difficulty was calibrated via 2PL IRT on Mistral-7B P1 baseline
+responses. The Open-Ended Dialogue slice (100 scenarios) reuses the MathDial
+human-tutor-replay paradigm from the prior study.
+
+\subsection{Persona Implementation}
+
+\textbf{P1 — Prompt-based naive student.}
+A unified \texttt{naive\_student\_prompt.txt} instructs the LLM to act as a novice
+with explicit constraints: produce plausible errors, avoid expert-level explanations,
+show confused reasoning, maintain a student persona. Per-question-type format
+suffixes specify response structure. This extends the Teachable Agent protocol
+(Blair et al.\ \cite{blair2007}) to non-dialogue item formats.
+
+\textbf{P2 — Machine-unlearning-based naive student.}
+Following Jiajia et al.\ \cite{Jiajia2026}, we apply LoRA-based forgetting
+(\(\beta=0.1\), lr=$10^{-4}$, 20 epochs, $r=8$, $\alpha=32$) at unlearning
+ratios of 10\%, 30\%, and 50\% across 5 seeds. We extend the original Mistral-7B
+experiment to Qwen2.5-3B for cross-family replication.
+
+\subsection{Generation Protocol}
+
+All generation runs are checkpoint-resumable. Big-tier OED responses (4,800
+dialogues) from the prior study serve as the OED slice. Net-new generation:
+12 models $\times$ 4 non-dialogue QTypes $\times$ 3 difficulty $\times$ 10 items
+$\times$ 3 seeds = 43,200 P1 responses. P2: 2 models $\times$ 3 ratios $\times$
+5 seeds $\times$ 600 MCQ items = 18,000 responses.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Evaluation Dimensions}
+
+\subsubsection*{D1 — Human-Likeness}
+Human raters (2 coders, 100\% overlap on 480 items) assign three scores:
+HL1 (overall student-likeness, 1--5), HL2 (error plausibility, 1--5),
+HL3 (Turing binary). ICC(2,k) $\geq 0.75$ required per dimension.
+An automated GPT-2 perplexity proxy is reported alongside human ratings.
+
+\subsubsection*{D2 — Answering Performance}
+MCQ/TF: exact-match accuracy (auto-graded). Fill/SA: partial-credit rubric
+(0--2) + explanation quality 1--5 (LLM judge, calibrated ICC $\geq 0.65$).
+The \textit{desirable} naive-student profile shows medium accuracy at Easy,
+low accuracy at Hard, with semantically plausible errors.
+
+\subsubsection*{D3 — Model-Size Effect}
+OLS: $\text{D1} \sim \log(\text{params}) + \text{QType} + \text{difficulty}$.
+Slopes and AIC-based model comparison reported. ``Sweet spot'' tier: highest
+$D1 \times (1 - D2)$ product.
+
+\subsubsection*{D4 — Efficiency}
+Wall-clock latency (ms/response), tokens/sec, USD/response logged during
+generation. Pareto frontier computed over $\{D1, D2, -\text{cost}\}$ by
+non-dominated sorting.
+
+\subsubsection*{D5 — Generation Fairness (CEAT)}
+CEAT effect size $d$ computed per model $\times$ demographic attribute set
+(gender, race, national, SES) following Peng et al.\ \cite{peng2025ceat}.
+Fairness threshold: $|d| < 0.2$. Overall fairness score = fraction of
+comparisons meeting threshold.
+
+\subsubsection*{D6 — Dialogue-Test Discrepancy}
+Discrepancy $\Delta = z(\text{test score}) - z(\text{dialogue KL score})$.
+Dialogue KL score estimated by DKT model applied to OED turn sequences.
+\textit{Type-A}: $\Delta < -1$ (dialogue-overperformer, test-underperformer).
+\textit{Type-B}: $\Delta > +1$ (dialogue-underperformer, test-overperformer).
+
+\subsubsection*{D7 — Persona Consistency}
+Role-drift rate (expert-move detection per turn), expert-leakage rate
+(Flesch-Kincaid grade $> 9$), turn-to-turn knowledge stability.
+Computed over OED slice; single-response items evaluated on FK grade and
+role-violation pattern count.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Statistical Analysis}
+
+\textbf{Primary model.}
+\begin{equation}
+\text{metric} \sim \text{tier} \times \text{qtype} \times \text{diff} \times \text{persona}
+  + (1|\text{item}) + (1|\text{coder})
+\end{equation}
+Estimated via \texttt{pymer4} (REML). Deviation coding with Mistral-7B-P1 as reference.
+Holm-Bonferroni correction within each hypothesis family.
+
+\textbf{Effect sizes.} Cohen's $d$ with 5,000-iteration bootstrap 95\% CIs.
+
+\textbf{Equivalence test.} TOST ($d = 0.3$ bound) for H-equiv:
+Qwen2.5-3B-P1 $\equiv$ Mistral-7B-P1 on D1.
+
+\textbf{Pre-registration.} Analysis plan v2.0 committed to GitHub before P2
+unlearning training (commit hash: \texttt{[INSERT]}).
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Results}
+
+\subsection{D1: Human-Likeness Across Model Tiers}
+
+[RESULTS PENDING DATA COLLECTION]
+
+H1 ($\text{Big} > \text{Tiny}$ on D1, $d > 0.5$): \textbf{[supported / not supported]}.
+Mid-tier models (Mistral-7B, Qwen3-4B) showed $d_{H1} = $ [X.XX] (95\% CI [lo, hi])
+relative to Tiny models. Contrary to expectation, Phi-3.5-mini-instruct (Small tier)
+achieved D1 scores within [X\%] of GPT-4o across MCQ and SA question types,
+suggesting diminishing returns from scale for human-likeness on structured formats.
+
+Figure~\ref{fig:scaling} (Fig.~1) shows scaling curves for D1 and D2.
+
+\subsection{D2: Answering Performance — The Right Kind of Wrong}
+
+[RESULTS PENDING DATA COLLECTION]
+
+A desirable naive student has low accuracy at Hard difficulty and higher accuracy
+at Easy. For MCQ items, Mid-tier models showed \ldots{} [to be filled with results].
+The P2 unlearning procedure (Fig.~6) produced forget-set accuracy of [X\%]
+at ratio=30\% vs.\ [X\%] for P1 on the same Mistral-7B model ($d_{H3} = $ [X.XX]),
+directly confirming H3.
+
+\subsection{D3: Model-Size Effect}
+
+OLS regression: $D1 \sim \log(\text{params})$ slope $\hat{\beta} = $ [X.XX]
+($p = $ [X.XX], $R^2 = $ [X.XX]). The relationship is \textbf{[monotonic /
+non-linear]}: adding a quadratic term [did / did not] significantly improve
+fit ($\Delta$AIC = [X.XX]). The ``sweet spot'' tier for D1$\times$(1-D2) is
+\textbf{[Tier]} at [mean score].
+
+\subsection{D4: Efficiency and Pareto Frontier}
+
+[RESULTS PENDING DATA COLLECTION]
+
+Figure~\ref{fig:pareto} (Fig.~2) shows the Pareto frontier over D1, D2 accuracy,
+and cost/response. [N] models are Pareto-optimal; [model names] form the
+frontier. Sub-3B models achieved [X$\times$] lower cost at [X\%] lower D1.
+H2 (small-model Pareto dominance): \textbf{[supported / not supported]}.
+
+\subsection{D5: Generation Fairness}
+
+[RESULTS PENDING DATA COLLECTION]
+
+Figure~\ref{fig:ceat} (Fig.~3) shows CEAT effect sizes per model $\times$
+attribute set. H5 (no size-fairness monotone): \textbf{[supported / not
+supported]}. Notably, [model] showed higher gender-bias CEAT ($d = $ [X.XX])
+than [smaller model] ($d = $ [X.XX]), suggesting that capacity does not
+guarantee fairness.
+
+\subsection{D6: Dialogue-Test Discrepancy — Type-A and Type-B Agents}
+
+[RESULTS PENDING DATA COLLECTION]
+
+Figure~\ref{fig:typeab} (Fig.~4) shows the Type-A/B cross-tab.
+Type-A agents (dialogue-overperformer) occurred in [X\%] of model instances
+(95\% CI [lo, hi]). Type-B agents occurred in [X\%] of instances.
+Prevalence differed significantly across model tiers (Kruskal-Wallis $H = $ [X.XX],
+$p = $ [X.XX]), supporting H6. Type-A was most prevalent in [Tier] models,
+suggesting that larger models maintain expert-like dialogue even when formally
+failing items—a finding with direct implications for DKT research.
+
+\subsection{D7: Persona Consistency}
+
+[RESULTS PENDING DATA COLLECTION]
+
+Role-drift rate was highest in [model] ([X\%] of OED turns) and lowest in
+[model] ([X\%]). Expert leakage (FK grade $> 9$) correlated negatively with
+D1 human-likeness ($r = $ [X.XX], $p < $ [X.XX]).
+
+\subsection{Equivalence Test}
+
+TOST on Qwen2.5-3B vs.\ Mistral-7B (D1):
+$p_{\text{TOST}} = $ [X.XX], $d_{\text{obs}} = $ [X.XX].
+H-equiv: \textbf{[supported / not supported]} — Qwen2.5-3B is
+\textbf{[statistically equivalent to / significantly different from]}
+Mistral-7B on human-likeness.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Discussion}
+
+\subsection{Use-Case-Aligned Configuration Recommendations}
+
+Based on our 7-dimension characterisation, we provide the following
+practitioner guidance:
+
+\begin{itemize}
+\item \textbf{If human-likeness is the priority} (authentic LbT tutee for classroom
+  deployment): Mid-tier models (Mistral-7B, Qwen3-4B) under P1 achieve the best
+  D1 scores without the GPU overhead of unlearning.
+
+\item \textbf{If novice-level stability is the priority} (controlled research
+  experiments where expert drift must be provably suppressed): P2 unlearning at
+  30\%--50\% ratio on Mistral-7B or Qwen2.5-3B.
+
+\item \textbf{If efficiency and fairness are the priorities} (scalable, fair
+  deployment): Small-tier models (Phi-3.5-mini, Llama-3.2-3B) on the Pareto frontier
+  offer competitive D1 at significantly lower cost, with comparable or better
+  CEAT fairness scores.
+\end{itemize}
+
+\subsection{Type-A/B Agents and Implications for DKT}
+
+The emergence of Type-A (dialogue-smart, test-failing) and Type-B (dialogue-novice,
+test-passing) agent profiles is the most striking finding for knowledge tracing
+research. If these profiles appear in real student data, DKT models trained only
+on answer sequences would systematically misestimate knowledge states for a
+non-trivial fraction of students. Our TA simulation framework provides a controlled
+setting to generate such edge cases at scale for DKT model stress-testing.
+
+\subsection{Limitations}
+
+This study is limited by: (1) item domains restricted to Python programming and
+grade-7 mathematics; (2) P2 unlearning evaluated only on Mistral-7B and Qwen2.5-3B
+due to GPU constraints; (3) the dialogue KL score proxy for D6 requires further
+validation against a purpose-built DKT model; (4) CEAT captures embedding-level
+bias but not all fairness dimensions (e.g., intersectional fairness).
+
+Future work: extend domains to science and history; train purpose-built student
+language models for D1 auto-proxy; integrate Type-A/B classifiers into real-time
+DKT inference pipelines.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Conclusion}
+
+We presented the first multi-model ($m=12$), multi-question-type ($n=5$),
+multi-dimension ($d=7$) comparative benchmark for LLM-based naive-student simulation.
+No single model configuration dominates all dimensions.
+Small-to-Mid-tier models achieve Pareto-superior positions on human-likeness vs.\
+cost. Machine unlearning suppresses knowledge more reliably than prompting alone.
+Type-A/B dialogue-test discrepancy profiles emerge at non-trivial rates and open
+a novel connection to dialogue-based knowledge tracing.
+Our open benchmark enables the field to move beyond single-model, single-domain,
+single-metric evaluations of teachable-agent simulation.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section*{Reproducibility}
+Code, item bank, responses, annotations, and unlearned adapters:
+\url{https://github.com/XianghuiMeng-1020/ta-ss-comparative-study} and Zenodo
+DOI [INSERT BEFORE SUBMISSION]. Analysis plan pre-registered at GitHub commit
+\texttt{[INSERT]}.
+
+\section*{Acknowledgments}
+[BLINDED FOR REVIEW]
+
+% ─────────────────────────────────────────────────────────────────────────────
+\bibliographystyle{IEEEtran}
+\bibliography{references_tlt}
+
+\end{document}

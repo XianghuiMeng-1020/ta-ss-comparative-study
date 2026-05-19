@@ -1,0 +1,119 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 2F9F7C77                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Could you please walk me through your solution?
+[LEARNER]: Of course! I’d be happy to walk you through the solution. To provide the most accurate information, could you please specify the problem or question you’re referring to? For example, is it related to math, coding, science, or something else? Once I understand the context, I’ll guide you step by step.
+
+[TUTOR]:   (focus)Your answer is incorrect, have another go
+[LEARNER]: I appreciate your feedback, and I’d be happy to take another look. Could you please clarify what specifically seems incorrect about my initial answer? Providing a bit more detail about the problem you're referring to will help me re-evaluate and provide a more accurate response. Let’s work through this together!
+
+[TUTOR]:   (focus)I've already told you the answer is wrong. So it can not be $150
+[LEARNER]: Thank you for pointing that out. Let’s revisit the problem and ensure the solution is calculated correctly this time. Could you please provide the complete problem or clarify the specific details so I can rework it step by step? I’ll carefully go through the process to ensure accuracy this time.
+
+[TUTOR]:   (focus)How much did she spend in the sale
+[LEARNER]: Apologies for the earlier confusion! Let me help you figure this out.
+
+If you could provide the full details of the problem (such as the original price, the discount percentage, or other key information), I’ll carefully work through the solution to determine how much she spent in the sale. Please share the specifics, and I’ll get to work!
+
+[TUTOR]:   (focus)How much did she spend in the book store
+[LEARNER]: To help determine how much she spent in the bookstore, I’ll need a bit more information about the situation. For example:
+
+- What was the total cost of the items she bought?
+- Were there discounts, or was there a sale?
+- How many items did she purchase, and what were their prices?
+
+If you provide these details, I can accurately calculate how much she spent. Let me know, and I’ll guide you through it!
+
+[TUTOR]:   (focus)How much did she pend online
+[LEARNER]: I’d be happy to help figure out how much she spent online! However, I’ll need additional details about the scenario to provide an accurate answer. For example:
+
+- What items did she purchase online, and what were their prices?
+- Were there any discounts, taxes, or shipping fees involved?
+
+If you can share this information, I’ll work through the numbers step by step. Let me know!
+
+[TUTOR]:   (focus)3 times the cost of the online at $40
+[LEARNER]: Thank you for clarifying! If the cost of what she spent online is three times $40, we can calculate it as follows:
+
+\[
+3 \times 40 = 120
+\]
+
+So, she spent **$120 online**. Let me know if you need further assistance! 😊
+
+[TUTOR]:   (focus)Recalculate
+[LEARNER]: Apologies for any confusion earlier! Let’s carefully recalculate this.
+
+The problem states that the cost online is **3 times $40**. So, we calculate:
+
+\[
+3 \times 40 = 120
+\]
+
+The amount spent online is **$120**. If this doesn’t seem correct, could you clarify or provide more details so I can refine the calculation? 😊
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Marta was about to start the school year and needed to buy the necessary textbooks. She managed to buy five on sale, for $12.4 each. She had to order two textbooks online, which cost her a total of $59.7, and three she bought directly from the bookstore for a total of three times the cost of the online ordered books. How much in total did Martha spend on textbooks?
+[LEARNER]: Let’s carefully solve this step by step to determine how much Marta spent on textbooks in total.
+
+---
+
+### Step 1: Calculate the cost of the books bought on sale
+Marta bought **5 textbooks on sale**, each costing **$12.4**. To calculate the total cost for these books:
+
+\[
+5 \times 12.4 = 62.0
+\]
+
+So, the total cost of the sale books is **$62.00**.
+
+---
+
+### Step 2: Add the cost of the books bought online
+Marta ordered **2 textbooks online**, which cost her a total of **$59.7**. This amount is already provided, so we can include it directly.
+
+---
+
+### Step 3: Calculate the cost of the books bought from the bookstore
+Marta bought **3 textbooks from the bookstore**, and their total cost is **three times the cost of the online books**. Since the online books cost **$59.7**, we calculate:
+
+\[
+3 \times 59.7 = 179.1
+\]
+
+Thus, the total cost for the bookstore books is **$179.10**.
+
+---
+
+### Step 4: Add up all the costs
+Now, we sum the costs of all the textbooks purchased:
+
+\[
+62.0 + 59.7 + 179.1 = 300.8
+\]
+
+---
+
+### Final Answer:
+Marta spent a total of **$300.80** on textbooks.
+
+Let me know if you’d like further clarification! 😊
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 2F9F7C77
+──────────────────────────────────────────────────────────────────────

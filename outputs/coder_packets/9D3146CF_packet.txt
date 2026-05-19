@@ -1,0 +1,69 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 9D3146CF                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Harry decided to buy some balloons for his friend's birthday party. One balloon costs $0.5, and a pack of 10 balloons is cheaper and costs only $3. Finally, Harry wants to bring to the party exactly 14 balloons. How much did he need to pay for them?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi, can you explain your answer?
+[LEARNER]: I thought I had it figured out. I said Harry needs 2 packs of 10 balloons, which would give him 20 balloons, but then he would have too many, right? And then I said he needs to buy 4 more individual balloons, but that doesn't make sense if he already has too many. Can you help me understand where I went wrong?
+
+[TUTOR]:   (generic)Hi Riya, can you tell me how you solved this?
+[LEARNER]: I thought Harry needed 14 balloons, so I figured he should buy 2 packs of 10 balloons, which would give him 20 balloons. Then, I thought he would have 6 extra balloons, but he would still need to buy 4 more individual balloons to get to 14. But now that I think about it, that doesn't make sense. Can you help me understand why buying 2 packs of 10 balloons isn't the right approach?
+
+[TUTOR]:   (focus)OK, let's go back to the question. If Harry needs 14 balloons, how many packs of 10 does he need?
+[LEARNER]: If Harry needs 14 balloons, I think he needs 1 pack of 10 balloons, because 2 packs would give him 20 balloons, which is too many. Is that right?
+
+[TUTOR]:   (telling)He only needs one pack of 10, then he will buy 4 single balloons.
+[LEARNER]: So, Harry needs 1 pack of 10 balloons, which will give him 10 balloons. And then, he needs 4 more balloons to get to 14. So, he'll buy 4 individual balloons. That makes sense.
+
+Let me recalculate the cost:
+
+1 pack of 10 balloons costs $3.
+4 individual balloons cost 4 x $0.5 = $2.
+
+So, the total cost would be... $3 + $2 = $5.
+
+Is that correct?
+
+[TUTOR]:   (generic)Well done!
+[LEARNER]: I'm glad I was able to understand where I went wrong and fix my mistake. So, to recap, I was wrong about buying 2 packs of 10 balloons, and I see now that Harry only needs 1 pack of 10 balloons and 4 individual balloons to get to 14. And the total cost is $5.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Harry decided to buy some balloons for his friend's birthday party. One balloon costs $0.6, and a pack of 15.0 balloons is cheaper and costs only $3.7. Finally, Harry wants to bring to the party exactly 18.9 balloons. How much did he need to pay for them?
+[LEARNER]: Let's break it down step by step:
+
+Harry needs 18.9 balloons. Since he can't buy a fraction of a balloon, I'll round down to 18 balloons (I'll ignore the 0.9 for now, but I might need to come back to it later).
+
+Harry can buy a pack of 15 balloons for $3.7. Since 18 is more than 15, he'll need to buy at least 1 pack of 15 balloons.
+
+1 pack of 15 balloons costs $3.7 and gives him 15 balloons. He still needs 3 more balloons to get to 18.
+
+He can buy these 3 individual balloons at $0.6 each.
+
+The cost of 3 individual balloons is 3 x $0.6 = $1.8.
+
+Now, I need to add the cost of the pack of 15 balloons and the 3 individual balloons:
+$3.7 + $1.8 = $5.5
+
+But wait, I still need to consider the 0.9 extra balloons Harry wanted. Since he can't buy a fraction of a balloon, I'll assume he'll round up to 19 balloons. He already has 18 balloons, so he'll need to buy 1 more individual balloon at $0.6.
+
+The total cost would be:
+$5.5 + $0.6 = $6.1
+
+So, Harry needs to pay $6.1 for 19 balloons (which is close enough to 18.9).
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 9D3146CF
+──────────────────────────────────────────────────────────────────────

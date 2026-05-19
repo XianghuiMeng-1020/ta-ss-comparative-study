@@ -1,0 +1,90 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 5665A72F                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hey Ayisha, this looks like a hard problem, what did you tackle first?
+[LEARNER]: Honestly, I was a bit stuck at first, but then I noticed that the problem is asking for the value of x in a quadratic equation. So, I decided to start by trying to factor the left-hand side of the equation, but it didn't seem to factor easily. Then I thought about using the quadratic formula, but I wasn't sure if that was the right approach. Can you give me a hint or show me where to go from here?
+
+[TUTOR]:   (focus)What about the research time needed before the expedition, have you taken that into account?
+[LEARNER]: I was so focused on the quadratic equation itself that I forgot to consider the research time. The problem statement did mention that the research team needs to spend 2 weeks researching before the expedition, and that's a crucial part of the overall time frame. If I add those 2 weeks to the time it takes to travel to the destination, I think I can set up an inequality to represent the total time available for the expedition. Does that sound right to you?
+
+[TUTOR]:   (focus)We need to work this into the whole solution back to the beginning, not just add it on to the end because we forgot it
+[LEARNER]: Let me go back to the beginning and re-examine the problem. Okay, so the problem states that the team has a total of 12 weeks for the expedition, and they need to spend 2 weeks researching before they leave. That means they actually have 12 - 2 = 10 weeks available for the expedition itself.
+
+I think I need to go back to the quadratic equation and rework it to take into account the reduced time frame. Maybe I can set up a new equation that represents the relationship between the time spent traveling and the time spent on the expedition, given the new constraint. Can I start from scratch and walk you through my new approach?
+
+[TUTOR]:   (focus)How long did it take to find the first artifact including the 6 months of research?
+[LEARNER]: I remember now. The problem stated that it took 6 months of research, plus 4 weeks of traveling, plus 2 weeks of excavation to find the first artifact. So, if I convert the 6 months of research to weeks, that's 6 x 4 = 24 weeks of research, plus the 4 weeks of traveling, plus the 2 weeks of excavation, for a total of 24 + 4 + 2 = 30 weeks to find the first artifact.
+
+[TUTOR]:   (focus)And what's that in years?
+[LEARNER]: To convert the total time to years, I can divide the total number of weeks by 52 (since there are 52 weeks in a year).
+
+30 weeks / 52 weeks/year ≈ 0.577 years (or roughly 7.7 months)
+
+Is that correct?
+
+[TUTOR]:   (focus)Now read back the question and work out the time it took to find the second artifact, using the information you have given me above
+[LEARNER]: Let me re-read the problem and see... Ah, yes! The problem states that the second artifact was found after an additional 3 months of excavation.
+
+Since it took 30 weeks to find the first artifact, and the additional 3 months of excavation is equivalent to 3 x 4 = 12 weeks, the total time it took to find the second artifact is:
+
+30 weeks (to find the first artifact) + 12 weeks (additional excavation) = 42 weeks
+
+Is that correct?
+
+[TUTOR]:   (focus)Which is how much in years?
+[LEARNER]: I can convert the total time to years by dividing by 52 (since there are 52 weeks in a year):
+
+42 weeks / 52 weeks/year ≈ 0.808 years (or roughly 9.7 months)
+
+Is that right?
+
+[TUTOR]:   (generic)So we've confirmed your original answer was correct?
+[LEARNER]: I think we've actually confirmed that my original approach was correct, but I had to rework the problem to make sure I was considering all the given information. I'm glad we were able to go back and forth to clarify things and confirm the answer. It's always good to double-check my work and make sure I'm on the right track!
+
+[TUTOR]:   (generic)Great job
+[LEARNER]: I'm glad I could work through the problem and come to the correct solution. I appreciate your guidance and feedback throughout the process - it really helped me stay focused and ensure I was considering all the important details. Thanks for your help!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+James decides to try and collect rare artifacts in the field.  He spends 7.2 months researching before going on a 2.9-year-long expedition for his first find.  The second artifact takes 4.2 times as long for the research and discovery.  How long did it take him to find both?
+[LEARNER]: Let's break this problem down step by step.
+
+First, I need to find the total time it took James to find the first artifact. The problem states that he spent 7.2 months researching, and then went on a 2.9-year-long expedition. To add these two times together, I need to convert them to the same units. Let's convert the research time from months to years:
+
+7.2 months / 12 months/year = 0.6 years
+
+Now I can add the research time to the expedition time:
+
+0.6 years + 2.9 years = 3.5 years
+
+So it took James 3.5 years to find the first artifact.
+
+Next, I need to find the time it took James to find the second artifact. The problem states that it took 4.2 times as long for the research and discovery. To find this time, I can multiply the time it took to find the first artifact by 4.2:
+
+3.5 years x 4.2 = 14.7 years
+
+So it took James 14.7 years to find the second artifact.
+
+Finally, I need to find the total time it took James to find both artifacts. To do this, I can add the time it took to find the first artifact to the time it took to find the second artifact:
+
+3.5 years + 14.7 years = 18.2 years
+
+Therefore, it took James 18.2 years to find both artifacts.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 5665A72F
+──────────────────────────────────────────────────────────────────────

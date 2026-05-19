@@ -1,0 +1,97 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 4863A9B7                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Coral reads 30 pages of a book on night 1, and 2 less than twice that on night 2.  Night 3 Coral reads 3 more pages than the sum of the first two nights.  How many total pages did Coral read in the 3 nights?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Lakisha. Can you take me through your answer?
+[LEARNER]: Okay, so first I found twice the number of pages from night 1, which was 2 * 30 = 60. Then I subtracted 2 to find the pages for night 2, so 60 - 2 = 58. Then I added the pages from night 1 and night 2, which was 30 + 58 = 88. Finally, I added 3 to that sum to find the total, so 88 + 3 = 91.
+
+[TUTOR]:   (focus)Could you retry the calculation for the sum of the first two nights and tell me what you get?
+[LEARNER]: The sum of the first two nights? I already did that: 30 + 58 = 88. Is that wrong?
+
+[TUTOR]:   (focus)Could you read the second sentence of the question again?
+[LEARNER]: Okay, it says, "Night 2 Coral reads 2 less than twice that on night 1." Oh, I see! I was supposed to add 3 more to the SUM of the first two nights to get night 3, but I accidentally added 3 to the sum to get the TOTAL. So I messed up what I was adding on the last step. Is that right?
+
+[TUTOR]:   (focus)So is the answer to night 3 88?
+[LEARNER]: No, because I need to add 3 to the sum of the first two nights to get the number of pages for night 3. So night 3 is 88 + 3 = 91 pages.
+
+[TUTOR]:   (generic)Thats great! So how many pages did Coral read in the three nights together?
+[LEARNER]: Okay, so night 1 was 30 pages. Night 2 was 58 pages. Night 3 was 91 pages. To find the total, I need to add all of those together: 30 + 58 + 91. So, 30 + 58 = 88, and then 88 + 91 = 179. So the total is 179 pages.
+
+[TUTOR]:   (probing)If I read 10 pages one night, 5 another, and 5 on the third, how many pages have I read all together?
+[LEARNER]: That's easy! 10 + 5 + 5 = 20 pages.
+
+[TUTOR]:   (focus)Could you do the same with the three nights Coral read?
+[LEARNER]: Okay, so night 1 was 30 pages, night 2 was 58 pages, and night 3 was 91 pages. Adding those together: 30 + 58 + 91 = 179 pages. So Coral read 179 pages in all.
+
+[TUTOR]:   (focus)How many pages on night 1?
+[LEARNER]: 30 pages.
+
+[TUTOR]:   (focus)How many on night 2?
+[LEARNER]: 58 pages.
+
+[TUTOR]:   (focus)How many on night 3?
+[LEARNER]: 91 pages.
+
+[TUTOR]:   (probing)Did she?
+[LEARNER]: Wait, I think I see my mistake. I calculated night 3 by adding 3 to the SUM of nights 1 and 2. But the problem says night 3 is 3 MORE than the sum of the first two nights. I think I did the right calculation, but I said the wrong thing. 91 is the number of pages for night 3, not the total.
+
+So, to find the total, I need to add night 1 (30 pages) + night 2 (58 pages) + night 3 (91 pages). So the total is 30 + 58 + 91 = 179 pages.
+
+I think the total is still 179 pages, but I got to it in a confusing way before.
+
+[TUTOR]:   (telling)The question says she read 3 more pages than the sum of the first two nights on night three.
+[LEARNER]: Okay, so that means I calculated night 3 correctly as 91 pages (30 + 58 = 88, and then 88 + 3 = 91). But I need to make sure I'm answering the right question. The question asks for the TOTAL number of pages read in the 3 nights. So I need to add the pages from each night: 30 + 58 + 91. I did that and got 179. So the final answer is 179 pages. I think I'm just circling around the same answer because I'm getting confused about what the question is asking.
+
+[TUTOR]:   (telling)91 pages in total on night three only.
+[LEARNER]: Okay, I understand now! I was calculating night 3 correctly, but I was getting confused about whether 91 was the total or just the pages for night 3.
+
+Night 1: 30 pages
+Night 2: 58 pages
+Night 3: 91 pages
+
+The TOTAL is 30 + 58 + 91 = 179 pages.
+
+So the final answer is 179 pages.
+
+[TUTOR]:   (telling)Coral read 30 pages on night 1, 58 pages on night 2 and 91 pages on night three. 30+58+91= 179 pages
+[LEARNER]: Okay, I see! I was overthinking it and getting confused, but I had the right numbers all along. Thanks for helping me slow down and focus on what the question was asking!
+
+[TUTOR]:   (telling)You have literally just written my answer, whilst writing she read only 91 pages in total
+[LEARNER]: I am so sorry! I was trying to explain my thinking and I got mixed up in my words. You are right, Coral read 91 pages on night 3, but the TOTAL number of pages she read over the three nights is 179. I was agreeing with you that 91 was the number of pages on night 3, but I didn't mean to say that was the total. The total is 179.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Coral reads 36.2 pages of a book on night 1.5, and 2.9 less than twice that on night 2.8.  Night 3.7 Coral reads 3.8 more pages than the sum of the first two nights.  How many total pages did Coral read in the 3.7 nights?
+[LEARNER]: Okay, I'll try this problem step-by-step:
+
+Night 1.5: 36.2 pages
+
+Night 2.8: 2.9 less than twice night 1.5
+* Twice night 1.5: 2 * 36.2 = 72.4
+* 2.9 less than that: 72.4 - 2.9 = 69.5 pages
+
+Night 3.7: 3.8 more than the sum of the first two nights
+* Sum of first two nights: 36.2 + 69.5 = 105.7
+* 3.8 more than that: 105.7 + 3.8 = 109.5 pages
+
+Total pages:
+* Night 1.5 + Night 2.8 + Night 3.7 = 36.2 + 69.5 + 109.5 = 215.2
+
+So, Coral read a total of 215.2 pages in the 3.7 nights.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 4863A9B7
+──────────────────────────────────────────────────────────────────────

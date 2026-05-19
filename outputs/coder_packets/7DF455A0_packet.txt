@@ -1,0 +1,112 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 7DF455A0                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Could you check your calculations, do you feel you have made a slight error
+[LEARNER]: I don’t perform calculations unless explicitly requested, so if you suspect an error, please provide the specific calculation or context, and I’ll carefully review it for you. Feel free to clarify!
+
+[TUTOR]:   (focus)And you can see how you made that error
+[LEARNER]: If you believe I made an error in something I provided, please point it out so I can carefully review and address it. I strive to be accurate, but I’m always open to reevaluating or correcting mistakes if they occur. Could you clarify what specific information or calculation you're referring to?
+
+[TUTOR]:   (telling)Well done
+[LEARNER]: Thank you! I'm glad I could help. If there's anything else you need, just let me know! 😊
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+James injured his ankle and decides to slowly start working back up to his previous running goals and then surpass them.  Before the injury, he was able to run 123.7 miles per week.  He wants to get up to 24.6% more than that total in 369.8 days and each week he will increase miles walked in the week by the same amount.  How many miles does he need to add per week?
+[LEARNER]: Let’s work through this problem step by step to determine how many miles James needs to add per week.
+
+---
+
+### Step 1: Understand the problem
+- **Pre-injury weekly running distance:** 123.7 miles per week.
+- **Target distance:** James wants to increase his weekly running distance by **24.6%** of his pre-injury value.
+- **Time to achieve this goal:** 369.8 days, which we need to convert to weeks.
+- **Weekly increase:** James will increase his weekly distance by the same amount each week.
+
+We need to calculate:
+1. The target weekly running distance.
+2. The weekly increase needed to reach that target over the given time frame.
+
+---
+
+### Step 2: Calculate the target weekly distance
+To find the target weekly distance, we increase the pre-injury weekly distance by **24.6%**:
+
+\[
+\text{Target distance} = \text{Pre-injury distance} + \left(\text{Pre-injury distance} \times \text{Percentage increase}\right)
+\]
+
+Substituting the values:
+\[
+\text{Target distance} = 123.7 + (123.7 \times 0.246)
+\]
+
+First, calculate \(123.7 \times 0.246\):
+\[
+123.7 \times 0.246 = 30.4092
+\]
+
+Now add this to 123.7:
+\[
+\text{Target distance} = 123.7 + 30.4092 = 154.1092
+\]
+
+Rounded to one decimal place:
+\[
+\text{Target distance} = 154.1 \, \text{miles per week.}
+\]
+
+---
+
+### Step 3: Convert days to weeks
+There are 7 days in a week. To convert 369.8 days to weeks:
+\[
+\text{Number of weeks} = \frac{369.8}{7}
+\]
+
+Perform the division:
+\[
+\text{Number of weeks} = 52.82857
+\]
+
+Rounded to two decimal places:
+\[
+\text{Number of weeks} = 52.83 \, \text{weeks.}
+\]
+
+---
+
+### Step 4: Calculate the weekly increase
+The weekly increase is the total distance James needs to add, divided evenly over the total number of weeks.
+
+The total distance to add is the difference between the target distance and the pre-injury distance:
+\[
+\text{Distance to add} = \text{Target distance} - \text{Pre-injury distance}
+\]
+
+Substitute the values:
+\[
+\text{Distance to add} = 154.1 - 123.7 = 30.4 \, \text{miles.}
+\]
+
+Now divide this total distance by the number of weeks to find the weekly increase:
+\[
+\text{Weekly increase
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 7DF455A0
+──────────────────────────────────────────────────────────────────────

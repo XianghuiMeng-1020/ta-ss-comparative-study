@@ -1,0 +1,45 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 0A1D8762                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+A rope has a length of 200 meters. Stefan cuts the rope into four equal parts, gives his mother half of the cut pieces, and subdivides the remaining pieces into two more equal parts. What's the length of each piece?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)This is pretty good but not quite right. So Stefan is left with 2 pieces each 50m long. If he cuts each piece in half, how many pieces does he have?
+[LEARNER]: Okay, so Stefan starts with a rope of 200 meters. He cuts it into four equal parts, so each part is 200 / 4 = 50 meters. Then he gives half the pieces to his mom, which is 4 / 2 = 2 pieces. So he has 2 pieces left. If he cuts each of *those* pieces in half, he'll have 4 pieces in total. Each piece would be 50/2 = 25 meters long.
+25
+
+[TUTOR]:   (generic)That's right!
+[LEARNER]: So the final answer is 25 meters.
+
+[TUTOR]:   (generic)Since you have worked out the correct answer so quickly there is nothing more to say. Well done!
+[LEARNER]: Thanks! I'm glad I could solve the problem.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+A rope has a length of 269.1 meters. Stefan cuts the rope into four equal parts, gives his mother half of the cut pieces, and subdivides the remaining pieces into two more equal parts. What's the length of each piece?
+[LEARNER]: Okay, I'll try it!
+
+First, I need to find the length of each of the four equal parts: 269.1 / 4 = 67.275 meters.
+
+Stefan gives half of the cut pieces to his mother, so he gives away 4 / 2 = 2 pieces.
+
+He's left with 2 pieces.
+
+Then he cuts each of those pieces into two more equal parts. So, he's cutting the 2 pieces in half. That means each of the new pieces is 67.275 / 2 = 33.6375 meters long.
+
+So the length of each piece is 33.6375 meters.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 0A1D8762
+──────────────────────────────────────────────────────────────────────

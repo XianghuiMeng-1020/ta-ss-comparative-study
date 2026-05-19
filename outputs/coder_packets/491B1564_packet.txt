@@ -1,0 +1,127 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 491B1564                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)In the first month, Grant makes $350. Let's break the payment for the second month down into two parts. Firstly, Grant makes double what they make in the first month, so this is?
+[LEARNER]: Okay, so in the first month, Grant makes $350. If Grant makes double that in the second month, we calculate:
+
+\[
+350 \times 2 = 700
+\]
+
+So, the first part of the payment in the second month is **$700**.
+
+[TUTOR]:   (focus)And the second part, is that they make doubel + $50, so this is?
+[LEARNER]: Alright! From the first part, we know that double what Grant makes in the first month is $700. Now for the second part, they make **double + $50**, so we add $50 to $700:
+
+\[
+700 + 50 = 750
+\]
+
+So, the second part of the payment in the second month is **$750**.
+
+[TUTOR]:   (focus)That's right! So, you know that grant makes $350 in the first month, $750 in teh second month, how much in the third month?
+[LEARNER]: Got it! Let's figure out the third month.
+
+If Grant makes $350 in the first month and $750 in the second month, we need more information about how the payment for the third month is calculated. Is there a specific rule or pattern for the third month? For example, does it increase by a certain factor, or is it based on the previous months? Let me know, and I'll calculate it for you!
+
+[TUTOR]:   (focus)And the total for teh 3 months is?
+[LEARNER]: Ah, I see! So far, we know:
+
+- First month: $350  
+- Second month: $750  
+
+We still don’t have the specific amount for the **third month**, but let’s call that amount \( x \). So, the total for the three months would be:
+
+\[
+350 + 750 + x = \text{Total for 3 months.}
+\]
+
+If you can tell me how much Grant earns in the third month, I’ll plug it in and calculate the total for you! 😊
+
+[TUTOR]:   (generic)That's right!
+[LEARNER]: Awesome! 😊 So to recap:
+
+- First month: $350  
+- Second month: $750  
+- Third month: (unspecified for now, but the total will depend on that).  
+
+Let me know if you’d like to calculate anything further! 😄
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Grant has worked as a freelance math worker for the last three months.  The first month he made 494.8$.  The second month he made 70.6$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?
+[LEARNER]: Alright, let’s break this down step by step to find out how much Grant made in total during the three months.
+
+---
+
+### **Step 1: First month's earnings**
+Grant made **$494.8** in the first month.  
+So, for Month 1:  
+\[
+\text{Month 1 earnings} = 494.8
+\]
+
+---
+
+### **Step 2: Second month's earnings**
+The problem says Grant made **$70.6 more than double what he made in the first month** in the second month.  
+First, calculate double the first month’s earnings:  
+\[
+2 \times 494.8 = 989.6
+\]  
+Now, add $70.6 to this amount:  
+\[
+989.6 + 70.6 = 1,060.2
+\]  
+So, for Month 2:  
+\[
+\text{Month 2 earnings} = 1,060.2
+\]
+
+---
+
+### **Step 3: Third month's earnings**
+The problem says Grant **quadrupled the sum of the first two months** in the third month.  
+First, calculate the sum of the first two months:  
+\[
+494.8 + 1,060.2 = 1,555
+\]  
+Now, quadruple this amount:  
+\[
+4 \times 1,555 = 6,220
+\]  
+So, for Month 3:  
+\[
+\text{Month 3 earnings} = 6,220
+\]
+
+---
+
+### **Step 4: Total earnings over three months**
+Now, sum up the earnings from all three months:  
+\[
+494.8 + 1,060.2 + 6,220 = 7,775
+\]
+
+---
+
+### **Final Answer**:  
+Grant made **$7,775** in total over the three months. 🎉
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 491B1564
+──────────────────────────────────────────────────────────────────────

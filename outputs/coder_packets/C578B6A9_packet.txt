@@ -1,0 +1,51 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: C578B6A9                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Mr. Fortchaud turns on his heater on the 1st of November, 2005. The fuel tank was then full and contained 3,000 L. On January 1, 2006, the tank counter indicated that 180 L remained. Mr. Fortchaud again filled his tank completely. On 1 May 2006, Mr. Fortchaud decided to stop heating and he read 1,238 L on the meter. What the volume of fuel oil that was used between 1 November 2005 and 1 May 2006?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Ayisha, can you tell me how you got your answer?
+[LEARNER]: Sure! So, first, I looked at how much fuel was used from November 1 to January 1. The tank started with 3,000 L and by January 1, only 180 L was left. So I subtracted 180 from 3,000 and got 2,820 L used.
+
+Then, in the next part, from January 1 to May 1, I thought he filled the tank again, so he used another 3,000 L.
+
+Finally, I saw that on May 1, there was 1,238 L left in the tank. So I subtracted that from 3,000 and got 1,762 L used. I added all these together: 2,820 + 3,000 + 1,762 = 7,582 L used in total.
+
+[TUTOR]:   (focus)Wait, from November 1 to January 1, he used 2820 L of fuel. Then he used 1238 L out of 3000, which gives you what
+[LEARNER]: Oh, okay, I think I see what you're saying. So, if he used 2,820 L from November 1 to January 1, that part is right. Then, from January 1 to May 1, he used 1,238 L out of the 3,000 L he added when he refilled the tank.
+
+So, if I just use the 1,238 L for that part, I guess the total would be 2,820 + 1,238 = 4,058 L? Is that right? I'm not sure if I'm missing anything else.
+
+[TUTOR]:   (telling)that is correct!
+[LEARNER]: Oh, okay! So the total fuel used was actually 4,058 L. I think I understand it better now—he didn't use the entire 3,000 L after refilling, just the amount that was gone by May 1. Thanks for helping me figure that out!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Mr. Fortchaud turns on his heater on the 1st of November, 2721.9. The fuel tank was then full and contained 4.3,0 L. On January 1.3, 2506.4, the tank counter indicated that 232.4 L remained. Mr. Fortchaud again filled his tank completely. On 1.3 May 2533.2, Mr. Fortchaud decided to stop heating and he read 1.2,320.0 L on the meter. What the volume of fuel oil that was used between 1.4 November 2571.1 and 1.4 May 2960.8?
+[LEARNER]: Okay, let me try this step by step:
+
+1. First, I figure out how much fuel was used from November 1 to January 1. The tank started with 4,300 L and by January 1, only 232.4 L was left. So, I subtract:  
+   \( 4,300 - 232.4 = 4,067.6 \, \text{L used} \).
+
+2. Next, Mr. Fortchaud refilled the tank completely on January 1. Then, by May 1, the tank meter read 1,320.0 L. So, I calculate how much fuel was used after refilling:  
+   \( 4,300 - 1,320.0 = 2,980.0 \, \text{L used} \).
+
+3. Now, I add up the total fuel used:  
+   \( 4,067.6 + 2,980.0 = 7,047.6 \, \text{L used in total} \).
+
+So, my answer is **7,047.6 L**. I hope I got it right this time!
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET C578B6A9
+──────────────────────────────────────────────────────────────────────

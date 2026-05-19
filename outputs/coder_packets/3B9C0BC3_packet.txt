@@ -1,0 +1,50 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 3B9C0BC3                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Betty bought 1 kg of oranges and 3 kg of apples. The total cost of oranges was $12. The apples were two times cheaper than the oranges. How much did Betty pay for 1 kg of apples?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Let's take this step by step. Firstly, you have correctly calculated the cost of 3kg of apples. It is $6. If 3kg of apples is $6, what would 1kg of apples cost?
+[LEARNER]: Okay, I see.
+
+So, if 3 kg of apples cost $6, then to find the cost of 1 kg of apples, I need to divide the total cost by the number of kilograms:
+
+$6 / 3 kg = $2 per kg.
+
+So, 1 kg of apples costs $2.
+
+[TUTOR]:   (generic)That's the correct answer! Well done!
+[LEARNER]: Yay! So Betty paid $2 for 1 kg of apples. I think I was making it too hard before.
+
+[TUTOR]:   (generic)Do you have any questions?
+[LEARNER]: Not really, I think I get it now. Thanks!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Betty bought 1.2 kg of oranges and 4.4 kg of apples. The total cost of oranges was $17.8. The apples were two times cheaper than the oranges. How much did Betty pay for 1.2 kg of apples?
+[LEARNER]: Okay, I'll try it!
+
+First, since the apples are two times cheaper than the oranges, that means the cost of the apples is 1/2 times the cost of the oranges. So, the apples cost 1/2 * $17.8 = $8.9
+
+Then, Betty bought 1.2 kg of oranges and 4.4 kg of apples, so she bought 1.2 + 4.4 = 5.6 kg of fruit.
+
+So, the cost of 1 kg of fruit is $17.8 + $8.9 = $26.7
+
+Then, since $26.7 is the cost of 1 kg of oranges and 1 kg of apples, Betty paid $26.7 - $17.8 = $8.9 for 1.2 kg of apples.
+
+So the answer is $8.9
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 3B9C0BC3
+──────────────────────────────────────────────────────────────────────

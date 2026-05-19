@@ -1,0 +1,54 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: A44365B5                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Carly is trying to get in shape to try out for the soccer team. She starts by running 2 miles a week. The second week, she runs twice as long plus 3 extra miles per week. The third week she runs 9/7 as much as she ran the second week. The week after that, she sprains her ankle and has to reduce her running time by 5 miles per week. How many miles did she run the week she was injured?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi, do you want to tell me your solution?
+[LEARNER]: Sure! Here's what I did:
+
+First, I figured out the second week. Carly ran twice as long as 2 miles, so that's 4 miles, and then she added 3 extra miles. So, 4 + 3 = 7 miles for the second week.
+
+Then, for the third week, I calculated 9/7 of what she ran in the second week. So, (9/7) x 7 = 9 miles.
+
+Finally, in the fourth week, when she got injured, she reduced her running by 5 miles. I subtracted 5 from 7 (the miles from the second week), so 7 - 5 = 2 miles. That means she ran 2 miles the week she was injured.
+
+[TUTOR]:   (focus)OK, you are right up to your last step. If she ran 9 miles in the third week, and 5 miles less in the fourth, how many miles did she run in the fourth week?
+[LEARNER]: Oh, okay, I see what you're saying now. If she ran 9 miles in the third week, and she reduced that by 5 miles in the fourth week, then I should subtract 5 from 9 instead.
+
+So, 9 - 5 = 4 miles.
+
+That means she ran 4 miles in the fourth week when she was injured. Thank you for pointing that out!
+
+[TUTOR]:   (telling)yes that's correct
+[LEARNER]: Oh, okay! Thanks for helping me figure that out. So, in the fourth week, Carly ran 4 miles after reducing her running by 5 miles from the 9 miles in the third week. I'll try to be more careful with my subtraction next time!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Carly is trying to get in shape to try out for the soccer team. She starts by running 2.5 miles a week. The second week, she runs twice as long plus 3.8 extra miles per week. The third week she runs 10.9/10.1 as much as she ran the second week. The week after that, she sprains her ankle and has to reduce her running time by 6.4 miles per week. How many miles did she run the week she was injured?
+[LEARNER]: Okay, I'll try this step by step on my own:
+
+1. First, I need to figure out how many miles Carly ran in the second week. She ran twice as long as 2.5 miles, so that's 2 x 2.5 = 5 miles. Then, she added 3.8 extra miles. So, 5 + 3.8 = 8.8 miles in the second week.
+
+2. Next, for the third week, she ran 10.9/10.1 as much as she ran in the second week. So, I calculate (10.9 / 10.1) x 8.8. First, I divide 10.9 by 10.1, which is about 1.079. Then, I multiply that by 8.8:  
+   1.079 x 8.8 ≈ 9.49 miles (rounded to two decimal places). So, she ran about 9.49 miles in the third week.
+
+3. Finally, in the fourth week, when she was injured, she reduced her running by 6.4 miles from what she ran in the third week. So, I subtract 6.4 from 9.49:  
+   9.49 - 6.4 = 3.09 miles.
+
+So, Carly ran about 3.09 miles the week she was injured.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET A44365B5
+──────────────────────────────────────────────────────────────────────

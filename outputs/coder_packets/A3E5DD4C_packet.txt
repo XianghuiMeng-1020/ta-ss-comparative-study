@@ -1,0 +1,45 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: A3E5DD4C                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+This weekend's football game matched the Seattle Seahawks with the Denver Broncos. The final score was 37-23, with the Seattle Seahawks taking the win. If a touchdown is worth 7 points and a field goal is worth 3 points, how many touchdowns did the Seattle Seahawks score if they scored 3 field goals during the game?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Cody, can you tell me how you got your answer?
+[LEARNER]: The Seattle Seahawks scored 23 points in total, and they scored 3 field goals, which is 3 x 3 = 9 points from field goals.
+To find out how many points they scored from touchdowns, we can subtract the points from field goals from the total points: 23 - 9 = 14.
+Since a touchdown is worth 7 points, the Seattle Seahawks scored 14/7 = 2 touchdowns.
+
+[TUTOR]:   (focus)What was the total number of points the Seahawks scored?
+[LEARNER]: They scored 37 points.
+
+[TUTOR]:   (focus)But the final score was 37-23, and the Seahawks won.
+[LEARNER]: Oh! I see. I was looking at the wrong number. The Seattle Seahawks scored 37 points, not 23.
+
+So, they scored 37 points in total, and they scored 3 field goals, which is 3 x 3 = 9 points from field goals.
+To find out how many points they scored from touchdowns, we can subtract the points from field goals from the total points. I will do that in the next step.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+This weekend's football game matched the Seattle Seahawks with the Denver Broncos. The final score was 55.2-29.8, with the Seattle Seahawks taking the win. If a touchdown is worth 10.4 points and a field goal is worth 4.2 points, how many touchdowns did the Seattle Seahawks score if they scored 4.1 field goals during the game?
+[LEARNER]: Okay, I will try to solve this problem on my own.
+
+The Seattle Seahawks scored 55.2 points in total. They scored 4.1 field goals. Each field goal is worth 4.2 points, so the total points from field goals is 4.1 * 4.2 = 17.22 points.
+
+To find out how many points they scored from touchdowns, I need to subtract the points from field goals from the total points: 55.2 - 17.22 = 37.98.
+
+Since each touchdown is worth 10.4 points, the Seattle Seahawks scored 37.98 / 10.4 = 3.652 touchdowns.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET A3E5DD4C
+──────────────────────────────────────────────────────────────────────

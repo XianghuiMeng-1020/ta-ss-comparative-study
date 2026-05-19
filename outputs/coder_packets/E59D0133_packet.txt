@@ -1,0 +1,54 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: E59D0133                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Hi Mariana, this is almost correct. You've correctly calculated the price after 30% rise ($65), but then you make and error, can you see it?
+[LEARNER]: I think I see what you're getting at. I calculated the price after the 30% rise as $65, but then I didn't actually show the calculation or the original price. Could you please point out specifically where I went wrong? Was it in the calculation of the original price or in explaining the process?
+
+[TUTOR]:   (generic)That's right! Well done!
+[LEARNER]: I'm glad I was able to catch the mistake and understand what you were hinting at. However, I don't think I actually calculated the original price before the 30% rise, did I? If you'd like, I can try to redo the calculation and get the correct original price.
+
+[TUTOR]:   (generic)You know you can increase a number by 30% by timesing it by 1.3. So 1.3*50=65. Similarly, you can reduce a number by 20% by timesing it by 0.8. So 0.8*65=52. It can be a bit quicker to do it this way. But your answer and approach to the problem are correct.
+[LEARNER]: I didn't think of multiplying by 1.3 to get a 30% increase, but that's a much simpler and more efficient way to do it. And similarly, multiplying by 0.8 to get a 20% decrease is a great trick to know.
+
+I'll definitely keep these shortcuts in mind for future calculations. Thank you for sharing your expertise and for confirming that my original answer and approach were correct, even if there was a more efficient way to get there!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of RAM increased by 38.5%. After two years, the price stabilized and finally fell by 25.4% from what it has risen. What is the current price of RAM if it was $72.0 before the fire?
+[LEARNER]: To find the current price of RAM, I'll follow these steps:
+
+Step 1: Calculate the price of RAM after the 38.5% increase.
+
+To do this, I'll multiply the original price by 1.385 (since a 38.5% increase is the same as multiplying by 1 + 0.385).
+
+$72.0 x 1.385 = $99.72
+
+So, the price of RAM after the 38.5% increase is $99.72.
+
+Step 2: Calculate the price of RAM after the 25.4% decrease.
+
+To do this, I'll multiply the price after the increase by 0.746 (since a 25.4% decrease is the same as multiplying by 1 - 0.254).
+
+$99.72 x 0.746 = $74.38
+
+So, the current price of RAM after the 25.4% decrease is $74.38.
+
+Therefore, the current price of RAM is $74.38.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET E59D0133
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,52 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: EA9DF10B                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Harry decided to buy some balloons for his friend's birthday party. One balloon costs $0.5, and a pack of 10 balloons is cheaper and costs only $3. Finally, Harry wants to bring to the party exactly 14 balloons. How much did he need to pay for them?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi, can you explain your answer?
+[LEARNER]: So, I thought Harry needed to buy 2 packs of 10 balloons because that's the cheapest way to get a lot of balloons. That would give him 20 balloons, but he only needs 14. So, I figured he would buy 2 packs of 10, which is 2 x $3 = $6. Then, he would still need 4 more balloons to get to 14, so I added 4 x $0.5 = $2 for the individual balloons. That's how I got $8.
+
+[TUTOR]:   (generic)Hi Riya, can you tell me how you solved this?
+[LEARNER]: I read the problem and it said Harry wants 14 balloons. I saw that the pack of 10 balloons was cheaper, so I thought he should buy 2 packs of those. That would give him 20 balloons, which is more than he needs, but I didn't see how else to do it. Then, I thought, okay, he has 20 balloons, but he only needs 14, so he needs 4 more... no, wait, that's not right... he already has too many! But I didn't know what else to do, so I just added the cost of 4 more individual balloons to the cost of the 2 packs.
+
+[TUTOR]:   (focus)OK, let's go back to the question. If Harry needs 14 balloons, how many packs of 10 does he need?
+[LEARNER]: I think he needs 2 packs of 10 balloons because if he buys 1 pack, that's only 10 balloons and he needs 14. So, he needs to buy 2 packs to get at least 14.
+
+[TUTOR]:   (telling)He only needs one pack of 10, then he will buy 4 single balloons.
+[LEARNER]: So, Harry needs 1 pack of 10 balloons, which is $3. Then, he needs 4 more balloons to get to 14, so he buys 4 individual balloons for 4 x $0.5 = $2. That makes sense. So, the total cost would be $3 + $2 = $5.
+
+[TUTOR]:   (generic)Well done!
+[LEARNER]: I'm glad I could get it right eventually. I was stuck on the idea of buying 2 packs at first, but it makes sense now that he only needs 1 pack and a few extra balloons.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Harry decided to buy some balloons for his friend's birthday party. One balloon costs $0.6, and a pack of 15.0 balloons is cheaper and costs only $3.7. Finally, Harry wants to bring to the party exactly 18.9 balloons. How much did he need to pay for them?
+[LEARNER]: I think Harry needs to buy 2 packs of 15 balloons because that's the cheapest way to get a lot of balloons. That would give him 30 balloons, but he only needs 18.9 balloons. So, I'm not sure if I should buy 2 packs or just 1 pack and some individual balloons...
+
+Let me try to calculate the cost of buying 2 packs: 2 x $3.7 = $7.4
+
+But wait, he only needs 18.9 balloons, and 2 packs would give him too many. So, maybe I should buy 1 pack and some individual balloons instead?
+
+1 pack of 15 balloons costs $3.7, and that's not enough. He needs 18.9 - 15 = 3.9 more balloons.
+
+3.9 individual balloons cost 3.9 x $0.6 = $2.34
+
+So, the total cost would be $3.7 + $2.34 = $6.04.
+
+Is that right?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET EA9DF10B
+──────────────────────────────────────────────────────────────────────

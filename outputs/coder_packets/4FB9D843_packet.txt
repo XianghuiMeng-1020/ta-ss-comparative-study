@@ -1,0 +1,56 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 4FB9D843                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hello DeAndre, Can you explain to me how you got to your answer?
+[LEARNER]: Okay, hey! Yeah, no problem. So, where specifically are you getting stuck? Like, which step isn't making sense? If you can point me to that, I can walk you through my thought process and explain how I got to that part. Just let me know!
+
+[TUTOR]:   (probing)Ok. You have worked out the weight of the dog and the number of people that can fit inside the canoe. Now lets think more specifically about the weight of the people in the canoe?
+[LEARNER]: Okay, so you want to focus on the weight of the people in the canoe now? Got it. Are you asking about how to *calculate* the total weight of the people, or are you thinking about something else, like how the weight distribution affects the canoe or something? Just trying to understand what you're getting at so I can help!
+
+[TUTOR]:   (focus)Yes exactly that now. Can you see how you have now given me a different answer to your original one?
+[LEARNER]: Okay, I think I see what you're saying. Are you pointing out that by focusing on the *distribution* of the weight, rather than just the *total* weight, we might need to re-evaluate the answer? Like, maybe the canoe can technically hold the total weight of the people and the dog, but if they're all crammed on one side, it'll tip? Is that what you mean? Because if so, yeah, that makes a lot of sense! I totally overlooked that!
+
+[TUTOR]:   (telling)Well done.
+[LEARNER]: Okay, great! So, now that we've identified that the weight distribution is important, what do you think we should do next to take that into account? Should we assume the people distribute themselves evenly, or should we look for more information about the canoe's stability? Just thinking out loud here!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Penny's canoe can carry 7.9 people, but if she wants to take her dog, she will only fit 2.5/3.7 of that number inside. If every person in a trip where Penny had her dog inside the canoe weighed 191.2 pounds, and the dog 1.4/5.5 as much weight, calculate the total weight the canoe was carrying?
+[LEARNER]: Okay, I'll give it a shot! Here's my reasoning step-by-step:
+
+1.  **People capacity with the dog:** The canoe can carry 7.9 people, but with the dog, it only fits 2.5/3.7 of that number. So, the number of people that can fit with the dog is (2.5/3.7) * 7.9.
+
+    *   Calculation: (2.5 / 3.7) * 7.9 = 5.33 (approximately)
+
+    *   Since we can't have a fraction of a person, I'll round this *down* to 5 people. We need to be conservative since we can't overload the canoe.
+2.  **Dog's weight:** The dog weighs 1.4/5.5 as much as one person. One person weighs 191.2 pounds, so the dog's weight is (1.4/5.5) * 191.2.
+
+    *   Calculation: (1.4 / 5.5) * 191.2 = 48.69 pounds (approximately)
+3.  **Total weight of the people:** There are 5 people, and each person weighs 191.2 pounds, so the total weight of the people is 5 * 191.2.
+
+    *   Calculation: 5 * 191.2 = 956 pounds
+4.  **Total weight in the canoe:** The total weight is the weight of the people plus the weight of the dog.
+
+    *   Calculation: 956 + 48.69 = 1004.69 pounds
+
+**Therefore, the total weight the canoe was carrying is approximately 1004.69 pounds.**
+
+Okay, how does that look? Did I make any mistakes in my reasoning or calculations? I'm especially unsure about the rounding down part...
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 4FB9D843
+──────────────────────────────────────────────────────────────────────

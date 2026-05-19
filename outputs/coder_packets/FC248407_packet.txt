@@ -1,0 +1,117 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: FC248407                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Carmen needs $7 more to have twice the amount of money that Jethro has. Meanwhile, Patricia has $60, which is 3 times as much as Jethro. What is the sum of all their money?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi can you talk me through your answer
+[LEARNER]: Okay! I can see where I went wrong. I need to slow down and be more careful.
+
+First, Jethro has 1/3 of Patricia's money, which is 1/3 * 60 = $20. That part is correct.
+
+But then I messed up Carmen's money. The problem says Carmen needs $7 more to have twice the amount of money that Jethro has. That means twice Jethro's money is 2 * $20 = $40. Since Carmen needs $7 *more* to reach that amount, she must have $7 *less* than $40. So Carmen has $40 - $7 = $33.
+
+Finally, the total amount of money is $60 + $20 + $33 = $113.
+
+So the correct answer is $113, and I was wrong to say $127.
+
+[TUTOR]:   (probing)ok i can see you have worked out that jethro had 20 and twice that is 40. if carmen needs 7 more to get to 40 how much does she have
+[LEARNER]: Okay, I think I understand what you're asking.
+
+If Carmen *needs* $7 more to have $40, that means the amount she currently has, plus $7, would equal $40. So, to find out how much she has, I need to subtract $7 from $40. That gives me $40 - $7 = $33. So Carmen has $33. Is that what you were asking?
+
+[TUTOR]:   (focus)no she doest have 40 yet she needs 7 more
+[LEARNER]: You are right! I see, I was jumping ahead.
+
+The problem says Carmen needs $7 more to have twice the amount of money Jethro has.
+
+Twice the amount of money Jethro has is 2 * $20 = $40.
+
+Since she *needs* $7 more to have $40, she doesn't have $40 yet. She has $7 *less* than $40. So Carmen has $40 - $7 = $33.
+
+I think I am back on track now.
+
+[TUTOR]:   (focus)so if she doesnt yet have 40 and needs 7 more how much does she have
+[LEARNER]: Okay, I see what I'm doing wrong now. I keep saying the same thing! You are making me slow down, and I appreciate it.
+
+Let me try saying it a different way.
+
+Carmen needs $7 more to have twice the amount of Jethro.
+Twice the amount of Jethro is 2 * $20 = $40.
+So, Carmen + $7 = $40.
+To find Carmen's money, I need to subtract $7 from $40.
+Carmen = $40 - $7 = $33.
+Carmen has $33.
+
+I think I finally understand the question you were asking and have not made a mistake this time.
+
+[TUTOR]:   (telling)40-7=
+[LEARNER]: $40 - $7 = $33.
+
+I think I understand now. You were making me check my arithmetic to make sure I wasn't making a silly mistake. And you were also making me explain my reasoning step by step. I think I've got it now!
+
+[TUTOR]:   (focus)yes 33 so how much money do patricia, jethro and carmen have altogether
+[LEARNER]: Okay, I can do that!
+
+Patricia has $60.
+Jethro has $20.
+Carmen has $33.
+
+So, altogether they have $60 + $20 + $33 = $113.
+
+The sum of all their money is $113.
+
+[TUTOR]:   (focus)you just told me carmen had 33
+[LEARNER]: Yes, you are absolutely right! I am so sorry. I was double-checking my addition and must have gotten distracted.
+
+$60 (Patricia) + $20 (Jethro) + $33 (Carmen) = $113
+
+The total is $113. Thanks for pointing out my mistake! I need to be more careful.
+
+[TUTOR]:   (probing)60+20+33=
+[LEARNER]: $60 + $20 + $33 = $113
+
+I was right that time, but I wrote the wrong thing in the previous turn. Thanks for keeping me on my toes!
+
+[TUTOR]:   (telling)no carmen has 33 as you previously told me 40-7=33
+[LEARNER]: Yes, you are completely correct. Carmen has $33. I am not sure why I am making so many mistakes, but I appreciate you helping me to correct them.
+
+Patricia: $60
+Jethro: $20
+Carmen: $33
+
+Total: $60 + $20 + $33 = $113
+
+So the final answer is $113.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Carmen needs $9.2 more to have twice the amount of money that Jethro has. Meanwhile, Patricia has $85.6, which is 3.9 times as much as Jethro. What is the sum of all their money?
+[LEARNER]: Okay, I will try this problem on my own.
+
+First, I need to find out how much money Jethro has. Patricia has 3.9 times as much as Jethro, and Patricia has $85.6. So, Jethro has $85.6 / 3.9 = $22.
+
+Next, I need to find out how much money Carmen has. Carmen needs $9.2 more to have twice the amount of money that Jethro has. Twice the amount of Jethro's money is 2 * $22 = $44. Since Carmen needs $9.2 more to have $44, she currently has $44 - $9.2 = $34.8.
+
+Finally, I need to find the sum of all their money.
+Patricia: $85.6
+Jethro: $22
+Carmen: $34.8
+Total: $85.6 + $22 + $34.8 = $142.4
+
+So the sum of all their money is $142.4.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET FC248407
+──────────────────────────────────────────────────────────────────────

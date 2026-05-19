@@ -1,0 +1,72 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: CC24BC95                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Lori owns a carsharing company. There are three red cars and two white cars available to rent. Renting the white car costs $2 for every minute and the red car $3 for every minute. All cars were rented for 3 hours. How much money did Lori earn?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Brenda, could you please walk me through your solution?
+[LEARNER]: Hi! Here's what I did:
+
+First, I converted 3 hours to 180 minutes.
+
+Then I calculated that renting one white car costs 2 × 180 = $360.
+
+For the red cars, I calculated that one red car costs 3 × 180 = $540.
+
+Since there are three red cars, I multiplied 3 × 540 = $1620 for all red cars.
+
+Then I added the white car cost: 1620 + 360 = $1980 total.
+
+Is there something wrong with one of these steps?
+
+[TUTOR]:   (focus)there seems to be a mistake here. did you calculate the rent for 2 white cars?
+[LEARNER]: Oh, I see what I did wrong! I only calculated the cost for one white car ($360), but there are two white cars that were rented.
+
+Let me revise: The cost for two white cars should be 2 × 360 = $720.
+
+So the total should be 1620 + 720 = $2340.
+
+Is that correct now?
+
+[TUTOR]:   (generic)welldone
+[LEARNER]: Thank you! I understand now — I need to make sure I account for all the cars, not just one of each type.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Lori owns a carsharing company. There are three red cars and two white cars available to rent. Renting the white car costs $3.0 for every minute and the red car $4.0 for every minute. All cars were rented for 3.9 hours. How much money did Lori earn?
+[LEARNER]: Let me work through this step by step.
+
+First, I'll convert 3.9 hours to minutes:
+3.9 hours × 60 minutes/hour = 234 minutes
+
+Next, I'll calculate the cost for one white car:
+$3.0 × 234 minutes = $702
+
+Since there are two white cars:
+2 × $702 = $1404
+
+Now for one red car:
+$4.0 × 234 minutes = $936
+
+Since there are three red cars:
+3 × $936 = $2808
+
+Finally, the total earned:
+$1404 + $2808 = $4212
+
+Lori earned $4212.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET CC24BC95
+──────────────────────────────────────────────────────────────────────

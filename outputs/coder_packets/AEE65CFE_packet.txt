@@ -1,0 +1,106 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: AEE65CFE                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Ayisha, can you tell me how you got your answer?
+[LEARNER]: It seems like you're referring to an answer Ayisha might have given. Without additional context, I can't comment on her specific reasoning. However, if you'd like, you can share the question or topic, and I can try to explain how someone might arrive at an answer. Let me know how I can assist!
+
+[TUTOR]:   (focus)Wait, from November 1 to January 1, he used 2820 L of fuel. Then he used 1238 L out of 3000, which gives you what
+[LEARNER]: Let's break it down step by step:
+
+1. **From November 1 to January 1:**
+   He used **2820 liters** of fuel.
+
+2. **Next, he had 3000 liters of fuel, and he used 1238 liters from it:**
+   To find how much fuel is left, subtract the amount he used (1238 liters) from the total he had (3000 liters):
+   \[
+   3000 - 1238 = 1762 \, \text{liters}.
+   \]
+
+So, after using 1238 liters out of 3000 liters, **1762 liters** remain.
+
+[TUTOR]:   (telling)that is correct!
+[LEARNER]: Thank you! 😊 I'm glad we got it right together. If you have any more questions, feel free to ask! 🚀
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Mr. Fortchaud turns on his heater on the 1st of November, 2721.9. The fuel tank was then full and contained 4.3,0 L. On January 1.3, 2506.4, the tank counter indicated that 232.4 L remained. Mr. Fortchaud again filled his tank completely. On 1.3 May 2533.2, Mr. Fortchaud decided to stop heating and he read 1.2,320.0 L on the meter. What the volume of fuel oil that was used between 1.4 November 2571.1 and 1.4 May 2960.8?
+[LEARNER]: Let's carefully analyze and break down the problem step by step to determine the volume of fuel oil used between the given dates. I'll clearly state each step of my reasoning.
+
+---
+
+### **Step 1: Understand the problem and initial data**
+We are tasked with calculating the total volume of fuel oil used between **November 1.4, 2571.1** and **May 1.4, 2960.8**. The problem includes several readings of fuel usage and refills, and we'll systematically calculate the total usage.
+
+---
+
+### **Step 2: Initial fuel usage (November to January)**
+
+- On **November 1.4, 2571.1**, the tank was full with **4,3.0 L** of fuel.
+- On **January 1.3, 2506.4**, the tank counter indicated **232.4 L remained**.
+
+The amount of fuel used from November to January is:
+\[
+\text{Fuel used} = \text{Initial amount} - \text{Remaining amount}
+\]
+\[
+\text{Fuel used} = 4,3.0 - 232.4 = 3,797.6 \, \text{L}.
+\]
+
+So, **3,797.6 L** of fuel was used from November to January.
+
+---
+
+### **Step 3: Refilling the tank**
+
+- After January 1.3, 2506.4, Mr. Fortchaud refilled the tank completely to **4,3.0 L** again.
+
+---
+
+### **Step 4: Final reading in May**
+
+- On **May 1.4, 2960.8**, the tank counter indicated **1,2,320.0 L** of fuel remaining.
+
+The amount of fuel used from January to May is:
+\[
+\text{Fuel used} = \text{Initial amount after refill} - \text{Remaining amount}
+\]
+\[
+\text{Fuel used} = 4,3.0 - 1,2,320.0 = 2,010.0 \, \text{L}.
+\]
+
+So, **2,010.0 L** of fuel was used from January to May.
+
+---
+
+### **Step 5: Total fuel used**
+
+To find the total fuel used from **November to May**, we add the fuel used in both periods (November to January, and January to May):
+\[
+\text{Total fuel used} = \text{Fuel used (Nov–Jan)} + \text{Fuel used (Jan–May)}
+\]
+\[
+\text{Total fuel used} = 3,797.6 + 2,010.0 = 5,807.6 \, \text{L}.
+\]
+
+---
+
+### **Final Answer:**
+The total volume of fuel oil used between **November 1.4, 2571.1
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET AEE65CFE
+──────────────────────────────────────────────────────────────────────

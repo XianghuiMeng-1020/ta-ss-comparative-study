@@ -1,0 +1,52 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: B1A3CC9A                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+There are one-third as many Ford trucks as Dodge trucks in the parking lot of the Taco Castle.  But there are twice as many Ford trucks as Toyota trucks in this parking lot, and there are half as many Volkswagen Bugs as there are Toyota trucks in this same parking lot.  If there are 5 Volkswagon Bugs in the parking lot, how many Dodge trucks are in the parking lot of the Taco Castle?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Luca, please talk me thorugh your solution
+[LEARNER]: Okay, so first I looked at the part that said "there are half as many Volkswagen Bugs as there are Toyota trucks." Since there are 5 Volkswagen Bugs, I figured there must be 5 x 2 = 10 Toyota trucks.
+
+Then, the problem says "there are twice as many Ford trucks as Toyota trucks," so that means there are 2 x 5 = 10 Ford trucks.
+
+Finally, it says "there are one-third as many Ford trucks as Dodge trucks." So I did 10 x 3 = 30, which means there are 30 Dodge trucks. So my answer is 30.
+
+[TUTOR]:   (focus)a good try. lets take it a step at a time. we dont yet know how many toyota trucks there are. We know there are 5 VW Bugs and that this is half the number of Toyota trucks. can you work out the number of toyota trucks?
+[LEARNER]: Okay, if the number of VW bugs is half the number of Toyota trucks, and there are 5 VW bugs, then to find the number of Toyota trucks I need to double the number of VW bugs. So that would be 5 x 2 = 10 Toyota trucks. There are 10 Toyota trucks.
+
+[TUTOR]:   (probing)excellent. as you corrcetly said, there are twice as many Ford trucks as Toyota trucks. can you double the number of Toyota trucks?
+[LEARNER]: Okay, so if there are twice as many Ford trucks as Toyota trucks, and we know there are 10 Toyota trucks, then I need to multiply 10 by 2. So, 10 x 2 = 20. That means there are 20 Ford trucks.
+
+[TUTOR]:   (probing)excellent., what do we know about the number of Ford trucks in relation to the number of Dodge trucks?
+[LEARNER]: The problem says "there are one-third as many Ford trucks as Dodge trucks."
+
+[TUTOR]:   (generic)well done!
+[LEARNER]: So, if there are one-third as many Ford trucks as Dodge trucks, and we know there are 20 Ford trucks, then that means 20 is one-third of the number of Dodge trucks. To find the number of Dodge trucks, I need to multiply 20 by 3. So, 20 x 3 = 60. There are 60 Dodge trucks.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+There are one-third as many Ford trucks as Dodge trucks in the parking lot of the Taco Castle.  But there are twice as many Ford trucks as Toyota trucks in this parking lot, and there are half as many Volkswagen Bugs as there are Toyota trucks in this same parking lot.  If there are 6.9 Volkswagon Bugs in the parking lot, how many Dodge trucks are in the parking lot of the Taco Castle?
+[LEARNER]: Okay, so this is just like the last problem.
+
+First, "there are half as many Volkswagen Bugs as there are Toyota trucks." So I need to multiply the number of VW bugs by 2 to get the number of Toyota trucks. That's 6.9 x 2 = 13.8 Toyota trucks.
+
+Next, "there are twice as many Ford trucks as Toyota trucks." So I need to multiply the number of Toyota trucks by 2 to get the number of Ford trucks. That's 13.8 x 2 = 27.6 Ford trucks.
+
+Finally, "there are one-third as many Ford trucks as Dodge trucks." So I need to multiply the number of Ford trucks by 3 to get the number of Dodge trucks. That's 27.6 x 3 = 82.8 Dodge trucks.
+
+So there are 82.8 Dodge trucks in the parking lot.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET B1A3CC9A
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,76 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 09E80F6B                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi, tell me your thoughts
+[LEARNER]: Hi! Sure, what’s on your mind? Are you working on a specific math problem or concept? Let me know how I can help!
+
+[TUTOR]:   (focus)ok, explain how you got there
+[LEARNER]: Oh, sure! Could you clarify which part you’d like me to explain? Are we talking about solving an equation, simplifying something, or maybe about a specific math concept? Let me know so I can walk you through it step by step!
+
+[TUTOR]:   (focus)Youre right that he spent 72$ on his friends. You need to subtract this ffrom the inital 100 to find out how much he has to spend on his parents
+[LEARNER]: Got it! So if he started with $100 and spent $72 on his friends, we subtract $72 from $100 to figure out what’s left for his parents:
+
+\[
+100 - 72 = 28
+\]
+
+That means he has $28 left to spend on his parents. Thanks for pointing that out—it’s always good to break it down step by step!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jaco wants to buy Christmas gifts for his 11.5 friends that are worth $11.8 each.  Also, he wants to buy gifts for his mother and father that are of the same amount. He has a $148.2 budget to buy all gifts. How much is Jaco's budget for each of his mother and father's gift?
+[LEARNER]: Okay, let’s break this problem down step by step! I’ll solve it carefully.
+
+### Step 1: Calculate how much Jaco spends on his friends.
+Jaco has **11.5 friends**, and each gift costs **$11.8**. To find the total cost for his friends, we multiply:
+
+\[
+11.5 \times 11.8 = 135.7
+\]
+
+So, Jaco spends **$135.70** on gifts for his friends.
+
+---
+
+### Step 2: Subtract the amount spent on his friends from his total budget.
+Jaco’s total budget is **$148.2**. To find out how much he has left for his parents, we subtract the amount spent on friends:
+
+\[
+148.2 - 135.7 = 12.5
+\]
+
+Jaco has **$12.50** left to buy gifts for his mother and father.
+
+---
+
+### Step 3: Calculate the budget for each parent's gift.
+Jaco wants to spend an equal amount on both his mother and father. Since he has **$12.50** left to spend on two gifts, we divide that amount by 2:
+
+\[
+12.5 \div 2 = 6.25
+\]
+
+---
+
+### Final Answer:
+Jaco’s budget for each of his mother and father’s gifts is **$6.25**.
+
+Let me know if anything was unclear, or if I made a mistake anywhere! 😊
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 09E80F6B
+──────────────────────────────────────────────────────────────────────

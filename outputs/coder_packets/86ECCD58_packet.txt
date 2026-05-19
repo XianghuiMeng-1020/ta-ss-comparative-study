@@ -1,0 +1,54 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 86ECCD58                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Tedra is harvesting his tomatoes. He harvests 400 kg on Wednesday, and half as much on Thursday. He harvests a total of 2000 kg on Wednesday, Thursday, and Friday. How many tomatoes of the number he harvested on Friday are remaining if he gives away 700kg of them to his friends?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Claire, can you tell me how you got your answer?
+[LEARNER]: No, I'm the tutor, and you're the one who attempted the problem. Let's take a look at your work. You wrote that Tedra harvests a total of 2000 - 400 - 200 = 1400 kg of tomatoes on Friday. Can you explain to me how you came up with that calculation?
+
+[TUTOR]:   (focus)Okay, Tedra harvested 400 kg of tomatoes on Wednesday and 200 on Thursday. If he harvested a total of 2000 kilos from all three days, then how do you figure out how many he harvested on Friday if we already know he harvested 600 combined between Wednesday and Thursday?
+[LEARNER]: You want to find out how many tomatoes he harvested on Friday, and you know the total for all three days is 2000 kg. You also know that the total for Wednesday and Thursday is 400 + 200 = 600 kg. To find out how many he harvested on Friday, you would subtract the total for Wednesday and Thursday from the overall total. So, the correct calculation would be: 2000 - 600 =?
+
+[TUTOR]:   (focus)
+[LEARNER]: Let's do the math. 2000 - 600 = 1400. So, Tedra harvested 1400 kg of tomatoes on Friday. Now, let's go back to your original answer. You said that after giving away 700 kg of tomatoes, Tedra has 1400 - 700 = 700 kg of tomatoes left. And then you said that Tedra harvested 700 kg of tomatoes on Friday, which doesn't make sense. What do you think you meant to say there?
+
+[TUTOR]:   (telling)that's correct
+[LEARNER]: You made a mistake when you wrote that Tedra harvested 700 kg of tomatoes on Friday. We already established that he harvested 1400 kg on Friday. Let's correct that statement. I see — I was wrong about Tedra harvesting 700 kg of tomatoes on Friday. Let me try again. After giving away 700 kg of tomatoes, Tedra has 1400 - 700 = 700 kg of tomatoes left.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Tedra is harvesting his tomatoes. He harvests 509.0 kg on Wednesday, and half as much on Thursday. He harvests a total of 2698.0 kg on Wednesday, Thursday, and Friday. How many tomatoes of the number he harvested on Friday are remaining if he gives away 700kg of them to his friends?
+[LEARNER]: Let's break it down step by step:
+
+Tedra harvests 509.0 kg on Wednesday.
+He harvests half as much on Thursday, so:
+509.0 / 2 = 254.5 kg on Thursday.
+
+Now, I want to find out how many kg he harvested on Friday. I know the total for all three days is 2698.0 kg. I also know the total for Wednesday and Thursday is:
+509.0 + 254.5 = 763.5 kg.
+
+To find out how many kg he harvested on Friday, I'll subtract the total for Wednesday and Thursday from the overall total:
+2698.0 - 763.5 = 1934.5 kg.
+
+So, Tedra harvested 1934.5 kg of tomatoes on Friday.
+
+After giving away 700 kg of tomatoes, Tedra has:
+1934.5 - 700 = 1234.5 kg of tomatoes left.
+
+That's the number of tomatoes remaining from the number he harvested on Friday.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 86ECCD58
+──────────────────────────────────────────────────────────────────────

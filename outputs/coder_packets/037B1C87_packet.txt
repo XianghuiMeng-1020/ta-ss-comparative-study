@@ -1,0 +1,100 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 037B1C87                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Marta was about to start the school year and needed to buy the necessary textbooks. She managed to buy five on sale, for $10 each. She had to order two textbooks online, which cost her a total of $40, and three she bought directly from the bookstore for a total of three times the cost of the online ordered books. How much in total did Martha spend on textbooks?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Could you please walk me through your solution?
+[LEARNER]: I'll walk through my solution step by step:
+
+1. First, I calculated the cost of the five textbooks on sale: 5 × $10 = $50
+
+2. Then I added the cost of the two online textbooks: $40
+
+3. Next, I figured out the cost per online textbook: $40 ÷ 2 = $20
+
+4. For the three textbooks from the bookstore, I calculated: 3 × $20 = $60
+
+5. Finally, I added everything together: $50 + $40 + $60 = $150
+
+That's how I got my answer of $150 total.
+
+[TUTOR]:   (focus)Your answer is incorrect, have another go
+[LEARNER]: Let me look at this again more carefully.
+
+Marta spent 5 × $10 = $50 on the textbooks bought on sale.
+She spent $40 on online textbooks.
+
+Wait - the problem says the three textbooks from the bookstore cost "three times the cost of the online ordered books." The online books cost $40 total, so the bookstore books should cost 3 × $40 = $120, not $60.
+
+So the total should be: $50 + $40 + $120 = $210
+
+Is that correct?
+
+[TUTOR]:   (focus)I've already told you the answer is wrong. So it can not be $150
+[LEARNER]: You're right - I apologize. I see my mistake now.
+
+I was wrong about the bookstore calculation. Let me recalculate:
+
+Marta spent 5 × $10 = $50 on sale textbooks.
+She spent $40 on online textbooks.
+The three bookstore textbooks cost three times the online books: 3 × $40 = $120
+
+Total: $50 + $40 + $120 = $210
+
+So Marta spent $210 total on textbooks.
+
+[TUTOR]:   (focus)How much did she spend in the sale
+[LEARNER]: She spent 5 × $10 = $50 in the sale.
+
+[TUTOR]:   (focus)How much did she spend in the book store
+[LEARNER]: She spent 3 × $40 = $120 in the bookstore.
+
+[TUTOR]:   (focus)How much did she pend online
+[LEARNER]: She spent $40 online.
+
+[TUTOR]:   (focus)3 times the cost of the online at $40
+[LEARNER]: 3 × $40 = $120
+
+[TUTOR]:   (focus)Recalculate
+[LEARNER]: Let me add it all up again:
+
+Sale: $50
+Online: $40
+Bookstore: $120
+
+Total: $50 + $40 + $120 = $210
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Marta was about to start the school year and needed to buy the necessary textbooks. She managed to buy five on sale, for $12.5 each. She had to order two textbooks online, which cost her a total of $52.9, and three she bought directly from the bookstore for a total of three times the cost of the online ordered books. How much in total did Martha spend on textbooks?
+[LEARNER]: Let me work through this step by step:
+
+1. First, I'll calculate the cost of the five textbooks on sale:
+   5 × $12.5 = $62.5
+
+2. Next, the cost of the two online textbooks:
+   $52.9
+
+3. Now, the three textbooks from the bookstore cost three times the cost of the online ordered books:
+   3 × $52.9 = $158.7
+
+4. Finally, I'll add everything together:
+   $62.5 + $52.9 + $158.7 = $274.1
+
+Therefore, Marta spent a total of $274.1 on textbooks.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 037B1C87
+──────────────────────────────────────────────────────────────────────

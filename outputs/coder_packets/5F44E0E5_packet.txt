@@ -1,0 +1,99 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 5F44E0E5                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Claire, can you tell me how you got your answer?
+[LEARNER]: I'd be happy to explain how I got my answer! However, I don't see a previous question or answer in our conversation history. This appears to be the start of our conversation.
+
+Could you please:
+1. Let me know what question you're referring to, or
+2. Ask me the question you'd like me to answer, and then I can explain my reasoning?
+
+Once you provide more context, I'll be glad to walk you through my thought process step by step!
+
+[TUTOR]:   (focus)Okay, Tedra harvested 400 kg of tomatoes on Wednesday and 200 on Thursday. If he harvested a total of 2000 kilos from all three days, then how do you figure out how many he harvested on Friday if we already know he harvested 600 combined between Wednesday and Thursday?
+[LEARNER]: Great question! Let me walk you through the logical steps:
+
+**Given information:**
+- Wednesday: 400 kg
+- Thursday: 200 kg
+- Wednesday + Thursday combined: 600 kg
+- Total from all three days: 2000 kg
+- Unknown: Friday's harvest
+
+**Solution:**
+
+Since we know:
+- Total harvest = Wednesday + Thursday + Friday
+- 2000 kg = 600 kg + Friday
+
+To find Friday's harvest, we subtract what we already know from the total:
+- Friday = 2000 kg - 600 kg
+- **Friday = 1400 kg**
+
+**The reasoning:** If Tedra harvested 2000 kg total across three days, and we already know that 600 kg came from Wednesday and Thursday, then the remaining amount must have come from Friday. It's basically: Total - Known amounts = Unknown amount.
+
+Does this explanation make sense?
+
+[TUTOR]:   (focus)
+[LEARNER]: I'm here and ready to help! It looks like you might have accidentally sent a blank message. 
+
+Did you have a follow-up question about the tomato harvest problem, or is there something else you'd like me to explain or work through with you?
+
+[TUTOR]:   (telling)that's correct
+[LEARNER]: Great! I'm glad the explanation made sense to you. 
+
+The key concept here is that when you know the total and some of the parts, you can find the missing part by subtraction. It's a fundamental problem-solving approach that applies to many situations.
+
+If you have any other math problems or questions you'd like help with, feel free to ask!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Tedra is harvesting his tomatoes. He harvests 492.7 kg on Wednesday, and half as much on Thursday. He harvests a total of 2926.0 kg on Wednesday, Thursday, and Friday. How many tomatoes of the number he harvested on Friday are remaining if he gives away 700kg of them to his friends?
+[LEARNER]: Great! Let me work through this step by step.
+
+**Given information:**
+- Wednesday: 492.7 kg
+- Thursday: half as much as Wednesday
+- Total from all three days: 2926.0 kg
+- Tedra gives away 700 kg from Friday's harvest
+- Unknown: How many kg from Friday remain after giving some away
+
+**Step 1: Find Thursday's harvest**
+Thursday = half of Wednesday
+Thursday = 492.7 kg ÷ 2
+Thursday = 246.35 kg
+
+**Step 2: Find combined harvest for Wednesday and Thursday**
+Wednesday + Thursday = 492.7 kg + 246.35 kg
+Wednesday + Thursday = 739.05 kg
+
+**Step 3: Find Friday's harvest**
+Total = Wednesday + Thursday + Friday
+2926.0 kg = 739.05 kg + Friday
+Friday = 2926.0 kg - 739.05 kg
+Friday = 2186.95 kg
+
+**Step 4: Find remaining tomatoes after giving away 700 kg**
+Remaining = Friday's harvest - Amount given away
+Remaining = 2186.95 kg - 700 kg
+**Remaining = 1486.95 kg**
+
+**Answer: 1486.95 kg of tomatoes remain from Friday's harvest.**
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 5F44E0E5
+──────────────────────────────────────────────────────────────────────

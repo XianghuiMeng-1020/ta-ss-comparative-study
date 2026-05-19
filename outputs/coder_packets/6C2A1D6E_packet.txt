@@ -1,0 +1,40 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 6C2A1D6E                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Gina is considered a bad tipper because she tipped 5%. If good tippers tip at least 20%, how many more cents than normal would Gina have to tip on a bill of $26 to be considered a good tipper?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi , could you please walk me through your solution?
+[LEARNER]: I calculated the 20% tip on the $26 bill, which is 0.2 x 26 = $5.20. Then I calculated the 5% tip, which is 0.05 x 26 = $1.30. To reach the 20% tip level, I thought I needed to find the difference between the two percentages, so I did 20% - 5% = 15%. Then I calculated 15% of $26, which is 0.15 x 26 = $3.90 or 390 cents. Finally, I subtracted the 5% tip from this amount to get 390 - 130 = 260 cents. This is how much more Gina needs to tip to be considered a good tipper.
+
+[TUTOR]:   (focus)hunter well done. but you see if gina needs to tip 15% more to be a good tipper then that is the answer. you dont need to subtract the 5% tip from the 15%.
+[LEARNER]: I see what you're saying. I think I made a mistake by subtracting the 5% tip from the 15% tip. But I'm not sure... So, if Gina needs to tip 15% more to be a good tipper, then I just need to find 15% of $26, which is 0.15 x 26 = $3.90 or 390 cents. So, the answer is 390 cents?
+
+[TUTOR]:   (generic)well done
+[LEARNER]: I'm glad I was able to understand where I went wrong. So, just to make sure, the answer is 390 cents, right? I don't need to do anything else?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Gina is considered a bad tipper because she tipped 6.6%. If good tippers tip at least 27.3%, how many more cents than normal would Gina have to tip on a bill of $34.3 to be considered a good tipper?
+[LEARNER]: Let's break it down step by step.
+
+First, I need to find the difference between the two percentages: 27.3% - 6.6% = 20.7%. This is how much more Gina needs to tip to be a good tipper.
+
+Next, I need to find 20.7% of the total bill, which is $34.30. To do this, I'll multiply 0.207 by 34.30. This gives me 0.207 x 34.30 = $7.10.
+
+So, Gina needs to tip an additional $7.10 to be considered a good tipper. To convert this to cents, I'll multiply by 100: $7.10 x 100 = 710 cents.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 6C2A1D6E
+──────────────────────────────────────────────────────────────────────

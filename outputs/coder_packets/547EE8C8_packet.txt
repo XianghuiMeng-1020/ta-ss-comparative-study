@@ -1,0 +1,77 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 547EE8C8                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Can you walk me through how you solved the problem?
+[LEARNER]: Okay, sure! So, first, I looked at the problem and tried to figure out what it was *really* asking. Then, I thought about which formulas or concepts might be relevant. I tried to break the problem down into smaller, more manageable steps.  
+
+Did that make sense as a starting point?  Which part are you particularly interested in hearing more about? Should I go into more detail about a specific formula or the way I broke down the problem? Just let me know!
+
+[TUTOR]:   (focus)It looks like you missed a step. The problem says that Bobby could deadlift 100 pounds more than 250% of his deadlift at 13. How much would that be?
+[LEARNER]: Oh! You're absolutely right, I totally missed that key detail about the 250%! Okay, so let's back up and look at that again. I see how the problem is different now.
+
+So, first we need to figure out what 250% of his deadlift at 13 was, right? And then we have to add 100 to that.
+
+Does that sound like the right approach? Should I try to work through the calculation now, or do you want to talk about the percentage part first?
+
+[TUTOR]:   (focus)You did not calculate that correctly. You calculated 150% of Bobby's deadlift instead of 250% of his deadlift. What would the calculation be now?
+[LEARNER]: Oh my gosh, you're totally right! I mixed up the percentages AGAIN. Okay, okay, so I need to be more careful.
+
+So, I should have calculated 250% of his deadlift at 13, which was 100. 250% is the same as 2.5 times the amount.
+
+So that would be 2.5 * 100 = 250.
+
+Is that part correct now? Then I'd add 100 to *that* result... Right? I want to make sure I'm not making another silly mistake!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Bobby can deadlift 382.9 pounds at 18.9.  When he is 26.8 he can deadlift 131.8 pounds more than 355.3% of his previous deadlift.  How many pounds did he add per year?
+[LEARNER]: Okay, I'm going to try this one step-by-step, writing out my reasoning to make sure I don't mess up the percentages again!
+
+**1. Find 355.3% of his previous deadlift:**
+
+*   His previous deadlift was 382.9 pounds.
+*   355.3% is the same as 3.553 (divide the percentage by 100).
+*   So, I need to calculate 3.553 * 382.9
+
+Okay, grabbing my calculator... 3.553 * 382.9 = 1359.2537
+
+**2. Calculate his deadlift at 26.8:**
+
+*   He can deadlift 131.8 pounds *more* than the previous result.
+*   So, I need to add 131.8 to 1359.2537
+*   1359.2537 + 131.8 = 1491.0537 pounds
+
+**3. Calculate the total amount added to the deadlift**
+*   I need to subtract the new deadlift from the old deadlift.
+*   1491.0537 - 382.9 = 1108.1537
+
+**4. Determine the difference in years:**
+*   He was 18.9 and now he is 26.8
+*   26.8 - 18.9 = 7.9 years
+
+**5. Calculate the pounds added per year:**
+
+*   Divide the total increase by the number of years.
+*   1108.1537 / 7.9 = 140.2726 pounds per year (approximately)
+
+**Answer:** Bobby added approximately 140.27 pounds to his deadlift per year.
+
+How does that look? Did I make any mistakes this time around? I tried to be really careful with the percentages!
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 547EE8C8
+──────────────────────────────────────────────────────────────────────

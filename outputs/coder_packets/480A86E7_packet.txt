@@ -1,0 +1,59 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 480A86E7                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Jia, can you tell me how you got your answer?
+[LEARNER]: Okay, sure! Let me walk you through my thought process. So, first I... (Then I'll explain the steps I took to solve the problem, trying to be clear and concise).
+
+[TUTOR]:   (focus)You said that you multiplied 10x 7 to get the total number of flies Betty can catch in a week, but that's not what we need to find out-we need to figure out how many flies Betty still needs to catch if the frog eats 2 flies per day
+[LEARNER]: Oh, shoot, you're right! I got so focused on the total flies caught that I forgot the frog was eating some. Okay, so let me back up. The frog eats 2 flies a day, so in a week (7 days), it eats 2 * 7 = 14 flies.  So, I need to subtract those 14 flies from the total number she catches to figure out how many she *actually* has left.  Does that make more sense?  Thanks for catching that!
+
+[TUTOR]:   (focus)Yes, the frog eats 14 flies per week.  Betty currently has 10 flies right now, yes?
+[LEARNER]: Yes, that's right! The problem says Betty has 10 flies right now. So, we know the frog eats 14 flies a week, and Betty starts with 10.
+
+[TUTOR]:   (focus)How many flies does Betty need to feed the frog for a week if it eats 2 flies per day?
+[LEARNER]: Okay, so we already figured out that the frog eats 14 flies per week (2 flies/day * 7 days/week = 14 flies). So, Betty needs to have 14 flies available for the frog to eat for the whole week. Is that what you were asking? Just making sure I understand the question.
+
+[TUTOR]:   (focus)Where is the number 70 from?
+[LEARNER]: Okay, I think I see where I messed up earlier! The 70 came from when I multiplied 10 flies (that Betty has) by 7 days (in a week). I was trying to figure out the total number of flies she *could* catch in a week, but that's not what the question is asking. I was getting ahead of myself and not focusing on what we actually need to find out. So, the 70 is extra information we don't actually need for this part of the problem. Does that make sense?
+
+[TUTOR]:   (telling)No, we don't need to know how many flies Betty can catch in a week, we only need to know how many MORE Betty needs to feed the frog for a week, if she needs 14 flies a week and she already has 10
+[LEARNER]: Okay, I got it! So, we know the frog needs 14 flies, and Betty already *has* 10. To figure out how many more she needs, we just need to subtract the flies she already has from the total the frog needs. So, 14 - 10 = 4. Betty needs 4 more flies. Is that right? I think I finally have it!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Flies are Betty's frog's favorite food. Every day the frog eats 2.9 flies. Betty puts the flies she finds in a bottle. In the morning Betty catches 7.3 flies inside a bottle, and in the afternoon she catches 7.5 more, but when she removes the lid, one escapes.  Betty wants to gather the whole week's food for her frog. How many more flies does she need?
+[LEARNER]: Okay, I'm going to try this one on my own, step-by-step!
+
+1.  **Flies the frog eats in a week:** The frog eats 2.9 flies per day, and there are 7 days in a week, so the frog needs 2.9 * 7 = 20.3 flies for the whole week.
+
+2.  **Flies Betty catches in the morning:** Betty catches 7.3 flies in the morning.
+
+3.  **Flies Betty catches in the afternoon:** Betty catches 7.5 flies in the afternoon.
+
+4.  **Total flies caught before escape:** Betty catches 7.3 + 7.5 = 14.8 flies in total.
+
+5.  **Flies after one escapes:** One fly escapes, so Betty has 14.8 - 1 = 13.8 flies.
+
+6.  **Flies Betty still needs:** The frog needs 20.3 flies, and Betty has 13.8 flies, so she still needs 20.3 - 13.8 = 6.5 flies.
+
+So, Betty needs 6.5 more flies.
+
+How did I do?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 480A86E7
+──────────────────────────────────────────────────────────────────────

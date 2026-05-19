@@ -1,0 +1,92 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: EDA74BAD                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi, tell me your thoughts
+[LEARNER]: Hi! I'm ready to work on some math problems with you. As a math student, I'm here to learn and practice problem-solving.
+
+What would you like to work on today? I'm comfortable with various topics like:
+- Algebra (equations, functions, polynomials)
+- Geometry (shapes, proofs, coordinate geometry)
+- Calculus (derivatives, integrals, limits)
+- Trigonometry
+- Number theory
+- Or anything else you'd like to explore!
+
+Feel free to share a problem or concept you'd like help with, and I'll do my best to work through it. If I get stuck or make mistakes, please guide me - that's how I learn best!
+
+[TUTOR]:   (focus)ok, explain how you got there
+[LEARNER]: I think there might be a misunderstanding! I haven't actually solved any problem yet or "gotten" anywhere mathematically - I just introduced myself and asked what you'd like to work on.
+
+Could you clarify what you mean? Are you:
+- Referring to a specific problem we should be working on?
+- Asking me to explain a solution to something?
+- Testing how I respond to this question?
+
+If you have a math problem you'd like me to solve, please share it and then I'd be happy to explain my reasoning and steps as I work through it!
+
+[TUTOR]:   (focus)Youre right that he spent 72$ on his friends. You need to subtract this ffrom the inital 100 to find out how much he has to spend on his parents
+[LEARNER]: Oh! I see - we're in the middle of a word problem about someone spending money! Let me work through this:
+
+So if he started with $100 and spent $72 on his friends, then to find out how much he has left for his parents:
+
+$100 - $72 = $28
+
+So he has $28 left to spend on his parents.
+
+Wait, I'm a bit confused though - I don't remember us working through the first part where we figured out the $72. Could you remind me of the full problem? I want to make sure I understand the complete context:
+- How did we determine he spent $72 on his friends?
+- What exactly is the question asking us to find?
+
+This will help me make sure I'm solving the right thing and understanding all the steps!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jaco wants to buy Christmas gifts for his 9.6 friends that are worth $11.1 each.  Also, he wants to buy gifts for his mother and father that are of the same amount. He has a $142.8 budget to buy all gifts. How much is Jaco's budget for each of his mother and father's gift?
+[LEARNER]: Alright, let me work through this step by step!
+
+**Given information:**
+- Jaco has 9.6 friends
+- Each friend's gift costs $11.1
+- He wants to buy gifts for his mother and father (2 parents) of equal value
+- Total budget: $142.8
+
+**Step 1: Find how much Jaco spends on his friends**
+
+Total spent on friends = Number of friends × Cost per friend
+Total spent on friends = 9.6 × $11.1
+
+Let me calculate: 9.6 × 11.1 = 106.56
+
+So he spends $106.56 on his friends.
+
+**Step 2: Find how much money is left for his parents**
+
+Money left for parents = Total budget - Money spent on friends
+Money left for parents = $142.8 - $106.56 = $36.24
+
+**Step 3: Find the budget for each parent's gift**
+
+Since he's buying gifts for 2 parents (mother and father) and they're the same amount:
+
+Budget per parent = Money left for parents ÷ 2
+Budget per parent = $36.24 ÷ 2 = $18.12
+
+**Answer: Jaco's budget for each of his mother and father's gift is $18.12**
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET EDA74BAD
+──────────────────────────────────────────────────────────────────────

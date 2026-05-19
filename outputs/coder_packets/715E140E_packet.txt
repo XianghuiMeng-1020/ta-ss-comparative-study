@@ -1,0 +1,73 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 715E140E                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+James injured his ankle and decides to slowly start working back up to his previous running goals and then surpass them.  Before the injury, he was able to run 100 miles per week.  He wants to get up to 20% more than that total in 280 days and each week he will increase miles walked in the week by the same amount.  How many miles does he need to add per week?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Could you check your calculations, do you feel you have made a slight error
+[LEARNER]: Hmm, let me check my calculations again. 
+
+I calculated James's goal as 120 miles per week by doing:  
+100 miles per week x 1.2 = 120 miles per week  
+
+Then I found the total increase needed:  
+120 miles per week - 100 miles per week = 20 miles per week  
+
+To figure out the weekly increase, I divided that by the total number of weeks:  
+280 days ÷ 7 days per week = 40 weeks  
+20 miles per week ÷ 40 weeks = 0.5 miles per week  
+
+I thought my answer was 0.5 miles per week, but now I’m not completely sure. Did I miss something?
+
+[TUTOR]:   (focus)And you can see how you made that error
+[LEARNER]: Oh, I think I see where I might have gone wrong! I said "20 miles per week ÷ 40 weeks," but that doesn't make sense. The 20 miles isn't per week; it's the total increase James needs to reach his new goal. I should've been more careful with how I labeled things.
+
+Let me try again:  
+The total increase is 20 miles, and there are 40 weeks. So I should divide the total miles (20) by the total weeks (40), which actually still gives me 0.5 miles per week. Hmm... I guess I’m still a bit confused about whether I made an error or not. Did I go wrong somewhere else?
+
+[TUTOR]:   (telling)Well done
+[LEARNER]: Oh, thank you! So I guess my calculation of 0.5 miles per week was actually correct after all. I’ll try to be more careful about how I label things next time so I don’t confuse myself. Thanks for helping me work through it!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+James injured his ankle and decides to slowly start working back up to his previous running goals and then surpass them.  Before the injury, he was able to run 123.7 miles per week.  He wants to get up to 24.6% more than that total in 369.8 days and each week he will increase miles walked in the week by the same amount.  How many miles does he need to add per week?
+[LEARNER]: Okay, I’ll try this on my own! Here’s how I’ll work through it step by step:
+
+---
+
+First, I need to figure out James’s goal:  
+123.7 miles per week x 1.246 (that’s 24.6% more) = **154.1222 miles per week**  
+
+---
+
+Next, I find the total increase in miles he needs:  
+154.1222 miles per week - 123.7 miles per week = **30.4222 miles**  
+
+---
+
+Now, I need to figure out how many weeks there are in 369.8 days:  
+369.8 days ÷ 7 days per week = **52.82857 weeks**  
+
+---
+
+Finally, I divide the total increase (30.4222 miles) by the total number of weeks (52.82857 weeks):  
+30.4222 miles ÷ 52.82857 weeks = **0.5758 miles per week**  
+
+---
+
+So, James needs to add about **0.576 miles per week** to his running distance to reach his goal. How did I do?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 715E140E
+──────────────────────────────────────────────────────────────────────

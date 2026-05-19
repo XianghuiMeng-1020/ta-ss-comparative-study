@@ -1,0 +1,113 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 72F18349                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)do you think maybe you should check your weekend figures as these were different to the weekday ones
+[LEARNER]: You're absolutely right to probe that! Let me recalculate the weekend figures more carefully.
+
+Looking back at the data:
+- **Saturday**: 45 customers
+- **Sunday**: 38 customers
+
+Weekend average should be:
+(45 + 38) ÷ 2 = **83 ÷ 2 = 41.5 customers**
+
+I apologize - I made an error in my previous calculation where I said the weekend average was 43 customers. The correct weekend average is **41.5 customers**.
+
+This means:
+- **Weekday average**: 52 customers
+- **Weekend average**: 41.5 customers
+- **Difference**: 52 - 41.5 = **10.5 more customers on weekdays**
+
+Thank you for catching that mistake! It's important to double-check calculations, especially when comparing different groups of data.
+
+[TUTOR]:   (probing)what total would your weekend figure be
+[LEARNER]: You're right to push me on this!
+
+If the weekend average is 41.5 customers per day, and there are 2 weekend days:
+
+**Weekend total = 41.5 × 2 = 83 customers**
+
+This matches the actual sum: Saturday (45) + Sunday (38) = 83 customers ✓
+
+Thank you for making me verify this - it confirms the weekend average of 41.5 customers is correct.
+
+[TUTOR]:   (probing)correct so if you now add this to the weekly figure of 3000 what would the weekly total be
+[LEARNER]: Ah, I see what you're getting at!
+
+If I add the weekend total of 83 customers to the weekday total of 3000 customers:
+
+**Weekly total = 3000 + 83 = 3083 customers**
+
+But wait - I need to check if this makes sense with all the individual daily figures:
+
+Monday (52) + Tuesday (48) + Wednesday (55) + Thursday (50) + Friday (45) + Saturday (45) + Sunday (38) = **333 customers**
+
+I think I made an error earlier when I said the weekday total was 3000. Let me recalculate:
+- Weekday total: 52 + 48 + 55 + 50 + 45 = **250 customers**
+- Weekend total: 45 + 38 = **83 customers**
+- **Actual weekly total: 250 + 83 = 333 customers**
+
+I apologize for the confusion with the "3000" figure - that was incorrect. The true weekly total is **333 customers**.
+
+[TUTOR]:   (focus)so if we then times this figure by 4 the total for the month would be how much
+[LEARNER]: If we multiply the weekly total by 4:
+
+**333 × 4 = 1,332 customers for the month**
+
+So the estimated monthly total would be **1,332 customers** (assuming each week follows a similar pattern to the week we analyzed).
+
+[TUTOR]:   (generic)correct well done
+[LEARNER]: Thank you! I appreciate your patience in guiding me through those calculations and catching my errors along the way. 
+
+Your probing questions really helped me:
+- Correct the weekend average (41.5, not 43)
+- Verify the weekend total (83 customers)
+- Fix the weekday total (250, not 3000!)
+- Calculate the proper weekly total (333 customers)
+- And finally arrive at the correct monthly estimate (1,332 customers)
+
+This is a great example of why it's important to double-check work and not just accept initial answers. Thanks for the learning experience! 😊
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+An Italian restaurant earns $819.9 every weekday and twice as much on the weekend. How much money does it earn by the end of the month?
+[LEARNER]: I'll work through this step-by-step.
+
+**Step 1: Identify the daily earnings**
+- Weekday earnings: $819.9 per day
+- Weekend earnings: twice as much = $819.9 × 2 = $1,639.8 per day
+
+**Step 2: Calculate weekly earnings**
+- Number of weekdays: 5 (Monday-Friday)
+- Number of weekend days: 2 (Saturday-Sunday)
+
+Weekday total: $819.9 × 5 = $4,099.5
+Weekend total: $1,639.8 × 2 = $3,279.6
+
+**Weekly total: $4,099.5 + $3,279.6 = $7,379.1**
+
+**Step 3: Calculate monthly earnings**
+Assuming a month has 4 weeks:
+Monthly total = $7,379.1 × 4 = **$29,516.4**
+
+**Answer: The restaurant earns $29,516.40 by the end of the month.**
+
+(Note: This assumes a standard 4-week month. Some months have more days, which would increase the total slightly.)
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 72F18349
+──────────────────────────────────────────────────────────────────────

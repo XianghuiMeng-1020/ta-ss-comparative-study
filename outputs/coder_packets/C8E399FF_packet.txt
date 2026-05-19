@@ -1,0 +1,86 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: C8E399FF                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)You have made an error by adding the two neighbourhoods , Jenny will only be selling to the better one
+[LEARNER]: You're absolutely right! I apologize for that error.
+
+Let me recalculate:
+
+Jenny will only sell to the **better neighborhood**, which is the one with **30 houses**.
+
+**Correct calculation:**
+
+- Number of houses: 30
+- Percentage buying: 40%
+- Houses that will buy: 30 × 0.40 = 12 houses
+- Boxes per house: 2
+- Total boxes: 12 × 2 = **24 boxes**
+
+So Jenny needs to make **24 boxes** of cookies.
+
+Thank you for catching my mistake! I shouldn't have added both neighborhoods together when the problem clearly states she's only selling to the better one.
+
+[TUTOR]:   (generic)Correct do you see the error you made
+[LEARNER]: Yes, I do see my error clearly now!
+
+I incorrectly added both neighborhoods together (30 + 50 = 80 houses) when the problem specifically stated that Jenny would only be selling to the **better neighborhood**.
+
+The key phrase I missed was "**only** be selling to the better one" - this means I should have used just the 30 houses from the better neighborhood, not combined them.
+
+My error was:
+- ❌ Using 80 houses (30 + 50)
+- ✓ Should have used only 30 houses
+
+This led me to calculate 64 boxes instead of the correct answer of 24 boxes.
+
+It's a good reminder to read the problem carefully and pay attention to words like "only" that limit the scope of what we're calculating!
+
+[TUTOR]:   (generic)Yes correct well done
+[LEARNER]: Thank you! I really appreciate your patience in helping me identify and understand my mistake. 
+
+It's an important lesson - reading comprehension is just as crucial as the mathematical calculations themselves. Missing that one word "only" completely changed the problem!
+
+Thanks for being a great study partner and helping me work through this correctly. 😊
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 14.3 homes which each will buy 2.5 boxes of cookies.  Neighborhood B has 6.0 homes, each of which will buy 7.5 boxes of cookies.  Assuming each box of cookies costs $3.0, how much will Jenny make at the better choice of the two neighborhoods?
+[LEARNER]: Let me work through this step by step.
+
+**Step 1: Calculate total boxes sold in Neighborhood A**
+- Number of homes: 14.3
+- Boxes per home: 2.5
+- Total boxes: 14.3 × 2.5 = 35.75 boxes
+
+**Step 2: Calculate total boxes sold in Neighborhood B**
+- Number of homes: 6.0
+- Boxes per home: 7.5
+- Total boxes: 6.0 × 7.5 = 45.0 boxes
+
+**Step 3: Determine which neighborhood is better**
+Neighborhood B sells more boxes (45.0 > 35.75), so Neighborhood B is the better choice.
+
+**Step 4: Calculate how much money Jenny will make**
+- Total boxes from Neighborhood B: 45.0
+- Cost per box: $3.0
+- Total money: 45.0 × $3.0 = **$135.00**
+
+**Answer: Jenny will make $135.00 at the better neighborhood (Neighborhood B).**
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET C8E399FF
+──────────────────────────────────────────────────────────────────────

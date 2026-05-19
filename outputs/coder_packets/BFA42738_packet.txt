@@ -1,0 +1,84 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: BFA42738                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+It took Alice three months to save up to buy new shoes. If she saved 10 dollars the first month and 30 more each month, how much did she have saved by the end of the third month?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)please talk me through your solution Riya
+[LEARNER]: I think I made a mistake in my solution. Could you help me figure out where I went wrong? Specifically, I don’t think I correctly calculated Alice’s savings for each month. Can you explain how to approach this step-by-step?
+
+[TUTOR]:   (probing)so how much did Alice have saved after 2 months?
+[LEARNER]: Hmm, let me think about the second month again. In the first month, she saved $10. In the second month, she saved $30 more than the first month. 
+
+So, it would be $10 (first month) + $30 (second month) = $40 by the end of the second month.
+
+Did I do that correctly?
+
+[TUTOR]:   (probing)and how much did she have saved after three months?
+[LEARNER]: Okay, let me think carefully about the third month. By the end of the second month, Alice had saved $40 in total. In the third month, she saved another $30. 
+
+So, $40 (savings after 2 months) + $30 (3rd month) = $70 by the end of the third month. 
+
+Is that correct?
+
+[TUTOR]:   (focus)how many more dollars did she have saved after three months compared to after two months?
+[LEARNER]: Oh, I see now! After two months, she had $40 saved. After three months, she had $70 saved. 
+
+The difference is $70 − $40 = $30. She saved $30 more in the third month compared to the second month. 
+
+I think I understand now—her savings increase by $30 each month. Did I get it right this time?
+
+[TUTOR]:   (focus)check the question again and see if you can tell me how many more dollars Alice had at 3 months compared to two months
+[LEARNER]: Oh! The question is asking for how much more Alice saved in total by the end of three months compared to two months.
+
+At the end of two months, she had $40 saved. At the end of three months, she had $70 saved. The difference between these totals is:
+
+$70 − $40 = $30.
+
+So, Alice had $30 more saved at the end of three months compared to the end of two months. Did I understand that properly?
+
+[TUTOR]:   (telling)if she had 40 dollars saved after the second month, and she saved 30 more, how many would she have?
+[LEARNER]: Oh, I see now! If she had $40 saved after the second month and then saved $30 more in the third month, the total would be:
+
+$40 + $30 = $70.
+
+So, Alice had $70 saved by the end of the third month. I understand now—thank you for clarifying! Let me revise my earlier mistake.
+
+[TUTOR]:   (generic)correct, well done
+[LEARNER]: Thank you! I see now that I was adding incorrectly in my earlier attempt. I had mistakenly added the savings for each month separately instead of keeping a running total. Here's my corrected solution:
+
+- Month 1: $10 saved.
+- Month 2: $10 + $30 = $40 saved.
+- Month 3: $40 + $30 = $70 saved.
+
+By the end of the third month, Alice had saved a total of **$70**. I appreciate your help! Can I try a similar problem now?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+It took Alice three months to save up to buy new shoes. If she saved 14.3 dollars the first month and 39.6 more each month, how much did she have saved by the end of the third month?
+[LEARNER]: Alright, I’ll do this step by step. 
+
+1. In the first month, Alice saved $14.3.
+
+2. In the second month, she saved $39.6 more than the first month. So, the total savings by the end of the second month would be:
+   $14.3 (first month) + $39.6 (second month) = $53.9.
+
+3. In the third month, she saved another $39.6. The total savings by the end of the third month would be:
+   $53.9 (savings after 2 months) + $39.6 (third month) = $93.5.
+
+Final Answer: By the end of the third month, Alice had saved **$93.5**.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET BFA42738
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,53 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: C803BF93                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Hunter, how are you feleing about this problem?
+[LEARNER]: As a large language model, I don't experience feelings. However, I'm ready and willing to help you with the problem! Just let me know what it is.
+
+[TUTOR]:   (focus)I understand your confusion.  Let's try this without algebra, as I think you may find it easier.  Firstly, what is the age difference between Trevor and his brother?
+[LEARNER]: Okay, I understand. I'm ready to focus on the problem without using algebra. To start, I need the information about Trevor and his brother's ages, so I can calculate the age difference. Please provide that information.
+
+[TUTOR]:   (probing)Yes, great!  And what is 3 times Trevor's current age?
+[LEARNER]: Okay, I'm ready for that calculation. To figure out 3 times Trevor's current age, I need to know what Trevor's current age is. Please provide that information.
+
+[TUTOR]:   (focus)Excellent work.  So when his brother is 33, how old will Trevor be?
+[LEARNER]: Okay, I'm ready to think about that. To figure out Trevor's age when his brother is 33, I need to know two things:
+
+1.  **The age difference between Trevor and his brother:** I think we already established this in a previous question, but I want to be sure I have the correct number.
+2.  **How old Trevor is *now*:** I need a starting point to calculate from.
+
+Once I have those two pieces of information, I can easily determine Trevor's age when his brother is 33.
+
+[TUTOR]:   (generic)Brilliant - great problem solving, Hunter!  Well done.
+[LEARNER]: Thank you! I'm glad I could help. I appreciate the positive feedback. If you have any more problems or questions in the future, feel free to ask!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Trevor is currently 15.8 years old and his older brother is 28.1 years old. How old will Trevor be when his older brother is three times as old as Trevor is now?
+[LEARNER]: Okay, I'll solve this problem step-by-step:
+
+1.  **Find the target age for the brother:** Three times Trevor's current age is 3 * 15.8 = 47.4 years old. This is the age we want Trevor's brother to be.
+
+2.  **Calculate how many years until the brother reaches that age:** The brother needs to age 47.4 - 28.1 = 19.3 years.
+
+3.  **Determine Trevor's age after that same amount of time:** Since Trevor and his brother age at the same rate, Trevor will also age 19.3 years. Therefore, Trevor will be 15.8 + 19.3 = 35.1 years old.
+
+**Answer:** Trevor will be 35.1 years old when his older brother is three times as old as Trevor is now.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET C803BF93
+──────────────────────────────────────────────────────────────────────

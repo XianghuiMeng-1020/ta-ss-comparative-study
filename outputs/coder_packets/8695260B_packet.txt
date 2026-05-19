@@ -1,0 +1,45 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 8695260B                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Marco owns an ice cream truck.  His ice cream cones are $5 each.  If his expenses are 80% of total sales for the day, how many ice cream cones would he need to sell to make a $200 profit for the day?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi, could you please walk me through your solution?
+[LEARNER]: Okay, so let x be the number of ice cream cones Marco needs to sell. Each cone is $5, so his total sales are 5 times x, which is 5x. His expenses are 80% of his sales, so that's 0.8 times 5x, which is 4x. To find the profit, you subtract the expenses from the sales, so 5x - 4x = x. We want the profit to be $200, so x = 200. That means he needs to sell 200/5 = 40 ice cream cones. So the answer is 40.
+
+[TUTOR]:   (focus)If I am not wrong, x is the number of cones sold, right?
+[LEARNER]: Yes, x is the number of ice cream cones Marco needs to sell.
+
+[TUTOR]:   (focus)And what is the value of x calculated ?
+[LEARNER]: I found that x = 200. That means Marco needs to sell 200 ice cream cones to make a $200 profit.
+
+[TUTOR]:   (focus)There's the mistake, you are going beyond after you've reached the correct answer. x is already the number of cones calculated and that is 200. Do you see the mistake you are doing by dividing again?
+[LEARNER]: Oh, I see! I messed up at the end. I already found that x = 200, and x is the number of cones. So, I don't need to divide by 5 again. The answer is just 200 cones.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Marco owns an ice cream truck.  His ice cream cones are $7.0 each.  If his expenses are 97.1% of total sales for the day, how many ice cream cones would he need to sell to make a $264.7 profit for the day?
+[LEARNER]: Okay, let's use x for the number of ice cream cones Marco sells.
+
+*   Each cone is $7, so the total sales are 7 times x, which is 7x.
+*   Expenses are 97.1% of the sales, so that's 0.971 times 7x, which is 6.797x.
+*   Profit is sales minus expenses, so 7x - 6.797x = 0.203x.
+*   We want the profit to be $264.7, so 0.203x = 264.7
+*   To find x, we divide 264.7 by 0.203: x = 1303.94
+
+Since you can't sell part of a cone, I need to round. I think he needs to sell 1304 cones.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 8695260B
+──────────────────────────────────────────────────────────────────────

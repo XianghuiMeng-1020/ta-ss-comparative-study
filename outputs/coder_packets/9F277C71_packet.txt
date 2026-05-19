@@ -1,0 +1,77 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 9F277C71                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jonathan eats 2500 calories every day except for Saturday, when he consumes an extra 1000 calories.  He burns 3000 calories every day.  What is his weekly caloric deficit?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)would you please check how many calories Jonathan eats on a Saturday in total given the same as the rest of the week plus the extras
+[LEARNER]: Let me check that.
+
+On Saturday, Jonathan eats his regular 2500 calories plus an extra 1000 calories.
+
+So on Saturday he eats 2500 + 1000 = 3500 calories total.
+
+Oh, I see my mistake now! I only added the extra 1000 calories instead of calculating Saturday's total correctly.
+
+[TUTOR]:   (probing)so if you add this to the total you got for the sunday to Friday how many does he eat in a week
+[LEARNER]: Let me recalculate.
+
+From Sunday to Friday (6 days), he eats 2500 × 6 = 15000 calories.
+On Saturday, he eats 3500 calories (not just the extra 1000).
+
+So his total weekly consumption is 15000 + 3500 = 18500 calories.
+
+Then his weekly caloric deficit would be 21000 - 18500 = 2500 calories.
+
+I was wrong about the total weekly calories consumed — I didn't count Saturday's full amount correctly.
+
+[TUTOR]:   (probing)try to re check as you first said he ate 15000 sunday to friday so this is the figure to add to his saturday total
+[LEARNER]: You're right, let me recalculate more carefully.
+
+From Sunday to Friday is 6 days: 2500 × 6 = 15000 calories.
+Saturday total is 3500 calories.
+
+So weekly total is 15000 + 3500 = 18500 calories.
+
+His weekly caloric deficit is 21000 - 18500 = 2500 calories.
+
+Wait, I got the same answer. Is my calculation of Sunday to Friday incorrect?
+
+[TUTOR]:   (probing)so now we need to take this from the calories he burnt which you correctly said was 21000 , what would this make your answer
+[LEARNER]: His weekly caloric deficit is 21000 - 18500 = 2500 calories.
+
+So my final answer is 2500 calories (not 5000 like I originally said).
+
+I see — I was wrong about his total weekly consumption. I didn't properly account for Saturday's full calorie amount, which led to the wrong deficit.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jonathan eats 3509.3 calories every day except for Saturday, when he consumes an extra 1404.2 calories.  He burns 4367.1 calories every day.  What is his weekly caloric deficit?
+[LEARNER]: Let me work through this step by step.
+
+From Sunday to Friday (6 days), Jonathan eats: 3509.3 × 6 = 21055.8 calories
+
+On Saturday, he eats his regular amount plus the extra: 3509.3 + 1404.2 = 4913.5 calories
+
+Total weekly consumption: 21055.8 + 4913.5 = 25969.3 calories
+
+Calories burned per week: 4367.1 × 7 = 30569.7 calories
+
+Weekly caloric deficit: 30569.7 - 25969.3 = 4600.4 calories
+
+My answer is 4600.4 calories.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 9F277C71
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,43 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 1547525C                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Marco owns an ice cream truck.  His ice cream cones are $5 each.  If his expenses are 80% of total sales for the day, how many ice cream cones would he need to sell to make a $200 profit for the day?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi, could you please walk me through your solution?
+[LEARNER]: Let's take a closer look at your initial attempt. You wrote that Marco's profit for the day would be his total sales minus his expenses, which is 5x - 4x = x. Then, you set x equal to 200, which is the desired profit. But I think there's a small mistake here. Can you tell me what 5x - 4x actually equals?
+
+[TUTOR]:   (focus)If I am not wrong, x is the number of cones sold, right?
+[LEARNER]: That's correct! You defined x as the number of ice cream cones Marco needs to sell. Now, let's go back to the equation 5x - 4x. You initially said it equals x, but I think that might be incorrect. Can you simplify the expression 5x - 4x and tell me what it actually equals?
+
+[TUTOR]:   (focus)And what is the value of x calculated ?
+[LEARNER]: You initially calculated that x = 200, which means Marco would need to sell 200 cones. But we're not sure if that's correct yet. Let's go back to the equation. If x is the number of cones sold, then 5x is the total sales, and 4x is the expenses. If we simplify 5x - 4x, we actually get x = 1x, which is just x. But what does that mean in terms of the profit?
+
+[TUTOR]:   (focus)There's the mistake, you are going beyond after you've reached the correct answer. x is already the number of cones calculated and that is 200. Do you see the mistake you are doing by dividing again?
+[LEARNER]: Wait, I think I see the mistake. You initially wrote that x = 200, and then you divided 200 by 5 to get 40 cones. But that's not necessary. If x is already the number of cones, and x = 200, then that means Marco needs to sell 200 cones. But then, I realize, that can't be right... If each cone costs $5, selling 200 cones would make $1000, not $200 profit. I think I see where the mistake is...
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Marco owns an ice cream truck.  His ice cream cones are $6.5 each.  If his expenses are 118.7% of total sales for the day, how many ice cream cones would he need to sell to make a $282.9 profit for the day?
+[LEARNER]: Let x be the number of ice cream cones Marco needs to sell.
+His total sales for the day would be 6.5x.
+His expenses would be 118.7% of 6.5x, which is 1.187(6.5x) = 7.7155x.
+His profit for the day would be his total sales minus his expenses, which is 6.5x - 7.7155x = -1.2155x.
+We want his profit to be $282.9, so -1.2155x = 282.9.
+
+ Wait, this doesn't seem right... the profit is negative. Let me re-examine my steps...
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 1547525C
+──────────────────────────────────────────────────────────────────────

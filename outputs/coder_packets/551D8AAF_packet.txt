@@ -1,0 +1,115 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 551D8AAF                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Janet buys 45-pound containers of cat litter for $21 each.  If her cat litter box holds 15 pounds of cat litter, and she changes out the litter weekly, how much will it cost, in dollars, for her to buy enough litter to last 210 days?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)Mariana, re-read the problem... how often does Janet use 15 pounds of cat litter?
+[LEARNER]: Janet uses 15 pounds of cat litter weekly.
+
+[TUTOR]:   (probing)How many weeks does she need to buy for?
+[LEARNER]: She needs to buy enough litter to last 210 days, which is 30 weeks.
+
+[TUTOR]:   (probing)How many pounds overall would she need then?
+[LEARNER]: She needs enough litter for 30 weeks, and she uses 15 pounds each week, so she needs 15 * 30 = 450 pounds of litter.
+
+[TUTOR]:   (probing)Look at who much you said she needed for 1 week just now.
+[LEARNER]: I said she needs 15 pounds each week. In my first attempt, I said she uses 15 x 7 = 105 pounds each week. That's wrong. She uses 15 pounds each week, not 105.
+
+[TUTOR]:   (telling)That is not the answer you gave me a few minutes ago, and it was right.
+[LEARNER]: Oh, I see! I multiplied 15 x 7 because I thought she used 15 pounds *per day*. But the problem says she changes the litter weekly, so she only uses 15 pounds per week.
+
+So, she needs litter for 210/7 = 30 weeks.
+And she uses 15 pounds per week, so she needs 30 * 15 = 450 pounds total.
+Each container has 45 pounds, so she needs 450/45 = 10 containers.
+Each container costs $21, so the total cost is 10 * 21 = $210.
+
+Final Answer: The final answer is $\boxed{210}$
+
+[TUTOR]:   (probing)No, look back at the first answer you gave me in our discussion
+[LEARNER]: Okay, I see it now.
+
+I originally said:
+"Janet uses 15 x 7 = 105 pounds of cat litter each week."
+
+That was wrong. I should have just said she uses 15 pounds each week.
+
+Then I said:
+"She needs enough cat litter to last for 210/7 = 30 weeks."
+
+That part was correct.
+
+Then I said:
+"So she needs a total of 105 x 30 = 3150 pounds of cat litter."
+
+That was wrong because I used the wrong number of pounds per week (105 instead of 15).
+
+Then I said:
+"She needs to buy 3150/45 = 70 45-pound containers of cat litter."
+
+That was wrong because I used the wrong total number of pounds (3150 instead of 450).
+
+Then I said:
+"Therefore, it will cost her 70 x 21 = $1470 to buy enough litter to last 210 days."
+
+That was wrong because I used the wrong number of containers (70 instead of 10).
+
+I see that my mistake was thinking she used 15 pounds of litter per day instead of per week.
+
+[TUTOR]:   (focus)RE-read the problem, how much does she need per week, then multiple by 30.
+[LEARNER]: She uses 15 pounds of litter per week. She needs enough for 30 weeks. So she needs 15 * 30 = 450 pounds of litter.
+
+[TUTOR]:   (telling)Reread the problem, she does NOT need 105 pounds per week.
+[LEARNER]: I understand now! I was multiplying the 15 pounds by 7 days, but the problem says she changes the litter *weekly*, so it's just 15 pounds per week.
+
+So, she needs litter for 210/7 = 30 weeks.
+And she uses 15 pounds per week, so she needs 30 * 15 = 450 pounds total.
+Each container has 45 pounds, so she needs 450/45 = 10 containers.
+Each container costs $21, so the total cost is 10 * 21 = $210.
+
+Final Answer: The final answer is $\boxed{210}$
+
+[TUTOR]:   (probing)Yes! so how many 45 lb containers would she need for 450 lbs
+[LEARNER]: She needs 450 pounds of litter, and each container has 45 pounds, so she needs 450 / 45 = 10 containers.
+
+[TUTOR]:   (probing)So how much would 10 containers cost then?
+[LEARNER]: Each container costs $21, and she needs 10 containers, so the total cost is 10 * $21 = $210.
+
+[TUTOR]:   (generic)Excellent!
+[LEARNER]: Okay, I think I understand it now. My final answer is $210.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Janet buys 57.9-pound containers of cat litter for $29.5 each.  If her cat litter box holds 21.0 pounds of cat litter, and she changes out the litter weekly, how much will it cost, in dollars, for her to buy enough litter to last 289.9 days?
+[LEARNER]: Okay, I'm going to try this problem step by step.
+
+First, find out how many weeks the litter needs to last:
+289.9 days / 7 days/week = 41.41 weeks
+
+Second, find out how many pounds of litter she needs in total:
+21 pounds/week * 41.41 weeks = 869.61 pounds
+
+Third, find out how many containers she needs:
+869.61 pounds / 57.9 pounds/container = 15.02 containers
+
+Since she can't buy part of a container, she needs to buy 16 containers.
+
+Fourth, find out the total cost:
+16 containers * $29.5/container = $472
+
+Final Answer: The final answer is $\boxed{472}$
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 551D8AAF
+──────────────────────────────────────────────────────────────────────

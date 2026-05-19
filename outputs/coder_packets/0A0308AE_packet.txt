@@ -1,0 +1,52 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 0A0308AE                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Trevor is currently 11 years old and his older brother is 20 years old. How old will Trevor be when his older brother is three times as old as Trevor is now?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Hunter, how are you feleing about this problem?
+[LEARNER]: Hi! I feel like I made a mistake somewhere in my solution, but I’m not sure exactly where it went wrong. Could you help me figure out what I misunderstood?
+
+[TUTOR]:   (focus)I understand your confusion.  Let's try this without algebra, as I think you may find it easier.  Firstly, what is the age difference between Trevor and his brother?
+[LEARNER]: The age difference between Trevor and his brother is 20 - 11 = 9 years.
+
+[TUTOR]:   (probing)Yes, great!  And what is 3 times Trevor's current age?
+[LEARNER]: 3 times Trevor's current age is 3 × 11 = 33.
+
+[TUTOR]:   (focus)Excellent work.  So when his brother is 33, how old will Trevor be?
+[LEARNER]: If his brother is 33 and the age difference between them is 9 years, then Trevor will be 33 - 9 = 24 years old.
+
+[TUTOR]:   (generic)Brilliant - great problem solving, Hunter!  Well done.
+[LEARNER]: Thank you! I see now that I was overcomplicating the problem with my initial algebraic approach. I’ll try to think about the relationships between the ages more carefully next time!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Trevor is currently 14.5 years old and his older brother is 25.9 years old. How old will Trevor be when his older brother is three times as old as Trevor is now?
+[LEARNER]: Okay, I’ll try this step by step.
+
+1. **Find the age difference between Trevor and his brother:**
+   Trevor’s brother is 25.9 – 14.5 = 11.4 years older than Trevor.
+
+2. **Find 3 times Trevor’s current age:**
+   3 × 14.5 = 43.5.
+
+3. **Determine when Trevor’s brother will reach that age (43.5):**
+   If Trevor’s brother is going to be 43.5 years old, Trevor will be:
+   43.5 – 11.4 = 32.1 years old.
+
+**Final Answer:** Trevor will be 32.1 years old when his brother is three times as old as Trevor is now.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 0A0308AE
+──────────────────────────────────────────────────────────────────────

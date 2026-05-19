@@ -1,0 +1,81 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: F52B7F26                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Ronnie.  How many weeks is Jackson's training program?
+[LEARNER]: I don't have any information about Jackson or their training program in our conversation history. Could you provide more context about who Jackson is and which training program you're referring to? That way I can better help you with your question.
+
+[TUTOR]:   (focus)Good, You said at the end of the 4th week, Jackson was running 6 miles a day?  Correct?
+[LEARNER]: I don't have any previous information about Jackson's training program or running schedule in our conversation. This appears to be the first time you've mentioned these details to me. 
+
+Could you share the information about Jackson's training program so I can help answer your questions about it?
+
+[TUTOR]:   (probing)Every week, you increase the distance by how far?
+[LEARNER]: I don't have any information about a training program or distance increases that we've discussed previously. 
+
+It seems like you might be referring to a specific problem or scenario about Jackson's training program, but I haven't seen those details yet in our conversation. 
+
+Could you please share the full problem or context? That way I can help you work through the questions about weekly distance increases and the training program.
+
+[TUTOR]:   (telling)So in your calculation at the start of the 5th week did you increase the distance by 1 mile?
+[LEARNER]: I haven't made any calculations about Jackson's training program yet in our conversation. 
+
+It sounds like there's a specific problem about Jackson that involves:
+- A training program with weeks
+- Running distances that increase weekly (possibly by 1 mile per week)
+- Something about the 4th and 5th weeks
+
+If you could share the complete problem statement or scenario, I'd be happy to help you work through the calculations and verify whether the distance should increase by 1 mile at the start of the 5th week.
+
+[TUTOR]:   (telling)Correct, that is the solution.
+[LEARNER]: I appreciate you confirming that, but I want to be clear: I haven't actually seen the original problem or made any calculations myself in our conversation. 
+
+It sounds like you've worked through a problem about Jackson's training program where:
+- The distance increases by 1 mile per week
+- By the end of week 4, Jackson was running 6 miles a day
+- At the start of week 5, the distance would increase by 1 mile (to 7 miles)
+
+If you'd like me to verify your work or help with any follow-up questions about this problem, I'd be happy to do so if you share the complete problem details!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jackson wants to improve his endurance running. His goal is to start by running 3.9 miles a day the first week, then spend the next four weeks running one additional mile/day each week. How many miles is Jackson running each day at the end of this exercise program?
+[LEARNER]: Great! Let me work through this step by step.
+
+**Given information:**
+- Week 1: Jackson runs 3.9 miles per day
+- He continues for 4 more weeks after the first week
+- Each week, he increases his daily distance by 1 mile
+
+**Step-by-step solution:**
+
+- **Week 1:** 3.9 miles/day (starting point)
+- **Week 2:** 3.9 + 1 = 4.9 miles/day
+- **Week 3:** 4.9 + 1 = 5.9 miles/day
+- **Week 4:** 5.9 + 1 = 6.9 miles/day
+- **Week 5:** 6.9 + 1 = 7.9 miles/day
+
+**Alternative calculation:**
+- Starting distance: 3.9 miles
+- Number of increases: 4 weeks (weeks 2, 3, 4, and 5)
+- Total increase: 4 × 1 mile = 4 miles
+- Final distance: 3.9 + 4 = 7.9 miles/day
+
+**Answer:** At the end of this exercise program, Jackson is running **7.9 miles per day**.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET F52B7F26
+──────────────────────────────────────────────────────────────────────

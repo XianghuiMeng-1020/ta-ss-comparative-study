@@ -1,0 +1,173 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 0A9B6DE5                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Could you explain your final step to me as you have done well until then
+[LEARNER]: I'd be happy to explain my final step, but I don't see any previous work or problem in our conversation history. 
+
+Could you please:
+1. Share the problem you're working on
+2. Show me the steps you've completed so far
+3. Point out which final step you'd like me to explain
+
+Once you provide this context, I'll be able to give you a clear explanation of that final step!
+
+[TUTOR]:   (probing)Could you explain why you too, the commission away as this was something she received
+[LEARNER]: Ah, I see the confusion! You're asking about why the commission was subtracted rather than added.
+
+You're absolutely right to question this - let me clarify:
+
+**If the commission is money she RECEIVED (earned):**
+- The commission should be **added** to her base salary
+- Total earnings = Base salary + Commission
+
+**If the commission was something she PAID (like a fee or deduction):**
+- Then it would be subtracted
+- Net earnings = Base salary - Commission fee
+
+The key question is: **Was the commission something she earned ON TOP of her salary, or was it a cost/fee taken FROM her salary?**
+
+In most real-world scenarios involving sales or work, a "commission" is money **earned**, so it should be **added**.
+
+Could you share the exact wording of the problem? That would help me explain whether the commission should have been added or subtracted in your specific case.
+
+[TUTOR]:   (telling)The selling price of the house is 96000 plus she received the profit so what should we do
+[LEARNER]: Ah, now I understand! Thank you for clarifying.
+
+If she **received** the commission (profit) from selling the house, then we should **ADD** it, not subtract it!
+
+**Here's the correct approach:**
+
+**Given:**
+- Selling price of house: $96,000
+- She received a commission on this sale
+
+**What we should do:**
+1. Calculate the commission she earned (usually a percentage of $96,000)
+2. **ADD** this commission to any base salary she has
+3. Total earnings = Base salary + Commission received
+
+**Example:**
+If her commission is 3% of the selling price:
+- Commission = 3% × $96,000 = $2,880
+- Total earnings = Base salary + $2,880
+
+You were right to question subtracting the commission! When someone "receives" a commission, it's income they **earned**, so it increases their total earnings.
+
+What percentage commission does she receive? I can help you calculate the exact amount.
+
+[TUTOR]:   (focus)96000 plus the 400 would be
+[LEARNER]: **96,000 + 400 = 96,400**
+
+So if the selling price of the house is $96,000 and she received a commission of $400, her total earnings would be **$96,400**.
+
+You were absolutely correct - since she **received** the commission, we add it to get the total!
+
+[TUTOR]:   (generic).?
+[LEARNER]: I apologize for the confusion in my previous response. Let me clarify:
+
+**If we're talking about HER earnings (what she made from the sale):**
+- Her commission received: **$400**
+- This is what she earned
+
+**The $96,000 is the selling price of the house** - this money goes to the home seller, not to her.
+
+So her earnings would be just **$400** (the commission she received).
+
+**OR, if she has a base salary plus commission:**
+- Her total earnings = Base salary + $400 commission
+
+Could you clarify what the question is asking for? Is it:
+1. Her total commission/earnings?
+2. The total value including the house price?
+3. Something else?
+
+I want to make sure I'm answering the right question!
+
+[TUTOR]:   (focus)What is the 96000 plus the 4000
+[LEARNER]: **96,000 + 4,000 = 100,000**
+
+So if the selling price of the house is $96,000 and she received a commission of $4,000, the total would be **$100,000**.
+
+(I notice you said $4,000 this time, not $400 - just want to make sure we're using the correct commission amount!)
+
+[TUTOR]:   (telling)No we need to had the selling price plus 4000
+[LEARNER]: You're right! Let me correct that.
+
+**Selling price + Commission received:**
+
+**$96,000 + $4,000 = $100,000**
+
+So when we add the selling price of the house ($96,000) plus the commission she received ($4,000), the total is **$100,000**.
+
+Is this the total amount we needed to find for the problem?
+
+[TUTOR]:   (telling)you have to add 96,000 plus 4,000 to get the correct answer
+[LEARNER]: Yes, you're absolutely correct!
+
+**$96,000 + $4,000 = $100,000**
+
+This is the correct answer. We ADD the selling price ($96,000) and the commission received ($4,000) to get **$100,000**.
+
+Thank you for walking me through this - adding them together gives us the total of **$100,000**!
+
+[TUTOR]:   (telling)You do not deduct you add
+[LEARNER]: You are absolutely RIGHT! 
+
+**We ADD, not subtract!**
+
+**$96,000 + $4,000 = $100,000**
+
+Since she **received** the commission of $4,000, we must **ADD** it to the selling price of $96,000.
+
+I apologize for any confusion earlier where I may have subtracted. You're correct - when someone receives money (like a commission), we **add** it!
+
+Thank you for being persistent in making sure we got this right! ✓
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Mrs. Choi purchased a house for $114499.0. Five years later, she sold it for a 26.1% profit and got a 6.7% broker's commission from the original price. How much did the house sell for?
+[LEARNER]: Great! Let me work through this step by step.
+
+**Given information:**
+- Original purchase price: $114,499.00
+- Profit: 26.1% of original price
+- Broker's commission she received: 6.7% of original price
+
+**Step 1: Calculate the profit**
+Profit = 26.1% × $114,499.00
+Profit = 0.261 × $114,499.00
+Profit = $29,884.24
+
+**Step 2: Calculate the broker's commission she received**
+Commission = 6.7% × $114,499.00
+Commission = 0.067 × $114,499.00
+Commission = $7,671.43
+
+**Step 3: Calculate the selling price**
+Since she made a profit on the sale AND received a commission, we ADD both to the original price:
+
+Selling price = Original price + Profit + Commission
+Selling price = $114,499.00 + $29,884.24 + $7,671.43
+Selling price = **$152,054.67**
+
+**Answer: The house sold for $152,054.67**
+
+(I made sure to ADD everything since these are all amounts she received!)
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 0A9B6DE5
+──────────────────────────────────────────────────────────────────────

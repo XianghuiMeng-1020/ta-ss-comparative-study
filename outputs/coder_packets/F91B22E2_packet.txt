@@ -1,0 +1,46 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: F91B22E2                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)In the first month, Grant makes $350. Let's break the payment for the second month down into two parts. Firstly, Grant makes double what they make in the first month, so this is?
+[LEARNER]: Grant makes double what he made in the first month, which is 2 x 350 = 700$.
+
+[TUTOR]:   (focus)And the second part, is that they make doubel + $50, so this is?
+[LEARNER]: Wait, I think I already did this part... I added 50 to the 350, and then doubled the 50... no, that's not right... Um, I think I need to add 50 to the 700, so that's 700 + 50 = 750$.
+
+[TUTOR]:   (focus)That's right! So, you know that grant makes $350 in the first month, $750 in teh second month, how much in the third month?
+[LEARNER]: To find out how much Grant made in the third month, I need to quadruple the sum of the first two months. The sum of the first two months is 350 + 750 = 1100$. Quadrupling that is 1100 x 4 = 4400$.
+
+[TUTOR]:   (focus)And the total for teh 3 months is?
+[LEARNER]: I need to add the amounts Grant made in each month. So, 350 + 750 = 1100$, and then add the amount he made in the third month, which is 4400$. That's a total of 1100 + 4400 = 5500$.
+
+[TUTOR]:   (generic)That's right!
+[LEARNER]: I'm glad I was able to get the answer correct in the end. I was a bit confused at first, but it made sense once I broke it down step by step.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Grant has worked as a freelance math worker for the last three months.  The first month he made 513.1$.  The second month he made 73.3$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?
+[LEARNER]: Here's my attempt:
+
+Grant made 513.1$ in the first month. To find out how much he made in the second month, I need to double the amount he made in the first month, and then add 73.3$. Doubling 513.1$ is 2 x 513.1 = 1026.2$. Then, I add 73.3$, but I think I should double the 73.3$ first... so, 73.3 x 2 = 146.6$. Then, I add that to the 1026.2$, which is 1026.2 + 146.6 = 1172.8$. So, Grant made 1172.8$ in the second month.
+
+The sum of the first two months is 513.1 + 1172.8 = 1685.9$. To find out how much Grant made in the third month, I need to quadruple that amount. Quadrupling 1685.9$ is 1685.9 x 4 = 6743.6$. 
+
+Finally, to find the total, I add the amounts Grant made in each month: 513.1 + 1172.8 + 6743.6 = 8429.5$.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET F91B22E2
+──────────────────────────────────────────────────────────────────────

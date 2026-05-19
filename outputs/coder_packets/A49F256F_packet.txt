@@ -1,0 +1,62 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: A49F256F                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)do you think maybe you should check your weekend figures as these were different to the weekday ones
+[LEARNER]: Okay, I see what you mean. Let me double-check the weekend figures. You're right, they should be different from the weekday ones, and it's possible I made a mistake copying them over or during a calculation. Just give me a sec...
+
+(pause for a moment, pretending to recalculate)
+
+Okay, you're absolutely right! I had used the weekday average instead of the weekend average for that part. Thanks for catching that! I've corrected it now. Does this look better?
+
+[TUTOR]:   (probing)what total would your weekend figure be
+[LEARNER]: Okay, let me just double-check my calculations again. Are you asking about the *total* for the entire weekend (both Saturday and Sunday combined), or the average for *each* weekend day? To clarify, I think I used the total weekend figure of [insert calculated total here]. Is that what you think it should be? If not, what total are you getting? Maybe we can compare our steps and see where the difference is.
+
+[TUTOR]:   (probing)correct so if you now add this to the weekly figure of 3000 what would the weekly total be
+[LEARNER]: Okay, so you want me to add my corrected weekend figure (which is [state weekend figure again]) to the weekly weekday figure of 3000.
+
+So, that would be [state weekend figure again] + 3000 = [calculate and state the total].
+
+Therefore, the total weekly figure would be [state the calculated total]. Does that look right to you?
+
+[TUTOR]:   (focus)so if we then times this figure by 4 the total for the month would be how much
+[LEARNER]: Okay, so we're taking the weekly total of [restate the weekly total figure] and multiplying it by 4 to get the monthly total.
+
+So, [restate the weekly total figure] multiplied by 4 is... [calculate the answer].
+
+Therefore, the total for the month would be [state the calculated monthly total]. Is that correct? I want to make sure I'm following everything correctly.
+
+[TUTOR]:   (generic)correct well done
+[LEARNER]: Awesome! Thanks for walking me through that and pointing out my mistake. I really appreciate it! I think I understand it much better now. Is there anything else I can help you with, or are we good to move on to the next problem?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+An Italian restaurant earns $770.2 every weekday and twice as much on the weekend. How much money does it earn by the end of the month?
+[LEARNER]: Okay, I'll give it a shot! Let me think this through step-by-step:
+
+1.  **Weekend Earnings per Day:** The restaurant earns twice as much on the weekend as on a weekday, so they earn $770.2 * 2 = $1540.40 per weekend day.
+
+2.  **Total Weekend Earnings:** There are two weekend days, so the total weekend earnings are $1540.40 * 2 = $3080.80.
+
+3.  **Total Weekly Earnings:** There are 5 weekdays, so the total weekday earnings are $770.2 * 5 = $3851.00. Adding the weekend earnings, the total weekly earnings are $3851.00 + $3080.80 = $6931.80.
+
+4.  **Monthly Earnings:** Assuming a month has 4 weeks, the total monthly earnings are $6931.80 * 4 = $27727.20
+
+So, my final answer is that the Italian restaurant earns $27727.20 by the end of the month. How did I do?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET A49F256F
+──────────────────────────────────────────────────────────────────────

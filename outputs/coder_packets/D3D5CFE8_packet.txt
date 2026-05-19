@@ -1,0 +1,98 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: D3D5CFE8                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Tom's rabbit can run at 25 miles per hour.  His cat can run 20 miles per hour.  The cat gets a 15-minute head start.  In hours, how long will it take for the rabbit to catch up?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi , could you please walk me through your solution?
+[LEARNER]: Hi! Here's what I did:
+
+First, I calculated that in 15 minutes (0.25 hours), the cat runs 20 × 0.25 = 5 miles.
+
+Then I set up an equation where the rabbit's distance (25t) equals the cat's total distance. I thought the cat's distance would be the distance it runs during time t, which is 20(t + 0.25), plus the initial 5 miles it already ran.
+
+So I wrote: 25t = 20(t + 0.25) + 5
+
+When I solved this, I got t = 2 hours.
+
+But I think I might have counted the cat's head start twice somehow?
+
+[TUTOR]:   (focus)In the equation, t x 25 = (t + 0.25) x 20 + 5 why did you add 5 ? can you explain?
+[LEARNER]: Oh, I see the issue now. I added 5 because I calculated that the cat ran 5 miles in the first 15 minutes. But then I also added 0.25 to t in the expression (t + 0.25) × 20, which already accounts for those 15 minutes of running.
+
+So I counted the cat's 15-minute head start twice - once by adding 0.25 to the time, and once by adding the 5 miles. I should only count it once.
+
+Let me try again: If t is the time for the rabbit to catch up, then the rabbit runs 25t miles, and the cat runs 20(t + 0.25) miles total. So:
+
+25t = 20(t + 0.25)
+25t = 20t + 5
+5t = 5
+t = 1
+
+So it takes 1 hour for the rabbit to catch up.
+
+[TUTOR]:   (focus)But that is already included on 0.25 which you added to time. Do you see the mistake?
+[LEARNER]: Yes! I see it now. When I wrote (t + 0.25), that already includes the 15 minutes the cat ran. The 0.25 hours means the cat has been running for 0.25 hours longer than the rabbit.
+
+So the 5 miles is already counted in the expression 20(t + 0.25) because 20 × 0.25 = 5.
+
+I was wrong to add the 5 miles separately. The correct equation should just be:
+
+25t = 20(t + 0.25)
+
+And that gives t = 1 hour, which is the right answer.
+
+[TUTOR]:   (focus)So what should be correct equation?
+[LEARNER]: The correct equation should be:
+
+25t = 20(t + 0.25)
+
+Where t is the time the rabbit runs, and (t + 0.25) is the total time the cat has been running (including its 15-minute head start).
+
+[TUTOR]:   (focus)Solve for t please
+[LEARNER]: 25t = 20(t + 0.25)
+25t = 20t + 5
+25t - 20t = 5
+5t = 5
+t = 1
+
+So t = 1 hour.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Tom's rabbit can run at 31.3 miles per hour.  His cat can run 28.8 miles per hour.  The cat gets a 19.2-minute head start.  In hours, how long will it take for the rabbit to catch up?
+[LEARNER]: Let me work through this step by step.
+
+First, I need to convert the head start to hours:
+19.2 minutes = 19.2/60 = 0.32 hours
+
+Let t = the time (in hours) that the rabbit runs to catch up to the cat.
+
+When the rabbit catches up:
+- The rabbit will have run for t hours at 31.3 mph, so distance = 31.3t miles
+- The cat will have run for (t + 0.32) hours at 28.8 mph, so distance = 28.8(t + 0.32) miles
+
+Since they travel the same distance when the rabbit catches up:
+31.3t = 28.8(t + 0.32)
+31.3t = 28.8t + 9.216
+31.3t - 28.8t = 9.216
+2.5t = 9.216
+t = 9.216/2.5
+t = 3.6864
+
+So it will take the rabbit 3.6864 hours to catch up to the cat.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET D3D5CFE8
+──────────────────────────────────────────────────────────────────────

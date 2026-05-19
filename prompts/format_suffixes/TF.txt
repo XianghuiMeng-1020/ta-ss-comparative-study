@@ -1,0 +1,3 @@
+
+RESPONSE FORMAT:
+State "True" or "False", then give 1–2 sentences explaining your reasoning as a student who may not fully understand the concept.

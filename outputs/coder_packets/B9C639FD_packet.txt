@@ -1,0 +1,67 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: B9C639FD                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Due to a drought, Jerry's household can only use 1000 gallons of water during July. Jerry uses 100 gallons for drinking and cooking and 20 gallons per shower. He wants to fill his pool, which measures 10 feet by 10 feet by 6 feet. If each gallon of water fills 1 cubic foot of the pool, how many showers can Jerry take in July?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)can you walk me through your solution stepwise?
+[LEARNER]: Sure, here's what I did step by step:
+
+1. First, I calculated the volume of the pool: 10 × 10 × 6 = 600 cubic feet, which means 600 gallons needed to fill it.
+
+2. Then I subtracted the 100 gallons Jerry uses for drinking and cooking from the total: 1000 - 100 = 900 gallons remaining.
+
+3. Finally, I divided the remaining gallons by 20 gallons per shower: 900 ÷ 20 = 45 showers.
+
+Is there something wrong with one of these steps?
+
+[TUTOR]:   (probing)well done for calculating the volume of the pool correctly. and you have correctly understood that you need to subtract the 100 gallons required for drinking and cooking. but have you accounted for the water that is to be used to fill the 600 cubic feet pool?
+[LEARNER]: Oh! I see — I forgot to subtract the 600 gallons needed to fill the pool. Let me try again...
+
+After using 100 gallons for drinking and cooking, Jerry has 1000 - 100 = 900 gallons left.
+
+But he also needs 600 gallons to fill the pool, so: 900 - 600 = 300 gallons remaining for showers.
+
+Then 300 ÷ 20 = 15 showers.
+
+So Jerry can take 15 showers in July.
+
+[TUTOR]:   (generic)genius!!!!
+[LEARNER]: Thank you! I understand now — I need to account for ALL the water uses before calculating how many showers are possible, not just some of them.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Due to a drought, Jerry's household can only use 1297.1 gallons of water during July. Jerry uses 135.4 gallons for drinking and cooking and 24.3 gallons per shower. He wants to fill his pool, which measures 14.8 feet by 12.0 feet by 8.6 feet. If each gallon of water fills 1.3 cubic foot of the pool, how many showers can Jerry take in July?
+[LEARNER]: Let me work through this step by step:
+
+**Step 1: Calculate the volume of the pool**
+14.8 × 12.0 × 8.6 = 1,527.36 cubic feet
+
+**Step 2: Calculate gallons needed to fill the pool**
+Since each gallon fills 1.3 cubic feet, I need to divide the volume by 1.3:
+1,527.36 ÷ 1.3 = 1,174.89 gallons (approximately)
+
+**Step 3: Subtract drinking/cooking water from total**
+1,297.1 - 135.4 = 1,161.7 gallons remaining
+
+**Step 4: Subtract pool water from remaining amount**
+1,161.7 - 1,174.89 = -13.19 gallons
+
+Wait, this gives me a negative number. That means Jerry doesn't have enough water to fill the pool AND use water for drinking and cooking. So he can't take any showers.
+
+**Answer: 0 showers**
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET B9C639FD
+──────────────────────────────────────────────────────────────────────

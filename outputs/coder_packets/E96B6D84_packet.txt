@@ -1,0 +1,76 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: E96B6D84                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+James decides to try and collect rare artifacts in the field.  He spends 6 months researching before going on a 2-year-long expedition for his first find.  The second artifact takes 3 times as long for the research and discovery.  How long did it take him to find both?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hey Ayisha, this looks like a hard problem, what did you tackle first?
+[LEARNER]: I started by figuring out how long the first artifact took. I knew James spent 6 months researching, and then I converted the 2-year expedition into months by doing 2 x 12 = 24 months. Then I added those together to get 6 + 24 = 30 months for the first artifact. After that, I calculated that the second artifact took 3 times as long, so 3 x 30 = 90 months, and then I added both together to get 120 months total.
+
+[TUTOR]:   (focus)What about the research time needed before the expedition, have you taken that into account?
+[LEARNER]: Oh wait, I think I did include it! For the first artifact, I added the 6 months of research to the 24 months of expedition to get 30 months total. Then for the second artifact, the problem says it takes 3 times as long for "the research and discovery," so I multiplied the whole 30 months by 3 to get 90 months. So the research time is in there when I multiply by 3, right?
+
+[TUTOR]:   (focus)We need to work this into the whole solution back to the beginning, not just add it on to the end because we forgot it
+[LEARNER]: Oh, I see what you mean. Let me start over from the beginning then.
+
+For the first artifact: 6 months research + 24 months expedition = 30 months total.
+
+For the second artifact: The research takes 3 times as long, so that's 3 x 6 = 18 months of research. And the discovery (expedition) also takes 3 times as long, so that's 3 x 24 = 72 months. So the second artifact takes 18 + 72 = 90 months.
+
+Then the total for both is 30 + 90 = 120 months.
+
+[TUTOR]:   (focus)How long did it take to find the first artifact including the 6 months of research?
+[LEARNER]: It took 30 months total to find the first artifact - that's the 6 months of research plus the 24 months (2 years) for the expedition.
+
+[TUTOR]:   (focus)And what's that in years?
+[LEARNER]: Oh! 30 months divided by 12 is 2.5 years for the first artifact.
+
+[TUTOR]:   (focus)Now read back the question and work out the time it took to find the second artifact, using the information you have given me above
+[LEARNER]: Okay, the question says the second artifact takes 3 times as long for the research and discovery. I figured out it was 90 months for the second artifact (18 months research + 72 months expedition). 
+
+So 90 months divided by 12 is 7.5 years for the second artifact.
+
+[TUTOR]:   (focus)Which is how much in years?
+[LEARNER]: Wait, I just said 90 months divided by 12 is 7.5 years for the second artifact. So the second artifact took 7.5 years.
+
+[TUTOR]:   (generic)So we've confirmed your original answer was correct?
+[LEARNER]: Oh no, my original answer was 120 months, but I didn't convert it to years! The total time is 2.5 years + 7.5 years = 10 years for both artifacts. My original answer should have been 10 years, not 120 months.
+
+[TUTOR]:   (generic)Great job
+[LEARNER]: Thank you! I see now that I had all the right calculations, I just needed to remember to convert my final answer from months into years since that's what the question was asking for.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+James decides to try and collect rare artifacts in the field.  He spends 7.4 months researching before going on a 2.7-year-long expedition for his first find.  The second artifact takes 4.5 times as long for the research and discovery.  How long did it take him to find both?
+[LEARNER]: Okay, let me work through this step by step.
+
+For the first artifact:
+- Research: 7.4 months
+- Expedition: 2.7 years = 2.7 x 12 = 32.4 months
+- Total for first artifact: 7.4 + 32.4 = 39.8 months
+
+For the second artifact (takes 4.5 times as long):
+- Research: 4.5 x 7.4 = 33.3 months
+- Expedition: 4.5 x 32.4 = 145.8 months
+- Total for second artifact: 33.3 + 145.8 = 179.1 months
+
+Total for both artifacts: 39.8 + 179.1 = 218.9 months
+
+Now converting to years: 218.9 ÷ 12 = 18.24 years (or about 18.2 years)
+
+So it took him about 18.2 years to find both artifacts.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET E96B6D84
+──────────────────────────────────────────────────────────────────────

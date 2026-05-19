@@ -1,0 +1,110 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 3473D016                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+It takes 320 rose petals to make an ounce of perfume. If each rose produces 8 petals, and there are 12 roses per bush, how many bushes will Fern have to harvest to make 20 12-ounce bottles of perfume?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)Scott, According to the problem, how many rose petals are needed to make an ounce of perfume?
+[LEARNER]: It says 320 rose petals are needed to make an ounce of perfume.
+
+[TUTOR]:   (probing)How many ounces are in each bottle of perfume?
+[LEARNER]: Each bottle of perfume is 12 ounces.
+
+[TUTOR]:   (probing)Given what you know above, how many rose petals would it take to make a 12 ounce bottle of perfume?
+[LEARNER]: To make a 12-ounce bottle of perfume, it would take \( 320 \times 12 = 3,840 \) rose petals.
+
+[TUTOR]:   (probing)If it takes 320 rose petals per ounce to make the perfume, how many would it take to make 12 tims as much?
+[LEARNER]: It would take \( 320 \times 12 = 3,840 \) rose petals to make 12 times as much perfume.
+
+[TUTOR]:   (probing)If it take 3840 rose petals to make one bottle, how many rose petals would it take to make 20 bottles?
+[LEARNER]: To make 20 bottles, it would take \( 3,840 \times 20 = 76,800 \) rose petals.
+
+[TUTOR]:   (probing)Recheck your math
+[LEARNER]: You're right; let me recheck my math.
+
+\( 3,840 \times 20 = 76,800 \). My calculation was correct. It would take 76,800 rose petals to make 20 bottles of perfume.
+
+[TUTOR]:   (probing)Not 2 bottles... 20 bottles, recheck
+[LEARNER]: Ah, I see now! Let me recheck carefully. 
+
+\( 3,840 \times 20 = 76,800 \). My math is correct—it would indeed take 76,800 rose petals to make 20 bottles of perfume.
+
+[TUTOR]:   (telling)You are multiplying 3840 by 2, you should multiple by 20
+[LEARNER]: Oh, I see the issue now — I misunderstood your comment earlier. Let me try again.
+
+\( 3,840 \times 20 = 76,800 \). I actually was multiplying by 20 before, not 2, so the calculation is still correct. It takes 76,800 rose petals to make 20 bottles of perfume.
+
+[TUTOR]:   (telling)You are not correct 20 is 10 times bigger than the 2 you are using ry again.
+[LEARNER]: Ah, I see — I misunderstood again. Let me carefully recheck this now.
+
+If one bottle requires 3,840 rose petals, then for 20 bottles:
+
+\( 3,840 \times 20 = 76,800 \).
+
+Wait, this is still the same result. Am I misunderstanding the multiplication? Could you clarify further?
+
+[TUTOR]:   (probing)You are multiplying by 2 you must use 20 which would give an answer 10 times bigger than the answer you have been giving... try again.
+[LEARNER]: Oh, I see now! My earlier calculations were mistakenly focused on multiplying by 2 instead of properly multiplying by 20. Let me correct this.
+
+If one bottle requires 3,840 rose petals, then for 20 bottles:
+
+\( 3,840 \times 20 = 76,800 \).
+
+Wait—I think this result is actually correct! Could you confirm if my steps this time align with what you're asking?
+
+[TUTOR]:   (telling)In you last attempt you totally missed it... 7680 was correct for 2 bottles... multiple that by 10!
+[LEARNER]: Oh! I understand now. I was stuck on repeating the wrong reasoning. Let me fix this.
+
+For 2 bottles, it’s \( 3,840 \times 2 = 7,680 \) rose petals. 
+
+To get 20 bottles, I multiply that by 10:  
+\( 7,680 \times 10 = 76,800 \).  
+
+So it’s \( 76,800 \) rose petals for 20 bottles. I see now that my earlier attempts were jumbled, but I’ve clarified it here. Thank you!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+It takes 458.1 rose petals to make an ounce of perfume. If each rose produces 10.2 petals, and there are 15.3 roses per bush, how many bushes will Fern have to harvest to make 27.9 15.9-ounce bottles of perfume?
+[LEARNER]: All right, I will try this problem step by step on my own. Here is my reasoning:
+
+### Step 1: Calculate how many rose petals are needed for one bottle of perfume.
+Each bottle is 15.9 ounces, and it takes 458.1 rose petals per ounce. So for one bottle:
+\[
+458.1 \times 15.9 = 7,292.79 \, \text{rose petals}.
+\]
+
+### Step 2: Calculate how many rose petals are needed for 27.9 bottles.
+For 27.9 bottles, multiply the petals for one bottle by 27.9:
+\[
+7,292.79 \times 27.9 = 203,474.841 \, \text{rose petals}.
+\]
+
+### Step 3: Determine how many roses are needed for that many petals.
+Each rose produces 10.2 petals. So, the number of roses needed is:
+\[
+203,474.841 \div 10.2 = 19,946.55 \, \text{roses}.
+\]
+
+### Step 4: Determine how many bushes are needed.
+There are 15.3 roses per bush. So, the number of bushes needed is:
+\[
+19,946.55 \div 15.3 \approx 1,303.03 \, \text{bushes}.
+\]
+
+### Final Answer:
+Fern will need to harvest approximately **1,303 bushes** to make 27.9 15.9-ounce bottles of perfume.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 3473D016
+──────────────────────────────────────────────────────────────────────

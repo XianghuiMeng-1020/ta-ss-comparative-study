@@ -1,0 +1,101 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 3F41FA92                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jordan's dog, Max, was born on the same day that Luka turned 4 years old.  Luka is exactly 2 years older than is Aubrey.  On Aubrey's 8th birthday, how many years old was Jordan's dog, Max?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Ayisha, can you explain your answer to me?
+[LEARNER]: Hi! 
+
+I figured out that Luka was 10 years old on Aubrey's 8th birthday, since Luka is 2 years older than Aubrey (8 + 2 = 10).
+
+Then I said that Max was born when Luka turned 4, so I thought Max would be the same age as Luka, which would make Max 10 years old too.
+
+But I'm realizing now that doesn't quite make sense — if Max was born when Luka was already 4, Max shouldn't be the same age as Luka. I think that's where I went wrong?
+
+[TUTOR]:   (probing)OK. Ayisha, can you tell me who is older, Max or Luka?
+[LEARNER]: Luka is older than Max.
+
+Max was born when Luka turned 4 years old, so Luka had already lived 4 years before Max was even born. That means Luka is 4 years older than Max.
+
+[TUTOR]:   (focus)How old was Luka when Max was born?
+[LEARNER]: Luka was 4 years old when Max was born.
+
+The problem says Max was born on the same day that Luka turned 4 years old.
+
+[TUTOR]:   (probing)So who is older?
+[LEARNER]: Luka is older than Max by 4 years.
+
+Since Max was born when Luka turned 4, Luka is 4 years older than Max.
+
+[TUTOR]:   (probing)Were they born in the same year though?
+[LEARNER]: No, they were not born in the same year.
+
+Luka was born 4 years before Max. Max was born when Luka turned 4, so there's a 4-year gap between when Luka was born and when Max was born.
+
+[TUTOR]:   (telling)Luka was born 4 years before Max. Does that help you?
+[LEARNER]: Yes, that helps!
+
+So if Luka was 10 years old on Aubrey's 8th birthday, and Luka was born 4 years before Max, then Max would be 10 - 4 = 6 years old on Aubrey's 8th birthday.
+
+I see — I was wrong to say Max was the same age as Luka. Max is 4 years younger than Luka, so Max was 6 years old.
+
+[TUTOR]:   (focus)OK. Now we know that Luka is 4 years older than Max, can we solve the rest of the question?
+[LEARNER]: Yes! Let me work through it step by step.
+
+We know:
+- Luka is 2 years older than Aubrey
+- On Aubrey's 8th birthday, Luka was 8 + 2 = 10 years old
+- Luka is 4 years older than Max
+- So Max is 10 - 4 = 6 years old on Aubrey's 8th birthday
+
+Max was 6 years old on Aubrey's 8th birthday.
+
+[TUTOR]:   (probing)If Luka is 4 years older than Max, can they both be 10 at the same time?
+[LEARNER]: No, they can't both be 10 at the same time.
+
+If Luka is 4 years older than Max, then when Luka is 10, Max must be 10 - 4 = 6 years old.
+
+I see now — my original answer was definitely wrong because I said they were both 10, which is impossible if Luka is 4 years older.
+
+[TUTOR]:   (focus)If Luka is 10 and we also know he is older than Max by 4 years, how old does that make Max?
+[LEARNER]: If Luka is 10 years old and he is 4 years older than Max, then Max is 10 - 4 = 6 years old.
+
+[TUTOR]:   (telling)Luka is 10 and Max is 4 years younger, so Max must be 6 because 10 -4 =6. Does that make sense?
+[LEARNER]: Yes, that makes sense!
+
+Luka is 10 years old on Aubrey's 8th birthday, and since Max is 4 years younger than Luka, Max is 10 - 4 = 6 years old.
+
+So Max was 6 years old on Aubrey's 8th birthday.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jordan's dog, Max, was born on the same day that Luka turned 5.5 years old.  Luka is exactly 2.4 years older than is Aubrey.  On Aubrey's 8th birthday, how many years old was Jordan's dog, Max?
+[LEARNER]: Let me work through this step by step.
+
+First, I need to find how old Luka was on Aubrey's 8th birthday:
+- Luka is 2.4 years older than Aubrey
+- On Aubrey's 8th birthday, Luka was 8 + 2.4 = 10.4 years old
+
+Next, I need to find how old Max was:
+- Max was born when Luka turned 5.5 years old
+- This means Luka is 5.5 years older than Max
+- On Aubrey's 8th birthday, Luka was 10.4 years old
+- So Max was 10.4 - 5.5 = 4.9 years old
+
+Max was 4.9 years old on Aubrey's 8th birthday.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 3F41FA92
+──────────────────────────────────────────────────────────────────────

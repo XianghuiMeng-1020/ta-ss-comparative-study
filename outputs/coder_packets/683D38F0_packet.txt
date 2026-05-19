@@ -1,0 +1,74 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 683D38F0                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+A father and a son start approaching each other at the same time from opposite ends of a hallway that is 16m long. If the father is walking three times as fast as the son, at what distance from the father's end of the hallway will they meet?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)We want to know how far from the father's end they will meet. Think, who is walking further here, and how much was it?
+[LEARNER]: The father is walking further because he's faster. He's walking three times as fast as the son.
+
+[TUTOR]:   (probing)How far did the father walk? That tells you how far he is from his end of the hallway.
+[LEARNER]: Let's call the distance the father walks "x". That's also the distance from the father's end of the hallway where they meet.
+
+[TUTOR]:   (probing)If the father walked 30 meters, and met his son, then they would be 30 meters from where the father started.
+[LEARNER]: Okay, so "x" represents the distance from the father's starting point where they meet.
+
+[TUTOR]:   (generic)So can you look at your solution again.
+[LEARNER]: I see. I was trying to use 'x' for both the father's distance and setting up some equation with his speed, which doesn't make sense. I need to focus on the distances each person travels.
+
+Let 'x' be the distance the father walks. Then the son walks '16 - x' meters. Since the father walks three times as fast, he covers three times the distance in the same amount of time. So, x = 3(16 - x).
+
+[TUTOR]:   (generic)Can you draw a picture to represent what you're thinking?
+[LEARNER]: Okay, here's what I'm visualizing:
+
+[FATHER START] ---x--- [MEETING POINT] ---16-x--- [SON START]
+
+The total distance is 16m. The father walks 'x' meters, and the son walks '16-x' meters.
+
+[TUTOR]:   (focus)The 4 meters is closest to whose end of the hallway?
+[LEARNER]: The 4 meters in my original attempt was supposed to be the distance from the father's end. But I know that was wrong.
+
+[TUTOR]:   (telling)If the father walked 12 meters, then he is TWELVE meters from HIS END of the hallway.
+[LEARNER]: Right, so 'x' is the distance from the father's end. Now I need to solve the equation I set up: x = 3(16 - x).
+
+[TUTOR]:   (generic)Excellent, that is the answer.
+[LEARNER]: So, x = 3(16 - x)
+x = 48 - 3x
+4x = 48
+x = 12
+
+So they meet 12 meters from the father's end of the hallway.
+
+That makes sense because the son would have walked 16 - 12 = 4 meters. And 12 is three times 4, so the father walked three times as far.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+A father and a son start approaching each other at the same time from opposite ends of a hallway that is 16m long. If the father is walking three times as fast as the son, at what distance from the father's end of the hallway will they meet?
+[LEARNER]: This is the same problem as before, so I should be able to solve it correctly this time.
+
+Let 'x' be the distance from the father's end of the hallway to the meeting point.
+Then the son walks '16 - x' meters.
+Since the father walks three times as fast as the son, the distance the father walks is three times the distance the son walks.
+So, x = 3(16 - x)
+x = 48 - 3x
+4x = 48
+x = 12
+
+Therefore, they will meet 12 meters from the father's end of the hallway.
+
+The son walks 16 - 12 = 4 meters. The father walks 12 meters, which is three times the distance the son walks.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 683D38F0
+──────────────────────────────────────────────────────────────────────

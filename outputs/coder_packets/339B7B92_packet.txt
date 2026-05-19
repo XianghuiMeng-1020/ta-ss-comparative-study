@@ -1,0 +1,62 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 339B7B92                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)you are almost right!!
+[LEARNER]: Oh, I see! Could you help me figure out what part I got wrong so I can fix it?
+
+[TUTOR]:   (focus)well we have the 14 leftover tourists and 2 who recovered...what does that tell us?
+[LEARNER]: Ohh, okay, I see now! If there are 14 leftover tourists and 2 who recovered, that means the total group must have been larger before, right? So maybe we need to add those 14 and 2 together to figure out the original number of tourists we’re working with? Am I on the right track?
+
+[TUTOR]:   (generic)great!
+[LEARNER]: Awesome! Okay, so 14 + 2 gives us 16. That must have been the original number of tourists, right? Let me know if that makes sense or if there’s anything else to consider!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+A group of 42.7 tourists sets out on a walking tour of the rainforest. Two tourists are eaten by anacondas, then half the remaining tourists try to pet poisonous dart frogs and get poisoned. If only 1.3/8.5 of the poisoned tourists recovered, how many tourists are left at the end of the tour?
+[LEARNER]: Alright, let me tackle this step by step and show my reasoning as I go!
+
+1. **Start with the initial group of tourists:**  
+   The group starts out with **42.7 tourists**.
+
+2. **Subtract the two tourists eaten by anacondas:**  
+   If 2 tourists are eaten, the remaining number of tourists is:  
+   \( 42.7 - 2 = 40.7 \).
+
+3. **Half the remaining tourists get poisoned:**  
+   Half of the remaining tourists (40.7) try to pet poisonous dart frogs and get poisoned. So:  
+   \(\frac{1}{2} \times 40.7 = 20.35 \).  
+   That means **20.35 tourists** are poisoned, leaving **20.35 tourists unpoisoned**.
+
+4. **Find how many poisoned tourists recover:**  
+   Of the **20.35 poisoned tourists**, only **1.3/8.5** of them recover.  
+   First, calculate \( \frac{1.3}{8.5} \):  
+   \(\frac{1.3}{8.5} = 0.153 \) (approximately).  
+   Now multiply this fraction by the number of poisoned tourists:  
+   \( 0.153 \times 20.35 = 3.11 \) (approximately).  
+   So, **3.11 poisoned tourists recover**.
+
+5. **Calculate how many tourists are left at the end:**  
+   Adding the **recovered tourists** back to the **unpoisoned tourists**:  
+   \( 20.35 + 3.11 = 23.46 \).
+
+**Final Answer:** At the end of the tour, approximately **23.46 tourists** are left. 😊
+
+Let me know if I missed anything!
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 339B7B92
+──────────────────────────────────────────────────────────────────────

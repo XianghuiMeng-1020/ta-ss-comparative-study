@@ -1,0 +1,79 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 411A6D43                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Bobby can deadlift 300 pounds at 13.  When he is 18 he can deadlift 100 pounds more than 250% of his previous deadlift.  How many pounds did he add per year?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Can you walk me through how you solved the problem?
+[LEARNER]: I'd be happy to walk you through it. However, I notice that you attempted the problem initially, and I'd like to start by reviewing your work.
+
+You calculated 250% of Bobby's previous deadlift as 1.5 times his previous deadlift, which is correct. You then added 100 pounds to get 550 pounds. But I think there might be a mistake in how you interpreted the 250% increase. Can you tell me why you thought 250% was the same as 1.5 times the original amount?
+
+[TUTOR]:   (focus)It looks like you missed a step. The problem says that Bobby could deadlift 100 pounds more than 250% of his deadlift at 13. How much would that be?
+[LEARNER]: 250% of his previous deadlift is not just 1.5 times his previous deadlift. To calculate 250%, I need to multiply his previous deadlift by 2.5, not 1.5.
+
+So, 250% of 300 pounds would be:
+2.5 x 300 =?
+
+Can you help me calculate that?
+
+[TUTOR]:   (focus)You did not calculate that correctly. You calculated 150% of Bobby's deadlift instead of 250% of his deadlift. What would the calculation be now?
+[LEARNER]: 250% is the same as 2.5 times the original amount.
+
+So, 250% of Bobby's previous deadlift would be:
+2.5 x 300 = 750 pounds.
+
+And then I need to add 100 pounds to that result, right?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Bobby can deadlift 423.3 pounds at 15.7.  When he is 23.2 he can deadlift 147.0 pounds more than 364.5% of his previous deadlift.  How many pounds did he add per year?
+[LEARNER]: Let's break it down step by step.
+
+First, I need to calculate 364.5% of Bobby's previous deadlift:
+364.5% of 423.3 pounds =?
+
+To calculate this, I'll convert the percentage to a decimal by dividing by 100:
+364.5 ÷ 100 = 3.645
+
+Then, I'll multiply Bobby's previous deadlift by this decimal:
+3.645 x 423.3 =?
+
+ Multiplying...
+3.645 x 423.3 = 1543.19 pounds
+
+So, 364.5% of Bobby's previous deadlift is approximately 1543.19 pounds.
+
+Next, I need to add 147.0 pounds to this result:
+1543.19 + 147.0 = 1690.19 pounds
+
+This is how much Bobby can deadlift at 23.2.
+
+Now, I need to find out how many pounds he added per year. To do this, I'll subtract his previous deadlift from his new deadlift:
+1690.19 - 423.3 = 1266.89 pounds
+
+This is the total amount he added over the years. To find the amount he added per year, I'll divide this by the number of years that passed:
+23.2 - 15.7 = 7.5 years
+
+Now, dividing the total amount added by the number of years:
+1266.89 ÷ 7.5 =?
+
+Dividing...
+1266.89 ÷ 7.5 ≈ 169.0 pounds per year
+
+Is this correct?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 411A6D43
+──────────────────────────────────────────────────────────────────────

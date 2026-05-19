@@ -1,0 +1,56 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 4701D52B                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Ava planted 9 apple trees in her backyard. That's 3 more than Lily planted in her backyard. How many apple trees did they plant in their backyards collectively?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)talk me through your solution
+[LEARNER]: Okay, so first I said that Lily planted L trees. Then, because Ava planted 3 more than Lily, I wrote that Ava planted L+3 trees. To find the total, I added Lily's and Ava's trees: L + (L+3), which simplifies to 2L+3. The problem says Ava planted 9 apple trees. So I plugged in 9 for L and got 2 times 9 plus 3. That's 18+3 which is 21. So I think they planted 21 apple trees together.
+
+[TUTOR]:   (probing)how many trees did Ava plant?
+[LEARNER]: Ava planted 9 apple trees. The problem said that right in the beginning.
+
+[TUTOR]:   (probing)read the question. how many trees did Ava plant?
+[LEARNER]: Okay, I read the question again. It says Ava planted 9 apple trees, but it also says that's 3 more than Lily planted. So, I think I still need to use the "L+3" thing I had before, but I'm not sure how.
+
+[TUTOR]:   (probing)is she planted 3 more than lily how many did lily plant?
+[LEARNER]: If Ava planted 3 more than Lily, then Lily must have planted fewer trees than Ava. To find out how many Lily planted, I need to subtract 3 from the number of trees Ava planted. So, Lily planted 9 - 3 = 6 trees.
+
+[TUTOR]:   (probing)Ava planted 9 trees which was 3 more than lily. How many did lily plant?
+[LEARNER]: Okay, so Ava planted 9 trees, and that's 3 *more* than Lily. So Lily planted 3 *less* than Ava. That means Lily planted 9 - 3 = 6 trees.
+
+[TUTOR]:   (telling)9-3=
+[LEARNER]: 9 - 3 = 6. So Lily planted 6 trees.
+
+[TUTOR]:   (probing)so lily planted 6 trees and Ava planted 9. what's the total?
+[LEARNER]: Okay, if Lily planted 6 trees and Ava planted 9 trees, then to find the total I need to add those numbers together. So, 6 + 9 = 15. They planted 15 trees in total.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Ava planted 11.3 apple trees in her backyard. That's 4.4 more than Lily planted in her backyard. How many apple trees did they plant in their backyards collectively?
+[LEARNER]: Okay, so this is like the last problem.
+
+First, I need to find out how many trees Lily planted. Ava planted 11.3 trees, and that's 4.4 *more* than Lily. So Lily planted 4.4 *less* than Ava. That means Lily planted 11.3 - 4.4 trees.
+
+11.  3 - 4.4 = 6.9. So Lily planted 6.9 trees.
+
+Now, to find the total, I need to add the number of trees Ava planted and the number of trees Lily planted. So that's 11.3 + 6.9.
+
+11.  3 + 6.9 = 18.2
+
+So they planted 18.2 trees in their backyards collectively.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 4701D52B
+──────────────────────────────────────────────────────────────────────

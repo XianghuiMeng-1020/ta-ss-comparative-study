@@ -1,0 +1,59 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 9A7DFBB9                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Could you check your calculations, do you feel you have made a slight error
+[LEARNER]: Okay, let me double-check my calculations then. I'll go back and look at each step.  Can you maybe give me a hint about where you think the error might be, or what part of the problem I should focus on?  Knowing that might help me find it faster.  Otherwise, I'll just go through it again from the beginning.
+
+[TUTOR]:   (focus)And you can see how you made that error
+[LEARNER]: Okay, I'm going back through it. (pause, as if reviewing work) ...Hmm, I see it now! I think I messed up when I was [mention specific operation, e.g., distributing the negative sign, combining like terms, etc.] in that step. I was supposed to [explain what you *should* have done] instead of [explain what you *did* do]. Let me correct that... 
+
+(Pause, as if making the correction).
+
+Okay, I think I've fixed it. Does this look better now?
+
+[TUTOR]:   (telling)Well done
+[LEARNER]: Great! Thanks for pointing out that mistake. It's really helpful when you ask me to double-check like that. I think I understand where I went wrong now. Can we move on to the next part of the problem, or should I practice another one like this to make sure I've got it?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+James injured his ankle and decides to slowly start working back up to his previous running goals and then surpass them.  Before the injury, he was able to run 129.6 miles per week.  He wants to get up to 29.3% more than that total in 346.1 days and each week he will increase miles walked in the week by the same amount.  How many miles does he need to add per week?
+[LEARNER]: Okay, I'm going to try this one on my own. Here's my thinking:
+
+1.  **Figure out the target mileage:** James wants to run 29.3% *more* than his original 129.6 miles per week. So first, I need to calculate 29.3% of 129.6.  That's (29.3/100) * 129.6 = 0.293 * 129.6 = 37.96 miles (approximately).
+
+2.  **Calculate the total goal mileage:**  He wants to run 37.96 miles *more* than his original 129.6 miles. So, his goal is 129.6 + 37.96 = 167.56 miles per week (approximately).
+
+3.  **Determine the number of weeks:** He wants to reach his goal in 346.1 days. There are 7 days in a week, so that's 346.1 / 7 = 49.44 weeks (approximately).
+
+4.  **Set up an arithmetic sequence:** This is where I think the key is. His mileage increases by a *constant* amount each week. This means we can model it with an arithmetic sequence. Let 'a' be the starting mileage (which is still zero since he is injured) and 'd' be the amount he increases each week. After 49.44 weeks, he wants to be at 167.56 miles. So we can say the last term of the arithmetic sequence is 167.56.
+
+   The formula for the nth term of an arithmetic sequence is a\_n = a\_1 + (n-1)d.  In this case, a\_n = 167.56, a\_1 = 0, and n = 49.44. So:
+
+   167.56 = 0 + (49.44 - 1) * d
+   167.56 = 48.44 * d
+
+5.  **Solve for d:** Now I can solve for 'd' (the amount he increases each week):
+
+   d = 167.56 / 48.44 = 3.46 miles (approximately).
+
+**Answer:** James needs to add approximately 3.46 miles per week to reach his goal.
+
+Does that look right? I tried to be really careful with each step, but please let me know if I made any mistakes!
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 9A7DFBB9
+──────────────────────────────────────────────────────────────────────

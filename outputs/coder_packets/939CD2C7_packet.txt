@@ -1,0 +1,61 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 939CD2C7                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)how many rock cds does he have?
+[LEARNER]: To answer that question, I need more information. Who are you referring to when you say "he"? Please provide a name or some other identifier so I can try to find the information you're looking for.
+
+[TUTOR]:   (telling)not quite. he has 23-3
+[LEARNER]: Okay, so "he" has 23-3 rock CDs, which means he has 20 rock CDs.
+
+[TUTOR]:   (focus)sure! how if he has twice as many and we need todo the inverse, what would we do?
+[LEARNER]: Okay, let's break this down.
+
+*   **Currently:** "He" has 20 rock CDs.
+*   **Twice as many:** If he *currently* had twice as many, that would be 20 * 2 = 40 CDs.
+*   **Inverse:** You want to go back to the original number. The inverse of multiplying by 2 is dividing by 2.
+
+Therefore, if he had twice as many (40 CDs) and we need to do the inverse to find the original number, we would divide 40 by 2.
+
+40 / 2 = 20
+
+So, the answer is **divide by 2**. This would get us back to the original number of 20 CDs.
+
+[TUTOR]:   (focus)yep
+[LEARNER]: Great! I'm glad I could help. Is there anything else I can assist you with?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+In Henry's collection of music CDs, he has 4.0 more country CDs than rock CDs but twice as many rock CDs as classical CDs. If he has 31.7 country CDs, how many classical CDs make up his collection?
+[LEARNER]: Okay, I'll solve this problem step-by-step:
+
+1.  **Find the number of rock CDs:** We know Henry has 4.0 more country CDs than rock CDs. He has 31.7 country CDs. So, to find the number of rock CDs, we subtract 4.0 from the number of country CDs:
+
+    Rock CDs = Country CDs - 4.0
+    Rock CDs = 31.7 - 4.0
+    Rock CDs = 27.7
+
+2.  **Find the number of classical CDs:** We know Henry has twice as many rock CDs as classical CDs. This means the number of rock CDs is two times the number of classical CDs. To find the number of classical CDs, we divide the number of rock CDs by 2:
+
+    Classical CDs = Rock CDs / 2
+    Classical CDs = 27.7 / 2
+    Classical CDs = 13.85
+
+Therefore, Henry has **13.85** classical CDs in his collection.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 939CD2C7
+──────────────────────────────────────────────────────────────────────

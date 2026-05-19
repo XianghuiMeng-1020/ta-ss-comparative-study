@@ -1,0 +1,78 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: CD3BB16A                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Ava planted 9 apple trees in her backyard. That's 3 more than Lily planted in her backyard. How many apple trees did they plant in their backyards collectively?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)talk me through your solution
+[LEARNER]: Sure! Here’s my thought process in my initial attempt:
+
+1. I called the number of apple trees Lily planted "L".
+2. Then I said Ava planted "L + 3" trees because she planted 3 more than Lily.
+3. Together, they planted "L + L + 3", which I simplified to "2L + 3".
+4. I substituted "L = 9" (since I thought Lily planted 9 trees) and calculated:  
+   2L + 3 = 2(9) + 3 = 18 + 3 = 21.
+
+But I now realize something doesn’t feel right, because I didn’t carefully check whether Lily actually planted 9 trees. Could you help me figure out where I went wrong?
+
+[TUTOR]:   (probing)how many trees did Ava plant?
+[LEARNER]: Ava planted 9 trees. The problem says, "Ava planted 9 apple trees in her backyard." I now see that I mistakenly assumed Lily planted 9 trees instead of Ava. This is likely where I went wrong in my original solution. Let me revise my work.
+
+[TUTOR]:   (probing)read the question. how many trees did Ava plant?
+[LEARNER]: Oh, I see now! The question says Ava planted **9 apple trees**. I misunderstood earlier, but now I understand that Ava's trees are given as 9, not Lily's. Thank you for pointing that out! Let me adjust my solution.
+
+[TUTOR]:   (probing)is she planted 3 more than lily how many did lily plant?
+[LEARNER]: If Ava planted 9 trees, and that's 3 more than Lily, then Lily must have planted:
+
+**9 - 3 = 6** trees.
+
+So Lily planted 6 apple trees. I see now where I made my mistake earlier—I assumed Lily planted 9 trees instead of Ava. Let me revise my solution fully.
+
+[TUTOR]:   (probing)Ava planted 9 trees which was 3 more than lily. How many did lily plant?
+[LEARNER]: If Ava planted 9 trees, and that's 3 more than Lily, then Lily planted:
+
+**9 - 3 = 6** trees.
+
+So Lily planted **6 trees**. I understand now that I needed to subtract 3 from Ava's total to find Lily's total. Thanks for clarifying! Let me revise my full solution.
+
+[TUTOR]:   (telling)9-3=
+[LEARNER]: 9 - 3 = 6.  
+
+So Lily planted 6 trees. I now understand this clearly. Let me revise my full solution!
+
+[TUTOR]:   (probing)so lily planted 6 trees and Ava planted 9. what's the total?
+[LEARNER]: If Lily planted 6 trees and Ava planted 9 trees, the total number of trees they planted is:
+
+**6 + 9 = 15**.
+
+They planted **15 trees** in total. I see now that my earlier solution was completely wrong—I’ll summarize my corrected reasoning below!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Ava planted 13.3 apple trees in her backyard. That's 4.0 more than Lily planted in her backyard. How many apple trees did they plant in their backyards collectively?
+[LEARNER]: Okay, I’ll try this step by step!  
+
+1. Ava planted **13.3 trees**, and that's **4.0 more than Lily planted**.  
+   To find how many trees Lily planted, I subtract 4.0 from 13.3:  
+   **13.3 - 4.0 = 9.3**.  
+   So Lily planted **9.3 trees**.
+
+2. To find the total number of trees they planted, I add Ava's and Lily's trees together:  
+   **13.3 + 9.3 = 22.6**.
+
+3. Therefore, they planted **22.6 trees** in their backyards collectively.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET CD3BB16A
+──────────────────────────────────────────────────────────────────────

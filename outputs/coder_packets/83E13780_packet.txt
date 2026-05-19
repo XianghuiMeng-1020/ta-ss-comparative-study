@@ -1,0 +1,55 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 83E13780                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+The Martin family goes to the mall to get ice cream.  A kiddie scoop is $3.  A regular scoop is $4.  A double scoop is $6.   Mr. and Mrs. Martin each get the regular scoop.  Their two children each get the kiddie scoop.  Their three teenage children each get double scoops.  How much money does Mrs. Martin pay the cashier?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Scott can you talk me through your working out please?
+[LEARNER]: I'd be happy to walk through my initial attempt. I started by calculating the cost for Mr. and Mrs. Martin's regular scoops: 2 x $4 = $8. Then, I found the cost for the two kiddie scoops: 2 x $3 = $6. Next, I calculated the cost for the three double scoops: 3 x $6 = $18. Finally, I added up all these costs, but I'm not sure if I did it correctly... Can you help me check my addition?
+
+[TUTOR]:   (focus)Check how many numbers are in your final calculation
+[LEARNER]: I added up $8 + $8 + $6 + $6 + $18. There are 5 numbers in my final calculation. Wait, I notice that I wrote $8 twice, but I only calculated the cost of the regular scoops once, which is 2 x $4 = $8. I think I might have made a mistake by writing $8 twice...
+
+[TUTOR]:   (telling)You should have 3 numbers in your final calcualtion
+[LEARNER]: I see that I made a mistake by including extra numbers in my final calculation. Let me revise it. I will only add the costs that I previously calculated: $8 for the regular scoops, $6 for the kiddie scoops, and $18 for the double scoops. So, my revised calculation is: $8 + $6 + $18.
+
+[TUTOR]:   (generic)Yes that's right, well done
+[LEARNER]: I'm glad I was able to correct my mistake. Now, let me calculate the total: $8 + $6 + $18 = $32. So, Mrs. Martin pays a total of $32 to the cashier.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+The Martin family goes to the mall to get ice cream.  A kiddie scoop is $4.5.  A regular scoop is $5.3.  A double scoop is $8.4.   Mr. and Mrs. Martin each get the regular scoop.  Their two children each get the kiddie scoop.  Their three teenage children each get double scoops.  How much money does Mrs. Martin pay the cashier?
+[LEARNER]: Let's break it down step by step.
+
+First, I'll calculate the cost for Mr. and Mrs. Martin's regular scoops:
+2 x $5.3 = $10.6
+
+Next, I'll find the cost for the two kiddie scoops:
+2 x $4.5 = $9
+
+Then, I'll calculate the cost for the three double scoops:
+3 x $8.4 = $25.2
+
+Now, I'll add up the costs to find the total:
+$10.6 + $9 + $25.2 = ?
+
+Let me calculate the total...
+$10.6 + $9 = $19.6
+$19.6 + $25.2 = $44.8
+
+So, Mrs. Martin pays a total of $44.8 to the cashier.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 83E13780
+──────────────────────────────────────────────────────────────────────

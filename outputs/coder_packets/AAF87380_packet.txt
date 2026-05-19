@@ -1,0 +1,136 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: AAF87380                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jordan picked 54 mangoes from his tree. One-third of the mangoes were ripe while the other two-thirds were not yet ripe. Jordan kept 16 unripe mangoes and gave the remainder to his sister who pickled them in glass jars. If it takes 4 mangoes to fill a jar, how many jars of pickled mangoes can Jordan's sister make?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)can you walk me through your solution stepwise?
+[LEARNER]: Sure! Let me go through each step:
+
+First, I found one-third of 54 mangoes: (1/3) × 54 = 18 ripe mangoes.
+
+Then I found two-thirds of 54 mangoes: (2/3) × 54 = 36 unripe mangoes.
+
+Next, Jordan kept 16 unripe mangoes, so I subtracted that from the total mangoes he picked: 54 - 16 = 38 mangoes left for his sister.
+
+Finally, I divided 38 by 4 to see how many jars she could fill: 38 ÷ 4 = 9.5, but since we can't have half a jar, the answer is 9 jars.
+
+Does that make sense?
+
+[TUTOR]:   (generic)Hi Scott, could you please walk me through your solution?
+[LEARNER]: Oh, sorry! Let me explain my steps again:
+
+First, I calculated one-third of 54 mangoes to find the ripe ones: (1/3) × 54 = 18 ripe mangoes.
+
+Then I found the unripe mangoes, which is two-thirds: (2/3) × 54 = 36 unripe mangoes.
+
+Jordan kept 16 unripe mangoes, so I subtracted 16 from 54 to find how many mangoes his sister got: 54 - 16 = 38 mangoes.
+
+Then I divided 38 by 4 because it takes 4 mangoes to fill one jar: 38 ÷ 4 = 9.5 jars, which means she can make 9 full jars.
+
+[TUTOR]:   (probing)could you please explain why you subtracted 16 from 54?
+[LEARNER]: I subtracted 16 from 54 because Jordan kept 16 unripe mangoes, so I needed to find out how many mangoes were left to give to his sister.
+
+Since Jordan picked 54 mangoes total and kept 16, I thought 54 - 16 = 38 would tell me how many mangoes his sister received.
+
+[TUTOR]:   (probing)but what was the number of unripe mangoes that you have calculated in your solution?
+[LEARNER]: Oh! I calculated that there were 36 unripe mangoes.
+
+Wait... so if Jordan only had 36 unripe mangoes and he kept 16 of them, then I should subtract 16 from 36, not from 54, right?
+
+So it should be 36 - 16 = 20 unripe mangoes that he gave to his sister?
+
+[TUTOR]:   (probing)if the number of unripe mangoes is 36 and jordan kept 16 for himself then how can the remaining number of unripe mangoes  be 38 which is greater than that of the original number of unripe mangoes?
+[LEARNER]: Oh, you're right! That doesn't make sense at all. 
+
+If Jordan only had 36 unripe mangoes to start with, the remaining amount can't be 38 - that's more than what he had!
+
+I should have subtracted 16 from 36, not from 54, because the 16 mangoes Jordan kept came from the unripe mangoes, not from all the mangoes.
+
+So it should be 36 - 16 = 20 unripe mangoes for his sister.
+
+[TUTOR]:   (probing)scott lets say you have 50 candies out of which 20 are chocolate flavoured and 30 are orange flavored. lets say you kept 10 of the orange flavoured candies for yourself and gave the remaining to me. then how many orange candies do i get?
+[LEARNER]: If I had 30 orange flavored candies and kept 10 for myself, then you would get 30 - 10 = 20 orange candies.
+
+I need to subtract the 10 I kept from the 30 orange candies, not from the total 50 candies.
+
+[TUTOR]:   (probing)very good correct answer. can you now explain why you subtracted 10 from 30 instead of subtracting it from 50?
+[LEARNER]: I subtracted 10 from 30 because the 10 candies I kept were orange flavored candies, not just any candies from the total.
+
+Since I only kept orange candies, I need to subtract from the number of orange candies (30), not from all the candies (50). The chocolate candies weren't involved at all in what I kept or gave away.
+
+[TUTOR]:   (focus)so now you can use this concept to find out the number of unripe mangoes that were given to jordan's sister.
+[LEARNER]: Right! So Jordan had 36 unripe mangoes and he kept 16 unripe mangoes for himself.
+
+I need to subtract 16 from 36, not from 54, because he only kept unripe mangoes.
+
+So 36 - 16 = 20 unripe mangoes were given to his sister.
+
+Then his sister can make 20 ÷ 4 = 5 jars of pickled mangoes!
+
+[TUTOR]:   (telling)remember the candy problem. you subtracted 10 from 30 and not 50. use the same concept here.
+[LEARNER]: Oh yes! Just like I subtracted 10 from 30 (the orange candies) and not from 50 (all candies), I should subtract 16 from 36 (the unripe mangoes) and not from 54 (all mangoes).
+
+So Jordan's sister gets 36 - 16 = 20 unripe mangoes.
+
+Then she can make 20 ÷ 4 = 5 jars of pickled mangoes.
+
+[TUTOR]:   (focus)please note that jordan kept 16 unripe mangoes for himself and gave the remaining to his sister implies that he gave the remaining unripe mangoes to her sister. the ripe mangoes are not considered here.
+[LEARNER]: Yes, I understand now! Jordan only dealt with the unripe mangoes - he kept 16 unripe mangoes and gave the remaining unripe mangoes to his sister.
+
+So from the 36 unripe mangoes, he kept 16, which means his sister got 36 - 16 = 20 unripe mangoes.
+
+Then she can make 20 ÷ 4 = 5 jars of pickled mangoes.
+
+The ripe mangoes (18 of them) weren't part of this at all.
+
+[TUTOR]:   (telling)He picked 54 - 18 = 36 unripe mangoes. he kept 16 for himself. so the number of remaining unripe mangoes has to be calculated by subtracting 16 from 36.
+[LEARNER]: Yes, you're right! 
+
+Jordan picked 54 mangoes total, and 18 were ripe, so 54 - 18 = 36 were unripe mangoes.
+
+He kept 16 unripe mangoes for himself, so the remaining unripe mangoes = 36 - 16 = 20.
+
+His sister got 20 unripe mangoes, so she can make 20 ÷ 4 = 5 jars of pickled mangoes.
+
+[TUTOR]:   (focus)can you now figure out If it takes 4 mangoes to fill a jar, how many jars of pickled mangoes can Jordan's sister make?
+[LEARNER]: Yes! Jordan's sister received 20 unripe mangoes.
+
+If it takes 4 mangoes to fill one jar, then she can make 20 ÷ 4 = 5 jars of pickled mangoes.
+
+So the answer is 5 jars.
+
+[TUTOR]:   (generic)good job
+[LEARNER]: Thank you! I understand now - I need to subtract from the specific group (the unripe mangoes) instead of from the total. That was confusing me before, but the candy example really helped me see it!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jordan picked 77.1 mangoes from his tree. One-third of the mangoes were ripe while the other two-thirds were not yet ripe. Jordan kept 19.3 unripe mangoes and gave the remainder to his sister who pickled them in glass jars. If it takes 5.3 mangoes to fill a jar, how many jars of pickled mangoes can Jordan's sister make?
+[LEARNER]: Okay, let me work through this step by step:
+
+First, I need to find how many mangoes were ripe and unripe.
+One-third were ripe: (1/3) × 77.1 = 25.7 ripe mangoes
+Two-thirds were unripe: (2/3) × 77.1 = 51.4 unripe mangoes
+
+Jordan kept 19.3 unripe mangoes for himself, so I need to subtract from the unripe mangoes, not the total.
+Unripe mangoes given to his sister: 51.4 - 19.3 = 32.1 unripe mangoes
+
+Now I divide by how many mangoes fill one jar:
+32.1 ÷ 5.3 = 6.056... jars
+
+Since we can't have a partial jar, Jordan's sister can make 6 jars of pickled mangoes.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET AAF87380
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,54 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: A40204FB                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 10 homes which each will buy 2 boxes of cookies.  Neighborhood B has 5 homes, each of which will buy 5 boxes of cookies.  Assuming each box of cookies costs $2, how much will Jenny make at the better choice of the two neighborhoods?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)You have made an error by adding the two neighbourhoods , Jenny will only be selling to the better one
+[LEARNER]: So I should only consider one neighborhood at a time. Let me try again.
+
+Neighborhood A will buy 10 x 2 = 20 boxes of cookies.
+Neighborhood B will buy 5 x 5 = 25 boxes of cookies.
+
+I think I should compare which one is more, 20 or 25. Since 25 is more, Neighborhood B is the better choice.
+
+So, Jenny will make 25 x $2 = $50 from selling cookies in Neighborhood B.
+
+Is that correct?
+
+[TUTOR]:   (generic)Correct do you see the error you made
+[LEARNER]: I think I do! I made a mistake by adding the total boxes from both neighborhoods together. I didn't consider that Jenny was only going to sell in one of them. I just added them up like she was going to sell in both. That was a silly mistake!
+
+[TUTOR]:   (generic)Yes correct well done
+[LEARNER]: I'm glad I could identify the mistake. It makes sense now that I think about it. I just need to be more careful and read the question more closely.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 14.7 homes which each will buy 2.8 boxes of cookies.  Neighborhood B has 6.5 homes, each of which will buy 7.2 boxes of cookies.  Assuming each box of cookies costs $2.9, how much will Jenny make at the better choice of the two neighborhoods?
+[LEARNER]: To solve this problem, I'll first calculate the total number of boxes each neighborhood will buy.
+
+Neighborhood A will buy 14.7 x 2.8 = 41.16 boxes of cookies.
+Neighborhood B will buy 6.5 x 7.2 = 46.8 boxes of cookies.
+
+Next, I'll compare which neighborhood buys more boxes. Since 46.8 is more than 41.16, Neighborhood B is the better choice.
+
+Now, I'll calculate how much money Jenny will make by selling cookies in Neighborhood B.
+
+46.8 x $2.9 = $135.72
+
+Wait, I think I made the same mistake again! I didn't consider that I should round the numbers, and I also didn't think about if I should round the final answer or not. I'll try to be more careful next time!
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET A40204FB
+──────────────────────────────────────────────────────────────────────

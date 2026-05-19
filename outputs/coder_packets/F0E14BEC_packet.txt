@@ -1,0 +1,120 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: F0E14BEC                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+The vending machine fails to drop a snack when it’s purchased one in six times. One in ten times, it will accidentally drop two snacks. The rest of the time, it drops the purchased snack. If thirty people have used the vending machine once each to purchase a snack, how many snacks has the vending machine dropped?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Brenda, talk me through your solution
+[LEARNER]: Okay! So, here's what I did:
+
+Out of 30 purchases, the vending machine fails to drop a snack 1/6 of the time. So, I divided 30 by 6, which equals 5. That means it didn’t drop a snack 5 times.
+
+Then, the vending machine drops two snacks 1/10 of the time. So, I divided 30 by 10, which equals 3. That means it dropped 2 snacks 3 times. I multiplied 2 by 3 to get 6 extra snacks.
+
+Finally, I added the 5 times it failed to drop a snack and the 6 extra snacks, which gave me 11 snacks dropped in total. So I got 11 snacks.
+
+[TUTOR]:   (focus)how many times has the vending machine been used in total?
+[LEARNER]: The vending machine has been used 30 times in total because 30 people each used it once to purchase a snack. So, there were 30 total uses.
+
+[TUTOR]:   (focus)and how many times has it dropped a single snack normally?
+[LEARNER]: Oh, okay. If the vending machine was used 30 times in total, and it fails to drop a snack 1/6 of the time, then it fails 30 ÷ 6 = 5 times.
+
+That means the rest of the time it works normally and drops one snack. So, I think it works normally 30 - 5 = 25 times. It must have dropped one snack 25 times.
+
+[TUTOR]:   (focus)how did you work that out?
+[LEARNER]: So, I know the vending machine was used 30 times in total.
+
+I also know that it fails to drop a snack 1/6 of the time. To figure out how many times it fails, I divided 30 by 6, which equals 5 failures.
+
+Then, I thought that if it failed 5 times, the rest of the uses must be when it worked normally. So, I subtracted 5 from 30 and got 25. That’s how I figured out it worked normally 25 times and dropped one snack during those times.
+
+[TUTOR]:   (probing)If I have 30 sweets and I eat 5, how many do I have left?
+[LEARNER]: If you have 30 sweets and you eat 5, you would have 30 - 5 = 25 sweets left.
+
+[TUTOR]:   (probing)What about if I eat another 3?
+[LEARNER]: If you eat another 3 sweets after already eating 5, then you subtract 3 from the 25 you have left. 
+
+So, 25 - 3 = 22 sweets left.
+
+[TUTOR]:   (focus)good, so how many times did the machine give a single snack?
+[LEARNER]: Oh! I think I made a mistake earlier. If the vending machine was used 30 times in total, and it failed to drop a snack 5 times and dropped two snacks 3 times, then I need to subtract both of those from the total to find how many times it gave a single snack.
+
+So: 30 - 5 - 3 = 22.
+
+The vending machine gave a single snack 22 times.
+
+[TUTOR]:   (focus)you've just told me that 30 - 5 - 3 = 22
+[LEARNER]: Oh, wait, I see what you're saying. Let me check that again.
+
+If the vending machine was used 30 times in total, and it failed to drop a snack 5 times, then I subtracted 5 from 30, which leaves 25. Then, if it gave two snacks 3 times, I need to subtract 3 from 25.
+
+So: 25 - 3 = 22.
+
+The vending machine gave a single snack 22 times.
+
+[TUTOR]:   (focus)good, correct. and then how many times did it fail to drop a snack?
+[LEARNER]: It failed to drop a snack 1/6 of the time. Since the vending machine was used 30 times, I divided 30 by 6 to get 5.
+
+So, it failed to drop a snack 5 times.
+
+[TUTOR]:   (focus)so would we add any number to 22 here?
+[LEARNER]: Oh, no, we wouldn’t add anything to 22 here. The 22 represents the times the machine gave a single snack, and the 5 times it failed to drop a snack don’t count as snacks being dropped. So we wouldn’t add the 5 to 22. I see that now!
+
+[TUTOR]:   (probing)if I fail to give you a sweet, do you have any sweets?
+[LEARNER]: If you fail to give me a sweet, then I wouldn’t have any sweets at all. So, no, I wouldn’t have any.
+
+[TUTOR]:   (focus)so if the vending machine fails to drop a snack, will we add any snacks to 22?
+[LEARNER]: Oh, I get it now! If the vending machine fails to drop a snack, then no snacks are dropped during those times. So, we wouldn’t add anything to the 22. Fails don’t count as snacks being dropped.
+
+[TUTOR]:   (focus)but the 5 times it fails, it didn't give us a snack
+[LEARNER]: Right, the 5 times it fails, it didn’t drop any snacks at all. So those 5 times don’t give us any snacks to count. That means we don’t add anything to the 22 snacks that were dropped normally. I understand now!
+
+[TUTOR]:   (telling)we don't need to add those 5 times to the total
+[LEARNER]: Oh, okay, that makes sense now. We don’t need to add those 5 times because the vending machine didn’t drop any snacks during those times. So, the 22 times it gave one snack stays as it is. I won’t include the 5 failures in the total snacks anymore.
+
+[TUTOR]:   (telling)the answer is 28
+[LEARNER]: Oh, I see now! The vending machine dropped 22 snacks during the 22 normal times it worked, and then it dropped 2 snacks during 3 separate times when it gave extras. That’s 2 x 3 = 6 extra snacks. 
+
+So, 22 + 6 = 28 snacks in total. I get it now—thanks for helping me figure that out!
+
+[TUTOR]:   (telling)we have the 22 times it operated normally. Then it failed to give a snack 5 times. Then it gave a double snack 3 times ( 2 x 3 = 6), so we add 6 + 22 = 28
+[LEARNER]: Ohhh, okay, I totally get it now! We count the 22 times it operated normally, where it dropped one snack each time. Then, the 5 times it failed to give a snack don’t add anything because no snacks were dropped. Finally, it gave a double snack 3 times, which is 2 x 3 = 6 snacks. 
+
+So, we add the 22 from normal operation and the 6 from the double snacks: 22 + 6 = 28 snacks in total. That makes sense now—thank you!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+The vending machine fails to drop a snack when it’s purchased one in six times. One in ten times, it will accidentally drop two snacks. The rest of the time, it drops the purchased snack. If thirty people have used the vending machine once each to purchase a snack, how many snacks has the vending machine dropped?
+[LEARNER]: Okay! I’ll try this step by step on my own:
+
+1. The vending machine was used 30 times in total.
+
+2. It fails to drop a snack 1/6 of the time. So, I divide 30 by 6:  
+   30 ÷ 6 = 5 times it fails to drop a snack. That means no snacks were dropped during these 5 times.
+
+3. It gives two snacks 1/10 of the time. So, I divide 30 by 10:  
+   30 ÷ 10 = 3 times it gave double snacks. For each of these 3 times, it gave 2 snacks.  
+   That’s 2 x 3 = 6 snacks in total from the double-snack times.
+
+4. The rest of the time, it worked normally and gave one snack. To figure out how many times it worked normally, I subtract the failures and the double-snack times from the total:  
+   30 - 5 - 3 = 22 times it gave one snack. That means 22 snacks from normal operation.
+
+5. Now, I add the snacks from the normal operation and the double-snack times:  
+   22 + 6 = 28 snacks.
+
+So, the vending machine has dropped **28 snacks** in total!
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET F0E14BEC
+──────────────────────────────────────────────────────────────────────

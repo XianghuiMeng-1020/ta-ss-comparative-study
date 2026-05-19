@@ -1,0 +1,106 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: D4B093A8                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Hi Brenda how did you work it out?
+[LEARNER]: It seems like you're referencing a conversation or a specific context about Brenda solving something. Could you provide more details or clarify what you're referring to? I'd be happy to help!
+
+[TUTOR]:   (focus)how many did Governor Sloan give?
+[LEARNER]: It seems like you're referencing a specific situation or story involving Governor Sloan, but without additional context, I can't provide an accurate answer. Could you clarify or provide more details about what you're referring to? For example, is this from a book, historical event, show, or something else? I'd be happy to assist!
+
+[TUTOR]:   (probing)how much did the two of them give?
+[LEARNER]: It seems like you're referencing a specific scenario or story, but I would need more context to provide an accurate response. Could you elaborate on what you're asking? For example, who are "the two of them," and what is being given?
+
+[TUTOR]:   (focus)how many did governor sandoval give?
+[LEARNER]: It seems like you're referring to a specific scenario involving Governor Sandoval, but I don’t have enough details to provide a precise answer. Could you provide more context? For example, are you referencing a historical event, a fictional story, or something else? Let me know so I can assist you better!
+
+[TUTOR]:   (probing)how many dies the question say?
+[LEARNER]: It seems like you're asking about the number mentioned in a specific question or scenario, but I don’t have enough context to provide an accurate answer. Could you clarify what question you’re referring to or provide additional details? I’d be happy to help once I have more information!
+
+[TUTOR]:   (probing)what does the question tell you?
+[LEARNER]: It seems like you're asking about interpreting or understanding a specific question, but I don't have the details of the question you're referencing. Could you share the question or provide more context? That way, I can help you figure out what the question is telling you or asking for!
+
+[TUTOR]:   (focus)how many did governor sandoval give?
+[LEARNER]: It seems like you're asking about a specific scenario involving Governor Sandoval, but I don't have enough context to provide an exact answer. Could you clarify where this is from? For example, is it from a historical event, a fictional story, or another source? Let me know, and I’ll do my best to assist!
+
+[TUTOR]:   (telling)12
+[LEARNER]: Ah, got it—Governor Sandoval gave **12**. If you have further questions or need clarification, feel free to ask! 😊
+
+[TUTOR]:   (generic)yes
+[LEARNER]: Great! Let me know if there's anything else you'd like to discuss or clarify. I'm here to help! 😊
+
+[TUTOR]:   (focus)governor sandoval who gave 12, gave twice as many as governor hawkins so how many did hawkins give?
+[LEARNER]: If Governor Sandoval gave **12** and that is **twice as many** as Governor Hawkins gave, then we can calculate how many Governor Hawkins gave by dividing 12 by 2:
+
+\[
+12 \div 2 = 6
+\]
+
+So, Governor Hawkins gave **6**. Let me know if you have more questions! 😊
+
+[TUTOR]:   (telling)12 divided by 2
+[LEARNER]: Correct! \( 12 \div 2 = 6 \). So, Governor Hawkins gave **6**. 😊 Let me know if you have more questions!
+
+[TUTOR]:   (telling)well done so that two of the numbers we need
+[LEARNER]: Thank you! That’s right—now you’ve got two of the numbers you need. If there’s more to figure out or if you need help with the next step, feel free to ask. 😊 You're doing great!
+
+[TUTOR]:   (generic)correct well done
+[LEARNER]: Thank you! 😊 Glad I could help. Let me know if there's anything else you'd like to work on!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+In her first term, Governor Sandoval gave twice as many commencement addresses as Governor Hawkins. Governor Sloan gave ten more commencement addresses than Governor Sandoval in the same amount of time. If Governor Sandoval gave 15.8 commencement addresses, how many commencement addresses did the three of them give altogether?
+[LEARNER]: Let's break this problem down step by step:
+
+### Step 1: Determine how many commencement addresses Governor Hawkins gave.
+We know that Governor Sandoval gave **twice as many** addresses as Governor Hawkins. If Governor Sandoval gave **15.8**, then we divide that by 2 to find how many Governor Hawkins gave:
+
+\[
+15.8 \div 2 = 7.9
+\]
+
+So, **Governor Hawkins gave 7.9 commencement addresses**.
+
+---
+
+### Step 2: Determine how many commencement addresses Governor Sloan gave.
+We know that Governor Sloan gave **ten more** addresses than Governor Sandoval. Since Governor Sandoval gave **15.8**, we simply add 10 to that:
+
+\[
+15.8 + 10 = 25.8
+\]
+
+So, **Governor Sloan gave 25.8 commencement addresses**.
+
+---
+
+### Step 3: Find the total number of commencement addresses given by the three governors.
+Now, we add up the numbers for all three governors:
+
+\[
+15.8 + 7.9 + 25.8 = 49.5
+\]
+
+---
+
+### Final Answer:
+The three governors gave **49.5 commencement addresses** altogether. 😊
+
+Let me know if you'd like me to clarify any part of this!
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET D4B093A8
+──────────────────────────────────────────────────────────────────────

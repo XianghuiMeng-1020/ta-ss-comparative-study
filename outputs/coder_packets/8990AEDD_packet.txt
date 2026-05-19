@@ -1,0 +1,74 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 8990AEDD                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Milly is making feather boas for her dance team. Each flamingo has 20 tail feathers, and it's only safe to pluck 25% of their tail feathers at one time. If Milly needs to make 12 boas, and each boa has 200 feathers, how many flamingoes does she need to harvest?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Have a look at the question as you were getting the correct answer until the end?
+[LEARNER]: I was getting it right until the end... I think. Let me go through it again.
+
+Milly can only take 25% of 20 tail feathers, which is 0.25 x 20 = 5 tail feathers.
+Milly needs 12 boas x 200 feathers per boa = 2400 feathers in total.
+Therefore, she needs 2400 feathers ÷ 5 feathers per flamingo = 480 flamingos.
+ Wait, that doesn't seem right... I got confused between the number of feathers and the number of flamingos. I think I need to rethink the last part...
+
+[TUTOR]:   (generic)Okay let me help you?
+[LEARNER]: I think I need to go back to the part where I said "480 flamingos". That doesn't make sense, because I was supposed to be finding out how many flamingos, not how many feathers. I think I should divide 480 by... um... something. But what?
+
+Let me try again:
+
+Milly can only take 25% of 20 tail feathers, which is 0.25 x 20 = 5 tail feathers.
+Milly needs 12 boas x 200 feathers per boa = 2400 feathers in total.
+Therefore, she needs 2400 feathers ÷ 5 feathers per flamingo = 480... something.
+
+[TUTOR]:   (telling)YOu actually calcualtaed the correct answer in that you would need 480 flamingoes, you just confused feathers and flamingoes. Once you calculated it was 480 you needed this was the answer and no further calculation was needed.
+[LEARNER]: I see what you mean! I calculated 480, and that's actually the number of flamingos I need. I don't need to do any more math. The correct answer is 480 flamingos.
+
+I was overcomplicating things by trying to do more calculations. I just needed to stop and realize that 480 was the answer I was looking for. Thank you for pointing that out!
+
+So, to recap:
+
+Milly can only take 25% of 20 tail feathers, which is 0.25 x 20 = 5 tail feathers.
+Milly needs 12 boas x 200 feathers per boa = 2400 feathers in total.
+Therefore, she needs 2400 feathers ÷ 5 feathers per flamingo = 480 flamingos.
+
+The answer is 480!
+
+[TUTOR]:   (generic)Just simple confusion
+[LEARNER]: I just got the words mixed up. I knew I was calculating the number of flamingos, but somehow I wrote "tail feathers" instead. It was just a simple mistake. I'll try to be more careful with my words next time.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Milly is making feather boas for her dance team. Each flamingo has 29.4 tail feathers, and it's only safe to pluck 30.9% of their tail feathers at one time. If Milly needs to make 16.0 boas, and each boa has 290.9 feathers, how many flamingoes does she need to harvest?
+[LEARNER]: Let's break it down step by step.
+
+First, I need to find out how many feathers Milly can pluck from each flamingo. To do that, I'll multiply the number of tail feathers by the percentage she can pluck:
+
+29.4 tail feathers x 0.309 (30.9% as a decimal) = 9.09 feathers per flamingo
+
+Next, I need to find out how many feathers Milly needs in total. To do that, I'll multiply the number of boas by the number of feathers per boa:
+
+16.0 boas x 290.9 feathers per boa = 4654.4 feathers in total
+
+Finally, I need to find out how many flamingos Milly needs to harvest to get that many feathers. To do that, I'll divide the total number of feathers by the number of feathers per flamingo:
+
+4654.4 feathers ÷ 9.09 feathers per flamingo = 512.1 flamingos
+
+So, Milly needs to harvest 512.1 flamingos... wait, that can't be right! You can't harvest a fraction of a flamingo! I think I need to round up to the nearest whole number, since you can't have a fraction of a flamingo.
+
+So, Milly needs to harvest 513 flamingos.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 8990AEDD
+──────────────────────────────────────────────────────────────────────

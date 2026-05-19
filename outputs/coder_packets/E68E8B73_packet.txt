@@ -1,0 +1,114 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: E68E8B73                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Charles is wondering how much chocolate milk he can make with all the supplies he finds in the fridge. He is going to keep drinking 8-ounce glasses until he uses up all the ingredients. Each glass must contain 6.5 ounces of milk and 1.5 ounces of chocolate syrup. If he has 130 ounces of milk and 60 ounces of chocolate syrup, how many total ounces ounce of chocolate milk will he drink?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)show me how you worked thi sout please?
+[LEARNER]: Here's how I worked it out:
+
+First, I figured that one glass needs 6.5 ounces of milk + 1.5 ounces of chocolate syrup = 8 ounces total.
+
+Then I added up all the ingredients Charles has: 130 ounces of milk + 60 ounces of chocolate syrup = 190 ounces total.
+
+I divided 190 by 8 to see how many glasses he could make: 190 ÷ 8 = 23.75 glasses.
+
+Since he can only make whole glasses, I rounded down to 23 glasses and multiplied: 23 × 8 = 184 ounces of chocolate milk.
+
+[TUTOR]:   (focus)ok i can see how you have approached this but we need to ascertain how much he can make with the supplies he actually has. so please consider this
+[LEARNER]: Oh, I see what you mean. Let me think about this differently...
+
+I need to check whether he has enough of EACH ingredient separately, not just add them all together.
+
+For milk: 130 ounces ÷ 6.5 ounces per glass = 20 glasses possible with the milk
+For chocolate syrup: 60 ounces ÷ 1.5 ounces per glass = 40 glasses possible with the syrup
+
+So he can only make as many glasses as his limiting ingredient allows, which would be the milk at 20 glasses?
+
+[TUTOR]:   (focus)can we break it down into smaller steps rather than looking at the 2 ingredients combined. how much milk does he have enough of to make how much chocolate milk?
+[LEARNER]: Right, let me focus just on the milk first.
+
+He has 130 ounces of milk.
+Each glass needs 6.5 ounces of milk.
+
+So: 130 ÷ 6.5 = 20 glasses
+
+This means he has enough milk to make 20 glasses of chocolate milk.
+
+[TUTOR]:   (telling)you over overcomplicating this please wait until i prompted you for the next step . yes he has enough milk to make 20 glasses. how much chocolate syrup does he have t o make the chocolate milk?
+[LEARNER]: You're right, sorry for jumping ahead.
+
+He has 60 ounces of chocolate syrup.
+Each glass needs 1.5 ounces of chocolate syrup.
+
+So: 60 ÷ 1.5 = 40 glasses
+
+He has enough chocolate syrup to make 40 glasses of chocolate milk.
+
+[TUTOR]:   (probing)ok so if he has enough ingredients to make 20 glasses of chocolate milk. ho wmuch do we know in ounces each milk holds ?
+[LEARNER]: Each glass holds 8 ounces of chocolate milk.
+
+[TUTOR]:   (focus)if you read the question it only asks you how much in ounces of chocolate milk he will drink?
+[LEARNER]: Oh! So if he can make 20 glasses, and each glass is 8 ounces...
+
+20 × 8 = 160 ounces of chocolate milk
+
+I see — I was wrong about using 190 ounces. I should have found the limiting ingredient first (the milk at 20 glasses), then multiplied by 8 ounces per glass to get 160 ounces total.
+
+[TUTOR]:   (telling)it doesnt ask about the syrup the ingredients have already been combined to make the chocolate milk. so 20 glasses = how many ounces of chocolate milk only?
+[LEARNER]: Right, I understand now. 
+
+20 glasses × 8 ounces per glass = 160 ounces of chocolate milk.
+
+The answer is 160 ounces.
+
+[TUTOR]:   (focus)20 glasses * 8 ounces =the amount of chocolate milk
+[LEARNER]: Yes, exactly!
+
+20 glasses × 8 ounces = 160 ounces of chocolate milk
+
+So Charles will drink 160 ounces of chocolate milk total.
+
+[TUTOR]:   (telling)no it is ? ounces as you have already used the chocolate syrup to make th emilk into chocolate flavour
+[LEARNER]: Oh! I see what you're saying now.
+
+The 20 glasses × 8 ounces = 160 ounces
+
+But wait... I'm confused. Are you saying the chocolate syrup is already included in those 160 ounces? Because each 8-ounce glass contains both the milk AND the syrup mixed together?
+
+[TUTOR]:   (telling)no it is 160 ounces because 20 *8 =?
+[LEARNER]: You're right — 20 × 8 = 160.
+
+I see — I was making this too complicated. The answer is simply 160 ounces of chocolate milk.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Charles is wondering how much chocolate milk he can make with all the supplies he finds in the fridge. He is going to keep drinking 11.3-ounce glasses until he uses up all the ingredients. Each glass must contain 9.6 ounces of milk and 2.0 ounces of chocolate syrup. If he has 159.6 ounces of milk and 78.0 ounces of chocolate syrup, how many total ounces ounce of chocolate milk will he drink?
+[LEARNER]: Let me work through this step by step:
+
+First, I need to find out how many glasses he can make with each ingredient:
+
+For milk: 159.6 ounces ÷ 9.6 ounces per glass = 16.625 glasses
+For chocolate syrup: 78.0 ounces ÷ 2.0 ounces per glass = 39 glasses
+
+The limiting ingredient is the milk, so he can only make 16 complete glasses (rounding down since he can't make partial glasses).
+
+Now I multiply the number of glasses by the size of each glass:
+16 glasses × 11.3 ounces per glass = 180.8 ounces of chocolate milk
+
+The answer is 180.8 ounces of chocolate milk.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET E68E8B73
+──────────────────────────────────────────────────────────────────────

@@ -310,3 +310,154 @@ data/raw_talkmoves/       talkmoves_train_data.csv, talkmoves_transcripts_all.cs
                           talkmoves_student_labels.csv, TalkMoves_repo/
 ```
 
+---
+
+## D16. Full Study Reframe — IEEE TLT Target
+
+**Decision**: Reframe study from "TA vs SS protocol comparison" (C&E target) to "multi-model, multi-question-type, multi-dimension naive-student simulation comparative analysis" (IEEE TLT target).
+**Logged**: 2026-05-20
+**Status**: LOCKED — analysis_plan.md v2.0 committed; all subsequent work follows v2 design.
+
+**Rationale**: Jiajia's AIED 2026 paper (unlearn-and-relearn, Mistral-7B, Python MCQ) directly addresses the single-protocol student simulation question from a model-weight perspective. Our study is most novel as a comparative benchmark that:
+(a) answers Jiajia's three stated limitations (single model → 12 models; MCQ-only → 5 QTypes; Python-only → Python + Math);
+(b) adds 6 new evaluation dimensions beyond accuracy (D1, D3, D4, D5, D6, D7);
+(c) provides the first Pareto-frontier characterization of naive-student model configurations.
+
+**Target venue change**: Computers & Education → IEEE Transactions on Learning Technologies (Regular Paper, ~14 double-column pages). IEEE TLT has broader scope for multi-model benchmarking studies.
+
+**Preserved assets from v1 design**:
+- 4,800 OED dialogues → n-axis OED slice under P1 (Big-tier models)
+- 10 trace metrics → contribute to D7 and D2 explanation quality
+- 240-dialogue human coding infrastructure → extended for D1 human-likeness
+
+**New components logged below (D17–D25)**
+
+---
+
+## D17. Model Roster (m-axis)
+
+**Decision**: 12 models across 4 tiers; Big-tier reuses existing data.
+**Logged**: 2026-05-20
+**Status**: LOCKED
+
+| ID | Model | Params | Tier | Inference |
+|----|-------|--------|------|-----------|
+| M01 | SmolLM2-360M | 0.36B | Tiny | vLLM |
+| M02 | TinyLlama-1.1B | 1.1B | Tiny | vLLM |
+| M03 | Llama-3.2-1B | 1B | Tiny | vLLM |
+| M04 | Qwen2.5-1.5B-Instruct | 1.5B | Small | vLLM |
+| M05 | Phi-3.5-mini-instruct | 3.8B | Small | vLLM |
+| M06 | Llama-3.2-3B | 3B | Small | vLLM |
+| M07 | Qwen3-4B | 4B | Mid | vLLM |
+| M08 | Mistral-7B-Instruct-v0.3 | 7B | Mid (anchor) | vLLM |
+| M09 | Llama-3.1-8B-Instruct | 8B | Mid | vLLM |
+| M10 | gpt-4o-2024-11-20 | ~200B | Big | OpenAI API |
+| M11 | claude-sonnet-4-5-20250929 | ~70B | Big | Anthropic API |
+| M12 | Llama-3.1-70B-Instruct | 70B | Big | OpenRouter |
+
+Note: Gemini-2.0-Flash removed from Big roster (replaced by Claude-Sonnet in v2 to
+match Jiajia's set for consistency). Gemini dialogues in outputs/ available as supplement.
+
+---
+
+## D18. Item Bank Construction
+
+**Decision**: 1,500 items across 5 QTypes; IRT-calibrated difficulty labels.
+**Logged**: 2026-05-20
+**Status**: OPEN — to be completed before P1 generation (W3–4)
+
+| QType | N | Source | File |
+|-------|---|--------|------|
+| MCQ | 600 | 300 Python (Jiajia dataset) + 300 Math (MathDial-derived + LLM-generated) | data/item_bank/mcq/items.jsonl |
+| TF | 300 | Auto-derived from MCQ correct/distractor pairs | data/item_bank/tf/items.jsonl |
+| Fill | 300 | MathDial reasoning steps (cloze deletion) | data/item_bank/fill/items.jsonl |
+| SA | 300 | MathDial reasoning steps (open prompts) | data/item_bank/sa/items.jsonl |
+| OED | 100 scenarios | Existing MathDial 100-scenario bank (data/scenarios.csv) | data/scenarios.csv (reused) |
+
+Difficulty calibration: 2PL IRT via `py-irt` on Mistral-7B baseline P1 responses.
+
+---
+
+## D19. Persona Implementation
+
+**Decision**: Two simulation strategies (P1 prompt-based, P2 unlearning-based).
+**Logged**: 2026-05-20
+**Status**: LOCKED
+
+P1 prompt: prompts/naive_student_prompt.txt (unified across all QTypes; QType-specific
+format suffixes in prompts/format_suffixes/).
+P2 unlearning: src/unlearning/ (LoRA + KL; β=0.1, lr=1e-4, 20 epochs, r=8, α=32).
+P2 models: Mistral-7B (primary), Qwen2.5-3B (cross-family replication).
+P2 unlearning ratios: 10%, 30%, 50% × 5 seeds each.
+
+---
+
+## D20. Demographic Injection for CEAT (D5)
+
+**Decision**: 4 attribute sets × 4 conditions each = 16 prompt variants.
+**Logged**: 2026-05-20
+**Status**: LOCKED
+
+| Attribute set | Conditions |
+|---------------|-----------|
+| Gender | male / female / gender-neutral / omitted |
+| Race | White / Asian / Black / Hispanic |
+| National | US / Chinese / Indian / British |
+| SES | high-income / low-income / unspecified / working-class |
+
+CEAT procedure: verbatim per Peng et al. (2025) — prompt-engineered target/attribute
+word extraction via RAG; cosine similarity of sentence-transformer embeddings.
+Model: sentence-transformers/all-mpnet-base-v2.
+
+---
+
+## D21. Statistical Model v2
+
+**Decision**: Replace 2-way lmer (condition × model_family) with 4-way lmer.
+**Logged**: 2026-05-20
+**Status**: LOCKED
+
+Primary: lmer(metric ~ model_tier * question_type * difficulty * persona
+              + (1|item_id) + (1|coder_id))
+
+Pareto: non-dominated sorting on {D1, D2, −D4_cost}; visualized as frontier plot.
+TOST: d = 0.3 bound; applied to H-equiv claim (Qwen2.5-3B vs. Mistral-7B on D1).
+
+---
+
+## D22. Human Annotation v2 (augmented codebook)
+
+**Decision**: Extend existing 240-dialogue codebook with D1 human-likeness dimension;
+add 480 new single-response coding packets.
+**Logged**: 2026-05-20
+**Status**: OPEN — training sessions scheduled for W8–9
+
+New codebook dimensions added to existing TA1–TA4 / SS1–SS5:
+- HL1: Overall student-likeness (1–5 Likert)
+- HL2: Error plausibility (1–5 Likert)
+- HL3: Turing binary (0 = AI, 1 = human student)
+- EQ1: Explanation quality for SA/OED (1–5 Likert)
+
+ICC ≥ 0.75 gate per dimension before analysis.
+
+---
+
+## D23. Reproducibility Package
+
+**Decision**: Full open materials on GitHub + Zenodo + HuggingFace Hub.
+**Logged**: 2026-05-20
+**Status**: OPEN — complete before W16
+
+| Artifact | Location | License |
+|----------|----------|---------|
+| Item bank (1,500 items) | GitHub + Zenodo | CC-BY-4.0 |
+| P1 responses (43,200) | Zenodo | CC-BY-4.0 |
+| P2 responses (18,000) | Zenodo | CC-BY-4.0 |
+| Human annotations (720 items) | GitHub + Zenodo | CC-BY-4.0 |
+| Unlearned LoRA adapters | HuggingFace Hub | Apache-2.0 |
+| Source code | GitHub (public) | MIT |
+| Frozen prompts | GitHub | MIT |
+
+---
+
+*Append new decisions below with date, rationale, status. Never delete or backdate entries.*

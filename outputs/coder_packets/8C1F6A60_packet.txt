@@ -1,0 +1,46 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 8C1F6A60                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Let's take this step by step. Firstly, you have correctly calculated the cost of 3kg of apples. It is $6. If 3kg of apples is $6, what would 1kg of apples cost?
+[LEARNER]: Okay, if 3kg of apples costs $6, then to find the cost of 1kg, I need to divide the total cost ($6) by the number of kilograms (3).  So, $6 / 3 = $2.  Therefore, 1kg of apples costs $2.  Is that right?
+
+[TUTOR]:   (generic)That's the correct answer! Well done!
+[LEARNER]: Awesome! I'm getting it! What's the next step?
+
+[TUTOR]:   (generic)Do you have any questions?
+[LEARNER]: Um... not about *that* specific part, I think I understand how to find the price per kilogram now. But, just to be sure, if the problem had said 5kg of something cost $10, I would just divide $10 by 5 to get $2 per kg, right?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Betty bought 1.2 kg of oranges and 4.4 kg of apples. The total cost of oranges was $17.8. The apples were two times cheaper than the oranges. How much did Betty pay for 1.2 kg of apples?
+[LEARNER]: Okay, I'll try to solve this one! Here's my thinking:
+
+1.  **Find the price per kg of oranges:** The total cost of 1.2 kg of oranges was $17.8. So, I need to divide the total cost by the weight to find the price per kg: $17.8 / 1.2 kg. Let me calculate that... that's about $14.83 per kg (I'll round to two decimal places).
+
+2.  **Find the price per kg of apples:** The apples are two times *cheaper* than the oranges. This means the apples cost half as much per kg as the oranges. So, I need to divide the price per kg of oranges by 2: $14.83 / 2 = $7.42 per kg (again, rounded to two decimal places).
+
+3.  **Find the cost of 4.4 kg of apples:** I know the price per kg of apples is $7.42. To find the cost of 4.4 kg, I need to multiply: $7.42 * 4.4 kg. Let me calculate that... that's about $32.65.
+
+4.  **Find the cost of 1.2 kg of apples:** I know the price per kg of apples is $7.42. To find the cost of 1.2 kg, I need to multiply: $7.42 * 1.2 kg. Let me calculate that... that's about $8.90.
+
+So, Betty paid $8.90 for 1.2 kg of apples.
+
+Is that right? I'm a little worried about the rounding.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 8C1F6A60
+──────────────────────────────────────────────────────────────────────

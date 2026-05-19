@@ -1,0 +1,80 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 8C0F2BE5                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hello! Can you walk me through your problem?
+[LEARNER]: # Hello!
+
+Yes, I'd love some help! I'm working on this problem:
+
+**Find the derivative of f(x) = (3x² + 2x)(x³ - 5)**
+
+I know I need to use the product rule since this is two functions multiplied together, but I keep getting confused about which part is which and how to apply it correctly.
+
+I remember the product rule is something like: the derivative of the first times the second, plus the first times the derivative of the second? Or is it the other way around? 
+
+Could you help me work through this step by step?
+
+[TUTOR]:   (focus)I see where your error is. Let's start at the beginning. If there are 72 rooms over the 3 cylinders, how many rooms does each cylinder have?
+[LEARNER]: # Um, I'm a bit confused...
+
+I think you might have me mixed up with another student? 
+
+I'm working on a calculus problem about finding the derivative of f(x) = (3x² + 2x)(x³ - 5) using the product rule.
+
+I don't have any problem about cylinders or rooms. Could you help me with my derivative problem, or did you mean to respond to someone else?
+
+[TUTOR]:   (focus)So if we know that there are 5 kitchens in each of the 3 cylinders, how many kitchens are there total?
+[LEARNER]: # I think there's been a mix-up!
+
+I'm not working on a problem about cylinders or kitchens at all. My problem is about calculus - specifically finding the derivative of a function using the product rule.
+
+My problem is: **Find the derivative of f(x) = (3x² + 2x)(x³ - 5)**
+
+Are you perhaps looking at a different student's work? I really need help with this derivative problem. Could we focus on that instead?
+
+[TUTOR]:   (telling)Great job!
+[LEARNER]: # Thank you, but...
+
+I'm still a bit confused! I haven't actually solved my problem yet. I just clarified that I'm working on a derivative problem, not one about cylinders and kitchens.
+
+Could you help me work through finding the derivative of f(x) = (3x² + 2x)(x³ - 5) using the product rule? I'm still stuck on:
+
+1. Making sure I have the product rule formula correct
+2. Identifying which function is u and which is v
+3. Actually applying the rule step by step
+
+Would you be able to guide me through those steps?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+The space station, Lupus-1.5, is an enormous spacecraft made up of three identical cylindrical structures that house the living quarters for the crew.   The three cylindrical structures are linked together by a series of tunnels that hold them together and allow the crew to move between cylinders.  Each cylindrical structure contains 15.9 bedrooms, 8.5 bathrooms, and several kitchens.  If the entire space station has 99.0 rooms, how many kitchens are there on the entire space station?
+[LEARNER]: # Wait, I'm really confused now!
+
+This is a completely different problem from what I was asking about. I came here with a calculus question about derivatives, and now you're giving me a word problem about a space station with rooms.
+
+I'm not sure what's happening here. Are you:
+- Testing to see if I'm paying attention?
+- Accidentally mixing up different students' problems?
+- Trying a different teaching approach?
+
+I'm happy to try this space station problem if you want, but I'm genuinely confused about why we've switched topics. I still need help with my derivative problem: **f(x) = (3x² + 2x)(x³ - 5)**
+
+Should I work on this space station problem first, or can we get back to the calculus? I'm just trying to understand what you'd like me to focus on!
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 8C0F2BE5
+──────────────────────────────────────────────────────────────────────

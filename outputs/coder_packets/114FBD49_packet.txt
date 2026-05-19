@@ -1,0 +1,109 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 114FBD49                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Andy is running late. School starts at 8:00 AM and it normally takes him 30 minutes to get there, but today he had to stop for 3 minutes each at 4 red lights and wait 10 minutes to get past construction. If he left his house at 7:15, how many minutes late will he be?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Riya can you talk me through your working please?
+[LEARNER]: Hi! Here's what I did:
+
+First, I calculated the total delay. Andy stopped at 4 red lights for 3 minutes each, which is 3 × 4 = 12 minutes. Then he waited 10 minutes for construction, so the total delay was 12 + 10 = 22 minutes.
+
+Then I figured that if he left at 7:15 and school starts at 8:00, he had 45 minutes to get there. Since it normally takes 30 minutes and he was delayed by 22 minutes, I thought he would be 22 minutes late.
+
+But I'm not sure if I handled the timing correctly?
+
+[TUTOR]:   (focus)How long in total did it take him to get there?
+[LEARNER]: Let me think about this...
+
+It normally takes 30 minutes, plus he had 12 minutes of delays at red lights, plus 10 minutes for construction.
+
+So the total time would be 30 + 12 + 10 = 52 minutes to get there.
+
+Oh! So if he left at 7:15 and it took 52 minutes, he would arrive at... let me calculate when that would be.
+
+[TUTOR]:   (telling)It normally takes him 30 minutes to get there
+[LEARNER]: Right, so it normally takes 30 minutes, but today he had extra delays.
+
+The delays were 12 minutes (red lights) + 10 minutes (construction) = 22 minutes of delays.
+
+So the total time today was 30 + 22 = 52 minutes.
+
+If he left at 7:15 and it took 52 minutes, he would arrive at 8:07.
+
+Since school starts at 8:00, he would be 7 minutes late!
+
+I see - I was wrong about just saying he'd be 22 minutes late. I needed to figure out his actual arrival time first. Let me try again with the correct answer: **7 minutes late**.
+
+[TUTOR]:   (telling)He was up by 22 minutes and it usually takes him 30 minutes so how long did it take him?
+[LEARNER]: Oh, I see what you're saying!
+
+If he was delayed by 22 minutes AND it usually takes him 30 minutes, then the total time is 30 + 22 = 52 minutes.
+
+So it took him 52 minutes total to get to school today.
+
+[TUTOR]:   (probing)How long had he allowed for the journey?
+[LEARNER]: He left at 7:15 and school starts at 8:00.
+
+From 7:15 to 8:00 is 45 minutes.
+
+So he allowed 45 minutes for the journey.
+
+[TUTOR]:   (probing)So if it took him 52 minutes, how many minutes late was he?
+[LEARNER]: If it took him 52 minutes and he only allowed 45 minutes, then he was late by:
+
+52 - 45 = 7 minutes
+
+So he was 7 minutes late!
+
+I see now - I was wrong about saying he'd be 22 minutes late. The 22 minutes was just the delay, but I needed to compare the total journey time (52 minutes) to the time he allowed (45 minutes) to find how late he actually was.
+
+[TUTOR]:   (telling)He was 7 minutes late as he allowed 45 minutes but it took 52
+[LEARNER]: Yes, exactly! He allowed 45 minutes but it took 52 minutes, so he was 7 minutes late.
+
+I understand my mistake now - I confused the total delay (22 minutes) with how late he would actually be. I needed to calculate the total journey time first (30 + 22 = 52 minutes), then compare it to the time available (45 minutes) to get the actual lateness (52 - 45 = 7 minutes).
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Andy is running late. School starts at 10.3:0 AM and it normally takes him 36.5 minutes to get there, but today he had to stop for 4.1 minutes each at 4.9 red lights and wait 14.5 minutes to get past construction. If he left his house at 9.4:18.0, how many minutes late will he be?
+[LEARNER]: Let me work through this step by step:
+
+**Step 1: Calculate the delays**
+- Red lights: 4.1 minutes × 4.9 lights = 20.09 minutes
+- Construction: 14.5 minutes
+- Total delay: 20.09 + 14.5 = 34.59 minutes
+
+**Step 2: Calculate total journey time**
+- Normal time: 36.5 minutes
+- Total time today: 36.5 + 34.59 = 71.09 minutes
+
+**Step 3: Calculate time allowed**
+- He left at 9:18 (I think 9.4:18.0 means 9:18?)
+- School starts at 10:30 (I think 10.3:0 means 10:30?)
+- Time allowed: from 9:18 to 10:30 = 72 minutes
+
+**Step 4: Calculate how late**
+- Time needed: 71.09 minutes
+- Time allowed: 72 minutes
+- He would actually be early! Or on time?
+
+Wait, 72 - 71.09 = 0.91 minutes early? That doesn't seem right for a "late" problem...
+
+Let me check my time calculation again. From 9:18 to 10:30 is 1 hour and 12 minutes = 72 minutes. And it takes 71.09 minutes. So he'd arrive 0.91 minutes before 10:30?
+
+I'm confused about whether I interpreted the times correctly.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 114FBD49
+──────────────────────────────────────────────────────────────────────

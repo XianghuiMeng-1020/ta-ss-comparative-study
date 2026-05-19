@@ -1,0 +1,85 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 9D7B956C                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Jordy can you talk me through your working?
+[LEARNER]: Of course! What problem are you working on, and I’ll break it down step by step for you. Let me know where you're stuck or if there's a specific part you'd like me to explain!
+
+[TUTOR]:   (focus)Think again about how many books he is donating in total.
+[LEARNER]: Ah, okay! Let me revisit this carefully. If we're trying to figure out how many books he is donating in total, we should add up all the books he’s giving away. Could you remind me of the specific numbers or the scenario? Then I’ll walk you through the calculation.
+
+[TUTOR]:   (telling)He filled 3 boxes with 15 books each so 3*15 = 45 books
+From the rest of his house he is donating 45+21+4+18 = 88 books for donation
+[LEARNER]: Ah, I see now! Great work breaking it down step by step.
+
+First, calculating the total books in the 3 boxes:  
+**3 × 15 = 45 books.**
+
+Then, adding the books from the rest of his house:  
+**45 + 21 + 4 + 18 = 88 books in total.**
+
+Thanks for clarifying! That makes perfect sense now—he's donating **88 books** altogether. Well done!
+
+[TUTOR]:   (telling)He had 88 books to donate. His collection is 99 books and he is donating 88 books, so that leaves him with 99-88 = 11 books
+He picks up 12 books to add to his collection of 11 books so he now has 12+11 = 23 books
+[LEARNER]: Ah, I see how it all comes together now—great explanation and calculations! 
+
+So, starting with the facts:  
+- He originally had **99 books** in his collection.  
+- He donated **88 books**, leaving him with:  
+  **99 - 88 = 11 books.**  
+
+Then, he picked up **12 more books**, so his new total is:  
+**11 + 12 = 23 books.**
+
+You’ve got it! He now has **23 books** in his collection. Perfect work! 😊
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Henry needs to declutter his book collection of 119.6 books.  From his bookshelf, he was able to fill 3.9 boxes of 19.6 books each to take to a donation center.  He had 29.0 books in a room he could donate, 5.5 on his coffee table and 24.0 cookbooks stashed in the kitchen.  When he dropped them off, he noticed a box of books that had a  "free to a good home" note.  He grabbed 14.5 books to take back to his place.  How many books does Henry now have?
+[LEARNER]: Okay, let’s work through this step by step!
+
+### Step 1: Total books Henry started with
+Henry originally had **119.6 books** in his collection.
+
+---
+
+### Step 2: Books Henry is donating
+Henry donated books from multiple places, so let’s calculate the total he donated.
+
+- From the bookshelf: He filled **3.9 boxes** with **19.6 books each**.  
+  **3.9 × 19.6 = 76.44 books.**
+
+- From the room: He donated **29.0 books**.  
+- From the coffee table: He donated **5.5 books**.  
+- From the kitchen: He donated **24.0 cookbooks**.  
+
+Now, summing these donations:  
+**76.44 + 29.0 + 5.5 + 24.0 = 134.94 books donated.**
+
+---
+
+### Step 3: Books remaining after donation
+To find out how many books Henry has left, subtract the total books donated from the original number of books:  
+**119.6 - 134.94 = -15.34 books.**
+
+Wait a second—this doesn’t make sense! If his donations exceed the books he originally had, there’s an issue in the problem setup. 🤔 Could it be a mistake in the numbers? Or maybe I misunderstood part of the problem?
+
+Let me know if I should revisit any part of this! 😊
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 9D7B956C
+──────────────────────────────────────────────────────────────────────

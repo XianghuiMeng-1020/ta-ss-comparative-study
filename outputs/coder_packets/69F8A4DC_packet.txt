@@ -1,0 +1,75 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 69F8A4DC                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+There are one-third as many Ford trucks as Dodge trucks in the parking lot of the Taco Castle.  But there are twice as many Ford trucks as Toyota trucks in this parking lot, and there are half as many Volkswagen Bugs as there are Toyota trucks in this same parking lot.  If there are 5 Volkswagon Bugs in the parking lot, how many Dodge trucks are in the parking lot of the Taco Castle?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Luca, please talk me thorugh your solution
+[LEARNER]: Hi! Okay, so I started with the 5 Volkswagen Bugs they told us about.
+
+Since there are twice as many Ford trucks as Toyota trucks, I multiplied 5 × 2 = 10 Ford trucks.
+
+Then I figured there are half as many Volkswagen Bugs as Toyota trucks, so I did 5 × 2 = 10 Toyota trucks.
+
+Finally, since there are one-third as many Ford trucks as Dodge trucks, I multiplied 10 × 3 = 30 Dodge trucks.
+
+So my answer is 30 Dodge trucks.
+
+[TUTOR]:   (focus)a good try. lets take it a step at a time. we dont yet know how many toyota trucks there are. We know there are 5 VW Bugs and that this is half the number of Toyota trucks. can you work out the number of toyota trucks?
+[LEARNER]: Oh, you're right! Let me think about this again.
+
+If there are 5 VW Bugs and that's half the number of Toyota trucks, then I need to find what number 5 is half of.
+
+So if 5 is half, then the whole amount would be 5 × 2 = 10 Toyota trucks.
+
+Is that right?
+
+[TUTOR]:   (probing)excellent. as you corrcetly said, there are twice as many Ford trucks as Toyota trucks. can you double the number of Toyota trucks?
+[LEARNER]: Yes! If there are 10 Toyota trucks and there are twice as many Ford trucks as Toyota trucks, then:
+
+10 × 2 = 20 Ford trucks.
+
+So there are 20 Ford trucks in the parking lot.
+
+[TUTOR]:   (probing)excellent., what do we know about the number of Ford trucks in relation to the number of Dodge trucks?
+[LEARNER]: The problem says there are one-third as many Ford trucks as Dodge trucks.
+
+So if there are 20 Ford trucks, and that's one-third of the Dodge trucks, then I need to multiply 20 × 3 = 60 Dodge trucks.
+
+So there are 60 Dodge trucks in the parking lot!
+
+[TUTOR]:   (generic)well done!
+[LEARNER]: Thanks! I see what I did wrong the first time - I used the number of VW Bugs (5) instead of working through to find the Toyota trucks first, then the Ford trucks, and then finally the Dodge trucks.
+
+I needed to go step-by-step instead of jumping around!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+There are one-third as many Ford trucks as Dodge trucks in the parking lot of the Taco Castle.  But there are twice as many Ford trucks as Toyota trucks in this parking lot, and there are half as many Volkswagen Bugs as there are Toyota trucks in this same parking lot.  If there are 6.2 Volkswagon Bugs in the parking lot, how many Dodge trucks are in the parking lot of the Taco Castle?
+[LEARNER]: Okay, let me work through this step-by-step.
+
+First, there are 6.2 VW Bugs, and that's half the number of Toyota trucks.
+So Toyota trucks = 6.2 × 2 = 12.4 Toyota trucks.
+
+Next, there are twice as many Ford trucks as Toyota trucks.
+So Ford trucks = 12.4 × 2 = 24.8 Ford trucks.
+
+Finally, there are one-third as many Ford trucks as Dodge trucks.
+So Dodge trucks = 24.8 × 3 = 74.4 Dodge trucks.
+
+My answer is 74.4 Dodge trucks.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 69F8A4DC
+──────────────────────────────────────────────────────────────────────

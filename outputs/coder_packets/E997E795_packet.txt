@@ -1,0 +1,52 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: E997E795                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+OpenAI runs a robotics competition that limits the weight of each robot. Each robot can be no more than twice the minimum weight and no less than 5 pounds heavier than the standard robot. The standard robot weighs 100 pounds. What is the maximum weight of a robot in the competition?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)Hi Claire, can you tell me what you were confused about in this question?
+[LEARNER]: Hi, I was confused about how to use all the information to find the maximum weight. I think I mixed up how the minimum weight relates to the maximum weight.
+
+[TUTOR]:   (probing)Why do you say 105 pounds?
+[LEARNER]: I got 105 pounds because the problem says the robot can be no less than 5 pounds heavier than the standard robot, which weighs 100 pounds. So I added 5 to 100. But now I think that's the *minimum* weight, not the maximum. Was that the mistake?
+
+[TUTOR]:   (focus)Let's read the question again. How should we find the minimum weight?
+[LEARNER]: Okay, the problem says the robot can be no less than 5 pounds heavier than the standard robot. The standard robot weighs 100 pounds. So, to find the *minimum* weight, I should add 5 pounds to the standard robot's weight. That makes the minimum weight 100 + 5 = 105 pounds. Is that right?
+
+[TUTOR]:   (focus)No, let's focus on the sentence "no less than 5 pounds heavier than the standard robot." How should we calculate the minimum weight?
+[LEARNER]: Okay, "no less than 5 pounds heavier than the standard robot" means the robot has to be *at least* 5 pounds heavier. Since the standard robot is 100 pounds, the minimum weight is 100 + 5 = 105 pounds. I think I said the same thing as before. Am I still missing something?
+
+[TUTOR]:   (focus)Yes, the minimum is 105 pountds. What should we do now, to determine the maximum weight?
+[LEARNER]: Now I need to use the other piece of information: "Each robot can be no more than twice the minimum weight." I know the minimum weight is 105 pounds. So, the maximum weight is twice that, which means 105 x 2 = 210 pounds. So, the maximum weight is 210 pounds.
+
+[TUTOR]:   (generic)Correct!
+[LEARNER]: Okay, I understand now. I was confused about which information to use to find the minimum weight and how the minimum weight relates to the maximum weight. The minimum weight is 100 + 5 = 105 pounds, and the maximum weight is 105 x 2 = 210 pounds.
+
+I was wrong to calculate the minimum weight as 100 x 2 = 200 pounds. I was also wrong to calculate the maximum weight as 100 + 5 = 105 pounds.
+
+Thanks for your help!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+OpenAI runs a robotics competition that limits the weight of each robot. Each robot can be no more than twice the minimum weight and no less than 6.8 pounds heavier than the standard robot. The standard robot weighs 131.0 pounds. What is the maximum weight of a robot in the competition?
+[LEARNER]: Okay, here's my attempt to solve the problem:
+
+1.  Find the minimum weight: The robot can be no less than 6.8 pounds heavier than the standard robot, which weighs 131.0 pounds. So the minimum weight is 131.0 + 6.8 = 137.8 pounds.
+2.  Find the maximum weight: The robot can be no more than twice the minimum weight. So the maximum weight is 2 * 137.8 = 275.6 pounds.
+
+Therefore, the maximum weight of a robot in the competition is 275.6 pounds.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET E997E795
+──────────────────────────────────────────────────────────────────────

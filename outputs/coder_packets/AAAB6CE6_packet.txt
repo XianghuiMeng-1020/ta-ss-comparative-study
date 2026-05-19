@@ -1,0 +1,120 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: AAAB6CE6                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Stephanie. Could you walk me through your answer?
+[LEARNER]: I'd be happy to walk you through my answer! However, I don't see a previous question or answer in our conversation history. 
+
+Could you please:
+1. Share the question you'd like me to address, or
+2. Remind me which answer you'd like me to explain?
+
+Once you provide that context, I'll be glad to walk you through my reasoning step-by-step.
+
+[TUTOR]:   (probing)Let's focus on the square for a moment. What do we know about it?
+[LEARNER]: I'd be happy to discuss a square with you! However, I need a bit more context to give you a helpful answer.
+
+Could you clarify:
+- Which square are we talking about? (Is this from a math problem, geometry question, puzzle, or diagram?)
+- What information has already been provided about this square?
+
+In general, here's what we typically know about squares:
+- All four sides are equal in length
+- All four angles are 90 degrees (right angles)
+- Opposite sides are parallel
+- The diagonals are equal in length and bisect each other at 90 degrees
+- Area = side²
+- Perimeter = 4 × side
+
+If you can share the specific problem or context you're working with, I can focus on the relevant properties of that particular square!
+
+[TUTOR]:   (focus)So we know the total, and the number of sides needed to equal that total. What kind of maths do we need to calculate that?
+[LEARNER]: Ah, great! So we have:
+- A **total** (the perimeter or sum of all sides)
+- The **number of sides** (which is 4 for a square)
+- We need to find the length of **one side**
+
+This is a **division** problem!
+
+Since all sides of a square are equal, we need to:
+**Divide the total by the number of sides**
+
+Formula: **Side length = Total ÷ 4**
+
+For example:
+- If the total (perimeter) is 20, then each side = 20 ÷ 4 = 5
+- If the total is 36, then each side = 36 ÷ 4 = 9
+
+Does that help clarify the approach? Would you like to work through the specific numbers from your problem?
+
+[TUTOR]:   (focus)We are talking about the square, rather than the circle. We know the total is 100, and we know there are four sides. How do we find each of the four equal sides of a square which has a total of 100?
+[LEARNER]: Perfect! Now I understand clearly.
+
+We have:
+- **Total = 100** (the perimeter of the square)
+- **4 equal sides**
+
+To find the length of each side:
+
+**100 ÷ 4 = 25**
+
+So **each side of the square is 25**.
+
+We can verify this: 25 + 25 + 25 + 25 = 100 ✓
+
+Is this part of a larger problem involving both a square and a circle?
+
+[TUTOR]:   (telling)Correct!
+[LEARNER]: Excellent! Glad we got that sorted out.
+
+So we've established that **each side of the square is 25**.
+
+Now, you mentioned earlier that we're focusing on the square rather than the circle - does this mean there's a circle involved in the problem as well? 
+
+If you'd like, we can move on to the next part of the problem. What would you like to work on next?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+While practising for his upcoming math exams, Hayes realised that the area of a circle he had just solved was equal to the perimeter of a square he had solved in the previous problem. If the area of the circle was 145.6, what's the length of one side of the square?
+[LEARNER]: Great! Let me work through this step-by-step.
+
+**Given information:**
+- Area of circle = 145.6
+- Area of circle = Perimeter of square
+- Therefore, Perimeter of square = 145.6
+
+**Step 1: Understand what we need to find**
+We need to find the length of one side of the square.
+
+**Step 2: Recall properties of a square**
+- A square has 4 equal sides
+- Perimeter = sum of all 4 sides
+
+**Step 3: Set up the calculation**
+Since the perimeter of the square = 145.6, and all 4 sides are equal:
+- Length of one side = Perimeter ÷ 4
+
+**Step 4: Calculate**
+Length of one side = 145.6 ÷ 4 = **36.4**
+
+**Step 5: Verify**
+36.4 × 4 = 145.6 ✓
+
+**Answer: The length of one side of the square is 36.4**
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET AAAB6CE6
+──────────────────────────────────────────────────────────────────────

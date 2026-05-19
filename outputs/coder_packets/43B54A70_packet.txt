@@ -1,0 +1,42 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 43B54A70                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Lily had $55 in her account. She spent $7 on a shirt. She then went to another shop and spent thrice as much as she spent on a shirt. How much money is left in Lily's account?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi , could you please walk me through your solution?
+[LEARNER]: So, Lily had $55 in her account. She spent $7 on a shirt. So, she had $55-$7 = $48 left in her account. Then, she went to another shop and spent thrice as much as she spent on a shirt, which is 3*$7 = $21. But I think she also spent the $7 on the shirt again, so she spent a total of $7+$21 = $28. Therefore, she has $48-$28 = $20 left in her account.
+
+[TUTOR]:   (focus)hunter but haven't you already subtracted the $7 in step 2 to get $48 which was left with lilly after buying the shirt? so why add it with $21 and subtract it again from $48?
+[LEARNER]: I think I see what you're saying... But, I'm not sure... I mean, she did spend $7 on the shirt, and then she spent $21 more, so it feels like I should add them together to get the total amount she spent. But, if I already subtracted the $7 from $55 to get $48... Hmm, I'm not sure if I should still add the $7 to the $21. Can you explain it to me again?
+
+[TUTOR]:   (generic)good
+[LEARNER]: So, I'm thinking... if I already subtracted the $7 from $55 to get $48, that means the $7 is already gone, right? So, I shouldn't add it to the $21 again. I should just subtract the $21 from the $48. That way, I'll get the right answer. So, let me try again... $48 - $21 = $27. Is that correct?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Lily had $76.5 in her account. She spent $9.0 on a shirt. She then went to another shop and spent thrice as much as she spent on a shirt. How much money is left in Lily's account?
+[LEARNER]: Here's my attempt:
+
+Lily had $76.5 in her account. She spent $9.0 on a shirt. So, she had $76.5 - $9.0 = $67.5 left in her account.
+
+Then, she went to another shop and spent thrice as much as she spent on a shirt, which is 3*$9.0 = $27.0.
+
+Now, I'm thinking... I already subtracted the $9.0 from $76.5, so I shouldn't add it again. I should just subtract the $27.0 from the $67.5. So, I'll do that... $67.5 - $27.0 = $40.5.
+
+Therefore, Lily has $40.5 left in her account.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 43B54A70
+──────────────────────────────────────────────────────────────────────

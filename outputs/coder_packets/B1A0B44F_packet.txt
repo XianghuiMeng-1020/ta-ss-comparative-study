@@ -1,0 +1,99 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: B1A0B44F                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Riya, talk me through your solution please
+[LEARNER]: So, for this problem, I started by reading it carefully and trying to understand what's being asked. It's a optimization problem, and we need to find the maximum value of a function.
+
+I began by identifying the constraints and the objective function. The objective function is f(x) = 2x^2 + 3x - 5, and the constraint is x ≥ 0.
+
+Next, I took the derivative of the objective function with respect to x, which is f'(x) = 4x + 3. I set the derivative equal to zero to find the critical points, which gives me 4x + 3 = 0.
+
+Solving for x, I got x = -3/4, but since the constraint is x ≥ 0, this solution is not valid. So, I looked at the endpoints of the domain, which are x = 0 and x = ∞.
+
+I plugged in x = 0 into the objective function, and I got f(0) = -5. Since the function is increasing for x > 0, I know that the maximum value must occur at x = 0.
+
+So, my final answer is f(0) = -5. Does that make sense?
+
+[TUTOR]:   (focus)excellent, you are correct that he needs to burn a total of 17500 calories in total. we know how many calories are being eaten and how many are being burnt. are you able to find the difference between these 2 numbers?
+[LEARNER]: So, if I understand correctly, we need to find the difference between the number of calories being consumed and the number of calories being burned.
+
+Let me check my notes... Ah yes, I see that the person is consuming 2500 calories per day and burning 1750 calories per day.
+
+To find the difference, I'll simply subtract the number of calories being burned from the number of calories being consumed:
+
+2500 (calories consumed) - 1750 (calories burned) = 750 calories
+
+So, the person is consuming 750 more calories per day than they are burning. Is that correct?
+
+[TUTOR]:   (probing)if i have 1000 legos and use 600 to make a figure, whats the difference between those 2 numbers? what operation do you need to use?
+[LEARNER]: To find the difference between the two numbers, I need to use subtraction.
+
+I'll subtract the number of Legos used (600) from the total number of Legos (1000):
+
+1000 - 600 = 400
+
+So, the difference between the two numbers is 400. I have 400 Legos left over after using 600 to make the figure.
+
+[TUTOR]:   (focus)excellent. if we know that Jamie's farther eats 2500 calories and burns off 2000, are you able to find the difference between those 2 numbers?
+[LEARNER]: Yes, I can find the difference between the two numbers. I'll subtract the number of calories burned (2000) from the number of calories consumed (2500):
+
+2500 - 2000 = 500
+
+So, Jamie's father is consuming 500 more calories than he is burning.
+
+[TUTOR]:   (focus)well done! so we now know that he burns 500 calories per day. we also know the total number of calories he needs to burn off. can you work out how many days this will take him?
+[LEARNER]: I'm glad I was able to find the difference correctly.
+
+Now, let me think about how many days it will take Jamie's father to burn off the total number of calories...
+
+We know he needs to burn off 17500 calories in total, and he burns 500 calories per day. To find the number of days, I can divide the total number of calories by the number of calories burned per day:
+
+17500 ÷ 500 = 35
+
+So, it will take Jamie's father 35 days to burn off the total number of calories.
+
+[TUTOR]:   (generic)well done!
+[LEARNER]: I'm glad I was able to work through the problem correctly. Thank you for guiding me and providing feedback - it really helped me understand the steps and arrive at the correct solution. If you're ready to move on, I'd love to tackle the next problem!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jamie's father gained 6.0 pounds over the holidays that he wants to lose so his pants will not be as snug. He asks Jamie to help him keep track of his calories. Jamie's father burns 2.4,631.7 calories of fat a day by doing light exercise. There are 4.0,712.0 calories in a pound of body fat. How many days will it take for Jamie's father to burn off 7.0 pounds if he does light exercise and sticks to eating 2813.5 calories a day?
+[LEARNER]: Let's break this problem down step by step.
+
+First, I need to find out how many calories Jamie's father needs to burn to lose 7.0 pounds. Since there are 4.0,712.0 calories in a pound of body fat, I can multiply this number by 7 to find the total number of calories he needs to burn:
+
+4.0,712.0 calories/pound x 7 pounds = 32,498.4 calories
+
+Next, I need to find out how many calories Jamie's father burns per day. He burns 2,463.17 calories per day by doing light exercise, but I also need to consider the calories he consumes. Since he eats 2,813.5 calories per day, I need to subtract this number from the number of calories he burns to find the net number of calories he burns per day:
+
+2,463.17 calories/day - 2,813.5 calories/day = -350.33 calories/day
+
+ Wait, that can't be right! If Jamie's father is eating more calories than he's burning, he'll actually be gaining weight, not losing it. I think I made a mistake. Let me try again.
+
+Since Jamie's father is burning 2,463.17 calories per day and eating 2,813.5 calories per day, I can find the net number of calories he burns per day by subtracting the number of calories he eats from the number of calories he burns, but this time I'll make sure to get it right:
+
+2,813.5 calories/day - 2,463.17 calories/day = 350.33 calories/day
+
+Now that I have the correct net number of calories burned per day, I can divide the total number of calories Jamie's father needs to burn (32,498.4 calories) by the net number of calories he burns per day (350.33 calories/day) to find the number of days it will take him to burn off 7.0 pounds:
+
+32,498.4 calories ÷ 350.33 calories/day = 92.8 days
+
+So, it will take Jamie's father approximately 93 days to burn off 7.0 pounds if he sticks to his diet and exercise plan.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET B1A0B44F
+──────────────────────────────────────────────────────────────────────

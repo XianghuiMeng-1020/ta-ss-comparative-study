@@ -1,0 +1,89 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 19626743                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Marta was about to start the school year and needed to buy the necessary textbooks. She managed to buy five on sale, for $10 each. She had to order two textbooks online, which cost her a total of $40, and three she bought directly from the bookstore for a total of three times the cost of the online ordered books. How much in total did Martha spend on textbooks?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Could you please walk me through your solution?
+[LEARNER]: Okay, let's break down the problem step-by-step to find where the mistake is.
+
+First, you correctly calculated the cost of the textbooks bought on sale: 5 textbooks * $10/textbook = $50. No problem there.
+
+You also correctly stated the cost of the online textbooks: $40.
+
+Now, look at the next step in your solution. You wrote: "The total cost of the online ordered books is $40, so each book cost $40/2 = $20." Then you used this $20 figure to calculate the cost of the books from the bookstore.
+
+Why did you calculate the cost of each online textbook? The problem tells you that the two online textbooks cost a total of $40.
+
+[TUTOR]:   (focus)Your answer is incorrect, have another go
+[LEARNER]: I'm very sorry; I meant to focus on *your* solution, not provide one of my own! I will edit my response to focus on your work.
+
+Okay, let's break down *your* problem step-by-step to find where the mistake is.
+
+First, you correctly calculated the cost of the textbooks bought on sale: 5 textbooks * $10/textbook = $50. No problem there.
+
+You also correctly stated the cost of the online textbooks: $40.
+
+Now, look at the next step in your solution. You wrote: "The total cost of the online ordered books is $40, so each book cost $40/2 = $20." Then you used this $20 figure to calculate the cost of the books from the bookstore.
+
+Why did you calculate the cost of each online textbook? The problem tells you that the two online textbooks cost a total of $40.
+
+[TUTOR]:   (focus)I've already told you the answer is wrong. So it can not be $150
+[LEARNER]: You are absolutely correct. My apologies! I am here to help you find the mistake in *your* solution.
+
+You correctly calculated the cost of the textbooks bought on sale: 5 textbooks * $10/textbook = $50. You also correctly stated the cost of the online textbooks: $40.
+
+However, the problem states that the three textbooks bought directly from the bookstore cost "three times the cost of the online ordered books." You calculated the cost of each online textbook and used that to find the cost of the bookstore textbooks. Do you see the mistake now?
+
+[TUTOR]:   (focus)How much did she spend in the sale
+[LEARNER]: You correctly calculated the amount Marta spent on the textbooks she bought on sale: $50. That part is correct.
+
+[TUTOR]:   (focus)How much did she spend in the book store
+[LEARNER]: That's where the error lies. Let's look at the information we have:
+
+*   Online textbooks cost: $40 total
+*   Bookstore textbooks cost: Three times the cost of the online textbooks.
+
+How would you calculate the cost of the bookstore textbooks using this information?
+
+[TUTOR]:   (focus)How much did she pend online
+[LEARNER]: The problem states that Marta spent $40 on textbooks she ordered online. You correctly identified that in your initial solution.
+
+[TUTOR]:   (focus)3 times the cost of the online at $40
+[LEARNER]: Exactly. So how would you calculate that? What is three times $40?
+
+[TUTOR]:   (focus)Recalculate
+[LEARNER]: Okay, let's recalculate the total cost, step by step, now that we've identified the error.
+
+*   Textbooks bought on sale: $50 (This was correct)
+*   Textbooks ordered online: $40 (This was also correct)
+*   Textbooks from the bookstore: 3 * $40 = ?
+
+What is the cost of the textbooks from the bookstore? Once you have that, you can add all three costs together to find the total.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Marta was about to start the school year and needed to buy the necessary textbooks. She managed to buy five on sale, for $14.7 each. She had to order two textbooks online, which cost her a total of $58.5, and three she bought directly from the bookstore for a total of three times the cost of the online ordered books. How much in total did Martha spend on textbooks?
+[LEARNER]: Okay, I'll solve the problem step by step:
+
+1.  Textbooks bought on sale: 5 textbooks * $14.7/textbook = $73.5
+2.  Textbooks ordered online: $58.5
+3.  Textbooks from the bookstore: 3 * $58.5 = $175.5
+4.  Total cost: $73.5 + $58.5 + $175.5 = $307.5
+
+So, Marta spent a total of $307.5 on textbooks.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 19626743
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,56 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 24CA5FF5                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jenny's local library received 50 visitors on Monday. On Tuesday, the library received twice that number. On the remaining days of the week, an average of 20 visitors went to the library. What's the total number of visitors who went to the library that week?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Michael, you have made a small error in your calculations.  The problem doesn't state that the library is only open on weekdays.  Can you revise your solution please?
+[LEARNER]: Okay, I can try again.
+
+On Tuesday, the library received 50 x 2 = 100 visitors.
+The library received 50 visitors on Monday, so from Monday to Tuesday, the library received 50 + 100 = 150 visitors.
+For the rest of the week, there are 7 - 2 = 5 days left, because there are 7 days in a week.
+The total number of visitors for the remaining 5 days is 5 x 20 = 100 visitors.
+The total number of visitors for the week is 150 + 100 = 250 visitors.
+250
+
+[TUTOR]:   (focus)No, please check again.  Monday and Tuesday are correct - 150 in total.  How many days are left?
+[LEARNER]: Okay, I need to be more careful.
+
+There are 7 days in a week. Monday and Tuesday are 2 days. So there are 7 - 2 = 5 days left.
+The average number of visitors for each of those days is 20.
+So, the total number of visitors for those 5 days is 5 x 20 = 100 visitors.
+So the total for the week is Monday (50) + Tuesday (100) + the other days (100) = 250 visitors.
+
+250
+
+[TUTOR]:   (generic)Yes, that's correct.  Good work.  it was an easy mistake to make, but make sure you read the questions properly to avoid doing something similar in the exam.
+[LEARNER]: Okay, I will try to read the questions more carefully next time. Thanks!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jenny's local library received 60.1 visitors on Monday. On Tuesday, the library received twice that number. On the remaining days of the week, an average of 25.8 visitors went to the library. What's the total number of visitors who went to the library that week?
+[LEARNER]: Okay, I'll try this one carefully.
+
+On Tuesday, the library received 60.1 x 2 = 120.2 visitors.
+So from Monday to Tuesday, the total number of visitors is 60.1 + 120.2 = 180.3 visitors.
+There are 7 days in a week, so there are 7 - 2 = 5 days left.
+The average number of visitors on those days is 25.8, so the total is 5 x 25.8 = 129 visitors.
+The total number of visitors for the whole week is 180.3 + 129 = 309.3 visitors.
+
+309.3
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 24CA5FF5
+──────────────────────────────────────────────────────────────────────

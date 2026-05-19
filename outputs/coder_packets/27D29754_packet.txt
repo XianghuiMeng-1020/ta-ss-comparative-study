@@ -1,0 +1,72 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 27D29754                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+While practising for his upcoming math exams, Hayes realised that the area of a circle he had just solved was equal to the perimeter of a square he had solved in the previous problem. If the area of the circle was 100, what's the length of one side of the square?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Stephanie. Could you walk me through your answer?
+[LEARNER]: Hi! So I started by finding the radius of the circle since we know the area is 100. I used the formula A = πr² and got r ≈ 5.64.
+
+Then I thought about the perimeter of the square being equal to the area of the circle, which is 100. Since the perimeter of a square is 4s, and the problem said they're equal, I used the circumference formula 2πr to connect them. So I set 4s = 2πr and solved for s, which gave me about 8.88.
+
+Does that make sense?
+
+[TUTOR]:   (probing)Let's focus on the square for a moment. What do we know about it?
+[LEARNER]: Oh, um... we know that the perimeter of the square equals 100, because the problem says the area of the circle (which was 100) is equal to the perimeter of the square.
+
+So the perimeter is 100, and since a square has 4 equal sides, I can use the formula: perimeter = 4s, where s is the side length.
+
+[TUTOR]:   (focus)So we know the total, and the number of sides needed to equal that total. What kind of maths do we need to calculate that?
+[LEARNER]: Oh! We need to divide! If the perimeter is 100 and there are 4 sides, then I need to do 100 ÷ 4 to find the length of one side.
+
+So s = 100/4 = 25.
+
+Wait, so the side length is just 25? That seems a lot simpler than what I did before...
+
+[TUTOR]:   (focus)We are talking about the square, rather than the circle. We know the total is 100, and we know there are four sides. How do we find each of the four equal sides of a square which has a total of 100?
+[LEARNER]: Right, if the perimeter is 100 and there are 4 equal sides, I just divide 100 by 4.
+
+So 100 ÷ 4 = 25.
+
+Each side of the square is 25. I didn't need to use the circle at all once I knew the perimeter was 100!
+
+[TUTOR]:   (telling)Correct!
+[LEARNER]: Oh wow, I was making it way too complicated! I got confused and thought I had to use the circle's radius and all those formulas, but really I just needed to take the 100 from the circle's area and use that as the square's perimeter.
+
+So the answer is just 25. Thanks for helping me see that!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+While practising for his upcoming math exams, Hayes realised that the area of a circle he had just solved was equal to the perimeter of a square he had solved in the previous problem. If the area of the circle was 145.6, what's the length of one side of the square?
+[LEARNER]: Okay, let me work through this step by step.
+
+The area of the circle is 145.6.
+
+The problem says the area of the circle equals the perimeter of the square.
+
+So the perimeter of the square = 145.6
+
+A square has 4 equal sides, and perimeter = 4s, where s is the side length.
+
+So: 4s = 145.6
+
+To find s, I divide both sides by 4:
+s = 145.6 ÷ 4
+s = 36.4
+
+Therefore, the length of one side of the square is 36.4.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 27D29754
+──────────────────────────────────────────────────────────────────────

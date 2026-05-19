@@ -1,0 +1,78 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: A2972F5B                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Betty bought 1 kg of oranges and 3 kg of apples. The total cost of oranges was $12. The apples were two times cheaper than the oranges. How much did Betty pay for 1 kg of apples?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Winnie, can you tell me how you got your answer?
+[LEARNER]: So, I thought that since the apples are two times cheaper than the oranges, that means the cost of apples is half the cost of oranges. And since oranges cost $12, I did 1/2 x $12 = $6 for the apples. Then I thought, well, there's a total of 4 kg of fruits, and the total cost is $18, so I subtracted the cost of oranges from that to find the cost of apples. Does that make sense?
+
+[TUTOR]:   (focus)Okay, How many kg of apples did Betty buy?
+[LEARNER]: Um, I think... Betty bought 1 kg of apples. Yeah, that's what I thought. And then she bought some oranges too.
+
+[TUTOR]:   (probing)and 1 kg of oranges.  So if 1 kg of oranges cost $12, and the apples were 2 times cheaper than the oranges, we know that 1kg of oranges costs $12.
+[LEARNER]: So, if the apples are 2 times cheaper than the oranges, that means 1 kg of apples would be half the price of 1 kg of oranges, right? So, 1 kg of apples would be $12 / 2 = $6.
+
+[TUTOR]:   (focus)so if we know that 1 kg of apples would cost $6, and Betty bought 3 kg of apples
+[LEARNER]: Wait... I think I made a mistake earlier. Betty bought 3 kg of apples, not 1 kg. So, if 1 kg of apples costs $6, then 3 kg of apples would be... 3 x $6 = $18.
+
+[TUTOR]:   (focus)so 1 kg of apples would cost how much?
+[LEARNER]: I think I finally got it... If 3 kg of apples cost $18, then 1 kg of apples would be... $18 ÷ 3 = $6.
+
+[TUTOR]:   (focus)Wait, I made a mistake
+[LEARNER]: No, I think I'm the one who made the mistake... You said I was right about the apples being $6 per kg, but then I forgot that Betty bought 3 kg of apples, not 1 kg...
+
+[TUTOR]:   (focus)Let's start over. How much did 3 kg of apples cost?
+[LEARNER]: I think I can get this one... Since the apples are 2 times cheaper than the oranges, and 1 kg of oranges costs $12, then 1 kg of apples would cost $6. And if Betty bought 3 kg of apples, then the total cost would be... 3 x $6 = $18.
+
+[TUTOR]:   (focus)Actually, if 3 kg of apples were 2x cheaper than the oranges, and 1 kg of oranges cost $12, that would mean the cost for 3k of apples would be half the total cost of 1 kg of oranges, so...
+[LEARNER]: Since 1 kg of oranges costs $12, and the apples are 2 times cheaper, that means 3 kg of apples would cost half of $12, which is $6.
+
+[TUTOR]:   (focus)So if 3 kg of apples costs $6, how much does 1 kg of apples cost
+[LEARNER]: Finally! If 3 kg of apples costs $6, then to find the cost of 1 kg of apples, I need to divide $6 by 3... $6 ÷ 3 = $2. So, 1 kg of apples costs $2!
+
+[TUTOR]:   (probing)3 kg of apples costs $6, so 1 kg of apples is
+[LEARNER]: $2! I'm pretty sure I got it right this time. The cost of 1 kg of apples is $2.
+
+[TUTOR]:   (focus)What is 6 divided by 3
+[LEARNER]: That's an easy one... 6 divided by 3 is $2.
+
+[TUTOR]:   (focus)So if 3 kg of apples costs $6, and 1 kg costs 1/3 of that?
+[LEARNER]: I get it now... If 3 kg of apples costs $6, and 1 kg is 1/3 of that, then... $6 ÷ 3 = $2. But wait, I already knew that!
+
+[TUTOR]:   (telling)now you got it
+[LEARNER]: I think I finally got it right! The cost of 1 kg of apples is indeed $2. Thank you for being patient and helping me understand the problem!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Betty bought 1.5 kg of oranges and 3.7 kg of apples. The total cost of oranges was $17.6. The apples were two times cheaper than the oranges. How much did Betty pay for 1.2 kg of apples?
+[LEARNER]: ..
+
+Let's start by finding the cost of 1 kg of oranges. Since Betty bought 1.5 kg of oranges and the total cost was $17.6, I can find the cost of 1 kg by dividing:
+
+$17.6 ÷ 1.5 = $11.73 per kg of oranges
+
+Now, I know the apples are 2 times cheaper than the oranges. So, the cost of 1 kg of apples would be half the cost of 1 kg of oranges:
+
+$11.73 ÷ 2 = $5.87 per kg of apples
+
+But wait, I need to find the cost of 1.2 kg of apples, not 1 kg! So, I multiply the cost of 1 kg by 1.2:
+
+$5.87 x 1.2 = $7.04
+
+Did I get it right?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET A2972F5B
+──────────────────────────────────────────────────────────────────────

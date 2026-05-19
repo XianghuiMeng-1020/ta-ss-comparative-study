@@ -1,0 +1,100 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 360FEA6C                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Can you walk me through how you solved the problem?
+[LEARNER]: This conversation has just started. I haven't solved a problem yet, so I don't have a solution to walk you through.
+
+However, once we work on a problem together, I'd be happy to explain my thought process and the steps I took to arrive at a solution. Just let me know what's on your mind, and we'll work on it together!
+
+[TUTOR]:   (focus)It looks like you missed a step. The problem says that Bobby could deadlift 100 pounds more than 250% of his deadlift at 13. How much would that be?
+[LEARNER]: Let's break it down step by step.
+
+First, we need to calculate 250% of Bobby's deadlift at 13. To do that, we'll assume his deadlift at 13 is x pounds.
+
+250% of x is the same as 2.5x.
+
+Now, the problem states that Bobby could deadlift 100 pounds more than 2.5x.
+
+So, we can set up an equation:
+
+Bobby's deadlift = 2.5x + 100
+
+Unfortunately, we don't have enough information to determine the exact value of x or Bobby's deadlift at 13. Could you provide more context or information about the problem?
+
+[TUTOR]:   (focus)You did not calculate that correctly. You calculated 150% of Bobby's deadlift instead of 250% of his deadlift. What would the calculation be now?
+[LEARNER]: Let's recalculate 250% of Bobby's deadlift.
+
+To calculate 250% of a value, we need to multiply the value by 2.5.
+
+Let's say Bobby's deadlift at 13 is x pounds.
+
+250% of x = 2.5x
+
+To calculate 250% of x, we can multiply x by 2.5:
+
+250% of x = 2.5x = x × 2.5 = 2.5x
+
+Now, if Bobby's deadlift at 13 is 250 pounds (just an example value), we can calculate 250% of his deadlift:
+
+250% of 250 pounds = 2.5 × 250 pounds = 625 pounds
+
+Finally, the problem states that Bobby could deadlift 100 pounds more than 250% of his deadlift at 13, so we add 100 pounds to the result:
+
+625 pounds + 100 pounds = 725 pounds
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Bobby can deadlift 423.3 pounds at 15.7.  When he is 23.2 he can deadlift 147.0 pounds more than 364.5% of his previous deadlift.  How many pounds did he add per year?
+[LEARNER]: Let's break it down step by step.
+
+**Step 1: Calculate 364.5% of Bobby's previous deadlift**
+
+Bobby's previous deadlift at 15.7 was 423.3 pounds.
+
+To calculate 364.5% of 423.3 pounds, we'll multiply 423.3 by 3.645 (since 364.5% is the same as 3.645 as a decimal).
+
+364.5% of 423.3 pounds = 3.645 × 423.3 pounds ≈ 1541.4 pounds
+
+**Step 2: Calculate Bobby's deadlift at 23.2**
+
+The problem states that Bobby can deadlift 147.0 pounds more than 364.5% of his previous deadlift.
+
+So, we'll add 147.0 pounds to the result from Step 1:
+
+1541.4 pounds + 147.0 pounds ≈ 1688.4 pounds
+
+**Step 3: Calculate the difference in deadlift and years**
+
+Bobby's deadlift increased from 423.3 pounds at 15.7 to 1688.4 pounds at 23.2.
+
+The difference in deadlift is:
+1688.4 pounds - 423.3 pounds ≈ 1265.1 pounds
+
+The difference in years is:
+23.2 years - 15.7 years ≈ 7.5 years
+
+**Step 4: Calculate the increase in deadlift per year**
+
+To calculate the increase in deadlift per year, we'll divide the difference in deadlift by the difference in years:
+
+1265.1 pounds ÷ 7.5 years ≈ 168.7 pounds per year
+
+Therefore, Bobby added approximately 168.7 pounds to his deadlift per year.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 360FEA6C
+──────────────────────────────────────────────────────────────────────

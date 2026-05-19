@@ -1,0 +1,225 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 216B3FCC                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Jordy, could you talk me through your solution?
+[LEARNER]: Hi there! Of course, I'd be happy to go through the solution. Could you let me know which part you're unsure about or if you'd like me to start from the beginning? Let me know so I can explain it in a way that works best for you!
+
+[TUTOR]:   (focus)Okay, not quite, let's start over. Could you simplify this for me: (X+11)*2 = X+26.
+[LEARNER]: Sure, let’s simplify this step by step! We’re solving for \( X \) in the equation:
+
+\[
+(X + 11) \cdot 2 = X + 26
+\]
+
+### Step 1: Expand the left-hand side
+Distribute the \( 2 \) to both terms inside the parentheses:
+
+\[
+2(X + 11) = 2X + 22
+\]
+
+So the equation becomes:
+
+\[
+2X + 22 = X + 26
+\]
+
+---
+
+### Step 2: Simplify by isolating \( X \)
+Let’s move all \( X \)-terms to one side and constants to the other. Subtract \( X \) from both sides:
+
+\[
+2X - X + 22 = 26
+\]
+
+Simplify:
+
+\[
+X + 22 = 26
+\]
+
+---
+
+### Step 3: Solve for \( X \)
+Now, subtract \( 22 \) from both sides:
+
+\[
+X = 26 - 22
+\]
+
+Simplify:
+
+\[
+X = 4
+\]
+
+---
+
+### Final Answer:
+\[
+X = 4
+\]
+
+Let me know if you’d like me to break down anything further! 😊
+
+[TUTOR]:   (telling)Not quite. The answer required you to simplify is to look like this: X*2 + 22 = X + 26. X represents the number of years before Fouad's age doubles Ahmed's age.
+[LEARNER]: Ah, I see what you're asking now! You're looking for the simplified form of the equation, not necessarily solving for \( X \) yet. Let's carefully rewrite and simplify the equation to align with what you're asking. Here's where we start:
+
+\[
+(X + 11) \cdot 2 = X + 26
+\]
+
+---
+
+### Step 1: Expand the left-hand side
+Distribute the \( 2 \) across \( (X + 11) \):
+
+\[
+2(X + 11) = 2X + 22
+\]
+
+Now the equation becomes:
+
+\[
+2X + 22 = X + 26
+\]
+
+---
+
+### Step 2: Simplify the equation
+Rearrange to group the terms logically. Subtract \( X \) from both sides:
+
+\[
+2X - X + 22 = 26
+\]
+
+Simplify:
+
+\[
+X + 22 = 26
+\]
+
+---
+
+### Step 3: Answer in the simplified form
+This is already simplified into \( X \)-related terms. If you're stopping before solving, the equation can also be expressed as:
+
+\[
+X \cdot 2 + 22 = X + 26
+\
+
+[TUTOR]:   (telling)The first part is correct. But you don't need to divide by 2
+[LEARNER]: Ah, got it now—thank you for pointing that out! Let me revisit this and stop at the correct simplified stage without going further into solving or dividing unnecessarily. Here's the streamlined process:
+
+We started with:
+
+\[
+(X + 11) \cdot 2 = X + 26
+\]
+
+---
+
+### Step 1: Expand the left-hand side
+Distribute the \( 2 \) across \( (X + 11) \):
+
+\[
+2(X + 11) = 2X + 22
+\]
+
+So the equation becomes:
+
+\[
+2X + 22 = X + 26
+\]
+
+---
+
+### Step 2: Leave it in the simplified form
+This is already the simplified equation:
+
+\[
+2X + 22 = X + 26
+\]
+
+From here, you can interpret \( X \) in the context of the problem (the number of years before Fouad's age doubles Ahmed's age). No need to divide or solve further unless specifically required!
+
+Thanks for your patience—I hope this is what you were looking for! 😊
+
+[TUTOR]:   (generic)Good well done, that was tough!
+[LEARNER]: Thanks! I'm glad we worked through it together—sometimes these problems just need a bit of patience and careful steps to get them right. Let me know if there’s anything else you'd like to tackle. I'm here to help! 😊
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Ahmed is 16.1 years old and Fouad is 34.6 years old. In how many years will Fouad's age be double Ahmed's current age?
+[LEARNER]: Alright, let’s tackle this step by step! This is a similar problem, so I’ll carefully write out my reasoning.
+
+---
+
+### Step 1: Define the variable
+Let \( X \) represent the number of years from now when Fouad’s age will be double Ahmed’s *current* age.
+
+---
+
+### Step 2: Write the relationship in words
+We know that:
+- In \( X \) years, Fouad’s age will be \( 34.6 + X \).
+- Ahmed’s current age is \( 16.1 \), and Fouad’s age will be double *that*.
+
+So the equation is:
+
+\[
+34.6 + X = 2(16.1)
+\]
+
+---
+
+### Step 3: Simplify the equation
+First, calculate \( 2(16.1) \) on the right-hand side:
+
+\[
+34.6 + X = 32.2
+\]
+
+---
+
+### Step 4: Solve for \( X \)
+Now, subtract \( 34.6 \) from both sides to isolate \( X \):
+
+\[
+X = 32.2 - 34.6
+\]
+
+Simplify:
+
+\[
+X = -2.4
+\]
+
+---
+
+### Step 5: Interpret the result
+The result \( X = -2.4 \) means that Fouad’s age was double Ahmed’s current age **2.4 years ago**. This makes sense since Ahmed is now 16.1 years old, and \( 2 \times 16.1 = 32.2 \), which is less than Fouad’s current age of 34.6. So Fouad's age *used to be* double Ahmed’s at that time!
+
+---
+
+### Final Answer:
+Fouad’s age was double Ahmed’s current age **2.4 years ago**.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 216B3FCC
+──────────────────────────────────────────────────────────────────────

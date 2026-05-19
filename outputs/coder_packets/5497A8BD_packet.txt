@@ -1,0 +1,58 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 5497A8BD                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+In Henry's collection of music CDs, he has 3 more country CDs than rock CDs but twice as many rock CDs as classical CDs. If he has 23 country CDs, how many classical CDs make up his collection?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)how many rock cds does he have?
+[LEARNER]: Let's use the equation R = C + 3, since we know there are 3 more country CDs than rock CDs. We also know that C = 3, so we can substitute that in: R = 3 + 3. That means R = 6.
+
+[TUTOR]:   (telling)not quite. he has 23-3
+[LEARNER]: So, if Henry has 3 more country CDs than rock CDs, and he has 23 country CDs, then the number of rock CDs is 23 - 3 = 20. So, R = 20.
+
+[TUTOR]:   (focus)sure! how if he has twice as many and we need todo the inverse, what would we do?
+[LEARNER]: If he has twice as many rock CDs as classical CDs, and we know he has 20 rock CDs, then to find the number of classical CDs, we need to do the opposite of multiplying by 2. So, we need to divide by 2. That means C = 20 ÷ 2.
+
+[TUTOR]:   (focus)yep
+[LEARNER]: So, C = 20 ÷ 2 = 10. Therefore, Henry has 10 classical CDs in his collection.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+In Henry's collection of music CDs, he has 4.0 more country CDs than rock CDs but twice as many rock CDs as classical CDs. If he has 33.7 country CDs, how many classical CDs make up his collection?
+[LEARNER]: Let's start by using algebra to solve for the number of rock CDs.
+
+Let R be the number of rock CDs and C be the number of classical CDs.
+
+From the problem, we know:
+
+R = 2C  (twice as many rock CDs as classical CDs)
+
+R = C + 4  (4 more country CDs than rock CDs)
+
+Wait, no... that's not right. We know he has 4 more country CDs than rock CDs, and he has 33.7 country CDs, so we can find the number of rock CDs by subtracting 4 from 33.7.
+
+R = 33.7 - 4
+R = 29.7
+
+Now we know the number of rock CDs. We also know that R = 2C, so we can use this equation to solve for C.
+
+29.7 = 2C
+
+To solve for C, we need to divide both sides by 2.
+
+C = 29.7 ÷ 2
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 5497A8BD
+──────────────────────────────────────────────────────────────────────

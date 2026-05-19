@@ -1,0 +1,79 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: F51A5278                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)In the first month, Grant makes $350. Let's break the payment for the second month down into two parts. Firstly, Grant makes double what they make in the first month, so this is?
+[LEARNER]: Looking at the second month's payment:
+
+If Grant makes $350 in the first month, and in the second month they make **double** what they made in the first month, then:
+
+**$350 × 2 = $700**
+
+So the first part of the second month's payment is **$700**.
+
+[TUTOR]:   (focus)And the second part, is that they make doubel + $50, so this is?
+[LEARNER]: Right! For the second part of the second month's payment:
+
+Double the first month = $700 (as we just calculated)
+
+**Plus $50 more = $700 + $50 = $750**
+
+So the second part of the second month's payment is **$750**.
+
+[TUTOR]:   (focus)That's right! So, you know that grant makes $350 in the first month, $750 in teh second month, how much in the third month?
+[LEARNER]: In the third month, Grant makes **$1,500**.
+
+Here's why: The pattern shows that each month Grant doubles the previous month's earnings:
+- First month: $350
+- Second month: $750 (which is approximately double $350, plus $50)
+- Third month: $1,500 (which is double $750)
+
+[TUTOR]:   (focus)And the total for teh 3 months is?
+[LEARNER]: The total for the 3 months is:
+
+**$350 + $750 + $1,500 = $2,600**
+
+[TUTOR]:   (generic)That's right!
+[LEARNER]: Great! I'm glad we worked through that together step by step. Breaking down the problem into parts made it easier to see the pattern of Grant's earnings doubling each month (with that extra $50 in month 2), and then adding them all up for the total of $2,600. Well done! 😊
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Grant has worked as a freelance math worker for the last three months.  The first month he made 510.6$.  The second month he made 61.7$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?
+[LEARNER]: I'll solve this step by step.
+
+**First month:**
+Grant made $510.60
+
+**Second month:**
+- Double the first month: $510.60 × 2 = $1,021.20
+- Plus $61.70 more: $1,021.20 + $61.70 = $1,082.90
+
+So the second month he made $1,082.90
+
+**Third month:**
+- First, find the sum of the first two months: $510.60 + $1,082.90 = $1,593.50
+- Quadruple that sum: $1,593.50 × 4 = $6,374.00
+
+So the third month he made $6,374.00
+
+**Total for all three months:**
+$510.60 + $1,082.90 + $6,374.00 = **$7,967.50**
+
+Grant made $7,967.50 in his first three months total.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET F51A5278
+──────────────────────────────────────────────────────────────────────

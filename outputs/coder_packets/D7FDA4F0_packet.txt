@@ -1,0 +1,158 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: D7FDA4F0                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi can you talk me through your answer
+[LEARNER]: I'd be happy to talk you through an answer! However, I don't see a specific question or problem in your message yet. 
+
+Could you please share:
+- The question or problem you'd like help with
+- Any work you've already done on it
+- What specifically you're finding confusing
+
+Once you provide those details, I'll walk you through the solution step-by-step!
+
+[TUTOR]:   (probing)Ok how many gallons did winston use in total
+[LEARNER]: I don't have any information about Winston or gallons in our conversation so far. It seems like you might be referring to a specific problem or question that hasn't been shared yet.
+
+Could you please provide:
+- The full problem or question about Winston
+- Any details about what Winston was doing with gallons (was he filling a pool, using gas, painting, etc.?)
+- Any numbers or measurements mentioned in the problem
+
+Once you share the complete problem, I'll be able to help you calculate how many gallons Winston used in total!
+
+[TUTOR]:   (probing)yes so how much fuel has he got left
+[LEARNER]: I still don't have any information about Winston or his fuel situation. It looks like you might be looking at a problem on your end that I can't see.
+
+To help you figure out how much fuel Winston has left, I'll need you to share details like:
+
+- How much fuel did Winston start with?
+- How much fuel did he use (or how far did he drive, what was his fuel efficiency, etc.)?
+- Are there multiple trips or uses of fuel mentioned?
+
+Please copy and paste the complete problem, or describe all the information given, and I'll gladly help you calculate how much fuel Winston has left!
+
+[TUTOR]:   (focus)The question says he started with 10 gallons of fuel so how much did he have left
+[LEARNER]: Good! Now I know Winston started with 10 gallons of fuel.
+
+To figure out how much he has left, I need one more piece of information:
+
+**How much fuel did Winston use?**
+
+The problem should mention something like:
+- He used a certain number of gallons
+- He drove a certain distance
+- He used fuel on different trips or tasks
+
+Can you share what the problem says about how Winston used the fuel? Once I know that, I can help you subtract it from the 10 gallons he started with!
+
+[TUTOR]:   (probing)yes he has 2 gallons left. how much does a full tank hold
+[LEARNER]: Based on what you've told me:
+- Winston started with 10 gallons
+- He has 2 gallons left
+
+So Winston used 8 gallons (10 - 2 = 8).
+
+However, **I need more information to answer how much a full tank holds.**
+
+The 10 gallons he started with might have been a full tank, OR it might have been a partially filled tank. 
+
+Does the problem mention:
+- Whether the 10 gallons was a full tank?
+- The tank's total capacity?
+- What percentage full the tank was at the start?
+
+Could you share what the problem says about the tank capacity? That will help me give you the correct answer!
+
+[TUTOR]:   (probing)If he has 2 gallons left and a tank holds 12 gallons how much more will he need
+[LEARNER]: Perfect! Now I have all the information I need.
+
+**Here's the solution:**
+
+- Full tank capacity: 12 gallons
+- Current amount in tank: 2 gallons
+- Amount needed to fill: 12 - 2 = **10 gallons**
+
+**Winston will need 10 more gallons to fill his tank.**
+
+This makes sense because he only has 2 gallons left, and needs to add 10 more to reach the full capacity of 12 gallons.
+
+[TUTOR]:   (focus)You are saying that 2+4=12
+[LEARNER]: No, I'm not saying 2 + 4 = 12. Let me clarify what I said:
+
+**My calculation was:**
+- Tank capacity: 12 gallons
+- Current fuel: 2 gallons
+- Fuel needed: 12 - 2 = **10 gallons**
+
+So I said 2 + **10** = 12, not 2 + 4 = 12.
+
+Are you seeing something different in the problem? If the answer should involve 4 gallons somehow, could you share more details from the problem? I want to make sure I'm helping you with the correct information!
+
+[TUTOR]:   (telling)2+4=6
+[LEARNER]: You're absolutely right! **2 + 4 = 6**, not 12.
+
+I think there might be some confusion about the problem. Let me check:
+
+If the tank holds 12 gallons and Winston has 2 gallons left, then:
+- 2 + 10 = 12 (he needs 10 gallons to fill it)
+
+But you mentioned "2 + 4 = 6" - are you saying:
+- The tank actually holds 6 gallons (not 12)?
+- Or Winston needs 4 gallons for some other reason?
+
+Could you clarify what the 4 gallons refers to in the problem? I want to make sure I understand the question correctly so I can give you the right answer!
+
+[TUTOR]:   (telling)if he had 2 gallons left he would need another 10 to make 12
+[LEARNER]: Yes, exactly! You've got it right!
+
+**If Winston has 2 gallons left and the tank holds 12 gallons:**
+- 2 + 10 = 12
+- **He needs 10 more gallons to fill the tank**
+
+That's exactly what I calculated in my earlier response. So we're on the same page!
+
+Is there anything else about this problem you'd like me to help clarify, or do you have another question?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Winston had 14.9 gallons of gas in his car’s gas tank. He drives to the store and uses 8.3 gallons of gas. Then he drives to the doctor’s office and uses 2.6 gallons of gas. If the tank can hold up to 15.9 gallons of gas, how many gallons of gas will Winston need to refill the entire tank?
+[LEARNER]: Great! Let me work through this problem step by step.
+
+**Given information:**
+- Winston started with: 14.9 gallons
+- Used driving to the store: 8.3 gallons
+- Used driving to the doctor's office: 2.6 gallons
+- Tank capacity: 15.9 gallons
+- Need to find: How many gallons needed to refill the entire tank
+
+**Step 1: Calculate total gas used**
+Total gas used = 8.3 + 2.6 = 10.9 gallons
+
+**Step 2: Calculate how much gas is left in the tank**
+Gas remaining = Starting amount - Total used
+Gas remaining = 14.9 - 10.9 = 4.0 gallons
+
+**Step 3: Calculate how much gas is needed to refill the tank**
+Gas needed = Tank capacity - Gas remaining
+Gas needed = 15.9 - 4.0 = 11.9 gallons
+
+**Answer: Winston will need 11.9 gallons of gas to refill the entire tank.**
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET D7FDA4F0
+──────────────────────────────────────────────────────────────────────

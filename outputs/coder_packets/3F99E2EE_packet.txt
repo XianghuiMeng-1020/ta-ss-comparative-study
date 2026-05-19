@@ -1,0 +1,72 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 3F99E2EE                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+The Martin family goes to the mall to get ice cream.  A kiddie scoop is $3.  A regular scoop is $4.  A double scoop is $6.   Mr. and Mrs. Martin each get the regular scoop.  Their two children each get the kiddie scoop.  Their three teenage children each get double scoops.  How much money does Mrs. Martin pay the cashier?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Scott can you talk me through your working out please?
+[LEARNER]: Sure! Here’s what I did step by step:
+
+1. I saw that Mr. and Mrs. Martin each get a regular scoop, which costs $4 each. So I calculated 2 x $4 = $8.
+2. The two younger children each get a kiddie scoop, which costs $3 each. I calculated 2 x $3 = $6.
+3. Their three teenage children each get a double scoop, which costs $6 each. I calculated 3 x $6 = $18.
+4. Then, I added everything together: $8 (for Mr. and Mrs. Martin) + $6 (for the two younger children) + $18 (for the three teenage children). I thought the total was $8 + $8 + $6 + $6 + $18 = $46. 
+
+Now I realize something seems wrong with my total. Could you help explain where I went wrong?
+
+[TUTOR]:   (focus)Check how many numbers are in your final calculation
+[LEARNER]: Oh! I see now that I included too many numbers in my final calculation.
+
+In step 4, I wrote $8 + $8 + $6 + $6 + $18, which is incorrect because I repeated the costs for Mr. and Mrs. Martin and the two younger children. I should have only added $8 (for Mr. and Mrs. Martin) + $6 (for the two younger children) + $18 (for the three teenage children). 
+
+Let me revise my answer:
+
+$8 + $6 + $18 = $32.
+
+So, Mrs. Martin pays $32 to the cashier. Thank you for pointing that out!
+
+[TUTOR]:   (telling)You should have 3 numbers in your final calcualtion
+[LEARNER]: Ah, I see now! Thank you for clarifying. My mistake was including too many numbers in the final calculation. I should only have had 3 numbers: $8 (for Mr. and Mrs. Martin), $6 (for the two younger children), and $18 (for the three teenage children).
+
+Let me fix my work:
+
+$8 + $6 + $18 = $32.
+
+Now I understand—Mrs. Martin pays $32 to the cashier. Thanks for helping me spot that!
+
+[TUTOR]:   (generic)Yes that's right, well done
+[LEARNER]: Thank you! I understand now where I went wrong and how to fix it. I’ll be more careful with adding the correct numbers in the final calculation next time. I’m ready for the next problem whenever you are!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+The Martin family goes to the mall to get ice cream.  A kiddie scoop is $3.8.  A regular scoop is $5.1.  A double scoop is $7.6.   Mr. and Mrs. Martin each get the regular scoop.  Their two children each get the kiddie scoop.  Their three teenage children each get double scoops.  How much money does Mrs. Martin pay the cashier?
+[LEARNER]: Alright, I’ll work through this step by step:
+
+1. Mr. and Mrs. Martin each get a regular scoop, which costs $5.1 each. So, for both of them:  
+   \( 2 \times 5.1 = 10.2 \)
+
+2. Their two younger children each get a kiddie scoop, which costs $3.8 each. So, for both of them:  
+   \( 2 \times 3.8 = 7.6 \)
+
+3. Their three teenage children each get a double scoop, which costs $7.6 each. So, for all three of them:  
+   \( 3 \times 7.6 = 22.8 \)
+
+4. Now, I’ll add everything together:  
+   \( 10.2 + 7.6 + 22.8 = 40.6 \)
+
+So, Mrs. Martin pays **$40.6** to the cashier.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 3F99E2EE
+──────────────────────────────────────────────────────────────────────

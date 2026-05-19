@@ -1,0 +1,163 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: A8AC796E                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Ed has 2 dogs, 3 cats and twice as many fish as cats and dogs combined. How many pets does Ed have in total?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Oh Lakisha, I think we can do this in a much simpler fashion if we focus on it step by step. How many dogs and cats does Ed have, in total?
+[LEARNER]: Let me count the dogs and cats...
+
+Ed has 2 dogs and 3 cats.
+
+So 2 + 3 = 5 dogs and cats total.
+
+Wait, but I need to make sure I'm counting right. He has 2 dogs, and then he has 3 cats, so that's 5 animals that are dogs and cats.
+
+[TUTOR]:   (focus)Excellent! Now it says there are twice as many fish, so how many would that be?
+[LEARNER]: Okay, so twice as many fish as the dogs and cats combined...
+
+That means I take the 5 dogs and cats, and multiply by 2.
+
+So 5 × 2 = 10 fish.
+
+Ed has 10 fish!
+
+[TUTOR]:   (focus)Yes! Now, how many pets total? Remember, this is not complicated.
+[LEARNER]: Okay, so I need to add them all up...
+
+Ed has 2 dogs, 3 cats, and 10 fish.
+
+So 2 + 3 + 10 = 15 pets total!
+
+[TUTOR]:   (probing)You said a different number of fish in your previous step, and that was correct. Can you fix that? Remember, twice as many fish as cats and dogs.
+[LEARNER]: Oh wait, I'm getting confused again...
+
+Let me look back. I said 5 dogs and cats combined, and twice as many fish would be 5 × 2 = 10 fish.
+
+But actually, if there are twice as many fish as cats and dogs, that means... wait, is it 10 fish or 5 fish?
+
+I think I said 10 fish before, so the total would be 2 + 3 + 10 = 15 pets.
+
+[TUTOR]:   (probing)No, if there are 5 cats and dogs, then how many is twice that? That is the number of fish.
+[LEARNER]: Oh! Twice as many as 5...
+
+So 5 × 2 = 10 fish.
+
+Wait, I did say 10 fish before. So that's right.
+
+So Ed has 2 dogs + 3 cats + 10 fish = 15 pets total.
+
+[TUTOR]:   (probing)Think of it this way. If I have four chickens and two goats, and then twice as many cows as chickens and goats, then I have 4 + 2 + (2)(4 + 2) = 18
+[LEARNER]: Oh! I see what you're doing...
+
+So for the chickens and goats, you have 4 + 2 = 6 total.
+
+Then twice as many cows means 2 × 6 = 12 cows.
+
+So 4 + 2 + 12 = 18 animals total.
+
+Okay, so for Ed's pets: 2 dogs + 3 cats = 5, and twice that is 2 × 5 = 10 fish.
+
+So 2 + 3 + 10 = 15 pets total!
+
+[TUTOR]:   (focus)This is better, but now you have a math error. Can you check your work?
+[LEARNER]: Let me add it again carefully...
+
+2 + 3 + 10
+
+2 + 3 = 5
+
+5 + 10 = 15
+
+I got 15 pets total. Is that wrong?
+
+[TUTOR]:   (telling)No, 2 + 3 is 5 cats and dogs. Twice that is 10 fish. So what is 5 cats and dogs plus 10 fish, how many animals is that?
+[LEARNER]: Oh! I need to add 5 cats and dogs plus 10 fish.
+
+5 + 10 = 15 animals total.
+
+So Ed has 15 pets!
+
+[TUTOR]:   (telling)No, sorry, Lakisha. 5 + 10 is not 10
+[LEARNER]: Oh no, you're right! Let me add again...
+
+5 + 10 = 15
+
+Wait, that's what I said. But you said that's wrong...
+
+Let me count more carefully: 5... 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.
+
+Is it 15? I'm confused now.
+
+[TUTOR]:   (telling)No, 5 cats and dogs plus 10 fish is 5 + 10 = 15, fifteen pets.
+[LEARNER]: Oh! So I was right then!
+
+5 cats and dogs + 10 fish = 15 pets total.
+
+So Ed has 15 pets in total!
+
+[TUTOR]:   (telling)No, it is 15 pets.
+[LEARNER]: Wait, I'm confused... I said 15 pets and you said it's 15 pets.
+
+So Ed has 15 pets total, right? That's what I got - 15 pets.
+
+[TUTOR]:   (telling)No, he has ten fish, and you don't subtract the cats and dogs.
+[LEARNER]: Oh! So I don't subtract anything...
+
+Ed has 2 dogs, 3 cats, and 10 fish.
+
+I just add them all: 2 + 3 + 10.
+
+Let me count: 2 + 3 = 5, then 5 + 10 = 15.
+
+So Ed has 15 pets total.
+
+[TUTOR]:   (telling)No, he has 10 fish. NOT 5.
+[LEARNER]: Right, he has 10 fish!
+
+So 2 dogs + 3 cats + 10 fish.
+
+That's 2 + 3 + 10 = 15 pets total.
+
+Wait, but you're saying that's wrong? I'm really confused now because I keep getting 15.
+
+[TUTOR]:   (telling)When you said "total of 15 pets" you should have stopped there.
+[LEARNER]: Oh! So I was right!
+
+Ed has a total of 15 pets.
+
+I should stop there and not keep second-guessing myself. Thank you!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Ed has 2.5 dogs, 4.4 cats and twice as many fish as cats and dogs combined. How many pets does Ed have in total?
+[LEARNER]: Okay, let me work through this step by step.
+
+First, I need to find how many dogs and cats Ed has combined.
+
+2.5 dogs + 4.4 cats = 6.9 dogs and cats total.
+
+Next, he has twice as many fish as dogs and cats combined.
+
+So 2 × 6.9 = 13.8 fish.
+
+Now I add them all up:
+
+2.5 + 4.4 + 13.8 = 21.7 pets total.
+
+Ed has 21.7 pets in total.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET A8AC796E
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,56 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 57444C6A                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Henry needs to declutter his book collection of 99 books.  From his bookshelf, he was able to fill 3 boxes of 15 books each to take to a donation center.  He had 21 books in a room he could donate, 4 on his coffee table and 18 cookbooks stashed in the kitchen.  When he dropped them off, he noticed a box of books that had a  "free to a good home" note.  He grabbed 12 books to take back to his place.  How many books does Henry now have?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Jordy can you talk me through your working?
+[LEARNER]: Okay, so first I found out how many books Henry put into boxes. He filled 3 boxes with 15 books each, so I multiplied 3 times 15 and got 45 books.
+
+Then I added up the other books he donated from the room, coffee table, and kitchen: 21 + 4 + 18 = 43 books.
+
+Then I subtracted the 43 books from the original 99 books: 99 - 43 = 56 books.
+
+Finally, I added the 12 books he took from the "free to a good home" box: 56 + 12 = 68 books. So my answer is 68.
+
+[TUTOR]:   (focus)Think again about how many books he is donating in total.
+[LEARNER]: Okay, so he donates 3 boxes of 15 books, and I said that was 45 books, right? Then he donates 21 books from his room, 4 from the coffee table, and 18 cookbooks. I added the 21, 4, and 18 and got 43. So he donates 45 + 43 = 88 books in total.
+
+[TUTOR]:   (telling)He filled 3 boxes with 15 books each so 3*15 = 45 books
+From the rest of his house he is donating 45+21+4+18 = 88 books for donation
+[LEARNER]: Okay, I see that. So he donated 88 books total. He started with 99 books. So, 99 - 88 = 11 books. Then he took 12 books from the box, so 11 + 12 = 23. So he has 23 books now.
+
+[TUTOR]:   (telling)He had 88 books to donate. His collection is 99 books and he is donating 88 books, so that leaves him with 99-88 = 11 books
+He picks up 12 books to add to his collection of 11 books so he now has 12+11 = 23 books
+[LEARNER]: Yeah, that makes sense. So the answer is 23 books.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Henry needs to declutter his book collection of 130.8 books.  From his bookshelf, he was able to fill 4.5 boxes of 18.6 books each to take to a donation center.  He had 26.4 books in a room he could donate, 5.1 on his coffee table and 25.7 cookbooks stashed in the kitchen.  When he dropped them off, he noticed a box of books that had a  "free to a good home" note.  He grabbed 15.6 books to take back to his place.  How many books does Henry now have?
+[LEARNER]: Okay, this one has decimals, but I can do it!
+
+First, I need to find out how many books are in the 4.5 boxes. So that's 4.5 x 18.6 = 83.7 books.
+
+Then I add up the other books he donates: 26.4 + 5.1 + 25.7 = 57.2 books.
+
+So he donates a total of 83.7 + 57.2 = 140.9 books
+
+Then I subtract the 140.9 from the starting amount 130.8 - 140.9 = -10.1
+
+Then I add the 15.6 books he picks up: -10.1 + 15.6 = 5.5
+So he has 5.5 books.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 57444C6A
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,10 @@
+n_a,n_b,mean_a,mean_b,mean_diff,pooled_sd,obs_d,equivalence_bound_d,t_lower,t_upper,p_lower,p_upper,equiv_p,is_equivalent,df,interpretation,dimension,comparison,min_detectable_d_80pct
+60,60,2.85,1.5333,1.3167,0.3968,3.3178,0.3,19.8157,16.5294,0.0,1.0,1.0,False,118,practically_different,TA1,C3_vs_C4,0.511
+60,60,2.4833,1.775,0.7083,0.4974,1.424,0.3,9.4429,6.1565,0.0,1.0,1.0,False,118,practically_different,TA2,C3_vs_C4,0.511
+60,60,2.8083,1.9333,0.875,0.3936,2.2232,0.3,13.8199,10.5336,0.0,1.0,1.0,False,118,practically_different,TA3,C3_vs_C4,0.511
+60,60,2.5833,2.0917,0.4917,0.3887,1.2649,0.3,8.5712,5.2848,0.0,1.0,1.0,False,118,practically_different,TA4,C3_vs_C4,0.511
+60,60,2.5083,1.7917,0.7167,0.4307,1.6639,0.3,10.7565,7.4702,0.0,1.0,1.0,False,118,practically_different,SS1,C3_vs_C4,0.511
+60,60,2.0667,1.6917,0.375,0.4146,0.9046,0.3,6.5978,3.3114,0.0,0.9994,0.9994,False,118,practically_different,SS2,C3_vs_C4,0.511
+60,60,2.3917,1.925,0.4667,0.4411,1.058,0.3,7.438,4.1516,0.0,1.0,1.0,False,118,practically_different,SS3,C3_vs_C4,0.511
+60,60,2.4667,1.7417,0.725,0.3979,1.8222,0.3,11.6239,8.3375,0.0,1.0,1.0,False,118,practically_different,SS4,C3_vs_C4,0.511
+60,60,2.3,1.8333,0.4667,0.3952,1.1807,0.3,8.1102,4.8239,0.0,1.0,1.0,False,118,practically_different,SS5,C3_vs_C4,0.511

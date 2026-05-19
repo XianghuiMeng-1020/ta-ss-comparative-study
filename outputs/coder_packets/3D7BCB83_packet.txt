@@ -1,0 +1,109 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 3D7BCB83                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi, do you want to tell me your solution?
+[LEARNER]: Hello! Sure, I'd be happy to help. Could you clarify what specific problem or question you're referring to so I can provide the best solution or answer?
+
+[TUTOR]:   (focus)OK, you are right up to your last step. If she ran 9 miles in the third week, and 5 miles less in the fourth, how many miles did she run in the fourth week?
+[LEARNER]: If she ran **9 miles in the third week** and **5 miles less in the fourth week**, we can simply subtract 5 from 9:
+
+\[
+9 - 5 = 4
+\]
+
+So, she ran **4 miles in the fourth week**.
+
+[TUTOR]:   (telling)yes that's correct
+[LEARNER]: Great! Glad we got it right. 😊 If you have any more questions, feel free to ask!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Carly is trying to get in shape to try out for the soccer team. She starts by running 2.5 miles a week. The second week, she runs twice as long plus 3.8 extra miles per week. The third week she runs 10.9/10.1 as much as she ran the second week. The week after that, she sprains her ankle and has to reduce her running time by 6.4 miles per week. How many miles did she run the week she was injured?
+[LEARNER]: Let's solve this step by step:
+
+---
+
+### **Step 1: Determine how much Carly ran in the second week.**
+- Carly started by running **2.5 miles** in the first week.
+- In the second week, she runs **twice as long as the first week plus 3.8 extra miles**.
+
+\[
+\text{Second week miles} = 2 \times 2.5 + 3.8
+\]
+
+First, calculate \( 2 \times 2.5 \):
+
+\[
+2 \times 2.5 = 5
+\]
+
+Now add 3.8:
+
+\[
+5 + 3.8 = 8.8
+\]
+
+So, Carly ran **8.8 miles in the second week**.
+
+---
+
+### **Step 2: Determine how much Carly ran in the third week.**
+- In the third week, she ran **10.9/10.1 as much as she ran in the second week**.
+- This is equivalent to multiplying \( 8.8 \) by \( 10.9/10.1 \).
+
+\[
+\text{Third week miles} = 8.8 \times \frac{10.9}{10.1}
+\]
+
+First, calculate \( 10.9 \div 10.1 \):
+
+\[
+10.9 \div 10.1 \approx 1.0792
+\]
+
+Now multiply \( 8.8 \) by \( 1.0792 \):
+
+\[
+8.8 \times 1.0792 \approx 9.49
+\]
+
+So, Carly ran approximately **9.49 miles in the third week**.
+
+---
+
+### **Step 3: Determine how much Carly ran in the week she was injured.**
+- In the fourth week, Carly injured herself and reduced her running by **6.4 miles** compared to the third week.
+- To find how much she ran in the fourth week, subtract \( 6.4 \) from the third week's total:
+
+\[
+\text{Fourth week miles} = 9.49 - 6.4
+\]
+
+Now calculate:
+
+\[
+9.49 - 6.4 = 3.09
+\]
+
+---
+
+### **Final Answer:**
+Carly ran approximately **3.09 miles in the week she was injured**.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 3D7BCB83
+──────────────────────────────────────────────────────────────────────

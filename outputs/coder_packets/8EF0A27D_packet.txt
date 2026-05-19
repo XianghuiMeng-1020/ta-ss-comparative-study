@@ -1,0 +1,81 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 8EF0A27D                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Ahmed is 11 years old and Fouad is 26 years old. In how many years will Fouad's age be double Ahmed's current age?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Jordy, could you talk me through your solution?
+[LEARNER]: Let me walk you through it. I said that Ahmed will be 11 + x years old in x years, and Fouad will be 26 + x years old. Then I set up the equation 2(11) = 26 + x, because the problem says Fouad's age will be double Ahmed's current age. Solving for x, I got x = 11. But I'm not sure if it's correct...
+
+[TUTOR]:   (focus)Okay, not quite, let's start over. Could you simplify this for me: (X+11)*2 = X+26.
+[LEARNER]: Wait, where did that equation come from? I thought we had 2(11) = 26 + x? Can you help me understand how you got (X+11)*2 = X+26? Is this a new equation based on the problem?
+
+[TUTOR]:   (telling)Not quite. The answer required you to simplify is to look like this: X*2 + 22 = X + 26. X represents the number of years before Fouad's age doubles Ahmed's age.
+[LEARNER]: So we're using X to represent the number of years, and the equation is X*2 + 22 = X + 26. That makes sense because in X years, Ahmed will be 11 + X years old, and in X years, Fouad will be 26 + X years old, and we want Fouad's age to be double Ahmed's current age, which is 22.
+
+Now that I see the correct equation, I can try to simplify it. Let me see... If I subtract X from both sides, I get X + 22 = 26. Is that correct?
+
+[TUTOR]:   (telling)The first part is correct. But you don't need to divide by 2
+[LEARNER]: So I have X*2 + 22 = X + 26. If I subtract X from both sides, I get X + 22 = 26. Then, if I subtract 22 from both sides, I get X = 4. Is that correct?
+
+[TUTOR]:   (generic)Good well done, that was tough!
+[LEARNER]: I'm glad I was able to get it eventually. I was stuck at first, but breaking it down step by step really helped. Thanks for walking me through it and pointing out where I went wrong. It really helped me understand the problem better. Do I get to try another one now?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Ahmed is 14.2 years old and Fouad is 38.9 years old. In how many years will Fouad's age be double Ahmed's current age?
+[LEARNER]: Let x be the number of years until Fouad's age is double Ahmed's current age.
+
+In x years, Ahmed will be 14.2 + x years old.
+In x years, Fouad will be 38.9 + x years old.
+
+According to the problem, Fouad's age in x years will be double Ahmed's current age, which is 2(14.2) = 28.4.
+
+So, I can set up the equation: 38.9 + x = 28.4
+
+Wait, that doesn't look right... I think I made a mistake. Let me try again.
+
+According to the problem, Fouad's age in x years will be double Ahmed's current age, which is 28.4. So, I can set up the equation: 38.9 + x = 2(14.2 + x) is not correct, but 38.9 + x = 2(14.2) is not correct either.
+
+Let me try again. If Ahmed's current age is 14.2, and Fouad's age in x years will be double that, then I can set up the equation: 38.9 + x = 2 * 14.2 
+
+Expanding the right side, I get: 38.9 + x = 28.4 
+
+But I want to find the value of x when Fouad's age is double Ahmed's current age, so I need to set up the equation correctly. Let me try again.
+
+I think I need to set up the equation: 2 * 14.2 = 38.9 + x, but that is not correct. I need to find the value of x when Fouad's age is double Ahmed's current age.
+
+Let me try again.
+
+2 * 14.2 = 28.4, so I can set up the equation: 28.4 = 38.9 + x, no that is not correct.
+
+I think I need to set up the equation: 38.9 + x = 2 * (14.2 + x), no that is not correct.
+
+I think I need to set up the equation: 38.9 + x = 2 * 14.2, no that is not correct.
+
+Let me try again.
+
+2 * 14.2 = 28.4, so I can set up the equation: 2 * (14.2 + x) = 38.9 + x, no that is not correct.
+
+I think I need to set up the equation: 38.9 + x = 28.4 + x * 2, no that is not correct.
+
+Let me try again.
+
+2 * (14.2 + x) = 2 * 14.2 + x * 2 is not correct.
+
+I think I need to set up the equation: 38.9 + x
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 8EF0A27D
+──────────────────────────────────────────────────────────────────────

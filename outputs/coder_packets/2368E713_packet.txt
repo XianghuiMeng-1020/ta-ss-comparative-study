@@ -1,0 +1,105 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 2368E713                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)If john is half the age of tanya, and she is 60, how old does that make him?
+[LEARNER]: If Tanya is 60 years old, and John is half her age, then I would divide 60 by 2 to find John's age.
+
+60 ÷ 2 = 30
+
+So, John is 30 years old.
+
+[TUTOR]:   (focus)he is half her age, not double. by x2 you are doubling.
+[LEARNER]: Since John is half Tanya's age, I should divide 60 by 2, not multiply.
+
+60 ÷ 2 = 30
+
+So, John is 30 years old.
+
+Wait, that's still correct!
+
+[TUTOR]:   (probing)now use this info to solve the problem again
+[LEARNER]: Let me think this through again.
+
+If Tanya is 60 years old and John is half her age, that means I need to divide Tanya's age by 2 to find John's age.
+
+60 ÷ 2 = 30
+
+So, John is indeed 30 years old.
+
+Is that correct?
+
+[TUTOR]:   (focus)you're right that you have 60 and 30, but you've forgotten to work out Mary's age. she is half of john's age, remember.
+[LEARNER]: Wait, there is no Mary mentioned in the original problem. The problem only mentioned John and Tanya.
+
+[TUTOR]:   (probing)you need to add the 3 ages together
+[LEARNER]: But I think there's been a misunderstanding. The original problem only mentioned two people: John and Tanya. There was no mention of a third person.
+
+However, if I were to assume that there is a third person, Mary, and she is half of John's age, then I would calculate Mary's age as follows:
+
+John is 30 years old, so Mary is half of that:
+
+30 ÷ 2 = 15
+
+So, Mary is 15 years old.
+
+If I were to add the three ages together (although I'm not sure why I'm doing this, since Mary wasn't part of the original problem!), I would get:
+
+60 (Tanya) + 30 (John) + 15 (Mary) = 105
+
+But please clarify if this is what you were looking for!
+
+[TUTOR]:   (focus)you've told me that mary is 15, john is 30 and Tanya is 60. add these uo
+[LEARNER]: I'll add the three ages together:
+
+60 (Tanya) + 30 (John) + 15 (Mary) = 105
+
+So, the sum of their ages is 105.
+
+[TUTOR]:   (generic)fab
+[LEARNER]: I'm glad I was able to finally get it right, even if Mary wasn't part of the original problem. Thanks for the encouragement and for helping me practice my math skills!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+John is twice as old as Mary and half as old as Tonya. If Tanya is 75.2, what is their average age?
+[LEARNER]: Let's break this problem down step by step:
+
+1. Tanya is 75.2 years old.
+2. John is half as old as Tanya, so I'll divide Tanya's age by 2 to find John's age:
+
+75.2 ÷ 2 = 37.6
+
+So, John is 37.6 years old.
+
+3. John is twice as old as Mary, so I'll divide John's age by 2 to find Mary's age:
+
+37.6 ÷ 2 = 18.8
+
+So, Mary is 18.8 years old.
+
+Now that I have all three ages, I can find their average age. To do this, I'll add their ages together and divide by 3:
+
+75.2 (Tanya) + 37.6 (John) + 18.8 (Mary) = 131.6
+
+ Divide the sum by 3:
+
+131.6 ÷ 3 = 43.87
+
+So, their average age is approximately 43.87 years old.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 2368E713
+──────────────────────────────────────────────────────────────────────

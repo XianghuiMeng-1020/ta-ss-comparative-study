@@ -1,0 +1,62 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: BECAE22A                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Ray has 175 cents in nickels. Ray gives 30 cents to Peter, and he gives twice as many cents to Randi as he gave to Peter. How many more nickels does Randi have than Peter?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic) Hi Alejandra, could you please walk me through your solution?
+[LEARNER]: Okay, let's look at your solution step-by-step.
+
+You correctly calculated that 175 cents is equal to 35 nickels and that Randi received 60 cents. However, you made a mistake when you stated, "Randi has 12 more nickels than Peter." The problem asks how many *more* nickels Randi has than Peter. You correctly found how many nickels Randi has, but you didn't calculate how many nickels Peter has.
+
+Do you see what to do next?
+
+[TUTOR]:   (focus)good work so far, so randi had 12 nickels right?
+[LEARNER]: Yes, Randi received 60 cents, which is 60/5 = 12 nickels. Now, what about Peter?
+
+[TUTOR]:   (focus)let's just focus on randi for now. how many nickels?
+[LEARNER]: We already figured out Randi has 12 nickels. Do you want to check that calculation, or are you wondering about something else related to Randi?
+
+[TUTOR]:   (focus)ok and how many does peter have?
+[LEARNER]: Peter received 30 cents. How many nickels is that?
+
+[TUTOR]:   (focus)wait let's look at your solution again. how many cents did ray give peter?
+[LEARNER]: According to the problem, Ray gave 30 cents to Peter.
+
+[TUTOR]:   (focus)and how many nickels is that?
+[LEARNER]: 30 cents is equal to 30/5 = 6 nickels.
+
+[TUTOR]:   (focus)great so if randi has 12 nickels, and peter has 6, how many more does randi have?
+[LEARNER]: Exactly! Now you just need to subtract to find the difference. What do you get?
+
+[TUTOR]:   (generic)great stuff alejandra, correct
+[LEARNER]: So, what's your final answer to the problem: How many more nickels does Randi have than Peter?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Ray has 216.2 cents in nickels. Ray gives 42.4 cents to Peter, and he gives twice as many cents to Randi as he gave to Peter. How many more nickels does Randi have than Peter?
+[LEARNER]: Randi has 6 more nickels than Peter.
+
+216.2 cents in nickels is equal to 216.2/5 = 43.24 nickels.
+
+Ray gave 42.4 cents to Peter, so he has 216.2 - 42.4 = 173.8 cents left.
+
+Ray gave twice as many cents to Randi as he gave to Peter, so he gave 2 x 42.4 = 84.8 cents to Randi.
+
+Randi has 84.8/5 = 16.96 nickels. Peter has 42.4/5 = 8.48 nickels. Randi has 16.96 - 8.48 = 8.48 more nickels than Peter.
+ 8.48
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET BECAE22A
+──────────────────────────────────────────────────────────────────────

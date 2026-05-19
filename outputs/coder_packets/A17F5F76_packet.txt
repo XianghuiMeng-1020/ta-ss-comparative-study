@@ -1,0 +1,56 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: A17F5F76                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+A group of 30 tourists sets out on a walking tour of the rainforest. Two tourists are eaten by anacondas, then half the remaining tourists try to pet poisonous dart frogs and get poisoned. If only 1/7 of the poisoned tourists recovered, how many tourists are left at the end of the tour?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)you are almost right!!
+[LEARNER]: Oh, okay! I thought my answer was right. Can you explain what I did wrong? I thought I just had to subtract the recovered tourists at the end.
+
+[TUTOR]:   (focus)well we have the 14 leftover tourists and 2 who recovered...what does that tell us?
+[LEARNER]: Ohhh, so I think you're saying the 2 who recovered are actually part of the 14 poisoned tourists? So maybe I shouldn’t have subtracted them from the 14? Does that mean the 2 recovered tourists are already included in the group that’s still alive?
+
+[TUTOR]:   (generic)great!
+[LEARNER]: Okay, so if I don't subtract the 2 recovered tourists, then the total number of tourists left at the end would just be the 14 that survived after the poisoning.
+
+So, there would still be **14 tourists left at the end of the tour**. Did I get it this time?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+A group of 42.7 tourists sets out on a walking tour of the rainforest. Two tourists are eaten by anacondas, then half the remaining tourists try to pet poisonous dart frogs and get poisoned. If only 1.3/8.5 of the poisoned tourists recovered, how many tourists are left at the end of the tour?
+[LEARNER]: Okay, I'll try this step by step:
+
+1. Start with 42.7 tourists. Two are eaten by anacondas, so the remaining tourists are:
+   \( 42.7 - 2 = 40.7 \).
+
+2. Half of the remaining tourists got poisoned, so:
+   \( 40.7 \div 2 = 20.35 \) tourists were poisoned.
+
+3. Only \( \frac{1.3}{8.5} \) of the poisoned tourists recovered. First, calculate \( \frac{1.3}{8.5} \):
+   \( \frac{1.3}{8.5} = 0.153 \) (approximately).
+
+4. Multiply this fraction by the number of poisoned tourists to find how many recovered:
+   \( 0.153 \times 20.35 = 3.11 \) (approximately).
+
+5. Since 3.11 tourists recovered, I need to subtract that from the poisoned group to find how many are still poisoned:
+   \( 20.35 - 3.11 = 17.24 \).
+
+6. Finally, subtract the poisoned tourists from the total remaining tourists:
+   \( 40.7 - 17.24 = 23.46 \).
+
+**So, I think there are 23.46 tourists left at the end of the tour.** Did I do it right?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET A17F5F76
+──────────────────────────────────────────────────────────────────────

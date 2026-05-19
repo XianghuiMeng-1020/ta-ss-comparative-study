@@ -1,0 +1,54 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: F69A1310                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Jackson wants to improve his endurance running. His goal is to start by running 3 miles a day the first week, then spend the next four weeks running one additional mile/day each week. How many miles is Jackson running each day at the end of this exercise program?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Ronnie.  How many weeks is Jackson's training program?
+[LEARNER]: Hi! Jackson's training program lasts for 5 weeks: the first week where he runs 3 miles a day, and then 4 more weeks where he increases by 1 mile/day each week.
+
+[TUTOR]:   (focus)Good, You said at the end of the 4th week, Jackson was running 6 miles a day?  Correct?
+[LEARNER]: Yes, I said that Jackson was running 6 miles a day at the end of the 4th week.
+
+[TUTOR]:   (probing)Every week, you increase the distance by how far?
+[LEARNER]: Every week, the distance increases by 1 mile per day.
+
+[TUTOR]:   (telling)So in your calculation at the start of the 5th week did you increase the distance by 1 mile?
+[LEARNER]: Oh, I see now—I did not increase the distance by 1 mile at the start of the 5th week. I stopped at 6 miles instead of increasing it to 7 miles. Let me revise my answer.  
+
+At the end of the 4th week, Jackson is running 6 miles a day. At the start of the 5th week, he should increase by 1 more mile, so he would be running 7 miles a day at the end of the program.
+
+[TUTOR]:   (telling)Correct, that is the solution.
+[LEARNER]: Got it! I see where I went wrong before—I forgot to add the additional mile for the 5th week. Thank you for pointing that out! I'll be more careful with tracking increases in future problems.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jackson wants to improve his endurance running. His goal is to start by running 3.8 miles a day the first week, then spend the next four weeks running one additional mile/day each week. How many miles is Jackson running each day at the end of this exercise program?
+[LEARNER]: Okay, I'll solve this step by step:
+
+1. At the end of the first week, Jackson is running **3.8 miles a day**.
+2. At the end of the second week, he increases by 1 mile:  
+   \( 3.8 + 1 = 4.8 \) miles a day.
+3. At the end of the third week, he increases by another 1 mile:  
+   \( 4.8 + 1 = 5.8 \) miles a day.
+4. At the end of the fourth week, he increases by another 1 mile:  
+   \( 5.8 + 1 = 6.8 \) miles a day.
+5. At the start of the fifth week (and the end of the program), he increases by 1 more mile:  
+   \( 6.8 + 1 = 7.8 \) miles a day.
+
+**Final Answer:** At the end of the exercise program, Jackson is running **7.8 miles a day**.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET F69A1310
+──────────────────────────────────────────────────────────────────────

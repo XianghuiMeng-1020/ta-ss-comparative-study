@@ -1,0 +1,136 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 0147DDAF                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hello Michael, Can you walk me thorough how you solved this problem please?
+[LEARNER]: # Hello!
+
+I'd be happy to walk you through my solution! However, I don't see a specific problem in your message yet. 
+
+Could you please share the math problem you'd like me to explain? Once you post it, I'll break down my approach step-by-step so you can follow along with how I solved it.
+
+Just paste the problem here and let me know what part you'd like me to focus on! 😊
+
+[TUTOR]:   (probing)Lets think about Tommy's new house. That is worth $500,000 so what is 25% of that?
+[LEARNER]: Great! Let me work through finding 25% of $500,000.
+
+**Method 1: Using the percentage formula**
+
+25% means 25 out of 100, or 25/100, which simplifies to 1/4.
+
+So: 25% of $500,000 = (25/100) × $500,000
+
+Let me calculate:
+- (25/100) × $500,000 
+- = 0.25 × $500,000
+- = **$125,000**
+
+**Method 2: Using the fraction shortcut**
+
+Since 25% = 1/4, I can also think of it as dividing by 4:
+
+$500,000 ÷ 4 = **$125,000**
+
+So **25% of $500,000 is $125,000**.
+
+Is this the down payment Tommy needs to make? Would you like me to continue with the rest of the problem?
+
+[TUTOR]:   (focus)Correct. So he paid $125,00 towards his new home. How much money was then left for the loan?
+[LEARNER]: Perfect! Now I need to find how much is left for the loan.
+
+**Starting amount (house price):** $500,000
+
+**Amount Tommy paid (down payment):** $125,000
+
+**Amount left for the loan:** $500,000 - $125,000 = **$375,000**
+
+So Tommy needs to take out a loan for **$375,000**.
+
+This makes sense because he paid 25% upfront, which means he still owes 75% of the house price (since 100% - 25% = 75%). And 75% of $500,000 is indeed $375,000!
+
+What's the next step in the problem? Does it involve calculating monthly payments or interest?
+
+[TUTOR]:   (probing)Correct. Now we have to divide the $125,000 he paid for his new home by 1.25 to get the answer.
+[LEARNER]: Hmm, I want to make sure I understand this correctly. 
+
+You're saying we need to divide $125,000 by 1.25?
+
+Let me calculate that:
+$125,000 ÷ 1.25 = **$100,000**
+
+But I'm a bit confused about *why* we're dividing by 1.25. Could you help me understand what this $100,000 represents in the context of the problem?
+
+Is this related to:
+- The price of Tommy's old house?
+- How much he had saved before?
+- Something else about the transaction?
+
+I want to make sure I'm following the logic of the problem correctly! 😊
+
+[TUTOR]:   (telling)Perfect. Well done.
+[LEARNER]: Thank you! 
+
+So just to make sure I fully understand the complete problem:
+
+1. Tommy's new house costs $500,000
+2. He paid a 25% down payment = $125,000
+3. The remaining loan amount = $375,000
+4. When we divide $125,000 ÷ 1.25 = $100,000
+
+I got the right answer of **$100,000**, but I'm still a little uncertain about what that final number represents in the story. 
+
+Could you explain what the $100,000 is? Is it:
+- How much Tommy's old house was worth?
+- How much profit he made?
+- His original savings?
+
+Understanding the context would really help me grasp the full problem! What was the complete question asking for?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Tommy's home is worth 31.0% more than he bought it for. He sells it and buys a new house that costs $727.0,0. If he had to take a loan for the 102.5% he can't pay, how much did he buy his first house for?
+[LEARNER]: # Let me work through this step-by-step!
+
+**Given information:**
+- Tommy's first house increased in value by 31% from what he paid
+- He sells it and buys a new house for $727,000
+- He takes a loan for 102.5% of what he can't pay
+- Find: Original price of first house
+
+Wait, I need to reconsider that "102.5%" part - that seems unusual. Let me interpret this as: he takes a loan for the portion he can't pay, and that loan amount is related to 102.5% somehow.
+
+Actually, looking at the pattern from the previous problem, let me think about this differently:
+
+**Step 1:** If Tommy takes a loan for what he can't pay, then what he CAN pay is what he got from selling his first house.
+
+**Step 2:** Let's say the down payment (what he can pay) is some amount. If the loan is described as "102.5% of what he can't pay," this might mean:
+- Down payment = some percentage of $727,000
+- The loan covers the rest
+
+**Step 3:** Following the pattern from before, if the down payment divided by some number gives us the original house price...
+
+Let me denote the original house price as **x**.
+- He sold it for: x × 1.31 (31% more)
+- This sale money becomes his down payment
+- Loan amount relates to 102.5%
+
+Hmm, I'm getting confused by the "102.5% he can't pay" phrasing. Could you clarify what this means? Does it mean:
+- The loan is 102.5% of the new house price?
+- Or something else?
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 0147DDAF
+──────────────────────────────────────────────────────────────────────

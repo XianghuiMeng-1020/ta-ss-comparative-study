@@ -1,0 +1,64 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 932F5550                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Marco owns an ice cream truck.  His ice cream cones are $5 each.  If his expenses are 80% of total sales for the day, how many ice cream cones would he need to sell to make a $200 profit for the day?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi, could you please walk me through your solution?
+[LEARNER]: Sure! Here's what I did step by step:
+
+1. I let **x** represent the number of ice cream cones Marco needs to sell.
+2. Since each cone costs $5, his total sales for the day would be **5x**.
+3. His expenses are 80% of his total sales, so I calculated his expenses as **0.8(5x) = 4x**.
+4. To find his profit, I subtracted his expenses from his total sales: **5x - 4x = x**.
+5. The problem says his profit should be $200, so I set **x = 200**.
+6. Then I thought Marco needs to sell **200/5 = 40 cones** to make a $200 profit for the day.
+
+So, my final answer is **40 cones**. Did I get that right?
+
+[TUTOR]:   (focus)If I am not wrong, x is the number of cones sold, right?
+[LEARNER]: Oh! You're right. I set **x** as the number of cones sold at the start. Hmm... if **x** is the number of cones sold, I think I made a mistake when I said **x = 200** for the profit. Let me think about it again.
+
+If **x** is the number of cones sold, then the profit being **$200** means I need to rewrite how I solve this. I’m a little confused now. Could you help me figure out what I should fix?
+
+[TUTOR]:   (focus)And what is the value of x calculated ?
+[LEARNER]: The value of **x** I calculated was **200**. Since **x** represents the number of cones sold, I guess that means Marco would need to sell **200 cones** to make a $200 profit.
+
+But... now that I think about it, that seems off because I know each cone costs $5. Maybe my steps don’t match up with what **x** is supposed to be. Could you help me figure out where I’m going wrong?
+
+[TUTOR]:   (focus)There's the mistake, you are going beyond after you've reached the correct answer. x is already the number of cones calculated and that is 200. Do you see the mistake you are doing by dividing again?
+[LEARNER]: Ohhh, I see it now! **x** is already the number of ice cream cones Marco needs to sell, and I calculated **x = 200**. So, when I divided by 5 at the end, I was confusing things. I thought I still needed to find the number of cones, but I had already done that.
+
+I made the mistake of doing extra steps that weren’t needed. So the correct answer should just be **200 cones**, right? Thank you for pointing that out!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Marco owns an ice cream truck.  His ice cream cones are $6.0 each.  If his expenses are 106.6% of total sales for the day, how many ice cream cones would he need to sell to make a $297.2 profit for the day?
+[LEARNER]: Alright, I’ll try to solve this step by step on my own:
+
+1. Let **x** be the number of ice cream cones Marco needs to sell.
+2. Each cone costs **$6.0**, so his total sales for the day would be **6x**.
+3. His expenses are **106.6%** of his total sales, so his expenses will be **1.066(6x) = 6.396x**.
+4. Marco’s profit is calculated as total sales minus expenses:  
+   Profit = **6x - 6.396x** = **-0.396x**.
+5. The problem says Marco wants to make a profit of **$297.2**, so I set up the equation:  
+   **-0.396x = 297.2**.
+6. I solve for **x** by dividing both sides by **-0.396**:  
+   **x = 297.2 / -0.396**.
+
+Wait... that doesn't make sense because **x** can’t be negative. I think I messed up somewhere. Let me go back and check my work.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 932F5550
+──────────────────────────────────────────────────────────────────────

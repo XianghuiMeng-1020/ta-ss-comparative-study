@@ -1,0 +1,53 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 6C50DFB3                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Roman the Tavernmaster has $20 worth of gold coins. He sells 3 gold coins to Dorothy. After she pays him, he has $12. How many gold coins does Roman have left?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (focus)Hi Jordy. Tell me about your answer.
+[LEARNER]: Okay, so first I said that x is how much one gold coin is worth. Roman had 20/x gold coins at first. He sold 3 coins, so that's 3 times x, or 3x dollars. After selling, he had 20 - 3x dollars left, and we know that's $12. So 20 - 3x = 12. When I solve for x, I get x = 2. That means each coin is worth $2. Roman started with 20/2 = 10 gold coins. Then he sold 3, so he has 10 - 3 = 7 coins left. So my answer is 7.
+
+[TUTOR]:   (focus)He sold 3 coins for $12. How much did each coin cost Dorothy?
+[LEARNER]: Oh! If 3 coins cost Dorothy $12, then one coin costs 12/7 dollars. Is that right?
+
+[TUTOR]:   (focus)Correct! So if the coins cost a total of $20, and $12 of them have gone. How many dollar worth of gold is left?
+[LEARNER]: Okay, so he started with $20 and now he has $12, so he has 20 - 12 = $8 left.
+
+[TUTOR]:   (telling)You are correct that he has $8 of gold left, but if each is worth $4, how many coins are left?
+[LEARNER]: Each coin is worth $4... and he has $8 left... so that means he has 8/12 coins left? That doesn't sound right.
+
+[TUTOR]:   (probing)4 x $4 would be $16. He only has $8.
+[LEARNER]: Oh, okay! I see. So if each coin is worth $4, and he has $8 left, then he has 8/4 = 2 coins left.
+
+[TUTOR]:   (focus)But you said they were worth $4 each. You have all the right numbers, but not in the right places.
+[LEARNER]: Okay, so he has $8 left, and each coin is worth $4. So to find out how many coins he has, I need to divide the total money by the value of each coin. That's 8 / 4 = 2. So he has 2 coins left.
+
+[TUTOR]:   (telling)You were correct when you said the coins were worth $4. He has $8 of them. $8 divided by $4 each is?
+[LEARNER]: That's 8 / 4 = 2. So he has 2 coins left.
+
+[TUTOR]:   (generic)Correct!
+[LEARNER]: Yay!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Roman the Tavernmaster has $25.4 worth of gold coins. He sells 4.2 gold coins to Dorothy. After she pays him, he has $17.1. How many gold coins does Roman have left?
+[LEARNER]: Okay, so first I need to find out how much money Roman has left. He started with $25.4 and now has $17.1, so he has 25.4 - 17.1 = $8.3 left.
+
+Now I need to know how much each coin is worth. He sold 4.2 coins and got a total of $17.1 - $25.4 = $8.3. So one coin is worth 8.3 / 4.2 = $1.98 (rounded).
+
+Now I know he has $8.3 left, and each coin is worth $1.98. So he has 8.3 / 1.98 = 4.19 (rounded) coins left. Since you can't have part of a coin, I guess he has 4 coins left.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 6C50DFB3
+──────────────────────────────────────────────────────────────────────

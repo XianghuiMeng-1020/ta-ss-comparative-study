@@ -1,0 +1,55 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: EE05CDC0                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+A rope has a length of 200 meters. Stefan cuts the rope into four equal parts, gives his mother half of the cut pieces, and subdivides the remaining pieces into two more equal parts. What's the length of each piece?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (probing)This is pretty good but not quite right. So Stefan is left with 2 pieces each 50m long. If he cuts each piece in half, how many pieces does he have?
+[LEARNER]: Oh, I see what you mean! If Stefan cuts each of the 2 pieces in half, he gets 4 pieces total.
+
+So he has 4 pieces, and the total length is still 100 meters.
+
+That means each piece is 100/4 = 25 meters long.
+
+So the answer is 25 meters.
+
+[TUTOR]:   (generic)That's right!
+[LEARNER]: Thank you! I'm glad I got it right this time. I see now that I needed to keep track of how many pieces Stefan had after giving some to his mother, and then divide those pieces again. So the final answer is 25 meters for each piece.
+
+[TUTOR]:   (generic)Since you have worked out the correct answer so quickly there is nothing more to say. Well done!
+[LEARNER]: Thank you! I appreciate your help in guiding me to see where I went wrong. Breaking it down step by step really helped me understand that I needed to focus on what Stefan had left before subdividing again.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+A rope has a length of 287.2 meters. Stefan cuts the rope into four equal parts, gives his mother half of the cut pieces, and subdivides the remaining pieces into two more equal parts. What's the length of each piece?
+[LEARNER]: Okay, let me work through this step by step.
+
+First, Stefan cuts the rope into four equal parts:
+287.2 ÷ 4 = 71.8 meters per piece
+
+So he has 4 pieces, each 71.8 meters long.
+
+Next, he gives his mother half of the cut pieces, which is 2 pieces.
+Stefan is left with 2 pieces, each 71.8 meters long.
+
+Then he subdivides the remaining 2 pieces into two more equal parts each.
+This means he cuts each piece in half, so he gets 4 pieces total.
+
+Each piece is now: 71.8 ÷ 2 = 35.9 meters long.
+
+The answer is 35.9 meters.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET EE05CDC0
+──────────────────────────────────────────────────────────────────────

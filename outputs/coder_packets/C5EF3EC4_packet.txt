@@ -1,0 +1,61 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: C5EF3EC4                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+Andy is running late. School starts at 8:00 AM and it normally takes him 30 minutes to get there, but today he had to stop for 3 minutes each at 4 red lights and wait 10 minutes to get past construction. If he left his house at 7:15, how many minutes late will he be?
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Riya can you talk me through your working please?
+[LEARNER]: Okay, let's break down the problem step by step.
+
+First, you correctly calculated the delay from the red lights: 3 minutes/light * 4 lights = 12 minutes. And you correctly added the construction delay: 12 minutes + 10 minutes = 22 minutes total delay.
+
+However, there's a mistake in how you calculated Andy's travel time. You said he had 45 minutes to get to school. Can you explain how you got that number?
+
+[TUTOR]:   (focus)How long in total did it take him to get there?
+[LEARNER]: That's a good question to ask! To figure out how long it actually took him, we need to consider his normal travel time and the delays.
+
+You know his normal travel time is 30 minutes. And you already figured out his total delay. So, how can you combine those two numbers to find the total time it took him to get to school today?
+
+[TUTOR]:   (telling)It normally takes him 30 minutes to get there
+[LEARNER]: Right. And earlier, you calculated the total delay caused by the red lights and construction. How long was the delay?
+
+[TUTOR]:   (telling)He was up by 22 minutes and it usually takes him 30 minutes so how long did it take him?
+[LEARNER]: Exactly. Now, put those two pieces of information together. If it normally takes 30 minutes, and he was delayed by 22 minutes, what was his total travel time *today*? Show me the calculation.
+
+[TUTOR]:   (probing)How long had he allowed for the journey?
+[LEARNER]: He left at 7:15 AM and school starts at 8:00 AM. How much time is that?
+
+[TUTOR]:   (probing)So if it took him 52 minutes, how many minutes late was he?
+[LEARNER]: Perfect! You're on the right track. You know how long it took him to get to school, and you know when school starts. So, how do you calculate how late he is? What's the final step?
+
+[TUTOR]:   (telling)He was 7 minutes late as he allowed 45 minutes but it took 52
+[LEARNER]: Okay, you're almost there, but let's clarify one thing to make sure the answer is perfectly correct. You said he "allowed 45 minutes." Where did that 45 minutes come from? Go back to the original problem and check. It's important to be precise!
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Andy is running late. School starts at 11.0:0 AM and it normally takes him 43.0 minutes to get there, but today he had to stop for 3.7 minutes each at 5.0 red lights and wait 14.8 minutes to get past construction. If he left his house at 8.9:21.3, how many minutes late will he be?
+[LEARNER]: Okay, here's how I'll solve this problem:
+
+1.  Calculate the total delay from red lights: 3.7 minutes/light * 5 lights = 18.5 minutes
+2.  Calculate the total delay: 18.5 minutes (red lights) + 14.8 minutes (construction) = 33.3 minutes
+3.  Calculate the total travel time: 43 minutes (normal) + 33.3 minutes (delay) = 76.3 minutes
+4.  Calculate the time he left: He left at 8:21.3 AM
+5.  Calculate the time he arrived: 8:21.3 + 76.3 minutes = 9:37.6 AM
+6.  Calculate how late he is: School starts at 11:00 AM, so he wasn't late, he was early
+7.  Calculate how early he was: 11:00 - 9:37.6 = 1 hour and 22.4 minutes early = 82.4 minutes early
+8.  He was not late he was 82.4 minutes early.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET C5EF3EC4
+──────────────────────────────────────────────────────────────────────

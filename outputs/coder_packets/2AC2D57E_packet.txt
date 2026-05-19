@@ -1,0 +1,176 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: 2AC2D57E                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Ayisha, can you explain your answer to me?
+[LEARNER]: I'd be happy to explain my answer to you! However, I don't see a previous question or answer in our conversation history. 
+
+Could you please:
+1. Let me know what question you're referring to, or
+2. Ask your question again so I can provide an answer and explanation?
+
+Once you share that with me, I'll be glad to walk you through my reasoning step by step.
+
+[TUTOR]:   (probing)OK. Ayisha, can you tell me who is older, Max or Luka?
+[LEARNER]: I don't have any information about Max or Luka in our conversation so far. To tell you who is older between them, I would need you to provide me with:
+
+- Their ages, birth dates, or
+- Some context or information that indicates their relative ages
+
+Could you share more details about Max and Luka so I can help answer your question?
+
+[TUTOR]:   (focus)How old was Luka when Max was born?
+[LEARNER]: I still don't have any information about Max or Luka's ages or birth dates from our conversation. 
+
+To answer "How old was Luka when Max was born?", I would need to know:
+- When Luka was born, and
+- When Max was born
+
+OR
+
+- Their current ages and the age difference between them
+
+Could you provide these details? Once you do, I can calculate how old Luka was when Max was born.
+
+[TUTOR]:   (probing)So who is older?
+[LEARNER]: Based on your question "How old was Luka when Max was born?", this implies that **Luka is older than Max**.
+
+Here's why: If we're asking how old Luka was when Max was born, it means Luka was already alive (and had an age) at the time of Max's birth. This means Luka must have been born first, making Luka the older one.
+
+However, I still don't know their actual ages or the age difference between them without more specific information. But logically, from the way your question was phrased, Luka would be the older person.
+
+[TUTOR]:   (probing)Were they born in the same year though?
+[LEARNER]: I cannot determine whether Max and Luka were born in the same year based solely on the information given.
+
+Here's why:
+
+From your earlier question "How old was Luka when Max was born?", we can infer that Luka is older than Max. However, this doesn't tell us whether they were born in the same year or not.
+
+**They could have been born in the same year if:**
+- Luka was born earlier in the year (say, January) and Max was born later that same year (say, December)
+- In this case, Luka would be 0 years old when Max was born
+
+**They could have been born in different years if:**
+- There's a gap of one or more years between their births
+
+To know for certain whether they were born in the same year, I would need:
+- Their specific birth dates, or
+- Information about how old Luka was when Max was born (if Luka was 0 years old, they could be in the same year; if Luka was 1+ years old, they're definitely in different years)
+
+Do you have this information?
+
+[TUTOR]:   (telling)Luka was born 4 years before Max. Does that help you?
+[LEARNER]: Yes, that helps a lot! Thank you for that information.
+
+Now I can answer your questions clearly:
+
+1. **Who is older?** Luka is older than Max.
+
+2. **How old was Luka when Max was born?** Luka was 4 years old when Max was born.
+
+3. **Were they born in the same year?** No, they were NOT born in the same year. Since Luka was born 4 years before Max, there are 4 years separating their birth years.
+
+For example:
+- If Max was born in 2020, then Luka was born in 2016
+- If Max was born in 2015, then Luka was born in 2011
+
+Is there anything else you'd like to know about Max and Luka's ages?
+
+[TUTOR]:   (focus)OK. Now we know that Luka is 4 years older than Max, can we solve the rest of the question?
+[LEARNER]: I'd be happy to help solve the rest of the question! However, I need you to tell me what the complete original question is.
+
+So far, I only know that:
+- Luka is 4 years older than Max
+
+But I don't know what the full problem is asking for. Could you please share:
+- The complete original question or problem?
+- What we're trying to find or calculate?
+
+Once you give me the full question, I can work through it with you step by step using the information that Luka is 4 years older than Max.
+
+[TUTOR]:   (probing)If Luka is 4 years older than Max, can they both be 10 at the same time?
+[LEARNER]: No, they cannot both be 10 at the same time.
+
+Here's why:
+
+Since Luka is 4 years older than Max, there will always be a 4-year age difference between them.
+
+**At any given moment:**
+- If Max is 10 years old, then Luka is 10 + 4 = **14 years old**
+- If Luka is 10 years old, then Max is 10 - 4 = **6 years old**
+
+The age difference of 4 years stays constant throughout their lives. So they can never be the same age at the same time.
+
+**For them to both be 10 simultaneously, the age gap would have to be 0 years, but we know it's 4 years.**
+
+Does this help clarify the relationship between their ages?
+
+[TUTOR]:   (focus)If Luka is 10 and we also know he is older than Max by 4 years, how old does that make Max?
+[LEARNER]: If Luka is 10 years old and he is 4 years older than Max, then:
+
+**Max is 6 years old.**
+
+Here's the calculation:
+- Luka's age: 10 years
+- Age difference: 4 years (Luka is older)
+- Max's age: 10 - 4 = **6 years old**
+
+So when Luka is 10, Max is 6.
+
+[TUTOR]:   (telling)Luka is 10 and Max is 4 years younger, so Max must be 6 because 10 -4 =6. Does that make sense?
+[LEARNER]: Yes, that makes perfect sense! You've got it exactly right.
+
+**Luka is 10 years old**
+**Max is 4 years younger**
+**10 - 4 = 6**
+**So Max is 6 years old**
+
+Your reasoning is correct. Since Luka is older by 4 years, we subtract 4 from Luka's age to find Max's age.
+
+Great job working through this problem! Is there anything else about their ages you'd like to explore or any other questions you have?
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Jordan's dog, Max, was born on the same day that Luka turned 5.5 years old.  Luka is exactly 2.4 years older than is Aubrey.  On Aubrey's 8th birthday, how many years old was Jordan's dog, Max?
+[LEARNER]: Great! Let me work through this step by step.
+
+**Given information:**
+- Max (the dog) was born on the same day Luka turned 5.5 years old
+- Luka is exactly 2.4 years older than Aubrey
+- We need to find Max's age on Aubrey's 8th birthday
+
+**Step 1: Find Luka's age when Aubrey is 8**
+
+Since Luka is 2.4 years older than Aubrey:
+- When Aubrey is 8 years old
+- Luka is 8 + 2.4 = **10.4 years old**
+
+**Step 2: Find how much time has passed since Max was born**
+
+Max was born when Luka was 5.5 years old.
+Now Luka is 10.4 years old.
+
+Time passed = 10.4 - 5.5 = **4.9 years**
+
+**Step 3: Find Max's age**
+
+Since Max was born 4.9 years ago (from the perspective of Aubrey's 8th birthday), Max is **4.9 years old**.
+
+**Answer: Jordan's dog, Max, was 4.9 years old on Aubrey's 8th birthday.**
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET 2AC2D57E
+──────────────────────────────────────────────────────────────────────

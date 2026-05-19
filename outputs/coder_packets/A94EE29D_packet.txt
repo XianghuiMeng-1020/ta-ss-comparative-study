@@ -1,0 +1,108 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CODER PACKET — ID: A94EE29D                                     ║
+║  Study: Framework-Grounded Evaluation of Simulated Learner Protocols ║
+║  CONDITION LABEL HAS BEEN REMOVED — do not infer from filename       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+(see dialogue)
+
+ORIGINAL STUDENT ERROR / CONFUSION:
+(see first learner turn)
+
+──────────────────────────────────────────────────────────────────────
+DIALOGUE TRANSCRIPT
+──────────────────────────────────────────────────────────────────────
+[TUTOR]:   (generic)Hi Lakisha. Can you take me through your answer?
+[LEARNER]: I'd be happy to walk you through my thought process.
+
+So, I was trying to solve for x in the equation 2x + 5 = 11. To start, I subtracted 5 from both sides of the equation, which gave me 2x = 11 - 5. Then, I simplified the right side to get 2x = 6.
+
+Next, I divided both sides of the equation by 2 to isolate x. This gave me x = 6 ÷ 2, which simplifies to x = 3.
+
+I'm pretty sure that's correct, but I'd love to hear your feedback and make sure I didn't miss anything!
+
+[TUTOR]:   (focus)Could you retry the calculation for the sum of the first two nights and tell me what you get?
+[LEARNER]: Let me recheck my work. So, for the first two nights, I had calculated the cost as follows:
+
+Night 1: 120 (hotel) + 50 (dinner) = 170
+Night 2: 120 (hotel) + 30 (breakfast) + 40 (lunch) + 60 (dinner) = 250
+
+And then I added those two amounts together... (pausing to recalculate)...170 + 250 = 420.
+
+Wait, no... I think I made a mistake earlier. Let me redo it... (rechecking the calculation)...170 + 250 = 420... no, that's not right... (pausing again)...170 + 250 = 420... (sigh) Okay, I made a mistake, it's actually... 420... (pausing once more)...no, I'm sure of it this time... 420.
+
+[TUTOR]:   (focus)Could you read the second sentence of the question again?
+[LEARNER]: Let me take a look... (referring to the question) Ah, okay... The second sentence is: "If, on the second day, she had to pay a 15% tip on her lunch, and the meal itself cost $20, how much did she pay in total for lunch on the second day?"
+
+[TUTOR]:   (focus)So is the answer to night 3 88?
+[LEARNER]: No... I don't think so. Let me recheck my work for Night 3. (pausing to review the calculation) I had calculated the cost of Night 3 as follows: 120 (hotel) + 30 (breakfast) + 40 (lunch) + 60 (dinner) = 250. But then I also had to add the cost of the tip, which was 15% of the lunch cost... (pausing to calculate the tip) 15% of 40 is... (quick calculation) 6. So the total cost for Night 3 would be 250 + 6 = 256. And then I also had to add the cost of the parking, which was 18... (adding the parking cost) 256 + 18 = 274. So, no, the answer is not 88.
+
+[TUTOR]:   (generic)Thats great! So how many pages did Coral read in the three nights together?
+[LEARNER]: So, let me check my notes... (referring to notes) Okay, so Coral read 45 pages on Night 1, 67 pages on Night 2, and 82 pages on Night 3. To find the total number of pages she read in the three nights together, I just need to add those amounts up... (calculating) 45 + 67 + 82 = 194. So, Coral read a total of 194 pages in the three nights together.
+
+[TUTOR]:   (probing)If I read 10 pages one night, 5 another, and 5 on the third, how many pages have I read all together?
+[LEARNER]: Let me add those up for you. (smiling) 10 + 5 + 5 = 20. So, you've read a total of 20 pages. That's a nice, simple one!
+
+[TUTOR]:   (focus)Could you do the same with the three nights Coral read?
+[LEARNER]: Let me recheck my work. (referring to notes) Okay, so Coral read 45 pages on Night 1, 67 pages on Night 2, and 82 pages on Night 3. To find the total number of pages she read, I'll just add those amounts up... (calculating slowly) 45 + 67 = 112... and then 112 + 82 = 194.
+
+[TUTOR]:   (focus)How many pages on night 1?
+[LEARNER]: Let me check my notes... (referring to notes) Coral read 45 pages on Night 1.
+
+[TUTOR]:   (focus)How many on night 2?
+[LEARNER]: According to my notes, Coral read 67 pages on Night 2.
+
+[TUTOR]:   (focus)How many on night 3?
+[LEARNER]: My notes say Coral read 82 pages on Night 3.
+
+[TUTOR]:   (probing)Did she?
+[LEARNER]: Wait a minute... I think I made a mistake earlier. Let me recheck my work. (pausing to review the calculation) Actually, I'm not sure where I got 82 pages from. Can you remind me what the problem said about how many pages Coral read on Night 3?
+
+[TUTOR]:   (telling)The question says she read 3 more pages than the sum of the first two nights on night three.
+[LEARNER]: I remember now. So, if Coral read 45 pages on Night 1 and 67 pages on Night 2, the sum of those two nights is... (calculating) 45 + 67 = 112. And then, on Night 3, she read 3 more pages than that, so... (calculating) 112 + 3 = 115. So, Coral actually read 115 pages on Night 3.
+
+[TUTOR]:   (telling)91 pages in total on night three only.
+[LEARNER]: So, Coral read 91 pages on Night 3. Let me update my notes. (making a note) Okay, so to find the total number of pages she read, I'll add the pages from all three nights... (calculating) 45 + 67 + 91 = 203.
+
+[TUTOR]:   (telling)Coral read 30 pages on night 1, 58 pages on night 2 and 91 pages on night three. 30+58+91= 179 pages
+[LEARNER]: So, Coral read 30 pages on Night 1, 58 pages on Night 2, and 91 pages on Night 3. And the total number of pages she read is indeed... (calculating) 30 + 58 + 91 = 179. I made a mistake earlier, but thank you for correcting me! The correct total is 179 pages.
+
+[TUTOR]:   (telling)You have literally just written my answer, whilst writing she read only 91 pages in total
+[LEARNER]: I think I see what you're saying... I made a mistake earlier when I said Coral read only 91 pages in total, and then I copied down the correct answer from you, which was 179 pages. But earlier, I had mistakenly said she read 91 pages on Night 3 only, implying that 91 was the total for all three nights, which is incorrect.
+
+[TUTOR]:   Now try this similar problem on your own without any hints. Show your reasoning step by step:
+
+Coral reads 39.4 pages of a book on night 1.2, and 2.5 less than twice that on night 2.9.  Night 4.0 Coral reads 4.3 more pages than the sum of the first two nights.  How many total pages did Coral read in the 3.9 nights?
+[LEARNER]: Let's break it down step by step.
+
+Night 1.2: Coral reads 39.4 pages.
+
+Night 2.9: Coral reads 2.5 less than twice the number of pages she read on Night 1.2. To find this, I'll multiply 39.4 by 2 and then subtract 2.5.
+
+2 x 39.4 = 78.8
+78.8 - 2.5 = 76.3
+
+So, Coral reads 76.3 pages on Night 2.9.
+
+To find the total number of pages she read on the first two nights, I'll add the pages from Night 1.2 and Night 2.9:
+
+39.4 + 76.3 = 115.7
+
+Night 4.0: Coral reads 4.3 more pages than the sum of the first two nights. To find this, I'll add 4.3 to the total number of pages she read on the first two nights:
+
+115.7 + 4.3 = 120.0
+
+So, Coral reads 120.0 pages on Night 4.0.
+
+To find the total number of pages she read in the 3 nights, I'll add the pages from all three nights:
+
+39.4 + 76.3 + 120.0 = 235.7
+
+Therefore, Coral read a total of 235.7 pages in the 3 nights.
+
+
+──────────────────────────────────────────────────────────────────────
+END OF PACKET A94EE29D
+──────────────────────────────────────────────────────────────────────
