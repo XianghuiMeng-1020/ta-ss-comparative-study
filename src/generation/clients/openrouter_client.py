@@ -22,7 +22,7 @@ OPENROUTER_MODEL_MAP: dict[str, str] = {
     "claude-sonnet-4-5-20250929":           "anthropic/claude-sonnet-4-5",
     "claude-3-5-sonnet-20241022":           "anthropic/claude-3.5-sonnet",
     "claude-opus-4":                         "anthropic/claude-opus-4",
-    "gemini-2.5-pro":                        "google/gemini-2.0-flash-001",  # 2.5-pro is thinking-only; use Flash for dialogue gen
+    "gemini-2.5-pro":                        "google/gemini-2.5-pro-preview-05-06",
     "gemini-2.0-flash":                      "google/gemini-2.0-flash-001",
     "meta-llama/Llama-3.1-70B-Instruct":    "meta-llama/llama-3.1-70b-instruct",
     "Qwen/Qwen2.5-72B-Instruct":            "qwen/qwen-2.5-72b-instruct",
@@ -34,7 +34,7 @@ OPENROUTER_PRICING: dict[str, tuple[float, float]] = {
     "anthropic/claude-sonnet-4-5":          (3.00, 15.00),
     "anthropic/claude-3.5-sonnet":          (3.00, 15.00),
     "anthropic/claude-opus-4":              (15.00, 75.00),
-    "google/gemini-2.5-pro-preview":        (1.25, 10.00),
+    "google/gemini-2.5-pro-preview-05-06":  (1.25, 10.00),
     "google/gemini-2.0-flash-001":          (0.10,  0.40),
     "meta-llama/llama-3.1-70b-instruct":   (0.59,  0.79),
     "qwen/qwen-2.5-72b-instruct":           (0.40,  0.40),

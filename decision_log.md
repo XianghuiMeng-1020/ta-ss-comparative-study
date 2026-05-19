@@ -460,4 +460,36 @@ ICC ≥ 0.75 gate per dimension before analysis.
 
 ---
 
+## D24. P1 API Execution — Model Roster Adjustment
+
+**Decision**: Adjusted model roster to match API availability. Tier 1/2 models now include
+6 API-accessible models; Tier 3/4 (vLLM) deferred to GPU server setup.
+**Logged**: 2026-05-20
+**Status**: LOCKED — executing as of 2026-05-20 00:57 UTC+8
+
+**Running via API (P1 executed 2026-05-20):**
+
+| Label | Model ID | Backend | Tier |
+|-------|----------|---------|------|
+| M1 | gpt-4o-2024-11-20 | OpenAI | Big |
+| M2 | claude-sonnet-4-5-20250929 | OpenRouter | Big |
+| M3 | gemini-2.5-pro (via gemini-2.5-pro-preview-05-06) | OpenRouter | Big |
+| M4 | meta-llama/Llama-3.1-70B-Instruct | OpenRouter | Mid |
+| M5 | Qwen/Qwen2.5-72B-Instruct | OpenRouter | Mid |
+| M6 | deepseek-ai/DeepSeek-V3 | OpenRouter | Mid |
+
+**Deferred to GPU server (require vLLM):**
+- Tiny: SmolLM2-360M, TinyLlama-1.1B, Llama-3.2-1B
+- Small: Qwen2.5-1.5B, Phi-3.5-mini, Llama-3.2-3B
+- Mid: Qwen3-4B, Mistral-7B-Instruct (anchor), Llama-3.1-8B
+
+**Item bank**: 1500 items with fast-path difficulty injection (Python MCQ: GPT-4o-mini
+self-labelled; Math MCQ/TF/Fill/SA: MathDial difficulty_raw metadata). Full IRT proxy
+(irt_proxy_api.py) available when resources allow.
+
+**Generation**: 6 models × 4 QTypes × 3 seeds × 600 items (MCQ), 300 items (TF/Fill/SA)
+running in parallel with checkpoint-resume. Monitor: scripts/wait_and_packetize.py.
+
+---
+
 *Append new decisions below with date, rationale, status. Never delete or backdate entries.*
