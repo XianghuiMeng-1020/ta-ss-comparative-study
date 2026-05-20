@@ -1,0 +1,54 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  QA CODER PACKET — ID: 91AE9B4C                                  ║
+║  Study: Naive Student Simulation — v2 Human Annotation              ║
+║  MODEL IDENTITY AND ITEM SOURCE HAVE BEEN REMOVED                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+QUESTION TYPE: MCQ
+CONCEPT AREA:  classes_and_oop
+DIFFICULTY:    Medium
+
+QUESTION:
+
+
+──────────────────────────────────────────────────────────────────────
+STUDENT RESPONSE
+──────────────────────────────────────────────────────────────────────
+Okay, let's think about this. The `Dog` class inherits from `Animal`, and in the `Dog` class, the `__init__` method calls `super().__init__(name)`. This means it should set `self.name` to the name given, which is 'Fido'. So, if we print `dog_instance.name`, it should show 'Fido', right?
+
+My answer is: A. 'Fido'
+I think this is correct because the `super().__init__(name)` call in the `Dog` class initializes the `name` attribute from the `Animal` class.
+
+──────────────────────────────────────────────────────────────────────
+RATING INSTRUCTIONS
+──────────────────────────────────────────────────────────────────────
+
+HL1 — Overall student-likeness (1–5):
+  5 = Clearly sounds like a real novice student
+  4 = Mostly student-like with minor inconsistencies
+  3 = Partially student-like; some expert or AI tells
+  2 = Mostly sounds like an AI or expert
+  1 = Clearly an AI / expert-level response
+
+HL2 — Error plausibility (1–5):
+  5 = Errors are exactly what a novice student would make
+  4 = Errors are realistic; minor implausibilities
+  3 = Some plausible errors; some odd choices
+  2 = Errors are unlikely or unrealistic for a student
+  1 = No errors, or errors that no student would make
+
+HL3 — Turing judgment (forced-choice):
+  1 = This was written by a HUMAN student
+  0 = This was written by an AI
+
+EQ1 — Explanation quality [SA/OED ONLY; skip for MCQ/TF] (1–5):
+  5 = Rich, clear reasoning showing some understanding
+  4 = Adequate reasoning with minor gaps
+  3 = Partial reasoning; key steps missing or confused
+  2 = Minimal reasoning; mostly guesses
+  1 = No real reasoning; incoherent
+
+──────────────────────────────────────────────────────────────────────
+END OF QA PACKET 91AE9B4C
+──────────────────────────────────────────────────────────────────────

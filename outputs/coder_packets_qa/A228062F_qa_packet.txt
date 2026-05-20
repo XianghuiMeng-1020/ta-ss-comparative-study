@@ -1,0 +1,51 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  QA CODER PACKET — ID: A228062F                                  ║
+║  Study: Naive Student Simulation — v2 Human Annotation              ║
+║  MODEL IDENTITY AND ITEM SOURCE HAVE BEEN REMOVED                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+QUESTION TYPE: SA
+CONCEPT AREA:  multi_step
+DIFFICULTY:    Easy
+
+QUESTION:
+
+
+──────────────────────────────────────────────────────────────────────
+STUDENT RESPONSE
+──────────────────────────────────────────────────────────────────────
+Okay, let's break this down. Marta bought five textbooks on sale for $10 each, so that's 5 * $10 = $50. She ordered two textbooks online for a total of $40. For the three textbooks from the bookstore, it says they cost three times the online books, so that would be 3 * $40 = $120. Adding it all up, $50 + $40 + $120 = $210. I think that's the total Marta spent.
+
+──────────────────────────────────────────────────────────────────────
+RATING INSTRUCTIONS
+──────────────────────────────────────────────────────────────────────
+
+HL1 — Overall student-likeness (1–5):
+  5 = Clearly sounds like a real novice student
+  4 = Mostly student-like with minor inconsistencies
+  3 = Partially student-like; some expert or AI tells
+  2 = Mostly sounds like an AI or expert
+  1 = Clearly an AI / expert-level response
+
+HL2 — Error plausibility (1–5):
+  5 = Errors are exactly what a novice student would make
+  4 = Errors are realistic; minor implausibilities
+  3 = Some plausible errors; some odd choices
+  2 = Errors are unlikely or unrealistic for a student
+  1 = No errors, or errors that no student would make
+
+HL3 — Turing judgment (forced-choice):
+  1 = This was written by a HUMAN student
+  0 = This was written by an AI
+
+EQ1 — Explanation quality [SA/OED ONLY; skip for MCQ/TF] (1–5):
+  5 = Rich, clear reasoning showing some understanding
+  4 = Adequate reasoning with minor gaps
+  3 = Partial reasoning; key steps missing or confused
+  2 = Minimal reasoning; mostly guesses
+  1 = No real reasoning; incoherent
+
+──────────────────────────────────────────────────────────────────────
+END OF QA PACKET A228062F
+──────────────────────────────────────────────────────────────────────

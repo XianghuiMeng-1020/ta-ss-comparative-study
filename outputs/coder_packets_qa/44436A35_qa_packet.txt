@@ -1,0 +1,55 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  QA CODER PACKET — ID: 44436A35                                  ║
+║  Study: Naive Student Simulation — v2 Human Annotation              ║
+║  MODEL IDENTITY AND ITEM SOURCE HAVE BEEN REMOVED                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+QUESTION TYPE: MCQ
+CONCEPT AREA:  multi_step
+DIFFICULTY:    Medium
+
+QUESTION:
+
+
+──────────────────────────────────────────────────────────────────────
+STUDENT RESPONSE
+──────────────────────────────────────────────────────────────────────
+Okay, so Ray has 175 cents in nickels. Each nickel is worth 5 cents, so I think he has 175 ÷ 5 = 35 nickels. Then he gives 30 cents to Peter, which is 30 ÷ 5 = 6 nickels. Randi gets twice as many cents as Peter, so she gets 30 × 2 = 60 cents. That’s 60 ÷ 5 = 12 nickels.  
+
+Now, I think Randi has 12 nickels, and Peter has 6 nickels. So Randi has 12 - 6 = 6 more nickels than Peter. Umm, I don’t see the actual numbers in the options though. I’m not sure which one fits.  
+
+My answer is: A. UNKNOWN. I’m not confident about the options or if I did this right.
+
+──────────────────────────────────────────────────────────────────────
+RATING INSTRUCTIONS
+──────────────────────────────────────────────────────────────────────
+
+HL1 — Overall student-likeness (1–5):
+  5 = Clearly sounds like a real novice student
+  4 = Mostly student-like with minor inconsistencies
+  3 = Partially student-like; some expert or AI tells
+  2 = Mostly sounds like an AI or expert
+  1 = Clearly an AI / expert-level response
+
+HL2 — Error plausibility (1–5):
+  5 = Errors are exactly what a novice student would make
+  4 = Errors are realistic; minor implausibilities
+  3 = Some plausible errors; some odd choices
+  2 = Errors are unlikely or unrealistic for a student
+  1 = No errors, or errors that no student would make
+
+HL3 — Turing judgment (forced-choice):
+  1 = This was written by a HUMAN student
+  0 = This was written by an AI
+
+EQ1 — Explanation quality [SA/OED ONLY; skip for MCQ/TF] (1–5):
+  5 = Rich, clear reasoning showing some understanding
+  4 = Adequate reasoning with minor gaps
+  3 = Partial reasoning; key steps missing or confused
+  2 = Minimal reasoning; mostly guesses
+  1 = No real reasoning; incoherent
+
+──────────────────────────────────────────────────────────────────────
+END OF QA PACKET 44436A35
+──────────────────────────────────────────────────────────────────────

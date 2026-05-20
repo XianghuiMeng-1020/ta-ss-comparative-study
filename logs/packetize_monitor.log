@@ -1,0 +1,979 @@
+Monitoring P1 generation (min=15/stratum, poll=300s)…
+
+[01:04:22] Total responses: 412
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[01:09:22] Total responses: 702
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[01:14:22] Total responses: 1064
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[01:19:22] Total responses: 1400
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[01:24:22] Total responses: 1739
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[01:29:22] Total responses: 2065
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[01:34:22] Total responses: 2372
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[01:39:22] Total responses: 2703
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[01:44:22] Total responses: 3055
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[01:49:22] Total responses: 3381
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[01:54:22] Total responses: 3693
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[01:59:22] Total responses: 4021
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:04:22] Total responses: 4362
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:09:22] Total responses: 4709
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:14:22] Total responses: 5093
+  Missing strata (< 15): 18
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:19:22] Total responses: 5490
+  Missing strata (< 15): 17
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:24:22] Total responses: 5907
+  Missing strata (< 15): 17
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:29:22] Total responses: 6323
+  Missing strata (< 15): 17
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:34:22] Total responses: 6693
+  Missing strata (< 15): 17
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:39:22] Total responses: 7049
+  Missing strata (< 15): 17
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:44:22] Total responses: 7437
+  Missing strata (< 15): 17
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:49:22] Total responses: 7799
+  Missing strata (< 15): 16
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:54:22] Total responses: 8137
+  Missing strata (< 15): 16
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[02:59:22] Total responses: 8513
+  Missing strata (< 15): 16
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[03:04:23] Total responses: 8857
+  Missing strata (< 15): 16
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[03:09:23] Total responses: 9180
+  Missing strata (< 15): 16
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[03:14:23] Total responses: 9604
+  Missing strata (< 15): 16
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[03:19:23] Total responses: 9980
+  Missing strata (< 15): 15
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/TF: 0
+
+[03:24:23] Total responses: 10357
+  Missing strata (< 15): 14
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/Fill: 0
+
+[03:29:23] Total responses: 10754
+  Missing strata (< 15): 14
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/Fill: 0
+
+[03:34:23] Total responses: 11148
+  Missing strata (< 15): 14
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/Fill: 0
+
+[03:39:23] Total responses: 11565
+  Missing strata (< 15): 14
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/Fill: 0
+
+[03:44:23] Total responses: 11969
+  Missing strata (< 15): 14
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/Fill: 0
+
+[03:49:23] Total responses: 12369
+  Missing strata (< 15): 14
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/Fill: 0
+
+[03:54:23] Total responses: 12636
+  Missing strata (< 15): 14
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/Fill: 0
+
+[03:59:23] Total responses: 12902
+  Missing strata (< 15): 14
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/Fill: 0
+
+[04:04:23] Total responses: 13146
+  Missing strata (< 15): 13
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/SA: 0
+
+[04:09:23] Total responses: 13393
+  Missing strata (< 15): 13
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/SA: 0
+
+[04:14:23] Total responses: 13639
+  Missing strata (< 15): 13
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/SA: 0
+
+[04:19:23] Total responses: 13895
+  Missing strata (< 15): 12
+    gemini-2_5-pro/TF: 0
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/SA: 0
+
+[04:24:23] Total responses: 14194
+  Missing strata (< 15): 11
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+
+[04:29:23] Total responses: 14521
+  Missing strata (< 15): 11
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/TF: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+
+[04:34:23] Total responses: 14850
+  Missing strata (< 15): 10
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[04:39:23] Total responses: 15193
+  Missing strata (< 15): 10
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    meta-llama_Llama-3_1-70B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[04:44:23] Total responses: 15539
+  Missing strata (< 15): 9
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[04:49:23] Total responses: 15869
+  Missing strata (< 15): 9
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[04:54:23] Total responses: 16200
+  Missing strata (< 15): 9
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[04:59:24] Total responses: 16482
+  Missing strata (< 15): 9
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:04:24] Total responses: 16759
+  Missing strata (< 15): 9
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:09:24] Total responses: 17038
+  Missing strata (< 15): 9
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:14:24] Total responses: 17353
+  Missing strata (< 15): 9
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:19:24] Total responses: 17674
+  Missing strata (< 15): 9
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/Fill: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:24:24] Total responses: 17993
+  Missing strata (< 15): 8
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:29:24] Total responses: 18322
+  Missing strata (< 15): 8
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/TF: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:34:24] Total responses: 18643
+  Missing strata (< 15): 7
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/Fill: 7
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:39:24] Total responses: 18949
+  Missing strata (< 15): 6
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:44:24] Total responses: 19243
+  Missing strata (< 15): 6
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:49:24] Total responses: 19597
+  Missing strata (< 15): 6
+    gemini-2_5-pro/Fill: 0
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:54:24] Total responses: 19935
+  Missing strata (< 15): 6
+    gemini-2_5-pro/Fill: 2
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[05:59:24] Total responses: 20173
+  Missing strata (< 15): 5
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[06:04:24] Total responses: 20369
+  Missing strata (< 15): 5
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[06:09:24] Total responses: 20593
+  Missing strata (< 15): 5
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[06:14:24] Total responses: 20790
+  Missing strata (< 15): 5
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[06:19:24] Total responses: 21071
+  Missing strata (< 15): 5
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[06:24:24] Total responses: 21381
+  Missing strata (< 15): 5
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+    claude-sonnet-4-5-20250929/SA: 0
+
+[06:29:24] Total responses: 21622
+  Missing strata (< 15): 4
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[06:34:24] Total responses: 21820
+  Missing strata (< 15): 4
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[06:39:24] Total responses: 22024
+  Missing strata (< 15): 4
+    gemini-2_5-pro/SA: 0
+    deepseek-ai_DeepSeek-V3/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[06:44:24] Total responses: 22222
+  Missing strata (< 15): 3Scanning outputs/qa/main…
+Total responses: 26142
+  Qwen_Qwen2_5-72B-Instruct: 3642 rows | acc=0.843 | cost=$0.528 → outputs/qa_responses_Qwen_Qwen2_5-72B-Instruct.csv
+  claude-sonnet-4-5-20250929: 4500 rows | acc=0.785 | cost=$13.662 → outputs/qa_responses_claude-sonnet-4-5-20250929.csv
+  deepseek-ai_DeepSeek-V3: 4500 rows | acc=0.812 | cost=$0.832 → outputs/qa_responses_deepseek-ai_DeepSeek-V3.csv
+  gemini-2_5-pro: 4500 rows | acc=0.925 | cost=$23.875 → outputs/qa_responses_gemini-2_5-pro.csv
+  gpt-4o-2024-11-20: 4500 rows | acc=0.824 | cost=$7.541 → outputs/qa_responses_gpt-4o-2024-11-20.csv
+  meta-llama_Llama-3_1-70B-Instruct: 4500 rows | acc=0.722 | cost=$1.115 → outputs/qa_responses_meta-llama_Llama-3_1-70B-Instruct.csv
+
+Combined: outputs/qa_responses_all.csv (26142 rows)
+Total responses: 52046
+Sampled: 480 items for coding
+
+480 packets written → outputs/coder_packets_qa
+Manifest (KEEP SECRET from coders): outputs/coder_packets_qa/manifest.csv
+Rating template: outputs/coder_packets_qa/rating_template.csv
+
+QType distribution:
+qtype
+Fill    120
+MCQ     120
+SA      120
+TF      120
+
+Model distribution:
+model_tag
+Qwen_Qwen2_5-72B-Instruct            80
+claude-sonnet-4-5-20250929           80
+deepseek-ai_DeepSeek-V3              80
+gemini-2_5-pro                       80
+gpt-4o-2024-11-20                    80
+meta-llama_Llama-3_1-70B-Instruct    80
+
+    gemini-2_5-pro/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[06:49:24] Total responses: 22391
+  Missing strata (< 15): 3
+    gemini-2_5-pro/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[06:54:24] Total responses: 22553
+  Missing strata (< 15): 3
+    gemini-2_5-pro/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/Fill: 12
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[06:59:24] Total responses: 22713
+  Missing strata (< 15): 2
+    gemini-2_5-pro/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:04:24] Total responses: 22873
+  Missing strata (< 15): 2
+    gemini-2_5-pro/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:09:24] Total responses: 23045
+  Missing strata (< 15): 2
+    gemini-2_5-pro/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:14:24] Total responses: 23207
+  Missing strata (< 15): 2
+    gemini-2_5-pro/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:19:25] Total responses: 23395
+  Missing strata (< 15): 2
+    gemini-2_5-pro/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:24:25] Total responses: 23582
+  Missing strata (< 15): 2
+    gemini-2_5-pro/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:29:25] Total responses: 23796
+  Missing strata (< 15): 2
+    gemini-2_5-pro/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:34:25] Total responses: 23993
+  Missing strata (< 15): 2
+    gemini-2_5-pro/SA: 0
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:39:25] Total responses: 24185
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:44:25] Total responses: 24405
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:49:25] Total responses: 24574
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:54:25] Total responses: 24727
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[07:59:25] Total responses: 24870
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:04:25] Total responses: 24973
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:09:25] Total responses: 25077
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:14:25] Total responses: 25253
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:19:25] Total responses: 25410
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:24:21] Total responses: 25494
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:29:21] Total responses: 25573
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:34:21] Total responses: 25638
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:39:21] Total responses: 25711
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:44:21] Total responses: 25773
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:49:21] Total responses: 25821
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:54:21] Total responses: 25877
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[08:59:22] Total responses: 25936
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[09:04:22] Total responses: 26001
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[09:09:22] Total responses: 26087
+  Missing strata (< 15): 1
+    Qwen_Qwen2_5-72B-Instruct/SA: 0
+
+[09:14:22] Total responses: 26142
+  Missing strata (< 15): 0
+
+All strata ready! Running aggregation + packetization…
+
+Done — coder packets ready for distribution.

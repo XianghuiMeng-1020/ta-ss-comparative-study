@@ -1,0 +1,51 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  QA CODER PACKET — ID: E4BCE545                                  ║
+║  Study: Naive Student Simulation — v2 Human Annotation              ║
+║  MODEL IDENTITY AND ITEM SOURCE HAVE BEEN REMOVED                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+QUESTION TYPE: TF
+CONCEPT AREA:  lists
+DIFFICULTY:    Easy
+
+QUESTION:
+
+
+──────────────────────────────────────────────────────────────────────
+STUDENT RESPONSE
+──────────────────────────────────────────────────────────────────────
+False. I think when you use `append`, it adds the entire thing as one item to the list. So instead of `[1, 2, 3, 4, 5]`, it will look like `[1, 2, 3, [4, 5]]`. I'm not totally sure, though.
+
+──────────────────────────────────────────────────────────────────────
+RATING INSTRUCTIONS
+──────────────────────────────────────────────────────────────────────
+
+HL1 — Overall student-likeness (1–5):
+  5 = Clearly sounds like a real novice student
+  4 = Mostly student-like with minor inconsistencies
+  3 = Partially student-like; some expert or AI tells
+  2 = Mostly sounds like an AI or expert
+  1 = Clearly an AI / expert-level response
+
+HL2 — Error plausibility (1–5):
+  5 = Errors are exactly what a novice student would make
+  4 = Errors are realistic; minor implausibilities
+  3 = Some plausible errors; some odd choices
+  2 = Errors are unlikely or unrealistic for a student
+  1 = No errors, or errors that no student would make
+
+HL3 — Turing judgment (forced-choice):
+  1 = This was written by a HUMAN student
+  0 = This was written by an AI
+
+EQ1 — Explanation quality [SA/OED ONLY; skip for MCQ/TF] (1–5):
+  5 = Rich, clear reasoning showing some understanding
+  4 = Adequate reasoning with minor gaps
+  3 = Partial reasoning; key steps missing or confused
+  2 = Minimal reasoning; mostly guesses
+  1 = No real reasoning; incoherent
+
+──────────────────────────────────────────────────────────────────────
+END OF QA PACKET E4BCE545
+──────────────────────────────────────────────────────────────────────

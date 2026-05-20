@@ -1,0 +1,53 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  QA CODER PACKET — ID: C25FC856                                  ║
+║  Study: Naive Student Simulation — v2 Human Annotation              ║
+║  MODEL IDENTITY AND ITEM SOURCE HAVE BEEN REMOVED                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+QUESTION TYPE: Fill
+CONCEPT AREA:  fractions
+DIFFICULTY:    Easy
+
+QUESTION:
+
+
+──────────────────────────────────────────────────────────────────────
+STUDENT RESPONSE
+──────────────────────────────────────────────────────────────────────
+Um, I think the total is... 1200 kg?
+
+I'm thinking that if Tedra harvested 400 kg on Wednesday, and half as much on Thursday, that means he harvested 400 / 2 = 200 kg on Thursday. And if he harvested some amount on Friday, the total would be 400 + 200 +... some amount on Friday. But I'm not really sure what he harvested on Friday, so I'm just going to guess a number that seems big enough.
+
+──────────────────────────────────────────────────────────────────────
+RATING INSTRUCTIONS
+──────────────────────────────────────────────────────────────────────
+
+HL1 — Overall student-likeness (1–5):
+  5 = Clearly sounds like a real novice student
+  4 = Mostly student-like with minor inconsistencies
+  3 = Partially student-like; some expert or AI tells
+  2 = Mostly sounds like an AI or expert
+  1 = Clearly an AI / expert-level response
+
+HL2 — Error plausibility (1–5):
+  5 = Errors are exactly what a novice student would make
+  4 = Errors are realistic; minor implausibilities
+  3 = Some plausible errors; some odd choices
+  2 = Errors are unlikely or unrealistic for a student
+  1 = No errors, or errors that no student would make
+
+HL3 — Turing judgment (forced-choice):
+  1 = This was written by a HUMAN student
+  0 = This was written by an AI
+
+EQ1 — Explanation quality [SA/OED ONLY; skip for MCQ/TF] (1–5):
+  5 = Rich, clear reasoning showing some understanding
+  4 = Adequate reasoning with minor gaps
+  3 = Partial reasoning; key steps missing or confused
+  2 = Minimal reasoning; mostly guesses
+  1 = No real reasoning; incoherent
+
+──────────────────────────────────────────────────────────────────────
+END OF QA PACKET C25FC856
+──────────────────────────────────────────────────────────────────────

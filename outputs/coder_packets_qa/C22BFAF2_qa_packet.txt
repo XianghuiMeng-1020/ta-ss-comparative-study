@@ -1,0 +1,64 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  QA CODER PACKET — ID: C22BFAF2                                  ║
+║  Study: Naive Student Simulation — v2 Human Annotation              ║
+║  MODEL IDENTITY AND ITEM SOURCE HAVE BEEN REMOVED                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+QUESTION TYPE: MCQ
+CONCEPT AREA:  percentages
+DIFFICULTY:    Medium
+
+QUESTION:
+
+
+──────────────────────────────────────────────────────────────────────
+STUDENT RESPONSE
+──────────────────────────────────────────────────────────────────────
+I'll try my best. Here's the question:
+
+A bakery is having a sale on bread. A loaf of bread normally costs $2.50, but it's on sale for 15% off. How much will you pay for a loaf of bread during the sale?
+
+Options:
+A. $2.13
+B. $2.38
+C. $2.25
+D. $1.88
+
+Hmm, I think I need to find 15% of $2.50 and then subtract it from $2.50... or is it add? Wait, no, it's definitely subtract. I'm pretty sure I need to multiply $2.50 by 0.15 to get the discount amount.
+
+My answer is: A. $2.13
+I think this is right because I multiplied $2.50 by 0.15 and got $0.38, and then I subtracted that from $2.50 to get $2.13.
+
+──────────────────────────────────────────────────────────────────────
+RATING INSTRUCTIONS
+──────────────────────────────────────────────────────────────────────
+
+HL1 — Overall student-likeness (1–5):
+  5 = Clearly sounds like a real novice student
+  4 = Mostly student-like with minor inconsistencies
+  3 = Partially student-like; some expert or AI tells
+  2 = Mostly sounds like an AI or expert
+  1 = Clearly an AI / expert-level response
+
+HL2 — Error plausibility (1–5):
+  5 = Errors are exactly what a novice student would make
+  4 = Errors are realistic; minor implausibilities
+  3 = Some plausible errors; some odd choices
+  2 = Errors are unlikely or unrealistic for a student
+  1 = No errors, or errors that no student would make
+
+HL3 — Turing judgment (forced-choice):
+  1 = This was written by a HUMAN student
+  0 = This was written by an AI
+
+EQ1 — Explanation quality [SA/OED ONLY; skip for MCQ/TF] (1–5):
+  5 = Rich, clear reasoning showing some understanding
+  4 = Adequate reasoning with minor gaps
+  3 = Partial reasoning; key steps missing or confused
+  2 = Minimal reasoning; mostly guesses
+  1 = No real reasoning; incoherent
+
+──────────────────────────────────────────────────────────────────────
+END OF QA PACKET C22BFAF2
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,481 @@
+packet_id,item_id,model_tag,model_id,qtype,difficulty,concept,seed
+9B56D6BB,Fill_FD28D773,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,17
+D4D2F806,Fill_B9B7171B,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,91
+188A1516,Fill_8D3EF2EF,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,91
+AA0A52D5,Fill_5AF1F96A,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,17
+ABA04208,Fill_046A0B41,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,42
+C37575BB,Fill_C9C0A21B,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,42
+C9620FAF,Fill_F7D6EC5E,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,91
+4D512633,Fill_F1CB257E,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,42
+C02CE39E,Fill_AFDF699F,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Easy,multi_step,17
+39E5D7A9,Fill_58142C38,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,17
+E7077296,Fill_66687AC5,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,42
+83DC7866,Fill_6CD8B224,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,91
+5C95912E,Fill_39698E27,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,42
+E81FE12D,Fill_2D6E5D58,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,91
+A06FB5C6,Fill_2EB0420E,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Easy,fractions,17
+D13FA71C,Fill_C9C0A21B,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,91
+D50E7DBC,Fill_BE785C78,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,17
+A2D7DFB7,Fill_63F8F5C4,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,42
+1E288E3E,Fill_20E34A5B,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Hard,multi_step,91
+BC71C030,Fill_0C0CE16B,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,Fill,Medium,arithmetic,17
+F0CA7180,MCQ_ADD086D5,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Hard,set operations,91
+1FCD63E3,MCQ_math_696208CC,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Easy,multi_step,17
+CCD6C0A8,MCQ_A8A1039C,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Hard,string methods,42
+DBD321C4,MCQ_22FAA26D,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Easy,functions,91
+14F6A947,MCQ_math_30E1575A,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Medium,fractions,91
+7C33FDBA,MCQ_math_DCA40307,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Medium,percentages,17
+91AE9B4C,MCQ_AD19AB65,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Medium,classes_and_oop,42
+D064B623,MCQ_math_6D67C0D3,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Easy,arithmetic,42
+4F4FF3B8,MCQ_math_9D8FDE2A,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Medium,arithmetic,42
+C5D41E20,MCQ_EBAA3CC2,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Hard,file_io,17
+BE4CBB03,MCQ_B4B8CB08,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Medium,set operations,42
+BD1712EA,MCQ_math_CC5DF739,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Medium,percentages,17
+2430FF77,MCQ_FED7757A,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Medium,modules_and_imports,91
+A3E74F3A,MCQ_E12BEF7B,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Easy,loops,42
+28C67829,MCQ_88A7F6A0,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Hard,string methods,42
+78468858,MCQ_255556C2,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Hard,list slicing,17
+0789F754,MCQ_math_41503C83,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Medium,algebra,91
+960F2F48,MCQ_math_FE745BCA,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Medium,multi_step,17
+02B22137,MCQ_220A64BE,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Hard,file_io,42
+57C6DE74,MCQ_EBF2DC2E,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,MCQ,Hard,assignment operators,42
+AD240CBF,SA_080AC465,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Easy,fractions,42
+DE256B63,SA_7888F6B1,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,fractions,42
+FB55AD58,SA_F86EDF54,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,percentages,42
+6F0B1615,SA_9A3704A5,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,arithmetic,91
+1F59A301,SA_A370FC26,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Easy,fractions,42
+6EB62B6B,SA_9EC26116,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,arithmetic,42
+0060B56F,SA_5E7A93C1,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,arithmetic,17
+37B1302B,SA_9F66E5CA,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Easy,multi_step,91
+3EDDBB72,SA_ACEB285B,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,arithmetic,42
+4A20F1C9,SA_0229005A,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,arithmetic,42
+13B748EE,SA_CBD96A47,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,multi_step,91
+0F3A0A4A,SA_C78A8EA3,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Easy,arithmetic,42
+AEF40D65,SA_55919B46,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,arithmetic,17
+B9319CF1,SA_CC51F328,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,arithmetic,42
+A228062F,SA_95F38F04,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Easy,multi_step,17
+0592E7DC,SA_4D6FD826,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,arithmetic,91
+F694A13F,SA_B9290C3E,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,arithmetic,17
+CBD3505D,SA_0F741481,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Hard,percentages,42
+53CD4829,SA_DA12920A,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,arithmetic,17
+FF92880A,SA_226E05D0,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,SA,Medium,arithmetic,17
+EF963571,TF_F_7633FBB7,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Medium,list manipulations,42
+BE356299,TF_F_4DFC283C,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Easy,set operations,42
+D04703DF,TF_F_EA7C7595,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Hard,list slicing,91
+7533228C,TF_F_6EF7C400,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Easy,control_flow,17
+20C6198E,TF_T_CDF4103A,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Medium,variables_and_types,91
+E4123683,TF_T_A35F5ABC,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Hard,dictionaries,91
+9A6D9BE1,TF_T_004BC0C6,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Hard,control_flow,42
+6F613437,TF_F_24F1ACCC,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Hard,string methods,17
+5457907A,TF_T_0880FD8C,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Easy,set operations,91
+C20B4959,TF_F_806994C9,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Hard,assignment operators,91
+7BD3C22B,TF_F_DA9884C2,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Easy,variables_and_types,42
+AD68BEDF,TF_F_496CE18B,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Hard,dictionaries,91
+D5DB2124,TF_T_EF94796B,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Easy,logical operators,42
+EEA57DD0,TF_T_3FBC0B19,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Medium,variables_and_types,42
+88A5C575,TF_F_C2403EAE,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Easy,string methods,17
+83998320,TF_F_0BDD1ACA,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Medium,list slicing,91
+D185639C,TF_T_81633A26,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Hard,dict get method,91
+50EB3FC1,TF_F_FE4E262D,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Easy,variables_and_types,42
+AF319E5A,TF_F_24F1ACCC,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Hard,string methods,91
+BEBA7015,TF_T_97E79589,Qwen_Qwen2_5-72B-Instruct,Qwen/Qwen2.5-72B-Instruct,TF,Hard,tuple immutability,91
+F4E3D2D5,Fill_3DF65287,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,91
+8374C0F4,Fill_1D51883B,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,17
+FF7E03F8,Fill_E931AACE,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,91
+7308FB3D,Fill_861B7832,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,17
+ADEB94CC,Fill_309C7BDF,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,42
+142E453C,Fill_2F5193EA,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Easy,percentages,17
+2A09C7A5,Fill_D1245A32,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Hard,fractions,17
+E3460875,Fill_0AC0E246,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,42
+060D51EB,Fill_848202D8,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Easy,fractions,91
+E20457D9,Fill_4A68E408,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,17
+AD7565BF,Fill_861B7832,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,91
+19854927,Fill_046A0B41,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,17
+0D47DBB4,Fill_0CE68A71,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,42
+8C40C37D,Fill_01282F4D,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,17
+6DC37F74,Fill_F9838057,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,42
+C95FCCEF,Fill_3198B6FE,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Easy,fractions,42
+30C27533,Fill_DD4C29F0,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,fractions,42
+2607AEBF,Fill_84F7232C,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,17
+864D3FB7,Fill_BE785C78,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,42
+A950D979,Fill_B8FBF6D0,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,Fill,Medium,arithmetic,91
+D9203A82,MCQ_6FF58C39,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,dict comprehensions,91
+689278FD,MCQ_math_5868D05E,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,algebra,91
+7289C2FA,MCQ_math_D644BEF4,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,fractions,91
+F4654636,MCQ_math_EF06A4BF,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,algebra,91
+6393CD34,MCQ_ABFCBFD8,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Easy,control_flow,17
+A4CBFAB6,MCQ_math_BD6642F8,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,percentages,91
+6421F28F,MCQ_E50388BE,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,functions,91
+29E02D2D,MCQ_6B9BF0D2,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Hard,control_flow,17
+7E02A8F8,MCQ_EFD2680F,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Easy,list operations,42
+A4072B70,MCQ_math_D2EA5764,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,percentages,91
+25E20A64,MCQ_math_BDAABCA0,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,multi_step,17
+A3A2F1F6,MCQ_15CA0E9C,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,classes_and_oop,17
+91DE428A,MCQ_math_1771C7DF,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,fractions,42
+14F19DE2,MCQ_17279831,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,classes_and_oop,17
+DF3067B8,MCQ_math_0CE0B269,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,algebra,17
+C602699B,MCQ_math_078A284B,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,geometry,42
+58DBA7DF,MCQ_math_A6AF3D66,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,percentages,42
+EBF486ED,MCQ_math_0858D339,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Medium,percentages,91
+DF17F606,MCQ_E7B6DC73,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Easy,set operations,17
+F6F92619,MCQ_870FFEC3,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,MCQ,Easy,loops,17
+7B46921A,SA_537A559C,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,91
+86E4F704,SA_23A82D77,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,17
+B3A33951,SA_DE1BDB78,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,91
+F2D9E33E,SA_8B54496E,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,17
+7794CFF4,SA_3CC58EE3,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,42
+B7B19250,SA_3CB4D5B2,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,17
+35157647,SA_CF389E4D,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,17
+0312D162,SA_11FA38BC,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,42
+51A99935,SA_8A23D6BD,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,91
+38895D34,SA_5A229403,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,17
+CDB04035,SA_8B54496E,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,91
+B21D10AA,SA_0AF9FC1E,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Easy,arithmetic,17
+904B9949,SA_14BAEE57,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,42
+73FAF51C,SA_009C52AB,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,17
+0E746BCC,SA_F86EDF54,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,percentages,42
+7B1A7F39,SA_40763538,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,42
+066F3CBB,SA_D5D58628,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,42
+EAD2024E,SA_8B4E24A9,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,17
+FF4068A1,SA_C34B7538,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Medium,arithmetic,42
+2A2A61D7,SA_BC60F882,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,SA,Easy,percentages,91
+9B373D49,TF_F_9E6ED2D3,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Easy,variables_and_types,91
+8C511CF5,TF_F_3EF64973,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Hard,variables_and_types,17
+3A5F89B7,TF_T_C9713985,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Medium,dictionary comprehensions,91
+3BD56B94,TF_T_12BEB2D9,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Hard,control_flow,17
+03C955A0,TF_F_6EF7C400,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Easy,control_flow,42
+8F909F30,TF_F_6E418CC3,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Easy,tuple immutability,17
+2BE19785,TF_T_A473CD8A,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Medium,dictionaries,17
+B63A1C9B,TF_F_16CA6385,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Easy,dict comprehensions,42
+519557EF,TF_T_0E9A418C,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Hard,variables_and_types,91
+7A594AED,TF_F_B8E0E31B,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Easy,control_flow,17
+0D18FED4,TF_T_12BEB2D9,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Hard,control_flow,91
+98B415F0,TF_F_0C624955,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Medium,string methods,17
+1A36D5FB,TF_F_1F953BF4,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Hard,string methods,42
+77D696AE,TF_F_028A5C47,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Easy,dictionaries,17
+5755BAD0,TF_T_F5420C21,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Hard,list comprehensions,42
+9FD6742E,TF_F_72586590,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Easy,lists,42
+705FB909,TF_T_B7BBB0EA,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Easy,dictionaries,42
+148F5870,TF_T_10DE1E40,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Hard,operators,17
+D150C0E5,TF_T_9018C38A,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Easy,list operations,42
+6F5A1ADA,TF_T_81633A26,claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,TF,Hard,dict get method,91
+F7A13162,Fill_3DF65287,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,91
+996748CC,Fill_1D51883B,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,17
+AFFF6DF9,Fill_E931AACE,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,91
+A696F655,Fill_861B7832,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,17
+E14E7774,Fill_309C7BDF,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,42
+7867D68B,Fill_2F5193EA,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Easy,percentages,17
+E975D65B,Fill_D1245A32,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Hard,fractions,17
+42366247,Fill_0AC0E246,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,42
+16065C85,Fill_848202D8,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Easy,fractions,91
+3B2B99F7,Fill_4A68E408,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,17
+598E4DB9,Fill_861B7832,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,91
+1A8AA93D,Fill_046A0B41,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,17
+D4F736C5,Fill_0CE68A71,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,42
+2C140247,Fill_01282F4D,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,17
+9DF3B4F4,Fill_F9838057,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,42
+C31F03A5,Fill_3198B6FE,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Easy,fractions,42
+227F1679,Fill_DD4C29F0,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,fractions,42
+853C130B,Fill_84F7232C,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,17
+93DCE4D0,Fill_BE785C78,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,42
+695266F6,Fill_B8FBF6D0,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,Fill,Medium,arithmetic,91
+52BD5308,MCQ_6FF58C39,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,dict comprehensions,91
+A06F24B5,MCQ_math_5868D05E,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,algebra,91
+4690CF08,MCQ_math_D644BEF4,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,fractions,91
+D9959D71,MCQ_math_EF06A4BF,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,algebra,91
+B432740E,MCQ_ABFCBFD8,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Easy,control_flow,17
+6DB1E76B,MCQ_math_BD6642F8,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,percentages,91
+6D321482,MCQ_E50388BE,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,functions,91
+C1E66ABF,MCQ_6B9BF0D2,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Hard,control_flow,17
+CAB876D4,MCQ_EFD2680F,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Easy,list operations,42
+B3E23AA0,MCQ_math_D2EA5764,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,percentages,91
+D3A04E22,MCQ_math_BDAABCA0,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,multi_step,17
+FDB6E8AA,MCQ_15CA0E9C,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,classes_and_oop,17
+A67F4891,MCQ_math_1771C7DF,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,fractions,42
+608B23E6,MCQ_17279831,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,classes_and_oop,17
+2500697A,MCQ_math_0CE0B269,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,algebra,17
+1C34497F,MCQ_math_078A284B,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,geometry,42
+F5DA3D8B,MCQ_math_A6AF3D66,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,percentages,42
+FBFDB4F7,MCQ_math_0858D339,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Medium,percentages,91
+765264B0,MCQ_E7B6DC73,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Easy,set operations,17
+0A93F70E,MCQ_870FFEC3,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,MCQ,Easy,loops,17
+074E520B,SA_537A559C,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,91
+52B4DDF6,SA_23A82D77,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,17
+68EB9CD4,SA_DE1BDB78,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,91
+F9B24B9D,SA_8B54496E,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,17
+28B3A468,SA_3CC58EE3,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,42
+B0246D2D,SA_3CB4D5B2,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,17
+38A85A7F,SA_CF389E4D,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,17
+68CC3296,SA_11FA38BC,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,42
+36349B5E,SA_8A23D6BD,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,91
+438B6B2F,SA_5A229403,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,17
+251B18FA,SA_8B54496E,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,91
+8B73B282,SA_0AF9FC1E,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Easy,arithmetic,17
+F7979DC2,SA_14BAEE57,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,42
+8C7CD85B,SA_009C52AB,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,17
+ABEF6B1B,SA_F86EDF54,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,percentages,42
+1D95DCE9,SA_40763538,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,42
+C6F83491,SA_D5D58628,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,42
+516BC99F,SA_8B4E24A9,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,17
+8342CF06,SA_C34B7538,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Medium,arithmetic,42
+B95AB628,SA_BC60F882,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,SA,Easy,percentages,91
+849C70BE,TF_F_9E6ED2D3,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Easy,variables_and_types,91
+B41D46B0,TF_F_3EF64973,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Hard,variables_and_types,17
+1B852A02,TF_T_C9713985,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Medium,dictionary comprehensions,91
+0749E6B7,TF_T_12BEB2D9,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Hard,control_flow,17
+5B298269,TF_F_6EF7C400,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Easy,control_flow,42
+8109554F,TF_F_6E418CC3,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Easy,tuple immutability,17
+4CF5F548,TF_T_A473CD8A,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Medium,dictionaries,17
+C0E98B3B,TF_F_16CA6385,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Easy,dict comprehensions,42
+EACB4042,TF_T_0E9A418C,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Hard,variables_and_types,91
+6BDFDF77,TF_F_B8E0E31B,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Easy,control_flow,17
+DAA37412,TF_T_12BEB2D9,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Hard,control_flow,91
+63DBB385,TF_F_0C624955,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Medium,string methods,17
+88E0BE52,TF_F_1F953BF4,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Hard,string methods,42
+883B6186,TF_F_028A5C47,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Easy,dictionaries,17
+FBCBECBA,TF_T_F5420C21,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Hard,list comprehensions,42
+1AC88D8A,TF_F_72586590,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Easy,lists,42
+440265C4,TF_T_B7BBB0EA,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Easy,dictionaries,42
+7A02EBD0,TF_T_10DE1E40,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Hard,operators,17
+BBDE76CF,TF_T_9018C38A,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Easy,list operations,42
+AC6FC326,TF_T_81633A26,deepseek-ai_DeepSeek-V3,deepseek-ai/DeepSeek-V3,TF,Hard,dict get method,91
+FEC70477,Fill_2D3B8A1C,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,17
+F9C0BD4C,Fill_222ABF69,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,17
+468DB0CF,Fill_CE8BBF30,gemini-2_5-pro,gemini-2.5-pro,Fill,Easy,fractions,91
+90035EFF,Fill_B9B7171B,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,91
+E7F192C4,Fill_B2C06949,gemini-2_5-pro,gemini-2.5-pro,Fill,Easy,arithmetic,91
+C23E5C94,Fill_8C4DDBF0,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,17
+D6B94C7B,Fill_480BCF97,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,17
+849352F4,Fill_CAE5CB13,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,17
+57B45918,Fill_331EB71D,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,multi_step,91
+8E51FE8D,Fill_0180D661,gemini-2_5-pro,gemini-2.5-pro,Fill,Easy,arithmetic,42
+896E1C24,Fill_64193932,gemini-2_5-pro,gemini-2.5-pro,Fill,Easy,arithmetic,42
+983F1C42,Fill_530E33FB,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,42
+696FD742,Fill_08198786,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,91
+69AD47C5,Fill_CAE5CB13,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,91
+B719D755,Fill_6BA6EFB0,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,91
+1DB44C7F,Fill_12DC020A,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,17
+4766B99E,Fill_50FE9E19,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,multi_step,17
+566F7A8D,Fill_681AB7F6,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,91
+B8D2CAA5,Fill_E0E313E9,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,42
+76823012,Fill_FDCB99C0,gemini-2_5-pro,gemini-2.5-pro,Fill,Medium,arithmetic,17
+7E0FA5F3,MCQ_60AA97E4,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,loops,42
+823FABDE,MCQ_9A65C273,gemini-2_5-pro,gemini-2.5-pro,MCQ,Easy,logical operators,17
+959654A0,MCQ_355BDC50,gemini-2_5-pro,gemini-2.5-pro,MCQ,Hard,variables_and_types,17
+C0007577,MCQ_911FB9FB,gemini-2_5-pro,gemini-2.5-pro,MCQ,Hard,loops,91
+D76BD3B7,MCQ_math_A43D6BBA,gemini-2_5-pro,gemini-2.5-pro,MCQ,Easy,arithmetic,42
+6C81E468,MCQ_8B5D99AF,gemini-2_5-pro,gemini-2.5-pro,MCQ,Hard,file_io,42
+F66CC094,MCQ_ABFCBFD8,gemini-2_5-pro,gemini-2.5-pro,MCQ,Easy,control_flow,17
+4D0C1A71,MCQ_96A3AC07,gemini-2_5-pro,gemini-2.5-pro,MCQ,Easy,file_io,17
+BFDFD023,MCQ_B36D55E1,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,classes_and_oop,91
+040A45CF,MCQ_FAEF96B0,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,control_flow,42
+1B9B4258,MCQ_58FDFF77,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,control_flow,91
+2A219131,MCQ_math_CE437A52,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,percentages,42
+24B9B856,MCQ_math_6CDECD02,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,fractions,91
+3AE7868E,MCQ_7B9D3322,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,functions,17
+C2DB02D1,MCQ_math_6B9D95DC,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,geometry,17
+4539D52D,MCQ_math_A3125F83,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,fractions,42
+59456491,MCQ_7B87DC53,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,modules_and_imports,91
+B3DB516C,MCQ_FAE9CB7D,gemini-2_5-pro,gemini-2.5-pro,MCQ,Hard,slicing and indexing,42
+27E77249,MCQ_math_CCEA0A9B,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,fractions,17
+4B06E939,MCQ_math_F7138025,gemini-2_5-pro,gemini-2.5-pro,MCQ,Medium,percentages,17
+2677DF9E,SA_498E4EF1,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,42
+3ECB736D,SA_BD6B8FDD,gemini-2_5-pro,gemini-2.5-pro,SA,Easy,percentages,17
+A4ED93F0,SA_11DE12E0,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,91
+AF006461,SA_7CC39B5B,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,42
+FF13CEC9,SA_40763538,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,42
+494B63BD,SA_C6095AB2,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,91
+B4895D95,SA_53E2290D,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,91
+DD81697E,SA_624E8D2A,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,42
+36CDC511,SA_B0371E68,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,17
+03180F9D,SA_5916C03F,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,91
+00CD5A32,SA_A370FC26,gemini-2_5-pro,gemini-2.5-pro,SA,Easy,fractions,91
+8507808A,SA_4828FDDF,gemini-2_5-pro,gemini-2.5-pro,SA,Easy,percentages,91
+626A4F89,SA_EEB87A93,gemini-2_5-pro,gemini-2.5-pro,SA,Easy,percentages,42
+1AC20D0E,SA_245A5321,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,fractions,91
+866697D7,SA_3CC58EE3,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,42
+B8DEED5B,SA_D5D58628,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,91
+A063E7D6,SA_221BDBDD,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,42
+E17C4377,SA_97F78178,gemini-2_5-pro,gemini-2.5-pro,SA,Easy,percentages,17
+7A7CCEBD,SA_D873988C,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,91
+9B2DA4D5,SA_933CB62E,gemini-2_5-pro,gemini-2.5-pro,SA,Medium,arithmetic,17
+09D00798,TF_T_9D194EA8,gemini-2_5-pro,gemini-2.5-pro,TF,Medium,variables_and_types,42
+76BAF7DE,TF_T_B7BBB0EA,gemini-2_5-pro,gemini-2.5-pro,TF,Easy,dictionaries,17
+728597DC,TF_T_0967C287,gemini-2_5-pro,gemini-2.5-pro,TF,Easy,string methods,42
+47EEA300,TF_T_F4C7B393,gemini-2_5-pro,gemini-2.5-pro,TF,Easy,dict comprehensions,17
+544DF8C3,TF_T_D34A3159,gemini-2_5-pro,gemini-2.5-pro,TF,Medium,string methods,91
+DF81DB33,TF_T_1BDA2E75,gemini-2_5-pro,gemini-2.5-pro,TF,Hard,string methods,17
+CB02B47E,TF_F_901139B0,gemini-2_5-pro,gemini-2.5-pro,TF,Hard,variables_and_types,91
+CD54D31B,TF_T_F0DE534F,gemini-2_5-pro,gemini-2.5-pro,TF,Easy,dictionaries,42
+6B719534,TF_F_028A5C47,gemini-2_5-pro,gemini-2.5-pro,TF,Easy,dictionaries,91
+DA35DEF9,TF_T_0880FD8C,gemini-2_5-pro,gemini-2.5-pro,TF,Easy,set operations,91
+E04F4DD2,TF_T_888BBE0E,gemini-2_5-pro,gemini-2.5-pro,TF,Hard,variables_and_types,91
+357173A2,TF_T_9D194EA8,gemini-2_5-pro,gemini-2.5-pro,TF,Medium,variables_and_types,91
+CA1CF47A,TF_T_A56727C1,gemini-2_5-pro,gemini-2.5-pro,TF,Easy,dictionaries,17
+2D8E404E,TF_F_449B0155,gemini-2_5-pro,gemini-2.5-pro,TF,Medium,dict comprehensions,42
+E4A64028,TF_T_F9276897,gemini-2_5-pro,gemini-2.5-pro,TF,Easy,set operations,91
+C1D2D3F1,TF_T_74636ABE,gemini-2_5-pro,gemini-2.5-pro,TF,Hard,list slicing and manipulation,91
+CF934B65,TF_F_6CF963E9,gemini-2_5-pro,gemini-2.5-pro,TF,Hard,logical operators,17
+B933C871,TF_T_74980727,gemini-2_5-pro,gemini-2.5-pro,TF,Medium,slicing,17
+CCC8DE73,TF_T_037B3DA9,gemini-2_5-pro,gemini-2.5-pro,TF,Easy,tuple immutability,42
+B361F7A4,TF_F_DA9884C2,gemini-2_5-pro,gemini-2.5-pro,TF,Easy,variables_and_types,17
+B7939388,Fill_3DF65287,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,91
+7F32D018,Fill_1D51883B,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,17
+134D8204,Fill_E931AACE,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,91
+0CCCC593,Fill_861B7832,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,17
+75F4E0F6,Fill_309C7BDF,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,42
+CF0259A0,Fill_2F5193EA,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Easy,percentages,17
+530BA02C,Fill_D1245A32,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Hard,fractions,17
+3E5F74D5,Fill_0AC0E246,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,42
+AF9A57CE,Fill_848202D8,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Easy,fractions,91
+89F9E701,Fill_4A68E408,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,17
+1412CE53,Fill_861B7832,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,91
+8603DBE6,Fill_046A0B41,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,17
+A923DC32,Fill_0CE68A71,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,42
+0276D44D,Fill_01282F4D,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,17
+FA1C33C1,Fill_F9838057,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,42
+6D688972,Fill_3198B6FE,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Easy,fractions,42
+936F1910,Fill_DD4C29F0,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,fractions,42
+ADE60BBB,Fill_84F7232C,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,17
+EC553B66,Fill_BE785C78,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,42
+2742EBCB,Fill_B8FBF6D0,gpt-4o-2024-11-20,gpt-4o-2024-11-20,Fill,Medium,arithmetic,91
+297E6B16,MCQ_6FF58C39,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,dict comprehensions,91
+896181DA,MCQ_math_5868D05E,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,algebra,91
+996C2F10,MCQ_math_D644BEF4,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,fractions,91
+0039AAD6,MCQ_math_EF06A4BF,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,algebra,91
+B952E666,MCQ_ABFCBFD8,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Easy,control_flow,17
+001F149F,MCQ_math_BD6642F8,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,percentages,91
+8E47A6FB,MCQ_E50388BE,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,functions,91
+F2F5CED6,MCQ_6B9BF0D2,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Hard,control_flow,17
+15B2168F,MCQ_EFD2680F,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Easy,list operations,42
+8F330DE3,MCQ_math_D2EA5764,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,percentages,91
+44436A35,MCQ_math_BDAABCA0,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,multi_step,17
+810AB18A,MCQ_15CA0E9C,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,classes_and_oop,17
+93C19917,MCQ_math_1771C7DF,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,fractions,42
+03D028FE,MCQ_17279831,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,classes_and_oop,17
+84851F35,MCQ_math_0CE0B269,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,algebra,17
+B34F6001,MCQ_math_078A284B,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,geometry,42
+4C6370D6,MCQ_math_A6AF3D66,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,percentages,42
+8BD8B2B6,MCQ_math_0858D339,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Medium,percentages,91
+3C3BA406,MCQ_E7B6DC73,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Easy,set operations,17
+2F6843CC,MCQ_870FFEC3,gpt-4o-2024-11-20,gpt-4o-2024-11-20,MCQ,Easy,loops,17
+3CB9F81B,SA_537A559C,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,91
+BFE57493,SA_23A82D77,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,17
+33D40113,SA_DE1BDB78,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,91
+ACBDEC8C,SA_8B54496E,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,17
+7BC8A9B9,SA_3CC58EE3,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,42
+C1EC6BE6,SA_3CB4D5B2,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,17
+42D3E20F,SA_CF389E4D,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,17
+6E4A0A20,SA_11FA38BC,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,42
+A27CAF3A,SA_8A23D6BD,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,91
+3F013F65,SA_5A229403,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,17
+452DD698,SA_8B54496E,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,91
+3DDB235D,SA_0AF9FC1E,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Easy,arithmetic,17
+E9B84B28,SA_14BAEE57,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,42
+55CFDAB8,SA_009C52AB,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,17
+94AF9832,SA_F86EDF54,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,percentages,42
+5CA06077,SA_40763538,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,42
+A1EFC151,SA_D5D58628,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,42
+3E5D8FED,SA_8B4E24A9,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,17
+F65E63FF,SA_C34B7538,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Medium,arithmetic,42
+365399B2,SA_BC60F882,gpt-4o-2024-11-20,gpt-4o-2024-11-20,SA,Easy,percentages,91
+B71599C6,TF_F_9E6ED2D3,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Easy,variables_and_types,91
+C4EF4933,TF_F_3EF64973,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Hard,variables_and_types,17
+18255B0C,TF_T_C9713985,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Medium,dictionary comprehensions,91
+B57B0871,TF_T_12BEB2D9,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Hard,control_flow,17
+3E695849,TF_F_6EF7C400,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Easy,control_flow,42
+6DC68BEA,TF_F_6E418CC3,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Easy,tuple immutability,17
+DAB5D99C,TF_T_A473CD8A,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Medium,dictionaries,17
+9EA8A45D,TF_F_16CA6385,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Easy,dict comprehensions,42
+A4CAFC15,TF_T_0E9A418C,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Hard,variables_and_types,91
+CA5699A6,TF_F_B8E0E31B,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Easy,control_flow,17
+DADFDCC2,TF_T_12BEB2D9,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Hard,control_flow,91
+3F8F393D,TF_F_0C624955,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Medium,string methods,17
+3419CF8D,TF_F_1F953BF4,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Hard,string methods,42
+09DB6582,TF_F_028A5C47,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Easy,dictionaries,17
+DF1CE73F,TF_T_F5420C21,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Hard,list comprehensions,42
+E4BCE545,TF_F_72586590,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Easy,lists,42
+66192338,TF_T_B7BBB0EA,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Easy,dictionaries,42
+1F64F530,TF_T_10DE1E40,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Hard,operators,17
+63189E7F,TF_T_9018C38A,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Easy,list operations,42
+11374E63,TF_T_81633A26,gpt-4o-2024-11-20,gpt-4o-2024-11-20,TF,Hard,dict get method,91
+9ECF3F96,Fill_3DF65287,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,91
+B3B4F0CF,Fill_1D51883B,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,17
+0384099F,Fill_E931AACE,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,91
+1B32B384,Fill_861B7832,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,17
+7B738C75,Fill_309C7BDF,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,42
+BAA083ED,Fill_2F5193EA,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Easy,percentages,17
+DC4D4981,Fill_D1245A32,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Hard,fractions,17
+0FCFD676,Fill_0AC0E246,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,42
+705A9C70,Fill_848202D8,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Easy,fractions,91
+54DE1B11,Fill_4A68E408,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,17
+47A69ABC,Fill_861B7832,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,91
+22215713,Fill_046A0B41,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,17
+00690C3B,Fill_0CE68A71,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,42
+3477B66C,Fill_01282F4D,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,17
+434A003C,Fill_F9838057,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,42
+C25FC856,Fill_3198B6FE,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Easy,fractions,42
+15E59996,Fill_DD4C29F0,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,fractions,42
+547E034E,Fill_84F7232C,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,17
+6EDB73FB,Fill_BE785C78,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,42
+E283E903,Fill_B8FBF6D0,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,Fill,Medium,arithmetic,91
+7CD44B13,MCQ_6FF58C39,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,dict comprehensions,91
+D1A83197,MCQ_math_5868D05E,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,algebra,91
+3090B4BA,MCQ_math_D644BEF4,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,fractions,91
+B6D5F669,MCQ_math_EF06A4BF,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,algebra,91
+58DC7707,MCQ_ABFCBFD8,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Easy,control_flow,17
+A3695946,MCQ_math_BD6642F8,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,percentages,91
+FAC0C45C,MCQ_E50388BE,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,functions,91
+2E2DE2BC,MCQ_6B9BF0D2,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Hard,control_flow,17
+B1DBBFEB,MCQ_EFD2680F,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Easy,list operations,42
+AA57D6EC,MCQ_math_D2EA5764,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,percentages,91
+D44240E3,MCQ_math_BDAABCA0,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,multi_step,17
+C21D364C,MCQ_15CA0E9C,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,classes_and_oop,17
+0B1D3873,MCQ_math_1771C7DF,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,fractions,42
+A2FE61A7,MCQ_17279831,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,classes_and_oop,17
+8B26D419,MCQ_math_0CE0B269,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,algebra,17
+01D8BD16,MCQ_math_078A284B,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,geometry,42
+C22BFAF2,MCQ_math_A6AF3D66,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,percentages,42
+51D20BDF,MCQ_math_0858D339,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Medium,percentages,91
+F04502C7,MCQ_E7B6DC73,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Easy,set operations,17
+2207D853,MCQ_870FFEC3,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,MCQ,Easy,loops,17
+D5BEC2BA,SA_537A559C,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,91
+20AF1122,SA_23A82D77,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,17
+32700492,SA_DE1BDB78,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,91
+E8087171,SA_8B54496E,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,17
+38ECDDB2,SA_3CC58EE3,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,42
+BE753873,SA_3CB4D5B2,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,17
+6853CDAF,SA_CF389E4D,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,17
+43C78799,SA_11FA38BC,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,42
+3EBE3B45,SA_8A23D6BD,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,91
+DC4C793A,SA_5A229403,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,17
+044B8300,SA_8B54496E,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,91
+8DBC237E,SA_0AF9FC1E,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Easy,arithmetic,17
+278E2848,SA_14BAEE57,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,42
+3592A0D4,SA_009C52AB,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,17
+80E01945,SA_F86EDF54,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,percentages,42
+F4284066,SA_40763538,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,42
+1720D4C2,SA_D5D58628,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,42
+73CF2E3B,SA_8B4E24A9,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,17
+9557D832,SA_C34B7538,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Medium,arithmetic,42
+A8BD94A2,SA_BC60F882,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,SA,Easy,percentages,91
+C376A7FE,TF_F_9E6ED2D3,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Easy,variables_and_types,91
+869A8E1D,TF_F_3EF64973,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Hard,variables_and_types,17
+692E4F41,TF_T_C9713985,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Medium,dictionary comprehensions,91
+840A6BFC,TF_T_12BEB2D9,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Hard,control_flow,17
+F901BAA6,TF_F_6EF7C400,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Easy,control_flow,42
+63D170A4,TF_F_6E418CC3,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Easy,tuple immutability,17
+210E8ABE,TF_T_A473CD8A,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Medium,dictionaries,17
+266EA144,TF_F_16CA6385,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Easy,dict comprehensions,42
+5224424D,TF_T_0E9A418C,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Hard,variables_and_types,91
+636D915C,TF_F_B8E0E31B,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Easy,control_flow,17
+28101D48,TF_T_12BEB2D9,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Hard,control_flow,91
+327DCBBD,TF_F_0C624955,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Medium,string methods,17
+846DA4AC,TF_F_1F953BF4,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Hard,string methods,42
+4B5B7451,TF_F_028A5C47,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Easy,dictionaries,17
+2A46A73D,TF_T_F5420C21,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Hard,list comprehensions,42
+5FC25743,TF_F_72586590,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Easy,lists,42
+A531D6D0,TF_T_B7BBB0EA,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Easy,dictionaries,42
+749D6B0D,TF_T_10DE1E40,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Hard,operators,17
+54D7FD17,TF_T_9018C38A,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Easy,list operations,42
+89B98124,TF_T_81633A26,meta-llama_Llama-3_1-70B-Instruct,meta-llama/Llama-3.1-70B-Instruct,TF,Hard,dict get method,91
